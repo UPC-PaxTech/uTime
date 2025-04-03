@@ -1,4 +1,4 @@
-<div style="text-align: center;">
+<div align="center">
 <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png" alt="Logo UPC">
 
 # Universidad Peruana de Ciencias Aplicadas
@@ -81,6 +81,19 @@ uTime busca resolver este problema proporcionando una plataforma digital que per
 Los principales involucrados son los estilistas y profesionales de la belleza, ya sea barberos, maquilladores, manicuristas, etc., que están en búsqueda de una plataforma que les permite automatizar y digitalizar la gestión de citas. Asimismo, están los clientes, que son las personas que buscan servicios de belleza y bienestar.
 ##### - ¿A quiénes le sucede el problema?
 El problema afecta a todos los usuarios involucrados. En América Latina, se estima que más del 60% de los profesionales de este sector son trabajadores autónomos (Expo Belleza Fest, 2016). Por ende, los profesionales independientes del sector de la belleza trabajan sin el respaldo de un sistema de gestión digital, por lo que, se ven perjudicados al no poder separar sus agendas de manera eficaz y simplificada. Esto también afecta a los clientes, ya que, la desorganización o la demora para verificar la disponibilidad de los estilistas puede ser un aspecto desalentador.
+#### 1.2.1.4 When
+##### 1.2.1.4.1. ¿Cuándo sucede el problema?
+Actualmente, esto ocurre cada vez que un cliente de nuestro segmento requiere de una cita, y la hora y datos de la misma son guardados de forma manual o informalmente.
+##### 1.2.1.4.2. ¿Cuándo utiliza el cliente el producto?
+Nuestros segmentos utilizarían el producto en el caso de la recepción de un deseo de cita, con la cual, en primer lugar, se revisará si el tiempo en el que se desea la cita está disponible. En el caso que así sea, se registra en el calendario digital.
+Este producto también se usaría en el caso de instalación de un sensor de movimiento. Esto le permite a nuestros segmentos cada vez que un cliente entre o salga de sus instalaciones, se le pueda notificar para un rápido cambio del estado presente de la cita.
+#### 1.2.1.5. Why
+##### 1.2.1.5.1. ¿Cuál es la causa del problema?
+Existen varias causas al problema. En primer lugar las personas, que optan registrar de manera manual o informal las citas que reciben, sería debido a la baja alfabetización digital, confianza a sus métodos actuales o la falta de una opción que encaje con sus necesidades.
+El problema también está en la falta de opciones de calendario digital en tiempo real para nuestro segmento. En el presente aplicaciones como google calendar o zoho ofrecen un servicio parecido, sin embargo, debido a su complejidad que es causado por ambos falta y exceso de características que no se centran a estilistas y barberos no lo hacen opciones atractivas lo cual causa que el usuario opte por escribir manualmente solamente la información necesaria.
+##### 1.2.1.6. How
+##### 1.2.1.6.1. ¿En qué condiciones los clientes usan nuestro producto?
+A través de cualquier dispositivo con conección a internet y capás de abrir un navegador web, nuestra aplicacion web proporcionará de manera simple y concisa las herramientas necesarias para la gestion de las citas de sus clientes y activacion de las notificaciones en un dispositivo movil. También en un caso de un local con cuartos personales, se podra usar sensores de movimiento para automatizar el proceso de gestion de las citas y facilitar la gestion de estado.
 ##### 1.2.2.2.2. Business Outcomes
 ##### 1.2.2.2.3. User Benefits
 #### 1.2.2.3. Lean UX Hypothesis Statements.
@@ -100,6 +113,23 @@ El problema afecta a todos los usuarios involucrados. En América Latina, se est
 ### 2.3.3. User Journey Mapping.
 ### 2.3.4. Empathy Mapping.
 ### 2.3.5. As-is Scenario Mapping.
+Segmento objetivo #1: Salones de belleza y barberías
+
+| Phases                          | Recepción de cita                                                                                                              | Revisión de disponibilidad                                                                                                                                                                      | Negociación o aceptación de cita                                                                                                                                                                                                                      | Emisión de estado de cita                                                                                                                                    |
+|---------------------------------|--------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Doing                           | -Por los medios dados por el salón (Instagram, llamada, etc), se revisa y recepciona las entradas de citas deseadas por los clientes | - Se revisa usando cuaderno u otros metodos informales si hay estilistas disponibles a la hora deseada del cliente<br/>- Se ofrece un tiempo disponible al cliente en caso no tenga uno pensado | - Si hay horario disponible para el cliente se acepta y se registre en el cuaderno manualmente. <br/>- Si no hay horario disponible, se intenta negociar con el cliente otro tiempo en el cual sea posible generar la cita y se anota respetivamente. | - Se confirma el horario y se recuerda al cliente de su proxima cita en la misma plataforma que usaron para contactarnos.                                    |
+|Thinking| - "Tengo una cantidad enorme de sitios que revisar por las citas de los clientes"                                              | - "Espero encontrar rápido un tiempo libre para la cita del cliente."                                                                                                                           | - "Es exhausto tener que hablar con cada uno de los clientes mediante diferentes plataformas."                                                                                                                                                        | -"Tengo que mandar a cada uno de los clientes la confirmacion y un recordatorio"                                                                             |
+|Feeling| - Exaustos por la cantidad de sitios a chequear. <br/>- Abrumado por la cantidad de clientes en diferentes sitios| - "Apurado por encontrar un tiempo adecuado para el cliente".<br/>- "Ansioso por dar una respuesta satisfactoria al cliente"| - Exausto y aliviado por encontrar un horario disponible manualmente<br/>- Frustrado que el cliente no concuerde con los horarios disponibles y repetir varias veces lo mismo| - Frustrado en tener que volver a mandar recordatorios y confirmaciones de todas las citas registradas por la misma plataforma en la cual fueron contactados |
+
+Segmento objetivo #2: Clientes de servicios de belleza
+
+| Phases  | Contactar el salon de estilista o barbero                                         | Preguntar por disponibilidad | Aceptar el horario ofrecido o escoger otro                                           | Recepcion de estado de cita                                                                                                                                 |
+|---------------------------------|-----------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|Doing | - Usan Instagram, llamada, WhatsApp u otros medios para comunicarse con el salón. | - Preguntan si hay disponibilidad en el horario que desean| - Aceptan el horario ofrecido o piden uno diferente hasta encontrar uno conveniente. | - Reciben confirmación de la cita y a veces un recordatorio, por el mismo medio en el que se comunicaron.|
+|Thinking| - "Espero que me respondan pronto."	                                              |- "Ojalá tengan espacio a la hora que yo quiero."	|- "¿Tendrán otro horario si este no me funciona?"	|- "¿Me confirmaron bien? ¿Se acordarán de mi cita?"|
+|Feeling| - Ansioso por recibir respuesta. <br/>- Frustrado si hay demora.                       | - Impaciente por tener una respuesta clara.	| - Aliviado si se encuentra un buen horario.<br/> - Frustrado si tiene que enviar muchos mensajes para concretar una cita.| - Tranquilo si recibe confirmación clara.<br/>- Inseguro si no hay recordatorio o claridad.|
+
+
 ## 2.4. Ubiquitous Language.
 # Capítulo III: Requirements Specification
 ## 3.1. To-Be Scenario Mapping.
