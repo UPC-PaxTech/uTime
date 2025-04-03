@@ -16,12 +16,13 @@ Ciclo 2025-01
 **Nombre del Producto:** uTime
 
 
-| Miembro                   | Código     |
-|---------------------------|------------|
-| Yum Gonzales, Jorge Suin  | U202210838 |
-| Chi Cruzatt, Kevin Jorge  | U202313655 |
-| Rivera Sosa, Eduardo Gael | U202312222 |
-| Yalán Zhang, Angie Christina   | U202312504 |
+| Miembro                             | Código     |
+|-------------------------------------|------------|
+| Yum Gonzales, Jorge Suin            | U202210838 |
+| Chi Cruzatt, Kevin Jorge            | U202313655 |
+| Rivera Sosa, Eduardo Gael           | U202312222 |
+| Varela Bustinza, Marcelo Alessandro | U202319668 |
+| Yalán Zhang, Angie Christina        | U202312504 |
 
 Abril del 2025
 
@@ -63,6 +64,8 @@ Mi nombre es Kevin Chi. Tengo 19 años y actualmente estoy cursando el 5° ciclo
 Mi nombre es Jorge Suin Yum Gonzales, tengo 20 años y estúdio la carrera de Ingeniería de Software. Me considero una persona responsable y puntual, cualidades que también aplico al trabajar de manera colaborativa con mis compañeros. Tengo interés en la programación de aplicaciones open source, así como curiosidad e iniciativa para comprender y participar en sus procesos de desarrollo.
 
 Yo soy Gael Rivera. Soy un estudiante de Ingeniería de Software comprometido con la responsabilidad en cada tarea que asumo. Poseo habilidades de liderazgo que facilitan la comunicación y el trabajo colaborativo. Siempre estoy dispuesto a abordar desafíos y encontrar soluciones en equipo.
+
+Mi nombre es Marcelo Varela. Soy un estudiante de la carrera de Ingeniería De Software, tengo 20 años y actualmente me encuentro cursando el quinto ciclo de la carrera. Me caracterizo por ser una persona responsable, resiliente y proactiva, al cual le gusta aprender sobre tecnología y el desarrollo de software. Mi compromiso como miembro de este equipo es brindar mi apoyo y participación para enfrentar lo desafíos así como dar lo mejor de mí para el éxito de este proyecto.
 </div>
 
 
@@ -81,6 +84,35 @@ uTime busca resolver este problema proporcionando una plataforma digital que per
 Los principales involucrados son los estilistas y profesionales de la belleza, ya sea barberos, maquilladores, manicuristas, etc., que están en búsqueda de una plataforma que les permite automatizar y digitalizar la gestión de citas. Asimismo, están los clientes, que son las personas que buscan servicios de belleza y bienestar.
 ##### - ¿A quiénes le sucede el problema?
 El problema afecta a todos los usuarios involucrados. En América Latina, se estima que más del 60% de los profesionales de este sector son trabajadores autónomos (Expo Belleza Fest, 2016). Por ende, los profesionales independientes del sector de la belleza trabajan sin el respaldo de un sistema de gestión digital, por lo que, se ven perjudicados al no poder separar sus agendas de manera eficaz y simplificada. Esto también afecta a los clientes, ya que, la desorganización o la demora para verificar la disponibilidad de los estilistas puede ser un aspecto desalentador.
+##### - 1.2.1.3 Where
+##### - 1.2.1.3.1 ¿En donde ocurre el problema?
+El problema ocurre en areas urbanas del peru donde estilistas y barberos aun gestionan su tiempo de manera informal como de manera física, mensajes de texto o redes sociales generando una desorden y posibles errores debido a la cantidad de entradas.
+##### - 1.2.1.3.2 ¿En donde nos enfocaremos?
+Nos enfocaremos en zonas urbanas del Perú con alta concentración de estilistas y barberos, especialmente en aquellas ciudades donde existe un acceso razonable a tecnología digital y conectividad, y donde los usuarios potenciales cuentan con los conocimientos básicos y los dispositivos necesarios para utilizar una aplicación web.
+
+##### - 1.2.1.4 When
+##### - 1.2.1.4.1. ¿Cuándo sucede el problema?
+Actualmente, esto ocurre cada vez que un cliente de nuestro segmento requiere de una cita, y la hora y datos de la misma son guardados de forma manual o informalmente.
+##### - 1.2.1.4.2. ¿Cuándo utiliza el cliente el producto?
+Nuestros segmentos utilizarían el producto en el caso de la recepción de un deseo de cita, con la cual, en primer lugar, se revisará si el tiempo en el que se desea la cita está disponible. En el caso que así sea, se registra en el calendario digital.
+Este producto también se usaría en el caso de instalación de un sensor de movimiento. Esto le permite a nuestros segmentos cada vez que un cliente entre o salga de sus instalaciones, se le pueda notificar para un rápido cambio del estado presente de la cita.
+##### - 1.2.1.5. Why
+##### - 1.2.1.5.1. ¿Cuál es la causa del problema?
+Existen varias causas al problema. En primer lugar las personas, que optan registrar de manera manual o informal las citas que reciben, sería debido a la baja alfabetización digital, confianza a sus métodos actuales o la falta de una opción que encaje con sus necesidades.
+El problema también está en la falta de opciones de calendario digital en tiempo real para nuestro segmento. En el presente aplicaciones como google calendar o zoho ofrecen un servicio parecido, sin embargo debido a su complejidad que es causado por ambos falta y exceso de características que no se centran a estilistas y barberos no lo hacen opciones atractivos lo cual causa que el usuario opte por escribir manualmente solamente la información necesaria.
+##### - 1.2.1.6. How
+##### - 1.2.1.6.1. ¿En qué condiciones los clientes usan nuestro producto?
+A través de cualquier dispositivo web con conección a internet y capas de abrir un navegador web, nuestra aplicacion web proporcionará de manera simple y concisa las herramientas necesarias para la gestion de citas y el manejo de horarios para su correcta atención
+##### - 1.2.1.6.2. ¿Cómo nos conocieron los compradores?
+Nuestro producto se reconoce mediante publicidad que se dará por intermedio de las redes sociales de este modo el alcance tecnologico ira orientado a un segmento de personas que esten adaptados con este tipo de herramientas.
+##### - 1.2.1.6.3. ¿Cómo prefieren los clientes acceder a nuestro producto?
+
+##### - 1.2.1.6.4. ¿Qué llevó a la persona a llegar a esta situación?
+
+##### - 1.2.1.7. How much
+##### - 1.2.1.7.1. Estadísticas que sustentan la problemática.
+Según Ochoa (2021), en una encuesta realizada en un salón de belleza llamado “Mónica Garcés”, el 80% de encuestados argumenta que no recibe una atención adecuada respecto a la reservación de citas a un salón de belleza. Asimismo, el 20% desconoce dicho proceso. Por lo general, se suelen comunicar mediante vía telefónica con la dueña del local, y no se logra llevar un control o manejo adecuado de horarios.
+
 ##### 1.2.2.2.2. Business Outcomes
 ##### 1.2.2.2.3. User Benefits
 #### 1.2.2.3. Lean UX Hypothesis Statements.
