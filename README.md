@@ -83,6 +83,9 @@ Los principales involucrados son los estilistas y profesionales de la belleza, y
 El problema afecta a todos los usuarios involucrados. En América Latina, se estima que más del 60% de los profesionales de este sector son trabajadores autónomos (Expo Belleza Fest, 2016). Por ende, los profesionales independientes del sector de la belleza trabajan sin el respaldo de un sistema de gestión digital, por lo que, se ven perjudicados al no poder separar sus agendas de manera eficaz y simplificada. Esto también afecta a los clientes, ya que, la desorganización o la demora para verificar la disponibilidad de los estilistas puede ser un aspecto desalentador.
 
 
+
+## Lean UX Process
+
 ## Bibliografía
 
 <div style="text-indent: 30px;">
