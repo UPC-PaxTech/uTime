@@ -112,7 +112,7 @@ Nuestro producto se reconoce mediante publicidad que se dará por intermedio de 
 ##### - 1.2.1.7. How much
 ##### - 1.2.1.7.1. Estadísticas que sustentan la problemática.
 Según Ochoa (2021), en una encuesta realizada en un salón de belleza llamado “Mónica Garcés”, el 80% de encuestados argumenta que no recibe una atención adecuada respecto a la reservación de citas a un salón de belleza. Asimismo, el 20% desconoce dicho proceso. Por lo general, se suelen comunicar mediante vía telefónica con la dueña del local, y no se logra llevar un control o manejo adecuado de horarios.
-
+![img.png](img.png)
 ##### 1.2.2.2.2. Business Outcomes
 ##### 1.2.2.2.3. User Benefits
 #### 1.2.2.3. Lean UX Hypothesis Statements.
