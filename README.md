@@ -113,6 +113,11 @@ Nuestro producto se reconoce mediante publicidad que se dará por intermedio de 
 ##### - 1.2.1.7.1. Estadísticas que sustentan la problemática.
 Según Ochoa (2021), en una encuesta realizada en un salón de belleza llamado “Mónica Garcés”, el 80% de encuestados argumenta que no recibe una atención adecuada respecto a la reservación de citas a un salón de belleza. Asimismo, el 20% desconoce dicho proceso. Por lo general, se suelen comunicar mediante vía telefónica con la dueña del local, y no se logra llevar un control o manejo adecuado de horarios.
 ![img.png](img.png)
+De acuerdo a los salones de belleza que operan en Tegucigalpa, el 53,3% de las mujeres esperan ser atendidas por orden de llegada en salones de belleza. Sin embargo, en su mayoría estos servicios no cuentan con un servicio via web que les permita administrar sus servicios de forma eficiente.
+![img_1.png](img_1.png)
+Según Giselle Spa en La Molina (2021), se realizo una encuesta a 205 cliente respecto a la calidad de servicio que ofrece el salon de belleza se identifico que el 53,4% admiten que dicha calidad se manifiesta de forma regular, debido al poco interés que se percibe respecto a los cronogramas, comunicación activa y organización laboral.
+![img_2.png](img_2.png)
+![img_3.png](img_3.png)
 ##### 1.2.2.2.2. Business Outcomes
 ##### 1.2.2.2.3. User Benefits
 #### 1.2.2.3. Lean UX Hypothesis Statements.
