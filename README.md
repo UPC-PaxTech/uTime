@@ -16,12 +16,13 @@ Ciclo 2025-01
 **Nombre del Producto:** uTime
 
 
-| Miembro                   | Código     |
-|---------------------------|------------|
-| Yum Gonzales, Jorge Suin  | U202210838 |
-| Chi Cruzatt, Kevin Jorge  | U202313655 |
-| Rivera Sosa, Eduardo Gael | U202312222 |
-| Yalán Zhang, Angie Christina   | U202312504 |
+| Miembro                             | Código     |
+|-------------------------------------|------------|
+| Yum Gonzales, Jorge Suin            | U202210838 |
+| Chi Cruzatt, Kevin Jorge            | U202313655 |
+| Rivera Sosa, Eduardo Gael           | U202312222 |
+| Varela Bustinza, Marcelo Alessandro | U202319668 |
+| Yalán Zhang, Angie Christina        | U202312504 |
 
 Abril del 2025
 
