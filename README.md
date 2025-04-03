@@ -433,6 +433,11 @@ El análisis competitivo es una herramienta clave para la toma de decisiones est
 ### 2.2.3. Análisis de entrevistas.
 ## 2.3. Needfinding.
 ### 2.3.1. User Personas.
+Segmento objetivo #1: Salones de belleza y barberías
+![Andrea Mercedes (1).png](../../../Downloads/Andrea%20Mercedes%20%281%29.png)
+Segmento objetivo #2: Clientes de servicios de belleza
+![Camila Cortéz.png](../../../Downloads/Camila%20Cort%C3%A9z.png)
+UXPRESSIA: https://uxpressia.com/w/Uc3ZW/p/VJbzi?tagId=noTag 
 ### 2.3.2. User Task Matrix.
 ### 2.3.3. User Journey Mapping.
 ### 2.3.4. Empathy Mapping.
