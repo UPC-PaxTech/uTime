@@ -115,39 +115,65 @@ Según Ochoa (2021), en una encuesta realizada en un salón de belleza llamado �
 # Capítulo II: Requirements Elicitation & Analysis
 ## 2.1. Competidores.
 ### 2.1.1. Análisis competitivo.
-
+El análisis competitivo es una herramienta clave para la toma de decisiones estratégicas, ya que permite identificar oportunidades, amenazas y desarrollar ventajas competitivas sostenibles en el mercado. Su importancia radica en ayudar a las empresas a adaptarse a un entorno dinámico y a tomar decisiones fundamentadas. A continuación, se presenta la aplicación de esta herramienta en el desarrollo del proyecto y el análisis de los competidores:
 <table>
   <tr>
-    <th colspan="6" valign="top">Competitive Analysis Landscape</th>
+    <th colspan="6">Competitive Analysis Landscape</th>
   </tr>
   <tr>
-    <td colspan="1" rowspan="2" valign="top">¿Por qué llevar a cabo este análisis?</td>
-    <td colspan="5" valign="top">¿Cómo identificar a nuestros principales competidores?</td>
+    <td colspan="1" align="center" rowspan="2">¿Por qué llevar a cabo este análisis?</td>
+    <td colspan="5" align="center">¿Cómo identificar a nuestros principales competidores?</td>
   </tr>
   <tr>
-    <td colspan="5" valign="top"></td>
+    <td colspan="5"  align="center">Gracias al análisis de la competencia en el mercado, es posible entender el entorno en el que nuestro producto operará. Esto permite identificar a los competidores directos e indirectos y desarrollar estrategias basadas en la información obtenida sobre su posicionamiento actual.</td>
   </tr>
   <tr>
-    <td colspan="2" valign="top">Nombre y logo</td>
-    <td colspan="1" valign="top"></td>
-    <td colspan="1" valign="top"></td>
-    <td colspan="1" valign="top"></td>
-    <td colspan="1" valign="top"></td>
+    <th colspan="2" align="center">Nombre y logo</th>
+    <td colspan="1" align="center">uTime</td>
+    <td colspan="1" align="center">Bookie</td>
+    <td colspan="1" align="center">Spa Pro</td>
+    <td colspan="1" align="center">Calendly</td>
   </tr>
   <tr>
-    <td colspan="1" rowspan="2" valign="top">PERFIL</td>
-    <td colspan="1" valign="top">Overview</td>
-    <td colspan="1" valign="top"></td>
-    <td colspan="1" valign="top"></td>
-    <td colspan="1" valign="top"></td>
-    <td colspan="1" valign="top"></td>
+    <td colspan="1" rowspan="2" align="center">Perfil</td>
+    <td colspan="1" align="center" >Overview</td>
+    <td colspan="1">Plataforma de gestión de citas en tiempo real para salones de belleza y barberías. Permite gestionar horarios y reservas de manera eficiente, evitando la necesidad de realizar llamadas innecesarias.</td>
+    <td colspan="1">Plataforma para buscar y reservar citas con estilistas, centrado en facilidad de uso.</td>
+    <td colspan="1">Plataforma integral para gestionar citas, inventarios, y logística de salones de belleza.</td>
+    <td colspan="1">Plataforma para gestionar citas profesionales, adaptable a distintos sectores.</td>
   </tr>
   <tr>
-    <td colspan="1" valign="top">Ventaja competitiva ¿Qué valor ofrece a los clientes?</td>
-    <td colspan="1" valign="top"></td>
-    <td colspan="1" valign="top"></td>
-    <td colspan="1" valign="top"></td>
-    <td colspan="1" valign="top"></td>
+    <td colspan="1" align="center">Ventaja competitiva ¿Qué valor ofrece a los clientes?</td>
+    <td colspan="1">
+    <ul>
+    <li>Permite gestionar múltiples estilistas dentro de un solo salón, con calendarios individuales por cada trabajador, optimizando la gestión de citas.</li>
+    <li>Ofrece un sistema de calendario en tiempo real donde los clientes pueden ver las disponibilidades de cada estilista y realizar reservas sin necesidad de contacto directo, mejorando la experiencia del usuario.</li>
+    <li>Los clientes pueden elegir tanto el estilista de su preferencia, lo cual permite flexibilidad y ahorro de tiempo.</li>
+    <li>Focalización específica en salones de belleza y barberías, lo que hace que la plataforma esté diseñada para satisfacer las necesidades particulares del sector.</li>
+    <li>Los dueños de salones pueden gestionar todas las citas desde una sola plataforma y sin solapamientos, maximizando la eficiencia operativa.</li>
+    </ul>
+    </td>
+    <td colspan="1">
+    <ul>
+    <li>Plataforma intuitiva para buscar estilistas disponibles en tiempo real, permitiendo a los usuarios realizar reservas rápidamente.</li>
+    <li>Facilita la comparación de opciones según disponibilidad, ayudando a los usuarios a elegir la opción que mejor se ajuste a su horario.</li>
+    <li>Reducción de tiempo de espera y necesidad de interacción directa con el estilista para agendar citas, lo que mejora la conveniencia.</li>
+    </ul>
+    </td>
+    <td colspan="1">
+    <ul>
+    <li>Plataforma integral para gestionar citas, inventarios y análisis financieros en salones y spas, proporcionando control administrativo completo.</li>
+    <li>Ideal para salones y spas con un enfoque en la administración operativa y el análisis de negocios.</li>
+    <li>Ofrece funcionalidades adicionales que permiten gestionar aspectos más allá de las citas, como el inventario de productos y servicios.</li>
+    </ul>
+    </td>
+    <td colspan="1">
+    <ul>
+    <li>Plataforma sencilla y popular para la gestión de citas, con integración a calendarios como Google Calendar y Outlook, ideal para profesionales de diversos sectores.</li>
+    <li>Los usuarios pueden ver la disponibilidad en tiempo real y hacer reservas sin necesidad de intervención manual.</li>
+    <li>Facilidad de uso y simplicidad en la interfaz, lo que la convierte en una opción accesible para una amplia gama de usuarios.</li>
+    </ul>
+    </td>
   </tr>
   <tr>
     <td colspan="1" rowspan="2" valign="top">Perfil de marketing</td>
