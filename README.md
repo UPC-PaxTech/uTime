@@ -89,6 +89,110 @@ El problema afecta a todos los usuarios involucrados. En América Latina, se est
 # Capítulo II: Requirements Elicitation & Analysis
 ## 2.1. Competidores.
 ### 2.1.1. Análisis competitivo.
+
+<table>
+  <tr>
+    <th colspan="6" valign="top">Competitive Analysis Landscape</th>
+  </tr>
+  <tr>
+    <td colspan="1" rowspan="2" valign="top">¿Por qué llevar a cabo este análisis?</td>
+    <td colspan="5" valign="top">¿Cómo identificar a nuestros principales competidores?</td>
+  </tr>
+  <tr>
+    <td colspan="5" valign="top"></td>
+  </tr>
+  <tr>
+    <td colspan="2" valign="top">Nombre y logo</td>
+    <td colspan="1" valign="top"></td>
+    <td colspan="1" valign="top"></td>
+    <td colspan="1" valign="top"></td>
+    <td colspan="1" valign="top"></td>
+  </tr>
+  <tr>
+    <td colspan="1" rowspan="2" valign="top">PERFIL</td>
+    <td colspan="1" valign="top">Overview</td>
+    <td colspan="1" valign="top"></td>
+    <td colspan="1" valign="top"></td>
+    <td colspan="1" valign="top"></td>
+    <td colspan="1" valign="top"></td>
+  </tr>
+  <tr>
+    <td colspan="1" valign="top">Ventaja competitiva ¿Qué valor ofrece a los clientes?</td>
+    <td colspan="1" valign="top"></td>
+    <td colspan="1" valign="top"></td>
+    <td colspan="1" valign="top"></td>
+    <td colspan="1" valign="top"></td>
+  </tr>
+  <tr>
+    <td colspan="1" rowspan="2" valign="top">Perfil de marketing</td>
+    <td colspan="1" valign="top">Mercado objetivo</td>
+    <td colspan="1" valign="top"></td>
+    <td colspan="1" valign="top"></td>
+    <td colspan="1" valign="top"></td>
+    <td colspan="1" valign="top"></td>
+  </tr>
+  <tr>
+    <td colspan="1" valign="top">Estrategias de marketing</td>
+    <td colspan="1" valign="top"></td>
+    <td colspan="1" valign="top"></td>
+    <td colspan="1" valign="top"></td>
+    <td colspan="1" valign="top"></td>
+  </tr>
+  <tr>
+    <td colspan="1" rowspan="3" valign="top">Perfil del producto</td>
+    <td colspan="1" valign="top">Productos & Servicios</td>
+    <td colspan="1" valign="top"></td>
+    <td colspan="1" valign="top"></td>
+    <td colspan="1" valign="top"></td>
+    <td colspan="1" valign="top"></td>
+  </tr>
+  <tr>
+    <td colspan="1" valign="top">Precios y Costos</td>
+    <td colspan="1" valign="top"></td>
+    <td colspan="1" valign="top"></td>
+    <td colspan="1" valign="top"></td>
+    <td colspan="1" valign="top"></td>
+  </tr>
+  <tr>
+    <td colspan="1" valign="top">Canales de distribución (Web y/o Móvil)</td>
+    <td colspan="1" valign="top"></td>
+    <td colspan="1" valign="top"></td>
+    <td colspan="1" valign="top"></td>
+    <td colspan="1" valign="top"></td>
+  </tr>
+  <tr>
+    <td colspan="1" rowspan="4" valign="top">Análisis FODA</td>
+    <td colspan="1" valign="top">Fortalezas</td>
+    <td colspan="1" valign="top"></td>
+    <td colspan="1" valign="top"></td>
+    <td colspan="1" valign="top"></td>
+    <td colspan="1" valign="top"></td>
+  </tr>
+  <tr>
+    <td colspan="1" valign="top">Oportunidades</td>
+    <td colspan="1" valign="top"></td>
+    <td colspan="1" valign="top"></td>
+    <td colspan="1" valign="top"></td>
+    <td colspan="1" valign="top"></td>
+  </tr>
+  <tr>
+    <td colspan="1" valign="top">Debilidades</td>
+    <td colspan="1" valign="top"></td>
+    <td colspan="1" valign="top"></td>
+    <td colspan="1" valign="top"></td>
+    <td colspan="1" valign="top"></td>
+  </tr>
+  <tr>
+    <td colspan="1" valign="top">Amenazas</td>
+    <td colspan="1" valign="top"></td>
+    <td colspan="1" valign="top"></td>
+    <td colspan="1" valign="top"></td>
+    <td colspan="1" valign="top"></td>
+  </tr>
+</table>
+
+
+
 ### 2.1.2. Estrategias y tácticas frente a competidores.
 ## 2.2. Entrevistas.
 ### 2.2.1. Diseño de entrevistas.
