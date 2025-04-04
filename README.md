@@ -233,24 +233,68 @@ El análisis competitivo es una herramienta clave para la toma de decisiones est
   <tr>
     <td colspan="1" align="center" rowspan="3">Perfil del producto</td>
     <td colspan="1" align="center">Productos & Servicios</td>
-    <td colspan="1"></td>
-    <td colspan="1"></td>
-    <td colspan="1"></td>
-    <td colspan="1"></td>
+    <td colspan="1">
+    <ul>
+    <li>Gestión de citas en tiempo real.</li>
+    <li>Marketplace.</li>
+    <li>Pagos en línea.</li>
+    <li>Asesoramiento en plan premium.</li>
+    </ul>
+    </td>
+    <td colspan="1">
+    <ul>
+    <li>Software de gestión para salones.</li>
+    <li>Recordatorios automáticos.</li>
+    <li>Pagos integrados.</li>
+    </ul>
+    </td>
+    <td colspan="1">
+    <ul>
+    <li>Aplicación para reservas.</li>
+    <li>Sistema de recomendaciones.</li>
+    <li>Promociones para usuarios.</li>
+    </ul>
+    </td>
+    <td colspan="1">
+    <ul>
+    <li>Programación de reuniones.</li>
+    <li>Integraciones con calendarios.</li>
+    <li>Automatización de agendas.</li>
+    </ul>
+    </td>
   </tr>
   <tr>
     <td colspan="1" align="center">Precios y Costos</td>
-    <td colspan="1"></td>
-    <td colspan="1"></td>
-    <td colspan="1"></td>
-    <td colspan="1"></td>
+    <td colspan="1">
+    <ul>
+    <li>Plan gratuito con 10 reservas/mes.</li>
+    <li>Plan intermedio con más personalización.</li>
+    <li>Plan premium con marketplace ilimitado y asesoramiento.</li>
+    </ul>
+    </td>
+    <td colspan="1">
+    <ul>
+    <li>Suscripción mensual según el tamaño del negocio.</li>
+    </ul>
+    </td>
+    <td colspan="1">
+    <ul>
+    <li>Comisiones por reservas.</li>
+    <li>Posible suscripción premium.</li>
+    </ul>
+    </td>
+    <td colspan="1">
+    <ul>
+    <li>Modelo freemium con suscripción mensual.</li>
+    <li>Costos según el tamaño del equipo.</li>
+    </ul></td>
   </tr>
   <tr>
     <td colspan="1" valign="top">Canales de distribución (Web y/o Móvil)</td>
-    <td colspan="1" valign="top"></td>
-    <td colspan="1" valign="top"></td>
-    <td colspan="1" valign="top"></td>
-    <td colspan="1" valign="top"></td>
+    <td colspan="1" valign="top">El servicio, de forma momentánea, se brindará en plataforma web</td>
+    <td colspan="1" valign="top">Dispone de plataforma web y aplicación móvil</td>
+    <td colspan="1" valign="top">Solo aplicación móvil</td>
+    <td colspan="1" valign="top">Plataforma web y aplicación móvil</td>
   </tr>
   <tr>
     <td colspan="1" rowspan="4" valign="top">Análisis FODA</td>
