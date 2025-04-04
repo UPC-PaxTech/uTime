@@ -103,25 +103,6 @@ El problema ocurre en areas urbanas del peru donde estilistas y barberos aun ges
 ##### - 1.2.1.3.2 ¿En donde nos enfocaremos?
 Nos enfocaremos en zonas urbanas del Perú con alta concentración de estilistas y barberos, especialmente en aquellas ciudades donde existe un acceso razonable a tecnología digital y conectividad, y donde los usuarios potenciales cuentan con los conocimientos básicos y los dispositivos necesarios para utilizar una aplicación web.
 
-##### - 1.2.1.4 When
-##### - 1.2.1.4.1. ¿Cuándo sucede el problema?
-Actualmente, esto ocurre cada vez que un cliente de nuestro segmento requiere de una cita, y la hora y datos de la misma son guardados de forma manual o informalmente.
-##### - 1.2.1.4.2. ¿Cuándo utiliza el cliente el producto?
-Nuestros segmentos utilizarían el producto en el caso de la recepción de un deseo de cita, con la cual, en primer lugar, se revisará si el tiempo en el que se desea la cita está disponible. En el caso que así sea, se registra en el calendario digital.
-Este producto también se usaría en el caso de instalación de un sensor de movimiento. Esto le permite a nuestros segmentos cada vez que un cliente entre o salga de sus instalaciones, se le pueda notificar para un rápido cambio del estado presente de la cita.
-##### - 1.2.1.5. Why
-##### - 1.2.1.5.1. ¿Cuál es la causa del problema?
-Existen varias causas al problema. En primer lugar las personas, que optan registrar de manera manual o informal las citas que reciben, sería debido a la baja alfabetización digital, confianza a sus métodos actuales o la falta de una opción que encaje con sus necesidades.
-El problema también está en la falta de opciones de calendario digital en tiempo real para nuestro segmento. En el presente aplicaciones como google calendar o zoho ofrecen un servicio parecido, sin embargo debido a su complejidad que es causado por ambos falta y exceso de características que no se centran a estilistas y barberos no lo hacen opciones atractivos lo cual causa que el usuario opte por escribir manualmente solamente la información necesaria.
-##### - 1.2.1.6. How
-##### - 1.2.1.6.1. ¿En qué condiciones los clientes usan nuestro producto?
-A través de cualquier dispositivo web con conección a internet y capas de abrir un navegador web, nuestra aplicacion web proporcionará de manera simple y concisa las herramientas necesarias para la gestion de citas y el manejo de horarios para su correcta atención
-##### - 1.2.1.6.2. ¿Cómo nos conocieron los compradores?
-Nuestro producto se reconoce mediante publicidad que se dará por intermedio de las redes sociales de este modo el alcance tecnologico ira orientado a un segmento de personas que esten adaptados con este tipo de herramientas.
-##### - 1.2.1.6.3. ¿Cómo prefieren los clientes acceder a nuestro producto?
-
-##### - 1.2.1.6.4. ¿Qué llevó a la persona a llegar a esta situación?
-
 ##### - 1.2.1.7. How much
 ##### - 1.2.1.7.1. Estadísticas que sustentan la problemática.
 Según Ochoa (2021), en una encuesta realizada en un salón de belleza llamado “Mónica Garcés”, el 80% de encuestados argumenta que no recibe una atención adecuada respecto a la reservación de citas a un salón de belleza. Asimismo, el 20% desconoce dicho proceso. Por lo general, se suelen comunicar mediante vía telefónica con la dueña del local, y no se logra llevar un control o manejo adecuado de horarios.
