@@ -129,13 +129,25 @@ El análisis competitivo es una herramienta clave para la toma de decisiones est
   </tr>
   <tr>
     <th colspan="2" align="center">Nombre y logo</th>
-    <td colspan="1" align="center">uTime</td>
-    <td colspan="1" align="center">Salon Pro</td>
-    <td colspan="1" align="center">Beauty Salon</td>
-    <td colspan="1" align="center">Calendly</td>
+    <td colspan="1" align="center">
+    <p><b>uTime</b></p>
+    <img src="https://i.imgur.com/imQZJ60.png" alt="uTime Logo" width="80">
+    </td>
+    <td colspan="1" align="center">
+    <p><b>Salon Pro</b></p>
+    <img src="https://i.imgur.com/WKnzVAz.png" alt="Salon Pro Logo" width="80">
+    </td>
+    <td colspan="1" align="center">
+    <p><b>Beauty Salon</b></p>
+    <img src="https://gdm-catalog-fmapi-prod.imgix.net/ProductLogo/02795c3d-7e17-493f-8521-b882a567e37a.png?w=90&h=90&fit=max&dpr=3&auto=format&q=50" alt="Beauty Salon Logo" width="80">
+    </td>
+    <td colspan="1" align="center">
+    <p><b>Calendly</b></p>
+    <img src="https://cdn.prod.website-files.com/6640cd28f51f13175e577c05/664e00729585bbce36f008c5_302eb91f-a193-5bfd-a8dc-d33abe7c9c40.svg" alt="Calendly Logo" width="80">
+    </td>
   </tr>
   <tr>
-    <td colspan="1" rowspan="2" align="center">Perfil</td>
+    <th colspan="1" rowspan="2" align="center">Perfil</th>
     <td colspan="1" align="center" >Overview</td>
     <td colspan="1">Plataforma de gestión de citas en tiempo real, altamente personalizable, con marketplace y pagos en línea.</td>
     <td colspan="1">Software para gestión de citas en salones con recordatorios y pagos integrados.</td>
@@ -175,7 +187,7 @@ El análisis competitivo es una herramienta clave para la toma de decisiones est
     </td>
   </tr>
   <tr>
-    <td colspan="1" align="center" rowspan="2">Perfil de marketing</td>
+    <th colspan="1" align="center" rowspan="2">Perfil de marketing</th>
     <td colspan="1" align="center">Mercado objetivo</td>
     <td colspan="1">
     <ul>
@@ -231,7 +243,7 @@ El análisis competitivo es una herramienta clave para la toma de decisiones est
     </td>
   </tr>
   <tr>
-    <td colspan="1" align="center" rowspan="3">Perfil del producto</td>
+    <th colspan="1" align="center" rowspan="3">Perfil del producto</th>
     <td colspan="1" align="center">Productos & Servicios</td>
     <td colspan="1">
     <ul>
@@ -287,43 +299,123 @@ El análisis competitivo es una herramienta clave para la toma de decisiones est
     <ul>
     <li>Modelo freemium con suscripción mensual.</li>
     <li>Costos según el tamaño del equipo.</li>
-    </ul></td>
+    </ul>
+    </td>
   </tr>
   <tr>
-    <td colspan="1" valign="top">Canales de distribución (Web y/o Móvil)</td>
-    <td colspan="1" valign="top">El servicio, de forma momentánea, se brindará en plataforma web</td>
-    <td colspan="1" valign="top">Dispone de plataforma web y aplicación móvil</td>
-    <td colspan="1" valign="top">Solo aplicación móvil</td>
-    <td colspan="1" valign="top">Plataforma web y aplicación móvil</td>
+    <td colspan="1" align="center">Canales de distribución (Web y/o Móvil)</td>
+    <td colspan="1">El servicio, de forma momentánea, se brindará en plataforma web</td>
+    <td colspan="1">Dispone de plataforma web y aplicación móvil</td>
+    <td colspan="1">Solo aplicación móvil</td>
+    <td colspan="1">Plataforma web y aplicación móvil</td>
   </tr>
   <tr>
-    <td colspan="1" rowspan="4" valign="top">Análisis FODA</td>
-    <td colspan="1" valign="top">Fortalezas</td>
-    <td colspan="1" valign="top"></td>
-    <td colspan="1" valign="top"></td>
-    <td colspan="1" valign="top"></td>
-    <td colspan="1" valign="top"></td>
+    <th colspan="1" align="center" rowspan="4">Análisis SWOT</th>
+    <td colspan="1" align="center">Fortalezas</td>
+    <td colspan="1">
+    <ul>
+    <li>Personalización avanzada.</li>
+    <li>Diferenciación con marketplace.</li>
+    <li>Modelo accesible y flexible.</li>
+    </ul>
+    </td>
+    <td colspan="1">
+    <ul>
+    <li>Automatización de citas.</li>
+    <li>Fácil de usar.</li>
+    </ul>
+    </td>
+    <td colspan="1">
+    <ul>
+    <li>Interfaz atractiva.</li>
+    <li>Buen enfoque en clientes finales.</li>
+    </ul>
+    </td>
+    <td colspan="1">
+    <ul>
+    <li>Gran cantidad de integraciones.</li>
+    <li>Posicionamiento sólido en el mercado.</li>
+    </ul>
+    </td>
   </tr>
   <tr>
-    <td colspan="1" valign="top">Oportunidades</td>
-    <td colspan="1" valign="top"></td>
-    <td colspan="1" valign="top"></td>
-    <td colspan="1" valign="top"></td>
-    <td colspan="1" valign="top"></td>
+    <td colspan="1" align="center">Debilidades</td>
+    <td colspan="1">
+    <ul>
+    <li>Necesidad de atraer clientes masivos.</li>
+    <li>Puede ser complejo para algunos usuarios.</li>
+    </ul>
+    </td>
+    <td colspan="1">
+    <ul>
+    <li>Alta competencia.</li>
+    <li>Funcionalidades limitadas.</li>
+    </ul>
+    </td>
+    <td colspan="1">
+    <li>Dependencia de afiliaciones con salones.</li>
+    <li>Competencia con otras apps.</li>
+    </td>
+    <td colspan="1">
+    <ul>
+    <li>Costos elevados para algunas funciones.</li>
+    </ul>
+    </td>
   </tr>
   <tr>
-    <td colspan="1" valign="top">Debilidades</td>
-    <td colspan="1" valign="top"></td>
-    <td colspan="1" valign="top"></td>
-    <td colspan="1" valign="top"></td>
-    <td colspan="1" valign="top"></td>
+    <td colspan="1" align="center">Oportunidades</td>
+    <td colspan="1">
+    <ul>
+    <li>Expansión en Latinoamérica.</li>
+    <li>Alianzas con marcas de belleza.</li>
+    <li>Expansión del marketplace.</li>
+    </ul>
+    </td>
+    <td colspan="1">
+    <ul>
+    <li>Crecimiento del sector digital.</li>
+    <li>Mayor uso de pagos en línea.</li>
+    </ul>
+    </td>
+    <td colspan="1">
+    <ul>
+    <li>Aumento de reservas digitales en belleza.</li>
+    <li>Integración con plataformas de bienestar.</li>
+    </ul>
+    </td>
+    <td colspan="1">
+    <ul>
+    <li>Crecimiento del trabajo remoto.</li>
+    <li>Expansión en herramientas digitales.</li>
+    </ul>
+    </td>
   </tr>
   <tr>
-    <td colspan="1" valign="top">Amenazas</td>
-    <td colspan="1" valign="top"></td>
-    <td colspan="1" valign="top"></td>
-    <td colspan="1" valign="top"></td>
-    <td colspan="1" valign="top"></td>
+    <td colspan="1" align="center">Amenazas</td>
+    <td colspan="1">
+    <ul>
+    <li>Competencia con plataformas consolidadas.</li>
+    <li>Costos de adquisición de clientes.</li>
+    </ul>
+    </td>
+    <td colspan="1">
+    <ul>
+    <li>Opciones más económicas en el mercado.</li>
+    <li>Cambios en tendencias de consumo.</li>
+    </ul>
+    </td>
+    <td colspan="1">
+    <ul>
+    <li>Nuevos competidores en el sector.</li>
+    <li>Alternativas con más funcionalidades.</li>
+    </ul>
+    </td>
+    <td colspan="1">
+    <ul>
+    <li>Empresas más grandes en el sector.</li>
+    <li>Alternativas gratuitas en crecimiento.</li>
+    </ul>
+    </td>
   </tr>
 </table>
 
