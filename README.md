@@ -419,9 +419,89 @@ El análisis competitivo es una herramienta clave para la toma de decisiones est
   </tr>
 </table>
 
-
-
 ### 2.1.2. Estrategias y tácticas frente a competidores.
+A partir del análisis competitivo previamente realizado, se logró determinar con precisión las principales fortalezas, oportunidades, debilidades y amenazas de los competidores. Esta información es fundamental para diseñar estrategias y tácticas que permitan posicionarse de manera efectiva frente a la competencia, especialmente durante el ingreso del servicio al mercado. A continuación, se presentan las estrategias y tácticas definidas con el objetivo de lograr un lanzamiento exitoso y rentable.
+
+#### Afrontando las fortalezas de nuestros competidores:
+
+- Salon Pro cuenta con una interfaz sencilla y automatización de citas, lo que facilita la experiencia del usuario. 
+- Beauty Salon posee una fuerte presencia en dispositivos móviles y un sistema de recomendaciones personalizado.
+- Calendly domina el mercado con su integración con herramientas empresariales y automatización avanzada.
+
+#### Comprendemos que nuestras fortalezas son:
+
+- Personalización avanzada de precios, tiempos y servicios para cada trabajador. 
+- Integración de un marketplace para generar ingresos adicionales.
+- Asesoramiento premium para ayudar a los negocios a optimizar su uso de la plataforma.
+- Plan gratuito accesible con 10 reservas mensuales 
+
+Entonces, podemos aplicar las siguientes estrategias y tácticas:
+
+#### Estrategias
+
+- Destacar la personalización de uTime como una ventaja clave en nuestra comunicación y campañas de marketing. 
+- Enfatizar el valor del marketplace como una fuente de ingresos adicional para las peluquerías. 
+- Promover el plan de asesoramiento como un servicio exclusivo que nuestros competidores no ofrecen.
+
+#### Tácticas
+
+- Campañas en redes sociales mostrando cómo se personaliza la plataforma para distintos negocios 
+- Casos de éxito de pequeñas peluquerías que optimizaron sus citas y ventas con uTime 
+- Videos explicativos sobre el uso del calendario por trabajador
+
+#### Afrontando las debilidades de nuestros competidores:
+
+- 
+
+#### Comprendemos que nuestras debilidades son:
+
+- 
+
+Entonces, podemos aplicar las siguientes estrategias y tácticas:
+
+#### Estrategias
+
+- 
+
+#### Tácticas
+
+
+#### Afrontando las oportunidades de nuestros competidores:
+
+-
+
+#### Comprendemos que nuestras oportunidades son:
+
+-
+
+Entonces, podemos aplicar las siguientes estrategias y tácticas:
+
+#### Estrategias
+
+-
+
+#### Tácticas
+
+-
+
+#### Afrontando las amenazas de nuestros competidores:
+
+-
+
+#### Comprendemos que nuestras amenazas son:
+
+-
+
+Entonces, podemos aplicar las siguientes estrategias y tácticas:
+
+#### Estrategias
+
+-
+
+#### Tácticas
+
+-
+
 ## 2.2. Entrevistas.
 ### 2.2.1. Diseño de entrevistas.
 ### 2.2.2. Registro de entrevistas.
