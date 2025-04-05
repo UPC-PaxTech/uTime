@@ -424,9 +424,108 @@ El análisis competitivo es una herramienta clave para la toma de decisiones est
   </tr>
 </table>
 
-
-
 ### 2.1.2. Estrategias y tácticas frente a competidores.
+A partir del análisis competitivo previamente realizado, se logró determinar con precisión las principales fortalezas, oportunidades, debilidades y amenazas de los competidores. Esta información es fundamental para diseñar estrategias y tácticas que permitan posicionarse de manera efectiva frente a la competencia, especialmente durante el ingreso del servicio al mercado. A continuación, se presentan las estrategias y tácticas definidas con el objetivo de lograr un lanzamiento exitoso y rentable.
+
+#### Afrontando las fortalezas de nuestros competidores:
+
+- Salon Pro cuenta con una interfaz sencilla y automatización de citas, lo que facilita la experiencia del usuario. 
+- Beauty Salon posee una fuerte presencia en dispositivos móviles y un sistema de recomendaciones personalizado.
+- Calendly domina el mercado con su integración con herramientas empresariales y automatización avanzada.
+
+#### Comprendemos que nuestras fortalezas son:
+
+- Personalización avanzada de precios, tiempos y servicios para cada trabajador. 
+- Integración de un marketplace para generar ingresos adicionales.
+- Asesoramiento premium para ayudar a los negocios a optimizar su uso de la plataforma.
+- Plan gratuito accesible con 10 reservas mensuales 
+
+Entonces, podemos aplicar las siguientes estrategias y tácticas:
+
+#### Estrategias
+
+- Destacar la personalización de uTime como una ventaja clave en nuestra comunicación y campañas de marketing. 
+- Enfatizar el valor del marketplace como una fuente de ingresos adicional para las peluquerías. 
+- Promover el plan de asesoramiento como un servicio exclusivo que nuestros competidores no ofrecen.
+
+#### Tácticas
+
+- Campañas en redes sociales mostrando cómo se personaliza la plataforma para distintos negocios.
+- Casos de éxito de pequeñas peluquerías que optimizaron sus citas y ventas con uTime.
+- Videos explicativos sobre el uso del calendario por trabajador.
+
+#### Afrontando las debilidades de nuestros competidores:
+
+- Salon Pro tiene funcionalidades limitadas y enfrenta alta competencia. 
+- Beauty Salon depende de afiliaciones con salones y tiene competencia en el sector. 
+- Calendly tiene costos elevados para funciones avanzadas.
+
+Requieren configuraciones técnicas complicadas en algunos casos
+
+#### Comprendemos que nuestras debilidades son:
+
+- Necesidad de atraer clientes masivos rápidamente. 
+- Puede ser complejo para usuarios sin experiencia en plataformas digitales.
+
+Entonces, podemos aplicar las siguientes estrategias y tácticas:
+
+#### Estrategias
+
+- Implementar una estrategia de adquisición de clientes con modelos freemium y pruebas gratuitas. 
+- Diseñar una interfaz intuitiva con tutoriales y soporte personalizado.
+
+#### Tácticas
+
+- Ofrecer un plan gratuito con funcionalidades limitadas para atraer usuarios y generar confianza en el producto.
+- Incluir asesoría personalizada en el plan completo para ayudar a negocios grandes a configurar y personalizar la plataforma según sus necesidades, especialmente si no están familiarizados con herramientas tecnológicas.
+
+#### Afrontando las oportunidades de nuestros competidores:
+
+- Salon Pro y Beauty Salon se benefician del crecimiento del sector digital en el ámbito de la belleza. 
+- Calendly aprovecha el aumento del trabajo remoto y la digitalización de agendas.
+
+#### Comprendemos que nuestras oportunidades son:
+
+- Expansión del mercado digital en Latinoamérica.
+- Alianzas estratégicas con marcas de belleza y distribuidores.
+
+Entonces, podemos aplicar las siguientes estrategias y tácticas:
+
+#### Estrategias
+
+- Expandir la presencia de uTime en mercados emergentes y ofrecer soporte en múltiples idiomas.
+- Establecer alianzas con proveedores de productos de belleza y herramientas de gestión empresarial.
+
+#### Tácticas
+
+- Lanzar campañas de publicidad específicas para nuevos mercados.
+- Contactar con marcas y distribuidores para ofrecer descuentos exclusivos a usuarios de uTime. 
+- Desarrollar una función de recomendaciones de productos dentro del marketplace.
+
+#### Afrontando las amenazas de nuestros competidores:
+
+- Existen plataformas consolidadas con una base de clientes establecida.
+- La adquisición de clientes puede ser costosa debido a la alta competencia.
+
+#### Comprendemos que nuestras amenazas son:
+
+- Posicionamiento de grandes marcas en el sector.
+- Costos de adquisición de usuarios y retención de clientes.
+
+Entonces, podemos aplicar las siguientes estrategias y tácticas:
+
+#### Estrategias
+
+- Diferenciar uTime con características únicas y servicios adicionales.
+- Fidelizar clientes con programas de recompensas y beneficios exclusivos.
+
+#### Tácticas
+
+- Implementar un sistema de referidos con descuentos para clientes actuales y nuevos usuarios.
+- Crear un programa de fidelización con beneficios progresivos según el tiempo de uso de la plataforma.
+
+
+
 ## 2.2. Entrevistas.
 ### 2.2.1. Diseño de entrevistas.
 ### 2.2.2. Registro de entrevistas.
