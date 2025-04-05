@@ -1,13 +1,16 @@
 <div align="center">
+
+# Informe del Trabajo Final
+**Universidad Peruana de Ciencias Aplicadas**
+
 <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png" alt="Logo UPC">
 
-# Universidad Peruana de Ciencias Aplicadas
 
-Ingenieria de software
+**Ingeniería de software**
 
-Ciclo 2025-01
+**1ASI0729 Desarrollo de Aplicaciones Open Source**
 
-**Sección:**
+**Sección:** 4304
 
 **Profesor:** Bautista Ubillús, Efraín Ricardo
 
@@ -16,24 +19,69 @@ Ciclo 2025-01
 **Nombre del Producto:** uTime
 
 
-| Miembro                             | Código     |
-|-------------------------------------|------------|
-| Yum Gonzales, Jorge Suin            | U202210838 |
-| Chi Cruzatt, Kevin Jorge            | U202313655 |
-| Rivera Sosa, Eduardo Gael           | U202312222 |
-| Varela Bustinza, Marcelo Alessandro | U202319668 |
-| Yalán Zhang, Angie Christina        | U202312504 |
+| Nombre                             | Código                   |
+|------------------------------------|--------------------------|
+| Chi Cruzatt, Kevin Jorge           | U202313655               |
+| Rivera Sosa, Eduardo Gael          | U202312222               |
+| Varela Bustinza, Marcelo Alessandro | U202319668               |
+| Yalán Zhang, Angie Christina       | U202312504               |
+| Yum Gonzales, Jorge Suin           | U202210838                    |
 
-Abril del 2025
+
+**Ciclo 2025-01**
 
 # Registro de Versiones del Informe
-| Version | Fecha | Autor | Descripción de modificación |
-| --- | --- | --- | --- |
-| N/A     | N/A   | N/A   | N/A                         |
+
+| Version | Fecha      | Autor                           | Descripción de modificación|
+|---------|------------|---------------------------------|------------------------|
+| 1.0     | 01/04/2025 | Chi, Rivera, Varela, Yalán, Yum | Creación del documento de trabajo en formato markdown|
+| 1.1     |            | Chi, Rivera, Varela, Yalán, Yum |                                                      |
+| 1.2     |            | Chi, Rivera, Varela, Yalán, Yum                                |                                                      |
+| 1.3     |            | Chi, Rivera, Varela, Yalán, Yum                                |                                                      |
+| 1.4     |            | Chi, Rivera, Varela, Yalán, Yum                                |                                                      |
+| 1.5     |            | Chi, Rivera, Varela, Yalán, Yum                                |                                                      |
+| 1.6     |            | Chi, Rivera, Varela, Yalán, Yum                                |                                                      |
+| 1.7     |            | Chi, Rivera, Varela, Yalán, Yum                                |                                                      |
+| 1.8     |            | Chi, Rivera, Varela, Yalán, Yum                                |                                                      |
+
+</div>
 
 # Project Report Collaboration Insights
 
-</div>
+URL del repositorio para el proyecto: https://github.com/UPC-PaxTech/uTime/
+
+**TB1**
+
+Para el desarrollo del informe perteneciente a la entrega TB1, se dividió la implementación de secciones de la siguiente forma
+para cada integrante del equipo:
+
+| Integrantes    | Tareas Asignadas |
+|----------------|------------------|
+| Kevin Chi      |                  |
+| Gael Rivera    |                  |
+| Marcelo Varela |                  |
+| Angie Yalán    |                  |
+| Jorge Yum      |                  |
+
+**Github Collaboration Insights**
+
+Github también presenta un timeline de las ramas principales y los procesos de merge a los que se han sometido. Todas las
+ramas se crearon tomando en cuenta el diseño de GitFlow para una buena organización cuando se usa un software de control
+de versiones.
+
+Los integrantes son:
+
+- Kevin Chi (Krillsom)
+- Gael Rivera (gael-rs)
+- Marcelo Varela (VarBus)
+- Angie Yalán (aaaaangie)
+- Jorge Yum (myussu)
+
+Se explican las ramas más prominentes:
+
+**main:** Es representada por el color negro. Se trata de la rama principal del proyecto y se actualiza para cada entregable.<br>
+**develop:** Es representada por el color azul. Se trata de la rama principal para el proceso del desarrollo del proyecto.<br>
+**feature/Nombre-del-integrante**: <br> 
 
 # Contenido
 
@@ -44,7 +92,6 @@ Abril del 2025
 ## 1.1. Startup Profile
 ### 1.1.1. Descripción de la Startup
 
-<div style="text-indent: 30px;">
 PaxTech es una startup liderada por estudiantes de la Universidad Peruana de Ciencias Aplicadas, dedicada al desarrollo de soluciones tecnológicas innovadoras. Nuestro enfoque se centra en facilitar la gestión de citas para el sector de la belleza y el bienestar; es decir, estilistas, barberos, maquilladores y otros profesionales independientes, permitiéndoles optimizar su tiempo y ampliar su clientela de manera eficiente.
 
 En un mundo donde la digitalización es clave para el éxito, PaxTech empodera a los profesionales de la belleza con una plataforma intuitiva y automatizada que mejora la experiencia tanto para ellos como para sus clientes. A través de nuestra solución, buscamos revolucionar la manera en que los estilistas organizan su agenda, reduciendo la pérdida de tiempo y aumentando su visibilidad en el mercado.
@@ -52,11 +99,9 @@ En un mundo donde la digitalización es clave para el éxito, PaxTech empodera a
 Misión: Desarrollar y ofrecer una plataforma digital avanzada que simplifique la gestión de citas para estilistas y profesionales de la belleza, mejorando su productividad y facilitando el acceso de los clientes a servicios de alta calidad. Nuestro objetivo es optimizar el tiempo, reducir los inconvenientes de la administración manual y potenciar el crecimiento del negocio de cada profesional.
 
 Visión: Convertirnos en la plataforma líder en gestión de citas para el sector de la belleza, proporcionando herramientas tecnológicas innovadoras que permitan a los profesionales independientes expandir su negocio, fidelizar clientes y mejorar la experiencia del usuario en la industria de la estética.
-</div>
 
 ### 1.1.2. Perfiles de integrantes del equipo
 
-<div style="text-indent: 30px;">
 Mi nombre es Angie Yalán. Soy estudiante de la carrera Ingeniería de Software y tengo 19 años. Me considero una persona proactiva que le gustan nuevas experiencias y aprender cosas diferentes. Sigo en el proceso de mejora en cuanto a la programación y cuento con toda la iniciativa para ser cada día mejor en ello.
 
 Mi nombre es Kevin Chi. Tengo 19 años y actualmente estoy cursando el 5° ciclo de ingeniería de software. Me considero una persona con capacidades de liderazgo y capaz de trabajar bajo presión.
@@ -66,7 +111,6 @@ Mi nombre es Jorge Suin Yum Gonzales, tengo 20 años y estúdio la carrera de In
 Yo soy Gael Rivera. Soy un estudiante de Ingeniería de Software comprometido con la responsabilidad en cada tarea que asumo. Poseo habilidades de liderazgo que facilitan la comunicación y el trabajo colaborativo. Siempre estoy dispuesto a abordar desafíos y encontrar soluciones en equipo.
 
 Mi nombre es Marcelo Varela. Soy un estudiante de la carrera de Ingeniería De Software, tengo 20 años y actualmente me encuentro cursando el quinto ciclo de la carrera. Me caracterizo por ser una persona responsable, resiliente y proactiva, al cual le gusta aprender sobre tecnología y el desarrollo de software. Mi compromiso como miembro de este equipo es brindar mi apoyo y participación para enfrentar lo desafíos así como dar lo mejor de mí para el éxito de este proyecto.
-</div>
 
 
 
