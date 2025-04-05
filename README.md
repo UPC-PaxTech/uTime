@@ -14,7 +14,7 @@ Ciclo 2025-01
 **Nombre del StartUp:** PaxTech
 
 **Nombre del Producto:** uTime
-
+b
 
 | Miembro                             | Código     |
 |-------------------------------------|------------|
@@ -560,7 +560,11 @@ Segmento objetivo #2: Clientes de servicios de belleza
 | Pagar por medios electrónicos                         | Baja                     | Baja                       | Alta                     | Alta                       |
 
 ### 2.3.3. User Journey Mapping.
+Para el segmento de los salones estilistas o barberos se consideró el momento desde que el cliente se contacta con la recepcionista hasta que el cliente haya terminado su cita y haya salido de salón. En la otra mano, para el segmento de los clientes de los salones se consideró desde que descubren el salón de manera online o por otra persona hasta que haya atendido la cita deseada.
 
+![Journey mapping | Segmento objetivo #1](img/Segmento%20objetivo%20%231_Salones%20de%20belleza%20y%20barberías%20Journey%20Mapping.png)
+
+![Journey mapping | Segmento objetivo #2](img/Segmento%20objetivo%20%232_%20Clientes%20de%20servicios%20de%20belleza%20Journey%20Mapping.png)
 ### 2.3.4. Empathy Mapping.
 Segmento objetivo #1: Salones de belleza y barberías
 ![Andrea Mercedes (2).png](../../../Downloads/Andrea%20Mercedes%20%282%29.png)
