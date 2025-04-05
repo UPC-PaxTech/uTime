@@ -537,6 +537,28 @@ Segmento objetivo #1: Salones de belleza y barberías
 Segmento objetivo #2: Clientes de servicios de belleza
 ![Camila Cortéz.png](../../../Downloads/Camila%20Cort%C3%A9z.png)
 ### 2.3.2. User Task Matrix.
+
+| **Tarea**                                             | **Frecuencia (Andrea)** | **Importancia (Andrea)** | **Frecuencia (Camila)** | **Importancia (Camila)** |
+|-------------------------------------------------------|--------------------------|----------------------------|--------------------------|----------------------------|
+| Revisar la disponibilidad de la agenda                | Alta                     | Alta                       | Alta                     | Alta                       |
+| Agendar citas                                         | Alta                     | Alta                       | Media                    | Alta                       |
+| Escoger tratamiento                                   | Nunca                    | Baja                       | Alta                     | Alta                       |
+| Responder llamadas de los clientes                    | Alta                     | Alta                       | Nunca                    | Baja                       |
+| Ajustarse al tiempo que dura el tratamiento           | Media                    | Alta                       | Media                    | Media                      |
+| Alistar los utensilios de belleza de antemano         | Media                    | Media                      | Baja                     | Baja                       |
+| Ajustar agenda en fechas de alta demanda              | Baja                     | Alta                       | Baja                     | Media                      |
+| Gestionar cancelaciones                               | Alta                     | Alta                       | Baja                     | Baja                       |
+| Revisar cambios en la agenda                          | Alta                     | Alta                       | Alta                     | Alta                       |
+| Priorizar citas según fidelidad                       | Media                    | Alta                       | Nunca                    | Baja                       |
+| Escoger un estilista en específico para la cita       | Media                    | Baja                       | Media                    | Media                      |
+| Colocar precio a los tratamientos                     | Baja                     | Media                      | Baja                     | Media                      |
+| Planificar citas por WhatsApp                         | Alta                     | Alta                       | Alta                     | Alta                       |
+| Gestionar horarios de los estilistas                  | Alta                     | Alta                       | Nunca                    | Baja                       |
+| Recordar a los clientes de sus citas                  | Alta                     | Alta                       | Nunca                    | Media                      |
+| Llegar temprano al salón                              | Baja                     | Media                      | Alta                     | Alta                       |
+| Realizar el pago por el servicio                      | Alta                     | Alta                       | Alta                     | Alta                       |
+| Pagar por medios electrónicos                         | Baja                     | Baja                       | Alta                     | Alta                       |
+
 ### 2.3.3. User Journey Mapping.
 ### 2.3.4. Empathy Mapping.
 Segmento objetivo #1: Salones de belleza y barberías
