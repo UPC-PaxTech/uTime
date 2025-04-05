@@ -286,6 +286,48 @@ Según Giselle Spa en La Molina (2021), se realizo una encuesta a 205 cliente re
 
 ## 1.3. Segmentos objetivo.
 
+Los segmentos objetivos son las personas o entidades a las cuales está destinada nuestra solución. A continuación se nombraran los que abarca nuestra propuesta.
+
+## Segmento objetivo #1: Salones de belleza y barberías
+
+###  Aspectos Demográficos
+
+- Rango de edad: Mayores de 20 años
+- Sexo: Masculino y femenino
+- Nivel socioeconómico: clases A, B (alta y media-alta)
+
+### Aspectos geográficos:
+
+- Nacionalidad: Peruana o extranjera
+- Zona geográfica de residencia: urbana
+- Departamento: Lima Metropolitana
+
+### Aspectos psicográficos:
+
+- Uso frecuente de medios de comunicación, tales como WhatsApp y llamadas telefónicas, para interactuar con los clientes.
+- Un día a día con la agenda apretada por las reservas de los clientes y poca flexibilidad.
+
+
+## Segmento objetivo #2: Clientes de servicios de belleza
+
+### Aspectos Demográficos
+
+- Rango de edad: Mayores de 18 años
+- Sexo: Masculino y femenino
+- Nivel socioeconómico: clases A, B y C (alta, media-alta y media)
+
+### Aspectos geográficos:
+
+- Nacionalidad: Peruana o extranjera
+- Zona geográfica de residencia: urbana
+- Departamento: Lima Metropolitana
+
+### Aspectos psicográficos:
+
+- Van frecuentemente a salones de belleza para estar a la moda o estar presentable para un evento importante.
+- Tienden a preferir tratarse con el mismo estilista o barbero debido a experiencias anteriores o por la técnica del especialista.
+
+
 # Capítulo II: Requirements Elicitation & Analysis
 
 ## 2.1. Competidores.
@@ -774,6 +816,20 @@ Segmento objetivo #2: Clientes de servicios de belleza
 
 ## 2.4. Ubiquitous Language.
 
+| Term                                             | Definition                                                                       |
+|--------------------------------------------------|----------------------------------------------------------------------------------|
+| **Scheduled Appointment (Cita Agendada)**        | Una reserva previamente agendada por un cliente en un horario específio          |
+| **Available Slot (Horario Disponible)**          | Un periodo de tiempo donee no hau citas agendadas.                               |
+| **Frequent Client (Cliente frecuente)**          | Cliente que acude regularmente a al salon o barberia.                            |
+| **Time Block (Bloque de tiempo)**                | Unidad de duración en la plataforma. Se usan para estandarizar las citas         |
+| **Cancellation (Cancelcación)**                  | Cancelar una cita programada. Esto libera el bloque de tiempo que le corresponde |
+| **Rescheduling (Reprogramación)**                | Cambia la fecha de una cita ya agendada.                                         |
+| **Appointment Reminder (Recordatorio de Cita)**  | Notificación al usuario para confirmar su cita.                                  |
+| **High-Demand Period (Periodo de alta demanda)** | Fechas en las cuales existe una mayor cantidad de clientes realiando citas.      |
+| **New Client (Cliente Nuevo)**                   | Un cliente nuevo que no tiene preferencia por ningun estilista.                  |
+| **Selected Service (Servicio seleccionado)**     | Un tratamiento de especifico que ha sido seleccionado para la cita.              |
+| **Schedule Update (Cambio en la agenda)**        | Cualquier cambio en el horario de citas.                                         |
+
 # Capítulo III: Requirements Specification
 
 ## 3.1. To-Be Scenario Mapping.
@@ -792,6 +848,12 @@ Segmento objetivo #1: Salones de belleza y barberías
         <th> -Se abr</th>
     </tr>
 </table>
+
+| Phases   | Recepción de cita                                                                                                                    | Revisión de disponibilidad                                                                                                                                                                      | Negociación o aceptación de cita                                                                                                                                                                                                                      | Emisión de estado de cita                                                                                                                                    |
+|----------|--------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Doing    | -Por los medios dados por el salón (Instagram, llamada, etc), se revisa y recepciona las entradas de citas deseadas por los clientes | - Se revisa usando cuaderno u otros metodos informales si hay estilistas disponibles a la hora deseada del cliente<br/>- Se ofrece un tiempo disponible al cliente en caso no tenga uno pensado | - Si hay horario disponible para el cliente se acepta y se registre en el cuaderno manualmente. <br/>- Si no hay horario disponible, se intenta negociar con el cliente otro tiempo en el cual sea posible generar la cita y se anota respetivamente. | - Se confirma el horario y se recuerda al cliente de su proxima cita en la misma plataforma que usaron para contactarnos.                                    |
+| Thinking | - "Tengo una cantidad enorme de sitios que revisar por las citas de los clientes"                                                    | - "Espero encontrar rápido un tiempo libre para la cita del cliente."                                                                                                                           | - "Es exhausto tener que hablar con cada uno de los clientes mediante diferentes plataformas."                                                                                                                                                        | -"Tengo que mandar a cada uno de los clientes la confirmacion y un recordatorio"                                                                             |
+| Feeling  | - Exaustos por la cantidad de sitios a chequear. <br/>- Abrumado por la cantidad de clientes en diferentes sitios                    | - "Apurado por encontrar un tiempo adecuado para el cliente".<br/>- "Ansioso por dar una respuesta satisfactoria al cliente"                                                                    | - Exausto y aliviado por encontrar un horario disponible manualmente<br/>- Frustrado que el cliente no concuerde con los horarios disponibles y repetir varias veces lo mismo                                                                         | - Frustrado en tener que volver a mandar recordatorios y confirmaciones de todas las citas registradas por la misma plataforma en la cual fueron contactados |
 
 ## 3.2. User Stories.
 
