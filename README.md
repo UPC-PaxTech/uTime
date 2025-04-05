@@ -14,7 +14,7 @@ Ciclo 2025-01
 **Nombre del StartUp:** PaxTech
 
 **Nombre del Producto:** uTime
-
+b
 
 | Miembro                             | Código     |
 |-------------------------------------|------------|
@@ -560,7 +560,11 @@ Segmento objetivo #2: Clientes de servicios de belleza
 | Pagar por medios electrónicos                         | Baja                     | Baja                       | Alta                     | Alta                       |
 
 ### 2.3.3. User Journey Mapping.
+Para el segmento de los salones estilistas o barberos se consideró el momento desde que el cliente se contacta con la recepcionista hasta que el cliente haya terminado su cita y haya salido de salón. En la otra mano, para el segmento de los clientes de los salones se consideró desde que descubren el salón de manera online o por otra persona hasta que haya atendido la cita deseada.
 
+![Journey mapping | Segmento objetivo #1](img/Segmento%20objetivo%20%231_Salones%20de%20belleza%20y%20barberías%20Journey%20Mapping.png)
+
+![Journey mapping | Segmento objetivo #2](img/Segmento%20objetivo%20%232_%20Clientes%20de%20servicios%20de%20belleza%20Journey%20Mapping.png)
 ### 2.3.4. Empathy Mapping.
 Segmento objetivo #1: Salones de belleza y barberías
 ![Andrea Mercedes (2).png](../../../Downloads/Andrea%20Mercedes%20%282%29.png)
@@ -587,13 +591,22 @@ Segmento objetivo #2: Clientes de servicios de belleza
 ## 2.4. Ubiquitous Language.
 # Capítulo III: Requirements Specification
 ## 3.1. To-Be Scenario Mapping.
-Segmento objetivo #1: Salones de belleza y barberías
 
-| Phases   | Recepción de cita                                                                                                                    | Revisión de disponibilidad                                                                                                                                                                      | Negociación o aceptación de cita                                                                                                                                                                                                                      | Emisión de estado de cita                                                                                                                                    |
-|----------|--------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Doing    | -Por los medios dados por el salón (Instagram, llamada, etc), se revisa y recepciona las entradas de citas deseadas por los clientes | - Se revisa usando cuaderno u otros metodos informales si hay estilistas disponibles a la hora deseada del cliente<br/>- Se ofrece un tiempo disponible al cliente en caso no tenga uno pensado | - Si hay horario disponible para el cliente se acepta y se registre en el cuaderno manualmente. <br/>- Si no hay horario disponible, se intenta negociar con el cliente otro tiempo en el cual sea posible generar la cita y se anota respetivamente. | - Se confirma el horario y se recuerda al cliente de su proxima cita en la misma plataforma que usaron para contactarnos.                                    |
-| Thinking | - "Tengo una cantidad enorme de sitios que revisar por las citas de los clientes"                                                    | - "Espero encontrar rápido un tiempo libre para la cita del cliente."                                                                                                                           | - "Es exhausto tener que hablar con cada uno de los clientes mediante diferentes plataformas."                                                                                                                                                        | -"Tengo que mandar a cada uno de los clientes la confirmacion y un recordatorio"                                                                             |
-| Feeling  | - Exaustos por la cantidad de sitios a chequear. <br/>- Abrumado por la cantidad de clientes en diferentes sitios                    | - "Apurado por encontrar un tiempo adecuado para el cliente".<br/>- "Ansioso por dar una respuesta satisfactoria al cliente"                                                                    | - Exausto y aliviado por encontrar un horario disponible manualmente<br/>- Frustrado que el cliente no concuerde con los horarios disponibles y repetir varias veces lo mismo                                                                         | - Frustrado en tener que volver a mandar recordatorios y confirmaciones de todas las citas registradas por la misma plataforma en la cual fueron contactados |
+Segmento objetivo #1: Salones de belleza y barberías
+<table>
+    <tr>
+        <th>Phases</th>
+        <th>Recepción de cita</th>
+        <th>Revisión de disponibilidad</th>
+        <th>Negociación o aceptación de cita</th>
+        <th>Emisión de estado de cita</th>
+    </tr>
+    <tr>
+        <th>Doing</th>
+        <th> -Se abr</th>
+    </tr>
+</table>
+
 ## 3.2. User Stories.
 ## 3.3. Impact Mapping.
 ## 3.4. Product Backlog.
