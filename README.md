@@ -878,8 +878,102 @@ Segmento objetivo #1: Salones de belleza y barberías
     </tr>
     <tr>
         <th>Doing</th>
-        <th> -Se abr</th>
+        <th> -Se abre la aplicación web usando las credenciales y se revisa las citas generadas por los clientes. <br> -Cada estilista puede ver sus clientes asignados por horario</th>
+         <th>-En el calendario de la aplicación web, se reviza en las secciones sin eventos para confirmar disponibilidad.</th>
+         <th>-En la aplicación web, se permite añadir una cita para los clientes que aun se comunican a traves de otros medios.</th>
+         <th>-Estado e información de la cita se envia a traves de e-mail automaticamente</th>
     </tr>
+   <tr>
+      <th>Thinking</th>
+      <th>-"Todas las estilistas ya tienen sus horarios y no tengo que manualmente registrar todas las citas ya que los clientes pueden escoger!"</th>
+      <th>-"Puedo revisar facilmente horarios disponibles gracias al calendario en vivo" <br>-"No tengo que estar en largas conversasiones con los clientes para decidir sus citas"</th>
+      <th>-"Es facil insertar un evento en el calendario ya que no tengo que buscar el momento específico, solo necesito saber la hora o hacer click en el espacio en el calendario"</th>
+      <th>-"Espero que el correo del estado de la cita del cliente lo haya recibido"</th>
+   </tr>
+   <tr>
+  <th>Feeling</th>
+  <td>
+    - Alivio por no tener que organizar todo manualmente. <br>
+    - Satisfacción al ver que las clientas pueden reservar por sí solas. <br>
+    - Más confianza en el sistema.
+  </td>
+  <td>
+    - Tranquilidad al revisar fácilmente los horarios libres. <br>
+    - Menos estrés por no tener que escribir o llamar varias veces al cliente. <br>
+    - Seguridad en la disponibilidad real del personal.
+  </td>
+  <td>
+    - Comodidad al registrar citas rápidamente con pocos clics. <br>
+    - Menos presión por encontrar huecos a mano o anotar en papeles. <br>
+    - Confianza en que todo queda bien organizado en el sistema.
+  </td>
+  <td>
+    - Seguridad al saber que el sistema envía el correo automáticamente. <br>
+    - Relajación al no tener que recordar hacerlo manualmente. <br>
+    - Ligera duda al no tener confirmación visual inmediata de la entrega.
+  </td>
+</tr>
+</table>
+
+Segmento objetivo #2: Clientes de servicios de belleza
+
+<table>
+    <tr>
+        <th>Phases</th>
+        <th>Contactar al salón de estilista o barbero</th>
+        <th>Preguntar por disponibilidad</th>
+        <th>Aceptar el horario ofrecido o escoger otro</th>
+        <th>Recepción de estado de cita</th>
+    </tr>
+    <tr>
+        <th>Doing</th>
+        <th> -Mediante un link publicado por las redes del salón, se abre la aplicación web donde se encuentra el calendario del salón</th>
+         <th>-En el calendario se puede revisar de manera organizada los horarios disponibles gracias a los sectores vacíos del calendario.</th>
+         <th>-Usando email, loguear al calendario y seleccionar el espacio vacío para registrar la cita con el estilista y servicio deseado</th>
+         <th>-Revisar confirmación de la cita en el e-mail</th>
+    </tr>
+   <tr>
+  <th>Thinking</th>
+  <td>
+    -"Qué práctico, no necesito escribir ni esperar respuesta." <br>
+    -"Puedo revisar los horarios cuando quiera, sin molestar a nadie."
+  </td>
+  <td>
+    -"Es fácil entender cuándo hay disponibilidad." <br>
+    -"No necesito preguntar, puedo verlo todo directamente."
+  </td>
+  <td>
+    -"Puedo elegir el horario que más me conviene." <br>
+    -"Qué cómodo que todo esté en un solo lugar y no tenga que hacer llamadas."
+  </td>
+  <td>
+    -"Ya me llegó la confirmación, genial." <br>
+    -"Sé exactamente cuándo y con quién tengo la cita."
+  </td>
+</tr>
+<tr>
+  <th>Feeling</th>
+  <td>
+    - Alivio por no tener que esperar respuestas manuales. <br>
+    - Autonomía y control del proceso. <br>
+    - Comodidad.
+  </td>
+  <td>
+    - Tranquilidad al poder ver claramente la disponibilidad. <br>
+    - Confianza en el sistema. <br>
+    - Relajación.
+  </td>
+  <td>
+    - Satisfacción por poder elegir sin depender de nadie. <br>
+    - Seguridad al ver reflejada su selección en tiempo real. <br>
+    - Confianza.
+  </td>
+  <td>
+    - Confirmación inmediata que genera tranquilidad. <br>
+    - Alegría por la organización. <br>
+    - Sensación de profesionalismo.
+  </td>
+</tr>
 </table>
 
 | Phases   | Recepción de cita                                                                                                                    | Revisión de disponibilidad                                                                                                                                                                      | Negociación o aceptación de cita                                                                                                                                                                                                                      | Emisión de estado de cita                                                                                                                                    |
