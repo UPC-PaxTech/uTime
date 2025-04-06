@@ -263,12 +263,23 @@ A través de cualquier dispositivo con conexión a internet y capás de abrir un
 ##### Estadísticas que sustentan la problemática.
 
 Según Ochoa (2021), en una encuesta realizada en un salón de belleza llamado “Mónica Garcés”, el 80% de encuestados argumenta que no recibe una atención adecuada respecto a la reservación de citas a un salón de belleza. Asimismo, el 20% desconoce dicho proceso. Por lo general, se suelen comunicar mediante vía telefónica con la dueña del local, y no se logra llevar un control o manejo adecuado de horarios.
-![img.png](img.png)
+
+<div align="center">
+<img src="img/img.png" alt="dato_estadistico_1" />
+</div>
+
 De acuerdo a los salones de belleza que operan en Tegucigalpa, el 53,3% de las mujeres esperan ser atendidas por orden de llegada en salones de belleza. Sin embargo, en su mayoría estos servicios no cuentan con un servicio via web que les permita administrar sus servicios de forma eficiente.
-![img_1.png](img_1.png)
+
+<div align="center">
+<img src="img/img_1.png" alt="dato_estadistico_2" />
+</div>
+
 Según Giselle Spa en La Molina (2021), se realizo una encuesta a 205 cliente respecto a la calidad de servicio que ofrece el salon de belleza se identifico que el 53,4% admiten que dicha calidad se manifiesta de forma regular, debido al poco interés que se percibe respecto a los cronogramas, comunicación activa y organización laboral.
-![img_2.png](img_2.png)
-![img_3.png](img_3.png)
+
+<div align="center">
+<img src="img/img_2.png" alt="dato_estadistico_3" />
+<img src="img/img_3.png" alt="dato_estadistico_4" />
+</div>
 
 ### 1.2.2 Lean UX Process
 
@@ -753,9 +764,20 @@ Entonces, podemos aplicar las siguientes estrategias y tácticas:
 ### 2.3.1. User Personas.
 
 Segmento objetivo #1: Salones de belleza y barberías
-![Andrea Mercedes (1).png](../../../Downloads/Andrea%20Mercedes%20%281%29.png)
+
+<div align="center">
+
+<img src="img/Andrea_Mercedes_user_persona.png" alt="user_persona_1" />
+
+</div>
+
 Segmento objetivo #2: Clientes de servicios de belleza
-![Camila Cortéz.png](../../../Downloads/Camila%20Cort%C3%A9z.png)
+
+<div align="center">
+
+<img src="img/Camila_Cortez_user_persona.png" alt="user_persona_2" />
+
+</div>
 
 ### 2.3.2. User Task Matrix.
 
@@ -790,9 +812,20 @@ Para el segmento de los salones estilistas o barberos se consideró el momento d
 ### 2.3.4. Empathy Mapping.
 
 Segmento objetivo #1: Salones de belleza y barberías
-![Andrea Mercedes (2).png](../../../Downloads/Andrea%20Mercedes%20%282%29.png)
+
+<div align="center">
+
+<img src="img/Andrea_Mercedes_empathy_mapping.png" alt="empathy_mapping_1" />
+
+</div>
+
 Segmento objetivo #2: Clientes de servicios de belleza
-![Camila Cortéz (1).png](../../../Downloads/Camila%20Cort%C3%A9z%20%281%29.png)
+
+<div align="center">
+
+<img src="img/Camila_Cortez_empathy_mapping.png" alt="empathy_mapping_2" />
+
+</div>
 
 ### 2.3.5. As-is Scenario Mapping.
 
