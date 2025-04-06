@@ -879,7 +879,7 @@ Segmento objetivo #1: Salones de belleza y barberías
     <tr>
         <th>Doing</th>
         <th> -Se abre la aplicación web usando las credenciales y se revisa las citas generadas por los clientes. <br> -Cada estilista puede ver sus clientes asignados por horario</th>
-         <th>-En el calendario de la aplicación web, se reviza en las secciones sin eventos para confirmar disponibilidad.</th>
+         <th>-En el calendario de la aplicación web, se revisa en las secciones sin eventos para confirmar disponibilidad.</th>
          <th>-En la aplicación web, se permite añadir una cita para los clientes que aun se comunican a traves de otros medios.</th>
          <th>-Estado e información de la cita se envia a traves de e-mail automaticamente</th>
     </tr>
