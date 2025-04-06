@@ -173,9 +173,16 @@ Se explican las ramas más prominentes:
 
 | Criterio específico                                                | Acciones realizadas | Conclusiones |
 |--------------------------------------------------------------------|---------------------|--------------|
-| Comunica oralmente con efectividad a diferentes rangos de audiencia. | dds                 | ddsa         |
-| Comunica por escrito con efectividad a diferentes rangos de audiencia | dds                 | ddsa         |
+| Comunica oralmente con efectividad a diferentes rangos de audiencia. | Kevin Chi:<br> Gael Rivera:<br> Marcelo Varela:<br> Angie Talán:<br> Jorge Yum:<br>| ddsa         |
+| Comunica por escrito con efectividad a diferentes rangos de audiencia | Kevin Chi:<br> Gael Rivera:<br> Marcelo Varela:<br> Angie Talán:<br> Jorge Yum:<br> | ddsa         |
 
+| Nombre                              | Código    |
+| ----------------------------------- | ---------- |
+| Chi Cruzatt, Kevin Jorge            | U202313655 |
+| Rivera Sosa, Eduardo Gael           | U202312222 |
+| Varela Bustinza, Marcelo Alessandro | U202319668 |
+| Yalán Zhang, Angie Christina       | U202312504 |
+| Yum Gonzales, Jorge Suin            | U202210838 |
 
 # Capítulo I: Introducción
 
