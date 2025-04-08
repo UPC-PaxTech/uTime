@@ -1017,7 +1017,52 @@ Segmento objetivo #2: Clientes de servicios de belleza
 
 ### 3.2.1 Requisitos Funcionales
 
+<table>
+  <tr>
+    <th>Código</th>
+    <th>Requisito</th>
+  </tr>
+  <tr>
+    <td colspan="2" align="center">Grupo Funcional: [Nombre del Grupo Funcional]</td>
+  </tr>
+  <tr>
+    <th colspan="1" align="center">RFU-001</th>
+    <td colspan="1" align="center"> [Requisito funcional numero 1]</td>
+  </tr>
+   <tr>
+    <th colspan="1" align="center">RFU-002</th>
+    <td colspan="1" align="center"> [Requisito funcional numero 2]</td>
+  </tr>
+   <tr>
+    <th colspan="1" align="center">RFU-003</th>
+    <td colspan="1" align="center"> [Requisito funcional numero 3]</td>
+  </tr>
+</table>
+
 ### 3.2.2 Requisitos No Funcionales
+
+<table>
+  <tr>
+    <th>Código</th>
+    <th>Requerimiento</th>
+    <th>Tipo</th>
+  </tr>
+  <tr>
+    <th colspan="1" align="center">RNF-001</th>
+    <td colspan="1" align="center"> [Requisito no funcional numero 1]</td>
+    <td colspan="1" align="center"> [Tipo del requisito no funcional numero 1]</td>
+  </tr>
+   <tr>
+    <th colspan="1" align="center">RNF-002</th>
+    <td colspan="1" align="center"> [Requisito no funcional numero 2]</td>
+    <td colspan="1" align="center"> [Tipo del requisito no funcional numero 2]</td>
+  </tr>
+   <tr>
+    <th colspan="1" align="center">RNF-003</th>
+    <td colspan="1" align="center"> [Requisito no funcional numero 3]</td>
+    <td colspan="1" align="center"> [Tipo del requisito funcional numero 3]</td>
+  </tr>
+</table>
 
 ## 3.3. Impact Mapping.
 
