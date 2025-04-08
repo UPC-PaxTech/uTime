@@ -1,0 +1,7 @@
+# Ignorar configuración de WebStorm (u otros IDEs de JetBrains)
+.idea/
+*.iml
+
+# Ignorar archivos de sistema comunes
+.DS_Store
+Thumbs.db
