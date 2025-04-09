@@ -1045,6 +1045,21 @@ Segmento objetivo #2: Clientes de servicios de belleza
     <th colspan="1" align="center">RFU-005</th>
     <td colspan="1">El sistema debe enviar un código de verificación al correo electrónico para confirmar el registro.</td>
   </tr>
+   <tr>
+    <td colspan="2" align="center">Grupo Funcional: Inicio de Sesión</td>
+  </tr>
+  <tr>
+    <th colspan="1" align="center">RFU-001</th>
+    <td colspan="1">El sistema debe permitir que los usuarios inicien sesión mediante su correo electrónico y contraseña.</td>
+  </tr>
+   <tr>
+    <th colspan="1" align="center">RFU-002</th>
+    <td colspan="1">El sistema debe permitir a los usuarios activar la autenticación en dos pasos (2FA) mediante un código enviado por correo.</td>
+  </tr>
+   <tr>
+    <th colspan="1" align="center">RFU-003</th>
+    <td colspan="1">El sistema debe mostrar un mensaje de error si el correo o la contraseña ingresados son incorrectos.</td>
+  </tr>
 </table>
 
 
