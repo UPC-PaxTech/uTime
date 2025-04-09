@@ -1049,32 +1049,56 @@ Segmento objetivo #2: Clientes de servicios de belleza
     <th colspan="2" align="center">Grupo Funcional: Inicio de Sesión</th>
   </tr>
   <tr>
-    <th colspan="1" align="center">RFU-005</th>
+    <th colspan="1" align="center">RFU-006</th>
     <td colspan="1">El sistema debe permitir que los usuarios inicien sesión mediante su correo electrónico y contraseña.</td>
   </tr>
    <tr>
-    <th colspan="1" align="center">RFU-006</th>
+    <th colspan="1" align="center">RFU-007</th>
     <td colspan="1">El sistema debe permitir a los usuarios activar la autenticación en dos pasos (2FA) mediante un código enviado por correo.</td>
   </tr>
    <tr>
-    <th colspan="1" align="center">RFU-007</th>
+    <th colspan="1" align="center">RFU-008</th>
     <td colspan="1">El sistema debe mostrar un mensaje de error si el correo o la contraseña ingresados son incorrectos.</td>
    </tr>
   <tr>
    <th colspan="2" align="center">Grupo Funcional: Recuperación de Contraseña</th>
    </tr>
    <tr>
-    <th colspan="1" align="center">RFU-005</th>
+    <th colspan="1" align="center">RFU-009</th>
     <td colspan="1">El sistema debe permitir a los usuarios recuperar su contraseña ingresando su correo electrónico.</td>
    </tr>
    <tr>
-    <th colspan="1" align="center">RFU-006</th>
+    <th colspan="1" align="center">RFU-010</th>
     <td colspan="1">El sistema debe enviar un código de recuperación al correo registrado.</td>
   </tr>
    <tr>
-    <th colspan="1" align="center">RFU-007</th>
+    <th colspan="1" align="center">RFU-011</th>
     <td colspan="1">El sistema debe permitir que el usuario ingrese el código y establezca una nueva contraseña.</td>
   </tr>
+   <tr>
+   <th colspan="2" align="center">Grupo Funcional: Perfil de Usuario</th>
+   </tr>
+   <tr>
+    <th colspan="1" align="center">RFU-009</th>
+    <td colspan="1">El sistema debe permitir a los clientes editar su nombre, apellido, descripción y foto de perfil.</td>
+   </tr>
+   <tr>
+    <th colspan="1" align="center">RFU-010</th>
+    <td colspan="1">El sistema debe permitir que los clientes editen sus datos personales después del registro.</td>
+  </tr>
+   <tr>
+    <th colspan="1" align="center">RFU-011</th>
+    <td colspan="1">El sistema debe permitir que los salones de belleza editen su foto de perfil, nombre y descripción.</td>
+  </tr>
+   <tr>
+    <th colspan="1" align="center">RFU-011</th>
+    <td colspan="1">El sistema debe restringir la modificación del nombre del salón a una vez cada 15 días, salvo en planes de suscripciones superiores al básico.</td>
+  </tr>
+   <tr>
+    <th colspan="1" align="center">RFU-011</th>
+    <td colspan="1">El sistema debe permitir mayor personalización del perfil a los salones según su plan de suscripción.</td>
+  </tr>
+   
 </table>
 
 
