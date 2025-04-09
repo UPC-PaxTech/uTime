@@ -1105,6 +1105,17 @@ Segmento objetivo #2: Clientes de servicios de belleza
     <th colspan="1" align="center">RFU-017</th>
     <td colspan="1">El sistema debe permitir que los usuarios cierren sesión desde cualquier dispositivo.</td>
    </tr>
+   <tr>
+   <th colspan="2" align="center">Grupo Funcional: Eliminación de Cuenta</th>
+   </tr>
+   <tr>
+    <th colspan="1" align="center">RFU-018</th>
+    <td colspan="1">El sistema debe permitir a los usuarios eliminar su cuenta de forma definitiva desde el panel de configuración.</td>
+   </tr>
+   <tr>
+    <th colspan="1" align="center">RFU-019</th>
+    <td colspan="1">El sistema debe solicitar confirmación antes de realizar la eliminación de cuenta.</td>
+   </tr>
 </table>
 
 
