@@ -1020,10 +1020,10 @@ Segmento objetivo #2: Clientes de servicios de belleza
 <table>
   <tr>
     <th>Código</th>
-    <th>Requisito</th>
+    <th>Requisitos</th>
   </tr>
   <tr>
-    <td colspan="2" align="center">Grupo Funcional: Registro de Usuarios</td>
+    <th colspan="2" align="center">Grupo Funcional: Registro de Usuarios</th>
   </tr>
   <tr>
     <th colspan="1" align="center">RFU-001</th>
@@ -1046,19 +1046,34 @@ Segmento objetivo #2: Clientes de servicios de belleza
     <td colspan="1">El sistema debe enviar un código de verificación al correo electrónico para confirmar el registro.</td>
   </tr>
    <tr>
-    <td colspan="2" align="center">Grupo Funcional: Inicio de Sesión</td>
+    <th colspan="2" align="center">Grupo Funcional: Inicio de Sesión</th>
   </tr>
   <tr>
-    <th colspan="1" align="center">RFU-001</th>
+    <th colspan="1" align="center">RFU-005</th>
     <td colspan="1">El sistema debe permitir que los usuarios inicien sesión mediante su correo electrónico y contraseña.</td>
   </tr>
    <tr>
-    <th colspan="1" align="center">RFU-002</th>
+    <th colspan="1" align="center">RFU-006</th>
     <td colspan="1">El sistema debe permitir a los usuarios activar la autenticación en dos pasos (2FA) mediante un código enviado por correo.</td>
   </tr>
    <tr>
-    <th colspan="1" align="center">RFU-003</th>
+    <th colspan="1" align="center">RFU-007</th>
     <td colspan="1">El sistema debe mostrar un mensaje de error si el correo o la contraseña ingresados son incorrectos.</td>
+   </tr>
+  <tr>
+   <th colspan="2" align="center">Grupo Funcional: Recuperación de Contraseña</th>
+   </tr>
+   <tr>
+    <th colspan="1" align="center">RFU-005</th>
+    <td colspan="1">El sistema debe permitir a los usuarios recuperar su contraseña ingresando su correo electrónico.</td>
+   </tr>
+   <tr>
+    <th colspan="1" align="center">RFU-006</th>
+    <td colspan="1">El sistema debe enviar un código de recuperación al correo registrado.</td>
+  </tr>
+   <tr>
+    <th colspan="1" align="center">RFU-007</th>
+    <td colspan="1">El sistema debe permitir que el usuario ingrese el código y establezca una nueva contraseña.</td>
   </tr>
 </table>
 
