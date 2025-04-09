@@ -1127,20 +1127,23 @@ Segmento objetivo #2: Clientes de servicios de belleza
     <th>Requerimiento</th>
     <th>Tipo</th>
   </tr>
+  <th colspan="2" align="center">Grupo Funcional: Seguridad</th>
   <tr>
     <th colspan="1" align="center">RNF-001</th>
-    <td colspan="1" align="center"> [Requisito no funcional numero 1]</td>
-    <td colspan="1" align="center"> [Tipo del requisito no funcional numero 1]</td>
+    <td colspan="1" align="center"> El sistema debe autorizar solo a los usuarios autenticados al realizar o cancelar citas.</td>
   </tr>
-   <tr>
+  <tr>
     <th colspan="1" align="center">RNF-002</th>
-    <td colspan="1" align="center"> [Requisito no funcional numero 2]</td>
-    <td colspan="1" align="center"> [Tipo del requisito no funcional numero 2]</td>
+    <td colspan="1" align="center"> El sistema debe protegerse contra ataques de tipo inyección SQL</td>
   </tr>
-   <tr>
+  <th colspan="2" align="center">Grupo Funcional: Disponibilidad y rendimiento</th>
+  <tr>
     <th colspan="1" align="center">RNF-003</th>
-    <td colspan="1" align="center"> [Requisito no funcional numero 3]</td>
-    <td colspan="1" align="center"> [Tipo del requisito funcional numero 3]</td>
+    <td colspan="1" align="center"> La aplicación debe estar disponible al menos el 99% del tiempo mensual.</td>
+  </tr>
+  <tr>
+    <th colspan="1" align="center">RNF-004</th>
+    <td colspan="1" align="center"> El sistema debe soportar al menos 100 usuarios concurrentes.</td>
   </tr>
 </table>
 
