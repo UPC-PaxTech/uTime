@@ -1182,7 +1182,7 @@ Segmento objetivo #2: Clientes de servicios de belleza
    </tr>
    <tr>
     <th colspan="1" align="center">RFU-020</th>
-    <td colspan="1">El sistema debe permitir que el cliente seleccione el salón de belleza o barbería con el que desea agendar una cita</td>
+    <td colspan="1">El sistema debe permitir que el cliente seleccione el salón de belleza o barbería con el que desea agendar una cita.</td>
    </tr>
    <tr>
     <th colspan="1" align="center">RFU-021</th>
@@ -1281,19 +1281,19 @@ Segmento objetivo #2: Clientes de servicios de belleza
     <td colspan="1">El sistema debe permitir configurar si las notificaciones se reciben por correo, SMS o en la plataforma (según plan).</td>
    </tr>
    <tr>
-   <th colspan="2" align="center">Grupo Funcional: Subscripciones</th>
+   <th colspan="2" align="center">Grupo Funcional: Suscripciones</th>
    </tr>
    <tr>
     <th colspan="1" align="center">RFU-042</th>
-    <td colspan="1">El sistema debe mostrar al usuario los beneficios que hay por cada tipo de subscripción.</td>
+    <td colspan="1">El sistema debe mostrar al usuario los beneficios que hay por cada tipo de suscripción.</td>
    </tr>
    <tr>
     <th colspan="1" align="center">RFU-043</th>
-    <td colspan="1">El sistema debe mostrar claramente los precios de cada tipos de subscripción al usuario.</td>
+    <td colspan="1">El sistema debe mostrar claramente los precios de cada tipos de suscripción al usuario.</td>
    </tr>
    <tr>
     <th colspan="1" align="center">RFU-044</th>
-    <td colspan="1">El sistema debe mostrar claramente el estado de la subscripción y el nivel que tiene en la sección de subscripción.</td>
+    <td colspan="1">El sistema debe mostrar claramente el estado de la suscripción y el nivel que tiene en la sección de suscripción.</td>
    </tr>
    <tr>
   <th colspan="2" align="center">Grupo Funcional: Pagos</th>
@@ -1323,52 +1323,52 @@ Segmento objetivo #2: Clientes de servicios de belleza
    </tr>
    <tr>
     <th colspan="1" align="center">RFU-050</th>
-    <td colspan="1">La empresa debe de tener la opción de registrar sus servicios, su precio y su duración</td>
+    <td colspan="1">La empresa debe de tener la opción de registrar sus servicios, su precio y su duración.</td>
    </tr>
    <tr>
     <th colspan="1" align="center">RFU-051</th>
-    <td colspan="1">La empresa debe de tener la opción modificar los datos de un servicio existene</td>
+    <td colspan="1">La empresa debe de tener la opción modificar los datos de un servicio existente.</td>
    </tr>
    <tr>
    <th colspan="2" align="center">Grupo Funcional: Gestión de negocio</th>
    </tr>
    <tr>
     <th colspan="1" align="center">RFU-052</th>
-    <td colspan="1">La empresa debe de tener la opción de registrar a sus trabajadores en la plataforma</td>
+    <td colspan="1">La empresa debe de tener la opción de registrar a sus trabajadores en la plataforma.</td>
    </tr>
    <tr>
     <th colspan="1" align="center">RFU-053</th>
-    <td colspan="1">La empresa debe de tener la opción de modificar los datos de sus trabajadores</td>
+    <td colspan="1">La empresa debe de tener la opción de modificar los datos de sus trabajadores.</td>
    </tr>
    <tr>
     <th colspan="1" align="center">RFU-054</th>
-    <td colspan="1">La empresa debe de tener la opción de añadir sus cuentas bancarias en el sistema</td>
+    <td colspan="1">La empresa debe de tener la opción de añadir sus cuentas bancarias en el sistema.</td>
    </tr>
    <tr>
     <th colspan="1" align="center">RFU-055</th>
-    <td colspan="1">La empresa debe de tener la opción de modificar o eliminar sus cuentas bancarias en el sistema</td>
+    <td colspan="1">La empresa debe de tener la opción de modificar o eliminar sus cuentas bancarias en el sistema.</td>
    </tr>
  <tr>
    <th colspan="2" align="center">Grupo Funcional: Marketplace y Gestión de productos</th>
    </tr>
    <tr>
-    <th colspan="1" align="center">RFU-000</th>
+    <th colspan="1" align="center">RFU-056</th>
     <td colspan="1">El sistema debe permitir al cliente visualizar el listado de productos disponibles de un salón o barbería.</td>
    </tr>
    <tr>
-    <th colspan="1" align="center">RFU-000</th>
+    <th colspan="1" align="center">RFU-057</th>
     <td colspan="1">El sistema debe permitir al cliente agregar, eliminar o modificar la cantidad de productos al carrito de compras con un limite o sin uno dependiendo del plan contratado.</td>
    </tr>
    <tr>
-    <th colspan="1" align="center">RFU-000</th>
+    <th colspan="1" align="center">RFU-058</th>
     <td colspan="1">El sistema debe permitir que los clientes puedan visualizar la imagen, descripción y precio de cada producto..</td>
    </tr>
    <tr>
-    <th colspan="1" align="center">RFU-000</th>
+    <th colspan="1" align="center">RFU-059</th>
     <td colspan="1">El sistema debe mostrar al cliente el precio total y unitario de los productos añadidos al carrito. </td>
    </tr>
    <tr>
-    <th colspan="1" align="center">RFU-000</th>
+    <th colspan="1" align="center">RFU-060</th>
     <td colspan="1">El sistema debe mostrar al cliente el botón "vaciar carrito" para eliminar todos los productos del carrito. </td>
    </tr>
 </table>
@@ -1389,7 +1389,7 @@ Segmento objetivo #2: Clientes de servicios de belleza
   </tr>
   <tr>
     <th colspan="1" align="center">RNF-002</th>
-    <td colspan="1" align="center"> El sistema debe protegerse contra ataques de tipo inyección SQL</td>
+    <td colspan="1" align="center"> El sistema debe protegerse contra ataques de tipo inyección SQL.</td>
     <th colspan="1" align="center">Seguridad</th>
   </tr>
   <tr>
@@ -1404,32 +1404,32 @@ Segmento objetivo #2: Clientes de servicios de belleza
   </tr>
   <tr>
     <th colspan="1" align="center">RNF-005</th>
-    <td colspan="1" align="center"> El registro de cita deberia cargar en menos de 10 segundos</td>
+    <td colspan="1" align="center"> El registro de cita deberia cargar en menos de 10 segundos.</td>
     <th colspan="1" align="center">Disponibilidad y rendimiento</th>
   </tr>
   <tr>
     <th colspan="1" align="center">RNF-006</th>
-    <td colspan="1" align="center">Compatibilidad con Chrome, Firefox, Safari y Brave</td>
+    <td colspan="1" align="center">Compatibilidad con Chrome, Firefox, Safari y Brave.</td>
     <th colspan="1" align="center">Compatbilidad</th>
   </tr>
   <tr>
     <th colspan="1" align="center">RNF-007</th>
-    <td colspan="1" align="center"> La interfaz deberia ser comprensible para usuarios con poca experiencia </td>
+    <td colspan="1" align="center"> La interfaz deberia ser comprensible para usuarios con poca experiencia. </td>
     <th colspan="1" align="center"> Usabilidad</th>
   </tr>
   <tr>
     <th colspan="1" align="center">RNF-008</th>
-    <td colspan="1" align="center">Los datos del usuario deben estar encriptados para garantizar su seguridad</td>
+    <td colspan="1" align="center">Los datos del usuario deben estar encriptados para garantizar su seguridad.</td>
     <th colspan="1" align="center">Seguridad</th>
   </tr>
   <tr>
     <th colspan="1" align="center">RNF-009</th>
-    <td colspan="1" align="center">La disponibilidad de los horarios se deben actualizar en tiempo real</td>
+    <td colspan="1" align="center">La disponibilidad de los horarios se deben actualizar en tiempo real.</td>
     <th colspan="1" align="center">Disponibilidad y rendimiento</th>
   </tr>
   <tr>
     <th colspan="1" align="center">RNF-010</th>
-    <td colspan="1" align="center">Se deben seguir buenas prácticas de arquitectura para facilitar la escalabilidad</td>
+    <td colspan="1" align="center">Se deben seguir buenas prácticas de arquitectura para facilitar la escalabilidad.</td>
     <th colspan="1" align="center">Mantenibilidad</th>
   </tr>
 </table>
@@ -1437,6 +1437,7 @@ Segmento objetivo #2: Clientes de servicios de belleza
 ### 3.2.3 User Stories
 
 
+<<<<<<< HEAD
 | **Epic/User Story ID** | **Título**                            | **Descripción**                                                                                                                                                                                                                    | **Criterios de Aceptación** | **Relacion con (Epic ID)** |
 |------------------------|---------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------|-------------------------|
 | EP01                   | Gestion De subscripciones             | Como dueño/administrador, quiero conocer los planes de suscripción disponibles, sus precios y beneficios, y ver claramente cuál es el estado de mi suscripción, para tomar decisiones informadas sobre qué plan elegir o mantener. | No Corresponde              | No Corresponde          |
@@ -1471,6 +1472,24 @@ Segmento objetivo #2: Clientes de servicios de belleza
 | EP58                   |                                       |                                                                                                                                                                                                                                    | No Corresponde              | No Corresponde          |
 | EP59                   |                                       |                                                                                                                                                                                                                                    | No Corresponde              | No Corresponde          |
 | EP60                   |                                       |                                                                                                                                                                                                                                    | No Corresponde              | No Corresponde          |
+=======
+| **Epic/User Story ID** | **Título**                        | **Descripción**                                                                                                                                                                                                                    | **Criterios de Aceptación**                                                                                                                                                                                                                                                                                                     | **Relacion con (Epic ID)** |
+|------------------------|-----------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------|
+| EP01                   | Gestion De subscripciones         | Como dueño/administrador, quiero conocer los planes de suscripción disponibles, sus precios y beneficios, y ver claramente cuál es el estado de mi suscripción, para tomar decisiones informadas sobre qué plan elegir o mantener. | No Corresponde                                                                                                                                                                                                                                                                                                                  | No Corresponde          |
+| EP02                   | Gestión de Pagos y Facturación    | Como dueño/administrador, quiero seleccionar un plan, pagar desde la plataforma y recibir confirmaciones y notificaciones automáticas, para mantener activa mi suscripción sin complicaciones.                                     | No Corresponde                                                                                                                                                                                                                                                                                                                  | No Corresponde          |
+| EP31                   | Gestión de Visualización de citas | Como cliente, quiero visualizar de forma ordenada todas mis citas agendadas incluyendo fecha, hora y servicio, para mantener una control eficiente de mis compromisos.                                                             | No Corresponde                                                                                                                                                                                                                                                                                                                  | No Corresponde          |
+| EP07                   | Gestion De subscripciones                   | Como dueño/administrador, quiero conocer los planes de suscripción disponibles, sus precios y beneficios, y ver claramente cuál es el estado de mi suscripción, para tomar decisiones informadas sobre qué plan elegir o mantener. | No Corresponde                                                                                                                                                                                                                                                                                                                  | No Corresponde             |
+| EP08                   | Gestión de Pagos y Facturación              | Como dueño/administrador, quiero seleccionar un plan, pagar desde la plataforma y recibir confirmaciones y notificaciones automáticas, para mantener activa mi suscripción sin complicaciones.                          | No Corresponde                                                                                                                                                                                                                                                                                                                  | No Correspondeq            |
+| US042                  | Visualizacion de beneficios de subscripción | Como dueño/administrador, quiero ver los beneficios de cada tipo de suscripción, para elegir el plan que más me conviene.                                                                                               | Escenario 1: Comparación de beneficios de subscripciones<br>**Dado que** un dueño/administrador visita la sección de planes de suscripción, <br/>**Cuando** hace click en una de las subscripción disponibles, <br/>**Entonces** el sistema debe mostrar claramente los beneficios de cada uno en formato lista o tabla comparativa.                  |EP07|
+| US043                  | Visualizacion de precios                    | Como dueño/administrador, quiero ver claramente los precios de cada tipo de suscripción, para saber cuánto debo pagar.                                                                                                  | Escenario 1: Comparación de precios<br> **Dado que** un usuario accede a la sección de suscripciones,<br>**Cuando** selecciona un tipo de plan,<br/>**Entonces** el sistema debe mostrar el precio mensual y/o anual actualizado antes de que realice el pago.                                                                                   |EP07|
+| US044    | Estado y nivel de suscripción                            | Como dueño/administrador, quiero ver el estado y nivel de mi suscripción, para saber si mi plan está activo o necesita renovación.                                                                                      | Escenario 1: Visualización del estado de la suscripción<br>**Dado que** un usuario ha iniciado sesión,<br>**Cuando** accede a la sección de suscripción,<br>**Entonces** el sistema debe mostrar el nombre del plan actual, el estado (activo/inactivo) y la fecha de vencimiento o renovación.                                             | EP07     |
+| US045    | Selección y pago de plan                                 | Como salón, quiero seleccionar un plan desde la plataforma y proceder al pago, para activar mi suscripción.                                                                                                             | Escenario 1: Selección de plan y redirección a pago<br>**Dado que** el salón ha iniciado sesión,<br>**Cuando** selecciona un plan y hace clic en "Pagar",<br>**Entonces** el sistema debe redirigirlo al proceso de pago y mostrar un resumen del plan seleccionado.                                                                        | EP08     |
+| US046 | Pago seguro con tarjeta o billetera digital | Como usuario, quiero pagar mi suscripción con tarjeta o billetera digital, para completar mi suscripción de forma segura. | Escenario 1: Procesamiento de pago seguro<br>**Dado que** el usuario ha elegido un plan de suscripción, **Cuando** completa los datos de pago y confirma, Entonces el sistema debe procesar el pago mediante una pasarela compatible con bancos peruanos y billeteras digitales como Yape o Plin, y mostrar si fue exitoso o fallido.   | EP08 |
+| US047    | Confirmación de pago                                      | Como dueño/administrador, quiero recibir una confirmación visual y por correo al completar mi pago, para saber que todo se procesó correctamente.                                                                                   | Escenario 1: Confirmación después del pago<br>**Dado que** el pago fue procesado correctamente,<br>**Cuando** se completa la transacción,<br>**Entonces** el sistema debe mostrar una pantalla de confirmación y enviar un correo con los detalles del plan y pago realizado.                                                               | EP08     |
+| US048    | Renovación automática de suscripción                      | Como dueño/administrador, quiero activar la renovación automática de mi suscripción, para no tener que pagar manualmente cada vez.                                                                                                  | Escenario 1: Activación de renovación automática<br>**Dado que** el usuario tiene una suscripción activa,<br>**Cuando** activa la opción de renovación automática en su perfil,<br>**Entonces** el sistema debe guardar la preferencia y renovar automáticamente en la fecha de vencimiento.                                                | EP08     |
+| US049    | Alertas por vencimiento o fallo de pago                  | Como dueño/administrador, quiero recibir alertas si mi pago está por vencer o si falla, para no perder mi acceso al servicio.                                                                                                       | Escenario 1: Alerta de vencimiento<br>**Dado que** la suscripción está por vencer,<br>**Cuando** falten 3 días,<br>**Entonces** el sistema debe enviar un correo de aviso.<br><br>Escenario 2: Alerta por pago fallido<br>**Dado que** se intenta un cobro automático,<br>**Cuando** falla,<br>**Entonces** se debe enviar un correo y mostrar un aviso. | EP08     |
+
+>>>>>>> 84c92178867bfaba2a906119e487a461167f21ea
 
 
 
