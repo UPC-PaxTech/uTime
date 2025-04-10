@@ -1146,7 +1146,6 @@ Segmento objetivo #2: Clientes de servicios de belleza
     <th colspan="1" align="center">RFU-000</th>
     <td colspan="1">La empresa debe de tener la opción de modificar o eliminar sus cuentas bancarias en el sistema</td>
    </tr>
- 
 </table>
 
 
@@ -1185,13 +1184,28 @@ Segmento objetivo #2: Clientes de servicios de belleza
   </tr>
   <tr>
     <th colspan="1" align="center">RNF-006</th>
-    <td colspan="1" align="center"> Compatibilidad con Chrome, Firefox, Safari y Brave</td>
-    <th colspan="1" align="center"> Compatbilidad</th>
+    <td colspan="1" align="center">Compatibilidad con Chrome, Firefox, Safari y Brave</td>
+    <th colspan="1" align="center">Compatbilidad</th>
   </tr>
   <tr>
-    <th colspan="1" align="center">RNF-006</th>
+    <th colspan="1" align="center">RNF-007</th>
     <td colspan="1" align="center"> La interfaz deberia ser comprensible para usuarios con poca experiencia </td>
     <th colspan="1" align="center"> Usabilidad</th>
+  </tr>
+  <tr>
+    <th colspan="1" align="center">RNF-008</th>
+    <td colspan="1" align="center">Los datos del usuario deben estar encriptados para garantizar su seguridad</td>
+    <th colspan="1" align="center">Seguridad</th>
+  </tr>
+  <tr>
+    <th colspan="1" align="center">RNF-009</th>
+    <td colspan="1" align="center">La disponibilidad de los horarios se deben actualizar en tiempo real</td>
+    <th colspan="1" align="center">Disponibilidad y rendimiento</th>
+  </tr>
+  <tr>
+    <th colspan="1" align="center">RNF-010</th>
+    <td colspan="1" align="center">Se deben seguir buenas prácticas de arquitectura para facilitar la escalabilidad</td>
+    <th colspan="1" align="center">Mantenibilidad</th>
   </tr>
 </table>
 
