@@ -1147,6 +1147,74 @@ Segmento objetivo #2: Clientes de servicios de belleza
     <th colspan="1" align="center">RFU-000</th>
     <td colspan="1">El sistema debe confirmar al cliente que la cita fue creada con éxito y mostrar los detalles de la misma.</td>
    </tr>
+   <th colspan="2" align="center">Grupo Funcional: Subscripciones</th>
+   </tr>
+   <tr>
+    <th colspan="1" align="center">RFU-000</th>
+    <td colspan="1">El sistema debe mostrar al usuario los beneficios que hay por cada tipo de subscripción</td>
+   </tr>
+   <tr>
+    <th colspan="1" align="center">RFU-000</th>
+    <td colspan="1">El sistema debe mostrar claramente los precios de cada tipos de subscripción al usuario</td>
+   </tr>
+   <tr>
+    <th colspan="1" align="center">RFU-000</th>
+    <td colspan="1">El sistema debe mostrar claramente el estado de la subscripción y el nivel que tiene en la seccion de subscripción</td>
+   </tr>
+   <tr>
+  <th colspan="2" align="center">Grupo Funcional: Pagos</th>
+</tr>
+<tr>
+  <th colspan="1" align="center">RFU-000</th>
+  <td colspan="1">El sistema debe permitir a los salones de belleza seleccionar un plan de suscripción y proceder al pago desde la plataforma.</td>
+</tr>
+<tr>
+  <th colspan="1" align="center">RFU-000</th>
+  <td colspan="1">El sistema debe integrar pasarelas de pago seguras (como Stripe o PayPal) para procesar pagos con tarjetas de débito o crédito.</td>
+</tr>
+<tr>
+  <th colspan="1" align="center">RFU-000</th>
+  <td colspan="1">El sistema debe generar una confirmación visual y por correo electrónico una vez realizado el pago.</td>
+</tr>
+<tr>
+  <th colspan="1" align="center">RFU-000</th>
+  <td colspan="1">El sistema debe permitir la renovación automática del plan de suscripción si el usuario así lo desea.</td>
+</tr>
+<tr>
+  <th colspan="1" align="center">RFU-000</th>
+  <td colspan="1">El sistema debe alertar al usuario por correo electrónico cuando el pago esté próximo a vencerse o haya fallado.</td>
+</tr>
+   <tr>
+   <th colspan="2" align="center">Grupo Funcional: Gestión de servicios</th>
+   </tr>
+   <tr>
+    <th colspan="1" align="center">RFU-000</th>
+    <td colspan="1">La empresa debe de tener la opción de registrar sus servicios, su precio y su duración</td>
+   </tr>
+   <tr>
+    <th colspan="1" align="center">RFU-000</th>
+    <td colspan="1">La empresa debe de tener la opción modificar los datos de un servicio existene</td>
+   </tr>
+   <tr>
+   <th colspan="2" align="center">Grupo Funcional: Gestión de negocio</th>
+   </tr>
+   <tr>
+    <th colspan="1" align="center">RFU-000</th>
+    <td colspan="1">La empresa debe de tener la opción de registrar a sus trabajadores en la plataforma</td>
+   </tr>
+   <tr>
+    <th colspan="1" align="center">RFU-000</th>
+    <td colspan="1">La empresa debe de tener la opción de modificar los datos de sus trabajadores</td>
+   </tr>
+   <tr>
+    <th colspan="1" align="center">RFU-000</th>
+    <td colspan="1">La empresa debe de tener la opción de añadir sus cuentas bancarias en el sistema</td>
+   </tr>
+   <tr>
+    <th colspan="1" align="center">RFU-000</th>
+    <td colspan="1">La empresa debe de tener la opción de modificar o eliminar sus cuentas bancarias en el sistema</td>
+   </tr>
+ 
 </table>
 
 
@@ -1181,16 +1249,17 @@ Segmento objetivo #2: Clientes de servicios de belleza
   <tr>
     <th colspan="1" align="center">RNF-005</th>
     <td colspan="1" align="center"> El registro de cita deberia cargar en menos de 10 segundos</td>
+    <th colspan="1" align="center">Disponibilidad y rendimiento</th>
   </tr>
-  <th colspan="2" align="center">Grupo Funcional: Compatibilidad</th>
   <tr>
     <th colspan="1" align="center">RNF-006</th>
-    <td colspan="1" align="center"> Accesibilidad desde diferentes navegadores</td>
+    <td colspan="1" align="center"> Compatibilidad con Chrome, Firefox, Safari y Brave</td>
+    <th colspan="1" align="center"> Compatbilidad</th>
   </tr>
-  <th colspan="2" align="center">Grupo Funcional: Usabilidad</th>
   <tr>
     <th colspan="1" align="center">RNF-006</th>
     <td colspan="1" align="center"> La interfaz deberia ser comprensible para usuarios con poca experiencia </td>
+    <th colspan="1" align="center"> Usabilidad</th>
   </tr>
 </table>
 
