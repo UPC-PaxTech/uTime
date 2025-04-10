@@ -1120,172 +1120,172 @@ Segmento objetivo #2: Clientes de servicios de belleza
    <th colspan="2" align="center">Grupo Funcional: Creación de Citas</th>
    </tr>
    <tr>
-    <th colspan="1" align="center">RFU-000</th>
+    <th colspan="1" align="center">RFU-020</th>
     <td colspan="1">El sistema debe permitir que el cliente seleccione el salón de belleza o barbería con el que desea agendar una cita</td>
    </tr>
    <tr>
-    <th colspan="1" align="center">RFU-000</th>
+    <th colspan="1" align="center">RFU-021</th>
     <td colspan="1">El sistema debe permitir que el cliente seleccione el servicio deseado (corte, teñido, alisado, etc.).</td>
    </tr>
    <tr>
-    <th colspan="1" align="center">RFU-000</th>
+    <th colspan="1" align="center">RFU-022</th>
     <td colspan="1">El sistema debe mostrar los horarios disponibles en tiempo real según la disponibilidad de los trabajadores del salón.</td>
    </tr>
    <tr>
-    <th colspan="1" align="center">RFU-000</th>
+    <th colspan="1" align="center">RFU-023</th>
     <td colspan="1">El sistema debe permitir al cliente seleccionar un trabajador específico si el salón lo tiene configurado.</td>
    </tr>
    <tr>
-    <th colspan="1" align="center">RFU-000</th>
+    <th colspan="1" align="center">RFU-024</th>
     <td colspan="1">El sistema debe permitir agendar una cita seleccionando día y hora, siempre que no haya conflictos de horario.</td>
    </tr>
    <tr>
-    <th colspan="1" align="center">RFU-000</th>
+    <th colspan="1" align="center">RFU-025</th>
     <td colspan="1">El sistema debe permitir al cliente añadir una nota adicional o comentario al momento de la reserva.</td>
    </tr>
    <tr>
-    <th colspan="1" align="center">RFU-000</th>
+    <th colspan="1" align="center">RFU-026</th>
     <td colspan="1">El sistema debe confirmar al cliente que la cita fue creada con éxito y mostrar los detalles de la misma.</td>
    </tr>
    <tr>
    <th colspan="2" align="center">Grupo Funcional: Gestión de Horarios y Calendarios</th>
    </tr>
    <tr>
-    <th colspan="1" align="center">RFU-000</th>
+    <th colspan="1" align="center">RFU-027</th>
     <td colspan="1">El sistema debe permitir que los salones configuren los horarios laborales de cada trabajador.</td>
    </tr>
    <tr>
-    <th colspan="1" align="center">RFU-000</th>
+    <th colspan="1" align="center">RFU-028</th>
     <td colspan="1">El sistema debe mostrar al cliente únicamente los horarios disponibles y actualizados.</td>
    </tr>
    <tr>
-    <th colspan="1" align="center">RFU-000</th>
+    <th colspan="1" align="center">RFU-028</th>
     <td colspan="1">El sistema debe organizar el calendario en una vista de día, donde las filas sean las horas y los servicios, y las columnas los trabajadores del salon de belleza o barbería.</td>
    </tr>
    <tr>
-    <th colspan="1" align="center">RFU-000</th>
+    <th colspan="1" align="center">RFU-030</th>
     <td colspan="1">El sistema debe actualizar en tiempo real la disponibilidad al confirmarse o cancelarse una cita.</td>
    </tr>
    <tr>
    <th colspan="2" align="center">Grupo Funcional: Visualización de Citas</th>
    </tr>
    <tr>
-    <th colspan="1" align="center">RFU-000</th>
+    <th colspan="1" align="center">RFU-031</th>
     <td colspan="1">El sistema debe permitir que los clientes visualicen todas sus citas agendadas (pasadas, próximas y canceladas).</td>
    </tr>
    <tr>
-    <th colspan="1" align="center">RFU-000</th>
+    <th colspan="1" align="center">RFU-032</th>
     <td colspan="1">El sistema debe permitir que los salones visualicen todas las reservas agendadas con filtros por trabajador, servicio y día.</td>
    </tr>
    <tr>
-    <th colspan="1" align="center">RFU-000</th>
+    <th colspan="1" align="center">RFU-033</th>
     <td colspan="1">El sistema debe mostrar el estado de cada cita (pendiente, confirmada, cancelada, finalizada)</td>
    </tr>
-   <tr>
-   <th colspan="2" align="center">Grupo Funcional: Subscripciones</th>
-   </tr>
-   <tr>
-    <th colspan="1" align="center">RFU-000</th>
-    <td colspan="1">El sistema debe mostrar al usuario los beneficios que hay por cada tipo de subscripción.</td>
-   </tr>
-   <tr>
-    <th colspan="1" align="center">RFU-000</th>
-    <td colspan="1">El sistema debe mostrar claramente los precios de cada tipos de subscripción al usuario.</td>
-   </tr>
-   <tr>
-    <th colspan="1" align="center">RFU-000</th>
-    <td colspan="1">El sistema debe mostrar claramente el estado de la subscripción y el nivel que tiene en la sección de subscripción.</td>
-   </tr>
-   <tr>
-  <th colspan="2" align="center">Grupo Funcional: Pagos</th>
-  </tr>
-  <tr>
-  <th colspan="1" align="center">RFU-000</th>
-  <td colspan="1">El sistema debe permitir a los salones de belleza seleccionar un plan de suscripción y proceder al pago desde la plataforma.</td>
-  </tr>
-  <tr>
-  <th colspan="1" align="center">RFU-000</th>
-  <td colspan="1">El sistema debe integrar pasarelas de pago seguras (como Stripe o PayPal) para procesar pagos con tarjetas de débito o crédito.</td>
-  </tr>
-  <tr>
-  <th colspan="1" align="center">RFU-000</th>
-  <td colspan="1">El sistema debe generar una confirmación visual y por correo electrónico una vez realizado el pago.</td>
-  </tr>
-  <tr>
-  <th colspan="1" align="center">RFU-000</th>
-  <td colspan="1">El sistema debe permitir la renovación automática del plan de suscripción si el usuario así lo desea.</td>
-  </tr>
-<tr>
-  <th colspan="1" align="center">RFU-000</th>
-  <td colspan="1">El sistema debe alertar al usuario por correo electrónico cuando el pago esté próximo a vencerse o haya fallado.</td>
-</tr>
-   <tr>
-   <th colspan="2" align="center">Grupo Funcional: Gestión de servicios</th>
-   </tr>
-   <tr>
-    <th colspan="1" align="center">RFU-000</th>
-    <td colspan="1">La empresa debe de tener la opción de registrar sus servicios, su precio y su duración</td>
-   </tr>
-   <tr>
-    <th colspan="1" align="center">RFU-000</th>
-    <td colspan="1">La empresa debe de tener la opción modificar los datos de un servicio existene</td>
-   </tr>
-   <tr>
-   <th colspan="2" align="center">Grupo Funcional: Gestión de negocio</th>
-   </tr>
-   <tr>
-    <th colspan="1" align="center">RFU-000</th>
-    <td colspan="1">La empresa debe de tener la opción de registrar a sus trabajadores en la plataforma</td>
-   </tr>
-   <tr>
-    <th colspan="1" align="center">RFU-000</th>
-    <td colspan="1">La empresa debe de tener la opción de modificar los datos de sus trabajadores</td>
-   </tr>
-   <tr>
-    <th colspan="1" align="center">RFU-000</th>
-    <td colspan="1">La empresa debe de tener la opción de añadir sus cuentas bancarias en el sistema</td>
-   </tr>
-   <tr>
-    <th colspan="1" align="center">RFU-000</th>
-    <td colspan="1">La empresa debe de tener la opción de modificar o eliminar sus cuentas bancarias en el sistema</td>
-   </tr>
-   <tr>
+      <tr>
    <th colspan="2" align="center">Grupo Funcional: Modificación y Cancelación de Citas</th>
    </tr>
    <tr>
-    <th colspan="1" align="center">RFU-000</th>
+    <th colspan="1" align="center">RFU-034</th>
     <td colspan="1">El sistema debe permitir que los clientes cancelen una cita antes de su hora programada, según políticas del salón.</td>
    </tr>
    <tr>
-    <th colspan="1" align="center">RFU-000</th>
+    <th colspan="1" align="center">RFU-035</th>
     <td colspan="1">El sistema debe permitir que los clientes reprogramen una cita si el horario lo permite.</td>
    </tr>
    <tr>
-    <th colspan="1" align="center">RFU-000</th>
+    <th colspan="1" align="center">RFU-036</th>
     <td colspan="1">El sistema debe permitir que los salones cancelen o reprogramen citas notificando al cliente por correo.</td>
    </tr>
    <tr>
-    <th colspan="1" align="center">RFU-000</th>
+    <th colspan="1" align="center">RFU-037</th>
     <td colspan="1">El sistema debe registrar un historial de citas modificadas o canceladas para seguimiento.</td>
    </tr>
    <tr>
    <th colspan="2" align="center">Grupo Funcional: Notificaciones y Recordatorios</th>
    </tr>
    <tr>
-    <th colspan="1" align="center">RFU-000</th>
+    <th colspan="1" align="center">RFU-038</th>
     <td colspan="1">El sistema debe enviar una notificación por correo al cliente al momento de confirmar la cita.</td>
    </tr>
    <tr>
-    <th colspan="1" align="center">RFU-000</th>
+    <th colspan="1" align="center">RFU-039</th>
     <td colspan="1">El sistema debe enviar un recordatorio automático al cliente 24 horas y 1 hora antes de la cita.</td>
    </tr>
    <tr>
-    <th colspan="1" align="center">RFU-000</th>
+    <th colspan="1" align="center">RFU-040</th>
     <td colspan="1">El sistema debe notificar al salón cuando un cliente cancela o reprograma una cita.</td>
    </tr>
    <tr>
-    <th colspan="1" align="center">RFU-000</th>
+    <th colspan="1" align="center">RFU-041</th>
     <td colspan="1">El sistema debe permitir configurar si las notificaciones se reciben por correo, SMS o en la plataforma (según plan).</td>
+   </tr>
+   <tr>
+   <th colspan="2" align="center">Grupo Funcional: Subscripciones</th>
+   </tr>
+   <tr>
+    <th colspan="1" align="center">RFU-042</th>
+    <td colspan="1">El sistema debe mostrar al usuario los beneficios que hay por cada tipo de subscripción.</td>
+   </tr>
+   <tr>
+    <th colspan="1" align="center">RFU-043</th>
+    <td colspan="1">El sistema debe mostrar claramente los precios de cada tipos de subscripción al usuario.</td>
+   </tr>
+   <tr>
+    <th colspan="1" align="center">RFU-044</th>
+    <td colspan="1">El sistema debe mostrar claramente el estado de la subscripción y el nivel que tiene en la sección de subscripción.</td>
+   </tr>
+   <tr>
+  <th colspan="2" align="center">Grupo Funcional: Pagos</th>
+  </tr>
+  <tr>
+  <th colspan="1" align="center">RFU-045</th>
+  <td colspan="1">El sistema debe permitir a los salones de belleza seleccionar un plan de suscripción y proceder al pago desde la plataforma.</td>
+  </tr>
+  <tr>
+  <th colspan="1" align="center">RFU-046</th>
+  <td colspan="1">El sistema debe integrar pasarelas de pago seguras (como Stripe o PayPal) para procesar pagos con tarjetas de débito o crédito.</td>
+  </tr>
+  <tr>
+  <th colspan="1" align="center">RFU-047</th>
+  <td colspan="1">El sistema debe generar una confirmación visual y por correo electrónico una vez realizado el pago.</td>
+  </tr>
+  <tr>
+  <th colspan="1" align="center">RFU-048</th>
+  <td colspan="1">El sistema debe permitir la renovación automática del plan de suscripción si el usuario así lo desea.</td>
+  </tr>
+<tr>
+  <th colspan="1" align="center">RFU-049</th>
+  <td colspan="1">El sistema debe alertar al usuario por correo electrónico cuando el pago esté próximo a vencerse o haya fallado.</td>
+</tr>
+   <tr>
+   <th colspan="2" align="center">Grupo Funcional: Gestión de servicios</th>
+   </tr>
+   <tr>
+    <th colspan="1" align="center">RFU-050</th>
+    <td colspan="1">La empresa debe de tener la opción de registrar sus servicios, su precio y su duración</td>
+   </tr>
+   <tr>
+    <th colspan="1" align="center">RFU-051</th>
+    <td colspan="1">La empresa debe de tener la opción modificar los datos de un servicio existene</td>
+   </tr>
+   <tr>
+   <th colspan="2" align="center">Grupo Funcional: Gestión de negocio</th>
+   </tr>
+   <tr>
+    <th colspan="1" align="center">RFU-052</th>
+    <td colspan="1">La empresa debe de tener la opción de registrar a sus trabajadores en la plataforma</td>
+   </tr>
+   <tr>
+    <th colspan="1" align="center">RFU-053</th>
+    <td colspan="1">La empresa debe de tener la opción de modificar los datos de sus trabajadores</td>
+   </tr>
+   <tr>
+    <th colspan="1" align="center">RFU-054</th>
+    <td colspan="1">La empresa debe de tener la opción de añadir sus cuentas bancarias en el sistema</td>
+   </tr>
+   <tr>
+    <th colspan="1" align="center">RFU-055</th>
+    <td colspan="1">La empresa debe de tener la opción de modificar o eliminar sus cuentas bancarias en el sistema</td>
    </tr>
 </table>
 
