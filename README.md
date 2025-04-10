@@ -1147,6 +1147,7 @@ Segmento objetivo #2: Clientes de servicios de belleza
     <th colspan="1" align="center">RFU-000</th>
     <td colspan="1">El sistema debe confirmar al cliente que la cita fue creada con éxito y mostrar los detalles de la misma.</td>
    </tr>
+   <tr>
    <th colspan="2" align="center">Grupo Funcional: Subscripciones</th>
    </tr>
    <tr>
