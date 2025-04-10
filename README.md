@@ -1148,39 +1148,73 @@ Segmento objetivo #2: Clientes de servicios de belleza
     <td colspan="1">El sistema debe confirmar al cliente que la cita fue creada con éxito y mostrar los detalles de la misma.</td>
    </tr>
    <tr>
+   <th colspan="2" align="center">Grupo Funcional: Gestión de Horarios y Calendarios</th>
+   </tr>
+   <tr>
+    <th colspan="1" align="center">RFU-000</th>
+    <td colspan="1">El sistema debe permitir que los salones configuren los horarios laborales de cada trabajador.</td>
+   </tr>
+   <tr>
+    <th colspan="1" align="center">RFU-000</th>
+    <td colspan="1">El sistema debe mostrar al cliente únicamente los horarios disponibles y actualizados.</td>
+   </tr>
+   <tr>
+    <th colspan="1" align="center">RFU-000</th>
+    <td colspan="1">El sistema debe organizar el calendario en una vista de día, donde las filas sean las horas y los servicios, y las columnas los trabajadores del salon de belleza o barbería.</td>
+   </tr>
+   <tr>
+    <th colspan="1" align="center">RFU-000</th>
+    <td colspan="1">El sistema debe actualizar en tiempo real la disponibilidad al confirmarse o cancelarse una cita.</td>
+   </tr>
+   <tr>
+   <th colspan="2" align="center">Grupo Funcional: Visualización de Citas</th>
+   </tr>
+   <tr>
+    <th colspan="1" align="center">RFU-000</th>
+    <td colspan="1">El sistema debe permitir que los clientes visualicen todas sus citas agendadas (pasadas, próximas y canceladas).</td>
+   </tr>
+   <tr>
+    <th colspan="1" align="center">RFU-000</th>
+    <td colspan="1">El sistema debe permitir que los salones visualicen todas las reservas agendadas con filtros por trabajador, servicio y día.</td>
+   </tr>
+   <tr>
+    <th colspan="1" align="center">RFU-000</th>
+    <td colspan="1">El sistema debe mostrar el estado de cada cita (pendiente, confirmada, cancelada, finalizada)</td>
+   </tr>
+   <tr>
    <th colspan="2" align="center">Grupo Funcional: Subscripciones</th>
    </tr>
    <tr>
     <th colspan="1" align="center">RFU-000</th>
-    <td colspan="1">El sistema debe mostrar al usuario los beneficios que hay por cada tipo de subscripción</td>
+    <td colspan="1">El sistema debe mostrar al usuario los beneficios que hay por cada tipo de subscripción.</td>
    </tr>
    <tr>
     <th colspan="1" align="center">RFU-000</th>
-    <td colspan="1">El sistema debe mostrar claramente los precios de cada tipos de subscripción al usuario</td>
+    <td colspan="1">El sistema debe mostrar claramente los precios de cada tipos de subscripción al usuario.</td>
    </tr>
    <tr>
     <th colspan="1" align="center">RFU-000</th>
-    <td colspan="1">El sistema debe mostrar claramente el estado de la subscripción y el nivel que tiene en la seccion de subscripción</td>
+    <td colspan="1">El sistema debe mostrar claramente el estado de la subscripción y el nivel que tiene en la sección de subscripción.</td>
    </tr>
    <tr>
   <th colspan="2" align="center">Grupo Funcional: Pagos</th>
-</tr>
-<tr>
+  </tr>
+  <tr>
   <th colspan="1" align="center">RFU-000</th>
   <td colspan="1">El sistema debe permitir a los salones de belleza seleccionar un plan de suscripción y proceder al pago desde la plataforma.</td>
-</tr>
-<tr>
+  </tr>
+  <tr>
   <th colspan="1" align="center">RFU-000</th>
   <td colspan="1">El sistema debe integrar pasarelas de pago seguras (como Stripe o PayPal) para procesar pagos con tarjetas de débito o crédito.</td>
-</tr>
-<tr>
+  </tr>
+  <tr>
   <th colspan="1" align="center">RFU-000</th>
   <td colspan="1">El sistema debe generar una confirmación visual y por correo electrónico una vez realizado el pago.</td>
-</tr>
-<tr>
+  </tr>
+  <tr>
   <th colspan="1" align="center">RFU-000</th>
   <td colspan="1">El sistema debe permitir la renovación automática del plan de suscripción si el usuario así lo desea.</td>
-</tr>
+  </tr>
 <tr>
   <th colspan="1" align="center">RFU-000</th>
   <td colspan="1">El sistema debe alertar al usuario por correo electrónico cuando el pago esté próximo a vencerse o haya fallado.</td>
