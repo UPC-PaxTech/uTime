@@ -1182,7 +1182,7 @@ Segmento objetivo #2: Clientes de servicios de belleza
    </tr>
    <tr>
     <th colspan="1" align="center">RFU-020</th>
-    <td colspan="1">El sistema debe permitir que el cliente seleccione el salón de belleza o barbería con el que desea agendar una cita</td>
+    <td colspan="1">El sistema debe permitir que el cliente seleccione el salón de belleza o barbería con el que desea agendar una cita.</td>
    </tr>
    <tr>
     <th colspan="1" align="center">RFU-021</th>
@@ -1240,7 +1240,7 @@ Segmento objetivo #2: Clientes de servicios de belleza
    </tr>
    <tr>
     <th colspan="1" align="center">RFU-033</th>
-    <td colspan="1">El sistema debe mostrar el estado de cada cita (pendiente, confirmada, cancelada, finalizada)</td>
+    <td colspan="1">El sistema debe mostrar el estado de cada cita (pendiente, confirmada, cancelada, finalizada).</td>
    </tr>
       <tr>
    <th colspan="2" align="center">Grupo Funcional: Modificación y Cancelación de Citas</th>
@@ -1281,19 +1281,19 @@ Segmento objetivo #2: Clientes de servicios de belleza
     <td colspan="1">El sistema debe permitir configurar si las notificaciones se reciben por correo, SMS o en la plataforma (según plan).</td>
    </tr>
    <tr>
-   <th colspan="2" align="center">Grupo Funcional: Subscripciones</th>
+   <th colspan="2" align="center">Grupo Funcional: Suscripciones</th>
    </tr>
    <tr>
     <th colspan="1" align="center">RFU-042</th>
-    <td colspan="1">El sistema debe mostrar al usuario los beneficios que hay por cada tipo de subscripción.</td>
+    <td colspan="1">El sistema debe mostrar al usuario los beneficios que hay por cada tipo de suscripción.</td>
    </tr>
    <tr>
     <th colspan="1" align="center">RFU-043</th>
-    <td colspan="1">El sistema debe mostrar claramente los precios de cada tipos de subscripción al usuario.</td>
+    <td colspan="1">El sistema debe mostrar claramente los precios de cada tipos de suscripción al usuario.</td>
    </tr>
    <tr>
     <th colspan="1" align="center">RFU-044</th>
-    <td colspan="1">El sistema debe mostrar claramente el estado de la subscripción y el nivel que tiene en la sección de subscripción.</td>
+    <td colspan="1">El sistema debe mostrar claramente el estado de la suscripción y el nivel que tiene en la sección de suscripción.</td>
    </tr>
    <tr>
   <th colspan="2" align="center">Grupo Funcional: Pagos</th>
@@ -1389,7 +1389,7 @@ Segmento objetivo #2: Clientes de servicios de belleza
   </tr>
   <tr>
     <th colspan="1" align="center">RNF-002</th>
-    <td colspan="1" align="center"> El sistema debe protegerse contra ataques de tipo inyección SQL</td>
+    <td colspan="1" align="center"> El sistema debe protegerse contra ataques de tipo inyección SQL.</td>
     <th colspan="1" align="center">Seguridad</th>
   </tr>
   <tr>
@@ -1404,32 +1404,32 @@ Segmento objetivo #2: Clientes de servicios de belleza
   </tr>
   <tr>
     <th colspan="1" align="center">RNF-005</th>
-    <td colspan="1" align="center"> El registro de cita deberia cargar en menos de 10 segundos</td>
+    <td colspan="1" align="center"> El registro de cita deberia cargar en menos de 10 segundos.</td>
     <th colspan="1" align="center">Disponibilidad y rendimiento</th>
   </tr>
   <tr>
     <th colspan="1" align="center">RNF-006</th>
-    <td colspan="1" align="center">Compatibilidad con Chrome, Firefox, Safari y Brave</td>
+    <td colspan="1" align="center">Compatibilidad con Chrome, Firefox, Safari y Brave.</td>
     <th colspan="1" align="center">Compatbilidad</th>
   </tr>
   <tr>
     <th colspan="1" align="center">RNF-007</th>
-    <td colspan="1" align="center"> La interfaz deberia ser comprensible para usuarios con poca experiencia </td>
+    <td colspan="1" align="center"> La interfaz deberia ser comprensible para usuarios con poca experiencia. </td>
     <th colspan="1" align="center"> Usabilidad</th>
   </tr>
   <tr>
     <th colspan="1" align="center">RNF-008</th>
-    <td colspan="1" align="center">Los datos del usuario deben estar encriptados para garantizar su seguridad</td>
+    <td colspan="1" align="center">Los datos del usuario deben estar encriptados para garantizar su seguridad.</td>
     <th colspan="1" align="center">Seguridad</th>
   </tr>
   <tr>
     <th colspan="1" align="center">RNF-009</th>
-    <td colspan="1" align="center">La disponibilidad de los horarios se deben actualizar en tiempo real</td>
+    <td colspan="1" align="center">La disponibilidad de los horarios se deben actualizar en tiempo real.</td>
     <th colspan="1" align="center">Disponibilidad y rendimiento</th>
   </tr>
   <tr>
     <th colspan="1" align="center">RNF-010</th>
-    <td colspan="1" align="center">Se deben seguir buenas prácticas de arquitectura para facilitar la escalabilidad</td>
+    <td colspan="1" align="center">Se deben seguir buenas prácticas de arquitectura para facilitar la escalabilidad.</td>
     <th colspan="1" align="center">Mantenibilidad</th>
   </tr>
 </table>
