@@ -1253,6 +1253,29 @@ Segmento objetivo #2: Clientes de servicios de belleza
     <th colspan="1" align="center">RFU-000</th>
     <td colspan="1">El sistema debe permitir configurar si las notificaciones se reciben por correo, SMS o en la plataforma (según plan).</td>
    </tr>
+ <tr>
+   <th colspan="2" align="center">Grupo Funcional: Marketplace y Gestión de productos</th>
+   </tr>
+   <tr>
+    <th colspan="1" align="center">RFU-000</th>
+    <td colspan="1">El sistema debe permitir al cliente visualizar el listado de productos disponibles de un salón o barbería.</td>
+   </tr>
+   <tr>
+    <th colspan="1" align="center">RFU-000</th>
+    <td colspan="1">El sistema debe permitir al cliente agregar, eliminar o modificar la cantidad de productos al carrito de compras con un limite o sin uno dependiendo del plan contratado.</td>
+   </tr>
+   <tr>
+    <th colspan="1" align="center">RFU-000</th>
+    <td colspan="1">El sistema debe permitir que los clientes puedan visualizar la imagen, descripción y precio de cada producto..</td>
+   </tr>
+   <tr>
+    <th colspan="1" align="center">RFU-000</th>
+    <td colspan="1">El sistema debe mostrar al cliente el precio total y unitario de los productos añadidos al carrito. </td>
+   </tr>
+   <tr>
+    <th colspan="1" align="center">RFU-000</th>
+    <td colspan="1">El sistema debe mostrar al cliente el botón "vaciar carrito" para eliminar todos los productos del carrito. </td>
+   </tr>
 </table>
 
 
