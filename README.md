@@ -294,10 +294,71 @@ Por otro lado, los clientes que buscan servicios de belleza suelen experimentar 
 ¿Cómo podemos ofrecer una solución digital integral que permita a los profesionales de la belleza gestionar su agenda de manera eficiente, atraer nuevos clientes y mejorar la experiencia de reserva para los usuarios finales?
 
 #### 1.2.2.2. Lean UX Assumptions
-
+##### 1.2.2.2.1. Features
+Gestión de citas en línea (reservas, cancelaciones y reprogramaciones).
+* Recordatorios automáticos por notificaciones y mensajes.
+* Perfil profesional para estilistas y salones, con portafolio de trabajos.
+* Sistema de reseñas y valoraciones.
+* Integración con pagos digitales.
+* Sistema de promociones y fidelización (descuentos, membresías, paquetes de servicios).
+* Agenda inteligente con gestión de horarios y disponibilidad en tiempo real.
 ##### 1.2.2.2.2. Business Outcomes
+* Aumento en la adopción de la plataforma por parte de estilistas y salones de belleza. Esperamos que un número creciente de profesionales del sector adopte uTime como su herramienta principal para la gestión de citas y la promoción de sus servicios.
+* Mayor retención de clientes gracias a la automatización de citas y promociones personalizadas. uTime incrementará la recurrencia de las reservas de los clientes y la lealtad de estos mismos hacia los profesionales dentro de la plataforma.
+* Incremento de ingresos a través de suscripciones premium y comisiones por transacciones. Con el crecimiento de la base de usuarios, uTime espera un aumento en los ingresos recurrentes por planes premium, así como un mayor volumen de transacciones procesadas, fortaleciendo la rentabilidad del negocio.
+* Crecimiento de la comunidad activa. A través de alianzas estratégicas con academias de belleza, influencers del sector y marcas de productos cosméticos, construiremos una comunidad sólida y lograremos posicionar a uTime como la solución tecnológica más confiable y utilizada por estilistas y clientes.
 
 ##### 1.2.2.2.3. User Benefits
+Para los profesionales de la belleza:
+* Ahorro de tiempo al automatizar la gestión de citas.
+* Mayor exposición y captación de clientes a través de la plataforma.
+* Reducción de cancelaciones gracias a los recordatorios automáticos.
+* Mayor seguridad en los pagos con integración de billeteras digitales o pasarela de pago.
+* Crecimiento profesional con la acumulación de reseñas y un perfil atractivo.
+Para los clientes:
+* Facilidad para encontrar y reservar servicios de belleza sin llamadas o esperas
+* Mayor confianza al ver reseñas y valoraciones antes de reservar.
+* Seguridad en pagos digitales y opción de pagar en el momento.
+* Acceso a promociones exclusivas y recompensas por lealtad.
+
+1. Creemos que los salones de belleza y barberías necesitan una herramienta digital para gestionar citas y atraer más clientes sin depender de redes sociales o el boca a boca. 
+2. Pensamos que los clientes buscan una manera más confiable y sencilla de encontrar servicios de belleza sin llamar o visitar múltiples lugares. 
+3. Asumimos que la automatización de citas y pagos reducirá la tasa de cancelaciones. 
+4. Estimamos que los estilistas estarían dispuestos a pagar por una suscripción premium si el servicio mejora su visibilidad y rentabilidad. 
+5. Creemos que la seguridad en los pagos es un factor clave para la adopción del producto. 
+6. Pensamos que las alianzas con marcas de belleza y salones ayudará a escalar el negocio. 
+7. Esperamos que la integración con redes sociales aumente la captación de clientes y la visibilidad de los estilistas.
+
+¿Quién es el usuario?
+<p>Los usuarios de uTime son salones de belleza que deseen integrar nuestro producto. Asimismo, aquellos clientes que buscan servicios de peluquería, maquillaje y cuidado personal. </p>
+
+¿Dónde encaja nuestro producto en su trabajo o vida?
+<p>Nuestro producto, uTime, se integra en la vida diaria de los usuarios al proporcionarles un medio de gestión de citas, procurando simplificar el proceso y optimizar el manejo de la disponibilidad de los salones de belleza. </p>
+
+¿Qué problemas tiene nuestro producto y cómo se puede resolver?
+<p>uTime enfrenta desafíos como la baja adopción por falta de confianza en la tecnología, dificultades en la personalización del sistema y preocupaciones sobre la seguridad de los pagos realizados en línea. Para resolver estos problemas, se podrían implementar tutoriales y soporte técnico personalizado, así como pruebas exhaustivas y actualizaciones constantes para corroborar la eficacia del producto. Asimismo, ofrecer opciones de pago flexible y garantía de seguridad en las transacciones. Estas acciones ayudarán a mejorar la experiencia del usuario y a aumentar la confianza en la plataforma.</p>
+
+¿Cuándo y cómo es usado nuestro producto?
+<p>uTime es utilizado por los usuarios en diversos momentos del día, dentro de la jornada laboral de los estilistas, dado que en cualquier momento del día los clientes pueden explorar opciones y agendar servicios. Los usuarios podrán acceder a uTime a través de la plataforma web y aplicación móvil, permitiendo a los estilistas administrar su negocio en cualquier lugar y a los clientes agendar sus citas cuando deseen.</p>
+
+¿Qué características son importantes?
+Las características importantes son:
+* Gestión de citas en tiempo real: Permite a los estilistas administrar sus horarios de manera eficiente, evitando sobrecargas y asegurando disponibilidad precisa para los clientes. La interfaz intuitiva facilita la reserva y modificación de citas en pocos clics.
+* Sistema de pagos integrados y seguros: Los clientes pueden pagar sus citas dentro de la plataforma con tarjeta de crédito, débito o billeteras digitales, asegurando una óptima experiencia.
+* Perfiles detallados de estilistas: Cada salón cuenta con un perfil detallado que muestra la experiencia, especialidad, precios y disponibilidad de los estilistas. Los clientes pueden ver fotos de trabajos anteriores, leer reseñas y comparar opciones antes de reservar.
+* Reseñas y calificaciones verificadas: Para promover la confianza entre los usuarios, los clientes solo pueden dejar reseñas después de haber completado una cita. Esto permitirá garantizar la autenticidad de las opiniones y permite que los estilistas con buen desempeño destaquen.
+* Herramientas de marketing digital: Los estilistas pueden conectar sus perfiles de Instagram y TikTok para mostrar su trabajo y atraer más clientes. También se incluyen opciones para compartir reseñas y promociones en redes sociales directamente desde la plataforma.
+* Notificaciones y recordatorios automáticos: Los usuarios reciben alertas de sus citas para reducir cancelaciones y olvidos. Además, los estilistas pueden enviar recordatorios personalizados y mensajes promocionales para fidelizar a sus clientes.
+
+¿Cómo debe verse nuestro producto y cómo debe comportarse?
+<p>El producto uTime debe cumplir ciertos aspectos de diseño y funcionalidad para convertirse en un proyecto exitoso, de una manera que refleje su enfoque en el sector de la belleza, optimización del tiempo, y la innovación tecnológica. En cuanto a su apariencia se señala lo siguiente:</p>
+- Interfaz visualmente atractiva: uTime debe contar con un diseño limpio y minimalista que facilite la navegación tanto para clientes como para estilistas. La combinación de colores debe transmitir confianza y elegancia, con una paleta que refleje profesionalismo y bienestar.
+- Diseño adaptable y responsivo: Debe garantizar una experiencia consistente en cualquier dispositivo, ya sea móvil, tableta o escritorio. La interfaz debe ser clara y optimizada para facilitar la reserva de citas con pocos clics.
+En cuanto al comportamiento, uTime debe ser rápido, receptivo y confiable. Debido a esto, debe cumplir con los siguientes requisitos:
+- Interacción fluida y rápida: uTime debe ser altamente responsiva, garantizando tiempos de carga mínimos y transiciones suaves entre secciones. Esto evitará la disconformidad y frustraciones del cliente, mejorando así su experiencia en la plataforma.
+- Exploración intuitiva y eficiente: Los clientes deben poder encontrar estilistas fácilmente mediante filtros avanzados como ubicación, especialidad, precios y reseñas. La interfaz debe permitir búsquedas rápidas y precisas.
+- Seguridad y confianza en transacciones: Los pagos dentro de la plataforma deben ser seguros y confiables, con múltiples opciones de pago. Además, la política de cancelación y reembolso debe estar clara para evitar inconvenientes.
+- Sistema de notificaciones inteligentes: Debe enviar recordatorios automáticos de citas, confirmaciones de pago, mensajes promocionales y alertas sobre cambios en la disponibilidad de los estilistas. Las notificaciones deben ser relevantes y evitar el spam.
 
 #### 1.2.2.3. Lean UX Hypothesis Statements.
 
