@@ -1116,6 +1116,37 @@ Segmento objetivo #2: Clientes de servicios de belleza
     <th colspan="1" align="center">RFU-019</th>
     <td colspan="1">El sistema debe solicitar confirmación antes de realizar la eliminación de cuenta.</td>
    </tr>
+   <tr>
+   <th colspan="2" align="center">Grupo Funcional: Gestión de servicios</th>
+   </tr>
+   <tr>
+    <th colspan="1" align="center">RFU-000</th>
+    <td colspan="1">La empresa debe de tener la opción de registrar sus servicios, su precio y su duración</td>
+   </tr>
+   <tr>
+    <th colspan="1" align="center">RFU-000</th>
+    <td colspan="1">La empresa debe de tener la opción modificar los datos de un servicio existene</td>
+   </tr>
+   <tr>
+   <th colspan="2" align="center">Grupo Funcional: Gestión de negocio</th>
+   </tr>
+   <tr>
+    <th colspan="1" align="center">RFU-000</th>
+    <td colspan="1">La empresa debe de tener la opción de registrar a sus trabajadores en la plataforma</td>
+   </tr>
+   <tr>
+    <th colspan="1" align="center">RFU-000</th>
+    <td colspan="1">La empresa debe de tener la opción de modificar los datos de sus trabajadores</td>
+   </tr>
+   <tr>
+    <th colspan="1" align="center">RFU-000</th>
+    <td colspan="1">La empresa debe de tener la opción de añadir sus cuentas bancarias en el sistema</td>
+   </tr>
+   <tr>
+    <th colspan="1" align="center">RFU-000</th>
+    <td colspan="1">La empresa debe de tener la opción de modificar o eliminar sus cuentas bancarias en el sistema</td>
+   </tr>
+ 
 </table>
 
 
