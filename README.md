@@ -1116,6 +1116,37 @@ Segmento objetivo #2: Clientes de servicios de belleza
     <th colspan="1" align="center">RFU-019</th>
     <td colspan="1">El sistema debe solicitar confirmación antes de realizar la eliminación de cuenta.</td>
    </tr>
+   <tr>
+   <th colspan="2" align="center">Grupo Funcional: Creación de Citas</th>
+   </tr>
+   <tr>
+    <th colspan="1" align="center">RFU-000</th>
+    <td colspan="1">El sistema debe permitir que el cliente seleccione el salón de belleza o barbería con el que desea agendar una cita</td>
+   </tr>
+   <tr>
+    <th colspan="1" align="center">RFU-000</th>
+    <td colspan="1">El sistema debe permitir que el cliente seleccione el servicio deseado (corte, teñido, alisado, etc.).</td>
+   </tr>
+   <tr>
+    <th colspan="1" align="center">RFU-000</th>
+    <td colspan="1">El sistema debe mostrar los horarios disponibles en tiempo real según la disponibilidad de los trabajadores del salón.</td>
+   </tr>
+   <tr>
+    <th colspan="1" align="center">RFU-000</th>
+    <td colspan="1">El sistema debe permitir al cliente seleccionar un trabajador específico si el salón lo tiene configurado.</td>
+   </tr>
+   <tr>
+    <th colspan="1" align="center">RFU-000</th>
+    <td colspan="1">El sistema debe permitir agendar una cita seleccionando día y hora, siempre que no haya conflictos de horario.</td>
+   </tr>
+   <tr>
+    <th colspan="1" align="center">RFU-000</th>
+    <td colspan="1">El sistema debe permitir al cliente añadir una nota adicional o comentario al momento de la reserva.</td>
+   </tr>
+   <tr>
+    <th colspan="1" align="center">RFU-000</th>
+    <td colspan="1">El sistema debe confirmar al cliente que la cita fue creada con éxito y mostrar los detalles de la misma.</td>
+   </tr>
 </table>
 
 
