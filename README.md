@@ -1215,6 +1215,44 @@ Segmento objetivo #2: Clientes de servicios de belleza
     <th colspan="1" align="center">RFU-000</th>
     <td colspan="1">La empresa debe de tener la opción de modificar o eliminar sus cuentas bancarias en el sistema</td>
    </tr>
+   <tr>
+   <th colspan="2" align="center">Grupo Funcional: Modificación y Cancelación de Citas</th>
+   </tr>
+   <tr>
+    <th colspan="1" align="center">RFU-000</th>
+    <td colspan="1">El sistema debe permitir que los clientes cancelen una cita antes de su hora programada, según políticas del salón.</td>
+   </tr>
+   <tr>
+    <th colspan="1" align="center">RFU-000</th>
+    <td colspan="1">El sistema debe permitir que los clientes reprogramen una cita si el horario lo permite.</td>
+   </tr>
+   <tr>
+    <th colspan="1" align="center">RFU-000</th>
+    <td colspan="1">El sistema debe permitir que los salones cancelen o reprogramen citas notificando al cliente por correo.</td>
+   </tr>
+   <tr>
+    <th colspan="1" align="center">RFU-000</th>
+    <td colspan="1">El sistema debe registrar un historial de citas modificadas o canceladas para seguimiento.</td>
+   </tr>
+   <tr>
+   <th colspan="2" align="center">Grupo Funcional: Notificaciones y Recordatorios</th>
+   </tr>
+   <tr>
+    <th colspan="1" align="center">RFU-000</th>
+    <td colspan="1">El sistema debe enviar una notificación por correo al cliente al momento de confirmar la cita.</td>
+   </tr>
+   <tr>
+    <th colspan="1" align="center">RFU-000</th>
+    <td colspan="1">El sistema debe enviar un recordatorio automático al cliente 24 horas y 1 hora antes de la cita.</td>
+   </tr>
+   <tr>
+    <th colspan="1" align="center">RFU-000</th>
+    <td colspan="1">El sistema debe notificar al salón cuando un cliente cancela o reprograma una cita.</td>
+   </tr>
+   <tr>
+    <th colspan="1" align="center">RFU-000</th>
+    <td colspan="1">El sistema debe permitir configurar si las notificaciones se reciben por correo, SMS o en la plataforma (según plan).</td>
+   </tr>
 </table>
 
 
