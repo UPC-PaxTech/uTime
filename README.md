@@ -1511,6 +1511,21 @@ Segmento objetivo #2: Clientes de servicios de belleza
 ## 3.3. Impact Mapping.
 
 ## 3.4. Product Backlog.
+<table>
+  <tr>
+    <th># Orden</th>
+    <th>User Story Id</th>
+    <th>Título</th>
+   <th>Descripción</th>
+   <th>Story Points (1 / 2 / 3 / 5 / 8)</th>
+  </tr>
+  <tr>
+    <th colspan="1" align="center"></th>
+    <td colspan="1" align="center"></td>
+    <th colspan="1" align="center"></th>
+   <th colspan="1" align="center"></th>
+  </tr>
+</table>
 
 # Capítulo IV: Product Design
 
