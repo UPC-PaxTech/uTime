@@ -1182,7 +1182,7 @@ Segmento objetivo #2: Clientes de servicios de belleza
    </tr>
    <tr>
     <th colspan="1" align="center">RFU-020</th>
-    <td colspan="1">El sistema debe permitir que el cliente seleccione el salón de belleza o barbería con el que desea agendar una cita</td>
+    <td colspan="1">El sistema debe permitir que el cliente seleccione el salón de belleza o barbería con el que desea agendar una cita.</td>
    </tr>
    <tr>
     <th colspan="1" align="center">RFU-021</th>
@@ -1281,19 +1281,19 @@ Segmento objetivo #2: Clientes de servicios de belleza
     <td colspan="1">El sistema debe permitir configurar si las notificaciones se reciben por correo, SMS o en la plataforma (según plan).</td>
    </tr>
    <tr>
-   <th colspan="2" align="center">Grupo Funcional: Subscripciones</th>
+   <th colspan="2" align="center">Grupo Funcional: Suscripciones</th>
    </tr>
    <tr>
     <th colspan="1" align="center">RFU-042</th>
-    <td colspan="1">El sistema debe mostrar al usuario los beneficios que hay por cada tipo de subscripción.</td>
+    <td colspan="1">El sistema debe mostrar al usuario los beneficios que hay por cada tipo de suscripción.</td>
    </tr>
    <tr>
     <th colspan="1" align="center">RFU-043</th>
-    <td colspan="1">El sistema debe mostrar claramente los precios de cada tipos de subscripción al usuario.</td>
+    <td colspan="1">El sistema debe mostrar claramente los precios de cada tipos de suscripción al usuario.</td>
    </tr>
    <tr>
     <th colspan="1" align="center">RFU-044</th>
-    <td colspan="1">El sistema debe mostrar claramente el estado de la subscripción y el nivel que tiene en la sección de subscripción.</td>
+    <td colspan="1">El sistema debe mostrar claramente el estado de la suscripción y el nivel que tiene en la sección de suscripción.</td>
    </tr>
    <tr>
   <th colspan="2" align="center">Grupo Funcional: Pagos</th>
@@ -1323,52 +1323,52 @@ Segmento objetivo #2: Clientes de servicios de belleza
    </tr>
    <tr>
     <th colspan="1" align="center">RFU-050</th>
-    <td colspan="1">La empresa debe de tener la opción de registrar sus servicios, su precio y su duración</td>
+    <td colspan="1">La empresa debe de tener la opción de registrar sus servicios, su precio y su duración.</td>
    </tr>
    <tr>
     <th colspan="1" align="center">RFU-051</th>
-    <td colspan="1">La empresa debe de tener la opción modificar los datos de un servicio existene</td>
+    <td colspan="1">La empresa debe de tener la opción modificar los datos de un servicio existente.</td>
    </tr>
    <tr>
    <th colspan="2" align="center">Grupo Funcional: Gestión de negocio</th>
    </tr>
    <tr>
     <th colspan="1" align="center">RFU-052</th>
-    <td colspan="1">La empresa debe de tener la opción de registrar a sus trabajadores en la plataforma</td>
+    <td colspan="1">La empresa debe de tener la opción de registrar a sus trabajadores en la plataforma.</td>
    </tr>
    <tr>
     <th colspan="1" align="center">RFU-053</th>
-    <td colspan="1">La empresa debe de tener la opción de modificar los datos de sus trabajadores</td>
+    <td colspan="1">La empresa debe de tener la opción de modificar los datos de sus trabajadores.</td>
    </tr>
    <tr>
     <th colspan="1" align="center">RFU-054</th>
-    <td colspan="1">La empresa debe de tener la opción de añadir sus cuentas bancarias en el sistema</td>
+    <td colspan="1">La empresa debe de tener la opción de añadir sus cuentas bancarias en el sistema.</td>
    </tr>
    <tr>
     <th colspan="1" align="center">RFU-055</th>
-    <td colspan="1">La empresa debe de tener la opción de modificar o eliminar sus cuentas bancarias en el sistema</td>
+    <td colspan="1">La empresa debe de tener la opción de modificar o eliminar sus cuentas bancarias en el sistema.</td>
    </tr>
  <tr>
    <th colspan="2" align="center">Grupo Funcional: Marketplace y Gestión de productos</th>
    </tr>
    <tr>
-    <th colspan="1" align="center">RFU-000</th>
+    <th colspan="1" align="center">RFU-056</th>
     <td colspan="1">El sistema debe permitir al cliente visualizar el listado de productos disponibles de un salón o barbería.</td>
    </tr>
    <tr>
-    <th colspan="1" align="center">RFU-000</th>
+    <th colspan="1" align="center">RFU-057</th>
     <td colspan="1">El sistema debe permitir al cliente agregar, eliminar o modificar la cantidad de productos al carrito de compras con un limite o sin uno dependiendo del plan contratado.</td>
    </tr>
    <tr>
-    <th colspan="1" align="center">RFU-000</th>
+    <th colspan="1" align="center">RFU-058</th>
     <td colspan="1">El sistema debe permitir que los clientes puedan visualizar la imagen, descripción y precio de cada producto..</td>
    </tr>
    <tr>
-    <th colspan="1" align="center">RFU-000</th>
+    <th colspan="1" align="center">RFU-059</th>
     <td colspan="1">El sistema debe mostrar al cliente el precio total y unitario de los productos añadidos al carrito. </td>
    </tr>
    <tr>
-    <th colspan="1" align="center">RFU-000</th>
+    <th colspan="1" align="center">RFU-060</th>
     <td colspan="1">El sistema debe mostrar al cliente el botón "vaciar carrito" para eliminar todos los productos del carrito. </td>
    </tr>
 </table>
@@ -1389,7 +1389,7 @@ Segmento objetivo #2: Clientes de servicios de belleza
   </tr>
   <tr>
     <th colspan="1" align="center">RNF-002</th>
-    <td colspan="1" align="center"> El sistema debe protegerse contra ataques de tipo inyección SQL</td>
+    <td colspan="1" align="center"> El sistema debe protegerse contra ataques de tipo inyección SQL.</td>
     <th colspan="1" align="center">Seguridad</th>
   </tr>
   <tr>
@@ -1404,32 +1404,32 @@ Segmento objetivo #2: Clientes de servicios de belleza
   </tr>
   <tr>
     <th colspan="1" align="center">RNF-005</th>
-    <td colspan="1" align="center"> El registro de cita deberia cargar en menos de 10 segundos</td>
+    <td colspan="1" align="center"> El registro de cita deberia cargar en menos de 10 segundos.</td>
     <th colspan="1" align="center">Disponibilidad y rendimiento</th>
   </tr>
   <tr>
     <th colspan="1" align="center">RNF-006</th>
-    <td colspan="1" align="center">Compatibilidad con Chrome, Firefox, Safari y Brave</td>
+    <td colspan="1" align="center">Compatibilidad con Chrome, Firefox, Safari y Brave.</td>
     <th colspan="1" align="center">Compatbilidad</th>
   </tr>
   <tr>
     <th colspan="1" align="center">RNF-007</th>
-    <td colspan="1" align="center"> La interfaz deberia ser comprensible para usuarios con poca experiencia </td>
+    <td colspan="1" align="center"> La interfaz deberia ser comprensible para usuarios con poca experiencia. </td>
     <th colspan="1" align="center"> Usabilidad</th>
   </tr>
   <tr>
     <th colspan="1" align="center">RNF-008</th>
-    <td colspan="1" align="center">Los datos del usuario deben estar encriptados para garantizar su seguridad</td>
+    <td colspan="1" align="center">Los datos del usuario deben estar encriptados para garantizar su seguridad.</td>
     <th colspan="1" align="center">Seguridad</th>
   </tr>
   <tr>
     <th colspan="1" align="center">RNF-009</th>
-    <td colspan="1" align="center">La disponibilidad de los horarios se deben actualizar en tiempo real</td>
+    <td colspan="1" align="center">La disponibilidad de los horarios se deben actualizar en tiempo real.</td>
     <th colspan="1" align="center">Disponibilidad y rendimiento</th>
   </tr>
   <tr>
     <th colspan="1" align="center">RNF-010</th>
-    <td colspan="1" align="center">Se deben seguir buenas prácticas de arquitectura para facilitar la escalabilidad</td>
+    <td colspan="1" align="center">Se deben seguir buenas prácticas de arquitectura para facilitar la escalabilidad.</td>
     <th colspan="1" align="center">Mantenibilidad</th>
   </tr>
 </table>
@@ -1449,6 +1449,81 @@ Segmento objetivo #2: Clientes de servicios de belleza
 | US06                   | Recuperación de contraseña               | Como usuario, <br> Quiero poder recuperar mi contraseña en caso de olvidarla, <br> Para poder acceder nuevamente a mi cuenta sin perder mis datos.                                                                                 | Criterio 1: <br> <br> Dado que el cliente ha olvidado su contraseña <br> Cuando haga clic en el enlace "¿Olvidaste tu contraseña?" en la pantalla de inicio de sesión e ingrese su correo registrado <br >Entonces el sistema deberá enviar un enlace de restablecimiento de contraseña a ese correo.                                                                                                                                                                                                                                                                                                                                      | EP02                       |
 | US07                   | Edición del perfil                       | Como cliente, <br> Quiero poder editar mi perfil dentro de la plataforma, <br> Para mantener mi información personal actualizada y personalizadas.                                                                                 | Criterio 1: <br> <br> Dado que el cliente esta en la sección de perfil y selecciona la opción de actualizar datos. <br> Cuando el cliente actualize uno o más campos de su perfil y haga click en el boton "Guardar cambios"<br >Entonces el sistema deberá validar los datos y confirmar la actualización con un mensaje de éxito. <br> <br> Criterio 2 <br><br> Dado que el cliente deja campos obligatorios vacíos o ingresa datos inválidos <br> Cuando intente guardar los cambios <br>Entonces el sistema deberá mostrar mensajes de error específicos para cada campo afectado y no guardar la información hasta que esté corregida | EP03                       |
 | US08                   | Personalización del perfil del salón     | Como dueño/administrador, <br> Quiero poder personalizar el perfil del salón dentro de la plataforma, <br> Para una mejor presentación y que los clientes puedan conocer mejor los servicios, ubicación y estilo del negocio       | Criterio 1: <br> <br> Dado que el dueño/administrador desea realizar cambios en su perfil y tiene una subscripción **INSERTE NIVEL DE SUBSCRIPCION**<br> Cuando acceda a la opción de actualizar datos e ingrese los campos editables <br >Entonces el sistema deberá validar los datos y actualizar la información de manera inmediata, mostrando un mensaje de confirmación. <br> <br> Criterio 2 <br><br>                                                                                                                                                                                                                               | EP03                       |
+| EP31                   | Gestión de Visualización de citas                             | Como cliente, quiero visualizar de forma ordenada todas mis citas agendadas para mantener una control eficiente de mis compromisos.                                                                                                | No Corresponde              | No Corresponde          |
+| EP32                   | Visualización de reservas con filtros                         | Como dueño/administrador, quiero visualizar todas las reservas agendadas aplicando filtros por trabajador, servicio y día, para organizar mejor la agenda y gestionar eficientemente las citas.                                    | No Corresponde              | No Corresponde          |
+| EP33                   | Visualización del estado de citas                             | Como cliente, quiero visualizar el estado de cada cita(pendiente, confirmada, cancelada o finalizada), para conocer el progreso y la situación actual de mis reservas.                                                             | No Corresponde              | No Corresponde          |                                                                                                                                                                                           
+| EP34                   | Cancelación de cita por parte del cliente                     | Como cliente, quiero cancelar una cita antes de su hora programada, para poder gestionar cambios en mi disponibilidad, respetando las politicas del salón.                                                                         | No Corresponde              | No Corresponde          |
+| EP35                   | Reprogramación de cita por parte del cliente                  | Como cliente, quiero repogramar una cita si hay disponibilidad en el horario, para no perder el servicio reservado y adaptarlo a mi agenda personal.                                                                               | No Corresponde              | No Corresponde          |
+| EP36                   | Cancelación o reprogramación por parte del salón              | Como dueño/administrador, quiero cancelar o reprogramar citas cuando sea necesario, para gestionar imprevistos, notificando al cliente por correo.                                                                                 | No Corresponde              | No Corresponde          |
+| EP37                   | Registro de historial de modificaciones                       | Como dueño/administrador, quiero que se registre un historial de citas canceladas o reprogramadas, para contar con un seguimiento detallado de los cambios realizados y facilitar la trazabilidad.                                 | No Corresponde              | No Corresponde          |
+| EP38                   | Notificación de confirmación de cita                          | Como cliente, quiero recibir una notificación por correo electrónico al momento de confirmar mi cita, para tener la seguridad de que ha sido registrada correctamente.                                                             | No Corresponde              | No Corresponde          |
+| EP39                   | Recordatorios automáticos al cliente                          | Como cliente, quiero recibir recordatorios automáticos 24 horas y 1 hora antes de mi cita, para no olvidar mis compromisos y llegar puntualmente.                                                                                  | No Corresponde              | No Corresponde          |
+| EP40                   | Notificación al salón por cambios del cliente                 | Como dueño/administrador, quiero recibir una notificación cuando un cliente cancela o reprograma una cita, para estar informado y reorganizar la agenda si es necesario.                                                           | No Corresponde              | No Corresponde          |
+| EP41                   | Configuración del canal de notificaciones                     | Como cliente, quiero poder configurar si deseo recibir notificaciones por correo, SMS o directamente en la plataforma (según mi plan), para elegir el canal que mejor se adapte a mis preferencias.                                | No Corresponde              | No Corresponde          |
+| EP42                   | Visualización de beneficios por tipo de suscripción           | Como cliente, quiero visualizar claramente los beneficios que ofrece cada tipo de suscripción, para poder comparar y elegir la opción más adecuada a mis necesidades.                                                              | No Corresponde              | No Corresponde          |
+| EP43                   | Visualización de precios de suscripción                       | Como cliente, quiero ver claramente los precios de cada tipo de suscripción, para tomar una decisión informada antes de adquirir un plan.                                                                                          | No Corresponde              | No Corresponde          |
+| EP44                   | Visualización del estado de suscripción                       | Como cliente, quiero ver el estado actual de mi suscripción y el nivel que tengo, para saber si estoy activo y qué beneficios tengo disponibles.                                                                                   | No Corresponde              | No Corresponde          |
+| EP45                   | Selección y pago de plan de suscripción                       | Como dueño/administrador, quiero seleccionar un plan de suscripción y realizar el pago desde la plataforma, para activar mis servicios sin complicaciones externas.                                                                | No Corresponde              | No Corresponde          |
+| EP46                   | Integración con pasarelas de pago                             | Como dueño/administrador, quiero realizar pagos a través de pasarelas seguras como Stripe o PayPal, para asegurarme de que mis transacciones sean confiables y protegidas.                                                         | No Corresponde              | No Corresponde          |
+| EP47                   | Gestión de confirmación de pago                               | Como cliente, quiero recibir una confirmación visual y por correo al realizar un pago, para tener la seguridad de que la transacción fue exitosa.                                                                                  | No Corresponde              | No Corresponde          |
+| EP48                   | Gestión de renovación automática                              | Como cliente, quiero habilitar la renovación automática de mi plan de suscripción, para evitar interrupciones en el servicio.                                                                                                      | No Corresponde              | No Corresponde          |
+| EP49                   | Gestión de alertas sobre pagos                                | Como cliente, quiero recibir alertas por correo cuando un pago esté por vencer o haya fallado, para poder actuar a tiempo y mantener activa mi suscripción.                                                                        | No Corresponde              | No Corresponde          |
+| EP50                   | Registro de servicios                                         | Como dueño/administrador, quiero registrar mis servicios con su precio y duración, para ofrecerlos a los clientes de manera clara y organizada.                                                                                    | No Corresponde              | No Corresponde          |
+| EP51                   | Modificación de servicios                                     | Como dueño/administrador, quiero poder modificar los datos de un servicio existente, para actualizar precios, descripciones o duraciones según sea necesario.                                                                      | No Corresponde              | No Corresponde          |
+| EP52                   | Registro de trabajadores (estilistas o barberos)              | Como dueño/administrador, quiero registrar a mis trabajadores en la plataforma, para asignarles citas, turnos y servicios fácilmente.                                                                                              | No Corresponde              | No Corresponde          |
+| EP53                   | Modificación de datos de trabajadores (estilistas o barberos) | Como dueño/administrador, quiero modificar los datos de mis trabajadores registrados, para mantener su información actualizada.                                                                                                    | No Corresponde              | No Corresponde          |
+| EP54                   |                                                               |                                                                                                                                                                                                                                    | No Corresponde              | No Corresponde          |
+| EP55                   |                                                               |                                                                                                                                                                                                                                    | No Corresponde              | No Corresponde          |
+| EP56                   |                                                               |                                                                                                                                                                                                                                    | No Corresponde              | No Corresponde          |
+| EP57                   |                                                               |                                                                                                                                                                                                                                    | No Corresponde              | No Corresponde          |
+| EP58                   |                                                               |                                                                                                                                                                                                                                    | No Corresponde              | No Corresponde          |
+| EP59                   |                                                               |                                                                                                                                                                                                                                    | No Corresponde              | No Corresponde          |
+| EP60                   |                                                               |                                                                                                                                                                                                                                    | No Corresponde              | No Corresponde          |
+
+| **Epic/User Story ID** | **Título**                        | **Descripción**                                                                                                                                                                                                                    | **Criterios de Aceptación**                                                                                                                                                                                                                                                                                                     | **Relacion con (Epic ID)** |
+|------------------------|-----------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------|
+=======
+| EP37                   | Registro de historial de modificaciones          | Como dueño/administrador, quiero que se registre un historial de citas canceladas o reprogramadas, para contar con un seguimiento detallado de los cambios realizados y facilitar la trazabilidad.                                 | No Corresponde              | No Corresponde          |
+| EP38                   |                                                  |                                                                                                                                                                                                                                    | No Corresponde              | No Corresponde          |
+| EP39                   |                                                  |                                                                                                                                                                                                                                    | No Corresponde              | No Corresponde          |
+| EP40                   |                                                  |                                                                                                                                                                                                                                    | No Corresponde              | No Corresponde          |
+| EP41                   |                                                  |                                                                                                                                                                                                                                    | No Corresponde              | No Corresponde          |
+| EP42                   |                                                  |                                                                                                                                                                                                                                    | No Corresponde              | No Corresponde          |
+| EP43                   |                                                  |                                                                                                                                                                                                                                    | No Corresponde              | No Corresponde          |
+| EP44                   |                                                  |                                                                                                                                                                                                                                    | No Corresponde              | No Corresponde          |
+| EP45                   |                                                  |                                                                                                                                                                                                                                    | No Corresponde              | No Corresponde          |
+| EP46                   |                                                  |                                                                                                                                                                                                                                    | No Corresponde              | No Corresponde          |
+| EP47                   |                                                  |                                                                                                                                                                                                                                    | No Corresponde              | No Corresponde          |
+| EP48                   |                                                  |                                                                                                                                                                                                                                    | No Corresponde              | No Corresponde          |
+| EP49                   |                                                  |                                                                                                                                                                                                                                    | No Corresponde              | No Corresponde          |
+| EP50                   |                                                  |                                                                                                                                                                                                                                    | No Corresponde              | No Corresponde          |
+| EP51                   |                                                  |                                                                                                                                                                                                                                    | No Corresponde              | No Corresponde          |
+| EP52                   |                                                  |                                                                                                                                                                                                                                    | No Corresponde              | No Corresponde          |
+| EP53                   |                                                  |                                                                                                                                                                                                                                    | No Corresponde              | No Corresponde          |
+| EP54                   |                                                  |                                                                                                                                                                                                                                    | No Corresponde              | No Corresponde          |
+| EP55                   |                                                  |                                                                                                                                                                                                                                    | No Corresponde              | No Corresponde          |
+| EP56                   |                                                  |                                                                                                                                                                                                                                    | No Corresponde              | No Corresponde          |
+| EP57                   |                                                  |                                                                                                                                                                                                                                    | No Corresponde              | No Corresponde          |
+| EP58                   |                                                  |                                                                                                                                                                                                                                    | No Corresponde              | No Corresponde          |
+| EP59                   |                                                  |                                                                                                                                                                                                                                    | No Corresponde              | No Corresponde          |
+| EP60                   |                                                  |                                                                                                                                                                                                                                    | No Corresponde              | No Corresponde          |
+>>>>>>> 839cc41d845c9f5b4eb375d0f43c64b5e4b78c48
+| EP01                   | Gestion De subscripciones         | Como dueño/administrador, quiero conocer los planes de suscripción disponibles, sus precios y beneficios, y ver claramente cuál es el estado de mi suscripción, para tomar decisiones informadas sobre qué plan elegir o mantener. | No Corresponde                                                                                                                                                                                                                                                                                                                  | No Corresponde          |
+| EP02                   | Gestión de Pagos y Facturación    | Como dueño/administrador, quiero seleccionar un plan, pagar desde la plataforma y recibir confirmaciones y notificaciones automáticas, para mantener activa mi suscripción sin complicaciones.                                     | No Corresponde                                                                                                                                                                                                                                                                                                                  | No Corresponde          |
+| EP31                   | Gestión de Visualización de citas | Como cliente, quiero visualizar de forma ordenada todas mis citas agendadas incluyendo fecha, hora y servicio, para mantener una control eficiente de mis compromisos.                                                             | No Corresponde                                                                                                                                                                                                                                                                                                                  | No Corresponde          |
+| EP07                   | Gestion De subscripciones                   | Como dueño/administrador, quiero conocer los planes de suscripción disponibles, sus precios y beneficios, y ver claramente cuál es el estado de mi suscripción, para tomar decisiones informadas sobre qué plan elegir o mantener. | No Corresponde                                                                                                                                                                                                                                                                                                                  | No Corresponde             |
+| EP08                   | Gestión de Pagos y Facturación              | Como dueño/administrador, quiero seleccionar un plan, pagar desde la plataforma y recibir confirmaciones y notificaciones automáticas, para mantener activa mi suscripción sin complicaciones.                          | No Corresponde                                                                                                                                                                                                                                                                                                                  | No Correspondeq            |
+| US042                  | Visualizacion de beneficios de subscripción | Como dueño/administrador, quiero ver los beneficios de cada tipo de suscripción, para elegir el plan que más me conviene.                                                                                               | Escenario 1: Comparación de beneficios de subscripciones<br>**Dado que** un dueño/administrador visita la sección de planes de suscripción, <br/>**Cuando** hace click en una de las subscripción disponibles, <br/>**Entonces** el sistema debe mostrar claramente los beneficios de cada uno en formato lista o tabla comparativa.                  |EP07|
+| US043                  | Visualizacion de precios                    | Como dueño/administrador, quiero ver claramente los precios de cada tipo de suscripción, para saber cuánto debo pagar.                                                                                                  | Escenario 1: Comparación de precios<br> **Dado que** un usuario accede a la sección de suscripciones,<br>**Cuando** selecciona un tipo de plan,<br/>**Entonces** el sistema debe mostrar el precio mensual y/o anual actualizado antes de que realice el pago.                                                                                   |EP07|
+| US044    | Estado y nivel de suscripción                            | Como dueño/administrador, quiero ver el estado y nivel de mi suscripción, para saber si mi plan está activo o necesita renovación.                                                                                      | Escenario 1: Visualización del estado de la suscripción<br>**Dado que** un usuario ha iniciado sesión,<br>**Cuando** accede a la sección de suscripción,<br>**Entonces** el sistema debe mostrar el nombre del plan actual, el estado (activo/inactivo) y la fecha de vencimiento o renovación.                                             | EP07     |
+| US045    | Selección y pago de plan                                 | Como salón, quiero seleccionar un plan desde la plataforma y proceder al pago, para activar mi suscripción.                                                                                                             | Escenario 1: Selección de plan y redirección a pago<br>**Dado que** el salón ha iniciado sesión,<br>**Cuando** selecciona un plan y hace clic en "Pagar",<br>**Entonces** el sistema debe redirigirlo al proceso de pago y mostrar un resumen del plan seleccionado.                                                                        | EP08     |
+| US046 | Pago seguro con tarjeta o billetera digital | Como usuario, quiero pagar mi suscripción con tarjeta o billetera digital, para completar mi suscripción de forma segura. | Escenario 1: Procesamiento de pago seguro<br>**Dado que** el usuario ha elegido un plan de suscripción, **Cuando** completa los datos de pago y confirma, Entonces el sistema debe procesar el pago mediante una pasarela compatible con bancos peruanos y billeteras digitales como Yape o Plin, y mostrar si fue exitoso o fallido.   | EP08 |
+| US047    | Confirmación de pago                                      | Como dueño/administrador, quiero recibir una confirmación visual y por correo al completar mi pago, para saber que todo se procesó correctamente.                                                                                   | Escenario 1: Confirmación después del pago<br>**Dado que** el pago fue procesado correctamente,<br>**Cuando** se completa la transacción,<br>**Entonces** el sistema debe mostrar una pantalla de confirmación y enviar un correo con los detalles del plan y pago realizado.                                                               | EP08     |
+| US048    | Renovación automática de suscripción                      | Como dueño/administrador, quiero activar la renovación automática de mi suscripción, para no tener que pagar manualmente cada vez.                                                                                                  | Escenario 1: Activación de renovación automática<br>**Dado que** el usuario tiene una suscripción activa,<br>**Cuando** activa la opción de renovación automática en su perfil,<br>**Entonces** el sistema debe guardar la preferencia y renovar automáticamente en la fecha de vencimiento.                                                | EP08     |
+| US049    | Alertas por vencimiento o fallo de pago                  | Como dueño/administrador, quiero recibir alertas si mi pago está por vencer o si falla, para no perder mi acceso al servicio.                                                                                                       | Escenario 1: Alerta de vencimiento<br>**Dado que** la suscripción está por vencer,<br>**Cuando** falten 3 días,<br>**Entonces** el sistema debe enviar un correo de aviso.<br><br>Escenario 2: Alerta por pago fallido<br>**Dado que** se intenta un cobro automático,<br>**Cuando** falla,<br>**Entonces** se debe enviar un correo y mostrar un aviso. | EP08     |
+
+>>>>>>> 84c92178867bfaba2a906119e487a461167f21ea
+
 
 
 ## 3.3. Impact Mapping.
