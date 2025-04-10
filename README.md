@@ -1145,6 +1145,20 @@ Segmento objetivo #2: Clientes de servicios de belleza
     <th colspan="1" align="center">RNF-004</th>
     <td colspan="1" align="center"> El sistema debe soportar al menos 100 usuarios concurrentes.</td>
   </tr>
+  <tr>
+    <th colspan="1" align="center">RNF-005</th>
+    <td colspan="1" align="center"> El registro de cita deberia cargar en menos de 10 segundos</td>
+  </tr>
+  <th colspan="2" align="center">Grupo Funcional: Compatibilidad</th>
+  <tr>
+    <th colspan="1" align="center">RNF-006</th>
+    <td colspan="1" align="center"> Accesibilidad desde diferentes navegadores</td>
+  </tr>
+  <th colspan="2" align="center">Grupo Funcional: Usabilidad</th>
+  <tr>
+    <th colspan="1" align="center">RNF-006</th>
+    <td colspan="1" align="center"> La interfaz deberia ser comprensible para usuarios con poca experiencia </td>
+  </tr>
 </table>
 
 ## 3.3. Impact Mapping.
