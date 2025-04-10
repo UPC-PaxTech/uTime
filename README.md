@@ -1323,30 +1323,30 @@ Segmento objetivo #2: Clientes de servicios de belleza
    </tr>
    <tr>
     <th colspan="1" align="center">RFU-050</th>
-    <td colspan="1">La empresa debe de tener la opción de registrar sus servicios, su precio y su duración</td>
+    <td colspan="1">La empresa debe de tener la opción de registrar sus servicios, su precio y su duración.</td>
    </tr>
    <tr>
     <th colspan="1" align="center">RFU-051</th>
-    <td colspan="1">La empresa debe de tener la opción modificar los datos de un servicio existene</td>
+    <td colspan="1">La empresa debe de tener la opción modificar los datos de un servicio existente.</td>
    </tr>
    <tr>
    <th colspan="2" align="center">Grupo Funcional: Gestión de negocio</th>
    </tr>
    <tr>
     <th colspan="1" align="center">RFU-052</th>
-    <td colspan="1">La empresa debe de tener la opción de registrar a sus trabajadores en la plataforma</td>
+    <td colspan="1">La empresa debe de tener la opción de registrar a sus trabajadores en la plataforma.</td>
    </tr>
    <tr>
     <th colspan="1" align="center">RFU-053</th>
-    <td colspan="1">La empresa debe de tener la opción de modificar los datos de sus trabajadores</td>
+    <td colspan="1">La empresa debe de tener la opción de modificar los datos de sus trabajadores.</td>
    </tr>
    <tr>
     <th colspan="1" align="center">RFU-054</th>
-    <td colspan="1">La empresa debe de tener la opción de añadir sus cuentas bancarias en el sistema</td>
+    <td colspan="1">La empresa debe de tener la opción de añadir sus cuentas bancarias en el sistema.</td>
    </tr>
    <tr>
     <th colspan="1" align="center">RFU-055</th>
-    <td colspan="1">La empresa debe de tener la opción de modificar o eliminar sus cuentas bancarias en el sistema</td>
+    <td colspan="1">La empresa debe de tener la opción de modificar o eliminar sus cuentas bancarias en el sistema.</td>
    </tr>
  <tr>
    <th colspan="2" align="center">Grupo Funcional: Marketplace y Gestión de productos</th>
