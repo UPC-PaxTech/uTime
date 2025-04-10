@@ -1438,9 +1438,9 @@ Segmento objetivo #2: Clientes de servicios de belleza
 
 
 | **Epic/User Story ID** | **Título**                     | **Descripción**                                                                                                                                                                                                                    | **Criterios de Aceptación** | **Relacion con (Epic ID)** |
-|------------------------|--------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------|----------------------------|
-| EP01                   | Gestion De subscripciones      | Como dueño/administrador, quiero conocer los planes de suscripción disponibles, sus precios y beneficios, y ver claramente cuál es el estado de mi suscripción, para tomar decisiones informadas sobre qué plan elegir o mantener. | No Corresponde  | No Corresponde             |
-| EP02                   | Gestión de Pagos y Facturación | Como dueño/administrador, quiero seleccionar un plan, pagar desde la plataforma y recibir confirmaciones y notificaciones automáticas, para mantener activa mi suscripción sin complicaciones.                                     |                          |                            |
+|------------------------|--------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------|----------------------------|
+| EP01                   | Gestion De subscripciones      | Como dueño/administrador, quiero conocer los planes de suscripción disponibles, sus precios y beneficios, y ver claramente cuál es el estado de mi suscripción, para tomar decisiones informadas sobre qué plan elegir o mantener. | No Corresponde              | No Corresponde             |
+| EP02                   | Gestión de Pagos y Facturación | Como dueño/administrador, quiero seleccionar un plan, pagar desde la plataforma y recibir confirmaciones y notificaciones automáticas, para mantener activa mi suscripción sin complicaciones.  | No Corresponde              | No Correspondeq            |
 
 
 
