@@ -1116,6 +1116,43 @@ Segmento objetivo #2: Clientes de servicios de belleza
     <th colspan="1" align="center">RFU-019</th>
     <td colspan="1">El sistema debe solicitar confirmación antes de realizar la eliminación de cuenta.</td>
    </tr>
+   <th colspan="2" align="center">Grupo Funcional: Subscripciones</th>
+   </tr>
+   <tr>
+    <th colspan="1" align="center">RFU-000</th>
+    <td colspan="1">El sistema debe mostrar al usuario los beneficios que hay por cada tipo de subscripción</td>
+   </tr>
+   <tr>
+    <th colspan="1" align="center">RFU-000</th>
+    <td colspan="1">El sistema debe mostrar claramente los precios de cada tipos de subscripción al usuario</td>
+   </tr>
+   <tr>
+    <th colspan="1" align="center">RFU-000</th>
+    <td colspan="1">El sistema debe mostrar claramente el estado de la subscripción y el nivel que tiene en la seccion de subscripción</td>
+   </tr>
+   <tr>
+  <th colspan="2" align="center">Grupo Funcional: Pagos</th>
+</tr>
+<tr>
+  <th colspan="1" align="center">RFU-000</th>
+  <td colspan="1">El sistema debe permitir a los salones de belleza seleccionar un plan de suscripción y proceder al pago desde la plataforma.</td>
+</tr>
+<tr>
+  <th colspan="1" align="center">RFU-000</th>
+  <td colspan="1">El sistema debe integrar pasarelas de pago seguras (como Stripe o PayPal) para procesar pagos con tarjetas de débito o crédito.</td>
+</tr>
+<tr>
+  <th colspan="1" align="center">RFU-000</th>
+  <td colspan="1">El sistema debe generar una confirmación visual y por correo electrónico una vez realizado el pago.</td>
+</tr>
+<tr>
+  <th colspan="1" align="center">RFU-000</th>
+  <td colspan="1">El sistema debe permitir la renovación automática del plan de suscripción si el usuario así lo desea.</td>
+</tr>
+<tr>
+  <th colspan="1" align="center">RFU-000</th>
+  <td colspan="1">El sistema debe alertar al usuario por correo electrónico cuando el pago esté próximo a vencerse o haya fallado.</td>
+</tr>
 </table>
 
 
