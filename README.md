@@ -1434,6 +1434,16 @@ Segmento objetivo #2: Clientes de servicios de belleza
   </tr>
 </table>
 
+### 3.2.3 User Stories
+
+
+| **Epic/User Story ID** | **Título** | **Descripción** | **Criterios de Aceptación** | **Relacion con (Epic ID)** |
+|------------------------|-----------|-----------------|-----------------------------|---------------------------|
+| EP01                   |        |         |                     |                           |
+|                        |        |         |                     |                           |
+
+
+
 ## 3.3. Impact Mapping.
 
 ## 3.4. Product Backlog.
