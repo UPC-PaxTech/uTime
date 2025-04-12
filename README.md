@@ -277,7 +277,7 @@ De acuerdo a los salones de belleza que operan en Tegucigalpa, el 53,3% de las m
 <img src="img/img_1.png" alt="dato_estadistico_2" />
 </div>
 
-Según Giselle Spa en La Molina (2021), se realizo una encuesta a 205 cliente respecto a la calidad de servicio que ofrece el salon de belleza se identifico que el 53,4% admiten que dicha calidad se manifiesta de forma regular, debido al poco interés que se percibe respecto a los cronogramas, comunicación activa y organización laboral.
+Según el salón de belleza "Giselle Spa" de La Molina (2021), se realizo una encuesta a 205 cliente respecto a la calidad de servicio que ofrece el salon de belleza se identifico que el 53,4% admiten que dicha calidad se manifiesta de forma regular, debido al poco interés que se percibe respecto a los cronogramas, comunicación activa y organización laboral.
 
 <div align="center">
 <img src="img/img_2.png" alt="dato_estadistico_3" />
