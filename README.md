@@ -1002,23 +1002,10 @@ Segmento objetivo #2: Clientes de servicios de belleza
 ### 2.3.5. As-is Scenario Mapping.
 
 Segmento objetivo #1: Salones de belleza y barberías
-
-
-| Phases   | Recepción de cita                                                                                                                    | Revisión de disponibilidad                                                                                                                                                                     | Negociación o aceptación de cita                                                                                                                                                                                                                   | Emisión de estado de cita                                                                                                                                   |
-| -------- | ------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Doing    | -Por los medios dados por el salón (Instagram, llamada, etc), se revisa y recepciona las entradas de citas deseadas por los clientes | - Se revisa usando cuaderno u otros metodos informales si hay estilistas disponibles a la hora deseada del cliente<br/>- Se ofrece un tiempo disponible al cliente en caso no tenga uno pensado | - Si hay horario disponible para el cliente se acepta y se registre en el cuaderno manualmente.<br/>- Si no hay horario disponible, se intenta negociar con el cliente otro tiempo en el cual sea posible generar la cita y se anota respetivamente. | - Se confirma el horario y se recuerda al cliente de su proxima cita en la misma plataforma que usaron para contactarnos.                                    |
-| Thinking | - "Tengo una cantidad enorme de sitios que revisar por las citas de los clientes"                                                     | - "Espero encontrar rápido un tiempo libre para la cita del cliente."                                                                                                                          | - "Es exhausto tener que hablar con cada uno de los clientes mediante diferentes plataformas."                                                                                                                                                       | -"Tengo que mandar a cada uno de los clientes la confirmacion y un recordatorio"                                                                             |
-| Feeling  | - Exaustos por la cantidad de sitios a chequear.<br/>- Abrumado por la cantidad de clientes en diferentes sitios                      | - "Apurado por encontrar un tiempo adecuado para el cliente".<br/>- "Ansioso por dar una respuesta satisfactoria al cliente"                                                                    | - Exausto y aliviado por encontrar un horario disponible manualmente<br/>- Frustrado que el cliente no concuerde con los horarios disponibles y repetir varias veces lo mismo                                                                        | - Frustrado en tener que volver a mandar recordatorios y confirmaciones de todas las citas registradas por la misma plataforma en la cual fueron contactados |
+![As-is Scenario Mapping | Segmento objetivo #1](img/Asis%20#1.jpg)
 
 Segmento objetivo #2: Clientes de servicios de belleza
-
-
-| Phases   | Contactar el salon de estilista o barbero                                          | Preguntar por disponibilidad                               | Aceptar el horario ofrecido o escoger otro                                                                                | Recepcion de estado de cita                                                                                |
-| -------- | ---------------------------------------------------------------------------------- | ---------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
-| Doing    | - Usan Instagram, llamada, WhatsApp u otros medios para comunicarse con el salón. | - Preguntan si hay disponibilidad en el horario que desean | - Aceptan el horario ofrecido o piden uno diferente hasta encontrar uno conveniente.                                      | - Reciben confirmación de la cita y a veces un recordatorio, por el mismo medio en el que se comunicaron. |
-| Thinking | - "Espero que me respondan pronto."                                                | - "Ojalá tengan espacio a la hora que yo quiero."         | - "¿Tendrán otro horario si este no me funciona?"                                                                       | - "¿Me confirmaron bien? ¿Se acordarán de mi cita?"                                                     |
-| Feeling  | - Ansioso por recibir respuesta.<br/>- Frustrado si hay demora.                    | - Impaciente por tener una respuesta clara.                | - Aliviado si se encuentra un buen horario.<br/> - Frustrado si tiene que enviar muchos mensajes para concretar una cita. | - Tranquilo si recibe confirmación clara.<br/>- Inseguro si no hay recordatorio o claridad.               |
-
+![As-is Scenario Mapping | Segmento objetivo #2](img/Asis%20#2.jpg)
 ## 2.4. Ubiquitous Language.
 
 | Term                                             | Definition                                                                       |
@@ -1040,54 +1027,10 @@ Segmento objetivo #2: Clientes de servicios de belleza
 ## 3.1. To-Be Scenario Mapping.
 
 Segmento objetivo #1: Salones de belleza y barberías
-<table>
-    <tr>
-        <th>Phases</th>
-        <th>Recepción de cita</th>
-        <th>Revisión de disponibilidad</th>
-        <th>Negociación o aceptación de cita</th>
-        <th>Emisión de estado de cita</th>
-    </tr>
-    <tr>
-        <th>Doing</th>
-        <th> -Se abre la aplicación web usando las credenciales y se revisa las citas generadas por los clientes. <br> -Cada estilista puede ver sus clientes asignados por horario</th>
-         <th>-En el calendario de la aplicación web, se revisa en las secciones sin eventos para confirmar disponibilidad.</th>
-         <th>-En la aplicación web, se permite añadir una cita para los clientes que aun se comunican a traves de otros medios.</th>
-         <th>-Estado e información de la cita se envia a traves de e-mail automaticamente</th>
-    </tr>
-   <tr>
-      <th>Thinking</th>
-      <th>-"Todas las estilistas ya tienen sus horarios y no tengo que manualmente registrar todas las citas ya que los clientes pueden escoger!"</th>
-      <th>-"Puedo revisar facilmente horarios disponibles gracias al calendario en vivo" <br>-"No tengo que estar en largas conversasiones con los clientes para decidir sus citas"</th>
-      <th>-"Es facil insertar un evento en el calendario ya que no tengo que buscar el momento específico, solo necesito saber la hora o hacer click en el espacio en el calendario"</th>
-      <th>-"Espero que el correo del estado de la cita del cliente lo haya recibido"</th>
-   </tr>
-   <tr>
-  <th>Feeling</th>
-  <td>
-    - Alivio por no tener que organizar todo manualmente. <br>
-    - Satisfacción al ver que las clientas pueden reservar por sí solas. <br>
-    - Más confianza en el sistema.
-  </td>
-  <td>
-    - Tranquilidad al revisar fácilmente los horarios libres. <br>
-    - Menos estrés por no tener que escribir o llamar varias veces al cliente. <br>
-    - Seguridad en la disponibilidad real del personal.
-  </td>
-  <td>
-    - Comodidad al registrar citas rápidamente con pocos clics. <br>
-    - Menos presión por encontrar huecos a mano o anotar en papeles. <br>
-    - Confianza en que todo queda bien organizado en el sistema.
-  </td>
-  <td>
-    - Seguridad al saber que el sistema envía el correo automáticamente. <br>
-    - Relajación al no tener que recordar hacerlo manualmente. <br>
-    - Ligera duda al no tener confirmación visual inmediata de la entrega.
-  </td>
-</tr>
-</table>
+![Segmento objetivo #1: Salones de belleza y barberías](img/Tobe%20#1.jpg)
 
 Segmento objetivo #2: Clientes de servicios de belleza
+![Segmento objetivo #2: Clientes de servicios de belleza](img/Tobe%20#2.jpg)
 
 <table>
     <tr>
