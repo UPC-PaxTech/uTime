@@ -1002,10 +1002,12 @@ Segmento objetivo #2: Clientes de servicios de belleza
 ### 2.3.5. As-is Scenario Mapping.
 
 Segmento objetivo #1: Salones de belleza y barberías
-![As-is Scenario Mapping | Segmento objetivo #1](img/Asis%20#1.jpg)
+
+![As-is Scenario Mapping | Segmento objetivo #1](img/Asis1.jpg)
 
 Segmento objetivo #2: Clientes de servicios de belleza
-![As-is Scenario Mapping | Segmento objetivo #2](img/Asis%20#2.jpg)
+
+![As-is Scenario Mapping | Segmento objetivo #2](img/Asis2.jpg)
 ## 2.4. Ubiquitous Language.
 
 | Term                                             | Definition                                                                       |
@@ -1027,10 +1029,12 @@ Segmento objetivo #2: Clientes de servicios de belleza
 ## 3.1. To-Be Scenario Mapping.
 
 Segmento objetivo #1: Salones de belleza y barberías
-![Segmento objetivo #1: Salones de belleza y barberías](img/Tobe%20#1.jpg)
+
+![Segmento objetivo #1: Salones de belleza y barberías](img/Tobe1.jpg)
 
 Segmento objetivo #2: Clientes de servicios de belleza
-![Segmento objetivo #2: Clientes de servicios de belleza](img/Tobe%20#2.jpg)
+
+![Segmento objetivo #2: Clientes de servicios de belleza](img/Tobe2.jpg)
 
 <table>
     <tr>
