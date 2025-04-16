@@ -928,6 +928,18 @@ Preguntas para el segmento objetivo 02
 
 
 ### 2.2.2. Registro de entrevistas.
+Entrevista N 1 - Barbero:
+
+Entrevistador: Jorge Suin Yum Gonzales
+
+Entrevistado: Luis Fernando Farfán
+
+**Link De la entrevista:**
+
+![Entrevista Luis Fernando](img/Entrevista1LuisFernando.png)
+
+**Resumen:**
+Luis Fernando Farfán es un barbero de Chiclayo que tiene 8 años de experiencia. Utiliza las redes sociales y WhatsApp para ambos el marketing de su negocio y la recepción de citas. Utiliza la agenda Fresha para registrar las citas y gestionar los horarios. Se enfrenta a desafíos como la comunicación sobre información del horario y especialmente se enfrenta a clientes que cancelan al último minuto, llegan tarde o no llegan en absoluto lo cual le causa una perdida de tiempo y clientes posibles. Le resulta de gran importancia saber en qué horarios se encuentran disponibles sus barberos para asignar a los clientes. Se enfoca que sus barberos y el mismo sean empáticos y carismáticos para que los clientes se sientan comodos y vuelvan a la barbería.
 
 ### 2.2.3. Análisis de entrevistas.
 
