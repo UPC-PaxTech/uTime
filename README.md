@@ -1048,67 +1048,7 @@ Segmento objetivo #2: Clientes de servicios de belleza
 
 ![Segmento objetivo #2: Clientes de servicios de belleza](img/Tobe2.jpg)
 
-<table>
-    <tr>
-        <th>Phases</th>
-        <th>Contactar al salón de estilista o barbero</th>
-        <th>Preguntar por disponibilidad</th>
-        <th>Aceptar el horario ofrecido o escoger otro</th>
-        <th>Recepción de estado de cita</th>
-    </tr>
-    <tr>
-        <th>Doing</th>
-        <th> -Mediante un link publicado por las redes del salón, se abre la aplicación web donde se encuentra el calendario del salón</th>
-         <th>-En el calendario se puede revisar de manera organizada los horarios disponibles gracias a los sectores vacíos del calendario.</th>
-         <th>-Usando email, loguear al calendario y seleccionar el espacio vacío para registrar la cita con el estilista y servicio deseado</th>
-         <th>-Revisar confirmación de la cita en el e-mail</th>
-    </tr>
-   <tr>
-  <th>Thinking</th>
-  <td>
-    -"Qué práctico, no necesito escribir ni esperar respuesta." <br>
-    -"Puedo revisar los horarios cuando quiera, sin molestar a nadie."
-  </td>
-  <td>
-    -"Es fácil entender cuándo hay disponibilidad." <br>
-    -"No necesito preguntar, puedo verlo todo directamente."
-  </td>
-  <td>
-    -"Puedo elegir el horario que más me conviene." <br>
-    -"Qué cómodo que todo esté en un solo lugar y no tenga que hacer llamadas."
-  </td>
-  <td>
-    -"Ya me llegó la confirmación, genial." <br>
-    -"Sé exactamente cuándo y con quién tengo la cita."
-  </td>
-</tr>
-<tr>
-  <th>Feeling</th>
-  <td>
-    - Alivio por no tener que esperar respuestas manuales. <br>
-    - Autonomía y control del proceso. <br>
-    - Comodidad.
-  </td>
-  <td>
-    - Tranquilidad al poder ver claramente la disponibilidad. <br>
-    - Confianza en el sistema. <br>
-    - Relajación.
-  </td>
-  <td>
-    - Satisfacción por poder elegir sin depender de nadie. <br>
-    - Seguridad al ver reflejada su selección en tiempo real. <br>
-    - Confianza.
-  </td>
-  <td>
-    - Confirmación inmediata que genera tranquilidad. <br>
-    - Alegría por la organización. <br>
-    - Sensación de profesionalismo.
-  </td>
-</tr>
-</table>
-
 ## 3.2. User Stories.
-
 
 ### 3.2.3 User Stories
 
