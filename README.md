@@ -1509,6 +1509,11 @@ Segmento objetivo #2: Clientes de servicios de belleza
 </table>
 
 ## 3.3. Impact Mapping.
+<div align="center">
+
+<img src="img/Impact%20map%201.png" alt="impact_mapping" />
+
+</div>
 
 ## 3.4. Product Backlog.
 <table>
