@@ -934,7 +934,7 @@ Entrevistador: Jorge Suin Yum Gonzales
 
 Entrevistado: Luis Fernando Farfán
 
-**Link De la entrevista:**
+**Link De la entrevista:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210838_upc_edu_pe/EQH8S_-ea-VPhIvMq4A4MdsBwgorkHIbabKF_8l-aqjYlQ?e=YA3TSi&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
 ![Entrevista Luis Fernando](img/Entrevista1LuisFernando.png)
 
