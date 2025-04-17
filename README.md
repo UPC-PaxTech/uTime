@@ -32,17 +32,18 @@
 # Registro de Versiones del Informe
 
 
-| Version | Fecha      | Autor                            | Descripción de modificación                             |
-| ------- |------------| -------------------------------- |---------------------------------------------------------|
-| 1.0     | 01/04/2025 | Chi, Rivera, Varela, Yalán, Yum | Creación del documento de trabajo en formato markdown   |
-| 1.1     |            | Chi, Rivera, Varela, Yalán, Yum |                                                         |
-| 1.2     |            | Chi, Rivera, Varela, Yalán, Yum |                                                         |
-| 1.3     |            | Chi, Rivera, Varela, Yalán, Yum |                                                         |
-| 1.4     |            | Chi, Rivera, Varela, Yalán, Yum |                                                         |
-| 1.5     | 09/04/2025 | Chi, Rivera, Varela, Yalán, Yum | Creación de los requisitos funcionales y no funcionales |
-| 1.6     |            | Chi, Rivera, Varela, Yalán, Yum |                                                         |
-| 1.7     |            | Chi, Rivera, Varela, Yalán, Yum |                                                         |
-| 1.8     |            | Chi, Rivera, Varela, Yalán, Yum |                                                         |
+| Version | Fecha      | Autor                                  | Descripción de modificación                             |
+|---------|------------|----------------------------------------|---------------------------------------------------------|
+| 1.0     | 01/04/2025 | Chi, Rivera, Varela, Yalán, Yum        | Creación del documento de trabajo en formato markdown   |
+| 1.1     |            | Chi, Rivera, Varela, Yalán, Yum        |                                                         |
+| 1.2     |            | Chi, Rivera, Varela, Yalán, Yum        |                                                         |
+| 1.3     |            | Chi, Rivera, Varela, Yalán, Yum        |                                                         |
+| 1.4     |            | Chi, Rivera, Varela, Yalán, Yum        |                                                         |
+| 1.5     | 09/04/2025 | Chi, Rivera, Varela, Yalán, Yum        | Creación de los requisitos funcionales y no funcionales |
+| 1.6     |            | Chi, Rivera, Varela, Yalán, Yum        |                                                         |
+| 1.7     |            | Chi, Rivera, Varela, Yalán, Yum        |                                                         |
+| 1.8     | 16/04/2025 | Chi, Rivera, Varela, Yalán, Yum        | Creación de los User Stories y Technical Stories        |
+| 1.9     | 17/04/2025 | Chi, Rivera, Varela, Yalán, Yum        | Creación del Product Backlog                            |
 
 </div>
 
