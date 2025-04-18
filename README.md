@@ -1232,7 +1232,10 @@ Canonical Tag: Este tag especifica la URL canónica de la página para evitar pr
 ### 4.2.4. Searching Systems.
 
 ### 4.2.5. Navigation Systems.
+Los usuarios al entrar a la plataforma Landing Page podran ver en la parte superior un menu de navegacion que les permitira acceder a las diferentes secciones de la plataforma. Este menu de navegacion estara compuesto por los siguientes elementos: Home, Pricing, More(Contiene About us y Contact us), Book y Sign in. Esta barra mostrara tambien la seccion presenten en la cual esta y adicionalmente incluso si se desplaza hacia abajo, la barra de navegacion se mantendra visible en la parte superior de la pantalla para permitir un rapido desplazamiento a traves del landing page.
+Al entrar a la seccion deseada, el usuario podra usar la rueda de desplazamiento de su mouse o el touchpad de su computadora para navegar por la pagina lo que estara visualmente sugerido a la derecha de la pagina con una barra de desplazamiento. En caso de que el usuario quiera volver a la seccion anterior, podra usar el boton del logo o el boton de retroceso de su navegador o el boton de "Back" que estara ubicado en la parte superior izquierda de la pantalla. 
 
+De la misma manera en la aplicación web los usuarios podrán acceder a sus funcionalidades a través de un menú de navgación en la parte superior de la pantalla. 
 ## 4.3. Landing Page UI Design.
 
 ### 4.3.1. Landing Page Wireframe.
