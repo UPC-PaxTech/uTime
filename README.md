@@ -1196,7 +1196,7 @@ Segmento objetivo #2: Clientes de servicios de belleza
 
 ### 4.2.1. Organization Systems.
 <div align="center">
-![diagram_1_fix.png](img/diagram_1_fix.png)
+   <img src="img/diagram_1_fix.png" alt="diagram-1"/>
 </div>
 
 ### 4.2.2. Labeling Systems.
