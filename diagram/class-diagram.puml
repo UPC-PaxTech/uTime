@@ -1,0 +1,205 @@
+@startuml classDiagram
+
+' Shared Context
+package "shared Context" {
+    class Money <<ValueObject>> {
+        -amount: BigDecimal
+        -currency: String
+        --
+        +add(Money): Money
+        +subtract(Money): Money
+    }
+
+    class AccountId <<ValueObject>> {
+        -value: UUID
+        --
+        +equals(AccountId): Boolean
+    }
+
+    class ReviewId <<ValueObject>> {
+        -value: UUID
+    }
+}
+
+' Auth Context
+package "auth Context" {
+    class Account <<Entity>> {
+        -accountId: AccountId
+        -email: String
+        -passwordHash: String
+        -status: String
+        --
+        +activate()
+        +deactivate()
+        +isActive(): Boolean
+    }
+
+    Account o--> "1" AccountId
+}
+
+' User Context
+package "user Context" {
+    class User <<AggregateRoot>> {
+        -userId: UUID
+        -accountId: AccountId
+        -firstName: String
+        -lastName: String
+        -email: String
+        -description: String
+        -role: String
+        --
+        +updateUserInfo(firstName, lastName, description)
+    }
+
+    class Customer <<Entity>> {
+        -customerId: UUID
+        -userId: UUID
+        -createdAt: Date
+    }
+
+    class Worker <<Entity>> {
+        -workerId: UUID
+        -userId: UUID
+        -field: String
+        -experience: List<Experience>
+        -skills: List<String>
+        -certifications: List<String>
+        -availability: String
+        -hourlyRate: Money
+        -projectsCompleted: Int
+        -externalRecommendations: List<String>
+        --
+        +updateWorkerInfo(newData)
+        +addExperience(Experience)
+        +removeExperience(Experience)
+    }
+
+    class Experience <<ValueObject>> {
+        -company: String
+        -role: String
+        -startDate: Date
+        -endDate: Date
+        -isCurrently: Boolean
+        --
+        +updateExperienceInfo(company, role, dates)
+    }
+
+    class Review <<Entity>> {
+        -reviewId: ReviewId
+        -fromUserId: AccountId
+        -toUserId: AccountId
+        -rating: Int
+        -comment: String
+        -createdAt: Date
+        --
+        +updateComment(comment)
+    }
+
+    User o--> "1" AccountId
+    Customer o--> "1" User
+    Worker o--> "1" User
+    Worker *--> "many" Experience
+    Worker o--> "1" Money : hourlyRate
+    Review o--> "1" ReviewId
+    Review o--> "1" AccountId : fromUserId
+    Review o--> "1" AccountId : toUserId
+}
+
+' Proposals Context
+package "proposals Context" {
+    class Proposal <<AggregateRoot>> {
+        -proposalId: UUID
+        -workerId: AccountId
+        -customerId: AccountId
+        -title: String
+        -description: String
+        -price: Money
+        -estimatedTime: String
+        -status: String
+        -submittedAt: Date
+        --
+        +accept()
+        +reject()
+        +markAsInProgress()
+        +completeProposal()
+    }
+
+    Proposal o--> "1" Money
+    Proposal o--> "1" AccountId : workerId
+    Proposal o--> "1" AccountId : customerId
+}
+
+' Chat-Messages Context
+package "chat-messages Context" {
+    class Chat <<AggregateRoot>> {
+        -chatId: UUID
+        -participants: List<UUID>
+        -createdAt: Date
+        --
+        +addParticipant(UUID)
+    }
+
+    class Message <<Entity>> {
+        -messageId: UUID
+        -chatId: UUID
+        -senderId: UUID
+        -content: String
+        -timestamp: Date
+    }
+
+    Chat *--> "many" Message
+}
+
+' Payments Context
+package "payments Context" {
+    class SalesOrder_Payment <<AggregateRoot>> {
+        -orderId: UUID
+        -customerId: AccountId
+        -workerId: AccountId
+        -proposalId: UUID
+        -totalAmount: Money
+        -guaranteePaid: GuaranteePayment
+        -paymentStatus: String
+        -createdAt: Date
+        --
+        +registerGuaranteePayment(GuaranteePayment)
+        +markAsPaid()
+    }
+
+    class GuaranteePayment <<ValueObject>> {
+        -percentage: Double
+        -amount: Money
+        --
+        +isValid(): Boolean
+        +fromProposal(Money): GuaranteePayment
+    }
+
+    SalesOrder_Payment o--> "1" Money : totalAmount
+    SalesOrder_Payment o--> "1" GuaranteePayment
+    SalesOrder_Payment o--> "1" AccountId : customerId
+    SalesOrder_Payment o--> "1" AccountId : workerId
+    GuaranteePayment o--> "1" Money
+}
+
+' Conflicts Context
+package "conflicts Context" {
+    class Ticket <<AggregateRoot>> {
+        -ticketId: UUID
+        -orderId: UUID
+        -openedBy: AccountId
+        -openedAgainst: AccountId
+        -reason: String
+        -status: String
+        -createdAt: Date
+        --
+        +resolveToCustomer()
+        +resolveToWorker()
+        +assignMediator(UUID)
+    }
+
+    Ticket o--> "1" UUID : orderId
+    Ticket o--> "1" AccountId : openedBy
+    Ticket o--> "1" AccountId : openedAgainst
+}
+
+@enduml
