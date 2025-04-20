@@ -1195,6 +1195,9 @@ Segmento objetivo #2: Clientes de servicios de belleza
 ## 4.2. Information Architecture.
 
 ### 4.2.1. Organization Systems.
+<div align="center">
+![diagram_1.png](img/diagram_1.png)
+</div>
 
 ### 4.2.2. Labeling Systems.
 
