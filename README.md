@@ -1198,6 +1198,8 @@ Segmento objetivo #2: Clientes de servicios de belleza
 <div align="center">
    <img src="img/diagram_1_fix.png" alt="diagram-1"/>
    <img src="img/Homepage_system.png" alt="diagram-1-sign-in"/>
+   <img src="img/dashboard_1.png" alt="dash_1"/>
+   <img src="img/dashboard_2.png" alt="dash_2"/>
 </div>
 
 
