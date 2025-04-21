@@ -1195,9 +1195,20 @@ Segmento objetivo #2: Clientes de servicios de belleza
 ## 4.2. Information Architecture.
 
 ### 4.2.1. Organization Systems.
+-Landing Page Diagram:
 <div align="center">
-![diagram_1_fix.png](img/diagram_1_fix.png)
+   <img src="img/diagram_1_fix.png" alt="diagram-1"/>
 </div>
+-Home System Diagram:
+<div align="center">
+   <img src="img/Homepage_system.png" alt="diagram-1-sign-in"/>
+</div>
+-Dashboard Diagram:
+<div align="center">
+   <img src="img/dashboard_1.png" alt="dash_1"/>
+   <img src="img/dashboard_2.png" alt="dash_2"/>
+</div>
+Los diagramas del sistema han sido divididos y organizados mediante el uso de colores distintivos, con el propósito de representar claramente la funcionalidad específica de cada sección: landing page, home system y dashboard. Esta diferenciación visual permite identificar rápidamente el propósito de cada componente y entender su rol dentro de la estructura general del sistema. La jerarquía de elementos se mantiene mediante una distribución ordenada, donde cada bloque se relaciona con funciones concretas, lo que facilita tanto el análisis como futuras modificaciones.
 
 ### 4.2.2. Labeling Systems.
 
