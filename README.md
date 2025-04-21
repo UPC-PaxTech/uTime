@@ -1195,9 +1195,16 @@ Segmento objetivo #2: Clientes de servicios de belleza
 ## 4.2. Information Architecture.
 
 ### 4.2.1. Organization Systems.
+-Landing Page Diagram:
 <div align="center">
    <img src="img/diagram_1_fix.png" alt="diagram-1"/>
+</div>
+-Home System Diagram:
+<div align="center">
    <img src="img/Homepage_system.png" alt="diagram-1-sign-in"/>
+</div>
+-Dashboard Diagram:
+<div align="center">
    <img src="img/dashboard_1.png" alt="dash_1"/>
    <img src="img/dashboard_2.png" alt="dash_2"/>
 </div>
