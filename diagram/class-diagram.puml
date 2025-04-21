@@ -1,205 +1,190 @@
 @startuml classDiagram
 
-' Shared Context
+' Shared
 package "shared Context" {
+    class AccountId <<ValueObject>> {
+        -value: UUID
+    }
+
+    class ReservationId <<ValueObject>> {
+        -value: UUID
+    }
+
     class Money <<ValueObject>> {
-        -amount: BigDecimal
+        -amount: Decimal
         -currency: String
         --
         +add(Money): Money
         +subtract(Money): Money
     }
 
-    class AccountId <<ValueObject>> {
-        -value: UUID
-        --
-        +equals(AccountId): Boolean
-    }
-
-    class ReviewId <<ValueObject>> {
-        -value: UUID
+    class PaymentId <<ValueObject>> {
+        - value: UUID
     }
 }
 
-' Auth Context
 package "auth Context" {
-    class Account <<Entity>> {
-        -accountId: AccountId
-        -email: String
-        -passwordHash: String
-        -status: String
+
+    Entity Account <<AggregateRoot>> {
+        - accountId: AccountId
+        - email: String
+        - passwordHash: String
+        - isActive: Boolean
         --
-        +activate()
-        +deactivate()
-        +isActive(): Boolean
+        + erase(): void
+        + validatePassword(plain: String): Boolean
+        + generateAuthToken(): AuthToken
+    }
+
+    Entity AuthToken <<Entity>> {
+        - token: String
+        - accountId: AccountId
+        - issuedAt: DateTime
+        - expiresAt: DateTime
+        --
+        + revoke(): void
+    }
+
+    class AuthAdapter <<Adapter>> {
+        + authenticateWithGoogle(oauthCode: String): Boolean
     }
 
     Account o--> "1" AccountId
+    Account --> AuthToken
+    Account --> AuthAdapter
+
+    AuthToken o--> "1" AccountId
 }
 
 ' User Context
 package "user Context" {
-    class User <<AggregateRoot>> {
+    Entity User <<AggregateRoot>> {
         -userId: UUID
         -accountId: AccountId
-        -firstName: String
-        -lastName: String
-        -email: String
-        -description: String
-        -role: String
+        -name: String
         --
-        +updateUserInfo(firstName, lastName, description)
     }
 
-    class Customer <<Entity>> {
-        -customerId: UUID
-        -userId: UUID
-        -createdAt: Date
-    }
-
-    class Worker <<Entity>> {
-        -workerId: UUID
-        -userId: UUID
-        -field: String
-        -experience: List<Experience>
-        -skills: List<String>
-        -certifications: List<String>
-        -availability: String
-        -hourlyRate: Money
-        -projectsCompleted: Int
-        -externalRecommendations: List<String>
+    Entity Client <<Entity>> {
+        -clientId: UUID
         --
-        +updateWorkerInfo(newData)
-        +addExperience(Experience)
-        +removeExperience(Experience)
+        +updateClientInfo(name: String, email: String)
     }
 
-    class Experience <<ValueObject>> {
-        -company: String
-        -role: String
-        -startDate: Date
-        -endDate: Date
-        -isCurrently: Boolean
+    Entity Salon <<Entity>> {
+        -salonId: UUID
+        -location: String
+        -contact: ContactInfo
         --
-        +updateExperienceInfo(company, role, dates)
+        +updateSalontInfo(name: String, location: String)
     }
 
-    class Review <<Entity>> {
-        -reviewId: ReviewId
-        -fromUserId: AccountId
-        -toUserId: AccountId
-        -rating: Int
-        -comment: String
-        -createdAt: Date
-        --
-        +updateComment(comment)
+    class ContactInfo <<ValueObject>> {
+        -phone: String
+        -socialMedia: List<String>
     }
 
+    Salon o--> "1" ContactInfo
     User o--> "1" AccountId
-    Customer o--> "1" User
-    Worker o--> "1" User
-    Worker *--> "many" Experience
-    Worker o--> "1" Money : hourlyRate
-    Review o--> "1" ReviewId
-    Review o--> "1" AccountId : fromUserId
-    Review o--> "1" AccountId : toUserId
+    Salon o--> "1" User
+    Client o--> "1" User
 }
 
-' Proposals Context
-package "proposals Context" {
-    class Proposal <<AggregateRoot>> {
-        -proposalId: UUID
-        -workerId: AccountId
+' Scheduling Context DONEEEEEEEE
+package "scheduling Context" {
+
+    Entity Worker <<Entity>> {
+        -workerId: UUID
+        -nombre: String
+        -schedules: List<ScheduleList>
+        --
+        +addSchedule(schedule: Schedule)
+        +deleteSchedule(schedule: Schedule)
+    }
+
+    Entity Schedule <<Entity>> {
+        -scheduleId: ScheduleId
+        -date: Date
+        -timeSlots: List<TimeSlot>
+        --
+        +getAvailableSlots(): List<TimeSlot>
+        +isSlotAvailable(slotId: TimeSlotId): Boolean
+    }
+
+    Entity TimeSlot <<Entity>> {
+        -slotId: TimeSlotId
+        -start: DateTime
+        -end: DateTime
+        -reserved: Boolean
+        --
+        +markAsReserved()
+        +markAsAvailable()
+    }
+
+    class TimeSlotId <<ValueObject>> {
+        -value: UUID
+    }
+
+    Entity Reservation <<AggregateRoot>> {
+        -reservationId: ReservationId
         -customerId: AccountId
-        -title: String
-        -description: String
-        -price: Money
-        -estimatedTime: String
-        -status: String
-        -submittedAt: Date
+        -salonId: AccountId
+        -paymentId: PaymentId
+        -timeSlots: List<TimeSlotId>
         --
-        +accept()
-        +reject()
-        +markAsInProgress()
-        +completeProposal()
+        +cancel()
+        +reschedule(newTimeSlotId: TimeSlotId)
     }
 
-    Proposal o--> "1" Money
-    Proposal o--> "1" AccountId : workerId
-    Proposal o--> "1" AccountId : customerId
-}
+    ' Relaciones
+    Worker o--> "many" Schedule
+    Schedule *--> "many" TimeSlot
+    TimeSlot o--> "1" TimeSlotId
 
-' Chat-Messages Context
-package "chat-messages Context" {
-    class Chat <<AggregateRoot>> {
-        -chatId: UUID
-        -participants: List<UUID>
-        -createdAt: Date
-        --
-        +addParticipant(UUID)
-    }
-
-    class Message <<Entity>> {
-        -messageId: UUID
-        -chatId: UUID
-        -senderId: UUID
-        -content: String
-        -timestamp: Date
-    }
-
-    Chat *--> "many" Message
+    Reservation o--> "1" ReservationId
+    Reservation o--> "1" TimeSlotId
+    Reservation o--> "1" AccountId
+    Reservation o--> "1" PaymentId
 }
 
 ' Payments Context
+
 package "payments Context" {
-    class SalesOrder_Payment <<AggregateRoot>> {
-        -orderId: UUID
-        -customerId: AccountId
-        -workerId: AccountId
-        -proposalId: UUID
-        -totalAmount: Money
-        -guaranteePaid: GuaranteePayment
-        -paymentStatus: String
-        -createdAt: Date
+
+    class Payment <<AggregateRoot>> {
+        - paymentId: PaymentId
+        - reservationId: ReservationId
+        - payerId: AccountId
+        - amount: Money
+        - status: String
         --
-        +registerGuaranteePayment(GuaranteePayment)
-        +markAsPaid()
+        + markPaid()
+        + markFailed()
     }
 
-    class GuaranteePayment <<ValueObject>> {
-        -percentage: Double
-        -amount: Money
-        --
-        +isValid(): Boolean
-        +fromProposal(Money): GuaranteePayment
+
+    class PaymentAdapter <<DomainService>> {
+        + processPayment(reservationId: ReservationId, payerId: AccountId, amount: Money): Payment
+        + refundPayment(paymentId: PaymentId, reason: String): Refund
     }
 
-    SalesOrder_Payment o--> "1" Money : totalAmount
-    SalesOrder_Payment o--> "1" GuaranteePayment
-    SalesOrder_Payment o--> "1" AccountId : customerId
-    SalesOrder_Payment o--> "1" AccountId : workerId
-    GuaranteePayment o--> "1" Money
-}
-
-' Conflicts Context
-package "conflicts Context" {
-    class Ticket <<AggregateRoot>> {
-        -ticketId: UUID
-        -orderId: UUID
-        -openedBy: AccountId
-        -openedAgainst: AccountId
-        -reason: String
-        -status: String
-        -createdAt: Date
+    class Invoice <<Entity>> {
+        - invoiceId: UUID
+        - issuedAt: DateTime
+        - amount: Money
         --
-        +resolveToCustomer()
-        +resolveToWorker()
-        +assignMediator(UUID)
+        + generateFor(p: Payment)
     }
 
-    Ticket o--> "1" UUID : orderId
-    Ticket o--> "1" AccountId : openedBy
-    Ticket o--> "1" AccountId : openedAgainst
+
+  ' === Relaciones ===
+  Payment o--> "1" PaymentId
+  Payment o--> "1" ReservationId
+  Payment o--> "1" AccountId : payerId
+  Payment o--> "1" Money
+
+  PaymentAdapter --> Payment
+  PaymentAdapter --> Invoice
 }
 
 @enduml
