@@ -1211,7 +1211,27 @@ Segmento objetivo #2: Clientes de servicios de belleza
 Los diagramas del sistema han sido divididos y organizados mediante el uso de colores distintivos, con el propósito de representar claramente la funcionalidad específica de cada sección: landing page, home system y dashboard. Esta diferenciación visual permite identificar rápidamente el propósito de cada componente y entender su rol dentro de la estructura general del sistema. La jerarquía de elementos se mantiene mediante una distribución ordenada, donde cada bloque se relaciona con funciones concretas, lo que facilita tanto el análisis como futuras modificaciones.
 
 ### 4.2.2. Labeling Systems.
-La interfaz de la pagina principal de uTime presenta un diseño intuitivo e innovador que refleja la distribución de etiquetas de forma eficiente y compacta. De este modo, el usuario tiene un mejor acceso a la información relevante permitiendo asi una navegación sin complicaciones.
+<h3>
+<b>Menú Clientes (Segmento objetivo #2)</b>
+</h3>
+<li>El labelling system de uTime para los usuarios clientes ha sido desarrollado con el objetivo de ofrecer una navegación sencilla y directa. Cada etiqueta ha sido cuidadosamente seleccionada para representar con precisión la funcionalidad que contiene, utilizando el menor número de palabras posibles para evitar ambigüedades y facilitar la comprensión inmediata. Este enfoque promueve una experiencia clara y sin fricciones, alineada con las expectativas del usuario final.</li>
+
+<h3>
+<b>Appointments: </b>
+</h3>
+Sección donde el usuario puede ver, agendar o modificar citas.
+
+<h3>
+<b>My favorites: </b>
+</h3>
+Acceso rápido a salones o estilistas guardados como favoritos.
+
+<h3>
+<b>My profile: </b>
+</h3>
+Información personal, preferencias y detalles de cuenta.
+
+Estas etiquetas permiten representar de forma precisa los conjuntos de información más relevantes para los clientes, organizándolos en un menú compacto e intuitivo. Las asociaciones entre etiquetas y funciones están claramente definidas, reforzando la lógica interna del sistema y mejorando la eficiencia del recorrido del usuario dentro de la plataforma.
 ### 4.2.3. SEO Tags and Meta Tags
 Los SEO tags son etiquetas HTML que ayudan a los motores de búsqueda a entender y posicionar en los resultados. Los meta tags son etiquetas que proporcionan información sobre la página, como su descripción, palabras clave y autor lo cual ayuda al ser buscado en el navegador.
 A continuacion se presentan los SEO tags y meta tags que se utilizarán en la plataforma:
