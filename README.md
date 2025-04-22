@@ -1198,19 +1198,19 @@ La elección tipográfica de uTime es fundamental para reflejar la personalidad 
 Para el logotipo de uTime se ha utilizado Roboto SemiBold, una tipografía sans-serif moderna y equilibrada que combina líneas limpias con una presencia firme. Su estructura geométrica le otorga un aspecto tecnológico y contemporáneo, mientras que el grosor "SemiBold" aporta fuerza visual sin perder elegancia. Esta elección representa la seriedad y confiabilidad del sistema, a la vez que proyecta una marca sólida, accesible y con visión a futuro.
 ##### 4.1.1.1.2. Tipografía del texto regular
 Para el cuerpo de texto, títulos, botones y elementos de navegación, se ha seleccionado Poppins, una tipografía sans-serif geométrica que destaca por su legibilidad, suavidad y estilo actual. Se utiliza en sus distintas variaciones de peso —Light, Regular, Medium, SemiBold y Bold— según el contexto:
-* <b>Poppins Light:</b> textos secundarios o de apoyo.
-* <b>Poppins Regular:</b> cuerpo principal de texto.
-* <b>Poppins Medium/SemiBold:</b> títulos, subtítulos y llamados a la acción.
-* <b>Poppins Bold:<b> encabezados importantes o elementos que requieren mayor énfasis visual.
+* **Poppins Light:** textos secundarios o de apoyo.
+* **Poppins Regular:** cuerpo principal de texto.
+* **Poppins Medium/SemiBold:** títulos, subtítulos y llamados a la acción.
+* **Poppins Bold:** encabezados importantes o elementos que requieren mayor énfasis visual.
 Esta versatilidad permite jerarquías claras y coherentes en todas las interfaces, alineándose con la estética pulida y funcional de uTime.
 #### 4.1.1.2. Colores
 #### 4.1.1.3. Espaciado
 #### 4.1.1.4. Iconografía
 La iconografía de uTime está diseñada para mantener una interfaz limpia, moderna y altamente intuitiva. Los íconos comunican de forma rápida y visual las funciones principales de la plataforma, lo que facilita la navegación tanto para clientes como para profesionales. Se utiliza un estilo lineal (outline) con trazos uniformes, redondeados y amigables, lo cual transmite una sensación de cercanía y profesionalismo, alineada con el tono general de la marca.
 Se han definido tres tamaños estándar de íconos, cada uno con su respectivo grosor de trazo (stroke), para adaptarse a diferentes jerarquías visuales dentro del producto:
-* Íconos grandes: 96 x 90 px con un trazo de 4 px. Usados en secciones destacadas como navegación principal o pantallas de bienvenida.
-* Íconos medianos: 48 x 45 px con un trazo de 3 px. Utilizados en menús y encabezados secundarios.
-* Íconos pequeños: 32 x 30 px con un trazo de 2 px. Ideales para botones de acción, menús desplegables o elementos en listas.
+* **Íconos grandes:** 96 x 90 px con un trazo de 4 px. Usados en secciones destacadas como navegación principal o pantallas de bienvenida.
+* **Íconos medianos:** 48 x 45 px con un trazo de 3 px. Utilizados en menús y encabezados secundarios.
+* **Íconos pequeños:** 32 x 30 px con un trazo de 2 px. Ideales para botones de acción, menús desplegables o elementos en listas.
 Además del ícono base (hogar), se ha desarrollado una biblioteca de íconos adicionales que incluyen representaciones claras de funciones comunes en la plataforma, como agendamiento, pagos, perfil, servicios, notificaciones y redes sociales. Esta colección asegura consistencia visual en todas las plataformas, permitiendo escalabilidad y rápida comprensión sin sacrificar estética.
 Todos los íconos mantienen proporciones balanceadas y utilizan un sistema de grid para asegurar coherencia en su diseño y alineación en interfaces tanto web como móviles.
 #### 4.1.1.5. Tono de comunicación y lenguaje aplicado
@@ -1237,19 +1237,19 @@ El tono se adapta según el contexto: amigable en bienvenidas, eficiente en form
 Los diagramas del sistema han sido divididos y organizados mediante el uso de colores distintivos, con el propósito de representar claramente la funcionalidad específica de cada sección: landing page, home system y dashboard. Esta diferenciación visual permite identificar rápidamente el propósito de cada componente y entender su rol dentro de la estructura general del sistema. La jerarquía de elementos se mantiene mediante una distribución ordenada, donde cada bloque se relaciona con funciones concretas, lo que facilita tanto el análisis como futuras modificaciones.
 
 ### 4.2.2. Labeling Systems.
-La interfaz de la página principal de uTime ha sido diseñada para ser clara y funcional, permitiendo a los usuarios visualizar rápidamente la información más relevante desde una sola pantalla. Gracias al uso de etiquetas claras y directas, la navegación resulta sencilla e intuitiva, ofreciendo una experiencia ágil y sin distracciones. <br>
-Antes de ingresar a la plataforma, los usuarios encuentran tres secciones principales: "HOME", "PRICING" y "MORE", esta última incluye "ABOUT US" y "CONTACT US". La sección "HOME" brinda una visión general de uTime, utilizando un término ampliamente reconocido en entornos digitales para representar la página de inicio. En "PRICING" se detallan los tres planes de suscripción disponibles para salones de belleza. Por su parte, "ABOUT US" ofrece una breve presentación del equipo detrás de uTime, mientras que "CONTACT US" reúne los canales de comunicación disponibles de uTime y PaxTech para que los usuarios puedan contactar al equipo de soporte o realizar consultas.
-<b>Menú salones </b> <br>
-El menú de navegación diseñado para los salones dentro de uTime se estructura con claridad jerárquica y enfoque operativo, permitiendo a los administradores y estilistas acceder rápidamente a las funcionalidades clave para la gestión de su negocio. Las etiquetas han sido seleccionadas para mantener una comunicación directa, profesional y alineada con la estética limpia del sistema. <br>
+<p>La interfaz de la página principal de uTime ha sido diseñada para ser clara y funcional, permitiendo a los usuarios visualizar rápidamente la información más relevante desde una sola pantalla. Gracias al uso de etiquetas claras y directas, la navegación resulta sencilla e intuitiva, ofreciendo una experiencia ágil y sin distracciones. </p>
+<p>Antes de ingresar a la plataforma, los usuarios encuentran tres secciones principales: "HOME", "PRICING" y "MORE", esta última incluye "ABOUT US" y "CONTACT US". La sección "HOME" brinda una visión general de uTime, utilizando un término ampliamente reconocido en entornos digitales para representar la página de inicio. En "PRICING" se detallan los tres planes de suscripción disponibles para salones de belleza. Por su parte, "ABOUT US" ofrece una breve presentación del equipo detrás de uTime, mientras que "CONTACT US" reúne los canales de comunicación disponibles de uTime y PaxTech para que los usuarios puedan contactar al equipo de soporte o realizar consultas. </p>
+**Menú salones** <br>
+<p>El menú de navegación diseñado para los salones dentro de uTime se estructura con claridad jerárquica y enfoque operativo, permitiendo a los administradores y estilistas acceder rápidamente a las funcionalidades clave para la gestión de su negocio. Las etiquetas han sido seleccionadas para mantener una comunicación directa, profesional y alineada con la estética limpia del sistema. </p>
 
-La sección principal, Home, actúa como el panel de control desde donde el usuario puede tener una visión general del estado de su salón: próximas citas, comentarios de clientes sin leer y accesos rápidos a la información de sus colaboradores. Es el punto de partida ideal, pensado para que la experiencia comience con información útil y organizada. <br>
-Appointments permite gestionar todas las citas agendadas por los clientes, con vistas semanales del calendario general y el calendario de cada colaborador. Esta sección es esencial para el funcionamiento del salón y por eso se posiciona de forma prominente. <br>
-Reviews ofrece acceso a los comentarios y valoraciones que los clientes han dejado sobre sus experiencias. Esta sección permite al equipo del salón analizar tendencias de satisfacción y utilizar el feedback para mejorar sus servicios y atención. <br>
-La etiqueta Services brinda acceso al catálogo de servicios ofrecidos por el salón. Aquí se pueden añadir, editar o eliminar servicios, definir tiempos estimados y asignar precios. Esta función es fundamental para mantener actualizada la oferta disponible para los clientes. <br>
-Subscription dirige al usuario a la gestión de su plan de suscripción en uTime. Desde aquí se puede revisar el tipo de plan activo (Essential, ProStyle o Deluxe Studio), y realizar cambios de plan según las necesidades del salón. <br>
-Settings contiene las opciones de configuración general del perfil del salón y datos importantes de contacto y del salón. Esta sección permite personalizar la plataforma para que se adapte al flujo de trabajo de cada establecimiento. <br>
-Finalmente, Notifications agrupa las alertas del sistema, recordatorios y mensajes importantes sobre citas, pagos, nuevas reseñas o actualizaciones de la plataforma. Está ubicada en una posición estratégica para garantizar que el usuario no pierda información relevante. <br>
-Este sistema de etiquetas combina funcionalidad y estética, ofreciendo a los salones una navegación clara, ordenada y con una comunicación visual que refleja la elegancia y eficiencia de uTime como plataforma de gestión para negocios del rubro de belleza. <br>
+<p>La etiqueta Home, actúa como el panel de control desde donde el usuario puede tener una visión general del estado de su salón: próximas citas, comentarios de clientes sin leer y accesos rápidos a la información de sus colaboradores. Es el punto de partida ideal, pensado para que la experiencia comience con información útil y organizada. </p>
+<p>Appointments permite gestionar todas las citas agendadas por los clientes, con vistas semanales del calendario general y el calendario de cada colaborador. Esta sección es esencial para el funcionamiento del salón y por eso se posiciona de forma prominente. </p>
+<p>Reviews ofrece acceso a los comentarios y valoraciones que los clientes han dejado sobre sus experiencias. Esta sección permite al equipo del salón analizar tendencias de satisfacción y utilizar el feedback para mejorar sus servicios y atención. </p>
+<p>La etiqueta Services brinda acceso al catálogo de servicios ofrecidos por el salón. Aquí se pueden añadir, editar o eliminar servicios, definir tiempos estimados y asignar precios. Esta función es fundamental para mantener actualizada la oferta disponible para los clientes. </p>
+<p>Subscription dirige al usuario a la gestión de su plan de suscripción en uTime. Desde aquí se puede revisar el tipo de plan activo (Essential, ProStyle o Deluxe Studio), y realizar cambios de plan según las necesidades del salón. </p>
+<p>Settings contiene las opciones de configuración general del perfil del salón y datos importantes de contacto y del salón. Esta sección permite personalizar la plataforma para que se adapte al flujo de trabajo de cada establecimiento. </p>
+<p>Finalmente, Notifications agrupa las alertas del sistema, recordatorios y mensajes importantes sobre citas, pagos, nuevas reseñas o actualizaciones de la plataforma. Está ubicada en una posición estratégica para garantizar que el usuario no pierda información relevante. </p>
+<p>Este sistema de etiquetas combina funcionalidad y estética, ofreciendo a los salones una navegación clara, ordenada y con una comunicación visual que refleja la elegancia y eficiencia de uTime como plataforma de gestión para negocios del rubro de belleza. </p>
 
 ### 4.2.3. SEO Tags and Meta Tags
 Los SEO tags son etiquetas HTML que ayudan a los motores de búsqueda a entender y posicionar en los resultados. Los meta tags son etiquetas que proporcionan información sobre la página, como su descripción, palabras clave y autor lo cual ayuda al ser buscado en el navegador.
@@ -1285,6 +1285,8 @@ Canonical Tag: Este tag especifica la URL canónica de la página para evitar pr
 ### 4.2.4. Searching Systems.
 
 ### 4.2.5. Navigation Systems.
+<p>En uTime, los sistemas de navegación han sido diseñados para ofrecer una experiencia intuitiva y fluida, guiando a los usuarios a través de la plataforma de forma clara y eficiente. Desde la landing page hasta las diferentes áreas internas de la aplicación, cada elemento de navegación ha sido pensado para facilitar la interacción y ayudar a los usuarios a alcanzar sus objetivos sin fricciones.</p>
+<p>Uno de los principales componentes de navegación en uTime es el menú lateral, ubicado en la parte izquierda de la interfaz. Este menú actúa como eje central de navegación, brindando accesos directos a las secciones clave de la plataforma. Para los clientes, estas secciones incluyen citas, favoritos y perfil, mientras que para los salones se extienden a servicios, suscripciones, reseñas, configuraciones y más. Esta estructura lateral asegura que los usuarios puedan explorar rápidamente las funcionalidades que necesitan, manteniendo la coherencia visual y la facilidad de uso en todo momento.</p>
 
 ## 4.3. Landing Page UI Design.
 
