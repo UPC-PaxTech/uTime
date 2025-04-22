@@ -1219,19 +1219,18 @@ Los diagramas del sistema han sido divididos y organizados mediante el uso de co
 <h3>
 <b>Appointments: </b>
 </h3>
-Sección donde el usuario puede ver, agendar o modificar citas.
+<li>Sección donde el usuario puede ver, agendar o modificar citas.</li>
 
 <h3>
 <b>My favorites: </b>
 </h3>
-Acceso rápido a salones o estilistas guardados como favoritos.
+<li>Acceso rápido a salones o estilistas guardados como favoritos.</li>
 
 <h3>
 <b>My profile: </b>
 </h3>
-Información personal, preferencias y detalles de cuenta.
-
-Estas etiquetas permiten representar de forma precisa los conjuntos de información más relevantes para los clientes, organizándolos en un menú compacto e intuitivo. Las asociaciones entre etiquetas y funciones están claramente definidas, reforzando la lógica interna del sistema y mejorando la eficiencia del recorrido del usuario dentro de la plataforma.
+<li>Información personal, preferencias y detalles de cuenta.</li>
+<li>Estas etiquetas permiten representar de forma precisa los conjuntos de información más relevantes para los clientes, organizándolos en un menú compacto e intuitivo. Las asociaciones entre etiquetas y funciones están claramente definidas, reforzando la lógica interna del sistema y mejorando la eficiencia del recorrido del usuario dentro de la plataforma.</li>
 ### 4.2.3. SEO Tags and Meta Tags
 Los SEO tags son etiquetas HTML que ayudan a los motores de búsqueda a entender y posicionar en los resultados. Los meta tags son etiquetas que proporcionan información sobre la página, como su descripción, palabras clave y autor lo cual ayuda al ser buscado en el navegador.
 A continuacion se presentan los SEO tags y meta tags que se utilizarán en la plataforma:
