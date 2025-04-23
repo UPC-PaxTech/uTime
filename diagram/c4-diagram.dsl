@@ -6,12 +6,19 @@ workspace "uTime" "Sistema para gestión de citas en salones de belleza" {
         uTime = softwareSystem "uTime" "Sistema para gestión de reservas en salones de belleza" {
             landing = container "Landing page" "El landing page deriva a la interfaz web" "Web"
             interfazWeb = container "Interfaz Web" "Interfaz web REST/HTTPS de uTime" "Angular"
-            singlePageApplication = container "Single Page Application" "Renderiza los horarios dinamicos de la aplicación" "Angular"{
-                appComponent = component "App Component" "Controla el diseño y coordina el renderizado de los componentes de UI"
+            singlePageApplication = container "Single Page Application" "Renderiza los horarios dinamicos de la aplicación" "Angular" {
+                appComponent = component "App Component" "Controla el diseño y coordina el renderizado de los componentes de UI" "Angular"
                 navigationComponent = component "Navigation Component" "Muestra un interfaz de navegación"
-                scheduleAssembler = component "Schedule Assembler" "Combierte los datos a un formato compatible para su renderizado"
+                scheduleAssembler = component "Schedule Assembler" "Combierte datos de horarios a un formato compatible para su renderizado" "typescript"
                 salonListComponent = component "Salon List Component" "Muestra un carrusel de salones" "Angular"
-                salonItemComponent = component "Salon Item Component" "Muestra salones individuales en el carrusel"
+                salonItemComponent = component "Salon Item Component" "Muestra salones individuales en el carrusel" "Angular"
+                scheduleApiService = component "Schedule Api Service" "Obtiene información del backend desde el api" "Angular"
+                salonAssembler = component "Salon Assembler" "Combierte datos de salones en un formato compatible para su renderizado" "typescript"
+                scheduleItemComponent = component "Schedule Item Component" "Muestra el horario de un salón" "Angular"
+                appointmentAssembler = component "Appointment Assembler" "Combierte datos de reservas en un formato compatible para su renderizado" "typescript"
+                appointmentListComponent = component "Appointment List Component" "Muestra una lista de resevas"
+                appointmentItemComponent = component "Appointment Item Component" "Muestra una reserva individual de un usuario" "Angular"
+
             }
             apiGateway = container "ApiGateway" "API que conecta el backend" "Node.js" "ApiGatewayStyle"
             authContextContainer = container "Autenticación Context" "Función de autenticación del usuario" {
@@ -60,12 +67,29 @@ workspace "uTime" "Sistema para gestión de citas en salones de belleza" {
 
         }
         googleauth = softwareSystem "Google OAuth 2.0" "Seguridad 2FA de Google"
-        pasarela = softwareSystem "Pasarela de Pagos" "DESCRIPCIÓN TEMPORAL"
+        pasarela = softwareSystem "Pasarela de Pagos" "Pasarela de Stripe"
 
 
         // diagrama de contexto
         cliente -> landing "usa"
         admin -> landing "usa"
+
+        //diagrama de single page application
+        interfazWeb -> appComponent "utiliza"
+        appComponent -> navigationComponent "renderiza"
+        navigationComponent -> scheduleApiService "trae los datos de"
+        navigationComponent -> scheduleItemComponent "renderiza"
+        navigationComponent -> appointmentListComponent "renderiza"
+        navigationComponent -> salonListComponent "renderiza"
+        scheduleApiService -> appointmentAssembler "convierte datos"
+        scheduleApiService -> scheduleAssembler "convierte datos"
+        scheduleApiService -> salonAssembler "convierte datos"
+        salonListComponent -> salonItemComponent "renderiza salones"
+        appointmentListComponent -> appointmentItemComponent "renderiza reservas"
+
+        appointmentAssembler -> apiGateway "obitene datos de"
+        scheduleAssembler -> apiGateway "obitene datos de"
+        salonAssembler -> apiGateway "obitene datos de"
 
         //diagrama de contenedores
         landing -> interfazWeb "redirige a"
