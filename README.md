@@ -1269,9 +1269,47 @@ Canonical Tag: Este tag especifica la URL canónica de la página para evitar pr
 
 ### 4.6.1. Software Architecture Context Diagram.
 
+<div align="center">
+   <img src="img/c4-context.png" alt="c4-context"/>
+</div>
+
 ### 4.6.2. Software Architecture Container Diagrams.
 
+<div align="center">
+   <img src="img/c4-container.png" alt="c4-context"/>
+</div>
+
 ### 4.6.3. Software Architecture Components Diagrams.
+
+-Single Page Application diagram:
+
+<div align="center">
+   <img src="img/c4-component-spa.png" alt="c4-context"/>
+</div>
+
+-User diagram:
+
+<div align="center">
+   <img src="img/c4-component-user.png" alt="c4-context"/>
+</div>
+
+-Schedule diagram:
+
+<div align="center">
+   <img src="img/c4-component-schedule.png" alt="c4-context"/>
+</div>
+
+-Authentication diagram:
+
+<div align="center">
+   <img src="img/c4-component-spa.png" alt="c4-context"/>
+</div>
+
+-Payment diagram:
+
+<div align="center">
+   <img src="img/c4-component-payment.png" alt="c4-context"/>
+</div>
 
 ### 4.7. Software Object-Oriented Design.
 
