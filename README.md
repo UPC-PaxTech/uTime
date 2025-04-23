@@ -1421,6 +1421,13 @@ Ruta de referencia: https://cucumber.io/docs/gherkin/
 
 ### 5.1.2. Source Code Management.
 
+El proyecto seguirá las convenciones de flujo de trabajo establecidas por el modelo GitFlow para el control de versiones, utilizando GitHub como plataforma y sistema de control de versiones. A continuación, se detallará cómo se implementará GitFlow como WorkFlow de control de versiones, además de proporcionar los URL de los repositorios de GitHub para cada producto: Landing Page.
+
+**Repositorios de GitHub:**
+
+- Enlace para acceder a la organización de GitHub: https://github.com/PaxTech-UPC
+- Enlace para acceder a repositorio de la Landing Page: https://github.com/PaxTech-UPC/uTime-Landing-Page
+
 ### 5.1.3. Source Code Style Guide & Conventions.
 
 ### 5.1.4. Software Deployment Configuration.
