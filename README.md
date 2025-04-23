@@ -1496,6 +1496,7 @@ Para poder desplegar la landing page resulta necesario contar con una serie de r
 5. Especificar la carpeta **/docs** como la fuente de la página.
 6. Esperar a que GitHub realice las comprobaciones necesarias. Una vez culminado el proceso, se obtendrá un enlace que llevará al Landing Page Desplegado.
 
+![GitHubPages](img/GitHub-Pages.png)
 
 ## 5.2. Landing Page, Services & Applications Implementation.
 
