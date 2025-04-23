@@ -1272,37 +1272,23 @@ El tono se adapta según el contexto: amigable en bienvenidas, eficiente en form
 Los diagramas del sistema han sido divididos y organizados mediante el uso de colores distintivos, con el propósito de representar claramente la funcionalidad específica de cada sección: landing page, home system y dashboard. Esta diferenciación visual permite identificar rápidamente el propósito de cada componente y entender su rol dentro de la estructura general del sistema. La jerarquía de elementos se mantiene mediante una distribución ordenada, donde cada bloque se relaciona con funciones concretas, lo que facilita tanto el análisis como futuras modificaciones.
 
 ### 4.2.2. Labeling Systems.
-
 <p>La interfaz de la página principal de uTime ha sido diseñada para ser clara y funcional, permitiendo a los usuarios visualizar rápidamente la información más relevante desde una sola pantalla. Gracias al uso de etiquetas claras y directas, la navegación resulta sencilla e intuitiva, ofreciendo una experiencia ágil y sin distracciones. </p>
 <p>Antes de ingresar a la plataforma, los usuarios encuentran tres secciones principales: "HOME", "PRICING" y "MORE", esta última incluye "ABOUT US" y "CONTACT US". La sección "HOME" brinda una visión general de uTime, utilizando un término ampliamente reconocido en entornos digitales para representar la página de inicio. En "PRICING" se detallan los tres planes de suscripción disponibles para salones de belleza. Por su parte, "ABOUT US" ofrece una breve presentación del equipo detrás de uTime, mientras que "CONTACT US" reúne los canales de comunicación disponibles de uTime y PaxTech para que los usuarios puedan contactar al equipo de soporte o realizar consultas. </p>
 
-*Menú Salones (Segmento objetivo #1)*
+**Menú Salones (Segmento objetivo #1)**
 
 En uTime, el labelling system para salones ha sido diseñado para representar la información de manera clara, directa y sin ambigüedades. Las etiquetas empleadas en el menú de navegación buscan reducir la carga cognitiva del usuario, usando un número mínimo de palabras que sintetizan acciones o secciones concretas del sistema. Estas etiquetas establecen asociaciones lógicas entre la funcionalidad del sistema y el contenido mostrado, garantizando una experiencia fluida para los usuarios encargados de gestionar salones de belleza.
 
-* *Home*: Punto central donde se agrupa la información general del negocio.
-* *Appointments*: Lista y control de citas agendadas con filtros de visualización.
-* *Reviews*: Acceso a valoraciones y comentarios de clientes.
-* *Services*: Gestión de servicios ofrecidos (edición, creación, eliminación).
-* *Subscription*: Panel de administración del plan de suscripción activo.
-* *Settings*: Configuraciones generales del salón (horarios, contacto, ajustes).
-* *Notifications*: Centro de alertas relevantes y actualizaciones del sistema.
+* **Home**: Punto central donde se agrupa la información general del negocio.
+* **Appointments**: Lista y control de citas agendadas con filtros de visualización.
+* **Reviews**: Acceso a valoraciones y comentarios de clientes.
+* **Services**: Gestión de servicios ofrecidos (edición, creación, eliminación).
+* **Subscription**: Panel de administración del plan de suscripción activo.
+* **Settings**: Configuraciones generales del salón (horarios, contacto, ajustes).
+* **Notifications**: Centro de alertas relevantes y actualizaciones del sistema.
 
 Estas etiquetas no solo organizan el contenido de manera lógica, sino que también mantienen coherencia visual y semántica a lo largo de la plataforma, promoviendo una navegación intuitiva para el equipo administrativo de los salones.
 
-<<<<<<< HEAD
-*Menú Clientes (Segmento objetivo #2)*
-=======
-**Menú Clientes (Segmento objetivo #2)**
->>>>>>> feature/navigation-systems-clients
-
-El labelling system de uTime para los usuarios clientes ha sido desarrollado con el objetivo de ofrecer una navegación sencilla y directa. Cada etiqueta ha sido cuidadosamente seleccionada para representar con precisión la funcionalidad que contiene, utilizando el menor número de palabras posibles para evitar ambigüedades y facilitar la comprensión inmediata. Este enfoque promueve una experiencia clara y sin fricciones, alineada con las expectativas del usuario final.
-
-* *Appointments*: Sección donde el usuario puede ver, agendar o modificar citas.
-* *My favorites*: Acceso rápido a salones o estilistas guardados como favoritos.
-* *My profile*: Información personal, preferencias y detalles de cuenta.
-
-Estas etiquetas permiten representar de forma precisa los conjuntos de información más relevantes para los clientes, organizándolos en un menú compacto e intuitivo. Las asociaciones entre etiquetas y funciones están claramente definidas, reforzando la lógica interna del sistema y mejorando la eficiencia del recorrido del usuario dentro de la plataforma.
 ### 4.2.3. SEO Tags and Meta Tags
 Los SEO tags son etiquetas HTML que ayudan a los motores de búsqueda a entender y posicionar en los resultados. Los meta tags son etiquetas que proporcionan información sobre la página, como su descripción, palabras clave y autor lo cual ayuda al ser buscado en el navegador.
 A continuacion se presentan los SEO tags y meta tags que se utilizarán en la plataforma:
@@ -1343,17 +1329,17 @@ Canonical Tag: Este tag especifica la URL canónica de la página para evitar pr
 **Menú de Clientes**
 
 Para los clientes, la navegación se estructura en un menú lateral simple y directo que incluye tres accesos principales: "Appointments", "My favorites" y "My profile". Estas etiquetas, acompañadas por íconos fácilmente reconocibles, permiten que el usuario navegue por su historial de citas, acceda a sus salones o servicios favoritos, y gestione la información de su cuenta personal. Este menú está diseñado con una jerarquía visual clara y un lenguaje sencillo para reducir la fricción y fomentar el uso frecuente.
-* Appointments (Citas)
+* **Appointments (Citas)**
 - Permite al usuario ver sus citas pasadas y futuras.
 - Incluye detalles como fecha, hora, servicio y profesional asignado.
 - Posibilidad de cancelar o reprogramar citas desde esta sección.
 
-* My Favorites (Mis favoritos)
+* **My Favorites (Mis favoritos)**
 - Muestra una lista de salones que el cliente ha marcado como favoritos.
 - Facilita el acceso rápido para volver a agendar con salones frecuentes.
 - Incluye botones para ver el perfil del salón y agendar directamente.
 
-* My Profile (Mi perfil)
+* **My Profile (Mi perfil)**
 - Permite al usuario actualizar su información personal (nombre, número, correo, foto de perfil).
 - Acceso a la configuración de privacidad y notificaciones.
 
