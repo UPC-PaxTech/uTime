@@ -57,13 +57,13 @@ Para el desarrollo del informe perteneciente a la entrega TB1, se dividió la im
 para cada integrante del equipo:
 
 
-| Integrantes    | Tareas Asignadas |
-| -------------- | ---------------- |
-| Kevin Chi      |                  |
-| Gael Rivera    |                  |
-| Marcelo Varela |                  |
-| Angie Yalán   |                  |
-| Jorge Yum      |                  |
+| Integrantes    | Tareas Asignadas                                                                                                                                                                   |
+| -------------- |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Kevin Chi      |                                                                                                                                                                                    |
+| Gael Rivera    | Análisis de competidores, Estrategias y tácticas frente a competidores, Entrevistas, Ubiquitous Language, User Stories, Product Backlog, Database Diagram, Landing Page, Sprint 1. |
+| Marcelo Varela |                                                                                                                                                                                    |
+| Angie Yalán   |                                                                                                                                                                                    |
+| Jorge Yum      |                                                                                                                                                                                    |
 
 **Github Collaboration Insights**
 
@@ -929,6 +929,8 @@ Preguntas para el segmento objetivo 02
 
 
 ### 2.2.2. Registro de entrevistas.
+
+#### Datos del Entrevistado #1
 Entrevista N 1 - Barbero:
 
 Entrevistador: Jorge Suin Yum Gonzales
@@ -941,6 +943,39 @@ Entrevistado: Luis Fernando Farfán
 
 **Resumen:**
 Luis Fernando Farfán es un barbero de Chiclayo que tiene 8 años de experiencia. Utiliza las redes sociales y WhatsApp para ambos el marketing de su negocio y la recepción de citas. Utiliza la agenda Fresha para registrar las citas y gestionar los horarios. Se enfrenta a desafíos como la comunicación sobre información del horario y especialmente se enfrenta a clientes que cancelan al último minuto, llegan tarde o no llegan en absoluto lo cual le causa una perdida de tiempo y clientes posibles. Le resulta de gran importancia saber en qué horarios se encuentran disponibles sus barberos para asignar a los clientes. Se enfoca que sus barberos y el mismo sean empáticos y carismáticos para que los clientes se sientan comodos y vuelvan a la barbería.
+
+#### Datos del Entrevistado #2
+
+- **Nombre completo:**  Vianka Aracelli Graciel Diaz Dueñas
+- **Segmento Objetivo:** Recepcionista de un salón de belleza
+- **Edad:** 19 años
+- **Distrito:** San Juan De Lurigancho
+- **Screenshot del cuadro de video:** *![interview_3.jpeg](img/interview_3.jpeg)*
+- **URL del video (Microsoft Stream):** *[Entrevista 03](https://upcedupe-my.sharepoint.com/personal/u202319668_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202319668%5Fupc%5Fedu%5Fpe%2FDocuments%2Fvideo1101247493%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E00fe7a16%2D2056%2D4549%2Db951%2D4bd2c4db371c)*
+- **Inicio de la entrevista:** 00:50 minutos
+- **Duración:** 4:22 minutos
+
+Vianka, de 19 años, vive en San Juan de Lurigancho y trabaja como recepcionista en un salón de belleza desde hace tres años. Se considera alegre, responsable y perfeccionista. Agendan citas principalmente por WhatsApp, y también usan Google Calendar y Excel. Enfrentan cancelaciones frecuentes y cambios de último momento, lo que complica la organización. Usan promociones y recomendaciones para fidelizar a los clientes. Están abiertos a implementar herramientas digitales para mejorar la gestión del negocio.
+
+
+#### Datos del Entrevistado #3
+
+- **Nombre completo:** Allison Naomi Galindo Palomino
+- **Segmento Objetivo:** Clientes de servicio de belleza
+- **Edad:** 20 años
+- **Distrito:** Cercado De Lima
+- **Screenshot del cuadro de video:** *![interview_3.jpeg](img/interview_3.jpeg)*
+- **URL del video (Microsoft Stream):** *[Entrevista 02](https://upcedupe-my.sharepoint.com/personal/u202319668_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202319668%5Fupc%5Fedu%5Fpe%2FDocuments%2FVideo%5Fentrevista%5Fcliente%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ef71f1d1a%2D48a2%2D4577%2Dbd15%2Db2109b826088)*
+- **Inicio de la entrevista:** 01:10 minutos
+- **Duración:** 7:40 minutos
+
+Allison Galindo, una universitaria de 20 años que vive en el Cercado de Lima, visita salones de belleza aproximadamente una vez al mes. Suele solicitar servicios como corte de cabello, depilación de cejas y mascarillas faciales. Al elegir un salón, le da importancia a la reputación, la ubicación accesible, precios razonables y una buena atención.
+
+Prefiere agendar sus citas por WhatsApp o redes sociales, ya que le resulta más práctico. Siempre se atiende con la misma estilista por confianza y comodidad. Para ella, la puntualidad es clave, ya que ha tenido malas experiencias con esperas prolongadas.
+
+Le gusta recibir recordatorios por WhatsApp y prefiere pagar con aplicaciones o tarjeta.
+
+Finalmente, sugiere que los salones mejoren en puntualidad, atención al cliente y faciliten más el uso de herramientas digitales.
 
 ### 2.2.3. Análisis de entrevistas.
 
@@ -1187,9 +1222,35 @@ Segmento objetivo #2: Clientes de servicios de belleza
 # Capítulo IV: Product Design
 
 ## 4.1. Style Guidelines.
+uTime es una plataforma digital diseñada para transformar la manera en que los salones de belleza gestionan su tiempo, sus citas y su relación con los clientes. Con un enfoque profesional, moderno y accesible, uTime conecta a salones con sus clientes de forma inteligente, permitiendo reservas fluidas, recordatorios automáticos, gestión centralizada de citas, perfiles personalizados y mucho más.<br>
+La plataforma está pensada para brindar una experiencia visual sofisticada y funcional, adaptable tanto para usuarios del sector belleza como para sus clientes. Para asegurar una presentación coherente y unificada en todo el ecosistema digital de uTime, este documento establece una guía centralizada de estilo que cubre desde elementos visuales hasta principios de diseño para web y móviles. Las Style Guidelines de uTime están divididas en tres secciones: General Style Guidelines, Web Style Guidelines y Mobile Style Guidelines, asegurando que el diseño sea intuitivo, atractivo y accesible tanto en entornos web como móviles.
 
 ### 4.1.1. General Style Guidelines.
-
+El branding de uTime es el núcleo de su identidad visual, diseñado para transmitir profesionalismo, modernidad y accesibilidad. La marca representa la fusión entre tecnología y bienestar, ofreciendo una experiencia elegante tanto para salones de belleza como para sus clientes. A través de una estética limpia, neutra y equilibrada, uTime busca establecer una conexión de confianza y eficiencia. Los elementos visuales —logo, tipografía y paleta de colores— reflejan organización, claridad y cuidado, capturando la esencia de un servicio puntual, estilizado y personalizado. El sistema visual está cuidadosamente alineado con el mundo de la belleza, sin perder su enfoque en la simplicidad y funcionalidad, generando una experiencia coherente y agradable.
+#### 4.1.1.1. Tipografía
+La elección tipográfica de uTime es fundamental para reflejar la personalidad moderna, profesional y accesible de la marca. Se ha optado por un sistema tipográfico limpio, claro y versátil, que transmite orden, puntualidad y estilo, cualidades esenciales dentro del mundo de la belleza y la gestión. Esta combinación proporciona una experiencia visual coherente tanto para usuarios como para profesionales, manteniendo legibilidad en todos los tamaños de pantalla.
+##### 4.1.1.1.1. Tipografía del logo
+Para el logotipo de uTime se ha utilizado Roboto SemiBold, una tipografía sans-serif moderna y equilibrada que combina líneas limpias con una presencia firme. Su estructura geométrica le otorga un aspecto tecnológico y contemporáneo, mientras que el grosor "SemiBold" aporta fuerza visual sin perder elegancia. Esta elección representa la seriedad y confiabilidad del sistema, a la vez que proyecta una marca sólida, accesible y con visión a futuro.
+##### 4.1.1.1.2. Tipografía del texto regular
+Para el cuerpo de texto, títulos, botones y elementos de navegación, se ha seleccionado Poppins, una tipografía sans-serif geométrica que destaca por su legibilidad, suavidad y estilo actual. Se utiliza en sus distintas variaciones de peso —Light, Regular, Medium, SemiBold y Bold— según el contexto:
+* **Poppins Light:** textos secundarios o de apoyo.
+* **Poppins Regular:** cuerpo principal de texto.
+* **Poppins Medium/SemiBold:** títulos, subtítulos y llamados a la acción.
+* **Poppins Bold:** encabezados importantes o elementos que requieren mayor énfasis visual.
+Esta versatilidad permite jerarquías claras y coherentes en todas las interfaces, alineándose con la estética pulida y funcional de uTime.
+#### 4.1.1.2. Colores
+#### 4.1.1.3. Espaciado
+#### 4.1.1.4. Iconografía
+La iconografía de uTime está diseñada para mantener una interfaz limpia, moderna y altamente intuitiva. Los íconos comunican de forma rápida y visual las funciones principales de la plataforma, lo que facilita la navegación tanto para clientes como para profesionales. Se utiliza un estilo lineal (outline) con trazos uniformes, redondeados y amigables, lo cual transmite una sensación de cercanía y profesionalismo, alineada con el tono general de la marca.
+Se han definido tres tamaños estándar de íconos, cada uno con su respectivo grosor de trazo (stroke), para adaptarse a diferentes jerarquías visuales dentro del producto:
+* **Íconos grandes:** 96 x 90 px con un trazo de 4 px. Usados en secciones destacadas como navegación principal o pantallas de bienvenida.
+* **Íconos medianos:** 48 x 45 px con un trazo de 3 px. Utilizados en menús y encabezados secundarios.
+* **Íconos pequeños:** 32 x 30 px con un trazo de 2 px. Ideales para botones de acción, menús desplegables o elementos en listas.
+Además del ícono base (hogar), se ha desarrollado una biblioteca de íconos adicionales que incluyen representaciones claras de funciones comunes en la plataforma, como agendamiento, pagos, perfil, servicios, notificaciones y redes sociales. Esta colección asegura consistencia visual en todas las plataformas, permitiendo escalabilidad y rápida comprensión sin sacrificar estética.
+Todos los íconos mantienen proporciones balanceadas y utilizan un sistema de grid para asegurar coherencia en su diseño y alineación en interfaces tanto web como móviles.
+#### 4.1.1.5. Tono de comunicación y lenguaje aplicado
+El tono de uTime es cercano, claro y profesional. Busca conectar tanto con los salones de belleza como con sus clientes, transmitiendo confianza, facilidad y modernidad. La comunicación evita tecnicismos, optando por un lenguaje directo, positivo y accesible. Para los clientes, se prioriza la comodidad y simplicidad con frases como “Tu cita, a tu ritmo” o “Agenda en segundos”. Para los salones, el enfoque es práctico y enfocado en crecimiento, con mensajes como “Optimiza tu agenda” o “Haz crecer tu negocio”. <br>
+El tono se adapta según el contexto: amigable en bienvenidas, eficiente en formularios y proactivo en notificaciones. Se evita el uso excesivo de mayúsculas o jergas, manteniendo siempre una voz coherente, profesional y empática. Este tono homogéneo y accesible permite que uTime mantenga una identidad sólida y reconocible, acompañando a los usuarios desde el primer contacto hasta su uso cotidiano, sin fricciones ni confusiones.
 ### 4.1.2. Web Style Guidelines.
 
 ## 4.2. Information Architecture.
@@ -1211,6 +1272,32 @@ Segmento objetivo #2: Clientes de servicios de belleza
 Los diagramas del sistema han sido divididos y organizados mediante el uso de colores distintivos, con el propósito de representar claramente la funcionalidad específica de cada sección: landing page, home system y dashboard. Esta diferenciación visual permite identificar rápidamente el propósito de cada componente y entender su rol dentro de la estructura general del sistema. La jerarquía de elementos se mantiene mediante una distribución ordenada, donde cada bloque se relaciona con funciones concretas, lo que facilita tanto el análisis como futuras modificaciones.
 
 ### 4.2.2. Labeling Systems.
+<p>La interfaz de la página principal de uTime ha sido diseñada para ser clara y funcional, permitiendo a los usuarios visualizar rápidamente la información más relevante desde una sola pantalla. Gracias al uso de etiquetas claras y directas, la navegación resulta sencilla e intuitiva, ofreciendo una experiencia ágil y sin distracciones. </p>
+<p>Antes de ingresar a la plataforma, los usuarios encuentran tres secciones principales: "HOME", "PRICING" y "MORE", esta última incluye "ABOUT US" y "CONTACT US". La sección "HOME" brinda una visión general de uTime, utilizando un término ampliamente reconocido en entornos digitales para representar la página de inicio. En "PRICING" se detallan los tres planes de suscripción disponibles para salones de belleza. Por su parte, "ABOUT US" ofrece una breve presentación del equipo detrás de uTime, mientras que "CONTACT US" reúne los canales de comunicación disponibles de uTime y PaxTech para que los usuarios puedan contactar al equipo de soporte o realizar consultas. </p>
+
+**Menú Salones (Segmento objetivo #1)**
+
+En uTime, el labelling system para salones ha sido diseñado para representar la información de manera clara, directa y sin ambigüedades. Las etiquetas empleadas en el menú de navegación buscan reducir la carga cognitiva del usuario, usando un número mínimo de palabras que sintetizan acciones o secciones concretas del sistema. Estas etiquetas establecen asociaciones lógicas entre la funcionalidad del sistema y el contenido mostrado, garantizando una experiencia fluida para los usuarios encargados de gestionar salones de belleza.
+
+* **Home**: Punto central donde se agrupa la información general del negocio.
+* **Appointments**: Lista y control de citas agendadas con filtros de visualización.
+* **Reviews**: Acceso a valoraciones y comentarios de clientes.
+* **Services**: Gestión de servicios ofrecidos (edición, creación, eliminación).
+* **Subscription**: Panel de administración del plan de suscripción activo.
+* **Settings**: Configuraciones generales del salón (horarios, contacto, ajustes).
+* **Notifications**: Centro de alertas relevantes y actualizaciones del sistema.
+
+Estas etiquetas no solo organizan el contenido de manera lógica, sino que también mantienen coherencia visual y semántica a lo largo de la plataforma, promoviendo una navegación intuitiva para el equipo administrativo de los salones.
+
+**Menú Clientes (Segmento objetivo #2)**
+
+El labelling system de uTime para los usuarios clientes ha sido desarrollado con el objetivo de ofrecer una navegación sencilla y directa. Cada etiqueta ha sido cuidadosamente seleccionada para representar con precisión la funcionalidad que contiene, utilizando el menor número de palabras posibles para evitar ambigüedades y facilitar la comprensión inmediata. Este enfoque promueve una experiencia clara y sin fricciones, alineada con las expectativas del usuario final.
+
+* **Appointments**: Sección donde el usuario puede ver, agendar o modificar citas.
+* **My favorites**: Acceso rápido a salones o estilistas guardados como favoritos.
+* **My profile**: Información personal, preferencias y detalles de cuenta.
+
+Estas etiquetas permiten representar de forma precisa los conjuntos de información más relevantes para los clientes, organizándolos en un menú compacto e intuitivo. Las asociaciones entre etiquetas y funciones están claramente definidas, reforzando la lógica interna del sistema y mejorando la eficiencia del recorrido del usuario dentro de la plataforma.
 
 ### 4.2.3. SEO Tags and Meta Tags
 Los SEO tags son etiquetas HTML que ayudan a los motores de búsqueda a entender y posicionar en los resultados. Los meta tags son etiquetas que proporcionan información sobre la página, como su descripción, palabras clave y autor lo cual ayuda al ser buscado en el navegador.
@@ -1246,8 +1333,81 @@ Canonical Tag: Este tag especifica la URL canónica de la página para evitar pr
 ### 4.2.4. Searching Systems.
 
 ### 4.2.5. Navigation Systems.
+<p>En uTime, los sistemas de navegación han sido diseñados para ofrecer una experiencia intuitiva y fluida, guiando a los usuarios a través de la plataforma de forma clara y eficiente. Desde la landing page hasta las diferentes áreas internas de la aplicación, cada elemento de navegación ha sido pensado para facilitar la interacción y ayudar a los usuarios a alcanzar sus objetivos sin fricciones.</p>
+<p>Uno de los principales componentes de navegación en uTime es el menú lateral, ubicado en la parte izquierda de la interfaz. Este menú actúa como eje central de navegación, brindando accesos directos a las secciones clave de la plataforma. Para los clientes, estas secciones incluyen citas, favoritos y perfil, mientras que para los salones se extienden a servicios, suscripciones, reseñas, configuraciones y más. Esta estructura lateral asegura que los usuarios puedan explorar rápidamente las funcionalidades que necesitan, manteniendo la coherencia visual y la facilidad de uso en todo momento.</p>
+
+**Menú de Clientes**
+
+Para los clientes, la navegación se estructura en un menú lateral simple y directo que incluye tres accesos principales: "Appointments", "My favorites" y "My profile". Estas etiquetas, acompañadas por íconos fácilmente reconocibles, permiten que el usuario navegue por su historial de citas, acceda a sus salones o servicios favoritos, y gestione la información de su cuenta personal. Este menú está diseñado con una jerarquía visual clara y un lenguaje sencillo para reducir la fricción y fomentar el uso frecuente.
+**Appointments (Citas)**
+- Permite al usuario ver sus citas pasadas y futuras.
+- Incluye detalles como fecha, hora, servicio y profesional asignado.
+- Posibilidad de cancelar o reprogramar citas desde esta sección.
+
+**My Favorites (Mis favoritos)**
+- Muestra una lista de salones que el cliente ha marcado como favoritos.
+- Facilita el acceso rápido para volver a agendar con salones frecuentes.
+- Incluye botones para ver el perfil del salón y agendar directamente.
+
+**My Profile (Mi perfil)**
+- Permite al usuario actualizar su información personal (nombre, número, correo, foto de perfil).
+- Acceso a la configuración de privacidad y notificaciones.
+
+<p>Una de las herramientas centrales en los sistemas de navegación de uTime es la barra de búsqueda ubicada en la parte superior de la interfaz. Esta funcionalidad permite a los usuarios acceder de forma rápida y directa a salones, sin tener que explorar múltiples menús. Gracias a esta búsqueda inteligente, el proceso de agendamiento se vuelve mucho más fluido y eficiente. </p>
+<p>Asimismo, se implementan acciones contextuales en elementos clave —como botones de agendamiento rápido o marcación de favoritos— que permiten a los usuarios interactuar con el contenido sin abandonar la pantalla actual. Todo esto contribuye a una navegación intuitiva y sin fricciones, asegurando que los clientes puedan cumplir sus objetivos de manera ágil y placentera dentro de la plataforma.</p>
+<p>Finalmente, para facilitar el desplazamiento dentro de secciones más profundas, como los detalles de un salón o profesional, se han incorporado rutas de navegación ("breadcrumbs") que permiten al usuario regresar fácilmente al punto anterior. También se incluyen botones de retroceso para mantener el contexto sin necesidad de recargar pantallas.</p>
 
 ## 4.3. Landing Page UI Design.
+
+La propuesta de diseño para la Landing Page de uTime se centra en crear una experiencia clara, moderna y fácil de navegar. 
+<div align="center">
+<img src="img/lp1.png" alt="lp_1" />
+</div>
+En la parte superior, el logo de uTime se encuentra acompañado de un menú de navegación y botones de acceso rápido para *Sign in* y *Register*. La sección principal presenta un título en negrita y gran tamaño, seguido de un subtítulo descriptivo que amplía la propuesta de la plataforma. El diseño se enfoca en un estilo minimalista con tipografía destacada, donde un botón de acción prominente con la etiqueta *Start today!* invita al usuario a registrarse. La disposición de estos elementos facilita la orientación del visitante, guiándolo hacia la acción principal de manera directa y atractiva, asegurando una experiencia fluida y eficiente.
+<div align="center">
+<img src="img/lp2.png" alt="lp_2" />
+</div>
+La segunda sección del Landing Page de uTime presenta un carrusel o slider vertical que destaca las características principales de la plataforma. En esta vista, se muestra una imagen de un teléfono móvil en el centro de la pantalla, lo que sugiere que la aplicación está optimizada para dispositivos móviles. Al costado de la imagen, se encuentra el título Smart Calendar, que resalta una de las funcionalidades clave de uTime, un calendario inteligente. A continuación, hay un texto de descripción explicando de manera general las ventajas o el funcionamiento de esta característica. El carrusel permite al usuario desplazarse hacia abajo para descubrir más funcionalidades de uTime, con flechas que facilitan la navegación entre las diferentes secciones de información. Este diseño visual no solo informa al usuario sobre las capacidades del producto, sino que también invita a interactuar, asegurando que el visitante pueda explorar las herramientas ofrecidas de una forma dinámica y fácil.
+<div align="center">
+<img src="img/lp3.png" alt="lp_3" />
+</div>
+En esta parte del Landing Page, se presentan dos bloques que cumplen con objetivos específicos:
+**Look & Book**: Este bloque está orientado a los clientes de servicios de belleza, permitiéndoles realizar una reserva rápida. 
+**Glow up your business**: Este bloque está dirigido a los dueños de salones de belleza y barberías, invitándolos a comenzar a usar uTime para mejorar la gestión de su negocio. 
+Ambos bloques están pensados para ser funcionales y centrados en las necesidades de los usuarios de ambos segmentos. En esta fase de diseño, se enfocan en guiar a los visitantes hacia una acción clara, utilizando llamados a la acción como "Book now" y "Start now".
+El footer está diseñado para mostrar solo información esencial, asegurando que el usuario comprenda rápidamente la función de cada enlace, lo que le permite acceder a opciones específicas de manera eficiente.
+<div align="center">
+<img src="img/lp4.png" alt="lp_4" />
+</div>
+Al hacer clic en "Book now", el usuario ve una serie de pasos informativos para realizar una reserva: 1) Buscar su estilista favorito, 2) Verificar la disponibilidad del estilista, 3) Guardar la fecha y elegir el método de pago, 4) Confirmación de la cita. El único botón funcional es "Start now!", que redirige a la página de inicio de sesión o registro para completar el proceso.
+<div align="center">
+<img src="img/lp5.png" alt="lp_5" />
+</div>
+La sección de Pricing del Landing Page de uTime presenta tres opciones de planes de suscripción: Essential, ProStyle y Deluxe Studio. Cada plan tiene un botón de "Learn more..." que permite a los usuarios obtener más información sobre las características específicas de cada opción. La disposición clara y simple de los tres planes facilita la comparación entre ellos, ayudando a los usuarios a elegir el plan que mejor se ajuste a sus necesidades.
+<div align="center">
+<img src="img/lp6.png" alt="lp_6" />
+</div>
+La siguiente sección es el detallado de cada plan de Pricing, destacando las características disponibles mediante marcas de verificación y las que no están incluidas con cruces. A la derecha, se muestra el precio Free junto con dos botones: "Schedule a demo" para programar una demostración del servicio y "I want it!" para comenzar a usar el plan. La disposición es clara y facilita que los usuarios comprendan rápidamente los beneficios del plan básico y tomen acción de manera sencilla.
+<div align="center">
+<img src="img/lp7.png" alt="lp_7" />
+</div>
+La sección About Us de uTime presenta a PaxTech, startup de estudiantes de la UPC, y a uTime, que es la solución tecnológica innovadora. Esta sección consta de una información resumida acerca del enfoque de PaxTech y el propósito de uTime en la digitalización de citas, ambos acompañados por su logo.
+<div align="center">
+<img src="img/lp8.png" alt="lp_8" />
+</div>
+La sección Contact Us de uTime está diseñada para proporcionar múltiples vías de comunicación con los usuarios. En la parte izquierda, se muestran los íconos de redes sociales de uTime y PaxTech (Facebook, TikTok, Instagram y X), permitiendo que los usuarios se conecten con las plataformas sociales de ambas entidades. Además, se incluyen los correos electrónicos de contacto de los equipos de ventas (ventas@uTime.com) y soporte (soporte@uTime.com) para consultas directas.
+<p>A la derecha, se encuentra un formulario de contacto "Get in Touch" donde los usuarios pueden ingresar su primer nombre, apellido, correo electrónico y comentario. Este formulario incluye un botón de "Contact me", que permite a los usuarios enviar sus consultas o comentarios directamente desde la página. Esta sección proporciona una forma clara y sencilla de comunicarse con el equipo de uTime y PaxTech, facilitando la interacción con la plataforma.</p>
+<div align="center">
+<img src="img/lp9.png" alt="lp_9" />
+</div>
+La sección de "Sign In" en la página de uTime está orientada a facilitar el acceso a los usuarios que ya tienen una cuenta en la plataforma. El diseño presenta un mensaje de bienvenida, "Welcome back!", seguido de una invitación a los usuarios a iniciar sesión con su nombre de usuario y contraseña. También se incluyen opciones para acceder mediante Apple, Google, o Facebook, ofreciendo alternativas de inicio de sesión rápido.
+Debajo del formulario, se encuentra un enlace que invita a los usuarios a registrarse si no tienen una cuenta aún, con el texto "Don't have an account? Register here", lo que facilita la conversión de visitantes a usuarios registrados. Este diseño es limpio, directo y permite a los usuarios acceder o registrarse de manera eficiente, asegurando una experiencia de usuario fluida.
+<div align="center">
+<img src="img/lp10.png" alt="lp_10" />
+</div>
+La sección "Let the glam begin!" es la página de registro de uTime, dirigida tanto a clientes como a negocios. Los usuarios pueden seleccionar entre dos opciones: "I'm a client" o "I'm a business", para definir si son consumidores o estilistas/empresarios del sector de belleza.
+<p>El formulario de registro solicita información básica como nombre completo, correo electrónico, documento de identidad, número de teléfono, y contraseña. Además, se incluyen botones para registrarse mediante Apple, Google, o Facebook, proporcionando opciones de inicio rápido.</p>
+Al pie de la página, se incluye un enlace para quienes ya tienen cuenta, con el texto "Already have an account? Click here", que dirige a la página de inicio de sesión. Este diseño facilita un acceso claro y directo al proceso de registro, con alternativas sencillas para iniciar sesión o crear una nueva cuenta.
 
 ### 4.3.1. Landing Page Wireframe.
 
@@ -1325,13 +1485,130 @@ Canonical Tag: Este tag especifica la URL canónica de la página para evitar pr
 
 ## 5.1. Software Configuration Management.
 
-## 5.1.1. Software Development Environment Configuration.
+El equipo ha establecido el siguiente conjunto de herramientas para asegurar una configuración de entorno de desarrollo unificada, que permita una colaboración efectiva y el cumplimiento de los objetivos del proyecto. Estas herramientas cubren diferentes actividades del ciclo de vida del producto digital.
+
+### 5.1.1. Software Development Environment Configuration.
+
+#### Project Management
+
+**Pivotal Tracker** es la herramienta principal utilizada por el equipo para la gestión ágil del proyecto. Permite planificar, organizar y hacer seguimiento del avance de las historias de usuario, tareas y bugs mediante un enfoque basado en historias y priorización colaborativa.
+Ruta de referencia: https://www.pivotaltracker.com
+
+**Discord** es la plataforma empleada para la comunicación en tiempo real entre los miembros del equipo. A través de canales organizados por temas y funciones, se realizan reuniones de equipo, coordinación diaria y soporte instantáneo durante todo el desarrollo.  
+Ruta de referencia: https://discord.com
+
+#### Product UX/UI Design
+
+**Figma** es utilizada como herramienta principal para el diseño de interfaces gráficas (UI) y la experiencia de usuario (UX). Permite que varios miembros colaboren simultáneamente en prototipos interactivos, estructuras visuales y pruebas de diseño.  
+Ruta de referencia: https://www.figma.com
+
+**UXPressia** complementa el trabajo de UX al permitir la creación y documentación de User Personas, Customer Journey Maps y Empathy Maps. Esto ayuda al equipo a entender mejor a los usuarios finales y alinear las decisiones de diseño con sus necesidades.  
+Ruta de referencia: https://uxpressia.com
+
+#### Software Development
+
+**WebStorm** es el entorno de desarrollo integrado (IDE) que utilizan los desarrolladores del equipo para escribir y depurar código en tecnologías web. Su integración con sistemas de control de versiones, linters, y herramientas modernas de desarrollo lo convierten en un entorno robusto.  
+Ruta de referencia: https://www.jetbrains.com/webstorm
+
+#### Software Deployment
+
+**Git** es el sistema de control de versiones utilizado para gestionar el historial de cambios en el código fuente. Permite que varios desarrolladores colaboren en paralelo, con control total sobre ramas, merges y versiones del proyecto.  
+Ruta de referencia: https://git-scm.com
+
+**GitKraken** es un cliente Git con interfaz gráfica que el equipo usa para facilitar la gestión visual de ramas, commits, conflictos y flujos de trabajo. Su interfaz amigable permite trabajar con Git de forma intuitiva y estructurada.  
+Ruta de referencia: https://www.gitkraken.com
+
+#### Software Documentation and Project Management
+
+**GitHub** se utiliza como repositorio remoto centralizado para almacenar y sincronizar el código del proyecto. También se usa para revisar código (pull requests), registrar incidencias, documentar el proyecto y automatizar tareas de despliegue.  
+Ruta de referencia: https://github.com
+
+#### Software Testing
+
+**Gherkin** es un sistema de etiquetado utilizado para describir los criterios de aceptación de estructura de una user story.  
+Ruta de referencia: https://cucumber.io/docs/gherkin/
 
 ### 5.1.2. Source Code Management.
 
+El proyecto seguirá las convenciones de flujo de trabajo establecidas por el modelo GitFlow para el control de versiones, utilizando GitHub como plataforma y sistema de control de versiones. A continuación, se detallará cómo se implementará GitFlow como WorkFlow de control de versiones, además de proporcionar los URL de los repositorios de GitHub para cada producto: Landing Page.
+
+**Repositorios de GitHub:**
+
+- Enlace para acceder a la organización de GitHub: https://github.com/PaxTech-UPC
+- Enlace para acceder a repositorio de la Landing Page: https://github.com/PaxTech-UPC/uTime-Landing-Page
+
+**Flujo de trabajo GitFlow:** El flujo a utilizar para le desarrollo del proyecto fue el planteado por Vicent Driessen en "A successful Git branching model".
+
+
+![GitFlowDiagram](img/GitFlowDiagram.svg)
+
+
+**Estructura de branches (Ramas):**
+
+1. **Main branch (Rama principal):** Esta rama será considerada como la principal para la aplicación, y contendrá versiones estables y finales del desarrollo. Solo se permitirán cambios que hayan sido previamente probados y verificados en otras ramas de prueba.
+
+
+2. **Develop branch (Rama de desarrollo):** El propósito de esta rama es llevar a cabo los avances del proyecto en equipo y de mantener los archivos centrales del desarrollo continuo.
+
+
+3. **Feature branches (Ramas de funcionalidad):** Cada funcionalidad desarrollada por el equipo o separada del enfoque actual del desarrollo tendrá su propia rama. Una vez que una funcionalidad esté completamente trabajada, se fusionará con la rama de desarrollo del proyecto. Las convenciones para nombrar las ramas de funcionalidad seguirán un patrón descriptivo y único, por ejemplo, "feature/nombre-de-la-funcionalidad".
+
+
+4. **Release branches (Ramas de lanzamiento):** Estas ramas se utilizarán para mantener una instancia de la rama develop que esté próxima a ser incluida en la rama principal. Se seguirá el sistema de versionamiento semántico (Semantic Versioning) para nombrar las Releases.
+
+
+5. **Hotfix branches (Ramas de corrección):** Se crearán para abordar de manera puntual y eficiente la corrección de errores identificados en la rama principal que afecten significativamente la experiencia de los usuarios.
+
+
+**Versionamiento Semántico:** Para nombrar las Releases, se aplicará el sistema de versionamiento semántico (Semantic Versioning 2.0.0).
+
+
+**Convenciones de Commits:** Para los mensajes de los commits realizados, se utilizará la especificación Conventional Commits basada en Angular Commit Guidelines. La estructura a seguir será la siguiente:
+
+`git commit -m "<type>[optional scope]: <description">`
+
+
 ### 5.1.3. Source Code Style Guide & Conventions.
 
+**HTML:** Algunas de las prácticas que deben de seguirse para alcanzar un código coherente, sostenible y ordenado son las
+siguientes:
+
+1. Cerrar todos los elementos HTML.
+
+2. A pesar de que HTML permite combinar mayúsculas y minúsculas en los nombres de los elementos y atributos, se limitará al uso de minúsculas para mantener el orden y garantizar la legibilidad.
+
+3. Utilizar comillas en caso de que los atributos contengan espacios entre sí.
+
+4. Procurar especificar el texto alt y las dimensiones width y height de las imágenes, ya que de esta manera se facilitará la disponibilidad del contenido. 
+<br>Por ejemplo: `<img src="abc.img" alt="image name" style="width:128px;height:128px">`
+
+
+**CSS:** Entre las prácticas empleadas se mencionan:
+
+1. Los nombres de las clases deben de ser breves y autodescriptivos.
+2. Separar los nombres de las clases y ID con un guión, por ejemplo: `#video-id` y `.hero-shadow{}`
+3. Evitar especificar la unidad de medida luego de usar el valor 0.
+4. Separar las declaraciones y selectores en nuevas líneas para agilizar la legibilidad.
+
+
+**Gherkin:** Es un lenguaje de dominio específico, el cual busca solucionar un problema concreto, la comunicación entre los negocios y la parte técnica al trabajar con Behavior Driven Development, abreviado por sus siglas en ingles como BBD. En busca de una buena práctica, se ocuparon los saltos de línea para mejorar el orden de los diversos tipos de escenarios y diferenciarlos de forma más óptima. Adicionalmente, se utilizaron las palabras clave "Given", "When", "Then" y "And" para estructurar los escenarios.
+
+
 ### 5.1.4. Software Deployment Configuration.
+
+
+**Landing page deployment:**
+
+Para poder desplegar la landing page resulta necesario contar con una serie de requisitos, entre ellos, es necesario con una cuenta personal, una organización y un repositorio al cual cargar los documentos. A partir de lo anterior, es posible comenzar el despliegue de la landing page. A continuación se enuncian los pasos a seguir:
+
+1. Crear una carpeta llamada **docs** para alojar el Landing Page.
+2. Asegurarse de que los archivos sigan las nomenclaturas **index.html**, para la landing page; **style.css** para los estilos y una carpeta llamada **img** que contenga las imágenes.
+3. Carga los archivos al repositorio mediante las imágenes.
+4. Dirigirse a Settings > Pages y seleccionar la branch correspondiente dentro de la cual se encuentra el proyecto, generalmente se trata de "main" o "master."
+5. Especificar la carpeta **/docs** como la fuente de la página.
+6. Esperar a que GitHub realice las comprobaciones necesarias. Una vez culminado el proceso, se obtendrá un enlace que llevará al Landing Page Desplegado.
+
+![GitHubPages](img/GitHub-Pages.png)
 
 ## 5.2. Landing Page, Services & Applications Implementation.
 
