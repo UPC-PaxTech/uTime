@@ -1417,12 +1417,18 @@ El equipo ha establecido el siguiente conjunto de herramientas para asegurar una
 ### Project Management
 
 **Pivotal Tracker** es la herramienta principal utilizada por el equipo para la gestión ágil del proyecto. Permite planificar, organizar y hacer seguimiento del avance de las historias de usuario, tareas y bugs mediante un enfoque basado en historias y priorización colaborativa.
-🔗 [Ruta de referencia](https://www.pivotaltracker.com)
+Ruta de referencia: https://www.pivotaltracker.com
 
 **Discord** es la plataforma empleada para la comunicación en tiempo real entre los miembros del equipo. A través de canales organizados por temas y funciones, se realizan reuniones de equipo, coordinación diaria y soporte instantáneo durante todo el desarrollo.  
-🔗 [Ruta de referencia](https://discord.com)
+Ruta de referencia: https://discord.com
 
+### Product UX/UI Design
 
+**Figma** es utilizada como herramienta principal para el diseño de interfaces gráficas (UI) y la experiencia de usuario (UX). Permite que varios miembros colaboren simultáneamente en prototipos interactivos, estructuras visuales y pruebas de diseño.  
+Ruta de referencia: https://www.figma.com
+
+**UXPressia** complementa el trabajo de UX al permitir la creación y documentación de User Personas, Customer Journey Maps y Empathy Maps. Esto ayuda al equipo a entender mejor a los usuarios finales y alinear las decisiones de diseño con sus necesidades.  
+Ruta de referencia: https://uxpressia.com
 
 ### 5.1.2. Source Code Management.
 
