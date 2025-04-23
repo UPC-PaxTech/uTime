@@ -1410,6 +1410,83 @@ La sección "Let the glam begin!" es la página de registro de uTime, dirigida t
 Al pie de la página, se incluye un enlace para quienes ya tienen cuenta, con el texto "Already have an account? Click here", que dirige a la página de inicio de sesión. Este diseño facilita un acceso claro y directo al proceso de registro, con alternativas sencillas para iniciar sesión o crear una nueva cuenta.
 
 ### 4.3.1. Landing Page Wireframe.
+**Desktop Web Browser**
+<div align="center">
+<img src="img/lp1.png" alt="lp_1" />
+</div>
+Primera sección del landing page, con el botón de "Start today!".
+<div align="center">
+<img src="img/lp2.png" alt="lp_2" />
+</div>
+Segunda sección, en la que hay un carrusel o slider vertical donde se exponen los beneficios y principales features de la aplicación.
+<div align="center">
+<img src="img/lp2-1.png" alt="lp_2-1" />
+</div>
+<div align="center">
+<img src="img/lp2-2.png" alt="lp_2-2" />
+</div>
+<div align="center">
+<img src="img/lp2-3.png" alt="lp_2-3" />
+</div>
+<div align="center">
+<img src="img/lp2-4.png" alt="lp_2-4" />
+</div>
+
+Esta sección muestra dos bloques que animan a ambos segmentos objetivos a usar uTime. 
+<div align="center">
+<img src="img/lp3.png" alt="lp_3" />
+</div>
+
+Esta sección se muestra al presionar "Book now!" de la sección anterior. Se explica en términos generales cómo funciona uTime para los clientes. 
+<div align="center">
+<img src="img/lp4.png" alt="lp_4" />
+</div>
+
+En esta parte del landing page se muestran los planes de subscripción con sus respectivos precios y características. 
+<div align="center">
+<img src="img/lp5.png" alt="lp_5" />
+</div>
+
+Cuando seleccionas un plan, se detalla en una pantalla toda la información respectiva. 
+<div align="center">
+<img src="img/lp6.png" alt="lp_6" />
+</div>
+<div align="center">
+<img src="img/lp6-2.png" alt="lp_6-2" />
+</div>
+<div align="center">
+<img src="img/lp6-3.png" alt="lp_6-3" />
+</div>
+
+En la barra de navegación superior se muestra un menú desplegable que te puede derivar o a ABOUT US o a CONTACT US
+<div align="center">
+<img src="img/lp6-9.png" alt="lp_6-9" />
+</div>
+
+<div align="center">
+<img src="img/lp7.png" alt="lp_7" />
+</div>
+En esta sección del landing page, se encuentra el about us.
+<div align="center">
+<img src="img/lp8.png" alt="lp_8" />
+</div>
+En esta última parte del landing page, se encuentra la sección de contacto.
+<div align="center">
+<img src="img/lp9.png" alt="lp_9" />
+</div>
+Se presenta el formulario de inicio de sesión.
+<div align="center">
+<img src="img/lp10.png" alt="lp_10" />
+</div>
+Se presenta el formulario de registro pero para clientes.
+<div align="center">
+<img src="img/lp11.png" alt="lp_11" />
+</div>
+Se presenta la primera ventana del formulario de registro para los salones/barberías, donde tienen que escoger el plan de subscripción. 
+<div align="center">
+<img src="img/lp12.png" alt="lp_12" />
+</div>
+Se presenta la segunda ventana del formulario de registro para los salones/barberías, donde tienen que rellenar sus datos del salón/barbería.
 
 ### 4.3.2. Landing Page Mock-up.
 
