@@ -1443,6 +1443,11 @@ Ruta de referencia: https://git-scm.com
 **GitKraken** es un cliente Git con interfaz gráfica que el equipo usa para facilitar la gestión visual de ramas, commits, conflictos y flujos de trabajo. Su interfaz amigable permite trabajar con Git de forma intuitiva y estructurada.  
 Ruta de referencia: https://www.gitkraken.com
 
+#### Software Documentation and Project Management
+
+**GitHub** se utiliza como repositorio remoto centralizado para almacenar y sincronizar el código del proyecto. También se usa para revisar código (pull requests), registrar incidencias, documentar el proyecto y automatizar tareas de despliegue.  
+Ruta de referencia: https://github.com
+
 ### 5.1.2. Source Code Management.
 
 ### 5.1.3. Source Code Style Guide & Conventions.
