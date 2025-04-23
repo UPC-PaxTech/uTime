@@ -1376,7 +1376,48 @@ Canonical Tag: Este tag especifica la URL canónica de la página para evitar pr
 
 ## 5.1. Software Configuration Management.
 
-## 5.1.1. Software Development Environment Configuration.
+El equipo ha establecido el siguiente conjunto de herramientas para asegurar una configuración de entorno de desarrollo unificada, que permita una colaboración efectiva y el cumplimiento de los objetivos del proyecto. Estas herramientas cubren diferentes actividades del ciclo de vida del producto digital.
+
+### 5.1.1. Software Development Environment Configuration.
+
+#### Project Management
+
+**Pivotal Tracker** es la herramienta principal utilizada por el equipo para la gestión ágil del proyecto. Permite planificar, organizar y hacer seguimiento del avance de las historias de usuario, tareas y bugs mediante un enfoque basado en historias y priorización colaborativa.
+Ruta de referencia: https://www.pivotaltracker.com
+
+**Discord** es la plataforma empleada para la comunicación en tiempo real entre los miembros del equipo. A través de canales organizados por temas y funciones, se realizan reuniones de equipo, coordinación diaria y soporte instantáneo durante todo el desarrollo.  
+Ruta de referencia: https://discord.com
+
+#### Product UX/UI Design
+
+**Figma** es utilizada como herramienta principal para el diseño de interfaces gráficas (UI) y la experiencia de usuario (UX). Permite que varios miembros colaboren simultáneamente en prototipos interactivos, estructuras visuales y pruebas de diseño.  
+Ruta de referencia: https://www.figma.com
+
+**UXPressia** complementa el trabajo de UX al permitir la creación y documentación de User Personas, Customer Journey Maps y Empathy Maps. Esto ayuda al equipo a entender mejor a los usuarios finales y alinear las decisiones de diseño con sus necesidades.  
+Ruta de referencia: https://uxpressia.com
+
+#### Software Development
+
+**WebStorm** es el entorno de desarrollo integrado (IDE) que utilizan los desarrolladores del equipo para escribir y depurar código en tecnologías web. Su integración con sistemas de control de versiones, linters, y herramientas modernas de desarrollo lo convierten en un entorno robusto.  
+Ruta de referencia: https://www.jetbrains.com/webstorm
+
+#### Software Deployment
+
+**Git** es el sistema de control de versiones utilizado para gestionar el historial de cambios en el código fuente. Permite que varios desarrolladores colaboren en paralelo, con control total sobre ramas, merges y versiones del proyecto.  
+Ruta de referencia: https://git-scm.com
+
+**GitKraken** es un cliente Git con interfaz gráfica que el equipo usa para facilitar la gestión visual de ramas, commits, conflictos y flujos de trabajo. Su interfaz amigable permite trabajar con Git de forma intuitiva y estructurada.  
+Ruta de referencia: https://www.gitkraken.com
+
+#### Software Documentation and Project Management
+
+**GitHub** se utiliza como repositorio remoto centralizado para almacenar y sincronizar el código del proyecto. También se usa para revisar código (pull requests), registrar incidencias, documentar el proyecto y automatizar tareas de despliegue.  
+Ruta de referencia: https://github.com
+
+#### Software Testing
+
+**Gherkin** es un sistema de etiquetado utilizado para describir los criterios de aceptación de estructura de una user story.  
+Ruta de referencia: https://cucumber.io/docs/gherkin/
 
 ### 5.1.2. Source Code Management.
 
