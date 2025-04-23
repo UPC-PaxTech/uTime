@@ -1493,6 +1493,65 @@ Se presenta la segunda ventana del formulario de registro para los salones/barbe
 ## 4.4. Web Applications UX/UI Design.
 
 ### 4.4.1. Web Applications Wireframes.
+<div align="center">
+<img src="img/wb1.png" alt="home_clients" width="600" />
+</div>
+
+<div align="center">
+<img src="img/wb2.png" alt="salon_overview" width="600" />
+</div>
+
+<div align="center">
+<img src="img/wb3.png" alt="book_appointment" width="600" />
+</div>
+
+<div align="center">
+<img src="img/wb4.png" alt="appointments_section_clients" width="600" />
+</div>
+
+<div align="center">
+<img src="img/wb5.png" alt="favorites_section_clients" width="600" />
+</div>
+
+<div align="center">
+<img src="img/wb6.png" alt="profile_section_clients" width="600" />
+</div>
+
+<div align="center">
+<img src="img/wb7.png" alt="home_section_salons" width="600" />
+</div>
+
+<div align="center">
+<img src="img/wb8.png" alt="general_appointments_section_salons" width="600" />
+</div>
+
+<div align="center">
+<img src="img/wb9.png" alt="detailed_appointments_section_salons" width="600" />
+</div>
+
+<div align="center">
+<img src="img/wb10.png" alt="reviews_section_salons" width="600" />
+</div>
+
+<div align="center">
+<img src="img/wb11.png" alt="services_section_salons" width="600" />
+</div>
+
+<div align="center">
+<img src="img/wb12.png" alt="subscription_section_salons" width="600" />
+</div>
+
+<div align="center">
+<img src="img/wb13.png" alt="settings_section_salons" width="600" />
+</div>
+
+<div align="center">
+<img src="img/wb14.png" alt="notifications_section_salons" width="600" />
+</div>
+
+<div align="center">
+<img src="img/wb15.png" alt="profile_section_salons" width="600" />
+</div>
 
 ### 4.4.2. Web Applications Wireflow Diagrams.
 
