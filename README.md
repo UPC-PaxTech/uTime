@@ -1496,62 +1496,78 @@ Se presenta la segunda ventana del formulario de registro para los salones/barbe
 <div align="center">
 <img src="img/wb1.png" alt="home_clients" width="600" />
 </div>
+El wireframe de la primera parte de la interfaz para el segmento de clientes de uTime presenta una estructura clara y fácil de navegar. En la parte superior, una barra de navegación incluye opciones para acceder a citas, favoritos y perfil, junto con un ícono de búsqueda y notificaciones. La sección de Upcoming appointments muestra las citas próximas divididas por fecha, mientras que Most popular destaca los servicios y estilistas más populares con valoraciones en estrellas y un botón de "Book now". Este diseño facilita la gestión de citas, la selección de servicios y la interacción rápida con la plataforma, brindando una experiencia fluida y organizada para el usuario.
 
 <div align="center">
 <img src="img/wb2.png" alt="salon_overview" width="600" />
 </div>
+El wireframe de la interfaz de uTime para el perfil de los salones de belleza/barberías permite a los clientes explorar información detallada sobre los profesionales y sus servicios. En la parte superior, se muestra el nombre del estilista, su ubicación y enlaces a sus redes sociales Instagram y TikTok, lo que facilita la conexión con ellos en plataformas externas. A la izquierda, se presentan reseñas y comentarios de clientes previos.
+<p>En la sección de Servicios a la derecha, se listan las opciones de tratamiento disponibles, como "Simple haircut", "Keratin Treatment" y "Color & cut", con el precio, tiempo estimado y un botón de "Book" para reservar el servicio. Los servicios también incluyen detalles adicionales. Este diseño organiza la información de manera clara, permitiendo a los clientes obtener rápidamente los datos necesarios para tomar decisiones y realizar reservas de forma sencilla y directa.</p>
 
 <div align="center">
 <img src="img/wb3.png" alt="book_appointment" width="600" />
 </div>
+El wireframe de la interfaz de reservas de uTime está diseñado para guiar al cliente de manera sencilla y eficiente. Primero, el usuario selecciona su estilista de una lista de opciones, que se resalta al ser elegido. Luego, el calendario permite elegir una fecha disponible, y después se selecciona una hora entre las opciones disponibles. En la siguiente sección, el cliente elige su método de pago, ya sea tarjeta de débito/crédito o Yape, proporcionando los datos necesarios para completar la transacción. Finalmente, el total de la cita se muestra claramente antes del botón "Continue" para proceder con el pago, asegurando una experiencia de reserva fluida y clara.
 
 <div align="center">
 <img src="img/wb4.png" alt="appointments_section_clients" width="600" />
 </div>
+La sección Appointments permite a los clientes ver y gestionar todas sus citas de manera organizada. Aquí pueden consultar su última cita a la que fue y las citas próximas, con detalles como el nombre del salón, el profesional, el servicio reservado, la fecha y la hora. También se incluyen accesos rápidos para reagendar, cancelar o valorar un servicio ya recibido. Esta sección facilita el seguimiento de la actividad del usuario en la plataforma y garantiza una experiencia de gestión clara y sin complicaciones.
 
 <div align="center">
 <img src="img/wb5.png" alt="favorites_section_clients" width="600" />
 </div>
+La sección My Favorites permite a los usuarios guardar y acceder rápidamente a sus salones preferidos. Desde aquí, los clientes pueden explorar los perfiles de sus favoritos, revisar sus servicios, ver disponibilidad y agendar una cita sin necesidad de buscarlos nuevamente. Esta funcionalidad está pensada para agilizar la experiencia de reserva y fomentar la lealtad hacia los profesionales o salones con los que ya han tenido buenas experiencias.
 
 <div align="center">
 <img src="img/wb6.png" alt="profile_section_clients" width="600" />
 </div>
+La sección Your Profile centraliza toda la información personal del usuario en un solo lugar. Aquí, los clientes pueden gestionar sus datos básicos como nombre, correo y número de teléfono. También permite ajustar configuraciones relacionadas con notificaciones y uso de ubicación. Esta sección busca ofrecer control y personalización al usuario, permitiéndole mantener su información actualizada y adaptada a sus necesidades dentro de la plataforma.
 
 <div align="center">
 <img src="img/wb7.png" alt="home_section_salons" width="600" />
 </div>
+La sección Home en la interfaz de salones de uTime funciona como un panel principal que brinda una visión general rápida y clara del estado del negocio. Desde aquí, los administradores pueden ver un resumen de las próximas citas del día, notificaciones importantes, lista de colaboradores, ingresos recientes y últimas reseñas sin leer. También se destacan accesos rápidos a funciones frecuentes como gestionar citas, gestionar servicios o revisar reseñas recientes, entre otras cosas. Esta pantalla está diseñada para facilitar una gestión eficiente del salón, ayudando al equipo a mantenerse al tanto de las operaciones diarias de forma simple y ordenada.
 
 <div align="center">
 <img src="img/wb8.png" alt="general_appointments_section_salons" width="600" />
 </div>
+La sección Appointments en la interfaz de salones de uTime está pensada para brindar un control detallado y organizado de las reservas agendadas. La primera vista presenta un calendario semanal general, donde se visualizan todas las citas del salón en una sola vista. Esto permite tener una perspectiva completa de la carga de trabajo por día y por hora, ayudando a planificar de forma eficiente y evitar sobrecargas.
 
 <div align="center">
 <img src="img/wb9.png" alt="detailed_appointments_section_salons" width="600" />
 </div>
+Cuando presionas la flecha, aparece la segunda vista, que ofrece un calendario semanal específico por colaborador. Esto permite filtrar y visualizar únicamente las citas de un estilista o barbero en particular. Esta vista es ideal para revisar la agenda individual de cada miembro del equipo, facilitando la redistribución de citas, coordinación interna y seguimiento del rendimiento personal. Ambas pestañas están diseñadas con una interfaz intuitiva, clara y responsive, permitiendo a los salones manejar sus reservas de manera fluida desde cualquier dispositivo.
 
 <div align="center">
 <img src="img/wb10.png" alt="reviews_section_salons" width="600" />
 </div>
+La pestaña Reviews en la interfaz de salones de uTime permite visualizar de forma centralizada todas las reseñas y valoraciones que los clientes han dejado tras sus citas. Cada reseña muestra el nombre del cliente, una puntuación en estrellas y, si se incluye, un comentario, los cuales pueden estar vinculados a un colaborador específico del salón. Esto brinda una visión clara sobre la calidad del servicio tanto a nivel general como individual. Esta sección es clave para mantener una buena reputación, identificar oportunidades de mejora y generar confianza en nuevos usuarios
 
 <div align="center">
 <img src="img/wb11.png" alt="services_section_salons" width="600" />
 </div>
+La sección Services de la interfaz para salones en uTime está organizada como una lista clara y funcional que permite gestionar fácilmente la oferta de servicios del establecimiento. Cada entrada incluye el nombre del servicio (Service), la duración estimada (Duration), el precio correspondiente (Price), el estado de disponibilidad (Status), y opciones de acción como editar o eliminar (Actions). Esta estructura permite mantener actualizada la información, facilitar la planificación de citas y garantizar que los servicios visibles para los clientes estén correctamente configurados y disponibles según las necesidades del salón.
 
 <div align="center">
 <img src="img/wb12.png" alt="subscription_section_salons" width="600" />
 </div>
+La sección Subscription en la interfaz para salones de uTime está diseñada para brindar claridad y control sobre el plan actual del establecimiento. En esta vista, el usuario puede ver de forma destacada el nombre del plan en uso. Debajo, se presentan los otros planes disponibles —Essential, ProStyle y Deluxe Studio— con un desglose comparativo de sus beneficios y precios. Esta organización facilita al usuario evaluar si su plan actual se ajusta a sus necesidades o si prefiere realizar una actualización, permitiéndole gestionar su suscripción de forma rápida, transparente y sin complicaciones.
 
 <div align="center">
 <img src="img/wb13.png" alt="settings_section_salons" width="600" />
 </div>
+La sección Settings en la interfaz para salones de uTime permite a los administradores mantener actualizada la información esencial del perfil de su establecimiento. Desde esta área, el usuario puede modificar el nombre del salón, actualizar la dirección física y gestionar la contraseña de acceso para reforzar la seguridad de su cuenta. Diseñada con una estructura clara y campos intuitivos, esta sección asegura una experiencia de edición simple y eficiente, brindando el control necesario para mantener la información del negocio siempre correcta y segura.
 
 <div align="center">
 <img src="img/wb14.png" alt="notifications_section_salons" width="600" />
 </div>
+La sección Notifications en la interfaz de salones de uTime centraliza todas las alertas relevantes relacionadas con la gestión del establecimiento. Aquí, los administradores pueden ver en tiempo real recordatorios de próximas citas, cambios realizados por clientes, nuevas reseñas recibidas, y avisos del sistema como renovaciones de suscripción o recomendaciones de mejoras en la agenda. El diseño de esta sección prioriza la claridad y la prioridad de la información, permitiendo que el equipo esté siempre informado y pueda reaccionar con rapidez ante cualquier novedad importante dentro de la plataforma.
 
 <div align="center">
 <img src="img/wb15.png" alt="profile_section_salons" width="600" />
 </div>
+La sección Profile en la interfaz de salones de uTime permite personalizar y gestionar la identidad visual del negocio dentro de la plataforma. Desde aquí, los administradores pueden editar la imagen de portada y la foto de perfil del salón para reflejar su estilo y profesionalismo. También tienen la opción de actualizar su portafolio con imágenes de trabajos recientes, mostrando los servicios ofrecidos y resultados destacados. Además, se presenta una sección de recent reviews, donde se visualizan las últimas reseñas recibidas por los clientes, brindando una muestra pública de la reputación y calidad del servicio. Esta sección es clave para transmitir confianza y atraer a nuevos usuarios.
 
 ### 4.4.2. Web Applications Wireflow Diagrams.
 
