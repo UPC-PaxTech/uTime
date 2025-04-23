@@ -1359,6 +1359,56 @@ Para los clientes, la navegación se estructura en un menú lateral simple y dir
 
 ## 4.3. Landing Page UI Design.
 
+La propuesta de diseño para la Landing Page de uTime se centra en crear una experiencia clara, moderna y fácil de navegar. 
+<div align="center">
+<img src="img/lp1.png" alt="lp_1" />
+</div>
+En la parte superior, el logo de uTime se encuentra acompañado de un menú de navegación y botones de acceso rápido para *Sign in* y *Register*. La sección principal presenta un título en negrita y gran tamaño, seguido de un subtítulo descriptivo que amplía la propuesta de la plataforma. El diseño se enfoca en un estilo minimalista con tipografía destacada, donde un botón de acción prominente con la etiqueta *Start today!* invita al usuario a registrarse. La disposición de estos elementos facilita la orientación del visitante, guiándolo hacia la acción principal de manera directa y atractiva, asegurando una experiencia fluida y eficiente.
+<div align="center">
+<img src="img/lp2.png" alt="lp_2" />
+</div>
+La segunda sección del Landing Page de uTime presenta un carrusel o slider vertical que destaca las características principales de la plataforma. En esta vista, se muestra una imagen de un teléfono móvil en el centro de la pantalla, lo que sugiere que la aplicación está optimizada para dispositivos móviles. Al costado de la imagen, se encuentra el título Smart Calendar, que resalta una de las funcionalidades clave de uTime, un calendario inteligente. A continuación, hay un texto de descripción explicando de manera general las ventajas o el funcionamiento de esta característica. El carrusel permite al usuario desplazarse hacia abajo para descubrir más funcionalidades de uTime, con flechas que facilitan la navegación entre las diferentes secciones de información. Este diseño visual no solo informa al usuario sobre las capacidades del producto, sino que también invita a interactuar, asegurando que el visitante pueda explorar las herramientas ofrecidas de una forma dinámica y fácil.
+<div align="center">
+<img src="img/lp3.png" alt="lp_3" />
+</div>
+En esta parte del Landing Page, se presentan dos bloques que cumplen con objetivos específicos:
+**Look & Book**: Este bloque está orientado a los clientes de servicios de belleza, permitiéndoles realizar una reserva rápida. 
+**Glow up your business**: Este bloque está dirigido a los dueños de salones de belleza y barberías, invitándolos a comenzar a usar uTime para mejorar la gestión de su negocio. 
+Ambos bloques están pensados para ser funcionales y centrados en las necesidades de los usuarios de ambos segmentos. En esta fase de diseño, se enfocan en guiar a los visitantes hacia una acción clara, utilizando llamados a la acción como "Book now" y "Start now".
+El footer está diseñado para mostrar solo información esencial, asegurando que el usuario comprenda rápidamente la función de cada enlace, lo que le permite acceder a opciones específicas de manera eficiente.
+<div align="center">
+<img src="img/lp4.png" alt="lp_4" />
+</div>
+Al hacer clic en "Book now", el usuario ve una serie de pasos informativos para realizar una reserva: 1) Buscar su estilista favorito, 2) Verificar la disponibilidad del estilista, 3) Guardar la fecha y elegir el método de pago, 4) Confirmación de la cita. El único botón funcional es "Start now!", que redirige a la página de inicio de sesión o registro para completar el proceso.
+<div align="center">
+<img src="img/lp5.png" alt="lp_5" />
+</div>
+La sección de Pricing del Landing Page de uTime presenta tres opciones de planes de suscripción: Essential, ProStyle y Deluxe Studio. Cada plan tiene un botón de "Learn more..." que permite a los usuarios obtener más información sobre las características específicas de cada opción. La disposición clara y simple de los tres planes facilita la comparación entre ellos, ayudando a los usuarios a elegir el plan que mejor se ajuste a sus necesidades.
+<div align="center">
+<img src="img/lp6.png" alt="lp_6" />
+</div>
+La siguiente sección es el detallado de cada plan de Pricing, destacando las características disponibles mediante marcas de verificación y las que no están incluidas con cruces. A la derecha, se muestra el precio Free junto con dos botones: "Schedule a demo" para programar una demostración del servicio y "I want it!" para comenzar a usar el plan. La disposición es clara y facilita que los usuarios comprendan rápidamente los beneficios del plan básico y tomen acción de manera sencilla.
+<div align="center">
+<img src="img/lp7.png" alt="lp_7" />
+</div>
+La sección About Us de uTime presenta a PaxTech, startup de estudiantes de la UPC, y a uTime, que es la solución tecnológica innovadora. Esta sección consta de una información resumida acerca del enfoque de PaxTech y el propósito de uTime en la digitalización de citas, ambos acompañados por su logo.
+<div align="center">
+<img src="img/lp8.png" alt="lp_8" />
+</div>
+La sección Contact Us de uTime está diseñada para proporcionar múltiples vías de comunicación con los usuarios. En la parte izquierda, se muestran los íconos de redes sociales de uTime y PaxTech (Facebook, TikTok, Instagram y X), permitiendo que los usuarios se conecten con las plataformas sociales de ambas entidades. Además, se incluyen los correos electrónicos de contacto de los equipos de ventas (ventas@uTime.com) y soporte (soporte@uTime.com) para consultas directas.
+<p>A la derecha, se encuentra un formulario de contacto "Get in Touch" donde los usuarios pueden ingresar su primer nombre, apellido, correo electrónico y comentario. Este formulario incluye un botón de "Contact me", que permite a los usuarios enviar sus consultas o comentarios directamente desde la página. Esta sección proporciona una forma clara y sencilla de comunicarse con el equipo de uTime y PaxTech, facilitando la interacción con la plataforma.</p>
+<div align="center">
+<img src="img/lp9.png" alt="lp_9" />
+</div>
+La sección de "Sign In" en la página de uTime está orientada a facilitar el acceso a los usuarios que ya tienen una cuenta en la plataforma. El diseño presenta un mensaje de bienvenida, "Welcome back!", seguido de una invitación a los usuarios a iniciar sesión con su nombre de usuario y contraseña. También se incluyen opciones para acceder mediante Apple, Google, o Facebook, ofreciendo alternativas de inicio de sesión rápido.
+Debajo del formulario, se encuentra un enlace que invita a los usuarios a registrarse si no tienen una cuenta aún, con el texto "Don't have an account? Register here", lo que facilita la conversión de visitantes a usuarios registrados. Este diseño es limpio, directo y permite a los usuarios acceder o registrarse de manera eficiente, asegurando una experiencia de usuario fluida.
+<div align="center">
+<img src="img/lp10.png" alt="lp_10" />
+</div>
+La sección "Let the glam begin!" es la página de registro de uTime, dirigida tanto a clientes como a negocios. Los usuarios pueden seleccionar entre dos opciones: "I'm a client" o "I'm a business", para definir si son consumidores o estilistas/empresarios del sector de belleza.
+<p>El formulario de registro solicita información básica como nombre completo, correo electrónico, documento de identidad, número de teléfono, y contraseña. Además, se incluyen botones para registrarse mediante Apple, Google, o Facebook, proporcionando opciones de inicio rápido.</p>
+Al pie de la página, se incluye un enlace para quienes ya tienen cuenta, con el texto "Already have an account? Click here", que dirige a la página de inicio de sesión. Este diseño facilita un acceso claro y directo al proceso de registro, con alternativas sencillas para iniciar sesión o crear una nueva cuenta.
+
 ### 4.3.1. Landing Page Wireframe.
 
 ### 4.3.2. Landing Page Mock-up.
