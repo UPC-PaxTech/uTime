@@ -65,6 +65,8 @@ para cada integrante del equipo:
 | Angie Yalán   |                                                                                                                                                                                    |
 | Jorge Yum      |                                                                                                                                                                                    |
 
+El proceso de colaboración en el informe se realizó mediante commits constantes al repositorio de la organización PaxTech.
+
 **Github Collaboration Insights**
 
 Github también presenta un timeline de las ramas principales y los procesos de merge a los que se han sometido. Todas las
