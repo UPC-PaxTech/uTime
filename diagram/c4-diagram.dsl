@@ -5,7 +5,14 @@ workspace "uTime" "Sistema para gestión de citas en salones de belleza" {
         //software
         uTime = softwareSystem "uTime" "Sistema para gestión de reservas en salones de belleza" {
             landing = container "Landing page" "El landing page deriva a la interfaz web" "Web"
-            interfazWeb = container "Interfaz Web" "Interfaz web REST/HTTPS de uTime" "SPA (React, Angular, etc.)"
+            interfazWeb = container "Interfaz Web" "Interfaz web REST/HTTPS de uTime" "Angular"
+            singlePageApplication = container "Single Page Application" "Renderiza los horarios dinamicos de la aplicación" "Angular"{
+                appComponent = component "App Component" "Controla el diseño y coordina el renderizado de los componentes de UI"
+                navigationComponent = component "Navigation Component" "Muestra un interfaz de navegación"
+                scheduleAssembler = component "Schedule Assembler" "Combierte los datos a un formato compatible para su renderizado"
+                salonListComponent = component "Salon List Component" "Muestra un carrusel de salones" "Angular"
+                salonItemComponent = component "Salon Item Component" "Muestra salones individuales en el carrusel"
+            }
             apiGateway = container "ApiGateway" "API que conecta el backend" "Node.js" "ApiGatewayStyle"
             authContextContainer = container "Autenticación Context" "Función de autenticación del usuario" {
                 authController = component "Authentication Controller" "Controlador de autenticaciones" "Java"
@@ -62,7 +69,8 @@ workspace "uTime" "Sistema para gestión de citas en salones de belleza" {
 
         //diagrama de contenedores
         landing -> interfazWeb "redirige a"
-        interfazWeb -> apiGateway "usa"
+        interfazWeb -> singlePageApplication "utiliza a"
+        singlePageApplication -> apiGateway "llama a"
         apiGateway -> authContextContainer "deriva a"
         apiGateway -> userContextContainer "deriva a"
         apiGateway -> scheduleContextContainer "deriva a"
@@ -148,6 +156,10 @@ workspace "uTime" "Sistema para gestión de citas en salones de belleza" {
         }
 
         component authContextContainer {
+            include *
+        }
+
+        component singlePageApplication {
             include *
         }
 
