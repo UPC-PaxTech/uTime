@@ -1435,6 +1435,14 @@ Ruta de referencia: https://uxpressia.com
 **WebStorm** es el entorno de desarrollo integrado (IDE) que utilizan los desarrolladores del equipo para escribir y depurar código en tecnologías web. Su integración con sistemas de control de versiones, linters, y herramientas modernas de desarrollo lo convierten en un entorno robusto.  
 Ruta de referencia: https://www.jetbrains.com/webstorm
 
+#### Software Deployment
+
+**Git** es el sistema de control de versiones utilizado para gestionar el historial de cambios en el código fuente. Permite que varios desarrolladores colaboren en paralelo, con control total sobre ramas, merges y versiones del proyecto.  
+Ruta de referencia: https://git-scm.com
+
+**GitKraken** es un cliente Git con interfaz gráfica que el equipo usa para facilitar la gestión visual de ramas, commits, conflictos y flujos de trabajo. Su interfaz amigable permite trabajar con Git de forma intuitiva y estructurada.  
+Ruta de referencia: https://www.gitkraken.com
+
 ### 5.1.2. Source Code Management.
 
 ### 5.1.3. Source Code Style Guide & Conventions.
