@@ -1475,6 +1475,10 @@ Al pie de la página, se incluye un enlace para quienes ya tienen cuenta, con el
 
 ### 4.7.1. Class Diagrams.
 
+<div align="center">
+   <img src="img/class-diagram-uTime.png" alt="class-diagram"/>
+</div>
+
 ### 4.7.2. Class Dictionary.
 
 ## 4.8. Database Design.
