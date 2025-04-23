@@ -1336,7 +1336,7 @@ Estas etiquetas permiten representar de forma precisa los conjuntos de informaci
 <li>Información personal, preferencias y detalles de cuenta.</li>
 <li>Estas etiquetas permiten representar de forma precisa los conjuntos de información más relevantes para los clientes, organizándolos en un menú compacto e intuitivo. Las asociaciones entre etiquetas y funciones están claramente definidas, reforzando la lógica interna del sistema y mejorando la eficiencia del recorrido del usuario dentro de la plataforma.</li>
 
->>>>>>> feature/labeling
+
 ### 4.2.3. SEO Tags and Meta Tags
 Los SEO tags son etiquetas HTML que ayudan a los motores de búsqueda a entender y posicionar en los resultados. Los meta tags son etiquetas que proporcionan información sobre la página, como su descripción, palabras clave y autor lo cual ayuda al ser buscado en el navegador.
 A continuacion se presentan los SEO tags y meta tags que se utilizarán en la plataforma:
