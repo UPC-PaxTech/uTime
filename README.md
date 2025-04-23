@@ -1272,10 +1272,14 @@ El tono se adapta según el contexto: amigable en bienvenidas, eficiente en form
 Los diagramas del sistema han sido divididos y organizados mediante el uso de colores distintivos, con el propósito de representar claramente la funcionalidad específica de cada sección: landing page, home system y dashboard. Esta diferenciación visual permite identificar rápidamente el propósito de cada componente y entender su rol dentro de la estructura general del sistema. La jerarquía de elementos se mantiene mediante una distribución ordenada, donde cada bloque se relaciona con funciones concretas, lo que facilita tanto el análisis como futuras modificaciones.
 
 ### 4.2.2. Labeling Systems.
+<<<<<<< HEAD
 
+=======
+>>>>>>> feature/labeling
 <p>La interfaz de la página principal de uTime ha sido diseñada para ser clara y funcional, permitiendo a los usuarios visualizar rápidamente la información más relevante desde una sola pantalla. Gracias al uso de etiquetas claras y directas, la navegación resulta sencilla e intuitiva, ofreciendo una experiencia ágil y sin distracciones. </p>
 <p>Antes de ingresar a la plataforma, los usuarios encuentran tres secciones principales: "HOME", "PRICING" y "MORE", esta última incluye "ABOUT US" y "CONTACT US". La sección "HOME" brinda una visión general de uTime, utilizando un término ampliamente reconocido en entornos digitales para representar la página de inicio. En "PRICING" se detallan los tres planes de suscripción disponibles para salones de belleza. Por su parte, "ABOUT US" ofrece una breve presentación del equipo detrás de uTime, mientras que "CONTACT US" reúne los canales de comunicación disponibles de uTime y PaxTech para que los usuarios puedan contactar al equipo de soporte o realizar consultas. </p>
 
+<<<<<<< HEAD
 **Menú Salones (Segmento objetivo #1)**
 
 En uTime, el labelling system para salones ha sido diseñado para representar la información de manera clara, directa y sin ambigüedades. Las etiquetas empleadas en el menú de navegación buscan reducir la carga cognitiva del usuario, usando un número mínimo de palabras que sintetizan acciones o secciones concretas del sistema. Estas etiquetas establecen asociaciones lógicas entre la funcionalidad del sistema y el contenido mostrado, garantizando una experiencia fluida para los usuarios encargados de gestionar salones de belleza.
@@ -1300,6 +1304,39 @@ El labelling system de uTime para los usuarios clientes ha sido desarrollado con
 
 Estas etiquetas permiten representar de forma precisa los conjuntos de información más relevantes para los clientes, organizándolos en un menú compacto e intuitivo. Las asociaciones entre etiquetas y funciones están claramente definidas, reforzando la lógica interna del sistema y mejorando la eficiencia del recorrido del usuario dentro de la plataforma.
 
+=======
+<p>La etiqueta Home, actúa como el panel de control desde donde el usuario puede tener una visión general del estado de su salón: próximas citas, comentarios de clientes sin leer y accesos rápidos a la información de sus colaboradores. Es el punto de partida ideal, pensado para que la experiencia comience con información útil y organizada. </p>
+<p>Appointments permite gestionar todas las citas agendadas por los clientes, con vistas semanales del calendario general y el calendario de cada colaborador. Esta sección es esencial para el funcionamiento del salón y por eso se posiciona de forma prominente. </p>
+<p>Reviews ofrece acceso a los comentarios y valoraciones que los clientes han dejado sobre sus experiencias. Esta sección permite al equipo del salón analizar tendencias de satisfacción y utilizar el feedback para mejorar sus servicios y atención. </p>
+<p>La etiqueta Services brinda acceso al catálogo de servicios ofrecidos por el salón. Aquí se pueden añadir, editar o eliminar servicios, definir tiempos estimados y asignar precios. Esta función es fundamental para mantener actualizada la oferta disponible para los clientes. </p>
+<p>Subscription dirige al usuario a la gestión de su plan de suscripción en uTime. Desde aquí se puede revisar el tipo de plan activo (Essential, ProStyle o Deluxe Studio), y realizar cambios de plan según las necesidades del salón. </p>
+<p>Settings contiene las opciones de configuración general del perfil del salón y datos importantes de contacto y del salón. Esta sección permite personalizar la plataforma para que se adapte al flujo de trabajo de cada establecimiento. </p>
+<p>Finalmente, Notifications agrupa las alertas del sistema, recordatorios y mensajes importantes sobre citas, pagos, nuevas reseñas o actualizaciones de la plataforma. Está ubicada en una posición estratégica para garantizar que el usuario no pierda información relevante. </p>
+<p>Este sistema de etiquetas combina funcionalidad y estética, ofreciendo a los salones una navegación clara, ordenada y con una comunicación visual que refleja la elegancia y eficiencia de uTime como plataforma de gestión para negocios del rubro de belleza. </p>
+
+<h2>
+<b>Menú Clientes (Segmento objetivo #2)</b>
+</h2>
+<li>El labelling system de uTime para los usuarios clientes ha sido desarrollado con el objetivo de ofrecer una navegación sencilla y directa. Cada etiqueta ha sido cuidadosamente seleccionada para representar con precisión la funcionalidad que contiene, utilizando el menor número de palabras posibles para evitar ambigüedades y facilitar la comprensión inmediata. Este enfoque promueve una experiencia clara y sin fricciones, alineada con las expectativas del usuario final.</li>
+>>>>>>> feature/labeling-system
+
+<h2>
+<b>Appointments: </b>
+</h2>
+<li>Sección donde el usuario puede ver, agendar o modificar citas.</li>
+
+<h2>
+<b>My favorites: </b>
+</h2>
+<li>Acceso rápido a salones o estilistas guardados como favoritos.</li>
+
+<h2>
+<b>My profile: </b>
+</h2>
+<li>Información personal, preferencias y detalles de cuenta.</li>
+<li>Estas etiquetas permiten representar de forma precisa los conjuntos de información más relevantes para los clientes, organizándolos en un menú compacto e intuitivo. Las asociaciones entre etiquetas y funciones están claramente definidas, reforzando la lógica interna del sistema y mejorando la eficiencia del recorrido del usuario dentro de la plataforma.</li>
+
+>>>>>>> feature/labeling
 ### 4.2.3. SEO Tags and Meta Tags
 Los SEO tags son etiquetas HTML que ayudan a los motores de búsqueda a entender y posicionar en los resultados. Los meta tags son etiquetas que proporcionan información sobre la página, como su descripción, palabras clave y autor lo cual ayuda al ser buscado en el navegador.
 A continuacion se presentan los SEO tags y meta tags que se utilizarán en la plataforma:
