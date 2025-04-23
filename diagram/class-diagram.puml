@@ -1,190 +1,174 @@
 @startuml classDiagram
+skinparam style strictuml
+title uTime - Domain Class Diagram (Reordenado)
 
-' Shared
-package "shared Context" {
-    class AccountId <<ValueObject>> {
-        -value: UUID
-    }
+' === Shared Context ===
+package "Shared Context" {
+  class AccountId <<ValueObject>> {
+    - value: UUID
+  }
 
-    class ReservationId <<ValueObject>> {
-        -value: UUID
-    }
+  class ReservationId <<ValueObject>> {
+    - value: UUID
+  }
 
-    class Money <<ValueObject>> {
-        -amount: Decimal
-        -currency: String
-        --
-        +add(Money): Money
-        +subtract(Money): Money
-    }
+  class PaymentId <<ValueObject>> {
+    - value: UUID
+  }
 
-    class PaymentId <<ValueObject>> {
-        - value: UUID
-    }
+  class Money <<ValueObject>> {
+    - amount: Decimal
+    - currency: String
+    + add(Money): Money
+    + subtract(Money): Money
+  }
 }
 
-package "auth Context" {
+' === Account Management ===
+package "Account Management Context" {
+  class Account <<AggregateRoot>> {
+    - accountId: AccountId
+    - email: String
+    - passwordHash: String
+    - isActive: Boolean
+    --
+    + erase(): void
+    + validatePassword(plain: String): Boolean
+    + generateAuthToken(): AuthToken
+  }
 
-    Entity Account <<AggregateRoot>> {
-        - accountId: AccountId
-        - email: String
-        - passwordHash: String
-        - isActive: Boolean
-        --
-        + erase(): void
-        + validatePassword(plain: String): Boolean
-        + generateAuthToken(): AuthToken
-    }
+  class AuthToken <<Entity>> {
+    - token: String
+    - accountId: AccountId
+    - issuedAt: DateTime
+    - expiresAt: DateTime
+    --
+    + revoke(): void
+  }
 
-    Entity AuthToken <<Entity>> {
-        - token: String
-        - accountId: AccountId
-        - issuedAt: DateTime
-        - expiresAt: DateTime
-        --
-        + revoke(): void
-    }
+  class AuthAdapter <<Adapter>> {
+    + authenticateWithGoogle(oauthCode: String): Boolean
+  }
 
-    class AuthAdapter <<Adapter>> {
-        + authenticateWithGoogle(oauthCode: String): Boolean
-    }
-
-    Account o--> "1" AccountId
-    Account --> AuthToken
-    Account --> AuthAdapter
-
-    AuthToken o--> "1" AccountId
+  Account o--> AccountId
+  Account --> AuthToken
+  Account --> AuthAdapter
+  AuthToken o--> AccountId
 }
 
-' User Context
-package "user Context" {
-    Entity User <<AggregateRoot>> {
-        -userId: UUID
-        -accountId: AccountId
-        -name: String
-        --
-    }
+' === User Context ===
+package "User Context" {
+  class User <<AggregateRoot>> {
+    - userId: UUID
+    - accountId: AccountId
+    - name: String
+  }
 
-    Entity Client <<Entity>> {
-        -clientId: UUID
-        --
-        +updateClientInfo(name: String, email: String)
-    }
+  class Client <<Entity>> {
+    - clientId: UUID
+    + updateClientInfo(name: String, email: String)
+  }
 
-    Entity Salon <<Entity>> {
-        -salonId: UUID
-        -location: String
-        -contact: ContactInfo
-        --
-        +updateSalontInfo(name: String, location: String)
-    }
+  class Salon <<Entity>> {
+    - salonId: UUID
+    - location: String
+    - contact: ContactInfo
+    + updateSalonInfo(name: String, location: String)
+  }
 
-    class ContactInfo <<ValueObject>> {
-        -phone: String
-        -socialMedia: List<String>
-    }
+  class ContactInfo <<ValueObject>> {
+    - phone: String
+    - socialMedia: List<String>
+  }
 
-    Salon o--> "1" ContactInfo
-    User o--> "1" AccountId
-    Salon o--> "1" User
-    Client o--> "1" User
+  User o--> AccountId
+  Client --> User
+  Salon --> User
+  Salon o--> ContactInfo
 }
 
-' Scheduling Context DONEEEEEEEE
-package "scheduling Context" {
+' === Scheduling Context ===
+package "Scheduling Context" {
+  class Worker <<AggregateRoot>> {
+    - workerId: UUID
+    - nombre: String
+    - schedules: List<Schedule>
+    + addSchedule(schedule: Schedule)
+    + deleteSchedule(schedule: Schedule)
+  }
 
-    Entity Worker <<Entity>> {
-        -workerId: UUID
-        -nombre: String
-        -schedules: List<ScheduleList>
-        --
-        +addSchedule(schedule: Schedule)
-        +deleteSchedule(schedule: Schedule)
-    }
+  class Schedule <<Entity>> {
+    - scheduleId: UUID
+    - date: Date
+    - timeSlots: List<TimeSlot>
+    + getAvailableSlots(): List<TimeSlot>
+    + isSlotAvailable(slotId: TimeSlotId): Boolean
+  }
 
-    Entity Schedule <<Entity>> {
-        -scheduleId: ScheduleId
-        -date: Date
-        -timeSlots: List<TimeSlot>
-        --
-        +getAvailableSlots(): List<TimeSlot>
-        +isSlotAvailable(slotId: TimeSlotId): Boolean
-    }
+  class TimeSlot <<Entity>> {
+    - slotId: TimeSlotId
+    - start: DateTime
+    - end: DateTime
+    - reserved: Boolean
+    + markAsReserved()
+    + markAsAvailable()
+  }
 
-    Entity TimeSlot <<Entity>> {
-        -slotId: TimeSlotId
-        -start: DateTime
-        -end: DateTime
-        -reserved: Boolean
-        --
-        +markAsReserved()
-        +markAsAvailable()
-    }
+  class TimeSlotId <<ValueObject>> {
+    - value: UUID
+  }
 
-    class TimeSlotId <<ValueObject>> {
-        -value: UUID
-    }
+  class Reservation <<AggregateRoot>> {
+    - reservationId: ReservationId
+    - customerId: AccountId
+    - salonId: AccountId
+    - paymentId: PaymentId
+    - timeSlots: List<TimeSlotId>
+    + cancel()
+    + reschedule(newTimeSlotId: TimeSlotId)
+  }
 
-    Entity Reservation <<AggregateRoot>> {
-        -reservationId: ReservationId
-        -customerId: AccountId
-        -salonId: AccountId
-        -paymentId: PaymentId
-        -timeSlots: List<TimeSlotId>
-        --
-        +cancel()
-        +reschedule(newTimeSlotId: TimeSlotId)
-    }
+  Worker *-- "many" Schedule
+  Schedule *-- "many" TimeSlot
+  TimeSlot o--> TimeSlotId
 
-    ' Relaciones
-    Worker o--> "many" Schedule
-    Schedule *--> "many" TimeSlot
-    TimeSlot o--> "1" TimeSlotId
-
-    Reservation o--> "1" ReservationId
-    Reservation o--> "1" TimeSlotId
-    Reservation o--> "1" AccountId
-    Reservation o--> "1" PaymentId
+  Reservation o--> ReservationId
+  Reservation o--> AccountId : customerId
+  Reservation o--> AccountId : salonId
+  Reservation o--> PaymentId
+  Reservation o--> TimeSlotId
 }
 
-' Payments Context
+' === Payments Context ===
+package "Payments Context" {
+  class Payment <<AggregateRoot>> {
+    - paymentId: PaymentId
+    - reservationId: ReservationId
+    - payerId: AccountId
+    - amount: Money
+    - status: String
+    + markPaid()
+    + markFailed()
+  }
 
-package "payments Context" {
+  class Invoice <<Entity>> {
+    - invoiceId: UUID
+    - issuedAt: DateTime
+    - amount: Money
+    + generateFor(p: Payment)
+  }
 
-    class Payment <<AggregateRoot>> {
-        - paymentId: PaymentId
-        - reservationId: ReservationId
-        - payerId: AccountId
-        - amount: Money
-        - status: String
-        --
-        + markPaid()
-        + markFailed()
-    }
+  class PaymentAdapter <<Adapter>> {
+    + processPayment(reservationId: ReservationId, payerId: AccountId, amount: Money): Payment
+    + refundPayment(paymentId: PaymentId, reason: String): Refund
+  }
 
-
-    class PaymentAdapter <<DomainService>> {
-        + processPayment(reservationId: ReservationId, payerId: AccountId, amount: Money): Payment
-        + refundPayment(paymentId: PaymentId, reason: String): Refund
-    }
-
-    class Invoice <<Entity>> {
-        - invoiceId: UUID
-        - issuedAt: DateTime
-        - amount: Money
-        --
-        + generateFor(p: Payment)
-    }
-
-
-  ' === Relaciones ===
-  Payment o--> "1" PaymentId
-  Payment o--> "1" ReservationId
-  Payment o--> "1" AccountId : payerId
-  Payment o--> "1" Money
-
-  PaymentAdapter --> Payment
-  PaymentAdapter --> Invoice
+  Payment o--> PaymentId
+  Payment o--> ReservationId
+  Payment o--> AccountId
+  Payment o--> Money
+  Payment --> Invoice
+  Payment --> PaymentAdapter
 }
 
 @enduml
