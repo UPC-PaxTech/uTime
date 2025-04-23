@@ -1428,6 +1428,10 @@ El proyecto seguirá las convenciones de flujo de trabajo establecidas por el mo
 - Enlace para acceder a la organización de GitHub: https://github.com/PaxTech-UPC
 - Enlace para acceder a repositorio de la Landing Page: https://github.com/PaxTech-UPC/uTime-Landing-Page
 
+**Flujo de trabajo GitFlow:** El flujo a utilizar para le desarrollo del proyecto fue el planteado por Vicent Driessen en "A successful Git branching model".
+
+![GitFlowDiagram](img/GitFlowDiagram.svg)
+
 ### 5.1.3. Source Code Style Guide & Conventions.
 
 ### 5.1.4. Software Deployment Configuration.
