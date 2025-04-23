@@ -57,13 +57,13 @@ Para el desarrollo del informe perteneciente a la entrega TB1, se dividió la im
 para cada integrante del equipo:
 
 
-| Integrantes    | Tareas Asignadas |
-| -------------- | ---------------- |
-| Kevin Chi      |                  |
-| Gael Rivera    |                  |
-| Marcelo Varela |                  |
-| Angie Yalán   |                  |
-| Jorge Yum      |                  |
+| Integrantes    | Tareas Asignadas                                                                                                                                                                   |
+| -------------- |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Kevin Chi      |                                                                                                                                                                                    |
+| Gael Rivera    | Análisis de competidores, Estrategias y tácticas frente a competidores, Entrevistas, Ubiquitous Language, User Stories, Product Backlog, Database Diagram, Landing Page, Sprint 1. |
+| Marcelo Varela |                                                                                                                                                                                    |
+| Angie Yalán   |                                                                                                                                                                                    |
+| Jorge Yum      |                                                                                                                                                                                    |
 
 **Github Collaboration Insights**
 
