@@ -61,7 +61,7 @@ para cada integrante del equipo:
 | -------------- |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Kevin Chi      |                                                                                                                                                                                    |
 | Gael Rivera    | Análisis de competidores, Estrategias y tácticas frente a competidores, Entrevistas, Ubiquitous Language, User Stories, Product Backlog, Database Diagram, Landing Page, Sprint 1. |
-| Marcelo Varela |                                                                                                                                                                                    |
+| Marcelo Varela | Antecedentes y problemática,                                                                                                                                                       |
 | Angie Yalán   |                                                                                                                                                                                    |
 | Jorge Yum      |                                                                                                                                                                                    |
 
