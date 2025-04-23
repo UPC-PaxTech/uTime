@@ -59,7 +59,7 @@ para cada integrante del equipo:
 
 | Integrantes    | Tareas Asignadas                                                                                                                                                                   |
 | -------------- |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Kevin Chi      |                                                                                                                                                                                    |
+| Kevin Chi      | Segmento Objetivo, Use Task Matrix, Ubiquitous Language, User Stories, Software Architecture diagrams (c4), Software Object-oriented Design, Class Diagrams.                       |
 | Gael Rivera    | Análisis de competidores, Estrategias y tácticas frente a competidores, Entrevistas, Ubiquitous Language, User Stories, Product Backlog, Database Diagram, Landing Page, Sprint 1. |
 | Marcelo Varela |                                                                                                                                                                                    |
 | Angie Yalán   |                                                                                                                                                                                    |
