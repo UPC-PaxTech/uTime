@@ -1359,13 +1359,199 @@ Para los clientes, la navegación se estructura en un menú lateral simple y dir
 
 ## 4.3. Landing Page UI Design.
 
+La propuesta de diseño para la Landing Page de uTime se centra en crear una experiencia clara, moderna y fácil de navegar. 
+<div align="center">
+<img src="img/lp1.png" alt="main_screen" width="600" />
+</div>
+En la parte superior, el logo de uTime se encuentra acompañado de un menú de navegación y botones de acceso rápido para *Sign in* y *Register*. La sección principal presenta un título en negrita y gran tamaño, seguido de un subtítulo descriptivo que amplía la propuesta de la plataforma. El diseño se enfoca en un estilo minimalista con tipografía destacada, donde un botón de acción prominente con la etiqueta *Start today!* invita al usuario a registrarse. La disposición de estos elementos facilita la orientación del visitante, guiándolo hacia la acción principal de manera directa y atractiva, asegurando una experiencia fluida y eficiente.
+<div align="center">
+<img src="img/lp2.png" alt="features" width="600" />
+</div>
+La segunda sección del Landing Page de uTime presenta un carrusel o slider vertical que destaca las características principales de la plataforma. En esta vista, se muestra una imagen de un teléfono móvil en el centro de la pantalla, lo que sugiere que la aplicación está optimizada para dispositivos móviles. Al costado de la imagen, se encuentra el título Smart Calendar, que resalta una de las funcionalidades clave de uTime, un calendario inteligente. A continuación, hay un texto de descripción explicando de manera general las ventajas o el funcionamiento de esta característica. El carrusel permite al usuario desplazarse hacia abajo para descubrir más funcionalidades de uTime, con flechas que facilitan la navegación entre las diferentes secciones de información. Este diseño visual no solo informa al usuario sobre las capacidades del producto, sino que también invita a interactuar, asegurando que el visitante pueda explorar las herramientas ofrecidas de una forma dinámica y fácil.
+<div align="center">
+<img src="img/lp3.png" alt="for_clients_and_business" width="600" />
+</div>
+En esta parte del Landing Page, se presentan dos bloques que cumplen con objetivos específicos:
+**Look & Book**: Este bloque está orientado a los clientes de servicios de belleza, permitiéndoles realizar una reserva rápida. 
+**Glow up your business**: Este bloque está dirigido a los dueños de salones de belleza y barberías, invitándolos a comenzar a usar uTime para mejorar la gestión de su negocio. 
+Ambos bloques están pensados para ser funcionales y centrados en las necesidades de los usuarios de ambos segmentos. En esta fase de diseño, se enfocan en guiar a los visitantes hacia una acción clara, utilizando llamados a la acción como "Book now" y "Start now".
+El footer está diseñado para mostrar solo información esencial, asegurando que el usuario comprenda rápidamente la función de cada enlace, lo que le permite acceder a opciones específicas de manera eficiente.
+<div align="center">
+<img src="img/lp4.png" alt="steps_clients" width="600" />
+</div>
+Al hacer clic en "Book now", el usuario ve una serie de pasos informativos para realizar una reserva: 1) Buscar su estilista favorito, 2) Verificar la disponibilidad del estilista, 3) Guardar la fecha y elegir el método de pago, 4) Confirmación de la cita. El único botón funcional es "Start now!", que redirige a la página de inicio de sesión o registro para completar el proceso.
+<div align="center">
+<img src="img/lp5.png" alt="pricing" width="600" />
+</div>
+La sección de Pricing del Landing Page de uTime presenta tres opciones de planes de suscripción: Essential, ProStyle y Deluxe Studio. Cada plan tiene un botón de "Learn more..." que permite a los usuarios obtener más información sobre las características específicas de cada opción. La disposición clara y simple de los tres planes facilita la comparación entre ellos, ayudando a los usuarios a elegir el plan que mejor se ajuste a sus necesidades.
+<div align="center">
+<img src="img/lp6.png" alt="detailed_info_plan" width="600" />
+</div>
+La siguiente sección es el detallado de cada plan de Pricing, destacando las características disponibles mediante marcas de verificación y las que no están incluidas con cruces. A la derecha, se muestra el precio Free junto con dos botones: "Schedule a demo" para programar una demostración del servicio y "I want it!" para comenzar a usar el plan. La disposición es clara y facilita que los usuarios comprendan rápidamente los beneficios del plan básico y tomen acción de manera sencilla.
+<div align="center">
+<img src="img/lp7.png" alt="about_us" width="600" />
+</div>
+La sección About Us de uTime presenta a PaxTech, startup de estudiantes de la UPC, y a uTime, que es la solución tecnológica innovadora. Esta sección consta de una información resumida acerca del enfoque de PaxTech y el propósito de uTime en la digitalización de citas, ambos acompañados por su logo.
+<div align="center">
+<img src="img/lp8.png" alt="contact_us" width="600" />
+</div>
+La sección Contact Us de uTime está diseñada para proporcionar múltiples vías de comunicación con los usuarios. En la parte izquierda, se muestran los íconos de redes sociales de uTime y PaxTech (Facebook, TikTok, Instagram y X), permitiendo que los usuarios se conecten con las plataformas sociales de ambas entidades. Además, se incluyen los correos electrónicos de contacto de los equipos de ventas (ventas@uTime.com) y soporte (soporte@uTime.com) para consultas directas.
+<p>A la derecha, se encuentra un formulario de contacto "Get in Touch" donde los usuarios pueden ingresar su primer nombre, apellido, correo electrónico y comentario. Este formulario incluye un botón de "Contact me", que permite a los usuarios enviar sus consultas o comentarios directamente desde la página. Esta sección proporciona una forma clara y sencilla de comunicarse con el equipo de uTime y PaxTech, facilitando la interacción con la plataforma.</p>
+<div align="center">
+<img src="img/lp9.png" alt="sign_in" width="600" />
+</div>
+La sección de "Sign In" en la página de uTime está orientada a facilitar el acceso a los usuarios que ya tienen una cuenta en la plataforma. El diseño presenta un mensaje de bienvenida, "Welcome back!", seguido de una invitación a los usuarios a iniciar sesión con su nombre de usuario y contraseña. También se incluyen opciones para acceder mediante Apple, Google, o Facebook, ofreciendo alternativas de inicio de sesión rápido.
+Debajo del formulario, se encuentra un enlace que invita a los usuarios a registrarse si no tienen una cuenta aún, con el texto "Don't have an account? Register here", lo que facilita la conversión de visitantes a usuarios registrados. Este diseño es limpio, directo y permite a los usuarios acceder o registrarse de manera eficiente, asegurando una experiencia de usuario fluida.
+<div align="center">
+<img src="img/lp10.png" alt="register" width="600" />
+</div>
+La sección "Let the glam begin!" es la página de registro de uTime, dirigida tanto a clientes como a negocios. Los usuarios pueden seleccionar entre dos opciones: "I'm a client" o "I'm a business", para definir si son consumidores o estilistas/empresarios del sector de belleza.
+<p>El formulario de registro solicita información básica como nombre completo, correo electrónico, documento de identidad, número de teléfono, y contraseña. Además, se incluyen botones para registrarse mediante Apple, Google, o Facebook, proporcionando opciones de inicio rápido.</p>
+Al pie de la página, se incluye un enlace para quienes ya tienen cuenta, con el texto "Already have an account? Click here", que dirige a la página de inicio de sesión. Este diseño facilita un acceso claro y directo al proceso de registro, con alternativas sencillas para iniciar sesión o crear una nueva cuenta.
+
 ### 4.3.1. Landing Page Wireframe.
+**Desktop Web Browser**
+<div align="center">
+<img src="img/lp1.png" alt="main_screen" width="600" />
+</div>
+Primera sección del landing page, con el botón de "Start today!".
+<div align="center">
+<img src="img/lp2.png" alt="feature_1" width="600" />
+</div>
+Segunda sección, en la que hay un carrusel o slider vertical donde se exponen los beneficios y principales features de la aplicación.
+<div align="center">
+<img src="img/lp2-1.png" alt="feature_2" width="600" />
+</div>
+<div align="center">
+<img src="img/lp2-2.png" alt="feature_3" width="600" />
+</div>
+<div align="center">
+<img src="img/lp2-3.png" alt="feature_4" width="600" />
+</div>
+<div align="center">
+<img src="img/lp2-4.png" alt="feature_5" width="600" />
+</div>
+
+Esta sección muestra dos bloques que animan a ambos segmentos objetivos a usar uTime. 
+<div align="center">
+<img src="img/lp3.png" alt="for_clients_and_business" width="600" />
+</div>
+
+Esta sección se muestra al presionar "Book now!" de la sección anterior. Se explica en términos generales cómo funciona uTime para los clientes. 
+<div align="center">
+<img src="img/lp4.png" alt="steps_clients" width="600" />
+</div>
+
+En esta parte del landing page se muestran los planes de subscripción con sus respectivos precios y características. 
+<div align="center">
+<img src="img/lp5.png" alt="pricing" width="600" />
+</div>
+
+Cuando seleccionas un plan, se detalla en una pantalla toda la información respectiva. 
+<div align="center">
+<img src="img/lp6.png" alt="essential_info" width="600" />
+</div>
+<div align="center">
+<img src="img/lp6-2.png" alt="prostyle_info" width="600" />
+</div>
+<div align="center">
+<img src="img/lp6-3.png" alt="deluxe_studio_info" width="600" />
+</div>
+
+En la barra de navegación superior se muestra un menú desplegable que te puede derivar o a ABOUT US o a CONTACT US
+<div align="center">
+<img src="img/lp6-9.png" alt="more_tab" width="600" />
+</div>
+
+<div align="center">
+<img src="img/lp7.png" alt="about_us" width="600" />
+</div>
+En esta sección del landing page, se encuentra el about us.
+<div align="center">
+<img src="img/lp8.png" alt="contact_us" width="600" />
+</div>
+En esta última parte del landing page, se encuentra la sección de contacto.
+<div align="center">
+<img src="img/lp9.png" alt="sign_in" width="600" />
+</div>
+Se presenta el formulario de inicio de sesión.
+<div align="center">
+<img src="img/lp10.png" alt="register_clients" width="600" />
+</div>
+Se presenta el formulario de registro pero para clientes.
+<div align="center">
+<img src="img/lp11.png" alt="register_business_subscription" width="600" />
+</div>
+Se presenta la primera ventana del formulario de registro para los salones/barberías, donde tienen que escoger el plan de subscripción. 
+<div align="center">
+<img src="img/lp12.png" alt="register_business_info" width="600" />
+</div>
+Se presenta la segunda ventana del formulario de registro para los salones/barberías, donde tienen que rellenar sus datos del salón/barbería.
 
 ### 4.3.2. Landing Page Mock-up.
 
 ## 4.4. Web Applications UX/UI Design.
 
 ### 4.4.1. Web Applications Wireframes.
+<div align="center">
+<img src="img/wb1.png" alt="home_clients" width="600" />
+</div>
+
+<div align="center">
+<img src="img/wb2.png" alt="salon_overview" width="600" />
+</div>
+
+<div align="center">
+<img src="img/wb3.png" alt="book_appointment" width="600" />
+</div>
+
+<div align="center">
+<img src="img/wb4.png" alt="appointments_section_clients" width="600" />
+</div>
+
+<div align="center">
+<img src="img/wb5.png" alt="favorites_section_clients" width="600" />
+</div>
+
+<div align="center">
+<img src="img/wb6.png" alt="profile_section_clients" width="600" />
+</div>
+
+<div align="center">
+<img src="img/wb7.png" alt="home_section_salons" width="600" />
+</div>
+
+<div align="center">
+<img src="img/wb8.png" alt="general_appointments_section_salons" width="600" />
+</div>
+
+<div align="center">
+<img src="img/wb9.png" alt="detailed_appointments_section_salons" width="600" />
+</div>
+
+<div align="center">
+<img src="img/wb10.png" alt="reviews_section_salons" width="600" />
+</div>
+
+<div align="center">
+<img src="img/wb11.png" alt="services_section_salons" width="600" />
+</div>
+
+<div align="center">
+<img src="img/wb12.png" alt="subscription_section_salons" width="600" />
+</div>
+
+<div align="center">
+<img src="img/wb13.png" alt="settings_section_salons" width="600" />
+</div>
+
+<div align="center">
+<img src="img/wb14.png" alt="notifications_section_salons" width="600" />
+</div>
+
+<div align="center">
+<img src="img/wb15.png" alt="profile_section_salons" width="600" />
+</div>
 
 ### 4.4.2. Web Applications Wireflow Diagrams.
 
@@ -1379,13 +1565,55 @@ Para los clientes, la navegación se estructura en un menú lateral simple y dir
 
 ### 4.6.1. Software Architecture Context Diagram.
 
+<div align="center">
+   <img src="img/c4-context.png" alt="c4-context"/>
+</div>
+
 ### 4.6.2. Software Architecture Container Diagrams.
 
+<div align="center">
+   <img src="img/c4-container.png" alt="c4-context"/>
+</div>
+
 ### 4.6.3. Software Architecture Components Diagrams.
+
+-Single Page Application diagram:
+
+<div align="center">
+   <img src="img/c4-component-spa.png" alt="c4-context"/>
+</div>
+
+-User diagram:
+
+<div align="center">
+   <img src="img/c4-component-user.png" alt="c4-context"/>
+</div>
+
+-Schedule diagram:
+
+<div align="center">
+   <img src="img/c4-component-schedule.png" alt="c4-context"/>
+</div>
+
+-Authentication diagram:
+
+<div align="center">
+   <img src="img/c4-component-spa.png" alt="c4-context"/>
+</div>
+
+-Payment diagram:
+
+<div align="center">
+   <img src="img/c4-component-payment.png" alt="c4-context"/>
+</div>
 
 ### 4.7. Software Object-Oriented Design.
 
 ### 4.7.1. Class Diagrams.
+
+<div align="center">
+   <img src="img/class-diagram-uTime.png" alt="class-diagram"/>
+</div>
 
 ### 4.7.2. Class Dictionary.
 
@@ -1442,9 +1670,85 @@ Ruta de referencia: https://cucumber.io/docs/gherkin/
 
 ### 5.1.2. Source Code Management.
 
+El proyecto seguirá las convenciones de flujo de trabajo establecidas por el modelo GitFlow para el control de versiones, utilizando GitHub como plataforma y sistema de control de versiones. A continuación, se detallará cómo se implementará GitFlow como WorkFlow de control de versiones, además de proporcionar los URL de los repositorios de GitHub para cada producto: Landing Page.
+
+**Repositorios de GitHub:**
+
+- Enlace para acceder a la organización de GitHub: https://github.com/PaxTech-UPC
+- Enlace para acceder a repositorio de la Landing Page: https://github.com/PaxTech-UPC/uTime-Landing-Page
+
+**Flujo de trabajo GitFlow:** El flujo a utilizar para le desarrollo del proyecto fue el planteado por Vicent Driessen en "A successful Git branching model".
+
+
+![GitFlowDiagram](img/GitFlowDiagram.svg)
+
+
+**Estructura de branches (Ramas):**
+
+1. **Main branch (Rama principal):** Esta rama será considerada como la principal para la aplicación, y contendrá versiones estables y finales del desarrollo. Solo se permitirán cambios que hayan sido previamente probados y verificados en otras ramas de prueba.
+
+
+2. **Develop branch (Rama de desarrollo):** El propósito de esta rama es llevar a cabo los avances del proyecto en equipo y de mantener los archivos centrales del desarrollo continuo.
+
+
+3. **Feature branches (Ramas de funcionalidad):** Cada funcionalidad desarrollada por el equipo o separada del enfoque actual del desarrollo tendrá su propia rama. Una vez que una funcionalidad esté completamente trabajada, se fusionará con la rama de desarrollo del proyecto. Las convenciones para nombrar las ramas de funcionalidad seguirán un patrón descriptivo y único, por ejemplo, "feature/nombre-de-la-funcionalidad".
+
+
+4. **Release branches (Ramas de lanzamiento):** Estas ramas se utilizarán para mantener una instancia de la rama develop que esté próxima a ser incluida en la rama principal. Se seguirá el sistema de versionamiento semántico (Semantic Versioning) para nombrar las Releases.
+
+
+5. **Hotfix branches (Ramas de corrección):** Se crearán para abordar de manera puntual y eficiente la corrección de errores identificados en la rama principal que afecten significativamente la experiencia de los usuarios.
+
+
+**Versionamiento Semántico:** Para nombrar las Releases, se aplicará el sistema de versionamiento semántico (Semantic Versioning 2.0.0).
+
+
+**Convenciones de Commits:** Para los mensajes de los commits realizados, se utilizará la especificación Conventional Commits basada en Angular Commit Guidelines. La estructura a seguir será la siguiente:
+
+`git commit -m "<type>[optional scope]: <description">`
+
+
 ### 5.1.3. Source Code Style Guide & Conventions.
 
+**HTML:** Algunas de las prácticas que deben de seguirse para alcanzar un código coherente, sostenible y ordenado son las
+siguientes:
+
+1. Cerrar todos los elementos HTML.
+
+2. A pesar de que HTML permite combinar mayúsculas y minúsculas en los nombres de los elementos y atributos, se limitará al uso de minúsculas para mantener el orden y garantizar la legibilidad.
+
+3. Utilizar comillas en caso de que los atributos contengan espacios entre sí.
+
+4. Procurar especificar el texto alt y las dimensiones width y height de las imágenes, ya que de esta manera se facilitará la disponibilidad del contenido. 
+<br>Por ejemplo: `<img src="abc.img" alt="image name" style="width:128px;height:128px">`
+
+
+**CSS:** Entre las prácticas empleadas se mencionan:
+
+1. Los nombres de las clases deben de ser breves y autodescriptivos.
+2. Separar los nombres de las clases y ID con un guión, por ejemplo: `#video-id` y `.hero-shadow{}`
+3. Evitar especificar la unidad de medida luego de usar el valor 0.
+4. Separar las declaraciones y selectores en nuevas líneas para agilizar la legibilidad.
+
+
+**Gherkin:** Es un lenguaje de dominio específico, el cual busca solucionar un problema concreto, la comunicación entre los negocios y la parte técnica al trabajar con Behavior Driven Development, abreviado por sus siglas en ingles como BBD. En busca de una buena práctica, se ocuparon los saltos de línea para mejorar el orden de los diversos tipos de escenarios y diferenciarlos de forma más óptima. Adicionalmente, se utilizaron las palabras clave "Given", "When", "Then" y "And" para estructurar los escenarios.
+
+
 ### 5.1.4. Software Deployment Configuration.
+
+
+**Landing page deployment:**
+
+Para poder desplegar la landing page resulta necesario contar con una serie de requisitos, entre ellos, es necesario con una cuenta personal, una organización y un repositorio al cual cargar los documentos. A partir de lo anterior, es posible comenzar el despliegue de la landing page. A continuación se enuncian los pasos a seguir:
+
+1. Crear una carpeta llamada **docs** para alojar el Landing Page.
+2. Asegurarse de que los archivos sigan las nomenclaturas **index.html**, para la landing page; **style.css** para los estilos y una carpeta llamada **img** que contenga las imágenes.
+3. Carga los archivos al repositorio mediante las imágenes.
+4. Dirigirse a Settings > Pages y seleccionar la branch correspondiente dentro de la cual se encuentra el proyecto, generalmente se trata de "main" o "master."
+5. Especificar la carpeta **/docs** como la fuente de la página.
+6. Esperar a que GitHub realice las comprobaciones necesarias. Una vez culminado el proceso, se obtendrá un enlace que llevará al Landing Page Desplegado.
+
+![GitHubPages](img/GitHub-Pages.png)
 
 ## 5.2. Landing Page, Services & Applications Implementation.
 
