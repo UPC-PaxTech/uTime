@@ -1448,6 +1448,11 @@ Ruta de referencia: https://www.gitkraken.com
 **GitHub** se utiliza como repositorio remoto centralizado para almacenar y sincronizar el código del proyecto. También se usa para revisar código (pull requests), registrar incidencias, documentar el proyecto y automatizar tareas de despliegue.  
 Ruta de referencia: https://github.com
 
+#### Software Testing
+
+**Gherkin** es un sistema de etiquetado utilizado para describir los criterios de aceptación de estructura de una user story.  
+Ruta de referencia: https://cucumber.io/docs/gherkin/
+
 ### 5.1.2. Source Code Management.
 
 ### 5.1.3. Source Code Style Guide & Conventions.
