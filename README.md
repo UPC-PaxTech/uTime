@@ -1318,7 +1318,6 @@ Estas etiquetas permiten representar de forma precisa los conjuntos de informaci
 <b>Menú Clientes (Segmento objetivo #2)</b>
 </h2>
 <li>El labelling system de uTime para los usuarios clientes ha sido desarrollado con el objetivo de ofrecer una navegación sencilla y directa. Cada etiqueta ha sido cuidadosamente seleccionada para representar con precisión la funcionalidad que contiene, utilizando el menor número de palabras posibles para evitar ambigüedades y facilitar la comprensión inmediata. Este enfoque promueve una experiencia clara y sin fricciones, alineada con las expectativas del usuario final.</li>
->>>>>>> feature/labeling-system
 
 <h2>
 <b>Appointments: </b>
