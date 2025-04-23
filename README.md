@@ -1484,6 +1484,20 @@ El proyecto seguirá las convenciones de flujo de trabajo establecidas por el mo
 
 ### 5.1.4. Software Deployment Configuration.
 
+
+**Landing page deployment:**
+
+Para poder desplegar la landing page resulta necesario contar con una serie de requisitos, entre ellos, es necesario con una cuenta personal, una organización y un repositorio al cual cargar los documentos. A partir de lo anterior, es posible comenzar el despliegue de la landing page. A continuación se enuncian los pasos a seguir:
+
+1. Crear una carpeta llamada **docs** para alojar el Landing Page.
+2. Asegurarse de que los archivos sigan las nomenclaturas **index.html**, para la landing page; **style.css** para los estilos y una carpeta llamada **img** que contenga las imágenes.
+3. Carga los archivos al repositorio mediante las imágenes.
+4. Dirigirse a Settings > Pages y seleccionar la branch correspondiente dentro de la cual se encuentra el proyecto, generalmente se trata de "main" o "master."
+5. Especificar la carpeta **/docs** como la fuente de la página.
+6. Esperar a que GitHub realice las comprobaciones necesarias. Una vez culminado el proceso, se obtendrá un enlace que llevará al Landing Page Desplegado.
+
+![GitHubPages](img/GitHub-Pages.png)
+
 ## 5.2. Landing Page, Services & Applications Implementation.
 
 ### 5.2.1. Sprint 1
