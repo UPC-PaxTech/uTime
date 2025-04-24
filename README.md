@@ -57,13 +57,13 @@ Para el desarrollo del informe perteneciente a la entrega TB1, se dividió la im
 para cada integrante del equipo:
 
 
-| Integrantes    | Tareas Asignadas                                                                                                                                                                   |
-| -------------- |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Kevin Chi      | Segmento Objetivo, Use Task Matrix, Ubiquitous Language, User Stories, Software Architecture diagrams (c4), Software Object-oriented Design, Class Diagrams.                       |
+| Integrantes    | Tareas Asignadas                                                                                                                                                                  |
+| -------------- |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Kevin Chi      | Segmento Objetivo, Use Task Matrix, Ubiquitous Language, User Stories, Software Architecture diagrams (c4), Software Object-oriented Design, Class Diagrams.                      |
 | Gael Rivera    | Análisis de competidores, Estrategias y tácticas frente a competidores, Entrevistas, Ubiquitous Language, User Stories, Product Backlog, Database Diagram, Landing Page, Sprint 1. |
-| Marcelo Varela | Antecedentes y problemática, Registro de entrevistas, User persona, Empathy mapping, Impact mapping, User stories, Functional requirements, Organization systems, Labeling System  |
-| Angie Yalán   | Startup Profile, Solution Profile, Segmento Objetivo, Lean UX Process, Style Guidelines, Landing Page UI Design, Web Application UX/UI Design, Web Application Prototyping.        |
-| Jorge Yum      |                                                                                                                                                                                    |
+| Marcelo Varela | Antecedentes y problemática, Registro de entrevistas, User persona, Empathy mapping, Impact mapping, User stories, Functional requirements, Organization systems, Labeling System |
+| Angie Yalán   | Startup Profile, Solution Profile, Segmento Objetivo, Lean UX Process, Style Guidelines, Landing Page UI Design, Web Application UX/UI Design, Web Application Prototyping.       |
+| Jorge Yum      | As-Is To-Be Scenario Mapping, Impact Mapping, User Stories, Product Backlog, Information Architecture, Sprint 1                                                                   |
 
 El proceso de colaboración en el informe se realizó mediante commits constantes al repositorio de la organización PaxTech.
 
