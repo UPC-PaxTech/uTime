@@ -63,7 +63,7 @@ para cada integrante del equipo:
 | Gael Rivera    | Análisis de competidores, Estrategias y tácticas frente a competidores, Entrevistas, Ubiquitous Language, User Stories, Product Backlog, Database Diagram, Landing Page, Sprint 1. |
 | Marcelo Varela | Antecedentes y problemática, Registro de entrevistas, User persona, Empathy mapping, Impact mapping, User stories, Functional requirements, Organization systems, Labeling System |
 | Angie Yalán   | Startup Profile, Solution Profile, Segmento Objetivo, Lean UX Process, Style Guidelines, Landing Page UI Design, Web Application UX/UI Design, Web Application Prototyping.       |
-| Jorge Yum      | As-Is To-Be Scenario Mapping, Impact Mapping, User Stories, Product Backlog, Information Architecture, Sprint 1                                                                   |
+| Jorge Yum      | As-Is To-Be Scenario Mapping, Impact Mapping, User Stories, Landing Page development, Product Backlog, Information Architecture, Sprint 1                                                                   |
 
 El proceso de colaboración en el informe se realizó mediante commits constantes al repositorio de la organización PaxTech.
 
@@ -2194,9 +2194,18 @@ Enlace para acceder al Trello: [Trello Sprint Backlog 1](https://trello.com/invi
 En el Sprint 1 se alcanzó un desarrollo parcial en la implementación del despliegue de la landing page. La cual muestra diferentes secciones donde el usuario puede encontrar información relevante acerca del producto y del start up. A continuación se muestra algunas evidencias.
 
 1. **Sección Home:** La sección principal, el usuario al ingresar a nuestra landing page sera esta sección lo primero que podrá visualizar. 
+![Home](img/home.png)
 2. **Sección de Planes:** En esta sección, el usuario puede visualizar e interactuar con los diferentes planes que ofrecemos.
+![Planes](img/planes.png)  
 3. **Sección de Contacto:** En la sección de contacto el usuario puede introducir su información para que la empresa se ponga en contacto con ellos.
-4. **Sección About us:** En esta sección, el usuario podrá visualizar información sobre la startup creadora del producto **uTime** y los miembros de la startup. 
+![Contacto](img/contacto.png)
+4. **Seccion de Registro:** En esta sección, el usuario podrá registrarse como cliente o como salón/barbería.
+![Registro](img/registro.png)
+5. **Sección de Inicio de sesión:** En esta sección, el usuario podrá iniciar sesión en su cuenta de uTime.
+![InicioSesion](img/inicioSesion.png)
+
+1. **Sección About us:** En esta sección, el usuario podrá visualizar información sobre la startup creadora del producto **uTime** y los miembros de la startup. 
+![AboutUs](img/aboutus.png)
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review.
 
