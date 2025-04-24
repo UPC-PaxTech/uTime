@@ -174,8 +174,8 @@ Se explican las ramas más prominentes:
 
 | Criterio específico                                                   | Acciones realizadas                                                                 | Conclusiones |
 |-----------------------------------------------------------------------|-------------------------------------------------------------------------------------|--------------|
-| Comunica oralmente con efectividad a diferentes rangos de audiencia.  | Kevin Chi:<br> Gael Rivera:<br> Marcelo Varela:<br> Angie Yalán:<br> Jorge Yum:<br> | ddsa         |
-| Comunica por escrito con efectividad a diferentes rangos de audiencia | Kevin Chi:<br> Gael Rivera:<br> Marcelo Varela:<br> Angie Yalán:<br> Jorge Yum:<br> | ddsa         |
+| Comunica oralmente con efectividad a diferentes rangos de audiencia.  | Kevin Chi:<br> Gael Rivera:<br> Marcelo Varela:<br> Angie Yalán:<br> **Jorge Yum:**<br> **TB1:** <br> En esta primera entrega, se identifico claramente la problemática de nuestra Startup, nuestros segmentos objetivos y la investigacion necesaria para averiguar los requisitos junto con las caracteristicas que deberia tener nuestra aplicación web. Para hacer esto, se realizaron entrevistas a un amplio rango de personas que encajan en nuestros segmentos objetivos. Con esta información se pudo hacer un analizis de requerimientos y realizar tablas sobre los beneficios del uso de la aplicación web . | ddsa         |
+| Comunica por escrito con efectividad a diferentes rangos de audiencia | Kevin Chi:<br> Gael Rivera:<br> Marcelo Varela:<br> Angie Yalán:<br> **Jorge Yum:**<br> **TB1:** <br> Para esta primera entrega, se comunico de forma escrita mediante el uso de conventional commits y git flow dentro de un repositorio de github que permitio la organizacion y un flujo de trabajo ordenado. De esta manera, en esta entrega se pudo realizar la plantiación de la problemática, tabla de supuestos y la landing page.  | ddsa         |
 
 # Capítulo I: Introducción
 
