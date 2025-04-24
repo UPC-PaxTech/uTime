@@ -1481,9 +1481,35 @@ Al pie de la página, se incluye un enlace para quienes ya tienen cuenta, con el
 
 ### 4.7.2. Class Dictionary.
 
+| **Class**        | **Definition**                                                         |
+|------------------|------------------------------------------------------------------------|
+| `AccountId`      | Identificador único para una cuenta de usuario.                        |
+| `ReservationId`  | ID que representa una reserva dentro del sistema.                      |
+| `PaymentId`      | Identificador usado para cada pago.                                    |
+| `Money`          | Representa un monto con su moneda.                                     |
+| `Account`        | Es la cuenta de un usuario, guarda su correo, clave y estado.          |
+| `AuthToken`      | Token que se genera cuando un usuario inicia sesión.                   |
+| `AuthAdapter`    | Conecta el sistema con el servicio de Google para autenticar.          |
+| `User`           | Usuario del sistema, vinculado a una cuenta.                           |
+| `Client`         | Usuario que agenda citas en salones.                                   |
+| `Salon`          | Negocio que ofrece servicios, son los salones de belleza or barberias. |
+| `ContactInfo`    | Guarda los datos de contacto de un salón, como teléfono o redes.       |
+| `Worker`         | Persona que trabaja en el salón y tiene horarios disponibles.          |
+| `Schedule`       | Representa el horario de un trabajador para un día específico.         |
+| `TimeSlot`       | Bloques de tiempo en los que un trabajador está disponible.            |
+| `TimeSlotId`     | Identificador de un bloque horario.                                    |
+| `Reservation`    | Reserva que une a un cliente, un trabajador y un horario.              |
+| `Payment`        | Representa el pago hecho por una reserva.                              |
+| `Invoice`        | Factura que se genera cuando un pago es completado.                    |
+| `PaymentAdapter` | Adaptador que se encarga de procesar el pago con un servicio externo.  |
+
 ## 4.8. Database Design.
 
 ### 4.8.1. Database Diagram.
+
+<div align="center">
+   <img src="img/erd-diagram.png" alt="erd-diagram"/>
+</div>
 
 # Capítulo V: Product Implementation, Validation & Deployment
 
