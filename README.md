@@ -1001,6 +1001,72 @@ María Ysabel Sosa Rodríguez, de 45 años, es dueña de un salón de belleza y 
 
 ### 2.2.3. Análisis de entrevistas.
 
+
+- **Análisis del Segmento Objetivo 01**
+
+   - Características Objetivas:
+
+      - Demografía y Experiencia:
+         + Jóvenes emprendedores (24-28 años).
+         + Con experiencia en el rubro (3-5 años).
+         + Propietarios de salones de belleza en áreas urbanas (Chorrillos, Barranco, Surco).
+      - Gestión del Negocio:
+         + Agenda de citas gestionada manualmente (cuaderno).
+         + Pagos en efectivo, transferencias y QR.
+         + Comunicación con clientes vía llamadas y WhatsApp.
+         + Sufren de cancelaciones de citas que afectan sus ingresos.
+      - Estrategias de Fidelización:
+         + Ofrecen promociones y obsequios.
+         + Ofrecen promociones para primeras visitas.
+
+   - Características Subjetivas:
+
+      - Motivación y Pasión:
+         + Pasión por el estilismo desde jóvenes.
+         + Deseo de brindar una experiencia de calidad a sus clientes.
+         + Búsqueda de la personalización en el servicio al cliente.
+      - Desafíos y Necesidades:
+         + Dificultad para gestionar citas, especialmente fuera de línea.
+         + Problemas con cambios de citas de última hora.
+         + Necesidad de optimizar la comunicación con los clientes.
+         + Búsqueda de la gestión eficiente de sus negocios.
+      - Visión a Futuro:
+         + Deseo de aumentar la rentabilidad del negocio.
+         + Planes de expansión (apertura de nuevas sucursales).
+         + Crear historial de clientes.
+         + Desarrollar campañas de fidelización.
+
+- **Análisis del Segmento Objetivo 02**
+
+   - Características Objetivas:
+
+      - Demografía:
+         + Jóvenes universitarias de 20 años. (100% de las entrevistadas)
+         + Residentes en áreas urbanas (Cercado de Lima). (50% de las entrevistadas)
+      - Comportamiento de Consumo:
+         + Visitan salones de belleza aproximadamente una vez al mes. (100% de las entrevistadas)
+         + Servicios más frecuentes: manicura, corte de cabello, tratamientos capilares, depilación de cejas y mascarillas faciales.
+      - Preferencias de Comunicación y Pago:
+         + Prefieren agendar citas y recibir recordatorios/promociones vía WhatsApp y redes sociales. (100% de las entrevistadas)
+         + Prefieren pagos con transferencias bancarias o aplicaciones de pago, evitando el efectivo. (100% de las entrevistadas)
+
+   - Características Subjetivas:
+
+      - Valores y Prioridades:
+         + Priorizan la calidad del servicio y la reputación del salón. (100% de las entrevistadas)
+         + La puntualidad es un factor crítico. (100% de las entrevistadas)
+         + Confianza en el estilista: prefieren atenderse siempre con el mismo profesional. (100% de las entrevistadas)
+         + La comodidad y la buena atención son puntos muy importantes para ellas. (100% de las entrevistadas)
+      - Actitudes y Expectativas:
+         + Actitud práctica y confiada.
+         + Buscan procesos de reprogramación de citas sencillos. (100% de las entrevistadas)
+         + Abiertas a utilizar aplicaciones o plataformas de reservas si mejoran la rapidez de respuesta. (50% de las entrevistadas)
+      - Necesidades y Deseos:
+         + Respuestas rápidas al agendar citas vía WhatsApp.
+         + Mejora en la puntualidad y la atención al cliente.
+         + Facilitar el uso de herramientas digitales.
+
+
 ## 2.3. Needfinding.
 
 ### 2.3.1. User Personas.
