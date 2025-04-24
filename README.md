@@ -58,11 +58,11 @@ para cada integrante del equipo:
 
 
 | Integrantes    | Tareas Asignadas                                                                                                                                                                   |
-| -------------- |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Kevin Chi      |                                                                                                                                                                                    |
 | Gael Rivera    | Análisis de competidores, Estrategias y tácticas frente a competidores, Entrevistas, Ubiquitous Language, User Stories, Product Backlog, Database Diagram, Landing Page, Sprint 1. |
 | Marcelo Varela | Antecedentes y problemática, Registro de entrevistas, User persona, Empathy mapping, Impact mapping, User stories, Functional requirements, Organization systems, Labeling System   |
-| Angie Yalán   |                                                                                                                                                                                    |
+| Angie Yalán    |                                                                                                                                                                                    |
 | Jorge Yum      |                                                                                                                                                                                    |
 
 **Github Collaboration Insights**
