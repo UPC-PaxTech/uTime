@@ -32,18 +32,21 @@
 # Registro de Versiones del Informe
 
 
-| Version | Fecha      | Autor                                  | Descripción de modificación                             |
-|---------|------------|----------------------------------------|---------------------------------------------------------|
-| 1.0     | 01/04/2025 | Chi, Rivera, Varela, Yalán, Yum        | Creación del documento de trabajo en formato markdown   |
-| 1.1     |            | Chi, Rivera, Varela, Yalán, Yum        |                                                         |
-| 1.2     |            | Chi, Rivera, Varela, Yalán, Yum        |                                                         |
-| 1.3     |            | Chi, Rivera, Varela, Yalán, Yum        |                                                         |
-| 1.4     |            | Chi, Rivera, Varela, Yalán, Yum        |                                                         |
-| 1.5     | 09/04/2025 | Chi, Rivera, Varela, Yalán, Yum        | Creación de los requisitos funcionales y no funcionales |
-| 1.6     |            | Chi, Rivera, Varela, Yalán, Yum        |                                                         |
-| 1.7     |            | Chi, Rivera, Varela, Yalán, Yum        |                                                         |
-| 1.8     | 16/04/2025 | Chi, Rivera, Varela, Yalán, Yum        | Creación de los User Stories y Technical Stories        |
-| 1.9     | 17/04/2025 | Chi, Rivera, Varela, Yalán, Yum        | Creación del Product Backlog                            |
+| Version | Fecha      | Autor                            | Descripción de modificación                                                                            |
+|---------|------------|----------------------------------|--------------------------------------------------------------------------------------------------------|
+| 1.0     | 01/04/2025 | Chi, Rivera, Varela, Yalán, Yum  | Creación del documento de trabajo en formato markdown                                                  |
+| 1.1     | 03/04/2025 | Chi, Rivera, Varela, Yalán, Yum  | Elaboración del Capitulo I                                                                             |
+| 1.2     | 05/04/2025 | Chi, Rivera, Varela, Yalán, Yum  | Elaboración de Competidores y Entrevistas                                                              |
+| 1.3     | 07/04/2025 | Chi, Rivera, Varela, Yalán, Yum  | Elaboración del Needfinding                                                                            |
+| 1.4     | 08/04/2025 | Chi, Rivera, Varela, Yalán, Yum  | Elaboración del To-Be y Ubiquitous Language                                                            |
+| 1.5     | 09/04/2025 | Chi, Rivera, Varela, Yalán, Yum  | Creación de los requisitos funcionales y no funcionales                                                |
+| 1.6     | 11/04/2025 | Chi, Rivera, Varela, Yalán, Yum  | Culminación del Capitlo III                                                                            |
+| 1.7     | 13/04/2025 | Chi, Rivera, Varela, Yalán, Yum  | Elaboración de Style Guidelines y Information Architecture                                             |
+| 1.8     | 16/04/2025 | Chi, Rivera, Varela, Yalán, Yum  | Elaboración de Landing Page UI Design y Web Application UX/UI Design                                   |
+| 1.9     | 17/04/2025 | Chi, Rivera, Varela, Yalán, Yum  | Elaboración del Web Application Prototyping                                                            |
+| 1.10    | 19/04/2025 | Chi, Rivera, Varela, Yalán, Yum  | Elaboración de Domain Driven Software Architecture, Software Object Oriented Design y Database Diagram |
+| 1.11    | 22/04/2025 | Chi, Rivera, Varela, Yalán, Yum  | Elaboración del Capitulo V                                                                             |
+| 1.12    | 23/04/2025 | Chi, Rivera, Varela, Yalán, Yum  | Elaboración del Landing Page                                                                           |
 
 </div>
 
@@ -57,13 +60,15 @@ Para el desarrollo del informe perteneciente a la entrega TB1, se dividió la im
 para cada integrante del equipo:
 
 
-| Integrantes    | Tareas Asignadas                                                                                                                                                                   |
-| -------------- |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Kevin Chi      |                                                                                                                                                                                    |
+| Integrantes    | Tareas Asignadas                                                                                                                                                                  |
+| -------------- |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Kevin Chi      | Segmento Objetivo, Use Task Matrix, Ubiquitous Language, User Stories, Software Architecture diagrams (c4), Software Object-oriented Design, Class Diagrams.                      |
 | Gael Rivera    | Análisis de competidores, Estrategias y tácticas frente a competidores, Entrevistas, Ubiquitous Language, User Stories, Product Backlog, Database Diagram, Landing Page, Sprint 1. |
-| Marcelo Varela |                                                                                                                                                                                    |
-| Angie Yalán   |                                                                                                                                                                                    |
-| Jorge Yum      |                                                                                                                                                                                    |
+| Marcelo Varela | Antecedentes y problemática, Registro de entrevistas, User persona, Empathy mapping, Impact mapping, User stories, Functional requirements, Organization systems, Labeling System |
+| Angie Yalán   | Startup Profile, Solution Profile, Segmento Objetivo, Lean UX Process, Style Guidelines, Landing Page UI Design, Web Application UX/UI Design, Web Application Prototyping.       |
+| Jorge Yum      | As-Is To-Be Scenario Mapping, Impact Mapping, User Stories, Product Backlog, Information Architecture, Sprint 1                                                                   |
+
+El proceso de colaboración en el informe se realizó mediante commits constantes al repositorio de la organización PaxTech.
 
 **Github Collaboration Insights**
 
@@ -172,10 +177,12 @@ Se explican las ramas más prominentes:
 # Student Outcomes
    **Student Outcome 3**
 
-| Criterio específico                                                   | Acciones realizadas                                                                 | Conclusiones |
-|-----------------------------------------------------------------------|-------------------------------------------------------------------------------------|--------------|
-| Comunica oralmente con efectividad a diferentes rangos de audiencia.  | Kevin Chi:<br> Gael Rivera:<br> Marcelo Varela:<br> Angie Yalán:<br> **Jorge Yum:**<br> **TB1:** <br> En esta primera entrega, se identifico claramente la problemática de nuestra Startup, nuestros segmentos objetivos y la investigacion necesaria para averiguar los requisitos junto con las caracteristicas que deberia tener nuestra aplicación web. Para hacer esto, se realizaron entrevistas a un amplio rango de personas que encajan en nuestros segmentos objetivos. Con esta información se pudo hacer un analizis de requerimientos y realizar tablas sobre los beneficios del uso de la aplicación web . | ddsa         |
-| Comunica por escrito con efectividad a diferentes rangos de audiencia | Kevin Chi:<br> Gael Rivera:<br> Marcelo Varela:<br> Angie Yalán:<br> **Jorge Yum:**<br> **TB1:** <br> Para esta primera entrega, se comunico de forma escrita mediante el uso de conventional commits y git flow dentro de un repositorio de github que permitio la organizacion y un flujo de trabajo ordenado. De esta manera, en esta entrega se pudo realizar la plantiación de la problemática, tabla de supuestos y la landing page.  | ddsa         |
+
+| Criterio específico                                                    | Acciones realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | Conclusiones                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+|------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Comunica oralmente con efectividad a diferentes rangos de audiencia.   | Kevin Chi:<br> **Gael Rivera**<br>TB1: Participé en la elaboración de un video explicativo sobre el primer avance del proyecto, donde comuniqué de forma clara y estructurada el análisis de competidores, las estrategias y tareas realizadas. Me aseguré de usar un lenguaje comprensible tanto para compañeros como para el docente, adaptando el contenido para que cualquier persona interesada pudiera entender el progreso del proyecto.<br> **Marcelo Varela:** <br> TB1: Contribuí en la elaboración de un video expositivo sobre el primer avance del proyecto, donde comuniqué de forma concisa y detallada los Antecedentes y problematica, user persona y las demás tareas asignadas. Me encargue de emplear un lenguaje formal e intuitivo que sea facíl de comprender tanto para el docente como los compañeros, adaptandome a los factores indicados en la rúbrica del curso y permitiendo asi que caulquier persona externa pueda comprender en que consiste el proyecto uTIma de forma eficiente. <br> Angie Yalán:<br> TB1: Durante el desarrollo del proyecto, demostré habilidades efectivas de comunicación oral al participar activamente en la entrevista dirigida al segmento 2 del público objetivo. A través de esta interacción, supe adaptar mi lenguaje y enfoque según el perfil del entrevistado, logrando recopilar información valiosa para validar necesidades reales. Asimismo, participé en la edición del video general, donde se incluyeron todas las entrevistas realizadas, cuidando que el contenido fuera claro, conciso y accesible para distintos tipos de audiencia, tanto académica como profesional.<br> Jorge Yum:<br> | **TB1:** Como equipo, logramos desarrollar un trabajo completo y bien articulado, cumpliendo con todos los componentes establecidos para esta primera entrega. Para presentar nuestro avance, elaboramos un video explicativo en el que comunicamos de forma clara y ordenada cada una de las etapas: desde la planificación hasta el desarrollo y preparación para la primera entrega. Nos aseguramos de adaptar el lenguaje y la presentación para que fuera comprensible tanto para el docente evaluador como para cualquier persona interesada, sin importar su nivel técnico. |
+| Comunica por escrito con efectividad a diferentes rangos de audiencia. | Kevin Chi:<br> **Gael Rivera**<br>TB1: Colaboré en la redacción de las user stories, el Product Backlog y la documentación del Sprint 1, utilizando un lenguaje técnico pero claro, para facilitar la comprensión tanto de los miembros del equipo como del docente. También contribuí a la elaboración del diagrama de base de datos y los textos de la Landing Page, cuidando la coherencia y adecuación del contenido para los distintos públicos.<br>  **Marcelo Varela:** <br> TB1: Colaboré eficazmente en la redacción de partes como los antecedentes, la problemática y las historias de usuario. También participé en el registro y análisis de entrevistas, lo que me permitió adaptar mi forma de escribir según el tipo de público, ya sea compañeros, docentes o usuarios. Gracias a eso, desarrollé una mejor capacidad para comunicarme por escrito con claridad y de acuerdo al objetivo de cada entrega. <br> Angie Yalán:<br> TB1: En la parte escrita del proyecto, fui responsable de desarrollar casi por completo la sección de antecedentes y problemáticas, redactando con claridad y coherencia para transmitir de forma efectiva el contexto y la necesidad del sistema. Además, elaboré todo el proceso Lean UX documentando cada fase de forma estructurada y comprensible. También diseñé y documenté la landing page y la aplicación web, incluyendo wireframes y mockups con descripciones detalladas. Finalmente, redacté la guía de estilo (style guidelines), asegurándome de que fuera clara tanto para desarrolladores como para diseñadores.<br> Jorge Yum:<br>                                                                  | **TB1:** Como equipo, establecimos canales de comunicación efectivos que nos permitieron coordinar adecuadamente el desarrollo del proyecto, a pesar de los plazos ajustados. Además, realizamos entrevistas que nos ayudaron a recoger sus opiniones y necesidades, lo cual fue clave para definir correctamente los requisitos del sistema. Esta información fue plasmada en artefactos escritos como user stories y el Product Backlog.                                                                                                                                         |
+
 
 # Capítulo I: Introducción
 
@@ -938,11 +945,11 @@ Preguntas para el segmento objetivo 02
 - **Segmento Objetivo:** Barbero 
 - **Edad:** 29 años
 - **Distrito:** Chiclayo
-- **Inicio de la entrevista:**
-- **Duración:**
+- **Inicio de la entrevista:** 0:18 minutos
+- **Duración:** 33:54 minutos
 - **Screenshot del cuadro de video:** ![Entrevista Luis Fernando](img/Entrevista1LuisFernando.png)
 
-- **URL del video (Microsoft Stream):** *[Entrevista 01](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210838_upc_edu_pe/EQH8S_-ea-VPhIvMq4A4MdsBwgorkHIbabKF_8l-aqjYlQ?e=YA3TSi&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)*
+- **URL del video (Microsoft Stream):** *[Entrevista 01](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202312504_upc_edu_pe/Eb0_dXIIVztGj7h_-J6z6IIBxfjUUU4WJPM7v3x5BmOlNA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=TzxLwv)*
 
 
 **Resumen:**
@@ -951,53 +958,78 @@ Luis Fernando Farfán es un barbero de Chiclayo que tiene 8 años de experiencia
 
 ##### Datos del Entrevistado #2
 
-- **Nombre completo:**  Vianka Aracelli Graciel Diaz Dueñas
-- **Segmento Objetivo:** Recepcionista de un salón de belleza
-- **Edad:** 19 años
-- **Distrito:** San Juan De Lurigancho
-- **Inicio de la entrevista:**
-- **Duración:**
-- **Screenshot del cuadro de video:** ![interview_3.jpeg](img/interview_3.jpeg)
-
-- **URL del video (Microsoft Stream):** *[Entrevista 02](https://upcedupe-my.sharepoint.com/personal/u202319668_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202319668%5Fupc%5Fedu%5Fpe%2FDocuments%2Fvideo1101247493%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E00fe7a16%2D2056%2D4549%2Db951%2D4bd2c4db371c)*
-
-**Resumen:** Vianka, de 19 años, vive en San Juan de Lurigancho y trabaja como recepcionista en un salón de belleza desde hace tres años. Se considera alegre, responsable y perfeccionista. Agendan citas principalmente por WhatsApp, y también usan Google Calendar y Excel. Enfrentan cancelaciones frecuentes y cambios de último momento, lo que complica la organización. Usan promociones y recomendaciones para fidelizar a los clientes. Están abiertos a implementar herramientas digitales para mejorar la gestión del negocio.
-
-##### Datos del Entrevistado #3
-
 - **Nombre completo:** Maria Ysabel Sosa Rodriguez
 - **Segmento Objetivo:** Dueña de un Salón de belleza
 - **Edad:** 45 años
 - **Distrito:** San Juan de Lurigancho
-- **Inicio de la entrevista:**
-- **Duración:**
+- **Inicio de la entrevista:** 7:55 minutos
+- **Duración:** 33:54 minutos
 - **Screenshot del cuadro de video:** ![Entrevista Luis Fernando](img/Entrevista3-Segmento1.jpg)
 
-- **URL del video (Microsoft Stream):** *[Entrevista 03]()*
+- **URL del video (Microsoft Stream):** *[Entrevista 02](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202312504_upc_edu_pe/Eb0_dXIIVztGj7h_-J6z6IIBxfjUUU4WJPM7v3x5BmOlNA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=TzxLwv)*
 
 
 **Resumen:**
 María Ysabel Sosa Rodríguez, de 45 años, es dueña de un salón de belleza y actualmente enfrenta retos en la gestión de sus citas. Durante la entrevista, expresó su interés en implementar un sistema automatizado para agendar citas, ya que considera que las cancelaciones de último momento resultan frustrantes y afectan su negocio. Además, destacó que los métodos tradicionales como llamadas o mensajes son poco prácticos, ya que demandan tiempo y a menudo generan incomodidad tanto para ella como para sus clientas. María Ysabel ve en la tecnología una oportunidad para optimizar este proceso y mejorar la eficiencia en la atención al cliente.
 
-### Segmento Objetivo 1 (Clientes)
+
+##### Datos del Entrevistado #3
+
+- **Nombre completo:**  Vianka Aracelli Graciel Diaz Dueñas
+- **Segmento Objetivo:** Recepcionista de un salón de belleza
+- **Edad:** 19 años
+- **Distrito:** San Juan De Lurigancho
+- **Inicio de la entrevista:** 12:17 minutos
+- **Duración:** 33:54 minutos
+- **Screenshot del cuadro de video:** ![interview_3.jpeg](img/interview_3.jpeg)
+
+- **URL del video (Microsoft Stream):** *[Entrevista 03](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202312504_upc_edu_pe/Eb0_dXIIVztGj7h_-J6z6IIBxfjUUU4WJPM7v3x5BmOlNA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=TzxLwv)*
+
+**Resumen:** Vianka, de 19 años, vive en San Juan de Lurigancho y trabaja como recepcionista en un salón de belleza desde hace tres años. Se considera alegre, responsable y perfeccionista. Agendan citas principalmente por WhatsApp, y también usan Google Calendar y Excel. Enfrentan cancelaciones frecuentes y cambios de último momento, lo que complica la organización. Usan promociones y recomendaciones para fidelizar a los clientes. Están abiertos a implementar herramientas digitales para mejorar la gestión del negocio.
+
+
+### Segmento Objetivo 2 (Clientes de servicios de belleza)
 
 #### Datos del Entrevistado #1
+
+- **Nombre completo:** Luis Andrés Alva Abanto
+- **Segmento Objetivo:** Clientes de servicio de belleza
+- **Edad:** 19 años
+- **Distrito:** San Borja
+- **Screenshot del cuadro de video:** *![interview_1.jpeg](img/entrevista1s2.png)*
+- **URL del video (Microsoft Stream):** *[Entrevista 01](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202312504_upc_edu_pe/Eb0_dXIIVztGj7h_-J6z6IIBxfjUUU4WJPM7v3x5BmOlNA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=TzxLwv)*
+- **Inicio de la entrevista:** 20:00 minutos
+- **Duración:** 33:54 minutos
+
+**Resumen:** Luis visita el salón o barbería una vez al mes, principalmente para cortes de cabello y afeitado de barba, valorando sobre todo la puntualidad, ubicación cercana y buena atención. Prefiere agendar citas por WhatsApp y pagar mediante aplicaciones digitales como Yape o transferencias, ya que no suele usar efectivo. Aunque no ha utilizado plataformas para reservas, considera útil un sistema que recuerde su perfil e historial de servicios. Destaca la amabilidad del personal como un factor clave para volver, y valora recibir recordatorios por WhatsApp y promociones por correo. Además, le parece importante que los salones tengan presencia activa en redes sociales, especialmente por las promociones que publican.
+
+
+#### Datos del Entrevistado #2
+
+- **Nombre completo:** Doris Yolanda Sotero
+- **Segmento Objetivo:** Clientes de servicio de belleza
+- **Edad:** 
+- **Distrito:** 
+- **Screenshot del cuadro de video:** *![interview_2.jpeg](img/entrevista2s2.png)*
+- **URL del video (Microsoft Stream):** *[Entrevista 02](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202312504_upc_edu_pe/Eb0_dXIIVztGj7h_-J6z6IIBxfjUUU4WJPM7v3x5BmOlNA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=TzxLwv)*
+- **Inicio de la entrevista:** 23:34 minutos
+- **Duración:** 33:54 minutos
+
+**Resumen:** 
+
+#### Datos del Entrevistado #3
 
 - **Nombre completo:** Allison Naomi Galindo Palomino
 - **Segmento Objetivo:** Clientes de servicio de belleza
 - **Edad:** 20 años
 - **Distrito:** Cercado De Lima
 - **Screenshot del cuadro de video:** *![interview_3.jpeg](img/Entrevista_2.png)*
-- **URL del video (Microsoft Stream):** *[Entrevista 03](https://upcedupe-my.sharepoint.com/personal/u202319668_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202319668%5Fupc%5Fedu%5Fpe%2FDocuments%2FVideo%5Fentrevista%5Fcliente%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ef71f1d1a%2D48a2%2D4577%2Dbd15%2Db2109b826088)*
-- **Inicio de la entrevista:** 01:10 minutos
-- **Duración:** 7:40 minutos
+- **URL del video (Microsoft Stream):** *[Entrevista 03](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202312504_upc_edu_pe/Eb0_dXIIVztGj7h_-J6z6IIBxfjUUU4WJPM7v3x5BmOlNA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=TzxLwv)*
+- **Inicio de la entrevista:** 29:24 minutos
+- **Duración:** 33:54 minutos
 
 **Resumen:** Allison Galindo, una universitaria de 20 años que vive en el Cercado de Lima, visita salones de belleza aproximadamente una vez al mes. Suele solicitar servicios como corte de cabello, depilación de cejas y mascarillas faciales. Al elegir un salón, le da importancia a la reputación, la ubicación accesible, precios razonables y una buena atención. Prefiere agendar sus citas por WhatsApp o redes sociales, ya que le resulta más práctico. Siempre se atiende con la misma estilista por confianza y comodidad. Para ella, la puntualidad es clave, ya que ha tenido malas experiencias con esperas prolongadas. Le gusta recibir recordatorios por WhatsApp y prefiere pagar con aplicaciones o tarjeta. Finalmente, sugiere que los salones mejoren en puntualidad, atención al cliente y faciliten más el uso de herramientas digitales.
 
-#### Datos del Entrevistado #2
-
-
-#### Datos del Entrevistado #3
 
 ### 2.2.3. Análisis de entrevistas.
 
@@ -1705,7 +1737,7 @@ La sección Profile en la interfaz de salones de uTime permite personalizar y ge
 -Authentication diagram:
 
 <div align="center">
-   <img src="img/c4-component-spa.png" alt="c4-context"/>
+   <img src="img/c4-component-authentication.png" alt="c4-context"/>
 </div>
 
 -Payment diagram:
@@ -1718,9 +1750,9 @@ La sección Profile en la interfaz de salones de uTime permite personalizar y ge
 
 ### 4.7.1. Class Diagrams.
 
-<div align="center">
-   <img src="img/class-diagram-uTime.png" alt="class-diagram"/>
-</div>
+## Diagrama de Clases
+
+![Diagrama de Clases](diagram/classDiagram.svg)
 
 ### 4.7.2. Class Dictionary.
 
@@ -1839,6 +1871,7 @@ El proyecto seguirá las convenciones de flujo de trabajo establecidas por el mo
 **Convenciones de Commits:** Para los mensajes de los commits realizados, se utilizará la especificación Conventional Commits basada en Angular Commit Guidelines. La estructura a seguir será la siguiente:
 
 `git commit -m "<type>[optional scope]: <description">`
+
 
 
 ### 5.1.3. Source Code Style Guide & Conventions.

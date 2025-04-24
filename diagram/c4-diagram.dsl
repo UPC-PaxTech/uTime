@@ -4,11 +4,11 @@ workspace "uTime" "Sistema para gestión de citas en salones de belleza" {
         admin = person "Admin de salón de belleza" "Administrador de un salón de belleza"
         //software
         uTime = softwareSystem "uTime" "Sistema para gestión de reservas en salones de belleza" {
-            landing = container "Landing page" "El landing page deriva a la interfaz web" "Web"
+            landing = container "Landing page" "El landing page deriva a la interfaz web" "HTML/CSS"
             interfazWeb = container "Interfaz Web" "Interfaz web REST/HTTPS de uTime" "Angular"
             singlePageApplication = container "Single Page Application" "Renderiza los horarios dinamicos de la aplicación" "Angular" {
                 appComponent = component "App Component" "Controla el diseño y coordina el renderizado de los componentes de UI" "Angular"
-                navigationComponent = component "Navigation Component" "Muestra un interfaz de navegación"
+                navigationComponent = component "Navigation Component" "Muestra un interfaz de navegación" "Angular"
                 scheduleAssembler = component "Schedule Assembler" "Combierte datos de horarios a un formato compatible para su renderizado" "typescript"
                 salonListComponent = component "Salon List Component" "Muestra un carrusel de salones" "Angular"
                 salonItemComponent = component "Salon Item Component" "Muestra salones individuales en el carrusel" "Angular"
@@ -53,17 +53,17 @@ workspace "uTime" "Sistema para gestión de citas en salones de belleza" {
                 calendarSync = component "Calendar Sync Service" "Sincroniza horarios con calendarios externos" "Java"
             }
             paymentContextContainer = container "Payment Context" "Función de pasarela de pagos" {
-                paymentController = component "Payment Controller" "Controlador de pagos"
-                paymentFacade = component "Payment Service Facade" "Fachada para ocultar la complejidad"
-                paymentManager = component "Payment Management Service" "Lógica de gestión de pagos"
+                paymentController = component "Payment Controller" "Controlador de pagos" "Java"
+                paymentFacade = component "Payment Service Facade" "Fachada para ocultar la complejidad" "Java"
+                paymentManager = component "Payment Management Service" "Lógica de gestión de pagos" "Java"
 
-                paymentProcessor = component "Payment Processor" "Valida los pagos hechos en la plataforma"
-                invoiceGenerator = component "Invoice Generator" "Genera boletas o facturas"
-                refundService = component "Refund Service" "Gestiona reembolsos"
-                paymentExternalAdapter = component "External Payment Software Adapter" "Adaptador para pasarela externa"
-                paymentRepository = component "Payment Repository" "Acceso a datos de pagos"
+                paymentProcessor = component "Payment Processor" "Valida los pagos hechos en la plataforma" "Java"
+                invoiceGenerator = component "Invoice Generator" "Genera boletas o facturas" "Java"
+                refundService = component "Refund Service" "Gestiona reembolsos" "Java"
+                paymentExternalAdapter = component "External Payment Software Adapter" "Adaptador para pasarela externa" "Java"
+                paymentRepository = component "Payment Repository" "Acceso a datos de pagos" "Java"
             }
-            baseDatos = container "Base de datos de uTime" "Base de datos monolítica" "MongoDB" "BaseDatosStyle"
+            baseDatos = container "Base de datos de uTime" "Base de datos monolítica" "MySql" "BaseDatosStyle"
 
         }
         googleauth = softwareSystem "Google OAuth 2.0" "Seguridad 2FA de Google"
