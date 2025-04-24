@@ -1654,6 +1654,10 @@ Para este Sprint, se han identificado los principales aspectos del desarrollo de
 
 El primer sprint backlog, el equipo tuvo la intención de comenzar y completar la landing page. La herramienta utilizada para organizar y gestionar a los miembros del equipo fue Trello. Esta herramienta permitió que se pueda dividir todas las user stories en tareas manejables y asignarlas a los diferentes miembros según sus diferentes habilidades. El objetivo principal del sprint es construir en su totalidad la landing page, logrando que sea atractiva y funcional.
 
+![Trello-Sprint-Backlog-1](img/Trello-Sprint-Backlog-1.jpg)
+
+Enlace para acceder al Trello: [Trello Sprint Backlog 1](https://trello.com/invite/b/68097c416c01112f478fcd49/ATTIce689cd7d2ceabb0f986544f256268e63E38CDCA/utime-sprint)
+
 <table>
    <tr>
       <td colspan="2" align="center"><b>Sprint #</b></td>
@@ -1782,8 +1786,8 @@ El primer sprint backlog, el equipo tuvo la intención de comenzar y completar l
       <td>To-do</td>
    </tr>
    <tr>
-      <td rowspan="3">US34</td>
-      <td rowspan="3">Contacto y soporte</td>
+      <td rowspan="2">US34</td>
+      <td rowspan="2">Contacto y soporte</td>
       <td>T13</td>
       <td>Redacción del mensaje de contacto</td>
       <td>Escribir el texto base para contacto</td>
@@ -1796,14 +1800,6 @@ El primer sprint backlog, el equipo tuvo la intención de comenzar y completar l
       <td>Maquetación del Formulario</td>
       <td>Implementar el formulario de contacto</td>
       <td>1.5</td>
-      <td>Name</td>
-      <td>To-do</td>
-   </tr>
-   <tr>
-      <td>T15</td>
-      <td>Configuración de enlace o redirección</td>
-      <td>Enlazar botón de Enviar con correo o acción definida</td>
-      <td>1</td>
       <td>Name</td>
       <td>To-do</td>
    </tr>
@@ -1861,7 +1857,7 @@ El primer sprint backlog, el equipo tuvo la intención de comenzar y completar l
    </tr>
    <tr>
       <td rowspan="2">US03</td>
-      <td rowspan="22">Inicio de sesión</td>
+      <td rowspan="2">Inicio de sesión</td>
       <td>T22</td>
       <td>Formulario de login</td>
       <td>Crear formulario para correo y contraseña</td>
@@ -1879,7 +1875,7 @@ El primer sprint backlog, el equipo tuvo la intención de comenzar y completar l
    </tr>
    <tr>
       <td rowspan="3">US38</td>
-      <td rowspan="3">Información sobre uTime</td>
+      <td rowspan="4">Información sobre uTime</td>
       <td>T19</td>
       <td>Redacción de contenido</td>
       <td>Explicar quiénes son los creadores(PaxTech)</td>
