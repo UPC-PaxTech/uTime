@@ -945,11 +945,11 @@ Preguntas para el segmento objetivo 02
 - **Segmento Objetivo:** Barbero 
 - **Edad:** 29 años
 - **Distrito:** Chiclayo
-- **Inicio de la entrevista:**
-- **Duración:**
+- **Inicio de la entrevista:** 0:18 minutos
+- **Duración:** 33:54 minutos
 - **Screenshot del cuadro de video:** ![Entrevista Luis Fernando](img/Entrevista1LuisFernando.png)
 
-- **URL del video (Microsoft Stream):** *[Entrevista 01](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210838_upc_edu_pe/EQH8S_-ea-VPhIvMq4A4MdsBwgorkHIbabKF_8l-aqjYlQ?e=YA3TSi&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)*
+- **URL del video (Microsoft Stream):** *[Entrevista 01](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202312504_upc_edu_pe/Eb0_dXIIVztGj7h_-J6z6IIBxfjUUU4WJPM7v3x5BmOlNA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=TzxLwv)*
 
 
 **Resumen:**
@@ -958,53 +958,78 @@ Luis Fernando Farfán es un barbero de Chiclayo que tiene 8 años de experiencia
 
 ##### Datos del Entrevistado #2
 
-- **Nombre completo:**  Vianka Aracelli Graciel Diaz Dueñas
-- **Segmento Objetivo:** Recepcionista de un salón de belleza
-- **Edad:** 19 años
-- **Distrito:** San Juan De Lurigancho
-- **Inicio de la entrevista:**
-- **Duración:**
-- **Screenshot del cuadro de video:** ![interview_3.jpeg](img/interview_3.jpeg)
-
-- **URL del video (Microsoft Stream):** *[Entrevista 02](https://upcedupe-my.sharepoint.com/personal/u202319668_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202319668%5Fupc%5Fedu%5Fpe%2FDocuments%2Fvideo1101247493%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E00fe7a16%2D2056%2D4549%2Db951%2D4bd2c4db371c)*
-
-**Resumen:** Vianka, de 19 años, vive en San Juan de Lurigancho y trabaja como recepcionista en un salón de belleza desde hace tres años. Se considera alegre, responsable y perfeccionista. Agendan citas principalmente por WhatsApp, y también usan Google Calendar y Excel. Enfrentan cancelaciones frecuentes y cambios de último momento, lo que complica la organización. Usan promociones y recomendaciones para fidelizar a los clientes. Están abiertos a implementar herramientas digitales para mejorar la gestión del negocio.
-
-##### Datos del Entrevistado #3
-
 - **Nombre completo:** Maria Ysabel Sosa Rodriguez
 - **Segmento Objetivo:** Dueña de un Salón de belleza
 - **Edad:** 45 años
 - **Distrito:** San Juan de Lurigancho
-- **Inicio de la entrevista:**
-- **Duración:**
+- **Inicio de la entrevista:** 7:55 minutos
+- **Duración:** 33:54 minutos
 - **Screenshot del cuadro de video:** ![Entrevista Luis Fernando](img/Entrevista3-Segmento1.jpg)
 
-- **URL del video (Microsoft Stream):** *[Entrevista 03]()*
+- **URL del video (Microsoft Stream):** *[Entrevista 02](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202312504_upc_edu_pe/Eb0_dXIIVztGj7h_-J6z6IIBxfjUUU4WJPM7v3x5BmOlNA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=TzxLwv)*
 
 
 **Resumen:**
 María Ysabel Sosa Rodríguez, de 45 años, es dueña de un salón de belleza y actualmente enfrenta retos en la gestión de sus citas. Durante la entrevista, expresó su interés en implementar un sistema automatizado para agendar citas, ya que considera que las cancelaciones de último momento resultan frustrantes y afectan su negocio. Además, destacó que los métodos tradicionales como llamadas o mensajes son poco prácticos, ya que demandan tiempo y a menudo generan incomodidad tanto para ella como para sus clientas. María Ysabel ve en la tecnología una oportunidad para optimizar este proceso y mejorar la eficiencia en la atención al cliente.
 
-### Segmento Objetivo 1 (Clientes)
+
+##### Datos del Entrevistado #3
+
+- **Nombre completo:**  Vianka Aracelli Graciel Diaz Dueñas
+- **Segmento Objetivo:** Recepcionista de un salón de belleza
+- **Edad:** 19 años
+- **Distrito:** San Juan De Lurigancho
+- **Inicio de la entrevista:** 12:17 minutos
+- **Duración:** 33:54 minutos
+- **Screenshot del cuadro de video:** ![interview_3.jpeg](img/interview_3.jpeg)
+
+- **URL del video (Microsoft Stream):** *[Entrevista 03](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202312504_upc_edu_pe/Eb0_dXIIVztGj7h_-J6z6IIBxfjUUU4WJPM7v3x5BmOlNA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=TzxLwv)*
+
+**Resumen:** Vianka, de 19 años, vive en San Juan de Lurigancho y trabaja como recepcionista en un salón de belleza desde hace tres años. Se considera alegre, responsable y perfeccionista. Agendan citas principalmente por WhatsApp, y también usan Google Calendar y Excel. Enfrentan cancelaciones frecuentes y cambios de último momento, lo que complica la organización. Usan promociones y recomendaciones para fidelizar a los clientes. Están abiertos a implementar herramientas digitales para mejorar la gestión del negocio.
+
+
+### Segmento Objetivo 2 (Clientes de servicios de belleza)
 
 #### Datos del Entrevistado #1
+
+- **Nombre completo:** Luis Andrés Alva Abanto
+- **Segmento Objetivo:** Clientes de servicio de belleza
+- **Edad:** 19 años
+- **Distrito:** San Borja
+- **Screenshot del cuadro de video:** *![interview_1.jpeg](img/entrevista1s2.png)*
+- **URL del video (Microsoft Stream):** *[Entrevista 01](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202312504_upc_edu_pe/Eb0_dXIIVztGj7h_-J6z6IIBxfjUUU4WJPM7v3x5BmOlNA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=TzxLwv)*
+- **Inicio de la entrevista:** 20:00 minutos
+- **Duración:** 33:54 minutos
+
+**Resumen:** Luis visita el salón o barbería una vez al mes, principalmente para cortes de cabello y afeitado de barba, valorando sobre todo la puntualidad, ubicación cercana y buena atención. Prefiere agendar citas por WhatsApp y pagar mediante aplicaciones digitales como Yape o transferencias, ya que no suele usar efectivo. Aunque no ha utilizado plataformas para reservas, considera útil un sistema que recuerde su perfil e historial de servicios. Destaca la amabilidad del personal como un factor clave para volver, y valora recibir recordatorios por WhatsApp y promociones por correo. Además, le parece importante que los salones tengan presencia activa en redes sociales, especialmente por las promociones que publican.
+
+
+#### Datos del Entrevistado #2
+
+- **Nombre completo:** Doris Yolanda Sotero
+- **Segmento Objetivo:** Clientes de servicio de belleza
+- **Edad:** 
+- **Distrito:** 
+- **Screenshot del cuadro de video:** *![interview_2.jpeg](img/entrevista2s2.png)*
+- **URL del video (Microsoft Stream):** *[Entrevista 02](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202312504_upc_edu_pe/Eb0_dXIIVztGj7h_-J6z6IIBxfjUUU4WJPM7v3x5BmOlNA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=TzxLwv)*
+- **Inicio de la entrevista:** 23:34 minutos
+- **Duración:** 33:54 minutos
+
+**Resumen:** 
+
+#### Datos del Entrevistado #3
 
 - **Nombre completo:** Allison Naomi Galindo Palomino
 - **Segmento Objetivo:** Clientes de servicio de belleza
 - **Edad:** 20 años
 - **Distrito:** Cercado De Lima
 - **Screenshot del cuadro de video:** *![interview_3.jpeg](img/Entrevista_2.png)*
-- **URL del video (Microsoft Stream):** *[Entrevista 03](https://upcedupe-my.sharepoint.com/personal/u202319668_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202319668%5Fupc%5Fedu%5Fpe%2FDocuments%2FVideo%5Fentrevista%5Fcliente%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ef71f1d1a%2D48a2%2D4577%2Dbd15%2Db2109b826088)*
-- **Inicio de la entrevista:** 01:10 minutos
-- **Duración:** 7:40 minutos
+- **URL del video (Microsoft Stream):** *[Entrevista 03](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202312504_upc_edu_pe/Eb0_dXIIVztGj7h_-J6z6IIBxfjUUU4WJPM7v3x5BmOlNA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=TzxLwv)*
+- **Inicio de la entrevista:** 29:24 minutos
+- **Duración:** 33:54 minutos
 
 **Resumen:** Allison Galindo, una universitaria de 20 años que vive en el Cercado de Lima, visita salones de belleza aproximadamente una vez al mes. Suele solicitar servicios como corte de cabello, depilación de cejas y mascarillas faciales. Al elegir un salón, le da importancia a la reputación, la ubicación accesible, precios razonables y una buena atención. Prefiere agendar sus citas por WhatsApp o redes sociales, ya que le resulta más práctico. Siempre se atiende con la misma estilista por confianza y comodidad. Para ella, la puntualidad es clave, ya que ha tenido malas experiencias con esperas prolongadas. Le gusta recibir recordatorios por WhatsApp y prefiere pagar con aplicaciones o tarjeta. Finalmente, sugiere que los salones mejoren en puntualidad, atención al cliente y faciliten más el uso de herramientas digitales.
 
-#### Datos del Entrevistado #2
-
-
-#### Datos del Entrevistado #3
 
 ### 2.2.3. Análisis de entrevistas.
 
