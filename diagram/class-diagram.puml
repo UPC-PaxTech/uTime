@@ -1,6 +1,5 @@
 @startuml classDiagram
-skinparam style strictuml
-title uTime - Domain Class Diagram (Reordenado)
+title uTime - Domain Class Diagram
 
 ' === Shared Context ===
 package "Shared Context" {

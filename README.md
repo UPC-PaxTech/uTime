@@ -1639,7 +1639,7 @@ La sección Profile en la interfaz de salones de uTime permite personalizar y ge
 -Authentication diagram:
 
 <div align="center">
-   <img src="img/c4-component-spa.png" alt="c4-context"/>
+   <img src="img/c4-component-authentication.png" alt="c4-context"/>
 </div>
 
 -Payment diagram:
