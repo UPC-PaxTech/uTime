@@ -8,7 +8,7 @@ workspace "uTime" "Sistema para gestión de citas en salones de belleza" {
             interfazWeb = container "Interfaz Web" "Interfaz web REST/HTTPS de uTime" "Angular"
             singlePageApplication = container "Single Page Application" "Renderiza los horarios dinamicos de la aplicación" "Angular" {
                 appComponent = component "App Component" "Controla el diseño y coordina el renderizado de los componentes de UI" "Angular"
-                navigationComponent = component "Navigation Component" "Muestra un interfaz de navegación"
+                navigationComponent = component "Navigation Component" "Muestra un interfaz de navegación" "Angular"
                 scheduleAssembler = component "Schedule Assembler" "Combierte datos de horarios a un formato compatible para su renderizado" "typescript"
                 salonListComponent = component "Salon List Component" "Muestra un carrusel de salones" "Angular"
                 salonItemComponent = component "Salon Item Component" "Muestra salones individuales en el carrusel" "Angular"
