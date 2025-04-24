@@ -2141,6 +2141,39 @@ Enlace para acceder a la landing page:
 
 ## 6.1 Conclusiones y recomendaciones
 
+### Conclusiones
+
+- El proyecto uTime demostró que existe una necesidad real y no atendida en el sector de la belleza relacionada con la gestión eficiente de citas.
+
+
+- La implementación del enfoque Lean UX permitió validar rápidamente hipótesis y mejorar la solución con base en retroalimentación real de usuarios. 
+
+
+- La colaboración multidisciplinaria dentro del equipo de PaxTech fue fundamental para abordar el proyecto de forma integral, combinando habilidades técnicas, de diseño y de análisis de usuario.
+
+
+- La documentación detallada, el uso de metodologías ágiles (Scrum) y la arquitectura basada en dominios garantizaron una solución escalable y mantenible.
+
+
+- El desarrollo de la plataforma uTime fortaleció la comprensión del ciclo completo de diseño y desarrollo de productos digitales, desde la investigación de usuarios hasta la implementación y despliegue.
+
+
+- Se ha avanzado significativamente en la construcción de una base conceptual y técnica sólida que permitirá un desarrollo más eficiente en las siguientes fases.
+
+### Recomendaciones
+
+- Profundizar en la validación de las necesidades del usuario a través de métodos adicionales como encuestas o pruebas de concepto, para reforzar la base del diseño centrado en el usuario.
+
+
+- Continuar fortaleciendo el uso de metodologías ágiles dentro del equipo, especialmente en la planificación de sprints y la documentación de retrospectivas.
+
+ 
+
+- Documentar con mayor detalle las decisiones de diseño y arquitectura para facilitar la comprensión del proyecto por parte de los docentes evaluadores y compañeros.
+
+ 
+- Evaluar críticamente los avances realizados y contrastarlos con los entregables definidos en el sílabo del curso, asegurando que cada parte del proyecto cumpla con los criterios de evaluación establecidos.
+
 
 # Bibliografía
 
@@ -2154,3 +2187,9 @@ Telefónica. (2022). La digitalización de las empresas repercute hasta un 25% e
 </div>
 
 # Anexos
+
+**Anexo A:**<br>
+URL del Needfinding Interviews:
+
+**Anexo B:**<br>
+URL del Prototypes Navigation / Product Navigation::
