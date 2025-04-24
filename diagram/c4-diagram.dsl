@@ -53,17 +53,17 @@ workspace "uTime" "Sistema para gestión de citas en salones de belleza" {
                 calendarSync = component "Calendar Sync Service" "Sincroniza horarios con calendarios externos" "Java"
             }
             paymentContextContainer = container "Payment Context" "Función de pasarela de pagos" {
-                paymentController = component "Payment Controller" "Controlador de pagos"
-                paymentFacade = component "Payment Service Facade" "Fachada para ocultar la complejidad"
-                paymentManager = component "Payment Management Service" "Lógica de gestión de pagos"
+                paymentController = component "Payment Controller" "Controlador de pagos" "Java"
+                paymentFacade = component "Payment Service Facade" "Fachada para ocultar la complejidad" "Java"
+                paymentManager = component "Payment Management Service" "Lógica de gestión de pagos" "Java"
 
-                paymentProcessor = component "Payment Processor" "Valida los pagos hechos en la plataforma"
-                invoiceGenerator = component "Invoice Generator" "Genera boletas o facturas"
-                refundService = component "Refund Service" "Gestiona reembolsos"
-                paymentExternalAdapter = component "External Payment Software Adapter" "Adaptador para pasarela externa"
-                paymentRepository = component "Payment Repository" "Acceso a datos de pagos"
+                paymentProcessor = component "Payment Processor" "Valida los pagos hechos en la plataforma" "Java"
+                invoiceGenerator = component "Invoice Generator" "Genera boletas o facturas" "Java"
+                refundService = component "Refund Service" "Gestiona reembolsos" "Java"
+                paymentExternalAdapter = component "External Payment Software Adapter" "Adaptador para pasarela externa" "Java"
+                paymentRepository = component "Payment Repository" "Acceso a datos de pagos" "Java"
             }
-            baseDatos = container "Base de datos de uTime" "Base de datos monolítica" "MongoDB" "BaseDatosStyle"
+            baseDatos = container "Base de datos de uTime" "Base de datos monolítica" "MySql" "BaseDatosStyle"
 
         }
         googleauth = softwareSystem "Google OAuth 2.0" "Seguridad 2FA de Google"
