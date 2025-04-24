@@ -32,18 +32,21 @@
 # Registro de Versiones del Informe
 
 
-| Version | Fecha      | Autor                                  | Descripción de modificación                             |
-|---------|------------|----------------------------------------|---------------------------------------------------------|
-| 1.0     | 01/04/2025 | Chi, Rivera, Varela, Yalán, Yum        | Creación del documento de trabajo en formato markdown   |
-| 1.1     |            | Chi, Rivera, Varela, Yalán, Yum        |                                                         |
-| 1.2     |            | Chi, Rivera, Varela, Yalán, Yum        |                                                         |
-| 1.3     |            | Chi, Rivera, Varela, Yalán, Yum        |                                                         |
-| 1.4     |            | Chi, Rivera, Varela, Yalán, Yum        |                                                         |
-| 1.5     | 09/04/2025 | Chi, Rivera, Varela, Yalán, Yum        | Creación de los requisitos funcionales y no funcionales |
-| 1.6     |            | Chi, Rivera, Varela, Yalán, Yum        |                                                         |
-| 1.7     |            | Chi, Rivera, Varela, Yalán, Yum        |                                                         |
-| 1.8     | 16/04/2025 | Chi, Rivera, Varela, Yalán, Yum        | Creación de los User Stories y Technical Stories        |
-| 1.9     | 17/04/2025 | Chi, Rivera, Varela, Yalán, Yum        | Creación del Product Backlog                            |
+| Version | Fecha      | Autor                            | Descripción de modificación                                                                            |
+|---------|------------|----------------------------------|--------------------------------------------------------------------------------------------------------|
+| 1.0     | 01/04/2025 | Chi, Rivera, Varela, Yalán, Yum  | Creación del documento de trabajo en formato markdown                                                  |
+| 1.1     | 03/04/2025 | Chi, Rivera, Varela, Yalán, Yum  | Elaboración del Capitulo I                                                                             |
+| 1.2     | 05/04/2025 | Chi, Rivera, Varela, Yalán, Yum  | Elaboración de Competidores y Entrevistas                                                              |
+| 1.3     | 07/04/2025 | Chi, Rivera, Varela, Yalán, Yum  | Elaboración del Needfinding                                                                            |
+| 1.4     | 08/04/2025 | Chi, Rivera, Varela, Yalán, Yum  | Elaboración del To-Be y Ubiquitous Language                                                            |
+| 1.5     | 09/04/2025 | Chi, Rivera, Varela, Yalán, Yum  | Creación de los requisitos funcionales y no funcionales                                                |
+| 1.6     | 11/04/2025 | Chi, Rivera, Varela, Yalán, Yum  | Culminación del Capitlo III                                                                            |
+| 1.7     | 13/04/2025 | Chi, Rivera, Varela, Yalán, Yum  | Elaboración de Style Guidelines y Information Architecture                                             |
+| 1.8     | 16/04/2025 | Chi, Rivera, Varela, Yalán, Yum  | Elaboración de Landing Page UI Design y Web Application UX/UI Design                                   |
+| 1.9     | 17/04/2025 | Chi, Rivera, Varela, Yalán, Yum  | Elaboración del Web Application Prototyping                                                            |
+| 1.10    | 19/04/2025 | Chi, Rivera, Varela, Yalán, Yum  | Elaboración de Domain Driven Software Architecture, Software Object Oriented Design y Database Diagram |
+| 1.11    | 22/04/2025 | Chi, Rivera, Varela, Yalán, Yum  | Elaboración del Capitulo V                                                                             |
+| 1.12    | 23/04/2025 | Chi, Rivera, Varela, Yalán, Yum  | Elaboración del Landing Page                                                                           |
 
 </div>
 
