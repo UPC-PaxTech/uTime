@@ -1708,6 +1708,7 @@ El proyecto seguirá las convenciones de flujo de trabajo establecidas por el mo
 `git commit -m "<type>[optional scope]: <description">`
 
 
+
 ### 5.1.3. Source Code Style Guide & Conventions.
 
 **HTML:** Algunas de las prácticas que deben de seguirse para alcanzar un código coherente, sostenible y ordenado son las
