@@ -4,7 +4,7 @@ workspace "uTime" "Sistema para gestión de citas en salones de belleza" {
         admin = person "Admin de salón de belleza" "Administrador de un salón de belleza"
         //software
         uTime = softwareSystem "uTime" "Sistema para gestión de reservas en salones de belleza" {
-            landing = container "Landing page" "El landing page deriva a la interfaz web" "Web"
+            landing = container "Landing page" "El landing page deriva a la interfaz web" "HTML/CSS"
             interfazWeb = container "Interfaz Web" "Interfaz web REST/HTTPS de uTime" "Angular"
             singlePageApplication = container "Single Page Application" "Renderiza los horarios dinamicos de la aplicación" "Angular" {
                 appComponent = component "App Component" "Controla el diseño y coordina el renderizado de los componentes de UI" "Angular"
