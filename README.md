@@ -1652,9 +1652,9 @@ La sección Profile en la interfaz de salones de uTime permite personalizar y ge
 
 ### 4.7.1. Class Diagrams.
 
-<div align="center">
-   <img src="img/class-diagram-uTime.png" alt="class-diagram"/>
-</div>
+## Diagrama de Clases
+
+![Diagrama de Clases](diagram/classDiagram.svg)
 
 ### 4.7.2. Class Dictionary.
 
