@@ -1684,24 +1684,24 @@ Enlace para acceder al Trello: [Trello Sprint Backlog 1](https://trello.com/invi
       <td>Redacción de contenido</td>
       <td>Redactar los textos que describen los servicios ofrecidos.</td>
       <td>2</td>
-      <td>Name</td>
-      <td>To-do</td>
+      <td>Angie Yán</td>
+      <td>Done</td>
    </tr>
    <tr>
       <td>T2</td>
       <td>Maquetación Inicial</td>
       <td>Implementar estructuras básicas en HTML/CSS</td>
       <td>2</td>
-      <td>Name</td>
-      <td>To-do</td>
+      <td>Angie Yán</td>
+      <td>Done</td>
    </tr>
    <tr>
       <td>T3</td>
       <td>Estilización</td>
       <td>Aplicar estilos CSS según el diseño aprobado.</td>
       <td>2</td>
-      <td>Name</td>
-      <td>To-do</td>
+      <td>Angie Yán</td>
+      <td>Done</td>
    </tr>
    <tr>
       <td rowspan="2">US30</td>
@@ -1710,16 +1710,16 @@ Enlace para acceder al Trello: [Trello Sprint Backlog 1](https://trello.com/invi
       <td>Redacción de beneficios</td>
       <td>Redactar los beneficios principales de la plataforma</td>
       <td>2</td>
-      <td>Name</td>
-      <td>To-do</td>
+      <td>Kevin Chi</td>
+      <td>Done</td>
    </tr>
    <tr>
       <td>T5</td>
       <td>Diseño Gráfico</td>
       <td>Utilizar íconos o elementos visuales para loa beneficios</td>
       <td>1.5</td>
-      <td>Name</td>
-      <td>To-do</td>
+      <td>Kevin Chi</td>
+      <td>Done</td>
    </tr>
    <tr>
       <td rowspan="2">US31</td>
@@ -1728,16 +1728,16 @@ Enlace para acceder al Trello: [Trello Sprint Backlog 1](https://trello.com/invi
       <td>Redacción de contenido</td>
       <td>Redacción de los planes y precios para mostrar</td>
       <td>1</td>
-      <td>Name</td>
-      <td>To-do</td>
+      <td>Jorge Yum</td>
+      <td>Done</td>
    </tr>
    <tr>
       <td>T7</td>
       <td>Implementación UI</td>
       <td>Codificar la sección de precios y planes</td>
       <td>2</td>
-      <td>Name</td>
-      <td>To-do</td>
+      <td>Jorge Yum</td>
+      <td>Done</td>
    </tr>
    <tr>
       <td rowspan="1">TS06</td>
@@ -1746,8 +1746,8 @@ Enlace para acceder al Trello: [Trello Sprint Backlog 1](https://trello.com/invi
       <td>Diseño responsive y accesible</td>
       <td>Ajustar estilos para móviles y tablets.</td>
       <td>2.5</td>
-      <td>Name</td>
-      <td>To-do</td>
+      <td>Angie Yán</td>
+      <td>Done</td>
    </tr>
    <tr>
       <td rowspan="2">US32</td>
@@ -1756,16 +1756,16 @@ Enlace para acceder al Trello: [Trello Sprint Backlog 1](https://trello.com/invi
       <td>Recolección de testimonios</td>
       <td>Buscar testimonios reales de usuarios anteriores (ficticios o reales)</td>
       <td>1</td>
-      <td>Name</td>
-      <td>To-do</td>
+      <td>Gael Rivera/td>
+      <td>Done</td>
    </tr>
    <tr>
       <td>T10</td>
-      <td>Maquetación de sección Codificar la sección de testimonios</td>
+      <td>Codificar la sección de testimonios</td>
       <td>Codificar la sección de testimonios en la landing page</td>
       <td>2</td>
-      <td>Name</td>
-      <td>To-do</td>
+      <td>Gael Rivera</td>
+      <td>Done</td>
    </tr>
    <tr>
       <td rowspan="2">US33</td>
@@ -1774,16 +1774,16 @@ Enlace para acceder al Trello: [Trello Sprint Backlog 1](https://trello.com/invi
       <td>Diseño de botones CTA</td>
       <td>Diseñar visualmente los botones de llamada a la acción.</td>
       <td>0.5</td>
-      <td>Name</td>
-      <td>To-do</td>
+      <td>Jorge Yun</td>
+      <td>Done</td>
    </tr>
    <tr>
       <td>T12</td>
       <td>Implementación de botones</td>
       <td>Añadir los botones CTA en secciones clave del sitio.</td>
       <td>1</td>
-      <td>Name</td>
-      <td>To-do</td>
+      <td>Jorge Yum</td>
+      <td>Done</td>
    </tr>
    <tr>
       <td rowspan="2">US34</td>
@@ -1792,16 +1792,16 @@ Enlace para acceder al Trello: [Trello Sprint Backlog 1](https://trello.com/invi
       <td>Redacción del mensaje de contacto</td>
       <td>Escribir el texto base para contacto</td>
       <td>0.5</td>
-      <td>Name</td>
-      <td>To-do</td>
+      <td>Marcelo Varela</td>
+      <td>Done</td>
    </tr>
    <tr>
       <td>T14</td>
       <td>Maquetación del Formulario</td>
       <td>Implementar el formulario de contacto</td>
       <td>1.5</td>
-      <td>Name</td>
-      <td>To-do</td>
+      <td>Marcelo Varela</td>
+      <td>Done</td>
    </tr>
    <tr>
       <td rowspan="3">US01</td>
@@ -1810,24 +1810,24 @@ Enlace para acceder al Trello: [Trello Sprint Backlog 1](https://trello.com/invi
       <td>Maquetado del formulario</td>
       <td>Crear el formulario con campos como nombre, correo y contraseña</td>
       <td>3</td>
-      <td>Name</td>
-      <td>To-do</td>
+      <td>Kevin Chi</td>
+      <td>Done</td>
    </tr>
    <tr>
       <td>T17</td>
       <td>Validación de Campos</td>
       <td>Validar que los campos del formulario estén correctamente llenados</td>
       <td>2</td>
-      <td>Name</td>
-      <td>To-do</td>
+      <td>Kevin Chi</td>
+      <td>Done</td>
    </tr>
    <tr>
       <td>T18</td>
       <td>Estilo y responsive</td>
       <td>Aplicar diseño responsive y estilos visuales</td>
       <td>2</td>
-      <td>Name</td>
-      <td>To-do</td>
+      <td>Kevin Chi</td>
+      <td>Done</td>
    </tr>
    <tr>
       <td rowspan="3">US02</td>
@@ -1836,24 +1836,24 @@ Enlace para acceder al Trello: [Trello Sprint Backlog 1](https://trello.com/invi
       <td>Maquetado del formulario</td>
       <td>Crear el formulario con campos para el registro del negocio (nombre, RUC, dirección, etc.)</td>
       <td>3</td>
-      <td>Name</td>
-      <td>To-do</td>
+      <td>Gael Rivera</td>
+      <td>Done</td>
    </tr>
    <tr>
       <td>T20</td>
       <td>Validación de Campos</td>
       <td>Validar que los campos del formulario estén correctamente llenados</td>
       <td>2</td>
-      <td>Name</td>
-      <td>To-do</td>
+      <td>Gael Rivera</td>
+      <td>Done</td>
    </tr>
    <tr>
       <td>T21</td>
       <td>Estilo y responsive</td>
       <td>Aplicar diseño responsive y estilos visuales</td>
       <td>1</td>
-      <td>Name</td>
-      <td>To-do</td>
+      <td>Gael Rivera</td>
+      <td>Done</td>
    </tr>
    <tr>
       <td rowspan="2">US03</td>
@@ -1862,16 +1862,16 @@ Enlace para acceder al Trello: [Trello Sprint Backlog 1](https://trello.com/invi
       <td>Formulario de login</td>
       <td>Crear formulario para correo y contraseña</td>
       <td>2</td>
-      <td>Name</td>
-      <td>To-do</td>
+      <td>Gael Rivera</td>
+      <td>Done</td>
    </tr>
    <tr>
       <td>T23</td>
       <td>Diseño y feedback</td>
       <td>Aplicar estilos y mostrar mensajes de error/éxito</td>
       <td>2</td>
-      <td>Name</td>
-      <td>To-do</td>
+      <td>Gael Rivera</td>
+      <td>Done</td>
    </tr>
    <tr>
       <td rowspan="3">US38</td>
@@ -1880,36 +1880,67 @@ Enlace para acceder al Trello: [Trello Sprint Backlog 1](https://trello.com/invi
       <td>Redacción de contenido</td>
       <td>Explicar quiénes son los creadores(PaxTech)</td>
       <td>2</td>
-      <td>Name</td>
-      <td>To-do</td>
+      <td>Marcelo Varela</td>
+      <td>Done</td>
    </tr>
    <tr>
       <td>T20</td>
       <td>Perfil del equipo</td>
       <td>Mostrar integrantes de PaxTech</td>
       <td>2</td>
-      <td>Name</td>
-      <td>To-do</td>
+      <td>Marcelo Varela</td>
+      <td>Done</td>
    </tr>
    <tr>
       <td>T21</td>
       <td>Diseño de sección</td>
       <td>Maquetar y aplicar estilos a la sección About Us</td>
       <td>2</td>
-      <td>Name</td>
-      <td>To-do</td>
+      <td>Marcelo Varela</td>
+      <td>Done</td>
    </tr>
 </table>
 
 #### 5.2.1.4. Development Evidence for Sprint Review.
 
+<table>
+   <tr>
+      <td>a</td>
+      <td>a</td>
+   </tr>
+</table>
+
 #### 5.2.1.5. Execution Evidence for Sprint Review.
+
+En el Sprint 1 se alcanzó un desarrollo parcial en la implementación del despliegue de la landing page. La cual muestra diferentes secciones donde el usuario puede encontrar información relevante acerca del producto y del start up. A continuación se muestra algunas evidencias.
+
+1. **Sección Home:** La sección principal, el usuario al ingresar a nuestra landing page sera esta sección lo primero que podrá visualizar. 
+2. **Sección de Planes:** En esta sección, el usuario puede visualizar e interactuar con los diferentes planes que ofrecemos.
+3. **Sección de Contacto:** En la sección de contacto el usuario puede introducir su información para que la empresa se ponga en contacto con ellos.
+4. **Sección About us:** En esta sección, el usuario podrá visualizar información sobre la startup creadora del producto **uTime** y los miembros de la startup. 
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review.
 
+Para este primer sprint no fue contemplada la evidencia de documentación de los servicios.
+
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review.
 
+Para la entrega del Sprint número 1, se desplegó la landing page completa en GitPage. Donde configuramos que la rama que tomará sera main que se encuentra en la carpeta docs, ya que seguimos una estructura de carpetas y archivos.
+
+![GitPage](img/GitHub-Pages.png)
+
+Enlace para acceder a la landing page: 
+
 #### 5.2.1.8. Team Collaboration Insights during Sprint.
+
+| **Alumno**                          | **Actividad**                                                       |
+|-------------------------------------|---------------------------------------------------------------------|
+| Chi Cruzatt, Kevin Jorge            | Implementación del Registro de la Landing Page                      |
+| Rivera Sosa, Eduardo Gael           | Implementación del Inicio de Sessión de la Landing Page             |
+| Varela Bustinza, Marcelo Alessandro | Implementación del Contacto y Soporte y About Us de la Landing Page |
+| Yalán Zhang, Angie Christina        | Implementación de Testimonio de la Landing Page                     |
+| Yum Gonzales, Jorge Suin            | Implementación de Planes y Precios de la Landing Page               |
+
 
 # Conclusiones
 
