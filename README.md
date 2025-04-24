@@ -66,7 +66,7 @@ para cada integrante del equipo:
 | Gael Rivera    | Análisis de competidores, Estrategias y tácticas frente a competidores, Entrevistas, Ubiquitous Language, User Stories, Product Backlog, Database Diagram, Landing Page, Sprint 1. |
 | Marcelo Varela | Antecedentes y problemática, Registro de entrevistas, User persona, Empathy mapping, Impact mapping, User stories, Functional requirements, Organization systems, Labeling System |
 | Angie Yalán   | Startup Profile, Solution Profile, Segmento Objetivo, Lean UX Process, Style Guidelines, Landing Page UI Design, Web Application UX/UI Design, Web Application Prototyping.       |
-| Jorge Yum      | As-Is To-Be Scenario Mapping, Impact Mapping, User Stories, Product Backlog, Information Architecture, Sprint 1                                                                   |
+| Jorge Yum      | As-Is To-Be Scenario Mapping, Impact Mapping, User Stories, Landing Page development, Product Backlog, Information Architecture, Sprint 1                                                                   |
 
 El proceso de colaboración en el informe se realizó mediante commits constantes al repositorio de la organización PaxTech.
 
@@ -2245,21 +2245,62 @@ Enlace para acceder al Trello: [Trello Sprint Backlog 1](https://trello.com/invi
 
 #### 5.2.1.4. Development Evidence for Sprint Review.
 
-<table>
-   <tr>
-      <td>a</td>
-      <td>a</td>
-   </tr>
-</table>
+| Repository                                                              | Branch                      | Commit Id | Commit Message                                                                                                          | Commit Message Body | Committed on (Date) |
+|-------------------------------------------------------------------------|-----------------------------|-----------|-------------------------------------------------------------------------------------------------------------------------|---------------------|--------------------|
+| [uTime-Landing-Page](https://github.com/UPC-PaxTech/uTime-Landing-Page) | feature/indexChanges        | 80554ff   | feat: carousel and connections                                                                                          |                     | 2025-04-24         |
+|  [uTime-Landing-Page](https://github.com/UPC-PaxTech/uTime-Landing-Page)| feature/register            | 7919f4f   | Merge branch 'feature/register' into develop                                                                            |                     | 2025-04-24         | 
+|  [uTime-Landing-Page](https://github.com/UPC-PaxTech/uTime-Landing-Page)| feature/register            | 0676237   | docs: add business information                                                                                          |                     | 2025-04-24         | 
+|  [uTime-Landing-Page](https://github.com/UPC-PaxTech/uTime-Landing-Page)| feature/register            | a70b491   | fix: solving issues with form tag                                                                                       |                     | 2025-04-24         |
+|  [uTime-Landing-Page](https://github.com/UPC-PaxTech/uTime-Landing-Page)| feature/register            | e6aa361   | fix: solving organization client and bussiness                                                                          |                     | 2025-04-24         |
+|  [uTime-Landing-Page](https://github.com/UPC-PaxTech/uTime-Landing-Page)| feature/register            | 0701805   | docs: add button references                                                                                             |                     | 2025-04-24         |
+|  [uTime-Landing-Page](https://github.com/UPC-PaxTech/uTime-Landing-Page)| feature/register            | 1c39fd1   | docs: add form structure                                                                                                |                     | 2025-04-24         | 
+|  [uTime-Landing-Page](https://github.com/UPC-PaxTech/uTime-Landing-Page)| feature/register            | 077ba71   | docs: add register section                                                                                              |                     | 2025-04-24         | 
+| [uTime-Landing-Page](https://github.com/UPC-PaxTech/uTime-Landing-Page) | develop                     | 39bf6c9   | fix:link connections problems                                                                                           |                     | 2025-04-23         |
+| [uTime-Landing-Page](https://github.com/UPC-PaxTech/uTime-Landing-Page) | develop                     | ace23c4   | Merge branch 'feature/sign-in' into develop                                                                             |                     | 2025-04-23         |
+| [uTime-Landing-Page](https://github.com/UPC-PaxTech/uTime-Landing-Page) | feature/sign-in             | 27864c8   | docs: add sign in section                                                                                               |                     | 2025-04-23         |
+| [uTime-Landing-Page](https://github.com/UPC-PaxTech/uTime-Landing-Page) | feature/sign-in             | e44fad4   | docs: add sign in section                                                                                               |                     | 2025-04-23         |
+| [uTime-Landing-Page](https://github.com/UPC-PaxTech/uTime-Landing-Page) | develop                     | 82dffdb   | Merge branch 'feature/contact-us' into develop                                                                          |                     | 2025-04-23         |
+| [uTime-Landing-Page](https://github.com/UPC-PaxTech/uTime-Landing-Page) | develop                     | 211476f   | chore: structured files 2.0                                                                                             |                     | 2025-04-23         |
+| [uTime-Landing-Page](https://github.com/UPC-PaxTech/uTime-Landing-Page) | develop                     | 211476f   | docs: add sign in section                                                                                               |                     | 2025-04-23         |
+| [uTime-Landing-Page](https://github.com/UPC-PaxTech/uTime-Landing-Page) | develop                     | 3d74ddb   | chore: structure files                                                                                                  |                     | 2025-04-23         |
+| [uTime-Landing-Page](https://github.com/UPC-PaxTech/uTime-Landing-Page) | feature/contact-us          | abfc375   | fix: home link problems                                                                                                 |                     | 2025-04-23         ||
+| [uTime-Landing-Page](https://github.com/UPC-PaxTech/uTime-Landing-Page) | feature/contact-us          | 456b7e9   | fix:link problems                                                                                                       |                     | 2025-04-23         |
+| [uTime-Landing-Page](https://github.com/UPC-PaxTech/uTime-Landing-Page) | feature/contact-us          | 93c5bc2   | docs: add contact information and section                                                                               |                     | 2025-04-23         |
+| [uTime-Landing-Page](https://github.com/UPC-PaxTech/uTime-Landing-Page) | feature/contact-us          | 6a19519   | fix:contact problems                                                                                                    |                     | 2025-04-23         |
+| [uTime-Landing-Page](https://github.com/UPC-PaxTech/uTime-Landing-Page) | develop                     | ff54845   | Merge branch 'feature/about-us' into develop                                                                            |                     | 2025-04-23         |
+| [uTime-Landing-Page](https://github.com/UPC-PaxTech/uTime-Landing-Page) | develop                     | ca87558   | Merge branch 'develop' of https://github.com/UPC-PaxTech/uTime-Landing-Page into develop                                |                     | 2025-04-23         |
+| [uTime-Landing-Page](https://github.com/UPC-PaxTech/uTime-Landing-Page) | feature/about-us            | ff54845   | fix: navbar problems                                                                                                    |                     | 2025-04-23         |
+| [uTime-Landing-Page](https://github.com/UPC-PaxTech/uTime-Landing-Page) | feature/about-us            | 7e2b31d   | docs: add information about us and pictures                                                                             |                     | 2025-04-23         |
+| [uTime-Landing-Page](https://github.com/UPC-PaxTech/uTime-Landing-Page) | feature/about-us            | 94ac446   | docs: add about us title                                                                                                |                     | 2025-04-23         |
+| [uTime-Landing-Page](https://github.com/UPC-PaxTech/uTime-Landing-Page) | develop                     | eaf0fe8   | Merge branch 'feature/pricing' into develop                                                                             |                     | 2025-04-23         |
+| [uTime-Landing-Page](https://github.com/UPC-PaxTech/uTime-Landing-Page) | develop                     | 322e655   | feat: added menu links                                                                                                  |                     | 2025-04-23         |
+| [uTime-Landing-Page](https://github.com/UPC-PaxTech/uTime-Landing-Page) | develop                     | ce7f899   | fix: link                                                                                                               |                     | 2025-04-23         |
+| [uTime-Landing-Page](https://github.com/UPC-PaxTech/uTime-Landing-Page) | develop                     | a044329   | feat: pricing types                                                                                                     |                     | 2025-04-23         |
+| [uTime-Landing-Page](https://github.com/UPC-PaxTech/uTime-Landing-Page) | develop                     | 497162a   | feat: added pricing                                                                                                     |                     | 2025-04-23         |
+| [uTime-Landing-Page](https://github.com/UPC-PaxTech/uTime-Landing-Page) | main                        | 30a2899   | feat: index cards                                                                                                       |                     | 2025-04-23         |
+| [uTime-Landing-Page](https://github.com/UPC-PaxTech/uTime-Landing-Page) | main                        | ea2c6fe   | chore: create initial structure for landing page with docs folder, index.html, style.css, and img directory             |                     | 2025-04-23         |
+| [uTime-Landing-Page](https://github.com/UPC-PaxTech/uTime-Landing-Page) | main                        | ecf933f   | feat: added card                                                                                                        |                     | 2025-04-23         |
+| [uTime-Landing-Page](https://github.com/UPC-PaxTech/uTime-Landing-Page) | main                        | 0cfc832   | feat: bootstrap initialized                                                                                             |                     | 2025-04-23         |
+| [uTime-Landing-Page](https://github.com/UPC-PaxTech/uTime-Landing-Page) | main                        | 188f3e4   | chore: create initial structure for landing page with docs folder, index.html, style.css, and img directory             |                     | 2025-04-22         |
+| [uTime-Landing-Page](https://github.com/UPC-PaxTech/uTime-Landing-Page) | main                        | 9ca95fb   | Initial commit                                                                                                          |                     | 2025-04-22         |
 
 #### 5.2.1.5. Execution Evidence for Sprint Review.
 
 En el Sprint 1 se alcanzó un desarrollo parcial en la implementación del despliegue de la landing page. La cual muestra diferentes secciones donde el usuario puede encontrar información relevante acerca del producto y del start up. A continuación se muestra algunas evidencias.
 
 1. **Sección Home:** La sección principal, el usuario al ingresar a nuestra landing page sera esta sección lo primero que podrá visualizar. 
+![Home](img/home.png)
 2. **Sección de Planes:** En esta sección, el usuario puede visualizar e interactuar con los diferentes planes que ofrecemos.
+![Planes](img/planes.png)  
 3. **Sección de Contacto:** En la sección de contacto el usuario puede introducir su información para que la empresa se ponga en contacto con ellos.
-4. **Sección About us:** En esta sección, el usuario podrá visualizar información sobre la startup creadora del producto **uTime** y los miembros de la startup. 
+![Contacto](img/contacto.png)
+4. **Seccion de Registro:** En esta sección, el usuario podrá registrarse como cliente o como salón/barbería.
+![Registro](img/registro.png)
+5. **Sección de Inicio de sesión:** En esta sección, el usuario podrá iniciar sesión en su cuenta de uTime.
+![InicioSesion](img/inicioSesion.png)
+
+1. **Sección About us:** En esta sección, el usuario podrá visualizar información sobre la startup creadora del producto **uTime** y los miembros de la startup. 
+![AboutUs](img/aboutus.png)
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review.
 
