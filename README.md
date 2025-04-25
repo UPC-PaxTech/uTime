@@ -1350,9 +1350,17 @@ La plataforma está pensada para brindar una experiencia visual sofisticada y fu
 ### 4.1.1. General Style Guidelines.
 El branding de uTime es el núcleo de su identidad visual, diseñado para transmitir profesionalismo, modernidad y accesibilidad. La marca representa la fusión entre tecnología y bienestar, ofreciendo una experiencia elegante tanto para salones de belleza como para sus clientes. A través de una estética limpia, neutra y equilibrada, uTime busca establecer una conexión de confianza y eficiencia. Los elementos visuales —logo, tipografía y paleta de colores— reflejan organización, claridad y cuidado, capturando la esencia de un servicio puntual, estilizado y personalizado. El sistema visual está cuidadosamente alineado con el mundo de la belleza, sin perder su enfoque en la simplicidad y funcionalidad, generando una experiencia coherente y agradable.
 #### 4.1.1.1. Tipografía
+<div align="center">
+<img src="img/tipografia.png" alt="tipografia" width="600" />
+</div>
 La elección tipográfica de uTime es fundamental para reflejar la personalidad moderna, profesional y accesible de la marca. Se ha optado por un sistema tipográfico limpio, claro y versátil, que transmite orden, puntualidad y estilo, cualidades esenciales dentro del mundo de la belleza y la gestión. Esta combinación proporciona una experiencia visual coherente tanto para usuarios como para profesionales, manteniendo legibilidad en todos los tamaños de pantalla.
+
 ##### 4.1.1.1.1. Tipografía del logo
+<div align="center">
+<img src="img/logoutime.png" alt="tipografia" width="500" />
+</div>
 Para el logotipo de uTime se ha utilizado Roboto SemiBold, una tipografía sans-serif moderna y equilibrada que combina líneas limpias con una presencia firme. Su estructura geométrica le otorga un aspecto tecnológico y contemporáneo, mientras que el grosor "SemiBold" aporta fuerza visual sin perder elegancia. Esta elección representa la seriedad y confiabilidad del sistema, a la vez que proyecta una marca sólida, accesible y con visión a futuro.
+
 ##### 4.1.1.1.2. Tipografía del texto regular
 Para el cuerpo de texto, títulos, botones y elementos de navegación, se ha seleccionado Poppins, una tipografía sans-serif geométrica que destaca por su legibilidad, suavidad y estilo actual. Se utiliza en sus distintas variaciones de peso —Light, Regular, Medium, SemiBold y Bold— según el contexto:
 * **Poppins Light:** textos secundarios o de apoyo.
@@ -1361,8 +1369,23 @@ Para el cuerpo de texto, títulos, botones y elementos de navegación, se ha sel
 * **Poppins Bold:** encabezados importantes o elementos que requieren mayor énfasis visual.
 Esta versatilidad permite jerarquías claras y coherentes en todas las interfaces, alineándose con la estética pulida y funcional de uTime.
 #### 4.1.1.2. Colores
-#### 4.1.1.3. Espaciado
-#### 4.1.1.4. Iconografía
+<div align="center">
+<img src="img/paleta%20colores.png" alt="paleta_colores" width="600" />
+</div>
+
+La paleta de colores de uTime está cuidadosamente seleccionada para transmitir profesionalismo, modernidad y confianza, alineándose con el público objetivo del sector de la belleza y el bienestar.
+**Tonos principales (violetas y oscuros):**
+Los colores como el #B497F3 y #513A84 evocan creatividad, lujo y calma, atributos ideales para un entorno estético como los salones de belleza. El #2D3142, un tono oscuro sobrio, aporta contraste y elegancia, útil para reforzar la legibilidad y el enfoque profesional.
+* Color claro #F7F8FA:
+Se utiliza como fondo neutro y aireado para equilibrar los colores más saturados, manteniendo una apariencia limpia y moderna.
+**Paleta secundaria:**
+Complementa la paleta principal con tonos suaves y equilibrados como el #E8C7EF y el #BFAFAF, que añaden un toque femenino y acogedor, sin perder el estilo sobrio. Colores como el #B0B8C1 y el #3F3D56 ayudan a construir jerarquía visual sin sobrecargar el diseño.
+<p>Esta combinación de colores logra una experiencia visual armoniosa, elegante y tecnológica, ideal para una plataforma que busca destacar en el sector de servicios de belleza.</p>
+
+#### 4.1.1.3. Iconografía
+<div align="center">
+<img src="img/iconografia.png" alt="iconografia" width="600" />
+</div>
 La iconografía de uTime está diseñada para mantener una interfaz limpia, moderna y altamente intuitiva. Los íconos comunican de forma rápida y visual las funciones principales de la plataforma, lo que facilita la navegación tanto para clientes como para profesionales. Se utiliza un estilo lineal (outline) con trazos uniformes, redondeados y amigables, lo cual transmite una sensación de cercanía y profesionalismo, alineada con el tono general de la marca.
 Se han definido tres tamaños estándar de íconos, cada uno con su respectivo grosor de trazo (stroke), para adaptarse a diferentes jerarquías visuales dentro del producto:
 * **Íconos grandes:** 96 x 90 px con un trazo de 4 px. Usados en secciones destacadas como navegación principal o pantallas de bienvenida.
@@ -1370,7 +1393,7 @@ Se han definido tres tamaños estándar de íconos, cada uno con su respectivo g
 * **Íconos pequeños:** 32 x 30 px con un trazo de 2 px. Ideales para botones de acción, menús desplegables o elementos en listas.
 Además del ícono base (hogar), se ha desarrollado una biblioteca de íconos adicionales que incluyen representaciones claras de funciones comunes en la plataforma, como agendamiento, pagos, perfil, servicios, notificaciones y redes sociales. Esta colección asegura consistencia visual en todas las plataformas, permitiendo escalabilidad y rápida comprensión sin sacrificar estética.
 Todos los íconos mantienen proporciones balanceadas y utilizan un sistema de grid para asegurar coherencia en su diseño y alineación en interfaces tanto web como móviles.
-#### 4.1.1.5. Tono de comunicación y lenguaje aplicado
+#### 4.1.1.4. Tono de comunicación y lenguaje aplicado
 El tono de uTime es cercano, claro y profesional. Busca conectar tanto con los salones de belleza como con sus clientes, transmitiendo confianza, facilidad y modernidad. La comunicación evita tecnicismos, optando por un lenguaje directo, positivo y accesible. Para los clientes, se prioriza la comodidad y simplicidad con frases como “Tu cita, a tu ritmo” o “Agenda en segundos”. Para los salones, el enfoque es práctico y enfocado en crecimiento, con mensajes como “Optimiza tu agenda” o “Haz crecer tu negocio”. <br>
 El tono se adapta según el contexto: amigable en bienvenidas, eficiente en formularios y proactivo en notificaciones. Se evita el uso excesivo de mayúsculas o jergas, manteniendo siempre una voz coherente, profesional y empática. Este tono homogéneo y accesible permite que uTime mantenga una identidad sólida y reconocible, acompañando a los usuarios desde el primer contacto hasta su uso cotidiano, sin fricciones ni confusiones.
 ### 4.1.2. Web Style Guidelines.
@@ -1453,7 +1476,7 @@ Canonical Tag: Este tag especifica la URL canónica de la página para evitar pr
 <link rel="canonical" href="https://www.uTime.com/">
 ```
 ### 4.2.4. Searching Systems.
-
+El sistema de búsqueda de uTime está diseñado para ofrecer una experiencia rápida, intuitiva y precisa tanto para los clientes como para los administradores de salones. A través de una barra de búsqueda ubicada en la parte superior de la interfaz, los usuarios pueden filtrar y encontrar fácilmente servicios, estilistas o salones según sus necesidades. El sistema admite búsquedas por palabras clave, como el tipo de servicio (ej. "corte de cabello", "alisado", "manicure"), nombre del estilista o incluso fechas disponibles. Además, puede complementarse con filtros avanzados, como ubicación, rango de precios, calificaciones o disponibilidad horaria, lo que permite a los usuarios personalizar su experiencia y encontrar rápidamente la mejor opción disponible. Esta funcionalidad mejora la eficiencia de la plataforma y contribuye a una mejor experiencia del cliente al reducir el tiempo de búsqueda y facilitar la toma de decisiones.
 ### 4.2.5. Navigation Systems.
 <p>En uTime, los sistemas de navegación han sido diseñados para ofrecer una experiencia intuitiva y fluida, guiando a los usuarios a través de la plataforma de forma clara y eficiente. Desde la landing page hasta las diferentes áreas internas de la aplicación, cada elemento de navegación ha sido pensado para facilitar la interacción y ayudar a los usuarios a alcanzar sus objetivos sin fricciones.</p>
 <p>Uno de los principales componentes de navegación en uTime es el menú lateral, ubicado en la parte izquierda de la interfaz. Este menú actúa como eje central de navegación, brindando accesos directos a las secciones clave de la plataforma. Para los clientes, estas secciones incluyen citas, favoritos y perfil, mientras que para los salones se extienden a servicios, suscripciones, reseñas, configuraciones y más. Esta estructura lateral asegura que los usuarios puedan explorar rápidamente las funcionalidades que necesitan, manteniendo la coherencia visual y la facilidad de uso en todo momento.</p>
@@ -1769,6 +1792,19 @@ La sección Notifications en la interfaz de salones de uTime centraliza todas la
 La sección Profile en la interfaz de salones de uTime permite personalizar y gestionar la identidad visual del negocio dentro de la plataforma. Desde aquí, los administradores pueden editar la imagen de portada y la foto de perfil del salón para reflejar su estilo y profesionalismo. También tienen la opción de actualizar su portafolio con imágenes de trabajos recientes, mostrando los servicios ofrecidos y resultados destacados. Además, se presenta una sección de recent reviews, donde se visualizan las últimas reseñas recibidas por los clientes, brindando una muestra pública de la reputación y calidad del servicio. Esta sección es clave para transmitir confianza y atraer a nuevos usuarios.
 
 ### 4.4.2. Web Applications Wireflow Diagrams.
+**Segmento objetivo #1: Salones de belleza y barberías**
+* **User Goal:** Como propietario de un salón, quiero gestionar las reservas de clientes de manera eficiente para optimizar mi tiempo y brindar un buen servicio.
+* Task flow: 
+<div align="center">
+<img src="img/wireflow1.jpeg" alt="wireflow_salones" width="450" />
+</div>
+
+**Segmento objetivo #1: Clientes de servicios de belleza**
+* **User Goal:** Como cliente de un salón, quiero agendar mi cita rápidamente con mi estilista de confianza para asegurarme de ser atendido a tiempo.
+* Task flow:
+<div align="center">
+<img src="img/wireflow2.jpeg" alt="wireflow_clientes" width="450" />
+</div>
 
 ### 4.4.2. Web Applications Mock-ups.
 
@@ -1832,9 +1868,11 @@ La sección Profile en la interfaz de salones de uTime permite personalizar y ge
 <img src="img/muw34.png" alt="web_applications_mock-up" width="600" />
 </div>
 
-### 4.4.3. Web Applications User Flow Diagrams.
-
 ## 4.5. Web Applications Prototyping.
+
+Web Applications Prototyping web view: *[Web Applications Prototyping](https://www.figma.com/proto/2RXg2e7OWrAbqYfNcw2EVP/UTIME?node-id=159-4024&t=7a0gTd0f0bacMsU5-1)*
+
+Web Applications Prototyping web view: *[Web Applications Prototyping](https://www.figma.com/proto/2RXg2e7OWrAbqYfNcw2EVP/UTIME?node-id=160-7176&t=7a0gTd0f0bacMsU5-1)*
 
 ## 4.6. Domain-Driven Software Architecture.
 
