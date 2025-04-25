@@ -2293,14 +2293,14 @@ En el Sprint 1 se alcanzó un desarrollo parcial en la implementación del despl
 2. **Sección de Planes:** En esta sección, el usuario puede visualizar e interactuar con los diferentes planes que ofrecemos.
 ![Planes](img/planes.png)  
 3. **Sección de Contacto:** En la sección de contacto el usuario puede introducir su información para que la empresa se ponga en contacto con ellos.
-![Contacto](img/contacto.png)
+![Contacto](img/contact-us.png)
 4. **Seccion de Registro:** En esta sección, el usuario podrá registrarse como cliente o como salón/barbería.
-![Registro](img/registro.png)
+![Registro](img/register.png)
 5. **Sección de Inicio de sesión:** En esta sección, el usuario podrá iniciar sesión en su cuenta de uTime.
-![InicioSesion](img/inicioSesion.png)
+![InicioSesion](img/sign-in.png)
 
 1. **Sección About us:** En esta sección, el usuario podrá visualizar información sobre la startup creadora del producto **uTime** y los miembros de la startup. 
-![AboutUs](img/aboutus.png)
+![AboutUs](img/about-us.png)
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review.
 
