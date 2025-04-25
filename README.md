@@ -1006,16 +1006,16 @@ María Ysabel Sosa Rodríguez, de 45 años, es dueña de un salón de belleza y 
 
 #### Datos del Entrevistado #2
 
-- **Nombre completo:** Doris Yolanda Sotero
+- **Nombre completo:** Doris Yolanda Tello
 - **Segmento Objetivo:** Clientes de servicio de belleza
-- **Edad:** 
-- **Distrito:** 
+- **Edad:** 60
+- **Distrito:** La Molina
 - **Screenshot del cuadro de video:** *![interview_2.jpeg](img/entrevista2s2.png)*
 - **URL del video (Microsoft Stream):** *[Entrevista 02](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202312504_upc_edu_pe/Eb0_dXIIVztGj7h_-J6z6IIBxfjUUU4WJPM7v3x5BmOlNA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=TzxLwv)*
 - **Inicio de la entrevista:** 23:34 minutos
 - **Duración:** 33:54 minutos
 
-**Resumen:** 
+**Resumen:** Doris Tello visita el salón de belleza una vez al mes para realizarse una tinturacion de cabello y manicure. Prefiere agendar las citas por WhatsApp o por llamada y usualmente paga por aplicativos como yape o transferencia bancaria. Menciona que no ha utilizado una plataforma especial para sus reservas en salones. Menciona que le parece muy importante la amabilidad del servicio además de que le ofrezcan bocaditos en el salón y le gustaría recibir recordatorios de sus reservaciones. Le parece importante que los salones tengan redes sociales debido a que usualmente suelen hacer ofertas en sus publicaciones
 
 #### Datos del Entrevistado #3
 
