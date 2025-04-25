@@ -1396,8 +1396,24 @@ Todos los íconos mantienen proporciones balanceadas y utilizan un sistema de gr
 #### 4.1.1.4. Tono de comunicación y lenguaje aplicado
 El tono de uTime es cercano, claro y profesional. Busca conectar tanto con los salones de belleza como con sus clientes, transmitiendo confianza, facilidad y modernidad. La comunicación evita tecnicismos, optando por un lenguaje directo, positivo y accesible. Para los clientes, se prioriza la comodidad y simplicidad con frases como “Tu cita, a tu ritmo” o “Agenda en segundos”. Para los salones, el enfoque es práctico y enfocado en crecimiento, con mensajes como “Optimiza tu agenda” o “Haz crecer tu negocio”. <br>
 El tono se adapta según el contexto: amigable en bienvenidas, eficiente en formularios y proactivo en notificaciones. Se evita el uso excesivo de mayúsculas o jergas, manteniendo siempre una voz coherente, profesional y empática. Este tono homogéneo y accesible permite que uTime mantenga una identidad sólida y reconocible, acompañando a los usuarios desde el primer contacto hasta su uso cotidiano, sin fricciones ni confusiones.
-### 4.1.2. Web Style Guidelines.
 
+### 4.1.2 Web Style Guidelines.
+La experiencia web de uTime ha sido diseñada con un enfoque centrado en la funcionalidad, la estética moderna y la facilidad de uso para salones de belleza y sus clientes. La interfaz prioriza la claridad visual mediante una estructura bien jerarquizada, con menús laterales intuitivos, navegación fluida y componentes accesibles. Se hace uso de botones destacados, íconos representativos y etiquetas claras para facilitar la interacción. Cada sección del sistema —desde el panel de citas hasta el perfil del salón— mantiene coherencia gráfica, asegurando una navegación sin fricciones. Además, se emplea un diseño responsive que adapta automáticamente los elementos a diferentes tamaños de pantalla, garantizando una experiencia óptima tanto en desktop como en laptops. En conjunto, las Web Style Guidelines de uTime buscan crear una plataforma visualmente consistente, profesional y centrada en el usuario, optimizada para el entorno digital de los salones de belleza.
+
+Estructura de navegación
+La estructura de navegación en uTime está diseñada para ofrecer un acceso rápido y organizado a las funcionalidades clave de la plataforma. Tanto en la interfaz para salones como para clientes, se emplea un menú lateral fijo que facilita el desplazamiento entre secciones sin perder contexto. Este menú incluye íconos y etiquetas breves para reforzar la claridad. Además, se integran breadcrumbs (rutas de navegación) y botones de retroceso en secciones profundas para mantener siempre visible el camino recorrido. En todo momento, la navegación promueve una experiencia intuitiva y eficiente.
+
+Jerarquía visual
+uTime establece una jerarquía visual clara, permitiendo que los usuarios identifiquen con facilidad las áreas prioritarias de la interfaz. Los títulos de sección son destacados mediante mayor tamaño y peso tipográfico, mientras que las acciones principales se resaltan con botones contrastantes. El uso del color también cumple un rol funcional, diferenciando estados (activos, pendientes, completados) y reforzando la percepción de orden. Esta jerarquía permite que tanto usuarios frecuentes como nuevos comprendan la organización del sistema de forma inmediata.
+
+Componentes de interfaz
+La plataforma emplea componentes reutilizables y visualmente coherentes como cards, inputs, botones, modales y tablas para estructurar la información. Estos elementos siguen un diseño minimalista pero funcional, asegurando legibilidad y accesibilidad. Los botones poseen distintos estilos según su función (primarios, secundarios, de alerta), mientras que las tablas y calendarios utilizan espaciado adecuado para evitar saturación visual. Cada componente responde a estados como hover, seleccionado o inactivo, ofreciendo retroalimentación visual al usuario.
+
+Responsive design
+El diseño web de uTime se adapta fluidamente a diferentes dispositivos, garantizando una experiencia consistente tanto en pantallas grandes como medianas. Se han implementado layouts responsivos con grids flexibles que reorganizan los elementos de forma eficiente según el ancho de pantalla. En versiones más compactas, los menús laterales se transforman en menús desplegables o íconos flotantes, manteniendo el acceso a todas las funciones sin comprometer la usabilidad. Esta adaptabilidad es clave para salones que gestionan sus citas desde distintos tipos de dispositivos.
+
+Accesibilidad y claridad
+uTime ha sido diseñado pensando en la claridad visual y la inclusión. El contraste entre texto y fondo ha sido cuidadosamente seleccionado para asegurar una lectura cómoda, incluso en entornos de baja luz. Los íconos cuentan con etiquetas o tooltips para reforzar su significado, y los campos de formulario están acompañados de indicaciones breves y legibles. La plataforma busca minimizar la curva de aprendizaje y maximizar la eficiencia de cada acción.
 ## 4.2. Information Architecture.
 
 ### 4.2.1. Organization Systems.
