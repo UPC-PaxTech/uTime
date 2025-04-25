@@ -1073,10 +1073,10 @@ María Ysabel Sosa Rodríguez, de 45 años, es dueña de un salón de belleza y 
    - Características Objetivas:
 
       - Demografía:
-         + Jóvenes universitarias de 20 años. (100% de las entrevistadas)
+         + Jóvenes universitarias de 20 a 60 años.
          + Residentes en áreas urbanas (Cercado de Lima). (50% de las entrevistadas)
       - Comportamiento de Consumo:
-         + Visitan salones de belleza aproximadamente una vez al mes. (100% de las entrevistadas)
+         + Visitan salones de belleza aproximadamente una vez al mes. (100% de los entrevistados)
          + Servicios más frecuentes: manicura, corte de cabello, tratamientos capilares, depilación de cejas y mascarillas faciales.
       - Preferencias de Comunicación y Pago:
          + Prefieren agendar citas y recibir recordatorios/promociones vía WhatsApp y redes sociales. (100% de las entrevistadas)
@@ -2377,7 +2377,7 @@ Telefónica. (2022). La digitalización de las empresas repercute hasta un 25% e
 # Anexos
 
 **Anexo A:**<br>
-URL del Needfinding Interviews:
+URL del Needfinding Interviews: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202312504_upc_edu_pe/Eb0_dXIIVztGj7h_-J6z6IIBxfjUUU4WJPM7v3x5BmOlNA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=TzxLwv
 
 **Anexo B:**<br>
-URL del Prototypes Navigation / Product Navigation::
+URL del Prototypes Navigation / Product Navigation: https://www.figma.com/design/2RXg2e7OWrAbqYfNcw2EVP/UTIME?node-id=0-1&t=NPXJtI3GloAbxeeU-1
