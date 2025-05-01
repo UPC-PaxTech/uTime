@@ -1,22 +1,23 @@
-<div align="center">
+# <center>Informe del Trabajo Final</center>
+<br>
 
-# Informe del Trabajo Final
+<center><b>Universidad Peruana de Ciencias Aplicadas</center>
+<br>
+<center><img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png" alt="Logo UPC"></center>
+<br>
+<center><b>Ingeniería de software</b></center>
+<br>
 
-**Universidad Peruana de Ciencias Aplicadas**
-
-<img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png" alt="Logo UPC">
-
-**Ingeniería de software**
-
-**1ASI0729 Desarrollo de Aplicaciones Open Source**
-
-**Sección:** 4304
-
-**Profesor:** Bautista Ubillús, Efraín Ricardo
-
-**Nombre del StartUp:** PaxTech
-
-**Nombre del Producto:** uTime
+<center><b>1ASI0729 Desarrollo de Aplicaciones Open Source</b></center>
+<br>
+<center><b>Sección:</b> 4304</center>
+<br>
+<center><b>Profesor:</b> Bautista Ubillús, Efraín Ricardo</center>
+<br>
+<center><b>Nombre del StartUp:</b> PaxTech</center>
+<br>
+<center><b>Nombre del Producto:</b> uTime</center>
+<br>
 
 
 | Nombre                              | Código    |
@@ -27,7 +28,9 @@
 | Yalán Zhang, Angie Christina       | U202312504 |
 | Yum Gonzales, Jorge Suin            | U202210838 |
 
-**Ciclo 2025-01**
+<br>
+<center><b>Ciclo 2025-01<b></b></center>
+<br>
 
 # Registro de Versiones del Informe
 
@@ -2029,7 +2032,7 @@ El proyecto seguirá las convenciones de flujo de trabajo establecidas por el mo
 
 **Repositorios de GitHub:**
 
-- Enlace para acceder a la organización de GitHub: https://github.com/UPC-PaxTech
+- Enlace para acceder a la organización de GitHub: https://github.com/PaxTech-UPC
 - Enlace para acceder a repositorio de la Landing Page: https://github.com/PaxTech-UPC/uTime-Landing-Page
 
 **Flujo de trabajo GitFlow:** El flujo a utilizar para le desarrollo del proyecto fue el planteado por Vicent Driessen en "A successful Git branching model".
