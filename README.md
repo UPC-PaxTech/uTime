@@ -1,36 +1,82 @@
+<div align="center">
+   <div>
+
 # <center>Informe del Trabajo Final</center>
-<br>
 
-<center><b>Universidad Peruana de Ciencias Aplicadas</center>
-<br>
-<center><img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png" alt="Logo UPC"></center>
-<br>
-<center><b>Ingeniería de software</b></center>
-<br>
+   <br>
 
-<center><b>1ASI0729 Desarrollo de Aplicaciones Open Source</b></center>
-<br>
-<center><b>Sección:</b> 4304</center>
-<br>
-<center><b>Profesor:</b> Bautista Ubillús, Efraín Ricardo</center>
-<br>
-<center><b>Nombre del StartUp:</b> PaxTech</center>
-<br>
-<center><b>Nombre del Producto:</b> uTime</center>
-<br>
+   <center>Universidad Peruana de Ciencias Aplicadas</center>
+
+   <br>
+
+   <center><img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png" alt="Logo UPC"></center>
+
+   <br>
+
+   <center><b>Ingeniería de software</b></center>
+
+   <br>
+
+   <center><b>1ASI0729 Desarrollo de Aplicaciones Open Source</b></center>
+
+   <br>
+
+   <center><b>Sección:</b> 4304</center>
+
+   <br>
+
+   <center><b>Profesor:</b> Bautista Ubillús, Efraín Ricardo</center>
+
+   <br>
+
+   <center><b>Nombre del StartUp:</b> PaxTech</center>
+
+   <br>
 
 
-| Nombre                              | Código    |
-| ----------------------------------- | ---------- |
-| Chi Cruzatt, Kevin Jorge            | U202313655 |
-| Rivera Sosa, Eduardo Gael           | U202312222 |
-| Varela Bustinza, Marcelo Alessandro | U202319668 |
-| Yalán Zhang, Angie Christina       | U202312504 |
-| Yum Gonzales, Jorge Suin            | U202210838 |
+   <center><b>Nombre del Producto:</b> uTime</center>
 
-<br>
-<center><b>Ciclo 2025-01<b></b></center>
-<br>
+   </div>
+
+   <br>
+
+   <div align="center">
+
+   <table style="margin-left: auto; margin-right: auto;">
+   <tr>
+   <th>Nombre</th>
+   <th>Código</th>
+   </tr>
+   <tr>
+   <td>Chi Cruzatt, Kevin Jorge</td>
+   <td>U202313655</td>
+   </tr>
+   <tr>
+   <td>Rivera Sosa, Eduardo Gael</td>
+   <td>U202312222</td>
+   </tr>
+   <tr>
+   <td>Varela Bustinza, Marcelo Alessandro</td>
+   <td>U202319668</td>
+   </tr>
+   <tr>
+   <td>Yalán Zhang, Angie Christina</td>
+   <td>U202312504</td>
+   </tr>
+   <tr>
+   <td>Yum Gonzales, Jorge Suin </td>
+   <td>U202210838</td>
+   </tr>
+   </table>
+   </div>
+
+   <br>
+
+   <center><b>Ciclo 2025-01</b></center>
+
+   <br>
+
+</div>
 
 # Registro de Versiones del Informe
 
