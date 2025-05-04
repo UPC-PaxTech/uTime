@@ -2621,6 +2621,8 @@ Videoconferencia, reuniones, llamadas | MicrosoftTeams. (2025). https://www.micr
 
 Build software better, together. (2025). GitHub. https://github.com/about
 
+Gothelf, J., Seiden, J., & Ries, E. (2014). Lean UX: cómo aplicar los principios Lean a la mejora de la experiencia de usuario. https://reunir.unir.net/handle/123456789/4506 
+
 </div>
 
 # Anexos
