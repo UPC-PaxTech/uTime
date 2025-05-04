@@ -2611,6 +2611,8 @@ Expo Belleza Fest. (2016). Más del 60% de los estilistas en México trabajan de
 
 Telefónica. (2022). La digitalización de las empresas repercute hasta un 25% en su productividad. https://www.telefonica.com/es/sala-comunicacion/blog/la-digitalizacion-de-las-empresas-repercute-hasta-un-25-en-su-productividad/
 
+What is Figma? (2019). Figma Learn - Help Center. https://help.figma.com/hc/en-us/articles/14563969806359-What-is-Figma
+
 </div>
 
 # Anexos
