@@ -2619,6 +2619,8 @@ Lucidchart | Diagramas creados con inteligencia. (2025). Lucidchart. https://www
 
 Videoconferencia, reuniones, llamadas | MicrosoftTeams. (2025). https://www.microsoft.com/es-es/microsoft-teams/group-chat-software
 
+Build software better, together. (2025). GitHub. https://github.com/about
+
 </div>
 
 # Anexos
