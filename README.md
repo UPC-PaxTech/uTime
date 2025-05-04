@@ -2613,6 +2613,8 @@ Telefónica. (2022). La digitalización de las empresas repercute hasta un 25% e
 
 What is Figma? (2019). Figma Learn - Help Center. https://help.figma.com/hc/en-us/articles/14563969806359-What-is-Figma
 
+Structurizr. (2025). https://structurizr.com/ 
+
 </div>
 
 # Anexos
