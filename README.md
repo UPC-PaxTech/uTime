@@ -2626,6 +2626,8 @@ Gothelf, J., Seiden, J., & Ries, E. (2014). Lean UX: cómo aplicar los principio
 
 Hunter-Zinck, H., De Siqueira, A. F., Vásquez, V. N., Barnes, R., & Martinez, C. C. (2021). Ten simple rules on writing clean and reliable open-source scientific software. PLoS Computational Biology, 17(11), e1009481. https://doi.org/10.1371/journal.pcbi.1009481
 
+Domain-Driven Design for Microservices: An Evidence-Based Investigation. (2024). IEEE Journals & Magazine | IEEE Xplore. https://ieeexplore.ieee.org/abstract/document/10495888 
+
 </div>
 
 # Anexos
