@@ -2632,8 +2632,26 @@ Domain-Driven Design for Microservices: An Evidence-Based Investigation. (2024).
 
 # Anexos
 
-**Anexo A:**<br>
+**Repositorio en GitHub - uTime (PaxTech):**<br>
+https://github.com/UPC-PaxTech/uTime/
+
+**Herramientas y Recursos Utilizados:**<br>
 URL del Needfinding Interviews: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202312504_upc_edu_pe/Eb0_dXIIVztGj7h_-J6z6IIBxfjUUU4WJPM7v3x5BmOlNA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=TzxLwv
 
-**Anexo B:**<br>
 URL del Prototypes Navigation / Product Navigation: https://www.figma.com/design/2RXg2e7OWrAbqYfNcw2EVP/UTIME?node-id=0-1&t=NPXJtI3GloAbxeeU-1
+
+URL del Structurizr DSL para arquitectura C4: <kevin chi debe ponerlo>
+
+URL del Sprint backlog: https://trello.com/invite/b/68097c416c01112f478fcd49/ATTIce689cd7d2ceabb0f986544f256268e63E38CDCA/utime-sprin
+
+**Cuentas de GitHub de los Integrantes:**<br>
+
+Kevin Chi – @Krillsom
+
+Gael Rivera – @gael-rs
+
+Marcelo Varela – @VarBus
+
+Angie Yalán – @aaaaangie
+
+Jorge Yum – @myussu
