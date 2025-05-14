@@ -2695,7 +2695,274 @@ Para este Sprint, se han identificado los principales aspectos del frontend web 
 
 En el segundo sprint backlog, el equipo tuvo la intención de comenzar y completar el desarrollo del frontend de la aplicación web, tanto para el rol de cliente como de proveedor. La herramienta utilizada para organizar y gestionar las tareas del equipo continuó siendo Trello, permitiendo dividir las user stories en tareas manejables y asignarlas a los miembros según sus habilidades específicas. El objetivo principal del sprint fue implementar las funcionalidades clave de ambos roles, asegurando una interfaz intuitiva, responsiva y funcional utilizando Angular y Angular Material.
 
+<table border="1" cellspacing="0" cellpadding="5">
+   <tr>
+      <td colspan="2" align="center"><b>Sprint #</b></td>
+      <td colspan="6" align="center"><b>Sprint 1</b></td>
+   </tr>
+   <tr>
+      <td colspan="2"><b>User Story</b></td>
+      <td colspan="6" align="center"><b>Work-Item/Task</b></td>
+   </tr>
+   <tr>
+      <td><b>Id</b></td>
+      <td><b>Title</b></td>
+      <td><b>Id</b></td>
+      <td><b>Title</b></td>
+      <td><b>Description</b></td>
+      <td><b>Estimation (Hours)</b></td>
+      <td><b>Assigned To</b></td>
+      <td><b>Status (To-do/In-Process/To-Review/Done)</b></td>
+   </tr>
+   <tr>
+      <td rowspan="3">US17</td>
+      <td rowspan="3">Selección de salón</td>
+      <td>T1</td>
+      <td>Diseño de interfaz de selección</td>
+      <td>Diseñar una interfaz para que el cliente pueda buscar y seleccionar un salón de belleza o barbería.</td>
+      <td>3</td>
+      <td>Gael Rivera</td>
+      <td>Done</td>
+   </tr>
+   <tr>
+      <td>T2</td>
+      <td>Implementación de búsqueda</td>
+      <td>Implementar funcionalidad de búsqueda de salones por nombre, ubicación o categoría.</td>
+      <td>4</td>
+      <td>Marcelo Varela</td>
+      <td>In-Process</td>
+   </tr>
+   <tr>
+      <td>T3</td>
+      <td>Pruebas de selección</td>
+      <td>Realizar pruebas para asegurar que el cliente pueda seleccionar correctamente un salón.</td>
+      <td>2</td>
+      <td>Jorge Yun</td>
+      <td>Done</td>
+   </tr>
+   <tr>
+      <td rowspan="3">TS09</td>
+      <td rowspan="3">Crear endpoint para agendar citas</td>
+      <td>T1</td>
+      <td>Diseño de la estructura de datos</td>
+      <td>Definir el modelo de datos necesario para crear una cita (cliente, salón, fecha, hora, servicio).</td>
+      <td>3</td>
+      <td>Angie Yalán</td>
+      <td>Done</td>
+   </tr>
+   <tr>
+      <td rowspan="3">US18</td>
+      <td rowspan="3">Creación de citas</td>
+      <td>T1</td>
+      <td>Interfaz de selección de fecha y hora</td>
+      <td>Diseñar e implementar la interfaz para que el cliente seleccione fecha y hora disponibles.</td>
+      <td>3</td>
+      <td>Kevin Chi</td>
+      <td>Done</td>
+   </tr>
+   <tr>
+      <td>T2</td>
+      <td>Validación de disponibilidad</td>
+      <td>Verificar que el horario elegido esté disponible antes de agendar la cita.</td>
+      <td>2</td>
+      <td>Marcelo Varela</td>
+      <td>Done</td>
+   </tr>
+   <tr>
+      <td rowspan="3">TS04</td>
+      <td rowspan="3">Actualización en tiempo real de horarios y citas</td>
+      <td>T1</td>
+      <td>Actualizar interfaz de horarios</td>
+      <td>Modificar la interfaz para reflejar los cambios de disponibilidad en tiempo real.</td>
+      <td>3</td>
+      <td>Gael Rivera</td>
+      <td>Done</td>
+   </tr>
+   <tr>
+      <td rowspan="3">US19</td>
+      <td rowspan="3">Visualización de citas agendadas</td>
+      <td>T1</td>
+      <td>Diseñar sección de citas</td>
+      <td>Diseñar la interfaz donde se mostrarán las citas agendadas del cliente.</td>
+      <td>3</td>
+      <td>Marcelo Varela</td>
+      <td>Done</td>
+   </tr>
+   <tr>
+      <td>T2</td>
+      <td>Desarrollar componente de citas</td>
+      <td>Implementar el componente que muestra las citas futuras con fecha, hora y ubicación.</td>
+      <td>4</td>
+      <td>Angie Yalan</td>
+      <td>Done</td>
+   </tr>
+   <tr>
+      <td>T1</td>
+      <td>Crear endpoint GET /horarios</td>
+      <td>Desarrollar el endpoint que retorna los horarios disponibles del salón.</td>
+      <td>3</td>
+      <td>Jorge Yun</td>
+      <td>In-Process</td>
+   </tr>
+   <tr>
+      <td rowspan="3">US22</td>
+      <td rowspan="3">Administración de servicios ofrecidos</td>
+      <td>T1</td>
+      <td>Diseño de formulario</td>
+      <td>Crear diseño para agregar, editar o eliminar servicios.</td>
+      <td>2</td>
+      <td>Kevin Chi</td>
+      <td>Done</td>
+   </tr>
+   <tr>
+      <td>T2</td>
+      <td>Implementación del formulario</td>
+      <td>Desarrollar el formulario en el frontend para la gestión de servicios.</td>
+      <td>3</td>
+      <td>Angie Yalán</td>
+      <td>Done</td>
+   </tr>
+   <tr>
+      <td rowspan="3">US23</td>
+      <td rowspan="3">Gestión de trabajadores</td>
+      <td>T1</td>
+      <td>Diseño de interfaz para gestión de trabajadores</td>
+      <td>Diseñar una vista donde se puedan agregar y eliminar trabajadores.</td>
+      <td>2</td>
+      <td>Kevin Chi</td>
+      <td>Done</td>
+   </tr>
+   <tr>
+      <td rowspan="3">US10</td>
+      <td rowspan="3">Configuración de los horarios</td>
+      <td>T1</td>
+      <td>Diseño de interfaz para configuración de horarios</td>
+      <td>Diseñar la vista donde se configuren días y horas de atención por trabajador.</td>
+      <td>2</td>
+      <td>Kevin Chi</td>
+      <td>In-Profress</td>
+   </tr>
+   <tr>
+      <td>T3</td>
+      <td>Validación de horarios</td>
+      <td>Evitar que se ingresen horarios inválidos o superpuestos.</td>
+      <td>2</td>
+      <td>Gael Rivera</td>
+      <td>Done</td>
+   </tr>
+   <tr>
+      <td rowspan="3">US09</td>
+      <td rowspan="3">Visualización de los horarios</td>
+      <td>T1</td>
+      <td>Diseño de la interfaz de visualización</td>
+      <td>Crear un diseño claro y accesible para mostrar los horarios disponibles de cada trabajador.</td>
+      <td>2</td>
+      <td>Angie Yalán</td>
+      <td>Done</td>
+   </tr>
+   <tr>
+      <td>T3</td>
+      <td>Actualización dinámica</td>
+      <td>Permitir que los cambios en los horarios se reflejen automáticamente en la vista.</td>
+      <td>2</td>
+      <td>Jorge Yun</td>
+      <td>Done</td>
+   </tr>
+   <tr>
+      <td rowspan="3">US14</td>
+      <td rowspan="3">Contratación de plan de suscripción</td>
+      <td>T1</td>
+      <td>Diseño de la vista de planes</td>
+      <td>Diseñar una interfaz donde el usuario pueda ver y seleccionar un plan disponible.</td>
+      <td>2</td>
+      <td>Angie Yalán</td>
+      <td>Done</td>
+   </tr>
+   <tr>
+      <td>T2</td>
+      <td>Integración con sistema de pagos</td>
+      <td>Conectar el sistema con la pasarela de pagos para procesar la contratación del plan.</td>
+      <td>4</td>
+      <td>Kevin Chi</td>
+      <td>In-Process</td>
+   </tr>
+   <tr>
+      <td>T3</td>
+      <td>Actualización de estado de suscripción</td>
+      <td>Actualizar automáticamente el estado del usuario una vez realizada la compra del plan.</td>
+      <td>2</td>
+      <td>Marcelo Varela</td>
+      <td>Done</td>
+   </tr>
+   <tr>
+      <td rowspan="3">US05</td>
+      <td rowspan="3">Edición del perfil del cliente</td>
+      <td>T1</td>
+      <td>Diseño del formulario de edición</td>
+      <td>Diseñar la vista del formulario para modificar nombre, correo, contraseña, número, etc.</td>
+      <td>2</td>
+      <td>Angie Yán</td>
+      <td>Done</td>
+   </tr>
+   <tr>
+      <td>T2</td>
+      <td>Actualización del fake api</td>
+      <td>Actualizar los datos del cliente en el fake api cuando se envíen los cambios.</td>
+      <td>2</td>
+      <td>Jorge Yun</td>
+      <td>Done</td>
+   </tr>
+   <tr>
+      <td rowspan="2">US07</td>
+      <td rowspan="2">Cierre de sesión</td>
+      <td>T1</td>
+      <td>Implementación del botón "Cerrar sesión"</td>
+      <td>Agregar un botón visible en la interfaz para cerrar sesión del usuario.</td>
+      <td>1</td>
+      <td>Kevin Chi</td>
+      <td>Done</td>
+   </tr>
+ <tr>
+      <td rowspan="3">US01</td>
+      <td rowspan="3">Registro de un cliente</td>
+      <td>T1</td>
+      <td>Diseño del formulario de registro</td>
+      <td>Diseñar el formulario de registro con campos requeridos como nombre, correo y contraseña.</td>
+      <td>2</td>
+      <td>Angie Yalán</td>
+      <td>Done</td>
+   </tr>
+   <tr>
+      <td>T2</td>
+      <td>Implementación del formulario en frontend</td>
+      <td>Codificar el formulario de registro usando Angular/AngularMaterial.</td>
+      <td>2</td>
+      <td>Gael Rivera</td>
+      <td>Done</td>
+   </tr>
+   <tr>
+      <td rowspan="3">US02</td>
+      <td rowspan="3">Registro de un salón de belleza/barbería</td>
+      <td>T1</td>
+      <td>Diseño del formulario de registro de salón</td>
+      <td>Diseñar la interfaz con campos para registrar nombre del negocio, dirección, rubro y contacto.</td>
+      <td>2</td>
+      <td>Jorge Yun</td>
+      <td>Done</td>
+   </tr>
+   <tr>
+      <td>T2</td>
+      <td>Implementación frontend del formulario</td>
+      <td>Codificar el formulario para el registro del salón en la plataforma.</td>
+      <td>2</td>
+      <td>Kevin Chi</td>
+      <td>Done</td>
+   </tr>
+</table>
+
+
 ![Trello-Sprint-Backlog-2](img/Trello-Sprint-Backlog-2.jpg)
+
 
 Enlace para acceder al Trello: [Trello Sprint Backlog 2]()
 
@@ -2922,8 +3189,6 @@ git push origin gh-pages
 Entonces dentro de la configuración de GitHub Pages, se seleccionó la rama gh-pages como la rama de despliegue. De esta manera, la aplicación web está disponible en el siguiente enlace: https://upc-paxtech.github.io/Frontend-Web-Applications/
 
 #### 5.2.2.8.Team Collaboration Insights during Sprint.
-
-
 
 
 # Conclusiones
