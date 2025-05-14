@@ -80,6 +80,9 @@
 
 # Registro de Versiones del Informe
 
+<div>
+
+
 
 | Version | Fecha      | Autor                            | Descripción de modificación                                                                            |
 |---------|------------|----------------------------------|--------------------------------------------------------------------------------------------------------|
@@ -105,6 +108,7 @@
 | 2.6     | 10/04/2025 | Chi, Rivera, Varela, Yalán, Yum  | Elaboración del Execution Evidence for Sprint Review.                                                  |
 | 2.6     | 12/04/2025 | Chi, Rivera, Varela, Yalán, Yum  | Creación del Services Documentation Evidence for Sprint Review.                                        |
 | 2.6     | 14/04/2025 | Chi, Rivera, Varela, Yalán, Yum  | Elaboración del Software Deployment Evidence for Sprint Review.                                           |
+
 
 </div>
 
@@ -156,7 +160,7 @@ Los integrantes son:
 - Gael Rivera (gael-rs)
 - Marcelo Varela (VarBus)
 - Angie Yalán (aaaaangie)
-- Jorge Yum (myussu)
+- Jorge Yum (myussu, jsyumg)
 
 Se explican las ramas más prominentes:
 
@@ -274,10 +278,10 @@ Capturas de la participación en el informe:
    **Student Outcome 3**
 
 
-| Criterio específico                                                   | Acciones realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | Conclusiones                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-|-----------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Comunica oralmente con efectividad a diferentes rangos de audiencia.  | **Kevin Chi**:<br>TB1: Participé en un video colaborativo, donde expliqué de forma detallada y clara la arquitectura de software, el diagrama de clases y el diagrama de la base de datos, utilizando un modelo basado en domain driven design y buenas prácticas de diseño. <br>TP:Contribuí a la correción de las observaciones levantadas en el TB1, además de la implementación de el dashboard de client y los salones. Esta información fue importante para el desarrollo de nuestro proyecto.<br><br> **Gael Rivera**<br>TB1: Participé en la elaboración de un video explicativo sobre el primer avance del proyecto, donde comuniqué de forma clara y estructurada el análisis de competidores, las estrategias y tareas realizadas. Me aseguré de usar un lenguaje comprensible tanto para compañeros como para el docente, adaptando el contenido para que cualquier persona interesada pudiera entender el progreso del proyecto.<br>**TP1:** Contribuí activamente en la organización del proyecto al reordenar las historias de usuario (US) según el business core, lo cual permitió una priorización más estratégica del desarrollo. Esta información fue documentada de forma clara y compartida por escrito con el equipo, asegurando que todos comprendieran el enfoque y el motivo detrás de cada cambio.<br><br> **Marcelo Varela:** <br> TB1: Contribuí en la elaboración de un video expositivo sobre el primer avance del proyecto, donde comuniqué de forma concisa y detallada los Antecedentes y problematica, user persona y las demás tareas asignadas. Me encargue de emplear un lenguaje formal e intuitivo que sea facíl de comprender tanto para el docente como los compañeros, adaptandome a los factores indicados en la rúbrica del curso y permitiendo asi que caulquier persona externa pueda comprender en que consiste el proyecto uTIma de forma eficiente. <br>TP1:Durante el desarrollo del frontend de la aplicación web, logré avanzar en lo que corresponde a la sección orientada al cliente. En esta parte, implementé las vistas de "Client Appointments", donde los usuarios pueden visualizar sus citas agendadas; "Favorites", que permite guardar y acceder rápidamente a servicios preferidos; y "My Profile", donde el cliente puede gestionar su información personal. Para comunicar estos avances oralmente, me aseguré de adaptar el lenguaje según el público: explicando de forma técnica y detallada al equipo de desarrollo, y usando términos más generales y ejemplos visuales cuando presenté los avances a personas no técnicas como docentes o posibles usuarios.<br><br> **Angie Yalán:**<br> TB1: Durante el desarrollo del proyecto, demostré habilidades efectivas de comunicación oral al participar activamente en la entrevista dirigida al segmento 2 del público objetivo. A través de esta interacción, supe adaptar mi lenguaje y enfoque según el perfil del entrevistado, logrando recopilar información valiosa para validar necesidades reales. Asimismo, participé en la edición del video general, donde se incluyeron todas las entrevistas realizadas, cuidando que el contenido fuera claro, conciso y accesible para distintos tipos de audiencia, tanto académica como profesional.<br><br>  **Jorge Yum:**<br> **TB1:** <br> En esta primera entrega, se identifico claramente la problemática de nuestra Startup, nuestros segmentos objetivos y la investigación necesaria para averiguar los requisitos junto con las características que debería tener nuestra aplicación web. Para hacer esto, se realizaron entrevistas a un amplio rango de personas que encajan en nuestros segmentos objetivos. Con esta información se pudo hacer un analisis de requerimientos y realizar tablas sobre los beneficios del uso de la aplicación web .<br>**TP1** | **TB1:** Como equipo, logramos desarrollar un trabajo completo y bien articulado, cumpliendo con todos los componentes establecidos para esta primera entrega. Para presentar nuestro avance, elaboramos un video explicativo en el que comunicamos de forma clara y ordenada cada una de las etapas: desde la planificación hasta el desarrollo y preparación para la primera entrega. Nos aseguramos de adaptar el lenguaje y la presentación para que fuera comprensible tanto para el docente evaluador como para cualquier persona interesada, sin importar su nivel técnico.<br><br>**TP1** En reuniones del equipo y presentaciones con stakeholders, se comunicó oralmente el contenido y propósito del Sprint 2, el cual incluyó el desarrollo inicial del FrontEnd Web Application y correcciones del entregable anterior (TB1). Se explicaron de forma efectiva los avances, funcionalidades implementadas y evidencias generadas, adaptando el lenguaje según la audiencia para asegurar una comprensión adecuada por parte de todos los involucrados.|
-|Comunica por escrito con efectividad a diferentes rangos de audiencia. | **Kevin Chi**:<br>TB1: Participé la elección del segmento objetivo, los user stories, ubiquitous language, domain-driven software architecture, software object-oriented design y database diagram. Utilizé gráficos y tablas con los que apoyarme para la correcta representación de los segmentos indicados. <br>TP1:Durante el TP1, logré comunicar efectivamente la estructura de nuestro front-end elaborando diagrams de clase y diagramas c4<br><br> **Gael Rivera**<br>TB1: Colaboré en la redacción de las user stories, el Product Backlog y la documentación del Sprint 1, utilizando un lenguaje técnico pero claro, para facilitar la comprensión tanto de los miembros del equipo como del docente. También contribuí a la elaboración del diagrama de base de datos y los textos de la Landing Page, cuidando la coherencia y adecuación del contenido para los distintos públicos.<br>**TP:** Durante la programación del calendario en tiempo real, facilité la coordinación del equipo delegando tareas de manera clara y efectiva. Me aseguré de comunicar oralmente los objetivos, tiempos y responsables de cada actividad, promoviendo una gestión fluida del trabajo y asegurando que cada miembro entendiera su rol dentro del Sprint.  <br><br>**Marcelo Varela:** <br> **TB1:** Colaboré eficazmente en la redacción de partes como los antecedentes, la problemática y las historias de usuario. También participé en el registro y análisis de entrevistas, lo que me permitió adaptar mi forma de escribir según el tipo de público, ya sea compañeros, docentes o usuarios. Gracias a eso, desarrollé una mejor capacidad para comunicarme por escrito con claridad y de acuerdo al objetivo de cada entrega. <br>TP1:En los documentos de avance del proyecto, describí de forma clara y estructurada las funcionalidades desarrolladas del frontend, especialmente las secciones de Client Appointments, Favorites y My Profile. Utilicé un lenguaje técnico preciso para que los desarrolladores pudieran comprender la arquitectura e implementación, y también incluí descripciones accesibles y diagramas de interfaz para que personas sin conocimientos técnicos pudieran entender el propósito y funcionamiento de cada parte. Esto me permitió comunicarme efectivamente por escrito con diferentes tipos de audiencia involucrados en el proyecto.<br><br> **Angie Yalán:**<br> TB1: En la parte escrita del proyecto, fui responsable de desarrollar casi por completo la sección de antecedentes y problemáticas, redactando con claridad y coherencia para transmitir de forma efectiva el contexto y la necesidad del sistema. Además, elaboré todo el proceso Lean UX documentando cada fase de forma estructurada y comprensible. También diseñé y documenté la landing page y la aplicación web, incluyendo wireframes y mockups con descripciones detalladas. Finalmente, redacté la guía de estilo (style guidelines), asegurándome de que fuera clara tanto para desarrolladores como para diseñadores.<br><br>  **Jorge Yum:**<br> **TB1:** <br> Para esta primera entrega, se comunico de forma escrita mediante el uso de conventional commits y git flow dentro de un repositorio de github que permitió la organización y un flujo de trabajo ordenado. De esta manera, en esta entrega se pudo realizar la planificación de la problemática, tabla de supuestos y la landing page.<br>**TP1**                                                                                                                                                                                                                                                                                                                                                                                                 | **TB1:** Como equipo, establecimos canales de comunicación efectivos que nos permitieron coordinar adecuadamente el desarrollo del proyecto, a pesar de los plazos ajustados. Además, realizamos entrevistas que nos ayudaron a recoger sus opiniones y necesidades, lo cual fue clave para definir correctamente los requisitos del sistema. Esta información fue plasmada en artefactos escritos como user stories y el Product Backlog. <br><br>**TP1:** En reuniones del equipo y presentaciones con stakeholders, se comunicó oralmente el contenido y propósito del Sprint 2, el cual incluyó el desarrollo inicial del FrontEnd Web Application y correcciones del entregable anterior (TB1). Se explicaron de forma efectiva los avances, funcionalidades implementadas y evidencias generadas, adaptando el lenguaje según la audiencia para asegurar una comprensión adecuada por parte de todos los involucrados.                                                                                                                                      |
+| Criterio específico                                                   | Acciones realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Conclusiones                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+|-----------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Comunica oralmente con efectividad a diferentes rangos de audiencia.  | **Kevin Chi**:<br>TB1: Participé en un video colaborativo, donde expliqué de forma detallada y clara la arquitectura de software, el diagrama de clases y el diagrama de la base de datos, utilizando un modelo basado en domain driven design y buenas prácticas de diseño. <br>TP:Contribuí a la correción de las observaciones levantadas en el TB1, además de la implementación de el dashboard de client y los salones. Esta información fue importante para el desarrollo de nuestro proyecto.<br><br> **Gael Rivera**<br>TB1: Participé en la elaboración de un video explicativo sobre el primer avance del proyecto, donde comuniqué de forma clara y estructurada el análisis de competidores, las estrategias y tareas realizadas. Me aseguré de usar un lenguaje comprensible tanto para compañeros como para el docente, adaptando el contenido para que cualquier persona interesada pudiera entender el progreso del proyecto.<br>**TP1:** Contribuí activamente en la organización del proyecto al reordenar las historias de usuario (US) según el business core, lo cual permitió una priorización más estratégica del desarrollo. Esta información fue documentada de forma clara y compartida por escrito con el equipo, asegurando que todos comprendieran el enfoque y el motivo detrás de cada cambio.<br><br> **Marcelo Varela:** <br> TB1: Contribuí en la elaboración de un video expositivo sobre el primer avance del proyecto, donde comuniqué de forma concisa y detallada los Antecedentes y problematica, user persona y las demás tareas asignadas. Me encargue de emplear un lenguaje formal e intuitivo que sea facíl de comprender tanto para el docente como los compañeros, adaptandome a los factores indicados en la rúbrica del curso y permitiendo asi que caulquier persona externa pueda comprender en que consiste el proyecto uTIma de forma eficiente. <br>TP1:Durante el desarrollo del frontend de la aplicación web, logré avanzar en lo que corresponde a la sección orientada al cliente. En esta parte, implementé las vistas de "Client Appointments", donde los usuarios pueden visualizar sus citas agendadas; "Favorites", que permite guardar y acceder rápidamente a servicios preferidos; y "My Profile", donde el cliente puede gestionar su información personal. Para comunicar estos avances oralmente, me aseguré de adaptar el lenguaje según el público: explicando de forma técnica y detallada al equipo de desarrollo, y usando términos más generales y ejemplos visuales cuando presenté los avances a personas no técnicas como docentes o posibles usuarios.<br><br> **Angie Yalán:**<br> TB1: Durante el desarrollo del proyecto, demostré habilidades efectivas de comunicación oral al participar activamente en la entrevista dirigida al segmento 2 del público objetivo. A través de esta interacción, supe adaptar mi lenguaje y enfoque según el perfil del entrevistado, logrando recopilar información valiosa para validar necesidades reales. Asimismo, participé en la edición del video general, donde se incluyeron todas las entrevistas realizadas, cuidando que el contenido fuera claro, conciso y accesible para distintos tipos de audiencia, tanto académica como profesional.<br>TP1: Durante el desarrollo del frontend, aprendí a explicar de forma clara cómo funcionan los componentes, el uso de @Input, mat-table, mat-dialog, y los servicios en Angular. Esto me permitió compartir ideas efectivamente con mi equipo, adaptando mi forma de hablar según el nivel técnico de la persona.<br><br>  **Jorge Yum:**<br> **TB1:** <br> En esta primera entrega, se identifico claramente la problemática de nuestra Startup, nuestros segmentos objetivos y la investigación necesaria para averiguar los requisitos junto con las características que debería tener nuestra aplicación web. Para hacer esto, se realizaron entrevistas a un amplio rango de personas que encajan en nuestros segmentos objetivos. Con esta información se pudo hacer un analisis de requerimientos y realizar tablas sobre los beneficios del uso de la aplicación web .<br>**TP1** | **TB1:** Como equipo, logramos desarrollar un trabajo completo y bien articulado, cumpliendo con todos los componentes establecidos para esta primera entrega. Para presentar nuestro avance, elaboramos un video explicativo en el que comunicamos de forma clara y ordenada cada una de las etapas: desde la planificación hasta el desarrollo y preparación para la primera entrega. Nos aseguramos de adaptar el lenguaje y la presentación para que fuera comprensible tanto para el docente evaluador como para cualquier persona interesada, sin importar su nivel técnico.<br><br>**TP1** En reuniones del equipo y presentaciones con stakeholders, se comunicó oralmente el contenido y propósito del Sprint 2, el cual incluyó el desarrollo inicial del FrontEnd Web Application y correcciones del entregable anterior (TB1). Se explicaron de forma efectiva los avances, funcionalidades implementadas y evidencias generadas, adaptando el lenguaje según la audiencia para asegurar una comprensión adecuada por parte de todos los involucrados.|
+|Comunica por escrito con efectividad a diferentes rangos de audiencia. | **Kevin Chi**:<br>TB1: Participé la elección del segmento objetivo, los user stories, ubiquitous language, domain-driven software architecture, software object-oriented design y database diagram. Utilizé gráficos y tablas con los que apoyarme para la correcta representación de los segmentos indicados. <br>TP1:Durante el TP1, logré comunicar efectivamente la estructura de nuestro front-end elaborando diagrams de clase y diagramas c4<br><br> **Gael Rivera**<br>TB1: Colaboré en la redacción de las user stories, el Product Backlog y la documentación del Sprint 1, utilizando un lenguaje técnico pero claro, para facilitar la comprensión tanto de los miembros del equipo como del docente. También contribuí a la elaboración del diagrama de base de datos y los textos de la Landing Page, cuidando la coherencia y adecuación del contenido para los distintos públicos.<br>**TP:** Durante la programación del calendario en tiempo real, facilité la coordinación del equipo delegando tareas de manera clara y efectiva. Me aseguré de comunicar oralmente los objetivos, tiempos y responsables de cada actividad, promoviendo una gestión fluida del trabajo y asegurando que cada miembro entendiera su rol dentro del Sprint.  <br><br>**Marcelo Varela:** <br> **TB1:** Colaboré eficazmente en la redacción de partes como los antecedentes, la problemática y las historias de usuario. También participé en el registro y análisis de entrevistas, lo que me permitió adaptar mi forma de escribir según el tipo de público, ya sea compañeros, docentes o usuarios. Gracias a eso, desarrollé una mejor capacidad para comunicarme por escrito con claridad y de acuerdo al objetivo de cada entrega. <br>TP1:En los documentos de avance del proyecto, describí de forma clara y estructurada las funcionalidades desarrolladas del frontend, especialmente las secciones de Client Appointments, Favorites y My Profile. Utilicé un lenguaje técnico preciso para que los desarrolladores pudieran comprender la arquitectura e implementación, y también incluí descripciones accesibles y diagramas de interfaz para que personas sin conocimientos técnicos pudieran entender el propósito y funcionamiento de cada parte. Esto me permitió comunicarme efectivamente por escrito con diferentes tipos de audiencia involucrados en el proyecto.<br><br> **Angie Yalán:**<br> TB1: En la parte escrita del proyecto, fui responsable de desarrollar casi por completo la sección de antecedentes y problemáticas, redactando con claridad y coherencia para transmitir de forma efectiva el contexto y la necesidad del sistema. Además, elaboré todo el proceso Lean UX documentando cada fase de forma estructurada y comprensible. También diseñé y documenté la landing page y la aplicación web, incluyendo wireframes y mockups con descripciones detalladas. Finalmente, redacté la guía de estilo (style guidelines), asegurándome de que fuera clara tanto para desarrolladores como para diseñadores.<br>TP1:Redacté mensajes y textos para el usuario dentro de la interfaz de forma clara y adecuada. Además, mantuve un código limpio, comentado cuando fue necesario, facilitando que cualquier persona —sea del equipo técnico o no— pueda entender el funcionamiento de los componentes.<br><br>  **Jorge Yum:**<br> **TB1:** <br> Para esta primera entrega, se comunico de forma escrita mediante el uso de conventional commits y git flow dentro de un repositorio de github que permitió la organización y un flujo de trabajo ordenado. De esta manera, en esta entrega se pudo realizar la planificación de la problemática, tabla de supuestos y la landing page.<br>**TP1**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | **TB1:** Como equipo, establecimos canales de comunicación efectivos que nos permitieron coordinar adecuadamente el desarrollo del proyecto, a pesar de los plazos ajustados. Además, realizamos entrevistas que nos ayudaron a recoger sus opiniones y necesidades, lo cual fue clave para definir correctamente los requisitos del sistema. Esta información fue plasmada en artefactos escritos como user stories y el Product Backlog. <br><br>**TP1:** En reuniones del equipo y presentaciones con stakeholders, se comunicó oralmente el contenido y propósito del Sprint 2, el cual incluyó el desarrollo inicial del FrontEnd Web Application y correcciones del entregable anterior (TB1). Se explicaron de forma efectiva los avances, funcionalidades implementadas y evidencias generadas, adaptando el lenguaje según la audiencia para asegurar una comprensión adecuada por parte de todos los involucrados.                                                                                                                                      |
 
 
 # Capítulo I: Introducción
@@ -2289,9 +2293,8 @@ Para este Sprint, se han identificado los principales aspectos del desarrollo de
 
 El primer sprint backlog, el equipo tuvo la intención de comenzar y completar la landing page. La herramienta utilizada para organizar y gestionar a los miembros del equipo fue Trello. Esta herramienta permitió que se pueda dividir todas las user stories en tareas manejables y asignarlas a los diferentes miembros según sus diferentes habilidades. El objetivo principal del sprint es construir en su totalidad la landing page, logrando que sea atractiva y funcional.
 
-![Trello-Sprint-Backlog-1](img/Trello-Sprint-Backlog-1.jpg)
 
-Enlace para acceder al Trello: [Trello Sprint Backlog 1](https://trello.com/invite/b/68097c416c01112f478fcd49/ATTIce689cd7d2ceabb0f986544f256268e63E38CDCA/utime-sprint)
+Enlace para acceder al Trello: [Trello Sprint Backlog 2]()
 
 <table>
    <tr>
@@ -2698,7 +2701,270 @@ Para este Sprint, se han identificado los principales aspectos del frontend web 
 
 En el segundo sprint backlog, el equipo tuvo la intención de comenzar y completar el desarrollo del frontend de la aplicación web, tanto para el rol de cliente como de proveedor. La herramienta utilizada para organizar y gestionar las tareas del equipo continuó siendo Trello, permitiendo dividir las user stories en tareas manejables y asignarlas a los miembros según sus habilidades específicas. El objetivo principal del sprint fue implementar las funcionalidades clave de ambos roles, asegurando una interfaz intuitiva, responsiva y funcional utilizando Angular y Angular Material.
 
-![Trello-Sprint-Backlog-2](img/Trello-Sprint-Backlog-2.jpg)
+<table border="1" cellspacing="0" cellpadding="5">
+   <tr>
+      <td colspan="2" align="center"><b>Sprint #</b></td>
+      <td colspan="6" align="center"><b>Sprint 2</b></td>
+   </tr>
+   <tr>
+      <td colspan="2"><b>User Story</b></td>
+      <td colspan="6" align="center"><b>Work-Item/Task</b></td>
+   </tr>
+   <tr>
+      <td><b>Id</b></td>
+      <td><b>Title</b></td>
+      <td><b>Id</b></td>
+      <td><b>Title</b></td>
+      <td><b>Description</b></td>
+      <td><b>Estimation (Hours)</b></td>
+      <td><b>Assigned To</b></td>
+      <td><b>Status (To-do/In-Process/To-Review/Done)</b></td>
+   </tr>
+   <tr>
+      <td rowspan="3">US17</td>
+      <td rowspan="3">Selección de salón</td>
+      <td>T1</td>
+      <td>Diseño de interfaz de selección</td>
+      <td>Diseñar una interfaz para que el cliente pueda buscar y seleccionar un salón de belleza o barbería.</td>
+      <td>3</td>
+      <td>Gael Rivera</td>
+      <td>Done</td>
+   </tr>
+   <tr>
+      <td>T2</td>
+      <td>Implementación de búsqueda</td>
+      <td>Implementar funcionalidad de búsqueda de salones por nombre, ubicación o categoría.</td>
+      <td>4</td>
+      <td>Marcelo Varela</td>
+      <td>In-Process</td>
+   </tr>
+   <tr>
+      <td>T3</td>
+      <td>Pruebas de selección</td>
+      <td>Realizar pruebas para asegurar que el cliente pueda seleccionar correctamente un salón.</td>
+      <td>2</td>
+      <td>Jorge Yun</td>
+      <td>Done</td>
+   </tr>
+   <tr>
+      <td rowspan="1">TS09</td>
+      <td rowspan="1">Crear endpoint para agendar citas</td>
+      <td>T1</td>
+      <td>Diseño de la estructura de datos</td>
+      <td>Definir el modelo de datos necesario para crear una cita (cliente, salón, fecha, hora, servicio).</td>
+      <td>3</td>
+      <td>Angie Yalán</td>
+      <td>Done</td>
+   </tr>
+   <tr>
+      <td rowspan="2">US18</td>
+      <td rowspan="2">Creación de citas</td>
+      <td>T1</td>
+      <td>Interfaz de selección de fecha y hora</td>
+      <td>Diseñar e implementar la interfaz para que el cliente seleccione fecha y hora disponibles.</td>
+      <td>3</td>
+      <td>Kevin Chi</td>
+      <td>Done</td>
+   </tr>
+   <tr>
+      <td>T2</td>
+      <td>Validación de disponibilidad</td>
+      <td>Verificar que el horario elegido esté disponible antes de agendar la cita.</td>
+      <td>2</td>
+      <td>Marcelo Varela</td>
+      <td>Done</td>
+   </tr>
+   <tr>
+      <td rowspan="1">TS04</td>
+      <td rowspan="1">Actualización en tiempo real de horarios y citas</td>
+      <td>T1</td>
+      <td>Actualizar interfaz de horarios</td>
+      <td>Modificar la interfaz para reflejar los cambios de disponibilidad en tiempo real.</td>
+      <td>3</td>
+      <td>Gael Rivera</td>
+      <td>Done</td>
+   </tr>
+   <tr>
+      <td rowspan="3">US19</td>
+      <td rowspan="3">Visualización de citas agendadas</td>
+      <td>T1</td>
+      <td>Diseñar sección de citas</td>
+      <td>Diseñar la interfaz donde se mostrarán las citas agendadas del cliente.</td>
+      <td>3</td>
+      <td>Marcelo Varela</td>
+      <td>Done</td>
+   </tr>
+   <tr>
+      <td>T2</td>
+      <td>Desarrollar componente de citas</td>
+      <td>Implementar el componente que muestra las citas futuras con fecha, hora y ubicación.</td>
+      <td>4</td>
+      <td>Angie Yalan</td>
+      <td>Done</td>
+   </tr>
+   <tr>
+      <td>T3</td>
+      <td>Crear endpoint GET /horarios</td>
+      <td>Desarrollar el endpoint que retorna los horarios disponibles del salón.</td>
+      <td>3</td>
+      <td>Jorge Yun</td>
+      <td>In-Process</td>
+   </tr>
+   <tr>
+      <td rowspan="2">US22</td>
+      <td rowspan="2">Administración de servicios ofrecidos</td>
+      <td>T1</td>
+      <td>Diseño de formulario</td>
+      <td>Crear diseño para agregar, editar o eliminar servicios.</td>
+      <td>2</td>
+      <td>Kevin Chi</td>
+      <td>Done</td>
+   </tr>
+   <tr>
+      <td>T2</td>
+      <td>Implementación del formulario</td>
+      <td>Desarrollar el formulario en el frontend para la gestión de servicios.</td>
+      <td>3</td>
+      <td>Angie Yalán</td>
+      <td>Done</td>
+   </tr>
+   <tr>
+      <td rowspan="1">US23</td>
+      <td rowspan="1">Gestión de trabajadores</td>
+      <td>T1</td>
+      <td>Diseño de interfaz para gestión de trabajadores</td>
+      <td>Diseñar una vista donde se puedan agregar y eliminar trabajadores.</td>
+      <td>2</td>
+      <td>Kevin Chi</td>
+      <td>Done</td>
+   </tr>
+   <tr>
+      <td rowspan="2">US10</td>
+      <td rowspan="2">Configuración de los horarios</td>
+      <td>T1</td>
+      <td>Diseño de interfaz para configuración de horarios</td>
+      <td>Diseñar la vista donde se configuren días y horas de atención por trabajador.</td>
+      <td>2</td>
+      <td>Kevin Chi</td>
+      <td>In-Profress</td>
+   </tr>
+   <tr>
+      <td>T2</td>
+      <td>Validación de horarios</td>
+      <td>Evitar que se ingresen horarios inválidos o superpuestos.</td>
+      <td>2</td>
+      <td>Gael Rivera</td>
+      <td>Done</td>
+   </tr>
+   <tr>
+      <td rowspan="2">US09</td>
+      <td rowspan="2">Visualización de los horarios</td>
+      <td>T1</td>
+      <td>Diseño de la interfaz de visualización</td>
+      <td>Crear un diseño claro y accesible para mostrar los horarios disponibles de cada trabajador.</td>
+      <td>2</td>
+      <td>Angie Yalán</td>
+      <td>Done</td>
+   </tr>
+   <tr>
+      <td>T2</td>
+      <td>Actualización dinámica</td>
+      <td>Permitir que los cambios en los horarios se reflejen automáticamente en la vista.</td>
+      <td>2</td>
+      <td>Jorge Yun</td>
+      <td>Done</td>
+   </tr>
+   <tr>
+      <td rowspan="3">US14</td>
+      <td rowspan="3">Contratación de plan de suscripción</td>
+      <td>T1</td>
+      <td>Diseño de la vista de planes</td>
+      <td>Diseñar una interfaz donde el usuario pueda ver y seleccionar un plan disponible.</td>
+      <td>2</td>
+      <td>Angie Yalán</td>
+      <td>Done</td>
+   </tr>
+   <tr>
+      <td>T2</td>
+      <td>Integración con sistema de pagos</td>
+      <td>Conectar el sistema con la pasarela de pagos para procesar la contratación del plan.</td>
+      <td>4</td>
+      <td>Kevin Chi</td>
+      <td>In-Process</td>
+   </tr>
+   <tr>
+      <td>T3</td>
+      <td>Actualización de estado de suscripción</td>
+      <td>Actualizar automáticamente el estado del usuario una vez realizada la compra del plan.</td>
+      <td>2</td>
+      <td>Marcelo Varela</td>
+      <td>Done</td>
+   </tr>
+   <tr>
+      <td rowspan="2">US05</td>
+      <td rowspan="2">Edición del perfil del cliente</td>
+      <td>T1</td>
+      <td>Diseño del formulario de edición</td>
+      <td>Diseñar la vista del formulario para modificar nombre, correo, contraseña, número, etc.</td>
+      <td>2</td>
+      <td>Angie Yán</td>
+      <td>Done</td>
+   </tr>
+   <tr>
+      <td>T2</td>
+      <td>Actualización del fake api</td>
+      <td>Actualizar los datos del cliente en el fake api cuando se envíen los cambios.</td>
+      <td>2</td>
+      <td>Jorge Yun</td>
+      <td>Done</td>
+   </tr>
+   <tr>
+      <td rowspan="1">US07</td>
+      <td rowspan="1">Cierre de sesión</td>
+      <td>T1</td>
+      <td>Implementación del botón "Cerrar sesión"</td>
+      <td>Agregar un botón visible en la interfaz para cerrar sesión del usuario.</td>
+      <td>1</td>
+      <td>Kevin Chi</td>
+      <td>Done</td>
+   </tr>
+ <tr>
+      <td rowspan="2">US01</td>
+      <td rowspan="2">Registro de un cliente</td>
+      <td>T1</td>
+      <td>Diseño del formulario de registro</td>
+      <td>Diseñar el formulario de registro con campos requeridos como nombre, correo y contraseña.</td>
+      <td>2</td>
+      <td>Angie Yalán</td>
+      <td>Done</td>
+   </tr>
+   <tr>
+      <td>T2</td>
+      <td>Implementación del formulario en frontend</td>
+      <td>Codificar el formulario de registro usando Angular/AngularMaterial.</td>
+      <td>2</td>
+      <td>Gael Rivera</td>
+      <td>Done</td>
+   </tr>
+   <tr>
+      <td rowspan="2">US02</td>
+      <td rowspan="2">Registro de un salón de belleza/barbería</td>
+      <td>T1</td>
+      <td>Diseño del formulario de registro de salón</td>
+      <td>Diseñar la interfaz con campos para registrar nombre del negocio, dirección, rubro y contacto.</td>
+      <td>2</td>
+      <td>Jorge Yun</td>
+      <td>Done</td>
+   </tr>
+   <tr>
+      <td>T2</td>
+      <td>Implementación frontend del formulario</td>
+      <td>Codificar el formulario para el registro del salón en la plataforma.</td>
+      <td>2</td>
+      <td>Kevin Chi</td>
+      <td>Done</td>
+   </tr>
+</table>
 
 Enlace para acceder al Trello: [Trello Sprint Backlog 2]()
 
@@ -2739,7 +3005,9 @@ Enlace para acceder al Trello: [Trello Sprint Backlog 2]()
 
 #### 5.2.2.5.Execution Evidence for Sprint Review.
 
+
 ##### Client side
+
 **Seccion de Dashboard:** Muestra la informacion de citas proximas, trabajadores y reseñas sin leer.
 ![Dashboard](img/provider-dashboard-page.png)
 **Seccion de Calendario:** Muestra la informacion de la agenda de cada uno de los trabajadores registrados en el salon.
@@ -2755,13 +3023,155 @@ Enlace para acceder al Trello: [Trello Sprint Backlog 2]()
 **Seccion de Perfil:** Muestra la informacion del salon, redes sociales, rating, portfolio y reviews recientes positivas.
 ![Perfil](img/provider-profile-page.png)
 
+<figure>
+  <img src="img/iam-login.png" alt="Login Page">
+  <figcaption>Pantalla de Inicio de Sesión</figcaption>
+</figure>
+
+<figure>
+  <img src="img/iam-register.png" alt="Register Page">
+  <figcaption>Pantalla de Registro</figcaption>
+</figure>
+
+<figure>
+  <img src="img/home-provider.png" alt="Home Provider">
+  <figcaption>Inicio del Proveedor</figcaption>
+</figure>
+
+<figure>
+  <img src="img/provider-reviews.png" alt="Provider Reviews">
+  <figcaption>Reseñas del Proveedor</figcaption>
+</figure>
+
+<figure>
+  <img src="img/provider-schedule.png" alt="Provider Schedule">
+  <figcaption>Horario del Proveedor</figcaption>
+</figure>
+
+<figure>
+  <img src="img/provider-profile.png" alt="Provider Profile">
+  <figcaption>Perfil del Proveedor</figcaption>
+</figure>
+
+<figure>
+  <img src="img/provider-services.png" alt="Provider Services">
+  <figcaption>Servicios del Proveedor</figcaption>
+</figure>
+
+<figure>
+  <img src="img/provider-setting.png" alt="Provider Setting">
+  <figcaption>Configuración del Proveedor</figcaption>
+</figure>
+
+<figure>
+  <img src="img/client-dashboard.png" alt="Client Dashboard">
+  <figcaption>Panel del Cliente</figcaption>
+</figure>
+
+<figure>
+  <img src="img/client-appointments.png" alt="Client Appointments">
+  <figcaption>Citas del Cliente</figcaption>
+</figure>
+
+<figure>
+  <img src="img/client-favorites.png" alt="Client Favorites">
+  <figcaption>Favoritos del Cliente</figcaption>
+</figure>
+
+<figure>
+  <img src="img/client-profile.png" alt="Client Profile">
+  <figcaption>Perfil del Cliente</figcaption>
+</figure>
+
+
 
 #### 5.2.2.6.Services Documentation Evidence for Sprint Review.
+A continuación, se presentan tres fragmentos de código que evidencian el uso e implementación de los servicios en el sistema, abarcando desde la configuración de rutas hasta la lógica de negocio y la presentación de datos al usuario:
+
+1. Archivo de Rutas (Angular Routing Module)
+   Archivo: app.routes.ts
+   Función: Define la estructura de navegación de toda la aplicación, tanto para el cliente como para el proveedor.
+  
+Importancia:
+-Permite acceder a las páginas donde se usan servicios como appointment, services, favorites, etc.
+-Es el punto de entrada para mostrar componentes que a su vez usan servicios para obtener, actualizar o eliminar datos.
+<img src="img/app-routes.png" alt="Routes">
+Esto permite que, por ejemplo, al acceder a /provider/services, se cargue el componente donde se visualizan y manipulan los servicios ofrecidos por el profesional (como corte de cabello, manicure, etc.), usando el BaseService.
+
+
+2. BaseService (Angular Abstract Service Class)
+   Archivo: base.service.ts
+   Función: Es una clase genérica que centraliza operaciones comunes de los servicios (GET, PUT, PATCH). Es reutilizada por servicios específicos como ServiceService, AppointmentService, etc.
+
+Importancia:
+
+Estandariza el consumo de APIs REST.
+
+Evita duplicar código al implementar métodos reutilizables para manejar recursos (como servicios o citas).
+
+Permite manejar errores con catchError y hacer reintentos con retry.
+
+<img src="img/base-service.png" alt="base-service">
+
+{
+path: 'provider',
+component: ProviderLayoutComponent,
+children: [
+{ path: 'services', component: ServicesTabComponent },
+...
+]
+},
+
+Este método permite al componente de servicios obtener todos los servicios del backend para mostrarlos en la tabla del frontend.
+
+
+public getAll(): Observable<R[]> {
+return this.http.get<R[]>(this.resourcePath(), this.httpOptions).pipe(
+retry(2),
+catchError(this.handleError)
+);
+}
+
+3. Tabla en ServicesTabComponent (HTML + Angular Material)
+   Archivo: services-tab.component.html
+   Función: Muestra en una tabla los servicios del proveedor. Usa el método getAll() del BaseService para cargar la información.
+
+Importancia:
+
+Es el punto de vista del usuario (proveedor) donde puede ver, editar o eliminar servicios.
+
+Se evidencia el consumo de datos ([dataSource]="services") y acciones (delete, edit).
+
+<img src="services-table.png" alt="services">
+
+
+<td mat-cell *matCellDef="let service">
+  <div class="service-name">{{ service.name }}</div>
+  <div class="service-desc">{{ service.description }}</div>
+</td>
+...
+<button mat-icon-button>
+  <mat-icon>delete</mat-icon>
+</button>
+
+Cada fila de la tabla representa un servicio cargado desde el backend, y los botones de editar y eliminar aplican lógica conectada al servicio específico, que probablemente hereda de BaseService.
+
+Relación entre las tres partes:
+
+Ruta (/provider/services) → accede al componente.
+
+Componente ServicesTabComponent → al inicializar, llama a getAll() del servicio.
+
+Servicio (ServiceService que hereda de BaseService) → hace la petición GET al backend y devuelve la data.
+
+La tabla → renderiza los servicios y permite eliminarlos o modificarlos.
+
 #### 5.2.2.7.Software Deployment Evidence for Sprint Review.
 
-Para realizar el deplyment de la aplicación web, se utilizó la plataforma de GitHub Pages. Se realizaron los siguientes
+Para realizar el deployment de la aplicación web, se utilizó la plataforma de GitHub Pages. Se realizaron los siguientes
 pasos para llevar a cabo el despliegue:
 Se instalo cli ghpages de Angular
+
 ```bash
 npm install -g angular-cli
 ```
@@ -2784,8 +3194,11 @@ Entonces dentro de la configuración de GitHub Pages, se seleccionó la rama gh-
 
 #### 5.2.2.8.Team Collaboration Insights during Sprint.
 
+Durante el Sprint 2, se realizó la segmentación de tareas por features y se asignaron a los miembros del equipo de acuerdo a sus habilidades y experiencia. Esto permitió una mejor distribucion de las tareas y un avance mas fluido en el desarrollo.
 
+![NetworkGraph](img/networkgraph-sprint2.png)
 
+![Contributors](img/contributors-sprint2.png)
 
 # Conclusiones
 
@@ -2793,36 +3206,27 @@ Entonces dentro de la configuración de GitHub Pages, se seleccionó la rama gh-
 
 ### Conclusiones
 
-- El proyecto uTime demostró que existe una necesidad real y no atendida en el sector de la belleza relacionada con la gestión eficiente de citas.
+- La corrección de los ítems observados en la primera entrega (TB1) permitió al equipo mejorar significativamente la calidad del proyecto, alineándose mejor con los requerimientos del curso.
 
+- La elaboración del Sprint 2, junto con su planificación y backlog, fortaleció la organización interna del equipo y permitió una gestión más efectiva de las tareas y tiempos.
 
-- La implementación del enfoque Lean UX permitió validar rápidamente hipótesis y mejorar la solución con base en retroalimentación real de usuarios.
+- La creación del diagrama de clases fue clave para definir de manera clara la estructura y relación entre los componentes del sistema, facilitando su implementación posterior.
 
+- El repositorio del proyecto FrontEnd en GitHub brindó una base organizada y accesible para el desarrollo colaborativo, asegurando el control de versiones y la trazabilidad del avance.
 
-- La colaboración multidisciplinaria dentro del equipo de PaxTech fue fundamental para abordar el proyecto de forma integral, combinando habilidades técnicas, de diseño y de análisis de usuario.
-
-
-- La documentación detallada, el uso de metodologías ágiles (Scrum) y la arquitectura basada en dominios garantizaron una solución escalable y mantenible.
-
-
-- El desarrollo de la plataforma uTime fortaleció la comprensión del ciclo completo de diseño y desarrollo de productos digitales, desde la investigación de usuarios hasta la implementación y despliegue.
-
-
-- Se ha avanzado significativamente en la construcción de una base conceptual y técnica sólida que permitirá un desarrollo más eficiente en las siguientes fases.
+- La elaboración de evidencias de ejecución, documentación de servicios y despliegue del software validaron el cumplimiento de los objetivos del sprint, reforzando la importancia de documentar cada fase del proceso.
 
 ### Recomendaciones
 
-- Profundizar en la validación de las necesidades del usuario a través de métodos adicionales como encuestas o pruebas de concepto, para reforzar la base del diseño centrado en el usuario.
+- Continuar con la documentación detallada de cada fase del desarrollo, especialmente en los próximos sprints, para mantener una trazabilidad clara del trabajo realizado.
 
+- Revisar constantemente los entregables previos para asegurar que se han corregido adecuadamente los ítems observados y no repetir los mismos errores en futuras entregas.
 
-- Continuar fortaleciendo el uso de metodologías ágiles dentro del equipo, especialmente en la planificación de sprints y la documentación de retrospectivas.
+- Mantener el uso activo y ordenado del repositorio de código, asegurando que todos los miembros del equipo sigan buenas prácticas de versionamiento y documentación de commits.
 
+ - Profundizar en la planificación de sprints futuros, identificando claramente las tareas críticas y los posibles riesgos, para mejorar la eficiencia del equipo.
 
-
-- Documentar con mayor detalle las decisiones de diseño y arquitectura para facilitar la comprensión del proyecto por parte de los docentes evaluadores y compañeros.
-
-
-- Evaluar críticamente los avances realizados y contrastarlos con los entregables definidos en el sílabo del curso, asegurando que cada parte del proyecto cumpla con los criterios de evaluación establecidos.
+- Validar con los docentes y el sílabo que todas las evidencias generadas (review, services, deployment) cumplan con los criterios de evaluación establecidos, evitando omisiones en la entrega final.
 
 
 # Bibliografía
@@ -2858,6 +3262,14 @@ Domain-Driven Design for Microservices: An Evidence-Based Investigation. (2024).
 **Repositorio en GitHub - uTime (PaxTech):**<br>
 
 https://github.com/UPC-PaxTech/uTime/
+
+**Repositorio en GitHub - uTime (Paxtech) -Frontend Web Applications**<br>
+
+https://github.com/UPC-PaxTech/Frontend-Web-Applications
+
+**Repositorio en GitHub - uTime (Paxtech) -Landing Page**<br>
+
+https://github.com/UPC-PaxTech/uTime-Landing-Page
 
 **Herramientas y Recursos Utilizados:**<br>
 
