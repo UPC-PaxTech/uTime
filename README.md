@@ -2286,9 +2286,8 @@ Para este Sprint, se han identificado los principales aspectos del desarrollo de
 
 El primer sprint backlog, el equipo tuvo la intención de comenzar y completar la landing page. La herramienta utilizada para organizar y gestionar a los miembros del equipo fue Trello. Esta herramienta permitió que se pueda dividir todas las user stories en tareas manejables y asignarlas a los diferentes miembros según sus diferentes habilidades. El objetivo principal del sprint es construir en su totalidad la landing page, logrando que sea atractiva y funcional.
 
-![Trello-Sprint-Backlog-1](img/Trello-Sprint-Backlog-1.jpg)
 
-Enlace para acceder al Trello: [Trello Sprint Backlog 1](https://trello.com/invite/b/68097c416c01112f478fcd49/ATTIce689cd7d2ceabb0f986544f256268e63E38CDCA/utime-sprint)
+Enlace para acceder al Trello: [Trello Sprint Backlog 2]()
 
 <table>
    <tr>
@@ -2698,7 +2697,7 @@ En el segundo sprint backlog, el equipo tuvo la intención de comenzar y complet
 <table border="1" cellspacing="0" cellpadding="5">
    <tr>
       <td colspan="2" align="center"><b>Sprint #</b></td>
-      <td colspan="6" align="center"><b>Sprint 1</b></td>
+      <td colspan="6" align="center"><b>Sprint 2</b></td>
    </tr>
    <tr>
       <td colspan="2"><b>User Story</b></td>
@@ -2741,8 +2740,8 @@ En el segundo sprint backlog, el equipo tuvo la intención de comenzar y complet
       <td>Done</td>
    </tr>
    <tr>
-      <td rowspan="3">TS09</td>
-      <td rowspan="3">Crear endpoint para agendar citas</td>
+      <td rowspan="1">TS09</td>
+      <td rowspan="1">Crear endpoint para agendar citas</td>
       <td>T1</td>
       <td>Diseño de la estructura de datos</td>
       <td>Definir el modelo de datos necesario para crear una cita (cliente, salón, fecha, hora, servicio).</td>
@@ -2751,8 +2750,8 @@ En el segundo sprint backlog, el equipo tuvo la intención de comenzar y complet
       <td>Done</td>
    </tr>
    <tr>
-      <td rowspan="3">US18</td>
-      <td rowspan="3">Creación de citas</td>
+      <td rowspan="2">US18</td>
+      <td rowspan="2">Creación de citas</td>
       <td>T1</td>
       <td>Interfaz de selección de fecha y hora</td>
       <td>Diseñar e implementar la interfaz para que el cliente seleccione fecha y hora disponibles.</td>
@@ -2769,8 +2768,8 @@ En el segundo sprint backlog, el equipo tuvo la intención de comenzar y complet
       <td>Done</td>
    </tr>
    <tr>
-      <td rowspan="3">TS04</td>
-      <td rowspan="3">Actualización en tiempo real de horarios y citas</td>
+      <td rowspan="1">TS04</td>
+      <td rowspan="1">Actualización en tiempo real de horarios y citas</td>
       <td>T1</td>
       <td>Actualizar interfaz de horarios</td>
       <td>Modificar la interfaz para reflejar los cambios de disponibilidad en tiempo real.</td>
@@ -2797,7 +2796,7 @@ En el segundo sprint backlog, el equipo tuvo la intención de comenzar y complet
       <td>Done</td>
    </tr>
    <tr>
-      <td>T1</td>
+      <td>T3</td>
       <td>Crear endpoint GET /horarios</td>
       <td>Desarrollar el endpoint que retorna los horarios disponibles del salón.</td>
       <td>3</td>
@@ -2805,8 +2804,8 @@ En el segundo sprint backlog, el equipo tuvo la intención de comenzar y complet
       <td>In-Process</td>
    </tr>
    <tr>
-      <td rowspan="3">US22</td>
-      <td rowspan="3">Administración de servicios ofrecidos</td>
+      <td rowspan="2">US22</td>
+      <td rowspan="2">Administración de servicios ofrecidos</td>
       <td>T1</td>
       <td>Diseño de formulario</td>
       <td>Crear diseño para agregar, editar o eliminar servicios.</td>
@@ -2823,8 +2822,8 @@ En el segundo sprint backlog, el equipo tuvo la intención de comenzar y complet
       <td>Done</td>
    </tr>
    <tr>
-      <td rowspan="3">US23</td>
-      <td rowspan="3">Gestión de trabajadores</td>
+      <td rowspan="1">US23</td>
+      <td rowspan="1">Gestión de trabajadores</td>
       <td>T1</td>
       <td>Diseño de interfaz para gestión de trabajadores</td>
       <td>Diseñar una vista donde se puedan agregar y eliminar trabajadores.</td>
@@ -2833,8 +2832,8 @@ En el segundo sprint backlog, el equipo tuvo la intención de comenzar y complet
       <td>Done</td>
    </tr>
    <tr>
-      <td rowspan="3">US10</td>
-      <td rowspan="3">Configuración de los horarios</td>
+      <td rowspan="2">US10</td>
+      <td rowspan="2">Configuración de los horarios</td>
       <td>T1</td>
       <td>Diseño de interfaz para configuración de horarios</td>
       <td>Diseñar la vista donde se configuren días y horas de atención por trabajador.</td>
@@ -2843,7 +2842,7 @@ En el segundo sprint backlog, el equipo tuvo la intención de comenzar y complet
       <td>In-Profress</td>
    </tr>
    <tr>
-      <td>T3</td>
+      <td>T2</td>
       <td>Validación de horarios</td>
       <td>Evitar que se ingresen horarios inválidos o superpuestos.</td>
       <td>2</td>
@@ -2851,8 +2850,8 @@ En el segundo sprint backlog, el equipo tuvo la intención de comenzar y complet
       <td>Done</td>
    </tr>
    <tr>
-      <td rowspan="3">US09</td>
-      <td rowspan="3">Visualización de los horarios</td>
+      <td rowspan="2">US09</td>
+      <td rowspan="2">Visualización de los horarios</td>
       <td>T1</td>
       <td>Diseño de la interfaz de visualización</td>
       <td>Crear un diseño claro y accesible para mostrar los horarios disponibles de cada trabajador.</td>
@@ -2861,7 +2860,7 @@ En el segundo sprint backlog, el equipo tuvo la intención de comenzar y complet
       <td>Done</td>
    </tr>
    <tr>
-      <td>T3</td>
+      <td>T2</td>
       <td>Actualización dinámica</td>
       <td>Permitir que los cambios en los horarios se reflejen automáticamente en la vista.</td>
       <td>2</td>
@@ -2895,8 +2894,8 @@ En el segundo sprint backlog, el equipo tuvo la intención de comenzar y complet
       <td>Done</td>
    </tr>
    <tr>
-      <td rowspan="3">US05</td>
-      <td rowspan="3">Edición del perfil del cliente</td>
+      <td rowspan="2">US05</td>
+      <td rowspan="2">Edición del perfil del cliente</td>
       <td>T1</td>
       <td>Diseño del formulario de edición</td>
       <td>Diseñar la vista del formulario para modificar nombre, correo, contraseña, número, etc.</td>
@@ -2913,8 +2912,8 @@ En el segundo sprint backlog, el equipo tuvo la intención de comenzar y complet
       <td>Done</td>
    </tr>
    <tr>
-      <td rowspan="2">US07</td>
-      <td rowspan="2">Cierre de sesión</td>
+      <td rowspan="1">US07</td>
+      <td rowspan="1">Cierre de sesión</td>
       <td>T1</td>
       <td>Implementación del botón "Cerrar sesión"</td>
       <td>Agregar un botón visible en la interfaz para cerrar sesión del usuario.</td>
@@ -2923,8 +2922,8 @@ En el segundo sprint backlog, el equipo tuvo la intención de comenzar y complet
       <td>Done</td>
    </tr>
  <tr>
-      <td rowspan="3">US01</td>
-      <td rowspan="3">Registro de un cliente</td>
+      <td rowspan="2">US01</td>
+      <td rowspan="2">Registro de un cliente</td>
       <td>T1</td>
       <td>Diseño del formulario de registro</td>
       <td>Diseñar el formulario de registro con campos requeridos como nombre, correo y contraseña.</td>
@@ -2941,8 +2940,8 @@ En el segundo sprint backlog, el equipo tuvo la intención de comenzar y complet
       <td>Done</td>
    </tr>
    <tr>
-      <td rowspan="3">US02</td>
-      <td rowspan="3">Registro de un salón de belleza/barbería</td>
+      <td rowspan="2">US02</td>
+      <td rowspan="2">Registro de un salón de belleza/barbería</td>
       <td>T1</td>
       <td>Diseño del formulario de registro de salón</td>
       <td>Diseñar la interfaz con campos para registrar nombre del negocio, dirección, rubro y contacto.</td>
@@ -3215,7 +3214,7 @@ Entonces dentro de la configuración de GitHub Pages, se seleccionó la rama gh-
 
 - Mantener el uso activo y ordenado del repositorio de código, asegurando que todos los miembros del equipo sigan buenas prácticas de versionamiento y documentación de commits.
 
-- Profundizar en la planificación de sprints futuros, identificando claramente las tareas críticas y los posibles riesgos, para mejorar la eficiencia del equipo.
+ - Profundizar en la planificación de sprints futuros, identificando claramente las tareas críticas y los posibles riesgos, para mejorar la eficiencia del equipo.
 
 - Validar con los docentes y el sílabo que todas las evidencias generadas (review, services, deployment) cumplan con los criterios de evaluación establecidos, evitando omisiones en la entrega final.
 
