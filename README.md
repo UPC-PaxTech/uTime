@@ -2755,6 +2755,30 @@ Enlace para acceder al Trello: [Trello Sprint Backlog 2]()
 
 #### 5.2.2.6.Services Documentation Evidence for Sprint Review.
 #### 5.2.2.7.Software Deployment Evidence for Sprint Review.
+
+Para realizar el deplyment de la aplicación web, se utilizó la plataforma de GitHub Pages. Se realizaron los siguientes
+pasos para llevar a cabo el despliegue:
+Se instalo cli ghpages de Angular
+```bash
+npm install -g angular-cli
+```
+```bash
+ng add angular-cli-ghpages
+```
+Se construyó la aplicación para producción
+```bash
+ng build --configuration production
+```
+```bash
+npx angular-cli-ghpages --dir=dist/frontend-web-applications/browser
+```
+Se subió la aplicación a la rama gh-pages
+```bash
+git push origin gh-pages
+```
+
+Entonces dentro de la configuración de GitHub Pages, se seleccionó la rama gh-pages como la rama de despliegue. De esta manera, la aplicación web está disponible en el siguiente enlace: https://upc-paxtech.github.io/Frontend-Web-Applications/
+
 #### 5.2.2.8.Team Collaboration Insights during Sprint.
 
 
