@@ -156,7 +156,7 @@ Los integrantes son:
 - Gael Rivera (gael-rs)
 - Marcelo Varela (VarBus)
 - Angie Yalán (aaaaangie)
-- Jorge Yum (myussu)
+- Jorge Yum (myussu, jsyumg)
 
 Se explican las ramas más prominentes:
 
@@ -3002,7 +3002,7 @@ Enlace para acceder al Trello: [Trello Sprint Backlog 2]()
 | Frontend-Web-Applications   | develop           | 279eced   | feat: review component                                                        | 08/05/2025         |
 
 #### 5.2.2.5.Execution Evidence for Sprint Review.
-<<<<<<< HEAD
+
 
 ##### Client side
 **Seccion de Dashboard:** Muestra la informacion de citas proximas, trabajadores y reseñas sin leer.
@@ -3019,7 +3019,7 @@ Enlace para acceder al Trello: [Trello Sprint Backlog 2]()
 ![Configuracion](img/provider-settings-page.png)
 **Seccion de Perfil:** Muestra la informacion del salon, redes sociales, rating, portfolio y reviews recientes positivas.
 ![Perfil](img/provider-profile-page.png)
-=======
+
 <figure>
   <img src="img/iam-login.png" alt="Login Page">
   <figcaption>Pantalla de Inicio de Sesión</figcaption>
@@ -3079,7 +3079,7 @@ Enlace para acceder al Trello: [Trello Sprint Backlog 2]()
   <img src="img/client-profile.png" alt="Client Profile">
   <figcaption>Perfil del Cliente</figcaption>
 </figure>
->>>>>>> feature/EvidenceSprint
+
 
 
 #### 5.2.2.6.Services Documentation Evidence for Sprint Review.
@@ -3197,36 +3197,27 @@ Entonces dentro de la configuración de GitHub Pages, se seleccionó la rama gh-
 
 ### Conclusiones
 
-- El proyecto uTime demostró que existe una necesidad real y no atendida en el sector de la belleza relacionada con la gestión eficiente de citas.
+- La corrección de los ítems observados en la primera entrega (TB1) permitió al equipo mejorar significativamente la calidad del proyecto, alineándose mejor con los requerimientos del curso.
 
+- La elaboración del Sprint 2, junto con su planificación y backlog, fortaleció la organización interna del equipo y permitió una gestión más efectiva de las tareas y tiempos.
 
-- La implementación del enfoque Lean UX permitió validar rápidamente hipótesis y mejorar la solución con base en retroalimentación real de usuarios.
+- La creación del diagrama de clases fue clave para definir de manera clara la estructura y relación entre los componentes del sistema, facilitando su implementación posterior.
 
+- El repositorio del proyecto FrontEnd en GitHub brindó una base organizada y accesible para el desarrollo colaborativo, asegurando el control de versiones y la trazabilidad del avance.
 
-- La colaboración multidisciplinaria dentro del equipo de PaxTech fue fundamental para abordar el proyecto de forma integral, combinando habilidades técnicas, de diseño y de análisis de usuario.
-
-
-- La documentación detallada, el uso de metodologías ágiles (Scrum) y la arquitectura basada en dominios garantizaron una solución escalable y mantenible.
-
-
-- El desarrollo de la plataforma uTime fortaleció la comprensión del ciclo completo de diseño y desarrollo de productos digitales, desde la investigación de usuarios hasta la implementación y despliegue.
-
-
-- Se ha avanzado significativamente en la construcción de una base conceptual y técnica sólida que permitirá un desarrollo más eficiente en las siguientes fases.
+- La elaboración de evidencias de ejecución, documentación de servicios y despliegue del software validaron el cumplimiento de los objetivos del sprint, reforzando la importancia de documentar cada fase del proceso.
 
 ### Recomendaciones
 
-- Profundizar en la validación de las necesidades del usuario a través de métodos adicionales como encuestas o pruebas de concepto, para reforzar la base del diseño centrado en el usuario.
+- Continuar con la documentación detallada de cada fase del desarrollo, especialmente en los próximos sprints, para mantener una trazabilidad clara del trabajo realizado.
 
+- Revisar constantemente los entregables previos para asegurar que se han corregido adecuadamente los ítems observados y no repetir los mismos errores en futuras entregas.
 
-- Continuar fortaleciendo el uso de metodologías ágiles dentro del equipo, especialmente en la planificación de sprints y la documentación de retrospectivas.
+- Mantener el uso activo y ordenado del repositorio de código, asegurando que todos los miembros del equipo sigan buenas prácticas de versionamiento y documentación de commits.
 
+- Profundizar en la planificación de sprints futuros, identificando claramente las tareas críticas y los posibles riesgos, para mejorar la eficiencia del equipo.
 
-
-- Documentar con mayor detalle las decisiones de diseño y arquitectura para facilitar la comprensión del proyecto por parte de los docentes evaluadores y compañeros.
-
-
-- Evaluar críticamente los avances realizados y contrastarlos con los entregables definidos en el sílabo del curso, asegurando que cada parte del proyecto cumpla con los criterios de evaluación establecidos.
+- Validar con los docentes y el sílabo que todas las evidencias generadas (review, services, deployment) cumplan con los criterios de evaluación establecidos, evitando omisiones en la entrega final.
 
 
 # Bibliografía
