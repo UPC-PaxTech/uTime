@@ -3291,4 +3291,4 @@ Marcelo Varela – @VarBus
 
 Angie Yalán – @aaaaangie
 
-Jorge Yum – @myussu
+Jorge Yum – @myussu, @jsyumg
