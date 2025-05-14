@@ -3003,6 +3003,7 @@ Enlace para acceder al Trello: [Trello Sprint Backlog 2]()
 
 #### 5.2.2.5.Execution Evidence for Sprint Review.
 
+
 ##### Client side
 **Seccion de Dashboard:** Muestra la informacion de citas proximas, trabajadores y reseñas sin leer.
 ![Dashboard](img/provider-dashboard-page.png)
@@ -3082,6 +3083,86 @@ Enlace para acceder al Trello: [Trello Sprint Backlog 2]()
 
 
 #### 5.2.2.6.Services Documentation Evidence for Sprint Review.
+A continuación, se presentan tres fragmentos de código que evidencian el uso e implementación de los servicios en el sistema, abarcando desde la configuración de rutas hasta la lógica de negocio y la presentación de datos al usuario:
+
+1. Archivo de Rutas (Angular Routing Module)
+   Archivo: app.routes.ts
+   Función: Define la estructura de navegación de toda la aplicación, tanto para el cliente como para el proveedor.
+  
+Importancia:
+-Permite acceder a las páginas donde se usan servicios como appointment, services, favorites, etc.
+-Es el punto de entrada para mostrar componentes que a su vez usan servicios para obtener, actualizar o eliminar datos.
+<img src="img/app-routes.png" alt="Routes">
+Esto permite que, por ejemplo, al acceder a /provider/services, se cargue el componente donde se visualizan y manipulan los servicios ofrecidos por el profesional (como corte de cabello, manicure, etc.), usando el BaseService.
+
+
+2. BaseService (Angular Abstract Service Class)
+   Archivo: base.service.ts
+   Función: Es una clase genérica que centraliza operaciones comunes de los servicios (GET, PUT, PATCH). Es reutilizada por servicios específicos como ServiceService, AppointmentService, etc.
+
+Importancia:
+
+Estandariza el consumo de APIs REST.
+
+Evita duplicar código al implementar métodos reutilizables para manejar recursos (como servicios o citas).
+
+Permite manejar errores con catchError y hacer reintentos con retry.
+
+<img src="img/base-service.png" alt="base-service">
+
+{
+path: 'provider',
+component: ProviderLayoutComponent,
+children: [
+{ path: 'services', component: ServicesTabComponent },
+...
+]
+},
+
+Este método permite al componente de servicios obtener todos los servicios del backend para mostrarlos en la tabla del frontend.
+
+
+public getAll(): Observable<R[]> {
+return this.http.get<R[]>(this.resourcePath(), this.httpOptions).pipe(
+retry(2),
+catchError(this.handleError)
+);
+}
+
+3. Tabla en ServicesTabComponent (HTML + Angular Material)
+   Archivo: services-tab.component.html
+   Función: Muestra en una tabla los servicios del proveedor. Usa el método getAll() del BaseService para cargar la información.
+
+Importancia:
+
+Es el punto de vista del usuario (proveedor) donde puede ver, editar o eliminar servicios.
+
+Se evidencia el consumo de datos ([dataSource]="services") y acciones (delete, edit).
+
+<img src="services-table.png" alt="services">
+
+
+<td mat-cell *matCellDef="let service">
+  <div class="service-name">{{ service.name }}</div>
+  <div class="service-desc">{{ service.description }}</div>
+</td>
+...
+<button mat-icon-button>
+  <mat-icon>delete</mat-icon>
+</button>
+
+Cada fila de la tabla representa un servicio cargado desde el backend, y los botones de editar y eliminar aplican lógica conectada al servicio específico, que probablemente hereda de BaseService.
+
+Relación entre las tres partes:
+
+Ruta (/provider/services) → accede al componente.
+
+Componente ServicesTabComponent → al inicializar, llama a getAll() del servicio.
+
+Servicio (ServiceService que hereda de BaseService) → hace la petición GET al backend y devuelve la data.
+
+La tabla → renderiza los servicios y permite eliminarlos o modificarlos.
+
 #### 5.2.2.7.Software Deployment Evidence for Sprint Review.
 
 Para realizar el deplyment de la aplicación web, se utilizó la plataforma de GitHub Pages. Se realizaron los siguientes
