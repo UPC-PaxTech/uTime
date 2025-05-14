@@ -96,6 +96,15 @@
 | 1.10    | 19/04/2025 | Chi, Rivera, Varela, Yalán, Yum  | Elaboración de Domain Driven Software Architecture, Software Object Oriented Design y Database Diagram |
 | 1.11    | 22/04/2025 | Chi, Rivera, Varela, Yalán, Yum  | Elaboración del Capitulo V                                                                             |
 | 1.12    | 23/04/2025 | Chi, Rivera, Varela, Yalán, Yum  | Elaboración del Landing Page                                                                           |
+| 2.0     | 27/04/2025 | Chi, Rivera, Varela, Yalán, Yum  | Corrección de los items mencionados en la primera entrega (TB1)                                        |
+| 2.1     | 29/04/2025 | Chi, Rivera, Varela, Yalán, Yum  | Elaboración del Sprint 2                                                                               |
+| 2.2     | 01/04/2025 | Chi, Rivera, Varela, Yalán, Yum  | Elaboración del Diagrama de clases                                                                     |
+| 2.3     | 02/04/2025 | Chi, Rivera, Varela, Yalán, Yum  | Creación del Proyecto en el Repositorio de FrontEnd Web Application                                    |
+| 2.4     | 03/04/2025 | Chi, Rivera, Varela, Yalán, Yum  | Elaboración del Sprint Planing                                                                            |
+| 2.5     | 05/04/2025 | Chi, Rivera, Varela, Yalán, Yum  | Creación del Sprint Backlog                                                                            |
+| 2.6     | 10/04/2025 | Chi, Rivera, Varela, Yalán, Yum  | Elaboración del Execution Evidence for Sprint Review.                                                  |
+| 2.6     | 12/04/2025 | Chi, Rivera, Varela, Yalán, Yum  | Creación del Services Documentation Evidence for Sprint Review.                                        |
+| 2.6     | 14/04/2025 | Chi, Rivera, Varela, Yalán, Yum  | Elaboración del Software Deployment Evidence for Sprint Review.                                           |
 
 </div>
 
