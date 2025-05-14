@@ -1,35 +1,87 @@
 <div align="center">
+   <div>
 
-# Informe del Trabajo Final
+# <center>Informe del Trabajo Final</center>
 
-**Universidad Peruana de Ciencias Aplicadas**
+   <br>
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png" alt="Logo UPC">
+   <center>Universidad Peruana de Ciencias Aplicadas</center>
 
-**Ingeniería de software**
+   <br>
 
-**1ASI0729 Desarrollo de Aplicaciones Open Source**
+   <center><img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png" alt="Logo UPC"></center>
 
-**Sección:** 4304
+   <br>
 
-**Profesor:** Bautista Ubillús, Efraín Ricardo
+   <center><b>Ingeniería de software</b></center>
 
-**Nombre del StartUp:** PaxTech
+   <br>
 
-**Nombre del Producto:** uTime
+   <center><b>1ASI0729 Desarrollo de Aplicaciones Open Source</b></center>
+
+   <br>
+
+   <center><b>Sección:</b> 4304</center>
+
+   <br>
+
+   <center><b>Profesor:</b> Bautista Ubillús, Efraín Ricardo</center>
+
+   <br>
+
+   <center><b>Nombre del StartUp:</b> PaxTech</center>
+
+   <br>
 
 
-| Nombre                              | Código    |
-| ----------------------------------- | ---------- |
-| Chi Cruzatt, Kevin Jorge            | U202313655 |
-| Rivera Sosa, Eduardo Gael           | U202312222 |
-| Varela Bustinza, Marcelo Alessandro | U202319668 |
-| Yalán Zhang, Angie Christina       | U202312504 |
-| Yum Gonzales, Jorge Suin            | U202210838 |
+   <center><b>Nombre del Producto:</b> uTime</center>
 
-**Ciclo 2025-01**
+   </div>
+
+   <br>
+
+   <div align="center">
+
+   <table style="margin-left: auto; margin-right: auto;">
+   <tr>
+   <th>Nombre</th>
+   <th>Código</th>
+   </tr>
+   <tr>
+   <td>Chi Cruzatt, Kevin Jorge</td>
+   <td>U202313655</td>
+   </tr>
+   <tr>
+   <td>Rivera Sosa, Eduardo Gael</td>
+   <td>U202312222</td>
+   </tr>
+   <tr>
+   <td>Varela Bustinza, Marcelo Alessandro</td>
+   <td>U202319668</td>
+   </tr>
+   <tr>
+   <td>Yalán Zhang, Angie Christina</td>
+   <td>U202312504</td>
+   </tr>
+   <tr>
+   <td>Yum Gonzales, Jorge Suin </td>
+   <td>U202210838</td>
+   </tr>
+   </table>
+   </div>
+
+   <br>
+
+   <center><b>Ciclo 2025-01</b></center>
+
+   <br>
+
+</div>
 
 # Registro de Versiones del Informe
+
+<div>
+
 
 
 | Version | Fecha      | Autor                            | Descripción de modificación                                                                            |
@@ -47,6 +99,16 @@
 | 1.10    | 19/04/2025 | Chi, Rivera, Varela, Yalán, Yum  | Elaboración de Domain Driven Software Architecture, Software Object Oriented Design y Database Diagram |
 | 1.11    | 22/04/2025 | Chi, Rivera, Varela, Yalán, Yum  | Elaboración del Capitulo V                                                                             |
 | 1.12    | 23/04/2025 | Chi, Rivera, Varela, Yalán, Yum  | Elaboración del Landing Page                                                                           |
+| 2.0     | 27/04/2025 | Chi, Rivera, Varela, Yalán, Yum  | Corrección de los items mencionados en la primera entrega (TB1)                                        |
+| 2.1     | 29/04/2025 | Chi, Rivera, Varela, Yalán, Yum  | Elaboración del Sprint 2                                                                               |
+| 2.2     | 01/04/2025 | Chi, Rivera, Varela, Yalán, Yum  | Elaboración del Diagrama de clases                                                                     |
+| 2.3     | 02/04/2025 | Chi, Rivera, Varela, Yalán, Yum  | Creación del Proyecto en el Repositorio de FrontEnd Web Application                                    |
+| 2.4     | 03/04/2025 | Chi, Rivera, Varela, Yalán, Yum  | Elaboración del Sprint Planing                                                                            |
+| 2.5     | 05/04/2025 | Chi, Rivera, Varela, Yalán, Yum  | Creación del Sprint Backlog                                                                            |
+| 2.6     | 10/04/2025 | Chi, Rivera, Varela, Yalán, Yum  | Elaboración del Execution Evidence for Sprint Review.                                                  |
+| 2.6     | 12/04/2025 | Chi, Rivera, Varela, Yalán, Yum  | Creación del Services Documentation Evidence for Sprint Review.                                        |
+| 2.6     | 14/04/2025 | Chi, Rivera, Varela, Yalán, Yum  | Elaboración del Software Deployment Evidence for Sprint Review.                                           |
+
 
 </div>
 
@@ -56,7 +118,7 @@ URL del repositorio para el proyecto: https://github.com/UPC-PaxTech/uTime/
 
 **TB1**
 
-Para el desarrollo del informe perteneciente a la entrega TB1, se dividió la implementación de secciones de la siguiente forma
+Para el desarrollo del informe perteneciente a la entrega del TP1, se dividió la implementación de secciones de la siguiente forma
 para cada integrante del equipo:
 
 
@@ -67,6 +129,22 @@ para cada integrante del equipo:
 | Marcelo Varela | Antecedentes y problemática, Registro de entrevistas, User persona, Empathy mapping, Impact mapping, User stories, Functional requirements, Organization systems, Labeling System |
 | Angie Yalán   | Startup Profile, Solution Profile, Segmento Objetivo, Lean UX Process, Style Guidelines, Landing Page UI Design, Web Application UX/UI Design, Web Application Prototyping.       |
 | Jorge Yum      | As-Is To-Be Scenario Mapping, Impact Mapping, User Stories, Landing Page development, Product Backlog, Information Architecture, Sprint 1                                                                   |
+
+**TP1**
+
+Para el desarrollo del informe perteneciente a la entrega del TP1, se dividió la implementación de secciones de la siguiente forma
+para cada integrante del equipo:
+
+
+| Integrantes    | Tareas Asignadas                                                                                                                                                                                                                                                 |
+|----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Kevin Chi      | Correción de los diagramas, Sprint 2, Sprint Backlog, Sprint Planning, Development Evidence for Sprint Review, Execution Evidence for Sprint Review, Services Documentation Evidence for Sprint Review, Software Deployment Evidence for Sprint Review.          |
+| Gael Rivera    | Correción de los US, Sprint 2, Sprint Backlog, Sprint Planning, Development Evidence for Sprint Review, Execution Evidence for Sprint Review, Services Documentation Evidence for Sprint Review, Software Deployment Evidence for Sprint Review.                 |
+| Marcelo Varela | Correción del Bibliografía y Anexos, Sprint 2, Sprint Backlog, Sprint Planning, Development Evidence for Sprint Review, Execution Evidence for Sprint Review, Services Documentation Evidence for Sprint Review, Software Deployment Evidence for Sprint Review. |
+| Angie Yalán    | Correción del LeanUX, Sprint 2, Sprint Backlog, Sprint Planning, Development Evidence for Sprint Review, Execution Evidence for Sprint Review, Services Documentation Evidence for Sprint Review, Software Deployment Evidence for Sprint Review.                |
+| Jorge Yum      | Correcion de la Landing Page, Sprint 2, Sprint Backlog, Sprint Planning, Development Evidence for Sprint Review, Execution Evidence for Sprint Review, Services Documentation Evidence for Sprint Review, Software Deployment Evidence for Sprint Review.        |
+
+
 
 El proceso de colaboración en el informe se realizó mediante commits constantes al repositorio de la organización PaxTech.
 
@@ -82,13 +160,35 @@ Los integrantes son:
 - Gael Rivera (gael-rs)
 - Marcelo Varela (VarBus)
 - Angie Yalán (aaaaangie)
-- Jorge Yum (myussu)
+- Jorge Yum (myussu, jsyumg)
 
 Se explican las ramas más prominentes:
 
 **main:** Es representada por el color negro. Se trata de la rama principal del proyecto y se actualiza para cada entregable.<br>
 **develop:** Es representada por el color azul. Se trata de la rama principal para el proceso del desarrollo del proyecto.<br>
 **feature/feature-description-name:** Es una rama creada para trabajar en una nueva funcionalidad o tarea específica. Se basa en develop y, una vez terminada la tarea, se fusiona nuevamente con develop para integrar los cambios al proyecto principal.
+
+Capturas de la participación en el informe:
+
+**Rivera Sosa, Eduardo Gael**
+
+
+
+**Varela Bustinza, Marcelo Alessandro**
+
+
+
+**Yalán Zhang, Angie Christina**
+
+
+
+**Yum Gonzales, Jorge Suin**
+
+
+
+**Chi Cruzatt, Kevin Jorge**
+
+
 
 # Contenido
 
@@ -178,10 +278,10 @@ Se explican las ramas más prominentes:
    **Student Outcome 3**
 
 
-| Criterio específico                                                    | Acciones realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            | Conclusiones                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
-|------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Comunica oralmente con efectividad a diferentes rangos de audiencia.   | **Kevin Chi**:<br>TB1: Participé en un video colaborativo, donde expliqué de forma detallada y clara la arquitectura de software, el diagrama de clases y el diagrama de la base de datos, utilizando un modelo basado en domain driven design y buenas prácticas de diseño. <br><br> **Gael Rivera**<br>TB1: Participé en la elaboración de un video explicativo sobre el primer avance del proyecto, donde comuniqué de forma clara y estructurada el análisis de competidores, las estrategias y tareas realizadas. Me aseguré de usar un lenguaje comprensible tanto para compañeros como para el docente, adaptando el contenido para que cualquier persona interesada pudiera entender el progreso del proyecto.<br> **Marcelo Varela:** <br> TB1: Contribuí en la elaboración de un video expositivo sobre el primer avance del proyecto, donde comuniqué de forma concisa y detallada los Antecedentes y problematica, user persona y las demás tareas asignadas. Me encargue de emplear un lenguaje formal e intuitivo que sea facíl de comprender tanto para el docente como los compañeros, adaptandome a los factores indicados en la rúbrica del curso y permitiendo asi que caulquier persona externa pueda comprender en que consiste el proyecto uTIma de forma eficiente. <br> Angie Yalán:<br> TB1: Durante el desarrollo del proyecto, demostré habilidades efectivas de comunicación oral al participar activamente en la entrevista dirigida al segmento 2 del público objetivo. A través de esta interacción, supe adaptar mi lenguaje y enfoque según el perfil del entrevistado, logrando recopilar información valiosa para validar necesidades reales. Asimismo, participé en la edición del video general, donde se incluyeron todas las entrevistas realizadas, cuidando que el contenido fuera claro, conciso y accesible para distintos tipos de audiencia, tanto académica como profesional.<br>  **Jorge Yum:**<br> **TB1:** <br> En esta primera entrega, se identifico claramente la problemática de nuestra Startup, nuestros segmentos objetivos y la investigacion necesaria para averiguar los requisitos junto con las caracteristicas que deberia tener nuestra aplicación web. Para hacer esto, se realizaron entrevistas a un amplio rango de personas que encajan en nuestros segmentos objetivos. Con esta información se pudo hacer un analizis de requerimientos y realizar tablas sobre los beneficios del uso de la aplicación web . | **TB1:** Como equipo, logramos desarrollar un trabajo completo y bien articulado, cumpliendo con todos los componentes establecidos para esta primera entrega. Para presentar nuestro avance, elaboramos un video explicativo en el que comunicamos de forma clara y ordenada cada una de las etapas: desde la planificación hasta el desarrollo y preparación para la primera entrega. Nos aseguramos de adaptar el lenguaje y la presentación para que fuera comprensible tanto para el docente evaluador como para cualquier persona interesada, sin importar su nivel técnico. |
-| Comunica por escrito con efectividad a diferentes rangos de audiencia. | **Kevin Chi**:<br>TB1: Participé la elección del segmento objetivo, los user stories, ubiquitous language, domain-driven software architecture, software object-oriented design y database diagram. Utilizé gráficos y tablas con los que apoyarme para la correcta representación de los segmentos indicados. <br><br> **Gael Rivera**<br>TB1: Colaboré en la redacción de las user stories, el Product Backlog y la documentación del Sprint 1, utilizando un lenguaje técnico pero claro, para facilitar la comprensión tanto de los miembros del equipo como del docente. También contribuí a la elaboración del diagrama de base de datos y los textos de la Landing Page, cuidando la coherencia y adecuación del contenido para los distintos públicos.<br>  **Marcelo Varela:** <br> TB1: Colaboré eficazmente en la redacción de partes como los antecedentes, la problemática y las historias de usuario. También participé en el registro y análisis de entrevistas, lo que me permitió adaptar mi forma de escribir según el tipo de público, ya sea compañeros, docentes o usuarios. Gracias a eso, desarrollé una mejor capacidad para comunicarme por escrito con claridad y de acuerdo al objetivo de cada entrega. <br> Angie Yalán:<br> TB1: En la parte escrita del proyecto, fui responsable de desarrollar casi por completo la sección de antecedentes y problemáticas, redactando con claridad y coherencia para transmitir de forma efectiva el contexto y la necesidad del sistema. Además, elaboré todo el proceso Lean UX documentando cada fase de forma estructurada y comprensible. También diseñé y documenté la landing page y la aplicación web, incluyendo wireframes y mockups con descripciones detalladas. Finalmente, redacté la guía de estilo (style guidelines), asegurándome de que fuera clara tanto para desarrolladores como para diseñadores.<br>  **Jorge Yum:**<br> **TB1:** <br> Para esta primera entrega, se comunico de forma escrita mediante el uso de conventional commits y git flow dentro de un repositorio de github que permitio la organizacion y un flujo de trabajo ordenado. De esta manera, en esta entrega se pudo realizar la plantiación de la problemática, tabla de supuestos y la landing page.                                 | **TB1:** Como equipo, establecimos canales de comunicación efectivos que nos permitieron coordinar adecuadamente el desarrollo del proyecto, a pesar de los plazos ajustados. Además, realizamos entrevistas que nos ayudaron a recoger sus opiniones y necesidades, lo cual fue clave para definir correctamente los requisitos del sistema. Esta información fue plasmada en artefactos escritos como user stories y el Product Backlog.                                                                                                                                         |
+| Criterio específico                                                   | Acciones realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Conclusiones                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+|-----------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Comunica oralmente con efectividad a diferentes rangos de audiencia.  | **Kevin Chi**:<br>TB1: Participé en un video colaborativo, donde expliqué de forma detallada y clara la arquitectura de software, el diagrama de clases y el diagrama de la base de datos, utilizando un modelo basado en domain driven design y buenas prácticas de diseño. <br>TP:Contribuí a la correción de las observaciones levantadas en el TB1, además de la implementación de el dashboard de client y los salones. Esta información fue importante para el desarrollo de nuestro proyecto.<br><br> **Gael Rivera**<br>TB1: Participé en la elaboración de un video explicativo sobre el primer avance del proyecto, donde comuniqué de forma clara y estructurada el análisis de competidores, las estrategias y tareas realizadas. Me aseguré de usar un lenguaje comprensible tanto para compañeros como para el docente, adaptando el contenido para que cualquier persona interesada pudiera entender el progreso del proyecto.<br>**TP1:** Contribuí activamente en la organización del proyecto al reordenar las historias de usuario (US) según el business core, lo cual permitió una priorización más estratégica del desarrollo. Esta información fue documentada de forma clara y compartida por escrito con el equipo, asegurando que todos comprendieran el enfoque y el motivo detrás de cada cambio.<br><br> **Marcelo Varela:** <br> TB1: Contribuí en la elaboración de un video expositivo sobre el primer avance del proyecto, donde comuniqué de forma concisa y detallada los Antecedentes y problematica, user persona y las demás tareas asignadas. Me encargue de emplear un lenguaje formal e intuitivo que sea facíl de comprender tanto para el docente como los compañeros, adaptandome a los factores indicados en la rúbrica del curso y permitiendo asi que caulquier persona externa pueda comprender en que consiste el proyecto uTIma de forma eficiente. <br>TP1:Durante el desarrollo del frontend de la aplicación web, logré avanzar en lo que corresponde a la sección orientada al cliente. En esta parte, implementé las vistas de "Client Appointments", donde los usuarios pueden visualizar sus citas agendadas; "Favorites", que permite guardar y acceder rápidamente a servicios preferidos; y "My Profile", donde el cliente puede gestionar su información personal. Para comunicar estos avances oralmente, me aseguré de adaptar el lenguaje según el público: explicando de forma técnica y detallada al equipo de desarrollo, y usando términos más generales y ejemplos visuales cuando presenté los avances a personas no técnicas como docentes o posibles usuarios.<br><br> **Angie Yalán:**<br> TB1: Durante el desarrollo del proyecto, demostré habilidades efectivas de comunicación oral al participar activamente en la entrevista dirigida al segmento 2 del público objetivo. A través de esta interacción, supe adaptar mi lenguaje y enfoque según el perfil del entrevistado, logrando recopilar información valiosa para validar necesidades reales. Asimismo, participé en la edición del video general, donde se incluyeron todas las entrevistas realizadas, cuidando que el contenido fuera claro, conciso y accesible para distintos tipos de audiencia, tanto académica como profesional.<br>TP1: Durante el desarrollo del frontend, aprendí a explicar de forma clara cómo funcionan los componentes, el uso de @Input, mat-table, mat-dialog, y los servicios en Angular. Esto me permitió compartir ideas efectivamente con mi equipo, adaptando mi forma de hablar según el nivel técnico de la persona.<br><br>  **Jorge Yum:**<br> **TB1:** <br> En esta primera entrega, se identifico claramente la problemática de nuestra Startup, nuestros segmentos objetivos y la investigación necesaria para averiguar los requisitos junto con las características que debería tener nuestra aplicación web. Para hacer esto, se realizaron entrevistas a un amplio rango de personas que encajan en nuestros segmentos objetivos. Con esta información se pudo hacer un analisis de requerimientos y realizar tablas sobre los beneficios del uso de la aplicación web . <br> **TP:** <br> En este entrega, a partir de las comentarios y observaciones dadas de nuestra anterior entrega, corregi connecciones fallidas y añadi internacionalizacion a nuestro landing page. Discutimos lo que vamos a realizar en nuestra sprint 2 y completé el componentes como el dashboard, perfil y configuracion de una cuenta de salon/proveedor.   | **TB1:** Como equipo, logramos desarrollar un trabajo completo y bien articulado, cumpliendo con todos los componentes establecidos para esta primera entrega. Para presentar nuestro avance, elaboramos un video explicativo en el que comunicamos de forma clara y ordenada cada una de las etapas: desde la planificación hasta el desarrollo y preparación para la primera entrega. Nos aseguramos de adaptar el lenguaje y la presentación para que fuera comprensible tanto para el docente evaluador como para cualquier persona interesada, sin importar su nivel técnico.<br><br>**TP1** En reuniones del equipo y presentaciones con stakeholders, se comunicó oralmente el contenido y propósito del Sprint 2, el cual incluyó el desarrollo inicial del FrontEnd Web Application y correcciones del entregable anterior (TB1). Se explicaron de forma efectiva los avances, funcionalidades implementadas y evidencias generadas, adaptando el lenguaje según la audiencia para asegurar una comprensión adecuada por parte de todos los involucrados.|
+|Comunica por escrito con efectividad a diferentes rangos de audiencia. | **Kevin Chi**:<br>TB1: Participé la elección del segmento objetivo, los user stories, ubiquitous language, domain-driven software architecture, software object-oriented design y database diagram. Utilizé gráficos y tablas con los que apoyarme para la correcta representación de los segmentos indicados. <br>TP1:Durante el TP1, logré comunicar efectivamente la estructura de nuestro front-end elaborando diagrams de clase y diagramas c4<br><br> **Gael Rivera**<br>TB1: Colaboré en la redacción de las user stories, el Product Backlog y la documentación del Sprint 1, utilizando un lenguaje técnico pero claro, para facilitar la comprensión tanto de los miembros del equipo como del docente. También contribuí a la elaboración del diagrama de base de datos y los textos de la Landing Page, cuidando la coherencia y adecuación del contenido para los distintos públicos.<br>**TP:** Durante la programación del calendario en tiempo real, facilité la coordinación del equipo delegando tareas de manera clara y efectiva. Me aseguré de comunicar oralmente los objetivos, tiempos y responsables de cada actividad, promoviendo una gestión fluida del trabajo y asegurando que cada miembro entendiera su rol dentro del Sprint.  <br><br>**Marcelo Varela:** <br> **TB1:** Colaboré eficazmente en la redacción de partes como los antecedentes, la problemática y las historias de usuario. También participé en el registro y análisis de entrevistas, lo que me permitió adaptar mi forma de escribir según el tipo de público, ya sea compañeros, docentes o usuarios. Gracias a eso, desarrollé una mejor capacidad para comunicarme por escrito con claridad y de acuerdo al objetivo de cada entrega. <br>TP1:En los documentos de avance del proyecto, describí de forma clara y estructurada las funcionalidades desarrolladas del frontend, especialmente las secciones de Client Appointments, Favorites y My Profile. Utilicé un lenguaje técnico preciso para que los desarrolladores pudieran comprender la arquitectura e implementación, y también incluí descripciones accesibles y diagramas de interfaz para que personas sin conocimientos técnicos pudieran entender el propósito y funcionamiento de cada parte. Esto me permitió comunicarme efectivamente por escrito con diferentes tipos de audiencia involucrados en el proyecto.<br><br> **Angie Yalán:**<br> TB1: En la parte escrita del proyecto, fui responsable de desarrollar casi por completo la sección de antecedentes y problemáticas, redactando con claridad y coherencia para transmitir de forma efectiva el contexto y la necesidad del sistema. Además, elaboré todo el proceso Lean UX documentando cada fase de forma estructurada y comprensible. También diseñé y documenté la landing page y la aplicación web, incluyendo wireframes y mockups con descripciones detalladas. Finalmente, redacté la guía de estilo (style guidelines), asegurándome de que fuera clara tanto para desarrolladores como para diseñadores.<br>TP1:Redacté mensajes y textos para el usuario dentro de la interfaz de forma clara y adecuada. Además, mantuve un código limpio, comentado cuando fue necesario, facilitando que cualquier persona —sea del equipo técnico o no— pueda entender el funcionamiento de los componentes.<br><br>  **Jorge Yum:**<br> **TB1:** <br> Para esta primera entrega, se comunico de forma escrita mediante el uso de conventional commits y git flow dentro de un repositorio de github que permitió la organización y un flujo de trabajo ordenado. De esta manera, en esta entrega se pudo realizar la planificación de la problemática, tabla de supuestos y la landing page. <br> **TP:** <br> Como equipo participe en las reuniones para discutir los avanzes del frontend y sprint 2, lo que me permitio realizar el dashboard, settings y profile teniendo en cuenta los componentes que se exportan o importo dependiendo de su necesidad.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            | **TB1:** Como equipo, establecimos canales de comunicación efectivos que nos permitieron coordinar adecuadamente el desarrollo del proyecto, a pesar de los plazos ajustados. Además, realizamos entrevistas que nos ayudaron a recoger sus opiniones y necesidades, lo cual fue clave para definir correctamente los requisitos del sistema. Esta información fue plasmada en artefactos escritos como user stories y el Product Backlog. <br><br>**TP1:** En reuniones del equipo y presentaciones con stakeholders, se comunicó oralmente el contenido y propósito del Sprint 2, el cual incluyó el desarrollo inicial del FrontEnd Web Application y correcciones del entregable anterior (TB1). Se explicaron de forma efectiva los avances, funcionalidades implementadas y evidencias generadas, adaptando el lenguaje según la audiencia para asegurar una comprensión adecuada por parte de todos los involucrados.                                                                                                                                      |
 
 
 # Capítulo I: Introducción
@@ -207,6 +307,7 @@ Visión: Consolidarnos como la startup tecnológica de referencia en Latinoamér
 | **Jorge Suin Yum Gonzales**<br>Mi nombre es Jorge Suin Yum Gonzales, tengo 20 años y estúdio la carrera de Ingeniería de Software. Me considero una persona responsable y puntual, cualidades que también aplico al trabajar de manera colaborativa con mis compañeros. Tengo interés en la programación de aplicaciones open source, así como curiosidad e iniciativa para comprender y participar en sus procesos de desarrollo.                                                                                  | <img src="https://files.catbox.moe/g2gms8.jpg" alt="kevin image" width="200">  |
 | **Gael Rivera**<br>Yo soy Gael Rivera. Soy un estudiante de Ingeniería de Software comprometido con la responsabilidad en cada tarea que asumo. Poseo habilidades de liderazgo que facilitan la comunicación y el trabajo colaborativo. Siempre estoy dispuesto a abordar desafíos y encontrar soluciones en equipo.                                                                                                                                                                                                | <img src="https://files.catbox.moe/fvs4da.jpg" alt="gael image" width="200">   
 | **Marcelo Varela**<br>Mi nombre es Marcelo Varela. Soy un estudiante de la carrera de Ingeniería De Software, tengo 20 años y actualmente me encuentro cursando el quinto ciclo de la carrera. Me caracterizo por ser una persona responsable, resiliente y proactiva, al cual le gusta aprender sobre tecnología y el desarrollo de software. Mi compromiso como miembro de este equipo es brindar mi apoyo y participación para enfrentar lo desafíos así como dar lo mejor de mí para el éxito de este proyecto. | <img src="https://files.catbox.moe/w88eqj.jpeg" alt="kevin image" width="200"> |
+
 ## 1.2. Solution Profile
 
 uTime es una solución integral diseñada para optimizar la gestión de citas en el sector de la belleza mediante una plataforma digital conectada en tiempo real con clientes y profesionales. Esta innovadora herramienta permite a los estilistas gestionar su disponibilidad de manera eficiente, reducir cancelaciones y olvidos, y atraer nuevos clientes sin depender exclusivamente del boca a boca o la comunicación manual.
@@ -378,7 +479,7 @@ En cuanto al comportamiento, uTime debe ser rápido, receptivo y confiable. Debi
 * Creemos que, al incluir un módulo de promociones y descuentos, los estilistas podrán aumentar la captación de nuevos clientes y fidelizar a los actuales. Sabremos que hemos tenido éxito cuando el número de reservas aumente en un 30% en comparación con el período previo a la implementación de esta funcionalidad.
 
 #### 1.2.2.4. Lean UX Canvas.
-![Lean-ux-canvas](img/lean-ux-canvas.png)
+![Lean UX Canvas](img/lean-ux-canvas.png)
 
 ## 1.3. Segmentos objetivo.
 
@@ -1143,50 +1244,49 @@ Segmento objetivo #2: Clientes de servicios de belleza
 
 ## 3.2. User Stories.
 
-### 3.2.3 User Stories
-
+### 3.2.1 User Stories
 
 | **Epic/User Story ID** | **Título**                                                 | **Descripción**                                                                                                                                                            | **Criterios de Aceptación**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         | **Epic relacionada** |
 |------------------------|------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------|
-| EP01                   | **Registro de usuario**                                    | **Como** nuevo usuario, **quiero** registrarme fácilmente en la plataforma, **para** poder acceder a sus funcionalidades.                                                  | No Corresponde                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      | No Corresponde       |
-| US01                   | Registro de un cliente                                     | **Como** cliente, **quiero** registrarme proporcionando mis datos personales, **para** crear una cuenta.                                                                   | **Escenario 1: Registro exitoso de un cliente**<br>**Given** el cliente proporciona datos personales válidos<br>**When** solicita crear una cuenta<br>**Then** el sistema crea una cuenta y confirma el registro.<br><br>**Escenario 2: Registro fallido por datos incompletos**<br>**Given** el cliente no proporciona todos los datos requeridos<br>**When** intenta registrarse<br>**Then** el sistema impide el registro e informa la omisión.                                                                                  | EP01                 |
-| US02                   | Registro de un salón de belleza/barbería                   | **Como** dueño/administrador, **quiero** poder registrar mi negocio, **para** gestionar mis servicios en la plataforma.                                                    | **Escenario 1: Registro exitoso de un negocio**<br>**Given** el administrador proporciona información válida del negocio<br>**When** solicita registrar su salón o barbería<br>**Then** el sistema almacena los datos y confirma el registro del negocio.<br><br>**Escenario 2: Registro fallido por datos inválidos del negocio**<br>**Given** el administrador ingresa información inválida o incompleta<br>**When** intenta registrar el negocio<br>**Then** el sistema rechaza el registro e informa el problema.               | EP01                 |
-| EP02                   | **Inicio de sesión**                                       | **Como** usuario registrado, **quiero** iniciar sesión con mis credenciales, **para** acceder a mi cuenta de forma segura.                                                 | No Corresponde                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      | No Corresponde       |
-| US03                   | Inicio de sesión del usuario                               | **Como** usuario, **quiero** iniciar sesión con mi correo y contraseña, **para** acceder a mi cuenta.                                                                      | **Escenario 1: Inicio de sesión exitoso**<br>**Given** el usuario tiene una cuenta registrada<br>**When** proporciona credenciales correctas<br>**Then** el sistema permite el acceso a la cuenta.<br><br>**Escenario 2: Fallo en inicio de sesión por credenciales incorrectas**<br>**Given** el usuario proporciona credenciales inválidas<br>**When** intenta iniciar sesión<br>**Then** el sistema rechaza el acceso e informa el error.                                                                                        | EP02                 |
-| US04                   | Recuperación de contraseña                                 | **Como** usuario, **quiero** recuperar el acceso a mi cuenta si olvido la contraseña, **para** poder usar la plataforma nuevamente.                                        | **Escenario 1: Solicitud exitosa de recuperación de contraseña**<br>**Given** el usuario indica su información asociada a la cuenta<br>**When** solicita recuperar su contraseña<br>**Then** el sistema genera instrucciones de recuperación.<br><br>**Escenario 2: Solicitud fallida por información inválida**<br>**Given** el usuario proporciona información no registrada<br>**When** solicita recuperar su contraseña<br>**Then** el sistema informa que no puede completar la solicitud.                                     | EP02                 |
-| EP03                   | **Edición de perfil de usuario**                           | **Como** usuario, **quiero** editar los datos de mi perfil, **para** mantener mi información actualizada y personalizada según mi rol.                                     | No Corresponde                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      | No Corresponde       |
-| US05                   | Edición del perfil del cliente                             | **Como** cliente, **quiero** actualizar mi información personal, **para** mantener mis datos actualizados.                                                                 | **Escenario 1: Edición exitosa del perfil**<br>**Given** el cliente accede a su información personal<br>**When** actualiza sus datos correctamente<br>**Then** el sistema guarda los cambios y confirma la actualización.<br><br>**Escenario 2: Fallo en edición por datos inválidos**<br>**Given** el cliente proporciona datos incorrectos<br>**When** intenta actualizar su perfil<br>**Then** el sistema rechaza la edición e informa el motivo.                                                                                | EP03                 |
-| US06                   | Personalización del perfil del salón de belleza/barbería   | **Como** dueño/administrador, **quiero** poder personalizar el perfil de mi salon de belleza/barbería con informacíón relevante y estética, **para** atraer a más cliente. | **Escenario 1: Personalización exitosa del perfil del negocio**<br>**Given** el administrador accede a la configuración del negocio<br>**When** modifica los datos con información válida<br>**Then** el sistema actualiza el perfil del negocio.<br><br>**Escenario 2: Fallo en personalización por datos inválidos**<br>**Given** el administrador proporciona información no aceptada<br>**When** intenta modificar el perfil del negocio<br>**Then** el sistema impide la actualización e informa el error.                     | EP03                 |
-| EP04                   | **Cierre de sesión y eliminación de la cuenta**            | **Como** usuario, **quiero** cerrar sesión o eliminar mi cuenta, **para** tener control sobre mi acceso y privacidad.                                                      | No Corresponde                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      | No Corresponde       |
-| US07                   | Cierre de sesión                                           | **Como** usuario, **quiero** poder cerrar sesión de forma segura, **para** proteger mis datos cuando no uso la app.                                                        | **Escenario 1: Cierre de sesión exitoso**<br>**Given** el usuario tiene una sesión activa<br>**When** solicita cerrar la sesión<br>**Then** el sistema finaliza la sesión y revoca el acceso.<br><br>**Escenario 2: Cierre de sesión sin sesión activa**<br>**Given** no hay una sesión iniciada<br>**When** el usuario intenta cerrar sesión<br>**Then** el sistema no realiza ninguna acción.                                                                                                                                     | EP04                 |
-| US08                   | Eliminación de cuenta                                      | **Como** usuario, **quiero** eliminar mi cuenta y datos personales, **para** dejar de utilizar la plataforma si así lo deseo.                                              | **Escenario 1: Eliminación exitosa de cuenta**<br>**Given** el usuario está autenticado<br>**When** solicita eliminar su cuenta<br>**Then** el sistema elimina la cuenta y los datos asociados.<br><br>**Escenario 2: Fallo en la eliminación de cuenta por falta de autenticación**<br>**Given** el usuario no está autenticado<br>**When** intenta eliminar su cuenta<br>**Then** el sistema impide la eliminación e informa la necesidad de autenticarse.                                                                        | EP04                 |
-| EP05                   | **Gestión de horarios**                                    | **Como** dueño/administrador, **quiero** gestionar el horario de mis trabajadores, **para** organizar si pueden o no realizar el servicio.                                 | No Corresponde                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      | No Corresponde       |
-| US09                   | Visualización de los horarios                              | **Como** dueño/administrador, **quiero** visualizar los horarios disponibles , **para** saber cuándo mis trabajadores puede aceptar citas.                                 | **Escenario 1: Visualización correcta de horarios disponibles**<br>**Given** el administrador tiene horarios definidos<br>**When** accede a la consulta de disponibilidad<br>**Then** el sistema muestra los horarios de atención establecidos.<br><br>**Escenario 2: Visualización vacía sin horarios definidos**<br>**Given** no se ha configurado ningún horario<br>**When** el administrador consulta los horarios<br>**Then** el sistema informa que no hay disponibilidad registrada.                                         | EP05                 |
-| US10                   | Configuración de los horarios                              | **Como** dueño/administrador, **quiero** configurar los horarios de atención de mis trabajadores, **para** definir sus días y horas disponibles.                           | **Escenario 1: Configuración exitosa de horarios**<br>**Given** el administrador ingresa intervalos válidos<br>**When** define el horario de atención<br>**Then** el sistema registra los nuevos horarios correctamente.<br><br>**Escenario 2: Fallo en la configuración por conflictos de horario**<br>**Given** el administrador ingresa horarios que se superponen o son inválidos<br>**When** intenta configurar la disponibilidad<br>**Then** el sistema impide el registro e informa el conflicto.                            | EP05                 |
-| EP07                   | **Gestión de subscripciones**                              | **Como** dueño/administrador, **quiero** conocer y contratar planes de suscripción, **para** acceder a beneficios adicionales de la plataforma.                            | No Corresponde                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      | No Corresponde       |
-| US11                   | Visualización de beneficios de suscripción                 | **Como** dueño/administrador, **quiero** ver qué beneficios incluye cada plan, **para** elegir el más adecuado para mí.                                                    | **Escenario 1: Consulta exitosa de beneficios**<br>**Given** el administrador tiene una cuenta activa<br>**When** consulta los beneficios de los planes<br>**Then** el sistema muestra los beneficios disponibles en cada plan.<br><br>**Escenario 2: Validación de beneficios según plan**<br>**Given** el administrador accede al sistema<br>**When** verifica un plan específico<br>**Then** el sistema muestra solo los beneficios que corresponden a ese plan.                                                                 | EP07                 |
-| US12                   | Visualización de precios                                   | **Como** dueño/administrador, **quiero** ver los precios de cada plan, **para** tomar decisiones según mi presupuesto.                                                     | **Escenario 1: Visualización de precios de todos los planes**<br>**Given** el administrador desea conocer los planes<br>**When** accede a la información de precios<br>**Then** el sistema muestra los costos de cada plan disponible.<br><br>**Escenario 2: Consulta de precio por plan específico**<br>**Given** el administrador selecciona un plan<br>**When** consulta su precio<br>**Then** el sistema muestra el precio correspondiente a ese plan.                                                                          | EP07                 |
-| US13                   | Estado y nivel de suscripción                              | **Como** dueño/administrador, **quiero** ver el estado de mi suscripción actual, **para** saber su está activa y cuándo expira.                                            | **Escenario 1: Verificación de suscripción activa**<br>**Given** el administrador posee una suscripción<br>**When** accede a su estado actual<br>**Then** el sistema muestra si está activa y su nivel.<br><br>**Escenario 2: Visualización de fecha de expiración**<br>**Given** la suscripción del administrador está activa<br>**When** consulta la expiración<br>**Then** el sistema muestra la fecha de vencimiento.                                                                                                           | EP07                 |
-| US14                   | Contratación de plan de suscripción                        | **Como** dueño/administrador, **quiero** contratar un plan, **para** activar sus beneficios en mi cuenta.                                                                  | **Escenario 1: Activación de plan exitosamente**<br>**Given** el administrador elige un plan<br>**When** realiza la contratación<br>**Then** el sistema activa la suscripción correctamente.<br><br>**Escenario 2: Asociación de beneficios al contratar**<br>**Given** el plan es contratado<br>When se confirma la contratación<br>**Then** el sistema habilita los beneficios del plan.                                                                                                                                          | EP07                 |
-| EP08                   | **Gestión de Pagos y Facturación**                         | **Como** usuario, **quiero** pagar y recibir facturas de manera clara y segura, **para** tener control sobre mis transacciones.                                            | No Corresponde                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      | No Corresponde       |
-| US15                   | Confirmación de pago                                       | **Como** usuario, **quiero** recibir una confirmación inmediata al completar un pago, **para** asegurarme de que la transacción fue exitosa.                               | **Escenario 1: Confirmación inmediata tras pago válido**<br>**Given** el usuario realiza un pago<br>**When** completa la transacción<br>**Then** el sistema confirma que fue exitosa.<br><br>.**Escenario 2: Validación del estado del pago**<br>**Given** el usuario ha pagado<br>**When** consulta el estado<br>**Then** el sistema indica que el pago fue procesado correctamente.                                                                                                                                               | EP08                 |
-| US16                   | Renovación automática de suscripción                       | **Como** dueño/administrador, **quiero** que mi plan se renueve automáticamente, **para** no tener que pagar manualmente cada vez.                                         | **Escenario 1: Renovación automática sin errores**<br>**Given** el administrador tiene renovación automática activa<br>**When** llega la fecha programada<br>**Then** el sistema renueva la suscripción automáticamente.<br><br>**Escenario 2: Confirmación de renovación exitosa**<br>**Given** se ejecuta la renovación automática<br>**When** el sistema la procesa<br>**Then** se confirma al administrador que fue exitosa.                                                                                                    | EP08                 |
-| EP09                   | **Gestión y visualización de citas**                       | **Como** cliente, **quiero** poder agendar, modificar y ver mis citas, **para** organizarme mejor y aprovechar los servicios ofrecidos.                                    | No Corresponde                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      | No Corresponde       |
+| EP01                   | **Gestión y visualización de citas**                       | **Como** cliente, **quiero** poder agendar, modificar y ver mis citas, **para** organizarme mejor y aprovechar los servicios ofrecidos.                                    | No Corresponde                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      | No Corresponde       |
 | US17                   | Selección de salón                                         | **Como** cliente, **quiero** buscar y seleccionar un salón de belleza/barbería, **para** elegir dónde agendar mi cita.                                                     | **Escenario 1: Búsqueda de salón disponible<br>Given el cliente desea agendar una cita**<br>**When** realiza la búsqueda de salones<br>**Then** el sistema muestra los disponibles.<br><br>**Escenario 2: Selección exitosa del salón deseado**<br>**Given** el cliente elige un salón<br>**When** realiza la selección<br>**Then** el sistema asocia ese salón a la futura cita.                                                                                                                                                   | EP09                 |
 | US18                   | Creación de citas                                          | **Como** cliente, **quiero** poder agendar una cita según disponibilidad, **para** recibir el servicio deseado.                                                            | **Escenario 1: Registro correcto de cita nueva**<br>**Given** el cliente desea un servicio<br>**When** agenda una cita<br>**Then** el sistema la registra correctamente.<br><br>**Escenario 2: Verificación de disponibilidad antes de agendar**<br>**Given** el cliente selecciona una hora<br>**When** el sistema valida la disponibilidad<br>**Then** la cita es agendada si está libre.                                                                                                                                         | EP09                 |
 | US19                   | Visualización de citas agendadas                           | **Como** cliente, **quiero** ver mis citas agendadas, **para** saber cuánto y dónde tengo una reserva.                                                                     | **Escenario 1: Consulta de citas futuras**<br>**Given** el cliente tiene citas registradas<br>**When** accede a su historial<br>**Then** el sistema muestra las próximas citas.<br><br>**Escenario 2: Revisión de detalles de cita**<br>**Given** una cita está programada<br>**When** el cliente la consulta<br>**Then** el sistema muestra fecha, hora y lugar.                                                                                                                                                                   | EP09                 |
 | US20                   | Gestión de modificaciones y cancelaciones de citas         | **Como** cliente, **quiero** modificar o cancelar citas con anticipación, **para** reorganizar mis tiempos.                                                                | **Escenario 1: Modificación de cita antes de la fecha**<br>**Given** el cliente necesita cambiar una cita<br>**When** solicita el cambio<br>**Then** el sistema permite editar la cita.<br><br>**Escenario 2: Cancelación anticipada de una cita**<br>**Given** el cliente desea cancelar<br>**When** solicita la cancelación<br>**Then** el sistema elimina la cita correctamente.                                                                                                                                                 | EP09                 |
 | US21                   | Historial de modificaciones de citas                       | **Como** cliente, **quiero** ver los cambios realizados a mis citas, **para** tener un seguimiento completo de mis actividades.                                            | **Escenario 1: Registro de cambios en una cita**<br>**Given** el cliente modifica una cita<br>**When** el cambio es confirmado<br>**Then** el sistema guarda el cambio en el historial.<br><br>**Escenario 2: Consulta de historial de cambios**<br>**Given** existen modificaciones previas<br>**When** el cliente revisa el historial<br>**Then** el sistema muestra las ediciones realizadas.                                                                                                                                    | EP09                 |
-| EP10                   | **Gestión de negocio**                                     | **Como** dueño/administrador, **quiero** gestionar mis servicios, personal y cuentas, **para** optimizar la operación de mi negocio.                                       | No Corresponde                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      | No Corresponde       |
+| EP02                   | **Gestión de negocio**                                     | **Como** dueño/administrador, **quiero** gestionar mis servicios, personal y cuentas, **para** optimizar la operación de mi negocio.                                       | No Corresponde                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      | No Corresponde       |
 | US22                   | Administración de servicios ofrecidos                      | **Como** dueño/administrador, **quiero** agregar, editar o eliminar servicios, **para** mantener mi catálogo actualizado.                                                  | **Escenario 1: Registro de nuevo servicio**<br>**Given** el administrador desea añadir un servicio<br>**When** completa los datos necesarios<br>**Then** el sistema guarda el nuevo servicio.<br><br>**Escenario 2: Eliminación de servicio registrado**<br>**Given** un servicio ya no está disponible<br>**When** el administrador lo elimina<br>**Then** el sistema lo retira del catálogo.                                                                                                                                      | EP10                 |
 | US23                   | Gestión de trabajadores                                    | **Como** dueño/administrador, **quiero** añadir o quitar trabajadores, **para** organizar quién ofrece cada servicio.                                                      | **Escenario 1: Asignación de nuevo trabajador**<br>**Given** el administrador incorpora personal<br>**When** añade a un trabajador<br>**Then** el sistema lo registra correctamente.<br><br>**Escenario 2: Eliminación de trabajador inactivo**<br>**Given** un trabajador ya no colabora<br>**When** el administrador lo elimina<br>**Then** el sistema lo retira de la plantilla.                                                                                                                                                 | EP10                 |
 | US24                   | Gestión de cuentas bancarias                               | **Como** dueño/administrador, **quiero** registrar, modificar o eliminar cuentas bancarias, **para** administrar correctamente los pagos recibidos.                        | **Escenario 1: Registro de cuenta bancaria válida**<br>**Given** el administrador desea registrar una cuenta<br>**When** completa los datos<br>**Then** el sistema guarda la cuenta exitosamente.<br><br>**Escenario 2: Modificación de cuenta existente<br>Given hay una cuenta registrada**<br>**When** el administrador la edita<br>**Then** el sistema actualiza la información.                                                                                                                                                | EP10                 |
-| EP11                   | **Gestión de notificaciones**                              | **Como** usuario, **quiero** recibir notificaciones personalizadas sobre mis citas, pagos y promociones, **para** estar siempre informado.                                 | No Corresponde                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      | No Corresponde       |
+| EP03                   | **Gestión de horarios**                                    | **Como** dueño/administrador, **quiero** gestionar el horario de mis trabajadores, **para** organizar si pueden o no realizar el servicio.                                 | No Corresponde                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      | No Corresponde       |
+| US09                   | Visualización de los horarios                              | **Como** dueño/administrador, **quiero** visualizar los horarios disponibles , **para** saber cuándo mis trabajadores puede aceptar citas.                                 | **Escenario 1: Visualización correcta de horarios disponibles**<br>**Given** el administrador tiene horarios definidos<br>**When** accede a la consulta de disponibilidad<br>**Then** el sistema muestra los horarios de atención establecidos.<br><br>**Escenario 2: Visualización vacía sin horarios definidos**<br>**Given** no se ha configurado ningún horario<br>**When** el administrador consulta los horarios<br>**Then** el sistema informa que no hay disponibilidad registrada.                                         | EP05                 |
+| US10                   | Configuración de los horarios                              | **Como** dueño/administrador, **quiero** configurar los horarios de atención de mis trabajadores, **para** definir sus días y horas disponibles.                           | **Escenario 1: Configuración exitosa de horarios**<br>**Given** el administrador ingresa intervalos válidos<br>**When** define el horario de atención<br>**Then** el sistema registra los nuevos horarios correctamente.<br><br>**Escenario 2: Fallo en la configuración por conflictos de horario**<br>**Given** el administrador ingresa horarios que se superponen o son inválidos<br>**When** intenta configurar la disponibilidad<br>**Then** el sistema impide el registro e informa el conflicto.                            | EP05                 |
+| EP04                   | **Gestión de subscripciones**                              | **Como** dueño/administrador, **quiero** conocer y contratar planes de suscripción, **para** acceder a beneficios adicionales de la plataforma.                            | No Corresponde                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      | No Corresponde       |
+| US11                   | Visualización de beneficios de suscripción                 | **Como** dueño/administrador, **quiero** ver qué beneficios incluye cada plan, **para** elegir el más adecuado para mí.                                                    | **Escenario 1: Consulta exitosa de beneficios**<br>**Given** el administrador tiene una cuenta activa<br>**When** consulta los beneficios de los planes<br>**Then** el sistema muestra los beneficios disponibles en cada plan.<br><br>**Escenario 2: Validación de beneficios según plan**<br>**Given** el administrador accede al sistema<br>**When** verifica un plan específico<br>**Then** el sistema muestra solo los beneficios que corresponden a ese plan.                                                                 | EP07                 |
+| US12                   | Visualización de precios                                   | **Como** dueño/administrador, **quiero** ver los precios de cada plan, **para** tomar decisiones según mi presupuesto.                                                     | **Escenario 1: Visualización de precios de todos los planes**<br>**Given** el administrador desea conocer los planes<br>**When** accede a la información de precios<br>**Then** el sistema muestra los costos de cada plan disponible.<br><br>**Escenario 2: Consulta de precio por plan específico**<br>**Given** el administrador selecciona un plan<br>**When** consulta su precio<br>**Then** el sistema muestra el precio correspondiente a ese plan.                                                                          | EP07                 |
+| US13                   | Estado y nivel de suscripción                              | **Como** dueño/administrador, **quiero** ver el estado de mi suscripción actual, **para** saber su está activa y cuándo expira.                                            | **Escenario 1: Verificación de suscripción activa**<br>**Given** el administrador posee una suscripción<br>**When** accede a su estado actual<br>**Then** el sistema muestra si está activa y su nivel.<br><br>**Escenario 2: Visualización de fecha de expiración**<br>**Given** la suscripción del administrador está activa<br>**When** consulta la expiración<br>**Then** el sistema muestra la fecha de vencimiento.                                                                                                           | EP07                 |
+| US14                   | Contratación de plan de suscripción                        | **Como** dueño/administrador, **quiero** contratar un plan, **para** activar sus beneficios en mi cuenta.                                                                  | **Escenario 1: Activación de plan exitosamente**<br>**Given** el administrador elige un plan<br>**When** realiza la contratación<br>**Then** el sistema activa la suscripción correctamente.<br><br>**Escenario 2: Asociación de beneficios al contratar**<br>**Given** el plan es contratado<br>When se confirma la contratación<br>**Then** el sistema habilita los beneficios del plan.                                                                                                                                          | EP07                 |
+| EP05                   | **Gestión de Pagos y Facturación**                         | **Como** usuario, **quiero** pagar y recibir facturas de manera clara y segura, **para** tener control sobre mis transacciones.                                            | No Corresponde                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      | No Corresponde       |
+| US15                   | Confirmación de pago                                       | **Como** usuario, **quiero** recibir una confirmación inmediata al completar un pago, **para** asegurarme de que la transacción fue exitosa.                               | **Escenario 1: Confirmación inmediata tras pago válido**<br>**Given** el usuario realiza un pago<br>**When** completa la transacción<br>**Then** el sistema confirma que fue exitosa.<br><br>.**Escenario 2: Validación del estado del pago**<br>**Given** el usuario ha pagado<br>**When** consulta el estado<br>**Then** el sistema indica que el pago fue procesado correctamente.                                                                                                                                               | EP08                 |
+| US16                   | Renovación automática de suscripción                       | **Como** dueño/administrador, **quiero** que mi plan se renueve automáticamente, **para** no tener que pagar manualmente cada vez.                                         | **Escenario 1: Renovación automática sin errores**<br>**Given** el administrador tiene renovación automática activa<br>**When** llega la fecha programada<br>**Then** el sistema renueva la suscripción automáticamente.<br><br>**Escenario 2: Confirmación de renovación exitosa**<br>**Given** se ejecuta la renovación automática<br>**When** el sistema la procesa<br>**Then** se confirma al administrador que fue exitosa.                                                                                                    | EP08                 |
+| EP06                   | **Registro de usuario**                                    | **Como** nuevo usuario, **quiero** registrarme fácilmente en la plataforma, **para** poder acceder a sus funcionalidades.                                                  | No Corresponde                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      | No Corresponde       |
+| US01                   | Registro de un cliente                                     | **Como** cliente, **quiero** registrarme proporcionando mis datos personales, **para** crear una cuenta.                                                                   | **Escenario 1: Registro exitoso de un cliente**<br>**Given** el cliente proporciona datos personales válidos<br>**When** solicita crear una cuenta<br>**Then** el sistema crea una cuenta y confirma el registro.<br><br>**Escenario 2: Registro fallido por datos incompletos**<br>**Given** el cliente no proporciona todos los datos requeridos<br>**When** intenta registrarse<br>**Then** el sistema impide el registro e informa la omisión.                                                                                  | EP01                 |
+| US02                   | Registro de un salón de belleza/barbería                   | **Como** dueño/administrador, **quiero** poder registrar mi negocio, **para** gestionar mis servicios en la plataforma.                                                    | **Escenario 1: Registro exitoso de un negocio**<br>**Given** el administrador proporciona información válida del negocio<br>**When** solicita registrar su salón o barbería<br>**Then** el sistema almacena los datos y confirma el registro del negocio.<br><br>**Escenario 2: Registro fallido por datos inválidos del negocio**<br>**Given** el administrador ingresa información inválida o incompleta<br>**When** intenta registrar el negocio<br>**Then** el sistema rechaza el registro e informa el problema.               | EP01                 |
+| EP07                   | **Inicio de sesión**                                       | **Como** usuario registrado, **quiero** iniciar sesión con mis credenciales, **para** acceder a mi cuenta de forma segura.                                                 | No Corresponde                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      | No Corresponde       |
+| US03                   | Inicio de sesión del usuario                               | **Como** usuario, **quiero** iniciar sesión con mi correo y contraseña, **para** acceder a mi cuenta.                                                                      | **Escenario 1: Inicio de sesión exitoso**<br>**Given** el usuario tiene una cuenta registrada<br>**When** proporciona credenciales correctas<br>**Then** el sistema permite el acceso a la cuenta.<br><br>**Escenario 2: Fallo en inicio de sesión por credenciales incorrectas**<br>**Given** el usuario proporciona credenciales inválidas<br>**When** intenta iniciar sesión<br>**Then** el sistema rechaza el acceso e informa el error.                                                                                        | EP02                 |
+| US04                   | Recuperación de contraseña                                 | **Como** usuario, **quiero** recuperar el acceso a mi cuenta si olvido la contraseña, **para** poder usar la plataforma nuevamente.                                        | **Escenario 1: Solicitud exitosa de recuperación de contraseña**<br>**Given** el usuario indica su información asociada a la cuenta<br>**When** solicita recuperar su contraseña<br>**Then** el sistema genera instrucciones de recuperación.<br><br>**Escenario 2: Solicitud fallida por información inválida**<br>**Given** el usuario proporciona información no registrada<br>**When** solicita recuperar su contraseña<br>**Then** el sistema informa que no puede completar la solicitud.                                     | EP02                 |
+| EP08                   | **Cierre de sesión y eliminación de la cuenta**            | **Como** usuario, **quiero** cerrar sesión o eliminar mi cuenta, **para** tener control sobre mi acceso y privacidad.                                                      | No Corresponde                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      | No Corresponde       |
+| US07                   | Cierre de sesión                                           | **Como** usuario, **quiero** poder cerrar sesión de forma segura, **para** proteger mis datos cuando no uso la app.                                                        | **Escenario 1: Cierre de sesión exitoso**<br>**Given** el usuario tiene una sesión activa<br>**When** solicita cerrar la sesión<br>**Then** el sistema finaliza la sesión y revoca el acceso.<br><br>**Escenario 2: Cierre de sesión sin sesión activa**<br>**Given** no hay una sesión iniciada<br>**When** el usuario intenta cerrar sesión<br>**Then** el sistema no realiza ninguna acción.                                                                                                                                     | EP04                 |
+| US08                   | Eliminación de cuenta                                      | **Como** usuario, **quiero** eliminar mi cuenta y datos personales, **para** dejar de utilizar la plataforma si así lo deseo.                                              | **Escenario 1: Eliminación exitosa de cuenta**<br>**Given** el usuario está autenticado<br>**When** solicita eliminar su cuenta<br>**Then** el sistema elimina la cuenta y los datos asociados.<br><br>**Escenario 2: Fallo en la eliminación de cuenta por falta de autenticación**<br>**Given** el usuario no está autenticado<br>**When** intenta eliminar su cuenta<br>**Then** el sistema impide la eliminación e informa la necesidad de autenticarse.                                                                        | EP04                 |
+| EP09                   | **Edición de perfil de usuario**                           | **Como** usuario, **quiero** editar los datos de mi perfil, **para** mantener mi información actualizada y personalizada según mi rol.                                     | No Corresponde                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      | No Corresponde       |
+| US05                   | Edición del perfil del cliente                             | **Como** cliente, **quiero** actualizar mi información personal, **para** mantener mis datos actualizados.                                                                 | **Escenario 1: Edición exitosa del perfil**<br>**Given** el cliente accede a su información personal<br>**When** actualiza sus datos correctamente<br>**Then** el sistema guarda los cambios y confirma la actualización.<br><br>**Escenario 2: Fallo en edición por datos inválidos**<br>**Given** el cliente proporciona datos incorrectos<br>**When** intenta actualizar su perfil<br>**Then** el sistema rechaza la edición e informa el motivo.                                                                                | EP03                 |
+| US06                   | Personalización del perfil del salón de belleza/barbería   | **Como** dueño/administrador, **quiero** poder personalizar el perfil de mi salon de belleza/barbería con informacíón relevante y estética, **para** atraer a más cliente. | **Escenario 1: Personalización exitosa del perfil del negocio**<br>**Given** el administrador accede a la configuración del negocio<br>**When** modifica los datos con información válida<br>**Then** el sistema actualiza el perfil del negocio.<br><br>**Escenario 2: Fallo en personalización por datos inválidos**<br>**Given** el administrador proporciona información no aceptada<br>**When** intenta modificar el perfil del negocio<br>**Then** el sistema impide la actualización e informa el error.                     | EP03                 |
+| EP10                   | **Gestión de notificaciones**                              | **Como** usuario, **quiero** recibir notificaciones personalizadas sobre mis citas, pagos y promociones, **para** estar siempre informado.                                 | No Corresponde                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      | No Corresponde       |
 | US25                   | Recepción de notificaciones del estado de la cita          | **Como** cliente, **quiero** recibir notificaciones sobre confirmación, cancelación o modificación de citas, **para** estar al tanto de mis reservas.                      | **Escenario 1: Notificación por confirmación de cita**<br>**Given** el cliente agenda una cita<br>**When** esta es confirmada<br>**Then** el sistema envía una notificación.<br><br>**Escenario 2: Aviso por modificación de cita**<br>**Given** una cita es modificada<br>**When** se actualiza su estado<br>**Then** el cliente recibe una notificación del cambio.                                                                                                                                                               | EP11                 |
 | US26                   | Alertas por vencimiento o fallo de pago                    | **Como** usuario, **quiero** ser alertado si hay un problema con mi pago o si está por vencer mi suscripción, **para** tomar acciones a tiempo.                            | **Escenario 1: Alerta de vencimiento próximo**<br>**Given** la suscripción está por expirar<br>**When** se acerca la fecha límite<br>**Then** el sistema alerta al usuario<br><br>**Escenario 2: Notificación por fallo en el pago**<br>**Given** un pago no se concreta<br>**When** el sistema detecta el error<br>**Then** se notifica al usuario del problema.                                                                                                                                                                   | EP11                 |
 | US27                   | Configuración de medios de notificación                    | **Como** usuario, **quiero** elegir si recibir notificaciones por correo, SMS o dentro de la plataforma, **para** tener un mejor control de mi información.                | **Escenario 1: Selección del medio de notificación preferido**<br>**Given** el usuario quiere cambiar el medio de notificación<br>**When** accede a su configuración<br>**Then** el sistema permite elegir entre las opciones disponibles.<br><br>**Escenario 2: Confirmación de medio seleccionado**<br>**Given** el usuario elige un medio<br>**When** guarda los cambios<br>**Then** el sistema respeta la nueva configuración.                                                                                                  | EP11                 |
 | US28                   | Recepción de notificaciones sobre promociones y descuentos | **Como** cliente, **quiero** recibir promociones y descuentos que me interesen, **para** aprovechar ofertas relevantes.                                                    | **Escenario 1: Envío de promoción activa**<br>**Given** hay una promoción vigente<br>**When** el sistema identifica usuarios interesados<br>**Then** se les envía la promoción correspondiente.<br><br>**Escenario 2: Recepción correcta de promoción configurada**<br>**Given** el cliente acepta recibir promociones<br>**When** se lanza una campaña<br>**Then** recibe la notificación correctamente.                                                                                                                           | EP11                 |
-| EP12                   | **Landing Page**                                           | **Como** visitante, **quiero** ver una página inicial atractiva con toda la información relevante, **para** decidir si deseo registrarme o contactar.                      | No Corresponde                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      | No Corresponde       |                            
+| EP11                   | **Landing Page**                                           | **Como** visitante, **quiero** ver una página inicial atractiva con toda la información relevante, **para** decidir si deseo registrarme o contactar.                      | No Corresponde                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      | No Corresponde       |                            
 | US29                   | Visualización general de los servicios                     | **Como** visitante, **quiero** ver una vista general de los servicios ofrecidos, **para** entender qué tipo de atención puedo recibir.                                     | **Escenario 1: Muestra de catálogo de servicios disponibles**<br>**Given** el visitante desea informarse<br>**When** accede al listado de servicios<br>**Then** el sistema muestra todos los servicios activos.<br><br>**Escenario 2: Visualización de detalles de servicio**<br>**Given** el visitante elige un servicio<br>**When** accede a la descripción<br>**Then** el sistema muestra la información detallada.                                                                                                              | EP12                 |
 | US30                   | Visualización de beneficios                                | **Como** visitante, **quiero** ver los beneficios de usar la plataforma, **para** motivarme a registrarme.                                                                 | **Escenario 1: Despliegue de beneficios por usar la plataforma**<br>**Given** el visitante quiere conocer ventajas<br>**When** accede a la sección correspondiente<br>**Then** el sistema muestra los beneficios disponibles.<br><br>**Escenario 2: Validación de beneficios antes del registro**<br>**Given** el visitante no está registrado<br>**When** consulta los beneficios<br>**Then** el sistema permite visualizar la información sin restricción.                                                                        | EP12                 |
 | US31                   | Planes y precios                                           | **Como** visitante, **quiero** ver los planes de suscripción y sus precios, **para** saber si se ajustan a mis necesidades.                                                | **Escenario 1: Muestra general de planes y precios**<br>**Given** el visitante desea comparar opciones<br>**When** accede a la sección de planes<br>**Then** el sistema muestra los precios y características.**Escenario 2: Consulta de detalle de un plan específico**<br>**Given** el visitante selecciona un plan<br>**When** solicita más información<br>**Then** el sistema despliega los detalles y precio.                                                                                                                  | EP12                 |
@@ -1195,23 +1295,24 @@ Segmento objetivo #2: Clientes de servicios de belleza
 | US34                   | Contacto o soporte                                         | **Como** visitante, **quiero** poder contactarme con el equipo o recibir soporte, **para** resolver dudas antes de registrarme.                                            | **Escenario 1: Acceso a canal de contacto**<br>**Given** el visitante tiene una duda<br>**When** busca ayuda<br>**Then** el sistema le muestra opciones para contactarse.<br><br>**Escenario 2: Confirmación de recepción de mensaje de soporte**<br>**Given** el visitante envía una consulta<br>**When** el sistema la recibe<br>**Then** emite una confirmación automática.                                                                                                                                                      | EP12                 |
 | US35                   | Información sobre uTime                                    | **Como** visitante, **quiero** poder acceder una sección que explique quiénes son los creadores, **para** tener confianza en la plataforma y su propósito.                  | **Escenario 1: Mostrar información sobre la startup**<br>**Given** que soy un visitante en la página principal<br>**When** hago clic en el enlace "About US" us del menú de navegación<br>**Then** se debe mostrar una sección con información sobre Pactech, incluyendo su misión, visión y propósito.<br><br>**Escenario 2: Visualizar los integrantes del equipo**<br>**Given** que estoy en la sección "About Us"<br>**When**visualizo la información de la empresa<br>**Then** debo poder ver a los integrantes de Paxtech. | EP12                 |
 
-### 3.2.4 Technical Stories
+
+### 3.2.2 Technical Stories
 
 | **ID** | **Título**                                          | **Descripción**                                                                                                                                              | **Criterios de Aceptación**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               | **Epic Relacionado** |
 |--------|-----------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------|
-| TS01   | Integración con pasarela de Pagos                   | **Como** developer, **quiero** integrar la plataforma con pasarelas de pago, **para** gestionar cobros de forma segura.                                      | **Escenario 1: Pago con tarjeta válida**<br>**Given** el usuario ha seleccionado un plan de suscripción<br>**When** el usuario ingresa los datos de una tarjeta válida y confirma el pago<br>**Then** el sistema procesa el pago y responde con un mensaje de éxito.<br><br>**Escenario 2: Pago rechazado por tarjeta inválida**<br>**Given** el usuario ha seleccionado un plan de suscripción<br>**When** el usuario ingresa una tarjeta inválida<br>**Then** el sistema rechaza el pago y muestra un mensaje de error. | EP08                 |
-| TS02   | Implementación de autenticación con dos pasos (2FA) | **Como** developer, **quiero** añadir autenticación de dos factores, **para** mejorar la seguridad del inicio de sesión de los usuarios.                     | **Escenario 1: Acceso con código válido**<br>**Given** el usuario ha ingresado correctamente su correo y contraseña<br>**When** el usuario ingresa el código 2FA enviado<br>**Then** el sistema lo autentica y le permite acceder.<br><br>**Escenario 2: Acceso denegado por código inválido**<br>**Given** el usuario ha ingresado sus credenciales<br>**When** el usuario ingresa un código 2FA incorrecto<br>**Then** el sistema bloquea el acceso y muestra un mensaje de error.                                      | EP02                 |
-| TS03   | Encriptación de contraseñas                         | **Como** developer, **quiero** asegurar las contraseñas mediante hashing y salting, **para** proteger los datos de los usuarios.                             | **Escenario 1: Almacenamiento seguro al registrarse**<br>**Given** un nuevo usuario se registra<br>**When** se guarda su contraseña<br>**Then** la contraseña debe almacenarse en formato hash con salt.<br><br>**Escenario 2: Comparación segura al hacer login**<br>**Given** un usuario registrado intenta iniciar sesión<br>**When** el sistema compara la contraseña ingresada con la almacenada<br>**Then** debe usar el hash y salt para verificar la coincidencia.                                                | EP01                 |
-| TS04   | Actualización en tiempo real de horarios y citas    | **Como** developer, **quiero** que los horarios y las citas se actualicen en tiempo real, **para** que los usuarios vean disponibilidad actualizada.         | **Escenario 1: Horario actualizado sin recargar**<br>**Given** un horario es actualizado por el administrador<br>**When** otro usuario está viendo los horarios<br>**Then** los cambios se reflejan automáticamente.<br><br>**Escenario 2: Cita nueva visible en tiempo real**<br>**Given** un cliente agenda una cita<br>**When** la cita es confirmada<br>**Then** el nuevo horario se muestra en tiempo real en el panel del salón.                                                                                    | EP05/EP09            |
+| TS01   | Integración con pasarela de Pagos                   | **Como** developer, **quiero** integrar la plataforma con pasarelas de pago, **para** gestionar cobros de forma segura.                                      | **Escenario 1: Pago con tarjeta válida**<br>**Given** el usuario ha seleccionado un plan de suscripción<br>**When** el usuario ingresa los datos de una tarjeta válida y confirma el pago<br>**Then** el sistema procesa el pago y responde con un mensaje de éxito.<br><br>**Escenario 2: Pago rechazado por tarjeta inválida**<br>**Given** el usuario ha seleccionado un plan de suscripción<br>**When** el usuario ingresa una tarjeta inválida<br>**Then** el sistema rechaza el pago y muestra un mensaje de error. | EP05                 |
+| TS02   | Implementación de autenticación con dos pasos (2FA) | **Como** developer, **quiero** añadir autenticación de dos factores, **para** mejorar la seguridad del inicio de sesión de los usuarios.                     | **Escenario 1: Acceso con código válido**<br>**Given** el usuario ha ingresado correctamente su correo y contraseña<br>**When** el usuario ingresa el código 2FA enviado<br>**Then** el sistema lo autentica y le permite acceder.<br><br>**Escenario 2: Acceso denegado por código inválido**<br>**Given** el usuario ha ingresado sus credenciales<br>**When** el usuario ingresa un código 2FA incorrecto<br>**Then** el sistema bloquea el acceso y muestra un mensaje de error.                                      | EP07                 |
+| TS03   | Encriptación de contraseñas                         | **Como** developer, **quiero** asegurar las contraseñas mediante hashing y salting, **para** proteger los datos de los usuarios.                             | **Escenario 1: Almacenamiento seguro al registrarse**<br>**Given** un nuevo usuario se registra<br>**When** se guarda su contraseña<br>**Then** la contraseña debe almacenarse en formato hash con salt.<br><br>**Escenario 2: Comparación segura al hacer login**<br>**Given** un usuario registrado intenta iniciar sesión<br>**When** el sistema compara la contraseña ingresada con la almacenada<br>**Then** debe usar el hash y salt para verificar la coincidencia.                                                | EP06                 |
+| TS04   | Actualización en tiempo real de horarios y citas    | **Como** developer, **quiero** que los horarios y las citas se actualicen en tiempo real, **para** que los usuarios vean disponibilidad actualizada.         | **Escenario 1: Horario actualizado sin recargar**<br>**Given** un horario es actualizado por el administrador<br>**When** otro usuario está viendo los horarios<br>**Then** los cambios se reflejan automáticamente.<br><br>**Escenario 2: Cita nueva visible en tiempo real**<br>**Given** un cliente agenda una cita<br>**When** la cita es confirmada<br>**Then** el nuevo horario se muestra en tiempo real en el panel del salón.                                                                                    | EP05/EP06            |
 | TS05   | Validaciones de formularios en frontend y backend   | **Como** developer, **quiero** implementar validaciones robustas en formularios, **para** evitar datos erróneos o maliciosos.                                | **Escenario 1: Campo requerido vacío**<br>**Given** el usuario deja el campo “correo electrónico” vacío<br>**When** intenta enviar el formulario<br>**Then** el sistema muestra un mensaje de error.<br><br>**Escenario 2: Formato incorrecto en campo de teléfono**<br>**Given** el usuario escribe un teléfono no numérico<br>**When** intenta enviar el formulario<br>**Then** el sistema muestra un mensaje de validación.                                                                                            | Todas                |
-| TS06   | Diseño responsive y accesible                       | **Como** developer, **quiero** aplicar diseño responsive y accesibilidad, **para** que el sitio funcione bien en cualquier dispositivo.                      | **Escenario 1: Visualización en smartphone**<br>**Given** el usuario accede desde un smartphone<br>**When** navega por el sitio<br>**Then** los elementos se ajustan correctamente.<br><br>**Escenario 2: Accesibilidad con lector de pantalla**<br>**Given** un usuario con discapacidad visual accede al sitio<br>**When** usa un lector de pantalla<br>**Then** los elementos clave tienen etiquetas accesibles.                                                                                                       | EP13                 |
-| TS07   | Crear endpoint para registro de usuario             | **Como** developer, **quiero** crear el endpoint POST /usuarios para registrar clientes y salones de belleza, **para** permitir su incorporación al sistema. | **Escenario 1: Registro exitoso de cliente**<br>**Given** un cliente envía una solicitud POST con datos válidos<br>**When** el endpoint procesa la petición<br>**Then** se registra y devuelve un token de autenticación.<br><br>**Escenario 2: Datos incompletos en el registro**<br>**Given** un usuario envía datos incompletos<br>**When** el backend valida la solicitud<br>**Then** devuelve un error 400 indicando campos faltantes.                                                                               | EP01                 |
-| TS08   | Crear endpoint de login con JWT                     | **Como** developer, **quiero** crear el endpoint POST /login con generación de JWT, **para** autenticar a los usuarios del sistema.                          | **Escenario 1: Login exitoso**<br>**Given** un usuario envía su correo y contraseña correctos<br>**When** se autentica correctamente<br>**Then** el sistema devuelve un JWT válido.<br><br>**Escenario 2: Login fallido**<br>**Given** un usuario intenta iniciar sesión con datos erróneos<br>**When** el sistema verifica las credenciales<br>**Then** devuelve un error 401.                                                                                                                                           | EP02                 |
-| TS09   | Crear endpoint para agendar citas                   | **Como** developer, **quiero** crear el endpoint POST /citas **para** que los usuarios puedan agendar una cita con un salón.                                 | **Escenario 1: Cita agendada correctamente**<br>**Given** un cliente envía una solicitud con fecha y hora disponibles<br>**When** la solicitud es válida<br>**Then** la cita se crea y se confirma.<br><br>**Escenario 2: Horario no disponible**<br>**Given** un cliente intenta agendar en un horario ocupado<br>**When** envía la solicitud<br>**Then** el sistema responde con un error indicando indisponibilidad.                                                                                                   | EP09                 |
-| TS10   | Crear endpoint para gestionar horarios              | **Como** developer, **quiero** crear los endpoints GET /horarios y PUT /horarios, **para** visualizar y actualizar los horarios del salón.                   | **Escenario 1: Visualización de horarios**<br>**Given** el administrador consulta el endpoint GET /horarios<br>**When** hay horarios configurados<br>**Then** el sistema devuelve la lista correctamente.<br><br>**Escenario 2: Actualización de horarios**<br>**Given** el administrador quiere cambiar su horario<br>**When** envía una solicitud PUT con los nuevos datos<br>**Then** el sistema actualiza la información.                                                                                             | EP05                 |
-| TS11   | Crear endpoint de pagos                             | **Como** developer, **quiero** crear el endpoint POST /pagos **para** procesar pagos usando la pasarela integrada.                                           | **Escenario 1: Pago procesado exitosamente**<br>**Given** el usuario quiere pagar una suscripción<br>**When** envía datos válidos a POST /pagos<br>**Then** el sistema procesa el pago y registra la transacción.<br><br>**Escenario 2: Pago rechazado**<br>**Given** el usuario envía un método de pago inválido<br>**When** se procesa la solicitud<br>**Then** el sistema devuelve un error con el motivo del fallo.                                                                                                   | EP08                 |
-| TS12   | Crear endpoints para suscripciones                  | **Como** developer, **quiero** implementar GET /suscripciones, POST /suscripciones, y PUT /suscripciones **para** gestionar los planes de los usuarios.      | **Escenario 1: Consultar planes disponibles**<br>**Given** un usuario accede a GET /suscripciones<br>**When** el sistema recibe la solicitud<br>**Then** devuelve una lista de planes y beneficios.<br><br>**Escenario 2: Cambio de plan**<br>**Given** un usuario con plan activo quiere cambiar<br>**When** envía una solicitud PUT con el nuevo plan<br>**Then** el sistema actualiza la suscripción.                                                                                                                  | EP07                 |
-| TS13   | Crear endpoint para recibir notificaciones          | **Como** developer, **quiero** crear el endpoint POST /notificaciones **para** recibir y registrar eventos que generen alertas al usuario.                   | **Escenario 1: Notificación por cita creada**<br>**Given** un cliente agenda una cita<br>**When** el evento se genera<br>**Then** el sistema envía una notificación mediante POST /notificaciones.<br><br>**Escenario 2: Notificación por vencimiento de pago**<br>**Given** una suscripción está por vencer<br>**When** se detecta la proximidad de vencimiento<br>**Then** se genera y envía una notificación automática.                                                                                               | EP11                 |
+| TS06   | Diseño responsive y accesible                       | **Como** developer, **quiero** aplicar diseño responsive y accesibilidad, **para** que el sitio funcione bien en cualquier dispositivo.                      | **Escenario 1: Visualización en smartphone**<br>**Given** el usuario accede desde un smartphone<br>**When** navega por el sitio<br>**Then** los elementos se ajustan correctamente.<br><br>**Escenario 2: Accesibilidad con lector de pantalla**<br>**Given** un usuario con discapacidad visual accede al sitio<br>**When** usa un lector de pantalla<br>**Then** los elementos clave tienen etiquetas accesibles.                                                                                                       | Todas                |
+| TS07   | Crear endpoint para registro de usuario             | **Como** developer, **quiero** crear el endpoint POST /usuarios para registrar clientes y salones de belleza, **para** permitir su incorporación al sistema. | **Escenario 1: Registro exitoso de cliente**<br>**Given** un cliente envía una solicitud POST con datos válidos<br>**When** el endpoint procesa la petición<br>**Then** se registra y devuelve un token de autenticación.<br><br>**Escenario 2: Datos incompletos en el registro**<br>**Given** un usuario envía datos incompletos<br>**When** el backend valida la solicitud<br>**Then** devuelve un error 400 indicando campos faltantes.                                                                               | EP06                 |
+| TS08   | Crear endpoint de login con JWT                     | **Como** developer, **quiero** crear el endpoint POST /login con generación de JWT, **para** autenticar a los usuarios del sistema.                          | **Escenario 1: Login exitoso**<br>**Given** un usuario envía su correo y contraseña correctos<br>**When** se autentica correctamente<br>**Then** el sistema devuelve un JWT válido.<br><br>**Escenario 2: Login fallido**<br>**Given** un usuario intenta iniciar sesión con datos erróneos<br>**When** el sistema verifica las credenciales<br>**Then** devuelve un error 401.                                                                                                                                           | EP07                 |
+| TS09   | Crear endpoint para agendar citas                   | **Como** developer, **quiero** crear el endpoint POST /citas **para** que los usuarios puedan agendar una cita con un salón.                                 | **Escenario 1: Cita agendada correctamente**<br>**Given** un cliente envía una solicitud con fecha y hora disponibles<br>**When** la solicitud es válida<br>**Then** la cita se crea y se confirma.<br><br>**Escenario 2: Horario no disponible**<br>**Given** un cliente intenta agendar en un horario ocupado<br>**When** envía la solicitud<br>**Then** el sistema responde con un error indicando indisponibilidad.                                                                                                   | EP06                 |
+| TS10   | Crear endpoint para gestionar horarios              | **Como** developer, **quiero** crear los endpoints GET /horarios y PUT /horarios, **para** visualizar y actualizar los horarios del salón.                   | **Escenario 1: Visualización de horarios**<br>**Given** el administrador consulta el endpoint GET /horarios<br>**When** hay horarios configurados<br>**Then** el sistema devuelve la lista correctamente.<br><br>**Escenario 2: Actualización de horarios**<br>**Given** el administrador quiere cambiar su horario<br>**When** envía una solicitud PUT con los nuevos datos<br>**Then** el sistema actualiza la información.                                                                                             | EP09                 |
+| TS11   | Crear endpoint de pagos                             | **Como** developer, **quiero** crear el endpoint POST /pagos **para** procesar pagos usando la pasarela integrada.                                           | **Escenario 1: Pago procesado exitosamente**<br>**Given** el usuario quiere pagar una suscripción<br>**When** envía datos válidos a POST /pagos<br>**Then** el sistema procesa el pago y registra la transacción.<br><br>**Escenario 2: Pago rechazado**<br>**Given** el usuario envía un método de pago inválido<br>**When** se procesa la solicitud<br>**Then** el sistema devuelve un error con el motivo del fallo.                                                                                                   | EP05                 |
+| TS12   | Crear endpoints para suscripciones                  | **Como** developer, **quiero** implementar GET /suscripciones, POST /suscripciones, y PUT /suscripciones **para** gestionar los planes de los usuarios.      | **Escenario 1: Consultar planes disponibles**<br>**Given** un usuario accede a GET /suscripciones<br>**When** el sistema recibe la solicitud<br>**Then** devuelve una lista de planes y beneficios.<br><br>**Escenario 2: Cambio de plan**<br>**Given** un usuario con plan activo quiere cambiar<br>**When** envía una solicitud PUT con el nuevo plan<br>**Then** el sistema actualiza la suscripción.                                                                                                                  | EP08                 |
+| TS13   | Crear endpoint para recibir notificaciones          | **Como** developer, **quiero** crear el endpoint POST /notificaciones **para** recibir y registrar eventos que generen alertas al usuario.                   | **Escenario 1: Notificación por cita creada**<br>**Given** un cliente agenda una cita<br>**When** el evento se genera<br>**Then** el sistema envía una notificación mediante POST /notificaciones.<br><br>**Escenario 2: Notificación por vencimiento de pago**<br>**Given** una suscripción está por vencer<br>**When** se detecta la proximidad de vencimiento<br>**Then** se genera y envía una notificación automática.                                                                                               | EP10                 |
 
 ## 3.3. Impact Mapping.
 
@@ -1317,9 +1418,11 @@ Complementa la paleta principal con tonos suaves y equilibrados como el #E8C7EF 
 <p>Esta combinación de colores logra una experiencia visual armoniosa, elegante y tecnológica, ideal para una plataforma que busca destacar en el sector de servicios de belleza.</p>
 
 #### 4.1.1.3. Iconografía
+
 <div align="center">
 <img src="img/iconografia.png" alt="iconografia" width="600" />
 </div>
+
 La iconografía de uTime está diseñada para mantener una interfaz limpia, moderna y altamente intuitiva. Los íconos comunican de forma rápida y visual las funciones principales de la plataforma, lo que facilita la navegación tanto para clientes como para profesionales. Se utiliza un estilo lineal (outline) con trazos uniformes, redondeados y amigables, lo cual transmite una sensación de cercanía y profesionalismo, alineada con el tono general de la marca.
 Se han definido tres tamaños estándar de íconos, cada uno con su respectivo grosor de trazo (stroke), para adaptarse a diferentes jerarquías visuales dentro del producto:
 * **Íconos grandes:** 96 x 90 px con un trazo de 4 px. Usados en secciones destacadas como navegación principal o pantallas de bienvenida.
@@ -1327,6 +1430,7 @@ Se han definido tres tamaños estándar de íconos, cada uno con su respectivo g
 * **Íconos pequeños:** 32 x 30 px con un trazo de 2 px. Ideales para botones de acción, menús desplegables o elementos en listas.
 Además del ícono base (hogar), se ha desarrollado una biblioteca de íconos adicionales que incluyen representaciones claras de funciones comunes en la plataforma, como agendamiento, pagos, perfil, servicios, notificaciones y redes sociales. Esta colección asegura consistencia visual en todas las plataformas, permitiendo escalabilidad y rápida comprensión sin sacrificar estética.
 Todos los íconos mantienen proporciones balanceadas y utilizan un sistema de grid para asegurar coherencia en su diseño y alineación en interfaces tanto web como móviles.
+
 #### 4.1.1.4. Tono de comunicación y lenguaje aplicado
 El tono de uTime es cercano, claro y profesional. Busca conectar tanto con los salones de belleza como con sus clientes, transmitiendo confianza, facilidad y modernidad. La comunicación evita tecnicismos, optando por un lenguaje directo, positivo y accesible. Para los clientes, se prioriza la comodidad y simplicidad con frases como “Tu cita, a tu ritmo” o “Agenda en segundos”. Para los salones, el enfoque es práctico y enfocado en crecimiento, con mensajes como “Optimiza tu agenda” o “Haz crecer tu negocio”. <br>
 El tono se adapta según el contexto: amigable en bienvenidas, eficiente en formularios y proactivo en notificaciones. Se evita el uso excesivo de mayúsculas o jergas, manteniendo siempre una voz coherente, profesional y empática. Este tono homogéneo y accesible permite que uTime mantenga una identidad sólida y reconocible, acompañando a los usuarios desde el primer contacto hasta su uso cotidiano, sin fricciones ni confusiones.
@@ -1878,6 +1982,9 @@ Web Applications Prototyping web view: *[Web Applications Prototyping](https://w
 
 ![Diagrama de Clases](diagram/classDiagram.svg)
 
+![Diagrama de Clases-frontend](diagram/class-diagram-frontend.svg)
+
+
 ### 4.7.2. Class Dictionary.
 
 | **Class**        | **Definition**                                                         |
@@ -1963,7 +2070,7 @@ El proyecto seguirá las convenciones de flujo de trabajo establecidas por el mo
 
 **Repositorios de GitHub:**
 
-- Enlace para acceder a la organización de GitHub: https://github.com/UPC-PaxTech
+- Enlace para acceder a la organización de GitHub: https://github.com/PaxTech-UPC
 - Enlace para acceder a repositorio de la Landing Page: https://github.com/PaxTech-UPC/uTime-Landing-Page
 
 **Flujo de trabajo GitFlow:** El flujo a utilizar para le desarrollo del proyecto fue el planteado por Vicent Driessen en "A successful Git branching model".
@@ -2120,9 +2227,8 @@ Para este Sprint, se han identificado los principales aspectos del desarrollo de
 
 El primer sprint backlog, el equipo tuvo la intención de comenzar y completar la landing page. La herramienta utilizada para organizar y gestionar a los miembros del equipo fue Trello. Esta herramienta permitió que se pueda dividir todas las user stories en tareas manejables y asignarlas a los diferentes miembros según sus diferentes habilidades. El objetivo principal del sprint es construir en su totalidad la landing page, logrando que sea atractiva y funcional.
 
-![Trello-Sprint-Backlog-1](img/Trello-Sprint-Backlog-1.jpg)
 
-Enlace para acceder al Trello: [Trello Sprint Backlog 1](https://trello.com/invite/b/68097c416c01112f478fcd49/ATTIce689cd7d2ceabb0f986544f256268e63E38CDCA/utime-sprint)
+Enlace para acceder al Trello: [Trello Sprint Backlog 2]()
 
 <table>
    <tr>
@@ -2449,42 +2555,612 @@ Enlace para acceder a la landing page: https://upc-paxtech.github.io/uTime-Landi
 | Yum Gonzales, Jorge Suin            | Implementación de Planes y Precios de la Landing Page               |
 
 
+### 5.2.2. Sprint 2
+
+#### 5.2.2.1.Sprint Planning 2.
+
+Dentro del marco de trabajo Scrum, cada Sprint constituye un periodo de tiempo fijo y breve en el que el equipo de desarrollo trabaja de manera enfocada para alcanzar un objetivo específico que contribuya al cumplimiento del Product Goal (Schwaber, K. & Sutherland, J., 2020). En el contexto del desarrollo de la plataforma uTime, el Sprint #2 dio inicio el 27/04/2025, y su meta consiste en implementar la aplicación web del lado frontend utilizando Angular y Angular Material. Durante este Sprint, se desarrollaron las funcionalidades esenciales tanto para los clientes como para los proveedores: los clientes pueden explorar diferentes salones de belleza y realizar reservas de manera intuitiva, mientras que los proveedores tienen acceso a herramientas de gestión que les permiten configurar precios, administrar sus servicios y visualizar las citas asignadas a cada trabajador.
+
+<table>
+   <tr>
+      <td colspan="1" align="center"><b>Sprint #</b></td>
+      <td colspan="1" align="center">Sprint 2</td>
+   </tr>
+   <tr>
+      <td colspan="2" align="center"><b>Sprint Planning Background</b></td>
+   </tr>
+   <tr>
+      <td colspan="1" align="center"><b>Date</b></td>
+      <td colspan="1">2025-04-27</td>
+   </tr>
+   <tr>
+      <td colspan="1" align="center"><b>Time</b></td>
+      <td colspan="1">09:00 PM</td>
+   </tr>
+   <tr>
+      <td colspan="1" align="center"><b>Location</b></td>
+      <td colspan="1">Reunión virtual mediante la aplicación Discord</td>
+   </tr>
+   <tr>
+      <td colspan="1" align="center"><b>Prepare By</b></td>
+      <td colspan="1">Gael Rivera</td>
+   </tr>
+   <tr>
+      <td colspan="1" align="center"><b>Attendees (to planning meeting)</b></td>
+      <td colspan="1">Kevin Chi, Gael Rivera, Marcelo Varela, Angie Yalán y Jorge Yum</td>
+   </tr>
+   <tr>
+      <td colspan="1" align="center"><b>Sprint n - 2 Review Summary</b></td>
+      <td colspan="1">Durante este sprint se implementó el frontend de la aplicación web utilizando Angular y Angular Material, incorporando las funcionalidades principales para los roles de cliente y proveedor. Además, se resolvieron pendientes del Sprint 1: se agregó el switcher de idioma en la landing page, se corrigió el renderizado del logo y se aplicaron mejoras visuales a la interfaz</td>
+   </tr>
+   <tr>
+      <td colspan="1" align="center"><b>Sprint n - 2 Retrospective Summary</b></td>
+      <td colspan="1">Se identificó la necesidad de mejorar la planificación de tareas y la integración temprana de pruebas para evitar retrabajos. También se destacó una mayor fluidez en la comunicación del equipo respecto al sprint anterior, lo que permitió avanzar con mayor claridad en los entregables.</td>
+   </tr>
+   <tr>
+      <td colspan="2" align="center"><b>Sprint Goal & User Stories</b></td>
+   </tr>
+   <tr>
+      <td colspan="1" align="center"><b>Sprint 2 Goal</b></td>
+      <td colspan="1"><b>Our focus in on</b> developing the full web application frontend using Angular and Angular Material, addressing both customer and provider user roles.<br><b>We believe it delivers</b>a functional and responsive interface that supports key actions such as booking services for customers and managing appointments and pricing for providers.<br><b>This will be confirmed when</b> customers can successfully explore available salons and make reservations, and providers are able to configure their services, view appointments per worker, and interact with their dashboards smoothly.</td>
+   </tr>
+   <tr>
+      <td colspan="1" align="center"><b>Sprint 2 Velocity</b></td>
+      <td colspan="1"></td>
+   </tr>
+   <tr>
+      <td colspan="1" align="center"><b>Sum of Story Points</b></td>
+      <td colspan="1"></td>
+   </tr>
+
+   <tr>
+</tr>
+</table>
+
+
+#### 5.2.2.2. Aspect Leaders and Collaborators.
+
+Para este Sprint, se han identificado los principales aspectos del frontend web application de Utime. Con el fin de mejorar la organización y la comunicación del equipo, se ha elaborado la matriz Leadership and Collaboration Matrix (LACX), donde se define quién asume el rol de Líder (L) y quiénes participan como Colaboradores (C) en cada uno de estos aspectos clave. Esta distribución facilita una ejecución más clara y eficiente de las tareas asignadas.
+
+| **Team Member**                     | **GitHub Username** | **Appointments** | **Dashboard** | **Favorites** | **Iam** | **Profile** | **Public** | **Reviews** | **Schedule** | **Services** | **Shared** | **Subscription** |
+|-------------------------------------|---------------------|------------------|---------------|---------------|---------|-------------|------------|-------------|--------------|--------------|------------|------------------|
+| Chi Cruzatt, Kevin Jorge            | Krillsom            | C                | C             | C             | C       | L           | C          | C           | C            | L            | C          | C                |
+| Rivera Sosa, Eduardo Gael           | gael-rs             | C                | C             | C             | L       | C           | L          | C           | C            | C            | C          | C                |
+| Varela Bustinza, Marcelo Alessandro | VarBus              | L                | C             | C             | C       | C           | C          | C           | L            | C            | C          | C                |
+| Yalán Zhang, Angie Christina        | aaaaangie           | C                | C             | L             | C       | C           | C          | C           | C            | C            | C          | L                |
+| Yum Gonzales, Jorge Suin            | myussu              | C                | L             | C             | C       | C           | C          | L           | C            | C            | L          | C                |
+
+
+#### 5.2.2.3.Sprint Backlog 2.
+
+En el segundo sprint backlog, el equipo tuvo la intención de comenzar y completar el desarrollo del frontend de la aplicación web, tanto para el rol de cliente como de proveedor. La herramienta utilizada para organizar y gestionar las tareas del equipo continuó siendo Trello, permitiendo dividir las user stories en tareas manejables y asignarlas a los miembros según sus habilidades específicas. El objetivo principal del sprint fue implementar las funcionalidades clave de ambos roles, asegurando una interfaz intuitiva, responsiva y funcional utilizando Angular y Angular Material.
+
+<table border="1" cellspacing="0" cellpadding="5">
+   <tr>
+      <td colspan="2" align="center"><b>Sprint #</b></td>
+      <td colspan="6" align="center"><b>Sprint 2</b></td>
+   </tr>
+   <tr>
+      <td colspan="2"><b>User Story</b></td>
+      <td colspan="6" align="center"><b>Work-Item/Task</b></td>
+   </tr>
+   <tr>
+      <td><b>Id</b></td>
+      <td><b>Title</b></td>
+      <td><b>Id</b></td>
+      <td><b>Title</b></td>
+      <td><b>Description</b></td>
+      <td><b>Estimation (Hours)</b></td>
+      <td><b>Assigned To</b></td>
+      <td><b>Status (To-do/In-Process/To-Review/Done)</b></td>
+   </tr>
+   <tr>
+      <td rowspan="3">US17</td>
+      <td rowspan="3">Selección de salón</td>
+      <td>T1</td>
+      <td>Diseño de interfaz de selección</td>
+      <td>Diseñar una interfaz para que el cliente pueda buscar y seleccionar un salón de belleza o barbería.</td>
+      <td>3</td>
+      <td>Gael Rivera</td>
+      <td>Done</td>
+   </tr>
+   <tr>
+      <td>T2</td>
+      <td>Implementación de búsqueda</td>
+      <td>Implementar funcionalidad de búsqueda de salones por nombre, ubicación o categoría.</td>
+      <td>4</td>
+      <td>Marcelo Varela</td>
+      <td>In-Process</td>
+   </tr>
+   <tr>
+      <td>T3</td>
+      <td>Pruebas de selección</td>
+      <td>Realizar pruebas para asegurar que el cliente pueda seleccionar correctamente un salón.</td>
+      <td>2</td>
+      <td>Jorge Yun</td>
+      <td>Done</td>
+   </tr>
+   <tr>
+      <td rowspan="1">TS09</td>
+      <td rowspan="1">Crear endpoint para agendar citas</td>
+      <td>T1</td>
+      <td>Diseño de la estructura de datos</td>
+      <td>Definir el modelo de datos necesario para crear una cita (cliente, salón, fecha, hora, servicio).</td>
+      <td>3</td>
+      <td>Angie Yalán</td>
+      <td>Done</td>
+   </tr>
+   <tr>
+      <td rowspan="2">US18</td>
+      <td rowspan="2">Creación de citas</td>
+      <td>T1</td>
+      <td>Interfaz de selección de fecha y hora</td>
+      <td>Diseñar e implementar la interfaz para que el cliente seleccione fecha y hora disponibles.</td>
+      <td>3</td>
+      <td>Kevin Chi</td>
+      <td>Done</td>
+   </tr>
+   <tr>
+      <td>T2</td>
+      <td>Validación de disponibilidad</td>
+      <td>Verificar que el horario elegido esté disponible antes de agendar la cita.</td>
+      <td>2</td>
+      <td>Marcelo Varela</td>
+      <td>Done</td>
+   </tr>
+   <tr>
+      <td rowspan="1">TS04</td>
+      <td rowspan="1">Actualización en tiempo real de horarios y citas</td>
+      <td>T1</td>
+      <td>Actualizar interfaz de horarios</td>
+      <td>Modificar la interfaz para reflejar los cambios de disponibilidad en tiempo real.</td>
+      <td>3</td>
+      <td>Gael Rivera</td>
+      <td>Done</td>
+   </tr>
+   <tr>
+      <td rowspan="3">US19</td>
+      <td rowspan="3">Visualización de citas agendadas</td>
+      <td>T1</td>
+      <td>Diseñar sección de citas</td>
+      <td>Diseñar la interfaz donde se mostrarán las citas agendadas del cliente.</td>
+      <td>3</td>
+      <td>Marcelo Varela</td>
+      <td>Done</td>
+   </tr>
+   <tr>
+      <td>T2</td>
+      <td>Desarrollar componente de citas</td>
+      <td>Implementar el componente que muestra las citas futuras con fecha, hora y ubicación.</td>
+      <td>4</td>
+      <td>Angie Yalan</td>
+      <td>Done</td>
+   </tr>
+   <tr>
+      <td>T3</td>
+      <td>Crear endpoint GET /horarios</td>
+      <td>Desarrollar el endpoint que retorna los horarios disponibles del salón.</td>
+      <td>3</td>
+      <td>Jorge Yun</td>
+      <td>In-Process</td>
+   </tr>
+   <tr>
+      <td rowspan="2">US22</td>
+      <td rowspan="2">Administración de servicios ofrecidos</td>
+      <td>T1</td>
+      <td>Diseño de formulario</td>
+      <td>Crear diseño para agregar, editar o eliminar servicios.</td>
+      <td>2</td>
+      <td>Kevin Chi</td>
+      <td>Done</td>
+   </tr>
+   <tr>
+      <td>T2</td>
+      <td>Implementación del formulario</td>
+      <td>Desarrollar el formulario en el frontend para la gestión de servicios.</td>
+      <td>3</td>
+      <td>Angie Yalán</td>
+      <td>Done</td>
+   </tr>
+   <tr>
+      <td rowspan="1">US23</td>
+      <td rowspan="1">Gestión de trabajadores</td>
+      <td>T1</td>
+      <td>Diseño de interfaz para gestión de trabajadores</td>
+      <td>Diseñar una vista donde se puedan agregar y eliminar trabajadores.</td>
+      <td>2</td>
+      <td>Kevin Chi</td>
+      <td>Done</td>
+   </tr>
+   <tr>
+      <td rowspan="2">US10</td>
+      <td rowspan="2">Configuración de los horarios</td>
+      <td>T1</td>
+      <td>Diseño de interfaz para configuración de horarios</td>
+      <td>Diseñar la vista donde se configuren días y horas de atención por trabajador.</td>
+      <td>2</td>
+      <td>Kevin Chi</td>
+      <td>In-Profress</td>
+   </tr>
+   <tr>
+      <td>T2</td>
+      <td>Validación de horarios</td>
+      <td>Evitar que se ingresen horarios inválidos o superpuestos.</td>
+      <td>2</td>
+      <td>Gael Rivera</td>
+      <td>Done</td>
+   </tr>
+   <tr>
+      <td rowspan="2">US09</td>
+      <td rowspan="2">Visualización de los horarios</td>
+      <td>T1</td>
+      <td>Diseño de la interfaz de visualización</td>
+      <td>Crear un diseño claro y accesible para mostrar los horarios disponibles de cada trabajador.</td>
+      <td>2</td>
+      <td>Angie Yalán</td>
+      <td>Done</td>
+   </tr>
+   <tr>
+      <td>T2</td>
+      <td>Actualización dinámica</td>
+      <td>Permitir que los cambios en los horarios se reflejen automáticamente en la vista.</td>
+      <td>2</td>
+      <td>Jorge Yun</td>
+      <td>Done</td>
+   </tr>
+   <tr>
+      <td rowspan="3">US14</td>
+      <td rowspan="3">Contratación de plan de suscripción</td>
+      <td>T1</td>
+      <td>Diseño de la vista de planes</td>
+      <td>Diseñar una interfaz donde el usuario pueda ver y seleccionar un plan disponible.</td>
+      <td>2</td>
+      <td>Angie Yalán</td>
+      <td>Done</td>
+   </tr>
+   <tr>
+      <td>T2</td>
+      <td>Integración con sistema de pagos</td>
+      <td>Conectar el sistema con la pasarela de pagos para procesar la contratación del plan.</td>
+      <td>4</td>
+      <td>Kevin Chi</td>
+      <td>In-Process</td>
+   </tr>
+   <tr>
+      <td>T3</td>
+      <td>Actualización de estado de suscripción</td>
+      <td>Actualizar automáticamente el estado del usuario una vez realizada la compra del plan.</td>
+      <td>2</td>
+      <td>Marcelo Varela</td>
+      <td>Done</td>
+   </tr>
+   <tr>
+      <td rowspan="2">US05</td>
+      <td rowspan="2">Edición del perfil del cliente</td>
+      <td>T1</td>
+      <td>Diseño del formulario de edición</td>
+      <td>Diseñar la vista del formulario para modificar nombre, correo, contraseña, número, etc.</td>
+      <td>2</td>
+      <td>Angie Yán</td>
+      <td>Done</td>
+   </tr>
+   <tr>
+      <td>T2</td>
+      <td>Actualización del fake api</td>
+      <td>Actualizar los datos del cliente en el fake api cuando se envíen los cambios.</td>
+      <td>2</td>
+      <td>Jorge Yun</td>
+      <td>Done</td>
+   </tr>
+   <tr>
+      <td rowspan="1">US07</td>
+      <td rowspan="1">Cierre de sesión</td>
+      <td>T1</td>
+      <td>Implementación del botón "Cerrar sesión"</td>
+      <td>Agregar un botón visible en la interfaz para cerrar sesión del usuario.</td>
+      <td>1</td>
+      <td>Kevin Chi</td>
+      <td>Done</td>
+   </tr>
+ <tr>
+      <td rowspan="2">US01</td>
+      <td rowspan="2">Registro de un cliente</td>
+      <td>T1</td>
+      <td>Diseño del formulario de registro</td>
+      <td>Diseñar el formulario de registro con campos requeridos como nombre, correo y contraseña.</td>
+      <td>2</td>
+      <td>Angie Yalán</td>
+      <td>Done</td>
+   </tr>
+   <tr>
+      <td>T2</td>
+      <td>Implementación del formulario en frontend</td>
+      <td>Codificar el formulario de registro usando Angular/AngularMaterial.</td>
+      <td>2</td>
+      <td>Gael Rivera</td>
+      <td>Done</td>
+   </tr>
+   <tr>
+      <td rowspan="2">US02</td>
+      <td rowspan="2">Registro de un salón de belleza/barbería</td>
+      <td>T1</td>
+      <td>Diseño del formulario de registro de salón</td>
+      <td>Diseñar la interfaz con campos para registrar nombre del negocio, dirección, rubro y contacto.</td>
+      <td>2</td>
+      <td>Jorge Yun</td>
+      <td>Done</td>
+   </tr>
+   <tr>
+      <td>T2</td>
+      <td>Implementación frontend del formulario</td>
+      <td>Codificar el formulario para el registro del salón en la plataforma.</td>
+      <td>2</td>
+      <td>Kevin Chi</td>
+      <td>Done</td>
+   </tr>
+</table>
+
+Enlace para acceder al Trello: [Trello Sprint Backlog 2]()
+
+#### 5.2.2.4.Development Evidence for Sprint Review.
+
+| Repository                  | Branch            | Commit Id | Commit Message                                                                 | Commited on (Date) |
+|-----------------------------|-------------------|-----------|-------------------------------------------------------------------------------|--------------------|
+| Frontend-Web-Applications   | develop           | d965077   | fix: reverted broken develop                                                  | 14/05/2025         |
+| Frontend-Web-Applications   | develop           | c952785   | feature: add appointment maker                                                | 13/05/2025         |
+| Frontend-Web-Applications   | develop           | b4a2167   | feat: add changes favorites and appointments                                  | 13/05/2025         |
+| Frontend-Web-Applications   | develop           | 39ed520   | feature: add salons services into salon                                       | 13/05/2025         |
+| Frontend-Web-Applications   | develop           | 375f0b9   | feature: add homeClient/salon                                                 | 13/05/2025         |
+| Frontend-Web-Applications   | develop           | a7c466e   | feat: update sidebar                                                          | 13/05/2025         |
+| Frontend-Web-Applications   | develop           | 2f9ce65   | feat: add favorite section                                                    | 13/05/2025         |
+| Frontend-Web-Applications   | develop           | 91bb66a   | feature: add client dashboard fixed                                           | 12/05/2025         |
+| Frontend-Web-Applications   | develop           | 7554762   | feature: changed position of sidebar from client layout                       | 12/05/2025         |
+| Frontend-Web-Applications   | develop           | 47738ec   | feature: add dashboard client                                                 | 12/05/2025         |
+| Frontend-Web-Applications   | develop           | 6c76c36   | feature: add home client, fix routing and client sidebar                      | 12/05/2025         |
+| Frontend-Web-Applications   | develop           | 329d1bf   | fix: fix routing, sidebar and app.component                                   | 12/05/2025         |
+| Frontend-Web-Applications   | develop           | cefa450   | feature: add client dashboard                                                 | 11/05/2025         |
+| Frontend-Web-Applications   | develop           | 481e7f9   | feat: add item and list components with response and assembler                | 10/05/2025         |
+| Frontend-Web-Applications   | develop           | 7ef3746   | feat: add client layout                                                       | 10/05/2025         |
+| Frontend-Web-Applications   | develop           | e4bd0cb   | feat: add pages and sidebar components                                        | 10/05/2025         |
+| Frontend-Web-Applications   | develop           | 207a488   | feat: add login,register pages                                                | 10/05/2025         |
+| Frontend-Web-Applications   | develop           | 5146c82   | feat: add client and provider forms                                           | 10/05/2025         |
+| Frontend-Web-Applications   | develop           | 1d09d06   | feat: add login page                                                          | 09/05/2025         |
+| Frontend-Web-Applications   | develop           | 3cb8efc   | feat: add structure of the routes                                             | 09/05/2025         |
+| Frontend-Web-Applications   | develop           | eb01d1a   | feat: update sidebar and toolbar with new routes                              | 09/05/2025         |
+| Frontend-Web-Applications   | develop           | 7bcd9a0   | feat: Added language switcher and toolbar with routes                         | 09/05/2025         |
+| Frontend-Web-Applications   | develop           | 8ced986   | feat: final version of toolbar design                                         | 08/05/2025         |
+| Frontend-Web-Applications   | develop           | 49538d2   | feat: design toolbar layout and styling                                       | 08/05/2025         |
+| Frontend-Web-Applications   | develop           | 472dd38   | feature: add Salon entity, model, components                                  | 08/05/2025         |
+| Frontend-Web-Applications   | develop           | 71430cc   | feature: add Salon entity                                                     | 08/05/2025         |
+| Frontend-Web-Applications   | develop           | 452cb84   | feat: enable swapping between workers and displaying appointments             | 08/05/2025         |
+| Frontend-Web-Applications   | develop           | 85ba09d   | feat: add calendar first version                                              | 08/05/2025         |
+| Frontend-Web-Applications   | develop           | 1c9c99f   | feat: add schedule bounded context                                            | 08/05/2025         |
+| Frontend-Web-Applications   | develop           | 279eced   | feat: review component                                                        | 08/05/2025         |
+
+#### 5.2.2.5.Execution Evidence for Sprint Review.
+
+
+##### Client side
+
+**Seccion de Dashboard:** Muestra la informacion de citas proximas, trabajadores y reseñas sin leer.
+![Dashboard](img/provider-dashboard-page.png)
+**Seccion de Calendario:** Muestra la informacion de la agenda de cada uno de los trabajadores registrados en el salon.
+![Calendario](img/provider-calendar-page.png)
+**Seccion de Reviews:** Muestra la informacion de las reseñas que han dejado los clientes.
+![Reviews](img/provider-review-page.png)
+**Seccion de Servicios:** Muestra la informacion de los servicios que ofrece el salon.
+![Servicios](img/provider-services-page.png)
+**Seccion de Subscription:** Muestra la informacion del plan de suscripcion que tiene el salon.
+![Subscription](img/provider-subscription-page.png)
+**Seccion de Configuracion:** Muestra la informacion del perfil y permite el cambio de contraseña.
+![Configuracion](img/provider-settings-page.png)
+**Seccion de Perfil:** Muestra la informacion del salon, redes sociales, rating, portfolio y reviews recientes positivas.
+![Perfil](img/provider-profile-page.png)
+
+<figure>
+  <img src="img/iam-login.png" alt="Login Page">
+  <figcaption>Pantalla de Inicio de Sesión</figcaption>
+</figure>
+
+<figure>
+  <img src="img/iam-register.png" alt="Register Page">
+  <figcaption>Pantalla de Registro</figcaption>
+</figure>
+
+<figure>
+  <img src="img/home-provider.png" alt="Home Provider">
+  <figcaption>Inicio del Proveedor</figcaption>
+</figure>
+
+<figure>
+  <img src="img/provider-reviews.png" alt="Provider Reviews">
+  <figcaption>Reseñas del Proveedor</figcaption>
+</figure>
+
+<figure>
+  <img src="img/provider-schedule.png" alt="Provider Schedule">
+  <figcaption>Horario del Proveedor</figcaption>
+</figure>
+
+<figure>
+  <img src="img/provider-profile.png" alt="Provider Profile">
+  <figcaption>Perfil del Proveedor</figcaption>
+</figure>
+
+<figure>
+  <img src="img/provider-services.png" alt="Provider Services">
+  <figcaption>Servicios del Proveedor</figcaption>
+</figure>
+
+<figure>
+  <img src="img/provider-setting.png" alt="Provider Setting">
+  <figcaption>Configuración del Proveedor</figcaption>
+</figure>
+
+<figure>
+  <img src="img/client-dashboard.png" alt="Client Dashboard">
+  <figcaption>Panel del Cliente</figcaption>
+</figure>
+
+<figure>
+  <img src="img/client-appointments.png" alt="Client Appointments">
+  <figcaption>Citas del Cliente</figcaption>
+</figure>
+
+<figure>
+  <img src="img/client-favorites.png" alt="Client Favorites">
+  <figcaption>Favoritos del Cliente</figcaption>
+</figure>
+
+<figure>
+  <img src="img/client-profile.png" alt="Client Profile">
+  <figcaption>Perfil del Cliente</figcaption>
+</figure>
+
+
+
+#### 5.2.2.6.Services Documentation Evidence for Sprint Review.
+A continuación, se presentan tres fragmentos de código que evidencian el uso e implementación de los servicios en el sistema, abarcando desde la configuración de rutas hasta la lógica de negocio y la presentación de datos al usuario:
+
+1. Archivo de Rutas (Angular Routing Module)
+   Archivo: app.routes.ts
+   Función: Define la estructura de navegación de toda la aplicación, tanto para el cliente como para el proveedor.
+  
+Importancia:
+-Permite acceder a las páginas donde se usan servicios como appointment, services, favorites, etc.
+-Es el punto de entrada para mostrar componentes que a su vez usan servicios para obtener, actualizar o eliminar datos.
+<img src="img/app-routes.png" alt="Routes">
+Esto permite que, por ejemplo, al acceder a /provider/services, se cargue el componente donde se visualizan y manipulan los servicios ofrecidos por el profesional (como corte de cabello, manicure, etc.), usando el BaseService.
+
+
+2. BaseService (Angular Abstract Service Class)
+   Archivo: base.service.ts
+   Función: Es una clase genérica que centraliza operaciones comunes de los servicios (GET, PUT, PATCH). Es reutilizada por servicios específicos como ServiceService, AppointmentService, etc.
+
+Importancia:
+
+Estandariza el consumo de APIs REST.
+
+Evita duplicar código al implementar métodos reutilizables para manejar recursos (como servicios o citas).
+
+Permite manejar errores con catchError y hacer reintentos con retry.
+
+<img src="img/base-service.png" alt="base-service">
+
+{
+path: 'provider',
+component: ProviderLayoutComponent,
+children: [
+{ path: 'services', component: ServicesTabComponent },
+...
+]
+},
+
+Este método permite al componente de servicios obtener todos los servicios del backend para mostrarlos en la tabla del frontend.
+
+
+public getAll(): Observable<R[]> {
+return this.http.get<R[]>(this.resourcePath(), this.httpOptions).pipe(
+retry(2),
+catchError(this.handleError)
+);
+}
+
+3. Tabla en ServicesTabComponent (HTML + Angular Material)
+   Archivo: services-tab.component.html
+   Función: Muestra en una tabla los servicios del proveedor. Usa el método getAll() del BaseService para cargar la información.
+
+Importancia:
+
+Es el punto de vista del usuario (proveedor) donde puede ver, editar o eliminar servicios.
+
+Se evidencia el consumo de datos ([dataSource]="services") y acciones (delete, edit).
+
+<img src="services-table.png" alt="services">
+
+
+<td mat-cell *matCellDef="let service">
+  <div class="service-name">{{ service.name }}</div>
+  <div class="service-desc">{{ service.description }}</div>
+</td>
+...
+<button mat-icon-button>
+  <mat-icon>delete</mat-icon>
+</button>
+
+Cada fila de la tabla representa un servicio cargado desde el backend, y los botones de editar y eliminar aplican lógica conectada al servicio específico, que probablemente hereda de BaseService.
+
+Relación entre las tres partes:
+
+Ruta (/provider/services) → accede al componente.
+
+Componente ServicesTabComponent → al inicializar, llama a getAll() del servicio.
+
+Servicio (ServiceService que hereda de BaseService) → hace la petición GET al backend y devuelve la data.
+
+La tabla → renderiza los servicios y permite eliminarlos o modificarlos.
+
+#### 5.2.2.7.Software Deployment Evidence for Sprint Review.
+
+Para realizar el deployment de la aplicación web, se utilizó la plataforma de GitHub Pages. Se realizaron los siguientes
+pasos para llevar a cabo el despliegue:
+Se instalo cli ghpages de Angular
+
+```bash
+npm install -g angular-cli
+```
+```bash
+ng add angular-cli-ghpages
+```
+Se construyó la aplicación para producción
+```bash
+ng build --configuration production
+```
+```bash
+npx angular-cli-ghpages --dir=dist/frontend-web-applications/browser
+```
+Se subió la aplicación a la rama gh-pages
+```bash
+git push origin gh-pages
+```
+
+Entonces dentro de la configuración de GitHub Pages, se seleccionó la rama gh-pages como la rama de despliegue. De esta manera, la aplicación web está disponible en el siguiente enlace: https://upc-paxtech.github.io/Frontend-Web-Applications/
+
+#### 5.2.2.8.Team Collaboration Insights during Sprint.
+
+Durante el Sprint 2, se realizó la segmentación de tareas por features y se asignaron a los miembros del equipo de acuerdo a sus habilidades y experiencia. Esto permitió una mejor distribucion de las tareas y un avance mas fluido en el desarrollo.
+
+![NetworkGraph](img/networkgraph-sprint2.png)
+
+![Contributors](img/contributors-sprint2.png)
+
 # Conclusiones
 
 ## 6.1 Conclusiones y recomendaciones
 
 ### Conclusiones
 
-- El proyecto uTime demostró que existe una necesidad real y no atendida en el sector de la belleza relacionada con la gestión eficiente de citas.
+- La corrección de los ítems observados en la primera entrega (TB1) permitió al equipo mejorar significativamente la calidad del proyecto, alineándose mejor con los requerimientos del curso.
 
+- La elaboración del Sprint 2, junto con su planificación y backlog, fortaleció la organización interna del equipo y permitió una gestión más efectiva de las tareas y tiempos.
 
-- La implementación del enfoque Lean UX permitió validar rápidamente hipótesis y mejorar la solución con base en retroalimentación real de usuarios. 
+- La creación del diagrama de clases fue clave para definir de manera clara la estructura y relación entre los componentes del sistema, facilitando su implementación posterior.
 
+- El repositorio del proyecto FrontEnd en GitHub brindó una base organizada y accesible para el desarrollo colaborativo, asegurando el control de versiones y la trazabilidad del avance.
 
-- La colaboración multidisciplinaria dentro del equipo de PaxTech fue fundamental para abordar el proyecto de forma integral, combinando habilidades técnicas, de diseño y de análisis de usuario.
-
-
-- La documentación detallada, el uso de metodologías ágiles (Scrum) y la arquitectura basada en dominios garantizaron una solución escalable y mantenible.
-
-
-- El desarrollo de la plataforma uTime fortaleció la comprensión del ciclo completo de diseño y desarrollo de productos digitales, desde la investigación de usuarios hasta la implementación y despliegue.
-
-
-- Se ha avanzado significativamente en la construcción de una base conceptual y técnica sólida que permitirá un desarrollo más eficiente en las siguientes fases.
+- La elaboración de evidencias de ejecución, documentación de servicios y despliegue del software validaron el cumplimiento de los objetivos del sprint, reforzando la importancia de documentar cada fase del proceso.
 
 ### Recomendaciones
 
-- Profundizar en la validación de las necesidades del usuario a través de métodos adicionales como encuestas o pruebas de concepto, para reforzar la base del diseño centrado en el usuario.
+- Continuar con la documentación detallada de cada fase del desarrollo, especialmente en los próximos sprints, para mantener una trazabilidad clara del trabajo realizado.
 
+- Revisar constantemente los entregables previos para asegurar que se han corregido adecuadamente los ítems observados y no repetir los mismos errores en futuras entregas.
 
-- Continuar fortaleciendo el uso de metodologías ágiles dentro del equipo, especialmente en la planificación de sprints y la documentación de retrospectivas.
+- Mantener el uso activo y ordenado del repositorio de código, asegurando que todos los miembros del equipo sigan buenas prácticas de versionamiento y documentación de commits.
 
- 
+ - Profundizar en la planificación de sprints futuros, identificando claramente las tareas críticas y los posibles riesgos, para mejorar la eficiencia del equipo.
 
-- Documentar con mayor detalle las decisiones de diseño y arquitectura para facilitar la comprensión del proyecto por parte de los docentes evaluadores y compañeros.
-
- 
-- Evaluar críticamente los avances realizados y contrastarlos con los entregables definidos en el sílabo del curso, asegurando que cada parte del proyecto cumpla con los criterios de evaluación establecidos.
+- Validar con los docentes y el sílabo que todas las evidencias generadas (review, services, deployment) cumplan con los criterios de evaluación establecidos, evitando omisiones en la entrega final.
 
 
 # Bibliografía
@@ -2496,12 +3172,57 @@ Expo Belleza Fest. (2016). Más del 60% de los estilistas en México trabajan de
 
 Telefónica. (2022). La digitalización de las empresas repercute hasta un 25% en su productividad. https://www.telefonica.com/es/sala-comunicacion/blog/la-digitalizacion-de-las-empresas-repercute-hasta-un-25-en-su-productividad/
 
+What is Figma? (2019). Figma Learn - Help Center. https://help.figma.com/hc/en-us/articles/14563969806359-What-is-Figma
+
+Structurizr. (2025). https://structurizr.com/ 
+
+Lucidchart | Diagramas creados con inteligencia. (2025). Lucidchart. https://www.lucidchart.com/pages/es/landing?utm_source=google&utm_medium=cpc&utm_campaign=_chart_es_tier2_mixed_search_brand_phrase_&km_CPC_CampaignId=1501207844&km_CPC_AdGroupID=63362152012&km_CPC_Keyword=%2Blucidchart%20%2Bsoftware&km_CPC_MatchType=b&km_CPC_ExtensionID=&km_CPC_Network=g&km_CPC_AdPosition=&km_CPC_Creative=286846989106&km_CPC_TargetID=kwd-375017978385&km_CPC_Country=9186211&km_CPC_Device=c&km_CPC_placement=&km_CPC_target=&gad_source=1&gbraid=0AAAAADLdSjCGPJBFHw9InHN-Qfss5OfWy&gclid=Cj0KCQjwoNzABhDbARIsALfY8VPCJ6QSDWkzARgPQcf7VUOTXMJ-PZWXoYd1OdiqYtYOFsopUiaeMW8aAifbEALw_wcB
+
+Videoconferencia, reuniones, llamadas | MicrosoftTeams. (2025). https://www.microsoft.com/es-es/microsoft-teams/group-chat-software
+
+Build software better, together. (2025). GitHub. https://github.com/about
+
+Gothelf, J., Seiden, J., & Ries, E. (2014). Lean UX: cómo aplicar los principios Lean a la mejora de la experiencia de usuario. https://reunir.unir.net/handle/123456789/4506 
+
+
+Hunter-Zinck, H., De Siqueira, A. F., Vásquez, V. N., Barnes, R., & Martinez, C. C. (2021). Ten simple rules on writing clean and reliable open-source scientific software. PLoS Computational Biology, 17(11), e1009481. https://doi.org/10.1371/journal.pcbi.1009481
+
+Domain-Driven Design for Microservices: An Evidence-Based Investigation. (2024). IEEE Journals & Magazine | IEEE Xplore. https://ieeexplore.ieee.org/abstract/document/10495888 
+
 </div>
 
 # Anexos
 
-**Anexo A:**<br>
+**Repositorio en GitHub - uTime (PaxTech):**<br>
+
+https://github.com/UPC-PaxTech/uTime/
+
+**Repositorio en GitHub - uTime (Paxtech) -Frontend Web Applications**<br>
+
+https://github.com/UPC-PaxTech/Frontend-Web-Applications
+
+**Repositorio en GitHub - uTime (Paxtech) -Landing Page**<br>
+
+https://github.com/UPC-PaxTech/uTime-Landing-Page
+
+**Herramientas y Recursos Utilizados:**<br>
+
 URL del Needfinding Interviews: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202312504_upc_edu_pe/Eb0_dXIIVztGj7h_-J6z6IIBxfjUUU4WJPM7v3x5BmOlNA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=TzxLwv
 
-**Anexo B:**<br>
 URL del Prototypes Navigation / Product Navigation: https://www.figma.com/design/2RXg2e7OWrAbqYfNcw2EVP/UTIME?node-id=0-1&t=NPXJtI3GloAbxeeU-1
+
+URL del Sprint backlog: https://trello.com/invite/b/68097c416c01112f478fcd49/ATTIce689cd7d2ceabb0f986544f256268e63E38CDCA/utime-sprin
+
+URL del diagrama base de datos: https://lucid.app/lucidchart/63a0bb3b-e0d7-4f40-a8de-06bfd352e71a/edit?viewport_loc=-282%2C-231%2C3396%2C1973%2C0_0&invitationId=inv_ea5eb19e-f86b-4c56-9960-565282314eb1 
+
+**Cuentas de GitHub de los Integrantes:**<br>
+
+Kevin Chi – @Krillsom
+
+Gael Rivera – @gael-rs
+
+Marcelo Varela – @VarBus
+
+Angie Yalán – @aaaaangie
+
+Jorge Yum – @myussu, @jsyumg
