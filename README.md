@@ -81,6 +81,9 @@
 # Registro de Versiones del Informe
 
 <div>
+
+
+
 | Version | Fecha      | Autor                            | Descripción de modificación                                                                            |
 |---------|------------|----------------------------------|--------------------------------------------------------------------------------------------------------|
 | 1.0     | 01/04/2025 | Chi, Rivera, Varela, Yalán, Yum  | Creación del documento de trabajo en formato markdown                                                  |
@@ -105,6 +108,7 @@
 | 2.6     | 10/04/2025 | Chi, Rivera, Varela, Yalán, Yum  | Elaboración del Execution Evidence for Sprint Review.                                                  |
 | 2.6     | 12/04/2025 | Chi, Rivera, Varela, Yalán, Yum  | Creación del Services Documentation Evidence for Sprint Review.                                        |
 | 2.6     | 14/04/2025 | Chi, Rivera, Varela, Yalán, Yum  | Elaboración del Software Deployment Evidence for Sprint Review.                                           |
+
 
 </div>
 
@@ -3000,6 +3004,7 @@ Enlace para acceder al Trello: [Trello Sprint Backlog 2]()
 
 
 ##### Client side
+
 **Seccion de Dashboard:** Muestra la informacion de citas proximas, trabajadores y reseñas sin leer.
 ![Dashboard](img/provider-dashboard-page.png)
 **Seccion de Calendario:** Muestra la informacion de la agenda de cada uno de los trabajadores registrados en el salon.
@@ -3160,9 +3165,10 @@ La tabla → renderiza los servicios y permite eliminarlos o modificarlos.
 
 #### 5.2.2.7.Software Deployment Evidence for Sprint Review.
 
-Para realizar el deplyment de la aplicación web, se utilizó la plataforma de GitHub Pages. Se realizaron los siguientes
+Para realizar el deployment de la aplicación web, se utilizó la plataforma de GitHub Pages. Se realizaron los siguientes
 pasos para llevar a cabo el despliegue:
 Se instalo cli ghpages de Angular
+
 ```bash
 npm install -g angular-cli
 ```
@@ -3185,7 +3191,7 @@ Entonces dentro de la configuración de GitHub Pages, se seleccionó la rama gh-
 
 #### 5.2.2.8.Team Collaboration Insights during Sprint.
 
-Durante el Sprint 2, se realizo la segmentacion de tareas por features y se asignaron a los miembros del equipo de acuerdo a sus habilidades y experiencia. Esto permitió una mejor distribucion de las tareas y un avance mas fluido en el desarrollo.
+Durante el Sprint 2, se realizó la segmentación de tareas por features y se asignaron a los miembros del equipo de acuerdo a sus habilidades y experiencia. Esto permitió una mejor distribucion de las tareas y un avance mas fluido en el desarrollo.
 
 ![NetworkGraph](img/networkgraph-sprint2.png)
 
