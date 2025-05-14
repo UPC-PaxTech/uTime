@@ -2044,6 +2044,9 @@ Web Applications Prototyping web view: *[Web Applications Prototyping](https://w
 
 ![Diagrama de Clases](diagram/classDiagram.svg)
 
+![Diagrama de Clases-frontend](diagram/class-diagram-frontend.svg)
+
+
 ### 4.7.2. Class Dictionary.
 
 | **Class**        | **Definition**                                                         |
