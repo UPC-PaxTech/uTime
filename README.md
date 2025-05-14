@@ -114,7 +114,7 @@ URL del repositorio para el proyecto: https://github.com/UPC-PaxTech/uTime/
 
 **TB1**
 
-Para el desarrollo del informe perteneciente a la entrega del TB1, se dividió la implementación de secciones de la siguiente forma
+Para el desarrollo del informe perteneciente a la entrega del TP1, se dividió la implementación de secciones de la siguiente forma
 para cada integrante del equipo:
 
 
