@@ -3190,6 +3190,11 @@ Entonces dentro de la configuración de GitHub Pages, se seleccionó la rama gh-
 
 #### 5.2.2.8.Team Collaboration Insights during Sprint.
 
+Durante el Sprint 2, se realizo la segmentacion de tareas por features y se asignaron a los miembros del equipo de acuerdo a sus habilidades y experiencia. Esto permitió una mejor distribucion de las tareas y un avance mas fluido en el desarrollo.
+
+![NetworkGraph](img/Networkgraph-sprint2.png)
+
+![Contributors](img/Contributors-sprint2.png)
 
 # Conclusiones
 
