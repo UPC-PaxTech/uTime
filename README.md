@@ -96,6 +96,15 @@
 | 1.10    | 19/04/2025 | Chi, Rivera, Varela, Yalán, Yum  | Elaboración de Domain Driven Software Architecture, Software Object Oriented Design y Database Diagram |
 | 1.11    | 22/04/2025 | Chi, Rivera, Varela, Yalán, Yum  | Elaboración del Capitulo V                                                                             |
 | 1.12    | 23/04/2025 | Chi, Rivera, Varela, Yalán, Yum  | Elaboración del Landing Page                                                                           |
+| 2.0     | 27/04/2025 | Chi, Rivera, Varela, Yalán, Yum  | Corrección de los items mencionados en la primera entrega (TB1)                                        |
+| 2.1     | 29/04/2025 | Chi, Rivera, Varela, Yalán, Yum  | Elaboración del Sprint 2                                                                               |
+| 2.2     | 01/04/2025 | Chi, Rivera, Varela, Yalán, Yum  | Elaboración del Diagrama de clases                                                                     |
+| 2.3     | 02/04/2025 | Chi, Rivera, Varela, Yalán, Yum  | Creación del Proyecto en el Repositorio de FrontEnd Web Application                                    |
+| 2.4     | 03/04/2025 | Chi, Rivera, Varela, Yalán, Yum  | Elaboración del Sprint Planing                                                                            |
+| 2.5     | 05/04/2025 | Chi, Rivera, Varela, Yalán, Yum  | Creación del Sprint Backlog                                                                            |
+| 2.6     | 10/04/2025 | Chi, Rivera, Varela, Yalán, Yum  | Elaboración del Execution Evidence for Sprint Review.                                                  |
+| 2.6     | 12/04/2025 | Chi, Rivera, Varela, Yalán, Yum  | Creación del Services Documentation Evidence for Sprint Review.                                        |
+| 2.6     | 14/04/2025 | Chi, Rivera, Varela, Yalán, Yum  | Elaboración del Software Deployment Evidence for Sprint Review.                                           |
 
 </div>
 
@@ -105,7 +114,7 @@ URL del repositorio para el proyecto: https://github.com/UPC-PaxTech/uTime/
 
 **TB1**
 
-Para el desarrollo del informe perteneciente a la entrega TB1, se dividió la implementación de secciones de la siguiente forma
+Para el desarrollo del informe perteneciente a la entrega del TP1, se dividió la implementación de secciones de la siguiente forma
 para cada integrante del equipo:
 
 
@@ -116,6 +125,22 @@ para cada integrante del equipo:
 | Marcelo Varela | Antecedentes y problemática, Registro de entrevistas, User persona, Empathy mapping, Impact mapping, User stories, Functional requirements, Organization systems, Labeling System |
 | Angie Yalán   | Startup Profile, Solution Profile, Segmento Objetivo, Lean UX Process, Style Guidelines, Landing Page UI Design, Web Application UX/UI Design, Web Application Prototyping.       |
 | Jorge Yum      | As-Is To-Be Scenario Mapping, Impact Mapping, User Stories, Landing Page development, Product Backlog, Information Architecture, Sprint 1                                                                   |
+
+**TP1**
+
+Para el desarrollo del informe perteneciente a la entrega del TP1, se dividió la implementación de secciones de la siguiente forma
+para cada integrante del equipo:
+
+
+| Integrantes    | Tareas Asignadas                                                                                                                                                                                                                                                 |
+|----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Kevin Chi      | Correción de los diagramas, Sprint 2, Sprint Backlog, Sprint Planning, Development Evidence for Sprint Review, Execution Evidence for Sprint Review, Services Documentation Evidence for Sprint Review, Software Deployment Evidence for Sprint Review.          |
+| Gael Rivera    | Correción de los US, Sprint 2, Sprint Backlog, Sprint Planning, Development Evidence for Sprint Review, Execution Evidence for Sprint Review, Services Documentation Evidence for Sprint Review, Software Deployment Evidence for Sprint Review.                 |
+| Marcelo Varela | Correción del Bibliografía y Anexos, Sprint 2, Sprint Backlog, Sprint Planning, Development Evidence for Sprint Review, Execution Evidence for Sprint Review, Services Documentation Evidence for Sprint Review, Software Deployment Evidence for Sprint Review. |
+| Angie Yalán    | Correción del LeanUX, Sprint 2, Sprint Backlog, Sprint Planning, Development Evidence for Sprint Review, Execution Evidence for Sprint Review, Services Documentation Evidence for Sprint Review, Software Deployment Evidence for Sprint Review.                |
+| Jorge Yum      | Correcion de la Landing Page, Sprint 2, Sprint Backlog, Sprint Planning, Development Evidence for Sprint Review, Execution Evidence for Sprint Review, Services Documentation Evidence for Sprint Review, Software Deployment Evidence for Sprint Review.        |
+
+
 
 El proceso de colaboración en el informe se realizó mediante commits constantes al repositorio de la organización PaxTech.
 
@@ -138,6 +163,28 @@ Se explican las ramas más prominentes:
 **main:** Es representada por el color negro. Se trata de la rama principal del proyecto y se actualiza para cada entregable.<br>
 **develop:** Es representada por el color azul. Se trata de la rama principal para el proceso del desarrollo del proyecto.<br>
 **feature/feature-description-name:** Es una rama creada para trabajar en una nueva funcionalidad o tarea específica. Se basa en develop y, una vez terminada la tarea, se fusiona nuevamente con develop para integrar los cambios al proyecto principal.
+
+Capturas de la participación en el informe:
+
+**Rivera Sosa, Eduardo Gael**
+
+
+
+**Varela Bustinza, Marcelo Alessandro**
+
+
+
+**Yalán Zhang, Angie Christina**
+
+
+
+**Yum Gonzales, Jorge Suin**
+
+
+
+**Chi Cruzatt, Kevin Jorge**
+
+
 
 # Contenido
 
@@ -227,10 +274,10 @@ Se explican las ramas más prominentes:
    **Student Outcome 3**
 
 
-| Criterio específico                                                    | Acciones realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            | Conclusiones                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
-|------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Comunica oralmente con efectividad a diferentes rangos de audiencia.   | **Kevin Chi**:<br>TB1: Participé en un video colaborativo, donde expliqué de forma detallada y clara la arquitectura de software, el diagrama de clases y el diagrama de la base de datos, utilizando un modelo basado en domain driven design y buenas prácticas de diseño. <br><br> **Gael Rivera**<br>TB1: Participé en la elaboración de un video explicativo sobre el primer avance del proyecto, donde comuniqué de forma clara y estructurada el análisis de competidores, las estrategias y tareas realizadas. Me aseguré de usar un lenguaje comprensible tanto para compañeros como para el docente, adaptando el contenido para que cualquier persona interesada pudiera entender el progreso del proyecto.<br> **Marcelo Varela:** <br> TB1: Contribuí en la elaboración de un video expositivo sobre el primer avance del proyecto, donde comuniqué de forma concisa y detallada los Antecedentes y problematica, user persona y las demás tareas asignadas. Me encargue de emplear un lenguaje formal e intuitivo que sea facíl de comprender tanto para el docente como los compañeros, adaptandome a los factores indicados en la rúbrica del curso y permitiendo asi que caulquier persona externa pueda comprender en que consiste el proyecto uTIma de forma eficiente. <br> Angie Yalán:<br> TB1: Durante el desarrollo del proyecto, demostré habilidades efectivas de comunicación oral al participar activamente en la entrevista dirigida al segmento 2 del público objetivo. A través de esta interacción, supe adaptar mi lenguaje y enfoque según el perfil del entrevistado, logrando recopilar información valiosa para validar necesidades reales. Asimismo, participé en la edición del video general, donde se incluyeron todas las entrevistas realizadas, cuidando que el contenido fuera claro, conciso y accesible para distintos tipos de audiencia, tanto académica como profesional.<br>  **Jorge Yum:**<br> **TB1:** <br> En esta primera entrega, se identifico claramente la problemática de nuestra Startup, nuestros segmentos objetivos y la investigacion necesaria para averiguar los requisitos junto con las caracteristicas que deberia tener nuestra aplicación web. Para hacer esto, se realizaron entrevistas a un amplio rango de personas que encajan en nuestros segmentos objetivos. Con esta información se pudo hacer un analizis de requerimientos y realizar tablas sobre los beneficios del uso de la aplicación web . | **TB1:** Como equipo, logramos desarrollar un trabajo completo y bien articulado, cumpliendo con todos los componentes establecidos para esta primera entrega. Para presentar nuestro avance, elaboramos un video explicativo en el que comunicamos de forma clara y ordenada cada una de las etapas: desde la planificación hasta el desarrollo y preparación para la primera entrega. Nos aseguramos de adaptar el lenguaje y la presentación para que fuera comprensible tanto para el docente evaluador como para cualquier persona interesada, sin importar su nivel técnico. |
-| Comunica por escrito con efectividad a diferentes rangos de audiencia. | **Kevin Chi**:<br>TB1: Participé la elección del segmento objetivo, los user stories, ubiquitous language, domain-driven software architecture, software object-oriented design y database diagram. Utilizé gráficos y tablas con los que apoyarme para la correcta representación de los segmentos indicados. <br><br> **Gael Rivera**<br>TB1: Colaboré en la redacción de las user stories, el Product Backlog y la documentación del Sprint 1, utilizando un lenguaje técnico pero claro, para facilitar la comprensión tanto de los miembros del equipo como del docente. También contribuí a la elaboración del diagrama de base de datos y los textos de la Landing Page, cuidando la coherencia y adecuación del contenido para los distintos públicos.<br>  **Marcelo Varela:** <br> TB1: Colaboré eficazmente en la redacción de partes como los antecedentes, la problemática y las historias de usuario. También participé en el registro y análisis de entrevistas, lo que me permitió adaptar mi forma de escribir según el tipo de público, ya sea compañeros, docentes o usuarios. Gracias a eso, desarrollé una mejor capacidad para comunicarme por escrito con claridad y de acuerdo al objetivo de cada entrega. <br> Angie Yalán:<br> TB1: En la parte escrita del proyecto, fui responsable de desarrollar casi por completo la sección de antecedentes y problemáticas, redactando con claridad y coherencia para transmitir de forma efectiva el contexto y la necesidad del sistema. Además, elaboré todo el proceso Lean UX documentando cada fase de forma estructurada y comprensible. También diseñé y documenté la landing page y la aplicación web, incluyendo wireframes y mockups con descripciones detalladas. Finalmente, redacté la guía de estilo (style guidelines), asegurándome de que fuera clara tanto para desarrolladores como para diseñadores.<br>  **Jorge Yum:**<br> **TB1:** <br> Para esta primera entrega, se comunico de forma escrita mediante el uso de conventional commits y git flow dentro de un repositorio de github que permitio la organizacion y un flujo de trabajo ordenado. De esta manera, en esta entrega se pudo realizar la plantiación de la problemática, tabla de supuestos y la landing page.                                 | **TB1:** Como equipo, establecimos canales de comunicación efectivos que nos permitieron coordinar adecuadamente el desarrollo del proyecto, a pesar de los plazos ajustados. Además, realizamos entrevistas que nos ayudaron a recoger sus opiniones y necesidades, lo cual fue clave para definir correctamente los requisitos del sistema. Esta información fue plasmada en artefactos escritos como user stories y el Product Backlog.                                                                                                                                         |
+| Criterio específico                                                   | Acciones realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            | Conclusiones                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+|-----------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Comunica oralmente con efectividad a diferentes rangos de audiencia.  | **Kevin Chi**:<br>TB1: Participé en un video colaborativo, donde expliqué de forma detallada y clara la arquitectura de software, el diagrama de clases y el diagrama de la base de datos, utilizando un modelo basado en domain driven design y buenas prácticas de diseño. <br>TB2:<br><br> **Gael Rivera**<br>TB1: Participé en la elaboración de un video explicativo sobre el primer avance del proyecto, donde comuniqué de forma clara y estructurada el análisis de competidores, las estrategias y tareas realizadas. Me aseguré de usar un lenguaje comprensible tanto para compañeros como para el docente, adaptando el contenido para que cualquier persona interesada pudiera entender el progreso del proyecto.<br>**TP1:** Contribuí activamente en la organización del proyecto al reordenar las historias de usuario (US) según el business core, lo cual permitió una priorización más estratégica del desarrollo. Esta información fue documentada de forma clara y compartida por escrito con el equipo, asegurando que todos comprendieran el enfoque y el motivo detrás de cada cambio.<br><br> **Marcelo Varela:** <br> TB1: Contribuí en la elaboración de un video expositivo sobre el primer avance del proyecto, donde comuniqué de forma concisa y detallada los Antecedentes y problematica, user persona y las demás tareas asignadas. Me encargue de emplear un lenguaje formal e intuitivo que sea facíl de comprender tanto para el docente como los compañeros, adaptandome a los factores indicados en la rúbrica del curso y permitiendo asi que caulquier persona externa pueda comprender en que consiste el proyecto uTIma de forma eficiente. <br>TP1<br><br> **Angie Yalán:**<br> TB1: Durante el desarrollo del proyecto, demostré habilidades efectivas de comunicación oral al participar activamente en la entrevista dirigida al segmento 2 del público objetivo. A través de esta interacción, supe adaptar mi lenguaje y enfoque según el perfil del entrevistado, logrando recopilar información valiosa para validar necesidades reales. Asimismo, participé en la edición del video general, donde se incluyeron todas las entrevistas realizadas, cuidando que el contenido fuera claro, conciso y accesible para distintos tipos de audiencia, tanto académica como profesional.<br><br>  **Jorge Yum:**<br> **TB1:** <br> En esta primera entrega, se identifico claramente la problemática de nuestra Startup, nuestros segmentos objetivos y la investigación necesaria para averiguar los requisitos junto con las características que debería tener nuestra aplicación web. Para hacer esto, se realizaron entrevistas a un amplio rango de personas que encajan en nuestros segmentos objetivos. Con esta información se pudo hacer un analisis de requerimientos y realizar tablas sobre los beneficios del uso de la aplicación web .<br>**TP1** | **TB1:** Como equipo, logramos desarrollar un trabajo completo y bien articulado, cumpliendo con todos los componentes establecidos para esta primera entrega. Para presentar nuestro avance, elaboramos un video explicativo en el que comunicamos de forma clara y ordenada cada una de las etapas: desde la planificación hasta el desarrollo y preparación para la primera entrega. Nos aseguramos de adaptar el lenguaje y la presentación para que fuera comprensible tanto para el docente evaluador como para cualquier persona interesada, sin importar su nivel técnico.<br><br>**TP1** En reuniones del equipo y presentaciones con stakeholders, se comunicó oralmente el contenido y propósito del Sprint 2, el cual incluyó el desarrollo inicial del FrontEnd Web Application y correcciones del entregable anterior (TB1). Se explicaron de forma efectiva los avances, funcionalidades implementadas y evidencias generadas, adaptando el lenguaje según la audiencia para asegurar una comprensión adecuada por parte de todos los involucrados.|
+|Comunica por escrito con efectividad a diferentes rangos de audiencia. | **Kevin Chi**:<br>TB1: Participé la elección del segmento objetivo, los user stories, ubiquitous language, domain-driven software architecture, software object-oriented design y database diagram. Utilizé gráficos y tablas con los que apoyarme para la correcta representación de los segmentos indicados. <br>T1:<br><br> **Gael Rivera**<br>TB1: Colaboré en la redacción de las user stories, el Product Backlog y la documentación del Sprint 1, utilizando un lenguaje técnico pero claro, para facilitar la comprensión tanto de los miembros del equipo como del docente. También contribuí a la elaboración del diagrama de base de datos y los textos de la Landing Page, cuidando la coherencia y adecuación del contenido para los distintos públicos.<br>**TP:** Durante la programación del calendario en tiempo real, facilité la coordinación del equipo delegando tareas de manera clara y efectiva. Me aseguré de comunicar oralmente los objetivos, tiempos y responsables de cada actividad, promoviendo una gestión fluida del trabajo y asegurando que cada miembro entendiera su rol dentro del Sprint.  <br><br>**Marcelo Varela:** <br> **TB1:** Colaboré eficazmente en la redacción de partes como los antecedentes, la problemática y las historias de usuario. También participé en el registro y análisis de entrevistas, lo que me permitió adaptar mi forma de escribir según el tipo de público, ya sea compañeros, docentes o usuarios. Gracias a eso, desarrollé una mejor capacidad para comunicarme por escrito con claridad y de acuerdo al objetivo de cada entrega. <br><br> **Angie Yalán:**<br> TB1: En la parte escrita del proyecto, fui responsable de desarrollar casi por completo la sección de antecedentes y problemáticas, redactando con claridad y coherencia para transmitir de forma efectiva el contexto y la necesidad del sistema. Además, elaboré todo el proceso Lean UX documentando cada fase de forma estructurada y comprensible. También diseñé y documenté la landing page y la aplicación web, incluyendo wireframes y mockups con descripciones detalladas. Finalmente, redacté la guía de estilo (style guidelines), asegurándome de que fuera clara tanto para desarrolladores como para diseñadores.<br><br>  **Jorge Yum:**<br> **TB1:** <br> Para esta primera entrega, se comunico de forma escrita mediante el uso de conventional commits y git flow dentro de un repositorio de github que permitió la organización y un flujo de trabajo ordenado. De esta manera, en esta entrega se pudo realizar la planificación de la problemática, tabla de supuestos y la landing page.<br>**TP1**                                                                                                                                                                                                                                     | **TB1:** Como equipo, establecimos canales de comunicación efectivos que nos permitieron coordinar adecuadamente el desarrollo del proyecto, a pesar de los plazos ajustados. Además, realizamos entrevistas que nos ayudaron a recoger sus opiniones y necesidades, lo cual fue clave para definir correctamente los requisitos del sistema. Esta información fue plasmada en artefactos escritos como user stories y el Product Backlog. <br><br>**TP1:** En reuniones del equipo y presentaciones con stakeholders, se comunicó oralmente el contenido y propósito del Sprint 2, el cual incluyó el desarrollo inicial del FrontEnd Web Application y correcciones del entregable anterior (TB1). Se explicaron de forma efectiva los avances, funcionalidades implementadas y evidencias generadas, adaptando el lenguaje según la audiencia para asegurar una comprensión adecuada por parte de todos los involucrados.                                                                                                                                      |
 
 
 # Capítulo I: Introducción
@@ -256,6 +303,7 @@ Visión: Consolidarnos como la startup tecnológica de referencia en Latinoamér
 | **Jorge Suin Yum Gonzales**<br>Mi nombre es Jorge Suin Yum Gonzales, tengo 20 años y estúdio la carrera de Ingeniería de Software. Me considero una persona responsable y puntual, cualidades que también aplico al trabajar de manera colaborativa con mis compañeros. Tengo interés en la programación de aplicaciones open source, así como curiosidad e iniciativa para comprender y participar en sus procesos de desarrollo.                                                                                  | <img src="https://files.catbox.moe/g2gms8.jpg" alt="kevin image" width="200">  |
 | **Gael Rivera**<br>Yo soy Gael Rivera. Soy un estudiante de Ingeniería de Software comprometido con la responsabilidad en cada tarea que asumo. Poseo habilidades de liderazgo que facilitan la comunicación y el trabajo colaborativo. Siempre estoy dispuesto a abordar desafíos y encontrar soluciones en equipo.                                                                                                                                                                                                | <img src="https://files.catbox.moe/fvs4da.jpg" alt="gael image" width="200">   
 | **Marcelo Varela**<br>Mi nombre es Marcelo Varela. Soy un estudiante de la carrera de Ingeniería De Software, tengo 20 años y actualmente me encuentro cursando el quinto ciclo de la carrera. Me caracterizo por ser una persona responsable, resiliente y proactiva, al cual le gusta aprender sobre tecnología y el desarrollo de software. Mi compromiso como miembro de este equipo es brindar mi apoyo y participación para enfrentar lo desafíos así como dar lo mejor de mí para el éxito de este proyecto. | <img src="https://files.catbox.moe/w88eqj.jpeg" alt="kevin image" width="200"> |
+
 ## 1.2. Solution Profile
 
 uTime es una solución integral diseñada para optimizar la gestión de citas en el sector de la belleza mediante una plataforma digital conectada en tiempo real con clientes y profesionales. Esta innovadora herramienta permite a los estilistas gestionar su disponibilidad de manera eficiente, reducir cancelaciones y olvidos, y atraer nuevos clientes sin depender exclusivamente del boca a boca o la comunicación manual.
@@ -1432,9 +1480,11 @@ Complementa la paleta principal con tonos suaves y equilibrados como el #E8C7EF 
 <p>Esta combinación de colores logra una experiencia visual armoniosa, elegante y tecnológica, ideal para una plataforma que busca destacar en el sector de servicios de belleza.</p>
 
 #### 4.1.1.3. Iconografía
+
 <div align="center">
 <img src="img/iconografia.png" alt="iconografia" width="600" />
 </div>
+
 La iconografía de uTime está diseñada para mantener una interfaz limpia, moderna y altamente intuitiva. Los íconos comunican de forma rápida y visual las funciones principales de la plataforma, lo que facilita la navegación tanto para clientes como para profesionales. Se utiliza un estilo lineal (outline) con trazos uniformes, redondeados y amigables, lo cual transmite una sensación de cercanía y profesionalismo, alineada con el tono general de la marca.
 Se han definido tres tamaños estándar de íconos, cada uno con su respectivo grosor de trazo (stroke), para adaptarse a diferentes jerarquías visuales dentro del producto:
 * **Íconos grandes:** 96 x 90 px con un trazo de 4 px. Usados en secciones destacadas como navegación principal o pantallas de bienvenida.
@@ -1442,6 +1492,7 @@ Se han definido tres tamaños estándar de íconos, cada uno con su respectivo g
 * **Íconos pequeños:** 32 x 30 px con un trazo de 2 px. Ideales para botones de acción, menús desplegables o elementos en listas.
 Además del ícono base (hogar), se ha desarrollado una biblioteca de íconos adicionales que incluyen representaciones claras de funciones comunes en la plataforma, como agendamiento, pagos, perfil, servicios, notificaciones y redes sociales. Esta colección asegura consistencia visual en todas las plataformas, permitiendo escalabilidad y rápida comprensión sin sacrificar estética.
 Todos los íconos mantienen proporciones balanceadas y utilizan un sistema de grid para asegurar coherencia en su diseño y alineación en interfaces tanto web como móviles.
+
 #### 4.1.1.4. Tono de comunicación y lenguaje aplicado
 El tono de uTime es cercano, claro y profesional. Busca conectar tanto con los salones de belleza como con sus clientes, transmitiendo confianza, facilidad y modernidad. La comunicación evita tecnicismos, optando por un lenguaje directo, positivo y accesible. Para los clientes, se prioriza la comodidad y simplicidad con frases como “Tu cita, a tu ritmo” o “Agenda en segundos”. Para los salones, el enfoque es práctico y enfocado en crecimiento, con mensajes como “Optimiza tu agenda” o “Haz crecer tu negocio”. <br>
 El tono se adapta según el contexto: amigable en bienvenidas, eficiente en formularios y proactivo en notificaciones. Se evita el uso excesivo de mayúsculas o jergas, manteniendo siempre una voz coherente, profesional y empática. Este tono homogéneo y accesible permite que uTime mantenga una identidad sólida y reconocible, acompañando a los usuarios desde el primer contacto hasta su uso cotidiano, sin fricciones ni confusiones.
@@ -2564,6 +2615,99 @@ Enlace para acceder a la landing page: https://upc-paxtech.github.io/uTime-Landi
 | Yum Gonzales, Jorge Suin            | Implementación de Planes y Precios de la Landing Page               |
 
 
+### 5.2.2. Sprint 2
+
+#### 5.2.2.1.Sprint Planning 2.
+
+Dentro del marco de trabajo Scrum, cada Sprint constituye un periodo de tiempo fijo y breve en el que el equipo de desarrollo trabaja de manera enfocada para alcanzar un objetivo específico que contribuya al cumplimiento del Product Goal (Schwaber, K. & Sutherland, J., 2020). En el contexto del desarrollo de la plataforma uTime, el Sprint #2 dio inicio el 27/04/2025, y su meta consiste en implementar la aplicación web del lado frontend utilizando Angular y Angular Material. Durante este Sprint, se desarrollaron las funcionalidades esenciales tanto para los clientes como para los proveedores: los clientes pueden explorar diferentes salones de belleza y realizar reservas de manera intuitiva, mientras que los proveedores tienen acceso a herramientas de gestión que les permiten configurar precios, administrar sus servicios y visualizar las citas asignadas a cada trabajador.
+
+<table>
+   <tr>
+      <td colspan="1" align="center"><b>Sprint #</b></td>
+      <td colspan="1" align="center">Sprint 2</td>
+   </tr>
+   <tr>
+      <td colspan="2" align="center"><b>Sprint Planning Background</b></td>
+   </tr>
+   <tr>
+      <td colspan="1" align="center"><b>Date</b></td>
+      <td colspan="1">2025-04-27</td>
+   </tr>
+   <tr>
+      <td colspan="1" align="center"><b>Time</b></td>
+      <td colspan="1">09:00 PM</td>
+   </tr>
+   <tr>
+      <td colspan="1" align="center"><b>Location</b></td>
+      <td colspan="1">Reunión virtual mediante la aplicación Discord</td>
+   </tr>
+   <tr>
+      <td colspan="1" align="center"><b>Prepare By</b></td>
+      <td colspan="1">Gael Rivera</td>
+   </tr>
+   <tr>
+      <td colspan="1" align="center"><b>Attendees (to planning meeting)</b></td>
+      <td colspan="1">Kevin Chi, Gael Rivera, Marcelo Varela, Angie Yalán y Jorge Yum</td>
+   </tr>
+   <tr>
+      <td colspan="1" align="center"><b>Sprint n - 2 Review Summary</b></td>
+      <td colspan="1">Durante este sprint se implementó el frontend de la aplicación web utilizando Angular y Angular Material, incorporando las funcionalidades principales para los roles de cliente y proveedor. Además, se resolvieron pendientes del Sprint 1: se agregó el switcher de idioma en la landing page, se corrigió el renderizado del logo y se aplicaron mejoras visuales a la interfaz</td>
+   </tr>
+   <tr>
+      <td colspan="1" align="center"><b>Sprint n - 2 Retrospective Summary</b></td>
+      <td colspan="1">Se identificó la necesidad de mejorar la planificación de tareas y la integración temprana de pruebas para evitar retrabajos. También se destacó una mayor fluidez en la comunicación del equipo respecto al sprint anterior, lo que permitió avanzar con mayor claridad en los entregables.</td>
+   </tr>
+   <tr>
+      <td colspan="2" align="center"><b>Sprint Goal & User Stories</b></td>
+   </tr>
+   <tr>
+      <td colspan="1" align="center"><b>Sprint 2 Goal</b></td>
+      <td colspan="1"><b>Our focus in on</b> developing the full web application frontend using Angular and Angular Material, addressing both customer and provider user roles.<br><b>We believe it delivers</b>a functional and responsive interface that supports key actions such as booking services for customers and managing appointments and pricing for providers.<br><b>This will be confirmed when</b> customers can successfully explore available salons and make reservations, and providers are able to configure their services, view appointments per worker, and interact with their dashboards smoothly.</td>
+   </tr>
+   <tr>
+      <td colspan="1" align="center"><b>Sprint 2 Velocity</b></td>
+      <td colspan="1"></td>
+   </tr>
+   <tr>
+      <td colspan="1" align="center"><b>Sum of Story Points</b></td>
+      <td colspan="1"></td>
+   </tr>
+
+   <tr>
+</tr>
+</table>
+
+
+#### 5.2.2.2. Aspect Leaders and Collaborators.
+
+Para este Sprint, se han identificado los principales aspectos del frontend web application de Utime. Con el fin de mejorar la organización y la comunicación del equipo, se ha elaborado la matriz Leadership and Collaboration Matrix (LACX), donde se define quién asume el rol de Líder (L) y quiénes participan como Colaboradores (C) en cada uno de estos aspectos clave. Esta distribución facilita una ejecución más clara y eficiente de las tareas asignadas.
+
+| **Team Member**                     | **GitHub Username** | **Appointments** | **Dashboard** | **Favorites** | **Iam** | **Profile** | **Public** | **Reviews** | **Schedule** | **Services** | **Shared** | **Subscription** |
+|-------------------------------------|---------------------|------------------|---------------|---------------|---------|-------------|------------|-------------|--------------|--------------|------------|------------------|
+| Chi Cruzatt, Kevin Jorge            | Krillsom            | C                | C             | C             | C       | L           | C          | C           | C            | L            | C          | C                |
+| Rivera Sosa, Eduardo Gael           | gael-rs             | C                | C             | C             | L       | C           | L          | C           | C            | C            | C          | C                |
+| Varela Bustinza, Marcelo Alessandro | VarBus              | L                | C             | C             | C       | C           | C          | C           | L            | C            | C          | C                |
+| Yalán Zhang, Angie Christina        | aaaaangie           | C                | C             | L             | C       | C           | C          | C           | C            | C            | C          | L                |
+| Yum Gonzales, Jorge Suin            | myussu              | C                | L             | C             | C       | C           | C          | L           | C            | C            | L          | C                |
+
+
+#### 5.2.2.3.Sprint Backlog 2.
+
+En el segundo sprint backlog, el equipo tuvo la intención de comenzar y completar el desarrollo del frontend de la aplicación web, tanto para el rol de cliente como de proveedor. La herramienta utilizada para organizar y gestionar las tareas del equipo continuó siendo Trello, permitiendo dividir las user stories en tareas manejables y asignarlas a los miembros según sus habilidades específicas. El objetivo principal del sprint fue implementar las funcionalidades clave de ambos roles, asegurando una interfaz intuitiva, responsiva y funcional utilizando Angular y Angular Material.
+
+![Trello-Sprint-Backlog-2](img/Trello-Sprint-Backlog-2.jpg)
+
+Enlace para acceder al Trello: [Trello Sprint Backlog 2]()
+
+#### 5.2.2.4.Development Evidence for Sprint Review.
+#### 5.2.2.5.Execution Evidence for Sprint Review.
+#### 5.2.2.6.Services Documentation Evidence for Sprint Review.
+#### 5.2.2.7.Software Deployment Evidence for Sprint Review.
+#### 5.2.2.8.Team Collaboration Insights during Sprint.
+
+
+
+
 # Conclusiones
 
 ## 6.1 Conclusiones y recomendaciones
@@ -2573,7 +2717,7 @@ Enlace para acceder a la landing page: https://upc-paxtech.github.io/uTime-Landi
 - El proyecto uTime demostró que existe una necesidad real y no atendida en el sector de la belleza relacionada con la gestión eficiente de citas.
 
 
-- La implementación del enfoque Lean UX permitió validar rápidamente hipótesis y mejorar la solución con base en retroalimentación real de usuarios. 
+- La implementación del enfoque Lean UX permitió validar rápidamente hipótesis y mejorar la solución con base en retroalimentación real de usuarios.
 
 
 - La colaboración multidisciplinaria dentro del equipo de PaxTech fue fundamental para abordar el proyecto de forma integral, combinando habilidades técnicas, de diseño y de análisis de usuario.
@@ -2594,11 +2738,11 @@ Enlace para acceder a la landing page: https://upc-paxtech.github.io/uTime-Landi
 
 - Continuar fortaleciendo el uso de metodologías ágiles dentro del equipo, especialmente en la planificación de sprints y la documentación de retrospectivas.
 
- 
+
 
 - Documentar con mayor detalle las decisiones de diseño y arquitectura para facilitar la comprensión del proyecto por parte de los docentes evaluadores y compañeros.
 
- 
+
 - Evaluar críticamente los avances realizados y contrastarlos con los entregables definidos en el sílabo del curso, asegurando que cada parte del proyecto cumpla con los criterios de evaluación establecidos.
 
 
