@@ -170,25 +170,8 @@ Se explican las ramas más prominentes:
 
 Capturas de la participación en el informe:
 
-**Rivera Sosa, Eduardo Gael**
-
-
-
-**Varela Bustinza, Marcelo Alessandro**
-
-
-
-**Yalán Zhang, Angie Christina**
-
-
-
-**Yum Gonzales, Jorge Suin**
-
-
-
-**Chi Cruzatt, Kevin Jorge**
-
-
+![NetworkGraph](img/networkgraph-informeTP.png)
+![Contributors](img/informe-contributorsTP.png)
 
 # Contenido
 
