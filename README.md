@@ -479,73 +479,7 @@ En cuanto al comportamiento, uTime debe ser rápido, receptivo y confiable. Debi
 * Creemos que, al incluir un módulo de promociones y descuentos, los estilistas podrán aumentar la captación de nuevos clientes y fidelizar a los actuales. Sabremos que hemos tenido éxito cuando el número de reservas aumente en un 30% en comparación con el período previo a la implementación de esta funcionalidad.
 
 #### 1.2.2.4. Lean UX Canvas.
-<table>
-   <tr>
-      <th colspan="1">Business Problem</th>
-      <th colspan="2">Solutions</th>
-   </tr>
-   <tr>
-      <td colspan="1">Nuestro sistema, uTime, está diseñado para ayudar a los estilistas y salones de belleza a gestionar sus citas de manera eficiente, reduciendo cancelaciones y mejorando la experiencia de los clientes. Hemos observado que muchos profesionales del sector tienen dificultades para organizar su agenda, lo que genera pérdida de ingresos y clientes insatisfechos.<br>
-         ¿Cómo podemos mejorar la gestión de citas y optimizar la organización del tiempo de los estilistas? ¿Cómo podemos ofrecer una plataforma fácil de usar que reduzca la fricción en la reserva de servicios, permitiendo a los clientes agendar citas sin complicaciones?</td>
-      <td colspan="2">
-         <ul>
-            <li> Plataforma web y móvil con un calendario interactivo: Los estilistas podrán gestionar su agenda en tiempo real, visualizar la disponibilidad de horarios y realizar modificaciones con facilidad. Los clientes también podrán ver la disponibilidad y reservar citas sin necesidad de interacción manual con el estilista.</li>
-            <li>Notificaciones y recordatorios automáticos: Se enviarán alertas a clientes y estilistas antes de la cita programada para reducir la tasa de cancelaciones y ausencias. Además, el sistema permitirá configurar notificaciones personalizadas según las preferencias del usuario.</li>
-            <li>Módulo de reportes financieros: uTime incluirá un panel de estadísticas que mostrará ingresos semanales, mensuales y anuales, así como métricas clave sobre los servicios más solicitados, clientes recurrentes y tendencias de demanda.</li>
-            <li>Sistema de reseñas y calificaciones: Los clientes podrán calificar la atención recibida y dejar comentarios sobre su experiencia. Esto permitirá a los estilistas mejorar sus servicios y generar confianza en nuevos clientes.</li>
-            <li>Opciones de promociones y descuentos: La plataforma permitirá a los estilistas y salones crear promociones especiales para atraer clientes en horarios de baja demanda o premiar la fidelidad de los clientes recurrentes.</li>
-         </ul>
-      </td>
-   </tr>
-   <tr>
-      <th colspan="1">Customers</th>
-      <th colspan="1">Business Outcomes</th>
-      <th colspan="1">Customer Benefits</th>
-   </tr>
-   <tr>
-      <td colspan="1">
-         <p>Los clientes que utilizarán uTime incluyen:</p>
-         <ul>
-            <li>Dueños de salones de belleza: Administradores de negocios con múltiples empleados que requieren una plataforma centralizada para gestionar la disponibilidad de sus estilistas, optimizar la ocupación y mejorar la experiencia de los clientes.</li>
-            <li>Clientes finales: Personas que buscan un proceso de reserva rápido y sin complicaciones, con la posibilidad de recibir recordatorios y opciones de reprogramación fáciles.</li>
-         </ul>
-      </td>
-      <td colspan="1">
-         <ul>
-            <li>Aumento en la adopción de la plataforma por parte de estilistas y salones de belleza. Esperamos que un número creciente de profesionales del sector adopte uTime como su herramienta principal para la gestión de citas y la promoción de sus servicios.</li>
-            <li>Mayor retención de clientes a través de la automatización de citas y promociones personalizadas.</li> 
-            <li>Incremento de ingresos a través de suscripciones premium y comisiones por transacciones. </li> 
-            <li>Crecimiento de la comunidad activa a través de alianzas estratégicas. De esta manera lograremos posicionar a uTime como la solución tecnológica más confiable y utilizada por estilistas y clientes.</li>
-         </ul>
-      </td>
-      <td colspan="1">
-         <p>Para los dueños de salones de belleza: La plataforma ofrecerá una solución integral para administrar múltiples estilistas en un solo lugar. Esto permitirá optimizar los horarios, mejorar la ocupación del salón y asegurar que cada cliente tenga una experiencia fluida desde la reserva hasta el servicio. Además, la opción de reportes financieros ayudará a mejorar la rentabilidad del negocio.</p>
-         <p>Para los clientes finales: uTime les ofrecerá la posibilidad de reservar citas de manera rápida y sencilla sin necesidad de realizar llamadas o enviar mensajes. También recibirán recordatorios automáticos que les evitarán olvidar sus citas y tendrán acceso a promociones exclusivas.</p>
-      </td>   
-   </tr>
-   <tr>
-      <th colspan="1">Hypothesis</th>
-      <th colspan="1">What's the most important thing we need to learn first?</th>
-      <th colspan="1">What's the least amount of work we need to do to get there?</th>
-   </tr>
-   <tr>
-      <td colspan="1">
-         <ul>
-            <li>Creemos que, al ofrecer una plataforma con gestión de citas, recordatorios automáticos y funciones de personalización, uTime mejorará la organización de los estilistas y reducirá cancelaciones. Sabremos que esto es cierto cuando al menos 70% de los estilistas registren todas sus citas en la plataforma dentro del primer mes de uso.</li>
-            <li>Creemos que los clientes prefieren reservar en línea en lugar de usar métodos tradicionales. Sabremos que esto es cierto cuando el 80% de las reservas se realicen a través de uTime en los primeros tres meses.</li>
-            <li>Creemos que, al proporcionar herramientas de seguimiento financiero, los estilistas podrán aumentar sus ingresos y tomar mejores decisiones de negocio. Sabremos que esto es cierto cuando al menos el 60% de los estilistas utilicen los reportes financieros dentro del primer trimestre.</li>
-         </ul>
-      </td>
-      <td colspan="1">
-         Antes de desarrollar completamente uTime, es fundamental validar ciertas suposiciones clave. Primero, debemos evaluar si las notificaciones automáticas logran reducir significativamente las cancelaciones o si los clientes aún necesitan otro tipo de incentivos para cumplir con sus citas. <br>
-         Otro punto crucial es entender cómo los clientes finales prefieren reservar sus citas. Si la mayoría sigue optando por llamadas o mensajes en WhatsApp, entonces uTime deberá incluir una mejor integración con estas herramientas para garantizar una transición más fluida. Finalmente, necesitamos determinar si las herramientas de reportes financieros realmente ayudan a los estilistas a aumentar sus ingresos y tomar mejores decisiones de negocio.
-      </td>
-      <td colspan="1">
-         Para validar nuestras hipótesis y asegurar que uTime ofrece valor real, primero necesitamos desarrollar un prototipo funcional con las características esenciales, como la gestión de citas y las notificaciones automáticas. Luego, realizaremos pruebas piloto con un grupo de estilistas y salones de belleza para observar cómo interactúan con la plataforma y recopilar feedback en tiempo real.<br>
-         Paralelamente, analizaremos la tasa de adopción y mediremos si la plataforma efectivamente reduce cancelaciones y mejora la organización del tiempo de los estilistas. Si los resultados son positivos, refinaremos la plataforma antes de su lanzamiento oficial, asegurando que incluya mejoras basadas en la experiencia de los usuarios iniciales.
-      </td>
-   </tr>
-</table>
+![Lean UX Canvas](img/lean-ux-canvas.png)
 
 ## 1.3. Segmentos objetivo.
 
