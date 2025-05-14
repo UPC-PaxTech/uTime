@@ -156,7 +156,7 @@ Los integrantes son:
 - Gael Rivera (gael-rs)
 - Marcelo Varela (VarBus)
 - Angie Yalán (aaaaangie)
-- Jorge Yum (myussu)
+- Jorge Yum (myussu, jsyumg)
 
 Se explican las ramas más prominentes:
 
