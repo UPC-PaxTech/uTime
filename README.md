@@ -2700,7 +2700,59 @@ En el segundo sprint backlog, el equipo tuvo la intención de comenzar y complet
 Enlace para acceder al Trello: [Trello Sprint Backlog 2]()
 
 #### 5.2.2.4.Development Evidence for Sprint Review.
+
+| Repository                  | Branch            | Commit Id | Commit Message                                                                 | Commited on (Date) |
+|-----------------------------|-------------------|-----------|-------------------------------------------------------------------------------|--------------------|
+| Frontend-Web-Applications   | develop           | d965077   | fix: reverted broken develop                                                  | 14/05/2025         |
+| Frontend-Web-Applications   | develop           | c952785   | feature: add appointment maker                                                | 13/05/2025         |
+| Frontend-Web-Applications   | develop           | b4a2167   | feat: add changes favorites and appointments                                  | 13/05/2025         |
+| Frontend-Web-Applications   | develop           | 39ed520   | feature: add salons services into salon                                       | 13/05/2025         |
+| Frontend-Web-Applications   | develop           | 375f0b9   | feature: add homeClient/salon                                                 | 13/05/2025         |
+| Frontend-Web-Applications   | develop           | a7c466e   | feat: update sidebar                                                          | 13/05/2025         |
+| Frontend-Web-Applications   | develop           | 2f9ce65   | feat: add favorite section                                                    | 13/05/2025         |
+| Frontend-Web-Applications   | develop           | 91bb66a   | feature: add client dashboard fixed                                           | 12/05/2025         |
+| Frontend-Web-Applications   | develop           | 7554762   | feature: changed position of sidebar from client layout                       | 12/05/2025         |
+| Frontend-Web-Applications   | develop           | 47738ec   | feature: add dashboard client                                                 | 12/05/2025         |
+| Frontend-Web-Applications   | develop           | 6c76c36   | feature: add home client, fix routing and client sidebar                      | 12/05/2025         |
+| Frontend-Web-Applications   | develop           | 329d1bf   | fix: fix routing, sidebar and app.component                                   | 12/05/2025         |
+| Frontend-Web-Applications   | develop           | cefa450   | feature: add client dashboard                                                 | 11/05/2025         |
+| Frontend-Web-Applications   | develop           | 481e7f9   | feat: add item and list components with response and assembler                | 10/05/2025         |
+| Frontend-Web-Applications   | develop           | 7ef3746   | feat: add client layout                                                       | 10/05/2025         |
+| Frontend-Web-Applications   | develop           | e4bd0cb   | feat: add pages and sidebar components                                        | 10/05/2025         |
+| Frontend-Web-Applications   | develop           | 207a488   | feat: add login,register pages                                                | 10/05/2025         |
+| Frontend-Web-Applications   | develop           | 5146c82   | feat: add client and provider forms                                           | 10/05/2025         |
+| Frontend-Web-Applications   | develop           | 1d09d06   | feat: add login page                                                          | 09/05/2025         |
+| Frontend-Web-Applications   | develop           | 3cb8efc   | feat: add structure of the routes                                             | 09/05/2025         |
+| Frontend-Web-Applications   | develop           | eb01d1a   | feat: update sidebar and toolbar with new routes                              | 09/05/2025         |
+| Frontend-Web-Applications   | develop           | 7bcd9a0   | feat: Added language switcher and toolbar with routes                         | 09/05/2025         |
+| Frontend-Web-Applications   | develop           | 8ced986   | feat: final version of toolbar design                                         | 08/05/2025         |
+| Frontend-Web-Applications   | develop           | 49538d2   | feat: design toolbar layout and styling                                       | 08/05/2025         |
+| Frontend-Web-Applications   | develop           | 472dd38   | feature: add Salon entity, model, components                                  | 08/05/2025         |
+| Frontend-Web-Applications   | develop           | 71430cc   | feature: add Salon entity                                                     | 08/05/2025         |
+| Frontend-Web-Applications   | develop           | 452cb84   | feat: enable swapping between workers and displaying appointments             | 08/05/2025         |
+| Frontend-Web-Applications   | develop           | 85ba09d   | feat: add calendar first version                                              | 08/05/2025         |
+| Frontend-Web-Applications   | develop           | 1c9c99f   | feat: add schedule bounded context                                            | 08/05/2025         |
+| Frontend-Web-Applications   | develop           | 279eced   | feat: review component                                                        | 08/05/2025         |
+
 #### 5.2.2.5.Execution Evidence for Sprint Review.
+
+##### Client side
+**Seccion de Dashboard:** Muestra la informacion de citas proximas, trabajadores y reseñas sin leer.
+![Dashboard](img/provider-dashboard-page.png)
+**Seccion de Calendario:** Muestra la informacion de la agenda de cada uno de los trabajadores registrados en el salon.
+![Calendario](img/provider-calendar-page.png)
+**Seccion de Reviews:** Muestra la informacion de las reseñas que han dejado los clientes.
+![Reviews](img/provider-review-page.png)
+**Seccion de Servicios:** Muestra la informacion de los servicios que ofrece el salon.
+![Servicios](img/provider-services-page.png)
+**Seccion de Subscription:** Muestra la informacion del plan de suscripcion que tiene el salon.
+![Subscription](img/provider-subscription-page.png)
+**Seccion de Configuracion:** Muestra la informacion del perfil y permite el cambio de contraseña.
+![Configuracion](img/provider-settings-page.png)
+**Seccion de Perfil:** Muestra la informacion del salon, redes sociales, rating, portfolio y reviews recientes positivas.
+![Perfil](img/provider-profile-page.png)
+
+
 #### 5.2.2.6.Services Documentation Evidence for Sprint Review.
 #### 5.2.2.7.Software Deployment Evidence for Sprint Review.
 #### 5.2.2.8.Team Collaboration Insights during Sprint.
