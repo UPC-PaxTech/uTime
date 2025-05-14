@@ -3002,7 +3002,7 @@ Enlace para acceder al Trello: [Trello Sprint Backlog 2]()
 | Frontend-Web-Applications   | develop           | 279eced   | feat: review component                                                        | 08/05/2025         |
 
 #### 5.2.2.5.Execution Evidence for Sprint Review.
-<<<<<<< HEAD
+
 
 ##### Client side
 **Seccion de Dashboard:** Muestra la informacion de citas proximas, trabajadores y reseñas sin leer.
@@ -3019,7 +3019,7 @@ Enlace para acceder al Trello: [Trello Sprint Backlog 2]()
 ![Configuracion](img/provider-settings-page.png)
 **Seccion de Perfil:** Muestra la informacion del salon, redes sociales, rating, portfolio y reviews recientes positivas.
 ![Perfil](img/provider-profile-page.png)
-=======
+
 <figure>
   <img src="img/iam-login.png" alt="Login Page">
   <figcaption>Pantalla de Inicio de Sesión</figcaption>
@@ -3079,8 +3079,6 @@ Enlace para acceder al Trello: [Trello Sprint Backlog 2]()
   <img src="img/client-profile.png" alt="Client Profile">
   <figcaption>Perfil del Cliente</figcaption>
 </figure>
->>>>>>> feature/EvidenceSprint
-
 
 #### 5.2.2.6.Services Documentation Evidence for Sprint Review.
 #### 5.2.2.7.Software Deployment Evidence for Sprint Review.
