@@ -3019,6 +3019,12 @@ Enlace para acceder al Trello: [Trello Sprint Backlog 2]()
 ![Configuracion](img/provider-settings-page.png)
 **Seccion de Perfil:** Muestra la informacion del salon, redes sociales, rating, portfolio y reviews recientes positivas.
 ![Perfil](img/provider-profile-page.png)
+*Seccion de AppointmentsClient** Muestra la información de reservas y reviews de estilistas o barberos.
+![client-appointments.png](../../uTime_aplicaciones_web/uTime-Informe-Final/img/client-appointments.png)
+*Seccion de FavoritesClient** Muestra los salones de belleza o barberia favoritos.
+![client-favorites.png](../../uTime_aplicaciones_web/uTime-Informe-Final/img/client-favorites.png)
+*Seccion de ProfileClient** Muestra la información del cliente de su perfil.
+![client-profile.png](../../uTime_aplicaciones_web/uTime-Informe-Final/img/client-profile.png)
 
 <figure>
   <img src="img/iam-login.png" alt="Login Page">
@@ -3261,6 +3267,12 @@ https://github.com/UPC-PaxTech/Frontend-Web-Applications
 **Repositorio en GitHub - uTime (Paxtech) -Landing Page**<br>
 
 https://github.com/UPC-PaxTech/uTime-Landing-Page
+
+**Url Deployment Github Pages - uTime (Paxtech) -Landing Page**<br>
+https://upc-paxtech.github.io/uTime-Landing-Page/
+
+**Url Deployment Github Pages - uTime (Paxtech) -Frontend Web Applications**<br>
+https://upc-paxtech.github.io/Frontend-Web-Applications/iam/login
 
 **Herramientas y Recursos Utilizados:**<br>
 
