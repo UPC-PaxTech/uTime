@@ -72,7 +72,7 @@
 
    <br>
 
-   <center><b>Ciclo 2025-01</b></center>
+   <center><b>Ciclo 2025-10</b></center>
 
    <br>
 
@@ -3059,7 +3059,7 @@ Es el punto de vista del usuario (proveedor) donde puede ver, editar o eliminar 
 
 Se evidencia el consumo de datos ([dataSource]="services") y acciones (delete, edit).
 
-<img src="services-table.png" alt="services">
+<img src="img/services-table.png" alt="services">
 
 
 <td mat-cell *matCellDef="let service">
@@ -3187,6 +3187,14 @@ https://github.com/UPC-PaxTech/Frontend-Web-Applications
 **Repositorio en GitHub - uTime (Paxtech) -Landing Page**<br>
 
 https://github.com/UPC-PaxTech/uTime-Landing-Page
+
+**Landing page** <br>
+
+https://upc-paxtech.github.io/uTime-Landing-Page/
+
+**Frontend** <br>
+
+https://upc-paxtech.github.io/Frontend-Web-Applications/iam/login
 
 **Herramientas y Recursos Utilizados:**<br>
 
