@@ -1980,9 +1980,23 @@ Web Applications Prototyping web view: *[Web Applications Prototyping](https://w
 
 ## Diagrama de Clases
 
+**-Diagrama completo del Backend**
 ![Diagrama de Clases](diagram/classDiagram.svg)
 
-![Diagrama de Clases-frontend](diagram/class-diagram-frontend.svg)
+**-Diagrama completo del frontend**
+![Diagrama de Clases-frontend](img/class-diagram-frontend.png)
+
+-Diagrama de Dashboard y Appointment - frontend
+![Diagrama de Clases-frontend-dash_appo](img/class-diagram-frontend-dash_appo.png)
+
+-Diagrama de Profile y IAM - frontend
+![Diagrama de Clases-frontend-prof_iam](img/class-diagram-frontend-prof_iam.png)
+
+-Diagrama de Provider Settings y Reviews - frontend
+![Diagrama de Clases-frontend-provsett_pub_rev](img/class-diagram-frontend-provsett_pub_rev.png)
+
+-Diagrama de Schedule y Services - frontend
+![Diagrama de Clases-frontend-sched_serv](img/class-diagram-frontend-sched_serv.png)
 
 
 ### 4.7.2. Class Dictionary.
