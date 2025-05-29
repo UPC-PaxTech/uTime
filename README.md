@@ -3096,7 +3096,7 @@ Es el punto de vista del usuario (proveedor) donde puede ver, editar o eliminar 
 
 Se evidencia el consumo de datos ([dataSource]="services") y acciones (delete, edit).
 
-<img src="services-table.png" alt="services">
+<img src="img/services-table.png" alt="services">
 
 
 <td mat-cell *matCellDef="let service">
