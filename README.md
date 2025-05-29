@@ -3199,7 +3199,7 @@ Domain-Driven Design for Microservices: An Evidence-Based Investigation. (2024).
 
 # Anexos
 
-**Repositorio en GitHub - uTime (PaxTech):**<br>
+**Repositorio en GitHub - uTime (PaxTech) -Documento:**<br>
 
 https://github.com/UPC-PaxTech/uTime/
 
@@ -3210,6 +3210,12 @@ https://github.com/UPC-PaxTech/Frontend-Web-Applications
 **Repositorio en GitHub - uTime (Paxtech) -Landing Page**<br>
 
 https://github.com/UPC-PaxTech/uTime-Landing-Page
+
+**Repositorio en GitHub - uTime (Paxtech) -Fake Api**<br>
+https://github.com/UPC-PaxTech/fakeapi
+
+**Repositorio en GitHub - uTime (Paxtech) -Web Applications**<br>
+https://github.com/UPC-PaxTech/Web-Services
 
 **Url Deployment Github Pages - uTime (Paxtech) -Landing Page**<br>
 https://upc-paxtech.github.io/uTime-Landing-Page/
@@ -3229,12 +3235,12 @@ URL del diagrama base de datos: https://lucid.app/lucidchart/63a0bb3b-e0d7-4f40-
 
 **Cuentas de GitHub de los Integrantes:**<br>
 
-Kevin Chi – @Krillsom
+Kevin Chi – @Krillsom https://github.com/Krillsom
 
-Gael Rivera – @gael-rs
+Gael Rivera – @gael-rs https://github.com/gael-rs
 
-Marcelo Varela – @VarBus
+Marcelo Varela – @VarBus https://github.com/VarBus
 
-Angie Yalán – @aaaaangie
+Angie Yalán – @aaaaangie https://github.com/aaaaangie
 
-Jorge Yum – @myussu, @jsyumg
+Jorge Yum – @myussu, @jsyumg https://github.com/jsyumg
