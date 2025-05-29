@@ -72,7 +72,7 @@
 
    <br>
 
-   <center><b>Ciclo 2025-01</b></center>
+   <center><b>Ciclo 2025-10</b></center>
 
    <br>
 
