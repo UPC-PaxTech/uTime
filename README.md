@@ -3236,9 +3236,179 @@ Para este Sprint, se han identificado los principales aspectos relacionados con 
 | Yum Gonzales, Jorge Suin            | myussu              | C                | L             | C             | C       | C           | C          | L           | C            | C            | L          | c                |
 
 ### 5.2.3.3. Sprint Backlog 3
+En el tercer sprint backlog, el equipo tuvo la intención de iniciar y avanzar en el desarrollo del backend de la aplicación web, abordando los requerimientos esenciales para los roles de cliente y proveedor. Para la organización y gestión de las tareas, se continuó utilizando la herramienta Trello, lo que permitió descomponer las user stories en tareas específicas y asignarlas según las fortalezas técnicas de cada integrante. El objetivo principal del sprint fue establecer una base sólida del backend, incluyendo la creación de las entidades, la conexión con la base de datos MySQL, y la exposición de endpoints RESTful seguros, validados mediante Swagger y autenticación con tokens.
 
+<table border="1" cellspacing="0" cellpadding="5">
+   <tr>
+      <td colspan="2" align="center"><b>Sprint #</b></td>
+      <td colspan="6" align="center"><b>Sprint 3</b></td>
+   </tr>
+   <tr>
+      <td colspan="2"><b>User Story</b></td>
+      <td colspan="6" align="center"><b>Work-Item/Task</b></td>
+   </tr>
+   <tr>
+      <td><b>Id</b></td>
+      <td><b>Title</b></td>
+      <td><b>Id</b></td>
+      <td><b>Title</b></td>
+      <td><b>Description</b></td>
+      <td><b>Estimation (Hours)</b></td>
+      <td><b>Assigned To</b></td>
+      <td><b>Status (To-do/In-Process/To-Review/Done)</b></td>
+   </tr>
+   <!-- Integración con pasarela de Pagos (Spring Boot) -->
+   <tr>
+      <td rowspan="3">TS01</td>
+      <td rowspan="3">Integración con pasarela de Pagos</td>
+      <td>T1</td>
+      <td>Configurar API de pagos en Spring Boot</td>
+      <td>Implementar servicio REST en Spring Boot para conectar con Stripe/PayPal.</td>
+      <td>5</td>
+      <td>Miembro por designar</td>
+      <td>In-Process</td>
+   </tr>
+   <tr>
+      <td>T2</td>
+      <td>Documentar endpoints con Swagger</td>
+      <td>Agregar anotaciones @Operation y @ApiResponse para el controlador de pagos.</td>
+      <td>2</td>
+      <td>Miembro por designar</td>
+      <td>In-Process</td>
+   </tr>
+   <tr>
+      <td>T3</td>
+      <td>Manejo de errores (Spring Boot)</td>
+      <td>Implementar @ControllerAdvice para respuestas de error estandarizadas (400, 500).</td>
+      <td>3</td>
+      <td>Miembro por designar</td>
+      <td>In-Process</td>
+   </tr>
+   <!-- 2FA (Spring Security + Angular) -->
+   <tr>
+      <td rowspan="2">TS02</td>
+      <td rowspan="2">Implementación de autenticación con dos pasos (2FA)</td>
+      <td>T1</td>
+      <td>Backend: Generación de códigos 2FA</td>
+      <td>Implementar servicio en Spring Boot con Spring Security y JavaMail para envío de códigos.</td>
+      <td>4</td>
+      <td>Miembro por designar</td>
+      <td>In-Process</td>
+   </tr>
+   <tr>
+      <td>T2</td>
+      <td>Frontend: Formulario 2FA (Angular)</td>
+      <td>Crear componente Angular para ingreso de código con validación reactiva.</td>
+      <td>3</td>
+      <td>Miembro por designar</td>
+      <td>In-Process</td>
+   </tr>
+   <!-- Encriptación (Spring Security) -->
+   <tr>
+      <td rowspan="2">TS03</td>
+      <td rowspan="2">Encriptación de contraseñas</td>
+      <td>T1</td>
+      <td>Configurar BCrypt en Spring Security</td>
+      <td>Usar PasswordEncoder de Spring Security para hashing + salt.</td>
+      <td>2</td>
+      <td>Miembro por designar</td>
+      <td>In-Process</td>
+   </tr>
+   <tr>
+      <td>T2</td>
+      <td>Pruebas de autenticación</td>
+      <td>Verificar que el login compare contraseñas hasheadas correctamente.</td>
+      <td>2</td>
+      <td>Miembro por designar</td>
+      <td>In-Process</td>
+   </tr>
+   <!-- Validaciones (Angular + Spring Boot) -->
+   <tr>
+      <td rowspan="2">TS05</td>
+      <td rowspan="2">Validaciones de formularios</td>
+      <td>T1</td>
+      <td>Frontend: Validaciones reactivas (Angular)</td>
+      <td>Implementar Validators en FormGroups para campos requeridos, email, teléfono, etc.</td>
+      <td>3</td>
+      <td>Miembro por designar</td>
+      <td>In-Process</td>
+   </tr>
+   <tr>
+      <td>T2</td>
+      <td>Backend: Validaciones con Spring</td>
+      <td>Usar anotaciones @Valid, @NotNull, @Pattern en los DTOs.</td>
+      <td>2</td>
+      <td>Miembro por designar</td>
+      <td>In-Process</td>
+   </tr>
+   <!-- Endpoints (Spring Boot + Swagger) -->
+   <tr>
+      <td rowspan="3">TS07</td>
+      <td rowspan="3">Crear endpoint para registro de usuario</td>
+      <td>T1</td>
+      <td>Implementar POST /usuarios (Spring Boot)</td>
+      <td>Desarrollar Controller y Service para registro, con persistencia en JPA/Hibernate.</td>
+      <td>4</td>
+      <td>Miembro por designar</td>
+      <td>In-Process</td>
+   </tr>
+   <tr>
+      <td>T2</td>
+      <td>Swagger: Documentar endpoint</td>
+      <td>Agregar @Tag, @Schema y ejemplos de request/response.</td>
+      <td>1</td>
+      <td>Miembro por designar</td>
+      <td>In-Process</td>
+   </tr>
+   <tr>
+      <td>T3</td>
+      <td>Frontend: Formulario de registro (Angular)</td>
+      <td>Crear componente con Angular Material y conexión al endpoint.</td>
+      <td>3</td>
+      <td>Miembro por designar</td>
+      <td>In-Process</td>
+   </tr>
+   <!-- JWT (Spring Security) -->
+   <tr>
+      <td rowspan="2">TS08</td>
+      <td rowspan="2">Crear endpoint de login con JWT</td>
+      <td>T1</td>
+      <td>Backend: JWT en Spring Security</td>
+      <td>Configurar filtros JWT (JwtAuthenticationFilter, JwtUtil).</td>
+      <td>4</td>
+      <td>Miembro por designar</td>
+      <td>In-Process</td>
+   </tr>
+   <tr>
+      <td>T2</td>
+      <td>Frontend: Almacenar token</td>
+      <td>Guardar JWT en localStorage y añadir interceptor HTTP.</td>
+      <td>2</td>
+      <td>Miembro por designar</td>
+      <td>In-Process</td>
+   </tr>
+   <!-- Diseño responsive (Angular) -->
+   <tr>
+      <td rowspan="2">TS06</td>
+      <td rowspan="2">Diseño responsive y accesible</td>
+      <td>T1</td>
+      <td>Angular Material Layout</td>
+      <td>Usar FlexLayout y BreakpointObserver para responsividad.</td>
+      <td>4</td>
+      <td>Miembro por designar</td>
+      <td>In-Process</td>
+   </tr>
+   <tr>
+      <td>T2</td>
+      <td>ARIA en componentes</td>
+      <td>Añadir roles, labels y focus management para accesibilidad.</td>
+      <td>3</td>
+      <td>Miembro por designar</td>
+      <td>In-Process</td>
+   </tr>
+</table>
 
-
+Enlace para acceder al Trello: [Trello Sprint Backlog 3]()
 ### 5.2.3.4. Development Evidence for Sprint Review
 
 ### 5.2.3.5. Execution Evidence for Sprint Review
