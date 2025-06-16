@@ -3157,6 +3157,7 @@ Durante el Sprint 2, se realizó la segmentación de tareas por features y se as
 ## 5.2.3. Sprint 3
 
 ### 5.2.3.1. Sprint Planning
+En el marco metodológico de Scrum, cada Sprint corresponde a un lapso breve y constante en el que el equipo de desarrollo se dedica a cumplir una meta concreta que impulse el avance hacia el objetivo general del producto (Schwaber, K. & Sutherland, J., 2020). En el desarrollo de la plataforma uTime, el Sprint número 2 se inició el 27 de abril de 2025, y tuvo como propósito central la construcción del frontend de la aplicación web, empleando Angular junto con Angular Material. Durante esta etapa, se implementaron funcionalidades fundamentales tanto para los usuarios clientes como para los proveedores. Por un lado, los clientes ahora pueden buscar y explorar diversos salones de belleza y realizar reservas de forma sencilla e intuitiva. Por otro lado, los proveedores disponen de herramientas administrativas que les permiten configurar los precios de sus servicios, gestionar su oferta y visualizar las citas asignadas a cada miembro de su personal, facilitando así la organización y atención a sus clientes.
 
 ### 5.2.3.2. Aspect Leaders and Collaborators
 
