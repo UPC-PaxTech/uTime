@@ -3161,6 +3161,70 @@ En el marco metodológico de Scrum, cada Sprint corresponde a un lapso breve y c
 
 ### 5.2.3.2. Aspect Leaders and Collaborators
 
+<table>
+   <tr>
+      <td colspan="1" align="center"><b>Sprint #</b></td>
+      <td colspan="1" align="center">Sprint 3</td>
+   </tr>
+   <tr>
+      <td colspan="2" align="center"><b>Sprint Planning Background</b></td>
+   </tr>
+   <tr>
+      <td colspan="1" align="center"><b>Date</b></td>
+      <td colspan="1">2025-05-27</td>
+   </tr>
+   <tr>
+      <td colspan="1" align="center"><b>Time</b></td>
+      <td colspan="1">09:00 PM</td>
+   </tr>
+   <tr>
+      <td colspan="1" align="center"><b>Location</b></td>
+      <td colspan="1">Reunión virtual mediante la aplicación Discord</td>
+   </tr>
+   <tr>
+      <td colspan="1" align="center"><b>Prepare By</b></td>
+      <td colspan="1">Gael Rivera</td>
+   </tr>
+   <tr>
+      <td colspan="1" align="center"><b>Attendees (to planning meeting)</b></td>
+      <td colspan="1">Kevin Chi, Gael Rivera, Marcelo Varela, Angie Yalán y Jorge Yum</td>
+   </tr>
+   <tr>
+      <td colspan="1" align="center"><b>Sprint n - 3 Review Summary</b></td>
+      <td colspan="1">
+      Durante este Sprint se avanzó significativamente en el desarrollo tanto del frontend como del backend de la aplicación web. En el lado del frontend, se implementó la internacionalización (i18n) y se aplicaron mejoras visuales a la interfaz utilizando Angular y Angular Material. También se corrigieron aspectos pendientes del Sprint 2, como la integración completa del switcher de idioma y el ajuste del renderizado del logo. En cuanto al backend, se estableció la conexión con la base de datos MySQL y se desarrollaron los servicios necesarios para el funcionamiento de las funcionalidades principales de los roles de cliente y proveedor.
+   </td>
+   </tr>
+   <tr>
+   <td colspan="1" align="center"><b>Sprint n - 3 Retrospective Summary</b></td>
+   <td colspan="1">
+      Durante la retrospectiva se destacó la necesidad de reforzar la planificación de tareas y asegurar la integración oportuna de pruebas desde etapas tempranas para evitar retrabajos. Sin embargo, se valoró positivamente la mejora en la comunicación del equipo con respecto al Sprint anterior, lo cual facilitó una mayor claridad en los objetivos y permitió una ejecución más eficiente de los entregables.
+   </td>
+</tr>
+   <tr>
+      <td colspan="2" align="center"><b>Sprint Goal & User Stories</b></td>
+   </tr>
+   <tr>
+      <td colspan="1" align="center"><b>Sprint 3 Goal</b></td>
+      <td colspan="1">
+         <b>Our focus is on</b> advancing the backend development by connecting the application to a MySQL database, creating the necessary tables for each entity, and exposing RESTful endpoints tested successfully through Swagger with token-based authentication. On the frontend side, efforts were directed toward improving the user interface using Angular and Angular Material, and implementing internationalization (i18n).<br>
+         <b>We believe it delivers</b> a solid backend foundation that supports data persistence and secure access, as well as a more polished and localized frontend experience. Although integration between frontend and backend has not yet been completed, both components are now independently functional and ready for future connection.<br>
+         <b>This will be confirmed when</b> the backend continues to serve entity data reliably, and the frontend can later consume this data to enable full interaction for both customers and providers.
+      </td>
+   </tr>
+   <tr>
+      <td colspan="1" align="center"><b>Sprint 2 Velocity</b></td>
+      <td colspan="1"></td>
+   </tr>
+   <tr>
+      <td colspan="1" align="center"><b>Sum of Story Points</b></td>
+      <td colspan="1"></td>
+   </tr>
+
+   <tr>
+</tr>
+</table>
+
 ### 5.2.3.3. Sprint Backlog 3
 
 ### 5.2.3.4. Development Evidence for Sprint Review
