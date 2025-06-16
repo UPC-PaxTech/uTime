@@ -3159,8 +3159,6 @@ Durante el Sprint 2, se realizó la segmentación de tareas por features y se as
 ### 5.2.3.1. Sprint Planning
 En el marco metodológico de Scrum, cada Sprint corresponde a un lapso breve y constante en el que el equipo de desarrollo se dedica a cumplir una meta concreta que impulse el avance hacia el objetivo general del producto (Schwaber, K. & Sutherland, J., 2020). En el desarrollo de la plataforma uTime, el Sprint número 2 se inició el 27 de abril de 2025, y tuvo como propósito central la construcción del frontend de la aplicación web, empleando Angular junto con Angular Material. Durante esta etapa, se implementaron funcionalidades fundamentales tanto para los usuarios clientes como para los proveedores. Por un lado, los clientes ahora pueden buscar y explorar diversos salones de belleza y realizar reservas de forma sencilla e intuitiva. Por otro lado, los proveedores disponen de herramientas administrativas que les permiten configurar los precios de sus servicios, gestionar su oferta y visualizar las citas asignadas a cada miembro de su personal, facilitando así la organización y atención a sus clientes.
 
-### 5.2.3.2. Aspect Leaders and Collaborators
-
 <table>
    <tr>
       <td colspan="1" align="center"><b>Sprint #</b></td>
@@ -3187,7 +3185,7 @@ En el marco metodológico de Scrum, cada Sprint corresponde a un lapso breve y c
    </tr>
    <tr>
       <td colspan="1" align="center"><b>Attendees (to planning meeting)</b></td>
-      <td colspan="1">Kevin Chi, Gael Rivera, Marcelo Varela, Angie Yalán y Jorge Yum</td>
+      <td colspan="1">Kevin Chi, Gael Rivera, Marcelo Varela y Jorge Yum</td>
    </tr>
    <tr>
       <td colspan="1" align="center"><b>Sprint n - 3 Review Summary</b></td>
@@ -3206,11 +3204,12 @@ En el marco metodológico de Scrum, cada Sprint corresponde a un lapso breve y c
    </tr>
    <tr>
       <td colspan="1" align="center"><b>Sprint 3 Goal</b></td>
-      <td colspan="1">
-         <b>Our focus is on</b> advancing the backend development by connecting the application to a MySQL database, creating the necessary tables for each entity, and exposing RESTful endpoints tested successfully through Swagger with token-based authentication. On the frontend side, efforts were directed toward improving the user interface using Angular and Angular Material, and implementing internationalization (i18n).<br>
-         <b>We believe it delivers</b> a solid backend foundation that supports data persistence and secure access, as well as a more polished and localized frontend experience. Although integration between frontend and backend has not yet been completed, both components are now independently functional and ready for future connection.<br>
-         <b>This will be confirmed when</b> the backend continues to serve entity data reliably, and the frontend can later consume this data to enable full interaction for both customers and providers.
-      </td>
+   <td colspan="1">
+      <b>Our focus is on</b> advancing the backend development by connecting the application to a MySQL database, creating the necessary tables for each entity, and exposing RESTful endpoints tested successfully through Swagger with token-based authentication.<br>
+      <b>We believe it delivers</b> a solid backend foundation that supports secure and reliable data persistence, with properly structured entities and tested endpoints ready for integration.<br>
+      <b>This will be confirmed when</b> the backend consistently handles requests, stores and retrieves data correctly from the MySQL database, and maintains secure access through token-based authentication.
+   </td>
+
    </tr>
    <tr>
       <td colspan="1" align="center"><b>Sprint 2 Velocity</b></td>
@@ -3225,7 +3224,20 @@ En el marco metodológico de Scrum, cada Sprint corresponde a un lapso breve y c
 </tr>
 </table>
 
+### 5.2.3.2. Aspect Leaders and Collaborators
+Para este Sprint, se han identificado los principales aspectos relacionados con el desarrollo del backend de la aplicación web de uTime. Con el objetivo de optimizar la coordinación y la responsabilidad dentro del equipo, se elaboró la matriz Leadership and Collaboration Matrix (LACX), en la que se especifica quién asume el rol de Líder (L) y quiénes actúan como Colaboradores (C) en cada uno de los componentes clave del backend. Esta organización ha permitido una asignación de tareas más estructurada, facilitando así la implementación de la base de datos, la creación de entidades, y la exposición de endpoints seguros mediante Swagger y autenticación con tokens.
+
+
+| **Team Member**                     | **GitHub Username** | **Appointments** | **Dashboard** | **Favorites** | **Iam** | **Profile** | **Public** | **Reviews** | **Schedule** | **Services** | **Shared** | **Subscription** |
+|-------------------------------------|---------------------|------------------|---------------|---------------|---------|-------------|------------|-------------|--------------|--------------|------------|------------------|
+| Chi Cruzatt, Kevin Jorge            | Krillsom            | C                | C             | C             | C       | L           | C          | C           | C            | L            | C          | L                |
+| Rivera Sosa, Eduardo Gael           | gael-rs             | C                | C             | C             | L       | C           | L          | C           | C            | C            | C          | C                |
+| Varela Bustinza, Marcelo Alessandro | VarBus              | L                | C             | L             | C       | C           | C          | C           | L            | C            | C          | C                |
+| Yum Gonzales, Jorge Suin            | myussu              | C                | L             | C             | C       | C           | C          | L           | C            | C            | L          | c                |
+
 ### 5.2.3.3. Sprint Backlog 3
+
+
 
 ### 5.2.3.4. Development Evidence for Sprint Review
 
