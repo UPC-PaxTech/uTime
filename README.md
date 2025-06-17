@@ -3484,6 +3484,36 @@ En el Sprint 3 se avanzó en la implementación y despliegue del backend. La cua
 
 #### 1.Endpoints for provider
 <img src="img/providers_end.png" alt="Providers endpoint" width="700" height="200" />
+
+### 2.Salon Profile
+<img src="img/Salon_profile_end.png" alt="Providers endpoint" width="700" height="200" />
+
+
+#### 3.Workers
+<img src="img/workers_end.png" alt="Providers endpoint" width="700" height="200" />
+
+
+#### 4.Authentication
+<img src="img/authentication_end.png" alt="Providers endpoint" width="700" height="200" />
+
+
+#### 5.Clients
+<img src="img/clients_end.png" alt="Providers endpoint" width="700" height="200" />
+
+
+#### 6.Time Slots
+<img src="img/time_slots_end.png" alt="Providers endpoint" width="700" height="200" />
+
+
+#### 7. Services
+<img src="img/Services_end.png" alt="Providers endpoint" width="700" height="200" />
+
+
+#### 8. Users
+<img src="img/Users_end.png" alt="Providers endpoint" width="700" height="200" />
+
+
+
 ### 5.2.3.6. Services Documentation Evidence for Sprint Review
 A continuación, se presentan tres fragmentos de código que evidencian el uso e implementación de los servicio dentro del sistema Backend, abarcando desde la configuracion de los endpoints, asi como la lógica de la estructura para los bounded context del negocio:
 1. 
