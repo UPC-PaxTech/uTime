@@ -3577,7 +3577,15 @@ Por último, tenemos la sección de "IAM bounded context" que se encarga del man
 <div align="center">
 <img src="img/IAM%20.png" alt="Shared Bounded Context" />
 </div>
-
+<div align="center">
+<img src="img/tokens.png" alt="Shared Bounded Context" />
+</div>
+<div align="center">
+<img src="img/hashing.png" alt="Shared Bounded Context" />
+</div>
+<div align="center">
+<img src="img/service_confi.png" alt="Shared Bounded Context" />
+</div>
 ### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
 ### 5.2.3.8. Team Collaboration Insights during  Sprint
