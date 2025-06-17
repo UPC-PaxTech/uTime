@@ -3529,6 +3529,40 @@ A continuación, se visualiza el "Shared Bounded context" de la parte del Backen
 <img src="img/shared-backend.png" alt="Shared Bounded Context" />
 </div>
 
+#### AuditableAbstractAggregate:
+
+<div align="center">
+<img src="img/entity_listener_shared.png" alt="Shared Bounded Context" />
+</div>
+
+### AuditableModel
+
+<div align="center">
+<img src="img/AuditableModel.png" alt="Shared Bounded Context" />
+</div>
+
+### OpenAPIConfiguration
+
+<div align="center">
+<img src="img/OpenApi.png" alt="Shared Bounded Context" />
+</div>
+
+### Flyway configuration
+
+<div align="center">
+<img src="img/Flyway.png" alt="Shared Bounded Context" />
+</div>
+
+### SnakeCaseWithPluralize
+
+<div align="center">
+<img src="img/pluralize_1.png" alt="Shared Bounded Context" />
+</div>
+
+<div align="center">
+<img src="img/pluralize_2.png" alt="Shared Bounded Context" />
+</div>
+
 ### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
 ### 5.2.3.8. Team Collaboration Insights during  Sprint
