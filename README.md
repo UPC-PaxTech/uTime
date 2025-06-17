@@ -3154,6 +3154,474 @@ Durante el Sprint 2, se realizó la segmentación de tareas por features y se as
 
 ![Contributors](img/contributors-sprint2.png)
 
+## 5.2.3. Sprint 3
+
+### 5.2.3.1. Sprint Planning
+En el marco metodológico de Scrum, cada Sprint corresponde a un lapso breve y constante en el que el equipo de desarrollo se dedica a cumplir una meta concreta que impulse el avance hacia el objetivo general del producto (Schwaber, K. & Sutherland, J., 2020). En el desarrollo de la plataforma uTime, el Sprint número 2 se inició el 27 de abril de 2025, y tuvo como propósito central la construcción del frontend de la aplicación web, empleando Angular junto con Angular Material. Durante esta etapa, se implementaron funcionalidades fundamentales tanto para los usuarios clientes como para los proveedores. Por un lado, los clientes ahora pueden buscar y explorar diversos salones de belleza y realizar reservas de forma sencilla e intuitiva. Por otro lado, los proveedores disponen de herramientas administrativas que les permiten configurar los precios de sus servicios, gestionar su oferta y visualizar las citas asignadas a cada miembro de su personal, facilitando así la organización y atención a sus clientes.
+
+<table>
+   <tr>
+      <td colspan="1" align="center"><b>Sprint #</b></td>
+      <td colspan="1" align="center">Sprint 3</td>
+   </tr>
+   <tr>
+      <td colspan="2" align="center"><b>Sprint Planning Background</b></td>
+   </tr>
+   <tr>
+      <td colspan="1" align="center"><b>Date</b></td>
+      <td colspan="1">2025-05-27</td>
+   </tr>
+   <tr>
+      <td colspan="1" align="center"><b>Time</b></td>
+      <td colspan="1">09:00 PM</td>
+   </tr>
+   <tr>
+      <td colspan="1" align="center"><b>Location</b></td>
+      <td colspan="1">Reunión virtual mediante la aplicación Discord</td>
+   </tr>
+   <tr>
+      <td colspan="1" align="center"><b>Prepare By</b></td>
+      <td colspan="1">Gael Rivera</td>
+   </tr>
+   <tr>
+      <td colspan="1" align="center"><b>Attendees (to planning meeting)</b></td>
+      <td colspan="1">Kevin Chi, Gael Rivera, Marcelo Varela y Jorge Yum</td>
+   </tr>
+   <tr>
+      <td colspan="1" align="center"><b>Sprint n - 3 Review Summary</b></td>
+      <td colspan="1">
+      Durante este Sprint se avanzó significativamente en el desarrollo tanto del frontend como del backend de la aplicación web. En el lado del frontend, se implementó la internacionalización (i18n) y se aplicaron mejoras visuales a la interfaz utilizando Angular y Angular Material. También se corrigieron aspectos pendientes del Sprint 2, como la integración completa del switcher de idioma y el ajuste del renderizado del logo. En cuanto al backend, se estableció la conexión con la base de datos MySQL y se desarrollaron los servicios necesarios para el funcionamiento de las funcionalidades principales de los roles de cliente y proveedor.
+   </td>
+   </tr>
+   <tr>
+   <td colspan="1" align="center"><b>Sprint n - 3 Retrospective Summary</b></td>
+   <td colspan="1">
+      Durante la retrospectiva se destacó la necesidad de reforzar la planificación de tareas y asegurar la integración oportuna de pruebas desde etapas tempranas para evitar retrabajos. Sin embargo, se valoró positivamente la mejora en la comunicación del equipo con respecto al Sprint anterior, lo cual facilitó una mayor claridad en los objetivos y permitió una ejecución más eficiente de los entregables.
+   </td>
+</tr>
+   <tr>
+      <td colspan="2" align="center"><b>Sprint Goal & User Stories</b></td>
+   </tr>
+   <tr>
+      <td colspan="1" align="center"><b>Sprint 3 Goal</b></td>
+   <td colspan="1">
+      <b>Our focus is on</b> advancing the backend development by connecting the application to a MySQL database, creating the necessary tables for each entity, and exposing RESTful endpoints tested successfully through Swagger with token-based authentication.<br>
+      <b>We believe it delivers</b> a solid backend foundation that supports secure and reliable data persistence, with properly structured entities and tested endpoints ready for integration.<br>
+      <b>This will be confirmed when</b> the backend consistently handles requests, stores and retrieves data correctly from the MySQL database, and maintains secure access through token-based authentication.
+   </td>
+
+   </tr>
+   <tr>
+      <td colspan="1" align="center"><b>Sprint 2 Velocity</b></td>
+      <td colspan="1"></td>
+   </tr>
+   <tr>
+      <td colspan="1" align="center"><b>Sum of Story Points</b></td>
+      <td colspan="1"></td>
+   </tr>
+
+   <tr>
+</tr>
+</table>
+
+### 5.2.3.2. Aspect Leaders and Collaborators
+Para este Sprint, se han identificado los principales aspectos relacionados con el desarrollo del backend de la aplicación web de uTime. Con el objetivo de optimizar la coordinación y la responsabilidad dentro del equipo, se elaboró la matriz Leadership and Collaboration Matrix (LACX), en la que se especifica quién asume el rol de Líder (L) y quiénes actúan como Colaboradores (C) en cada uno de los componentes clave del backend. Esta organización ha permitido una asignación de tareas más estructurada, facilitando así la implementación de la base de datos, la creación de entidades, y la exposición de endpoints seguros mediante Swagger y autenticación con tokens.
+
+
+| **Team Member**                     | **GitHub Username** | **Appointments** | **Dashboard** | **Favorites** | **Iam** | **Profile** | **Public** | **Reviews** | **Schedule** | **Services** | **Shared** | **Subscription** |
+|-------------------------------------|---------------------|------------------|---------------|---------------|---------|-------------|------------|-------------|--------------|--------------|------------|------------------|
+| Chi Cruzatt, Kevin Jorge            | Krillsom            | C                | C             | C             | C       | L           | C          | C           | C            | L            | C          | L                |
+| Rivera Sosa, Eduardo Gael           | gael-rs             | C                | C             | C             | L       | C           | L          | C           | C            | C            | C          | C                |
+| Varela Bustinza, Marcelo Alessandro | VarBus              | L                | C             | L             | C       | C           | C          | C           | L            | C            | C          | C                |
+| Yum Gonzales, Jorge Suin            | myussu              | C                | L             | C             | C       | C           | C          | L           | C            | C            | L          | c                |
+
+### 5.2.3.3. Sprint Backlog 3
+En el tercer sprint backlog, el equipo tuvo la intención de iniciar y avanzar en el desarrollo del backend de la aplicación web, abordando los requerimientos esenciales para los roles de cliente y proveedor. Para la organización y gestión de las tareas, se continuó utilizando la herramienta Trello, lo que permitió descomponer las user stories en tareas específicas y asignarlas según las fortalezas técnicas de cada integrante. El objetivo principal del sprint fue establecer una base sólida del backend, incluyendo la creación de las entidades, la conexión con la base de datos MySQL, y la exposición de endpoints RESTful seguros, validados mediante Swagger y autenticación con tokens.
+
+<table border="1" cellspacing="0" cellpadding="5">
+   <tr>
+      <td colspan="2" align="center"><b>Sprint #</b></td>
+      <td colspan="6" align="center"><b>Sprint 3</b></td>
+   </tr>
+   <tr>
+      <td colspan="2"><b>User Story</b></td>
+      <td colspan="6" align="center"><b>Work-Item/Task</b></td>
+   </tr>
+   <tr>
+      <td><b>Id</b></td>
+      <td><b>Title</b></td>
+      <td><b>Id</b></td>
+      <td><b>Title</b></td>
+      <td><b>Description</b></td>
+      <td><b>Estimation (Hours)</b></td>
+      <td><b>Assigned To</b></td>
+      <td><b>Status (To-do/In-Process/To-Review/Done)</b></td>
+   </tr>
+   <!-- Integración con pasarela de Pagos (Spring Boot) -->
+   <tr>
+      <td rowspan="3">TS01</td>
+      <td rowspan="3">Integración con pasarela de Pagos</td>
+      <td>T1</td>
+      <td>Configurar API de pagos en Spring Boot</td>
+      <td>Implementar servicio REST en Spring Boot para conectar con Stripe/PayPal.</td>
+      <td>5</td>
+      <td>Miembro por designar</td>
+      <td>In-Process</td>
+   </tr>
+   <tr>
+      <td>T2</td>
+      <td>Documentar endpoints con Swagger</td>
+      <td>Agregar anotaciones @Operation y @ApiResponse para el controlador de pagos.</td>
+      <td>2</td>
+      <td>Miembro por designar</td>
+      <td>In-Process</td>
+   </tr>
+   <tr>
+      <td>T3</td>
+      <td>Manejo de errores (Spring Boot)</td>
+      <td>Implementar @ControllerAdvice para respuestas de error estandarizadas (400, 500).</td>
+      <td>3</td>
+      <td>Miembro por designar</td>
+      <td>In-Process</td>
+   </tr>
+   <!-- 2FA (Spring Security + Angular) -->
+   <tr>
+      <td rowspan="2">TS02</td>
+      <td rowspan="2">Implementación de autenticación con dos pasos (2FA)</td>
+      <td>T1</td>
+      <td>Backend: Generación de códigos 2FA</td>
+      <td>Implementar servicio en Spring Boot con Spring Security y JavaMail para envío de códigos.</td>
+      <td>4</td>
+      <td>Miembro por designar</td>
+      <td>In-Process</td>
+   </tr>
+   <tr>
+      <td>T2</td>
+      <td>Frontend: Formulario 2FA (Angular)</td>
+      <td>Crear componente Angular para ingreso de código con validación reactiva.</td>
+      <td>3</td>
+      <td>Miembro por designar</td>
+      <td>In-Process</td>
+   </tr>
+   <!-- Encriptación (Spring Security) -->
+   <tr>
+      <td rowspan="2">TS03</td>
+      <td rowspan="2">Encriptación de contraseñas</td>
+      <td>T1</td>
+      <td>Configurar BCrypt en Spring Security</td>
+      <td>Usar PasswordEncoder de Spring Security para hashing + salt.</td>
+      <td>2</td>
+      <td>Miembro por designar</td>
+      <td>In-Process</td>
+   </tr>
+   <tr>
+      <td>T2</td>
+      <td>Pruebas de autenticación</td>
+      <td>Verificar que el login compare contraseñas hasheadas correctamente.</td>
+      <td>2</td>
+      <td>Miembro por designar</td>
+      <td>In-Process</td>
+   </tr>
+   <!-- Validaciones (Angular + Spring Boot) -->
+   <tr>
+      <td rowspan="2">TS05</td>
+      <td rowspan="2">Validaciones de formularios</td>
+      <td>T1</td>
+      <td>Frontend: Validaciones reactivas (Angular)</td>
+      <td>Implementar Validators en FormGroups para campos requeridos, email, teléfono, etc.</td>
+      <td>3</td>
+      <td>Miembro por designar</td>
+      <td>In-Process</td>
+   </tr>
+   <tr>
+      <td>T2</td>
+      <td>Backend: Validaciones con Spring</td>
+      <td>Usar anotaciones @Valid, @NotNull, @Pattern en los DTOs.</td>
+      <td>2</td>
+      <td>Miembro por designar</td>
+      <td>In-Process</td>
+   </tr>
+   <!-- Endpoints (Spring Boot + Swagger) -->
+   <tr>
+      <td rowspan="3">TS07</td>
+      <td rowspan="3">Crear endpoint para registro de usuario</td>
+      <td>T1</td>
+      <td>Implementar POST /usuarios (Spring Boot)</td>
+      <td>Desarrollar Controller y Service para registro, con persistencia en JPA/Hibernate.</td>
+      <td>4</td>
+      <td>Miembro por designar</td>
+      <td>In-Process</td>
+   </tr>
+   <tr>
+      <td>T2</td>
+      <td>Swagger: Documentar endpoint</td>
+      <td>Agregar @Tag, @Schema y ejemplos de request/response.</td>
+      <td>1</td>
+      <td>Miembro por designar</td>
+      <td>In-Process</td>
+   </tr>
+   <tr>
+      <td>T3</td>
+      <td>Frontend: Formulario de registro (Angular)</td>
+      <td>Crear componente con Angular Material y conexión al endpoint.</td>
+      <td>3</td>
+      <td>Miembro por designar</td>
+      <td>In-Process</td>
+   </tr>
+   <!-- JWT (Spring Security) -->
+   <tr>
+      <td rowspan="2">TS08</td>
+      <td rowspan="2">Crear endpoint de login con JWT</td>
+      <td>T1</td>
+      <td>Backend: JWT en Spring Security</td>
+      <td>Configurar filtros JWT (JwtAuthenticationFilter, JwtUtil).</td>
+      <td>4</td>
+      <td>Miembro por designar</td>
+      <td>In-Process</td>
+   </tr>
+   <tr>
+      <td>T2</td>
+      <td>Frontend: Almacenar token</td>
+      <td>Guardar JWT en localStorage y añadir interceptor HTTP.</td>
+      <td>2</td>
+      <td>Miembro por designar</td>
+      <td>In-Process</td>
+   </tr>
+   <!-- Diseño responsive (Angular) -->
+   <tr>
+      <td rowspan="2">TS06</td>
+      <td rowspan="2">Diseño responsive y accesible</td>
+      <td>T1</td>
+      <td>Angular Material Layout</td>
+      <td>Usar FlexLayout y BreakpointObserver para responsividad.</td>
+      <td>4</td>
+      <td>Miembro por designar</td>
+      <td>In-Process</td>
+   </tr>
+   <tr>
+      <td>T2</td>
+      <td>ARIA en componentes</td>
+      <td>Añadir roles, labels y focus management para accesibilidad.</td>
+      <td>3</td>
+      <td>Miembro por designar</td>
+      <td>In-Process</td>
+   </tr>
+</table>
+
+Enlace para acceder al Trello: [Trello Sprint Backlog 3]()
+### 5.2.3.4. Development Evidence for Sprint Review
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Repository</th>
+      <th>Branch</th>
+      <th>Commit Id</th>
+      <th>Commit Message</th>
+      <th>Commited on (Date)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Web-Services</td><td>main</td><td>c809237</td><td>feat: added clients</td><td>27/05/2025</td></tr>
+    <tr><td>Web-Services</td><td>main</td><td>3378702</td><td>feat: initialized Salon</td><td>27/05/2025</td></tr>
+    <tr><td>Web-Services</td><td>main</td><td>39788fc</td><td>Create README.md</td><td>27/05/2025</td></tr>
+    <tr><td>Web-Services</td><td>main</td><td>dbc3c22</td><td>feat: Spring Boot project setup</td><td>27/05/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>6ab3187</td><td>feat: added workers and reservations bounded context</td><td>16/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>b4e05f2</td><td>readded salonprofilecontroller</td><td>15/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>84c70e9</td><td>Merge branch 'develop' of https://github.com/UPC-PaxTech/Web-Services into develop</td><td>15/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>6ff8ff1</td><td>latest changes</td><td>15/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>798dec8</td><td>latest changes</td><td>15/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>54231ed</td><td>Merge branch 'feature/iam-bounded-context' into develop</td><td>15/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>0715733</td><td>feat: add all packages about iam bounded</td><td>15/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>53fdd12</td><td>feat: add hashing and token about infrastructure package</td><td>14/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>b415029</td><td>feat: add aggregates, commands and queries aboun iam bounded</td><td>14/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>47be603</td><td>Merge branch 'develop' of https://github.com/UPC-PaxTech/Web-Services into develop</td><td>12/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>185f076</td><td>docs: added service class and valueobjects to services</td><td>12/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>6a5c965</td><td>Merge branch 'develop' of https://github.com/UPC-PaxTech/Web-Services into develop</td><td>10/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>d77f946</td><td>Merge branch 'develop' of https://github.com/UPC-PaxTech/Web-Services into develop</td><td>10/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>432a1d3</td><td>feat: service controller</td><td>10/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>7ba69d9</td><td>Merge branch 'develop' of https://github.com/UPC-PaxTech/Web-Services into develop</td><td>10/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>0ec70e7</td><td>docs: changed value objects services</td><td>10/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>4d91e49</td><td>feat: added services</td><td>10/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>0732e5f</td><td>Merge branch 'develop' of https://github.com/UPC-PaxTech/Web-Services into develop</td><td>09/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>39542a0</td><td>feat: add Client Files API</td><td>09/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>ba73b7a</td><td>Merge branch 'feature/salonProfile' into develop</td><td>07/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>3d6fbfb</td><td>feat: added Salon profile update y delete</td><td>07/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>65126ee</td><td>Merge branch 'develop' of https://github.com/UPC-PaxTech/Web-Services into develop</td><td>07/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>8cd1ec0</td><td>corrections</td><td>07/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>7cb813f</td><td>corrections</td><td>07/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>0cf8c7a</td><td>feat: salon profile without update or delete</td><td>05/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>7536cf4</td><td>fix: deleted unneeded file</td><td>05/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>22798e3</td><td>docs: update profile context</td><td>05/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>aed3a23</td><td>docs: remove all ids, it is all in base service</td><td>05/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>3a8ddb6</td><td>Merge branch 'develop' of https://github.com/UPC-PaxTech/Web-Services into develop</td><td>05/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>90c8265</td><td>gael xd</td><td>05/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>7401e4f</td><td>feat: new update</td><td>05/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>917a393</td><td>docs: fix id naming standard</td><td>05/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>26a5a3c</td><td>docs: fix class diagram profiles</td><td>05/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>d5c305b</td><td>Merge branch 'feature/class-diagram' into develop</td><td>05/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>749174e</td><td>docs: finish salon and clients</td><td>05/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>c8874ee</td><td>docs: added salon profile classes</td><td>05/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>a78ccad</td><td>Merge branch 'develop' of https://github.com/UPC-PaxTech/Web-Services into develop</td><td>05/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>2c5e0b3</td><td>Merge branch 'feature/class-diagram' into develop</td><td>05/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>d9553af</td><td>feat: AccountCommandServiceImplementation</td><td>03/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>d724893</td><td>feat: finished account Query Service and command service</td><td>03/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>0fefb28</td><td>feat: Salon updated</td><td>03/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>23cf8df</td><td>docs: add layer diagram and package diagram</td><td>03/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>a2e3f0e</td><td>docs: finish value objects of profiles</td><td>03/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>85cded1</td><td>feat: added learning center template examples</td><td>03/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>c2af4fa</td><td>docs: fix value objects into used variables</td><td>03/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>4822511</td><td>docs: add value objectos salon</td><td>03/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>cff8afa</td><td>docs: add class diagram new</td><td>02/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>2a40f2f</td><td>docs: add class diagram 0.1</td><td>01/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>cd1ffb2</td><td>feat: Add Client module with endpoints for getAll, getById, and Swagger integration</td><td>31/05/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>c5912c6</td><td>feat: added salons get by id</td><td>29/05/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>ea13078</td><td>feat: added salons values</td><td>29/05/2025</td></tr>
+  </tbody>
+</table>
+
+### 5.2.3.5. Execution Evidence for Sprint Review
+En el Sprint 3 se avanzó en la implementación y despliegue del backend. La cual muestra los diferentes endpoints del sistema del negocio.
+
+#### 1.Endpoints for provider
+En esta sección se muestra el endpoint de Provider con los diversos métodos para solicitar recursos al servidor respecto a las necesidades del negocio y su interacción con el sistema; asimismo en este contexto tenemos un "GET" el cual devuelve a todos los proveedores del servicio registrados, un "POST" que permite el registro de proveedores al servicio y "GET BY ID" que permite la identificación de provedores mediante el {id} que tienen cada uno.  
+<img src="img/providers_end.png" alt="Providers endpoint" width="700" height="200" />
+
+### 2.Salon Profile
+En esta sección se muestra el endpoint de SalonProfile con los diversos métodos del servicio e interacciones que tiene con el negocio y sistema; asimismo en este contexto tenemos un "GET BY ID" que permite el llamado de todos los salones de belleza registrados mediante el {id} que tiene cada uno, asi como un "POST" que permite el registro de nuevos salones de belleza en el sistema.
+<img src="img/Salon_profile_end.png" alt="Providers endpoint" width="800" height="200" />
+
+
+#### 3.Workers
+En esta sección tenemos el endpoint de Workers con los diversos metodos del servidor e implementación de recursos respecto del servicio; en este sentido tenemos un "GET" el cual permite el llamado de todos los workers registrados en el sistema; asi como un "POST" que permite el registro de nuevos workers en el sistema y un "GET BY ID" que permite el llamado de cada worker registrado mediante su {id}.
+<img src="img/workers_end.png" alt="Providers endpoint" width="800" height="200" />
+
+
+#### 4.Authentication
+En esta sección se presenta el Authentication que vendria a ser uno de los endpoints más importantes del sistema del negocio ya quie permite el acceso a los endpoint mediante un token de registro; en este sentido tenemos dos "POST" los cuales seria para registrarse en el caso el usuario no tenga una cuenta en el negocio asi como el de iniciar sesión si es que el usuario desea entrar a sus cuenta en el sistema.
+<img src="img/authentication_end.png" alt="Providers endpoint" width="1000" height="200" />
+
+
+#### 5.Clients
+En esta sección tenemos el Clients con los diversos métodos del servidor e implementaciones dentro del servicio del negocio; en este sentido tenemos un "GET" el cual muestra a todos los clientes registrados en el sistema, un "POST" el cual permite el registro de nuevos clientes en el neogocio y por último un "GET BY ID" el cual permite la identificación de clientes mediante su {id}.
+<img src="img/clients_end.png" alt="Providers endpoint" width="800" height="200" />
+
+
+#### 6.Time Slots
+En esta sección podemos visualizar los time slots que son una pieza principal en el sistema del negocio ya que ayuda en el manejo de horarios de las reservaciones; en este sentido tenemos un "GET" el cual devuelve todos los tiem slots registrados por los usuarios, un "POST" que permite la creación de nuevos casialleros de tiempo en la reservación de citas de cada usuario y por último un "GET BY ID" que permite devolver los time slot registrados mediante su {id}.
+<img src="img/time_slots_end.png" alt="Providers endpoint" width="800" height="200" />
+
+
+#### 7. Services
+En esta sección tenemos Services el cual forma parte del manejo de negocio y ayuda en la lógica del servicio de cada parametro del sistema; en este sentido tenemos un "GET" que devuelve cada servicio registrado en la estructura del medio y un "POST" que permite registrar el servicio que el usuario desea recibir al momento de reservar sus citas.
+<img src="img/Services_end.png" alt="Providers endpoint" width="800" height="200" />
+
+
+#### 8. Users
+En esta sección tenemos a Users el cual contiene a los providers y clients del negocio funciona como un estructura padre que hereda a ambas partes sus caracteristicas dependiendo de las necesaidades que contiene cada uno; en este sentido tenemos dos "GET" uno para devolver a todos los usuarios registrados en el servicio y otro para llamarlos mediante su {id}.
+<img src="img/Users_end.png" alt="Providers endpoint" width="800" height="200" />
+
+
+### 5.2.3.6. Services Documentation Evidence for Sprint Review
+A continuación, se presentan tres fragmentos de código que evidencian el uso e implementación de los servicio dentro del sistema Backend, abarcando desde la configuracion de los endpoints, asi como la lógica de la estructura para los bounded context del negocio:
+### 1. Shared Bounded Context:
+A continuación, se visualiza el "Shared Bounded context" de la parte del Backend de nuetsro negocio uTime; dicho "File" contiene una "File" denominado "Aggregates" el cual tiene como función principal ser la clase base para todos "Aggregates" del proyecto cuales requieran de un servicio de auditoría mediante el "@EntityListeners" el cual registra el "@Id" de cada elemento integrado en el sistema dependiendo del contexto en el que se encuentra; permitiendo que haya un seguimiento de las fechas listadas por hora y fecha en la que fueron creadas ("@CreatedDate") y modificadas("@LastModifiedDate"); las que a su vez se visualizan en el entorno físico de la base de datos en la que estamos creando las tablas "MY SQL". Para realizar este llamado registramos nuestros atributos de @Id, @CreatedDate y @LastModified en un "File" denominado como "AuditableModel" absolvida en "Entities" creando los metodos @Getter para devolver el los registros y las fechas respectivamente con sus diversos parametros. Luego tendriamos un "File" llamado "Infrastucture" el cual contiene un "OpenApiConfiguration", cual permite la documentación automatica de una API REST usando Swagger/OpenApi dentro de la aplicación Spring Boot; asi como también "Flyway" que sirve como herramienta de control de versiones para la base de datos que estamos empleando para la contención de endpoints que estamosm creando y un "SnakeCaseWithPluralize" que permite la modificacion de nombres de atributos en las tablas con guiones bajos y pluralizando los nombres dependiendo del significado.   
+<div align="center">
+<img src="img/shared-backend.png" alt="Shared Bounded Context" />
+</div>
+
+#### AuditableAbstractAggregate:
+
+<div align="center">
+<img src="img/entity_listener_shared.png" alt="Shared Bounded Context" />
+</div>
+
+### AuditableModel
+
+<div align="center">
+<img src="img/AuditableModel.png" alt="Shared Bounded Context" />
+</div>
+
+### OpenAPIConfiguration
+
+<div align="center">
+<img src="img/OpenApi.png" alt="Shared Bounded Context" />
+</div>
+
+### Flyway configuration
+
+<div align="center">
+<img src="img/Flyway.png" alt="Shared Bounded Context" />
+</div>
+
+### SnakeCaseWithPluralize
+
+<div align="center">
+<img src="img/pluralize_1.png" alt="Shared Bounded Context" />
+</div>
+
+<div align="center">
+<img src="img/pluralize_2.png" alt="Shared Bounded Context" />
+</div>
+
+### 2. Application properties:
+En esta sección tenemos el "Application properties" el cual es el "File" principal que se encarga de la configuración típica de Spring Boot porque establece las bases técnicas para que funciones de forma escalable y segura. En esta sección definimos la conexión con la base de datos, y la gestión de entiedades mediante el esquema JPA y Flyway con su documentación para proteger la API con Swagger y JWT. Asimismo, asegura el buen manejo en la control de versiones de la base de datos, y la personalización de nombres en las tablas para la integracion con el backend y el consumo de servicios. 
+<div align="center">
+<img src="img/application_properties.png" alt="Shared Bounded Context" />
+</div>
+<div align="center">
+<img src="img/application_1.png" alt="Shared Bounded Context" />
+</div>
+
+### 3.IAM Bounded Context:
+Por último, tenemos la sección de "IAM bounded context" que se encarga del manejo de autorización para el ingreso al servicio del negocio tanto en el "sign-in" como con el "sign-up" este "File" sigue el patrón Command Query Responsibility Segregation(CQRS) el cual permite leer y escribir las operaciones separandolos en modelos de datos permitiendo la escalabilidad y seguridad al momento de acceder a cada endpoint del backend; esta autorización se logra mediante la creación de token JWT(JSON Web Token), los cuales generan automaticamente al momento de registrar un nuevo usuario al servicio. Estos tokens ecapsulan la identidad y permisos al usuario, asegurando un entorno de ejecución confiable y eficiente para cada solicitud del sistema. Además, el uso de hashing seguro con el algoritmo BCrypt garantiza la protección de las contraseñas almacenadas en el sistema del servicio, reforzando asi la seguridad ante diferentes vulnerabilidades.
+<div align="center">
+<img src="img/IAM%20.png" alt="Shared Bounded Context" />
+</div>
+<div align="center">
+<img src="img/tokens.png" alt="Shared Bounded Context" />
+</div>
+<div align="center">
+<img src="img/hashing.png" alt="Shared Bounded Context" />
+</div>
+<div align="center">
+<img src="img/service_confi.png" alt="Shared Bounded Context" />
+</div>
+
+### 5.2.3.7. Software Deployment Evidence for Sprint Review
+Para realizar el deployment del backend de la aplicación, se empleo la plataforma Azure. Se realizaron los sigueintes pasos para llevar a cabo el despligue del proyecto.
+
+### 5.2.3.8. Team Collaboration Insights during  Sprint
+En el Sprint 3, se dividieron las tareas según las funcionalidades del sistema y se asignaron a los integrantes del equipo considerando sus competencias y experiencia. Esta estrategia facilitó una distribución más eficiente del trabajo y contribuyó a un progreso más ágil en el desarrollo.
+
+# 5.3. Validation Interviews
+
+## 5.3.1. Diseño de Entrevistas
+Preguntas para Segmento objetivo 01:
+
+* ¿Qué opinas del diseño y la información mostrada en la landing page? ¿Fue clara y útil para entender el servicio?
+* ¿Te resultó fácil registrarte y comenzar a usar la plataforma como cliente? ¿Hubo algo confuso?
+* ¿Cómo fue tu experiencia al buscar barberos por ubicación, servicio o disponibilidad?
+* ¿Pudiste agendar una cita sin inconvenientes? ¿Cómo calificarías el proceso de reserva?
+* ¿Te sentiste informado sobre el estado de tu reserva? ¿Recibiste confirmaciones o notificaciones claras?
+* ¿Qué mejorarías en la plataforma para facilitar tu próxima reserva?
+
+Preguntas para Segmento objetivo 02:
+
+* ¿Qué te pareció el proceso de registro como barbero? ¿Fue claro y rápido?
+* ¿Tuviste alguna dificultad al completar tu perfil profesional o ingresar tus servicios?
+* ¿Fue sencillo configurar tu disponibilidad y horarios de atención?
+* ¿Cómo fue tu experiencia visualizando las citas agendadas por los clientes?
+* ¿Consideras que tienes el control necesario sobre tu agenda desde la plataforma?
+* ¿Qué cambios sugerirías para mejorar tu experiencia como proveedor dentro de uTime?
+
+## 5.3.2. Registro de Entrevistas
+
+## 5.3.1. Diseño de Entrevistas
+
+## 5.3.3. Evaluaciones según heurísticas
+
+# 5.4. Video About-the-Product
+
 # Conclusiones
 
 ## 6.1 Conclusiones y recomendaciones
