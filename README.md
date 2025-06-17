@@ -3586,7 +3586,9 @@ Por último, tenemos la sección de "IAM bounded context" que se encarga del man
 <div align="center">
 <img src="img/service_confi.png" alt="Shared Bounded Context" />
 </div>
+
 ### 5.2.3.7. Software Deployment Evidence for Sprint Review
+Para realizar el deployment del backend de la aplicación, se empleo la plataforma Azure. Se realizaron los sigueintes pasos para llevar a cabo el despligue del proyecto.
 
 ### 5.2.3.8. Team Collaboration Insights during  Sprint
 
