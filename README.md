@@ -3257,52 +3257,6 @@ En el tercer sprint backlog, el equipo tuvo la intención de iniciar y avanzar e
       <td><b>Assigned To</b></td>
       <td><b>Status (To-do/In-Process/To-Review/Done)</b></td>
    </tr>
-   <!-- Integración con pasarela de Pagos (Spring Boot) -->
-   <tr>
-      <td rowspan="3">TS01</td>
-      <td rowspan="3">Integración con pasarela de Pagos</td>
-      <td>T1</td>
-      <td>Configurar API de pagos en Spring Boot</td>
-      <td>Implementar servicio REST en Spring Boot para conectar con Stripe/PayPal.</td>
-      <td>5</td>
-      <td>Miembro por designar</td>
-      <td>In-Process</td>
-   </tr>
-   <tr>
-      <td>T2</td>
-      <td>Documentar endpoints con Swagger</td>
-      <td>Agregar anotaciones @Operation y @ApiResponse para el controlador de pagos.</td>
-      <td>2</td>
-      <td>Miembro por designar</td>
-      <td>In-Process</td>
-   </tr>
-   <tr>
-      <td>T3</td>
-      <td>Manejo de errores (Spring Boot)</td>
-      <td>Implementar @ControllerAdvice para respuestas de error estandarizadas (400, 500).</td>
-      <td>3</td>
-      <td>Miembro por designar</td>
-      <td>In-Process</td>
-   </tr>
-   <!-- 2FA (Spring Security + Angular) -->
-   <tr>
-      <td rowspan="2">TS02</td>
-      <td rowspan="2">Implementación de autenticación con dos pasos (2FA)</td>
-      <td>T1</td>
-      <td>Backend: Generación de códigos 2FA</td>
-      <td>Implementar servicio en Spring Boot con Spring Security y JavaMail para envío de códigos.</td>
-      <td>4</td>
-      <td>Miembro por designar</td>
-      <td>In-Process</td>
-   </tr>
-   <tr>
-      <td>T2</td>
-      <td>Frontend: Formulario 2FA (Angular)</td>
-      <td>Crear componente Angular para ingreso de código con validación reactiva.</td>
-      <td>3</td>
-      <td>Miembro por designar</td>
-      <td>In-Process</td>
-   </tr>
    <!-- Encriptación (Spring Security) -->
    <tr>
       <td rowspan="2">TS03</td>
@@ -3311,7 +3265,7 @@ En el tercer sprint backlog, el equipo tuvo la intención de iniciar y avanzar e
       <td>Configurar BCrypt en Spring Security</td>
       <td>Usar PasswordEncoder de Spring Security para hashing + salt.</td>
       <td>2</td>
-      <td>Miembro por designar</td>
+      <td>Varela Bustinza, Marcelo Alessandro</td>
       <td>In-Process</td>
    </tr>
    <tr>
@@ -3319,7 +3273,7 @@ En el tercer sprint backlog, el equipo tuvo la intención de iniciar y avanzar e
       <td>Pruebas de autenticación</td>
       <td>Verificar que el login compare contraseñas hasheadas correctamente.</td>
       <td>2</td>
-      <td>Miembro por designar</td>
+      <td>Yum Gonzales, Jorge Suin</td>
       <td>In-Process</td>
    </tr>
    <!-- Validaciones (Angular + Spring Boot) -->
@@ -3330,7 +3284,7 @@ En el tercer sprint backlog, el equipo tuvo la intención de iniciar y avanzar e
       <td>Frontend: Validaciones reactivas (Angular)</td>
       <td>Implementar Validators en FormGroups para campos requeridos, email, teléfono, etc.</td>
       <td>3</td>
-      <td>Miembro por designar</td>
+      <td>Rivera Sosa, Eduardo Gael</td>
       <td>In-Process</td>
    </tr>
    <tr>
@@ -3338,7 +3292,7 @@ En el tercer sprint backlog, el equipo tuvo la intención de iniciar y avanzar e
       <td>Backend: Validaciones con Spring</td>
       <td>Usar anotaciones @Valid, @NotNull, @Pattern en los DTOs.</td>
       <td>2</td>
-      <td>Miembro por designar</td>
+      <td>Chi Cruzatt, Kevin Jorge</td>
       <td>In-Process</td>
    </tr>
    <!-- Endpoints (Spring Boot + Swagger) -->
@@ -3349,7 +3303,7 @@ En el tercer sprint backlog, el equipo tuvo la intención de iniciar y avanzar e
       <td>Implementar POST /usuarios (Spring Boot)</td>
       <td>Desarrollar Controller y Service para registro, con persistencia en JPA/Hibernate.</td>
       <td>4</td>
-      <td>Miembro por designar</td>
+      <td>Rivera Sosa, Eduardo Gael</td>
       <td>In-Process</td>
    </tr>
    <tr>
@@ -3357,7 +3311,7 @@ En el tercer sprint backlog, el equipo tuvo la intención de iniciar y avanzar e
       <td>Swagger: Documentar endpoint</td>
       <td>Agregar @Tag, @Schema y ejemplos de request/response.</td>
       <td>1</td>
-      <td>Miembro por designar</td>
+      <td>Chi Cruzatt, Kevin Jorge</td>
       <td>In-Process</td>
    </tr>
    <tr>
@@ -3365,26 +3319,74 @@ En el tercer sprint backlog, el equipo tuvo la intención de iniciar y avanzar e
       <td>Frontend: Formulario de registro (Angular)</td>
       <td>Crear componente con Angular Material y conexión al endpoint.</td>
       <td>3</td>
-      <td>Miembro por designar</td>
+      <td>Yum Gonzales, Jorge Suin</td>
       <td>In-Process</td>
    </tr>
-   <!-- JWT (Spring Security) -->
+   <!-- Endpoint Workers (sistema completo) -->
    <tr>
-      <td rowspan="2">TS08</td>
-      <td rowspan="2">Crear endpoint de login con JWT</td>
+      <td rowspan="8">TS08</td>
+      <td rowspan="8">Desarrollar endpoint para un conjunto de Workers</td>
       <td>T1</td>
-      <td>Backend: JWT en Spring Security</td>
-      <td>Configurar filtros JWT (JwtAuthenticationFilter, JwtUtil).</td>
+      <td>Endpoint: Provider</td>
+      <td>GET, POST y GET BY ID para proveedores del sistema.</td>
       <td>4</td>
-      <td>Miembro por designar</td>
+      <td>Chi Cruzatt, Kevin Jorge</td>
       <td>In-Process</td>
    </tr>
    <tr>
       <td>T2</td>
-      <td>Frontend: Almacenar token</td>
-      <td>Guardar JWT en localStorage y añadir interceptor HTTP.</td>
+      <td>Endpoint: SalonProfile</td>
+      <td>GET BY ID y POST para salones de belleza.</td>
+      <td>3</td>
+      <td>Varela Bustinza, Marcelo Alessandro</td>
+      <td>In-Process</td>
+   </tr>
+   <tr>
+      <td>T3</td>
+      <td>Endpoint: Workers</td>
+      <td>GET, POST y GET BY ID para trabajadores registrados.</td>
+      <td>3</td>
+      <td>Rivera Sosa, Eduardo Gael</td>
+      <td>In-Process</td>
+   </tr>
+   <tr>
+      <td>T4</td>
+      <td>Endpoint: Authentication</td>
+      <td>POST para login y registro de usuarios con token JWT.</td>
+      <td>4</td>
+      <td>Yum Gonzales, Jorge Suin</td>
+      <td>In-Process</td>
+   </tr>
+   <tr>
+      <td>T5</td>
+      <td>Endpoint: Clients</td>
+      <td>GET, POST y GET BY ID para clientes del sistema.</td>
+      <td>3</td>
+      <td>Chi Cruzatt, Kevin Jorge</td>
+      <td>In-Process</td>
+   </tr>
+   <tr>
+      <td>T6</td>
+      <td>Endpoint: Time Slots</td>
+      <td>GET, POST y GET BY ID para manejo de horarios.</td>
+      <td>3</td>
+      <td>Rivera Sosa, Eduardo Gael</td>
+      <td>In-Process</td>
+   </tr>
+   <tr>
+      <td>T7</td>
+      <td>Endpoint: Services</td>
+      <td>GET y POST para servicios disponibles en el sistema.</td>
       <td>2</td>
-      <td>Miembro por designar</td>
+      <td>Varela Bustinza, Marcelo Alessandro</td>
+      <td>In-Process</td>
+   </tr>
+   <tr>
+      <td>T8</td>
+      <td>Endpoint: Users</td>
+      <td>GET y GET BY ID para usuarios del sistema.</td>
+      <td>2</td>
+      <td>Yum Gonzales, Jorge Suin</td>
       <td>In-Process</td>
    </tr>
    <!-- Diseño responsive (Angular) -->
@@ -3395,7 +3397,7 @@ En el tercer sprint backlog, el equipo tuvo la intención de iniciar y avanzar e
       <td>Angular Material Layout</td>
       <td>Usar FlexLayout y BreakpointObserver para responsividad.</td>
       <td>4</td>
-      <td>Miembro por designar</td>
+      <td>Chi Cruzatt, Kevin Jorge</td>
       <td>In-Process</td>
    </tr>
    <tr>
@@ -3403,10 +3405,11 @@ En el tercer sprint backlog, el equipo tuvo la intención de iniciar y avanzar e
       <td>ARIA en componentes</td>
       <td>Añadir roles, labels y focus management para accesibilidad.</td>
       <td>3</td>
-      <td>Miembro por designar</td>
+      <td>Varela Bustinza, Marcelo Alessandro</td>
       <td>In-Process</td>
    </tr>
 </table>
+
 
 Enlace para acceder al Trello: [Trello Sprint Backlog 3]()
 ### 5.2.3.4. Development Evidence for Sprint Review
