@@ -3591,10 +3591,28 @@ Por último, tenemos la sección de "IAM bounded context" que se encarga del man
 Para realizar el deployment del backend de la aplicación, se empleo la plataforma Azure. Se realizaron los sigueintes pasos para llevar a cabo el despligue del proyecto.
 
 ### 5.2.3.8. Team Collaboration Insights during  Sprint
+En el Sprint 3, se dividieron las tareas según las funcionalidades del sistema y se asignaron a los integrantes del equipo considerando sus competencias y experiencia. Esta estrategia facilitó una distribución más eficiente del trabajo y contribuyó a un progreso más ágil en el desarrollo.
 
 # 5.3. Validation Interviews
 
 ## 5.3.1. Diseño de Entrevistas
+Preguntas para Segmento objetivo 01:
+
+* ¿Qué opinas del diseño y la información mostrada en la landing page? ¿Fue clara y útil para entender el servicio?
+* ¿Te resultó fácil registrarte y comenzar a usar la plataforma como cliente? ¿Hubo algo confuso?
+* ¿Cómo fue tu experiencia al buscar barberos por ubicación, servicio o disponibilidad?
+* ¿Pudiste agendar una cita sin inconvenientes? ¿Cómo calificarías el proceso de reserva?
+* ¿Te sentiste informado sobre el estado de tu reserva? ¿Recibiste confirmaciones o notificaciones claras?
+* ¿Qué mejorarías en la plataforma para facilitar tu próxima reserva?
+
+Preguntas para Segmento objetivo 02:
+
+* ¿Qué te pareció el proceso de registro como barbero? ¿Fue claro y rápido?
+* ¿Tuviste alguna dificultad al completar tu perfil profesional o ingresar tus servicios?
+* ¿Fue sencillo configurar tu disponibilidad y horarios de atención?
+* ¿Cómo fue tu experiencia visualizando las citas agendadas por los clientes?
+* ¿Consideras que tienes el control necesario sobre tu agenda desde la plataforma?
+* ¿Qué cambios sugerirías para mejorar tu experiencia como proveedor dentro de uTime?
 
 ## 5.3.2. Registro de Entrevistas
 
