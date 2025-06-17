@@ -3483,6 +3483,7 @@ Enlace para acceder al Trello: [Trello Sprint Backlog 3]()
 En el Sprint 3 se avanzó en la implementación y despliegue del backend. La cual muestra los diferentes endpoints del sistema del negocio.
 
 #### 1.Endpoints for provider
+En esta sección se muestra el endpoint de Provider con los diversos métodos para solicitar recursos al servidor respecto a las necesidades del negocio y su interacción con el sistema; asimismo en este contexto tenemos un "GET" el cual devuelve a todos los proveedores del servicio registrados, un "POST" que permite el registro de proveedores al servicio y "GET BY ID" que permite la identificación de provedores mediante el {id} que tienen cada uno.  
 <img src="img/providers_end.png" alt="Providers endpoint" width="700" height="200" />
 
 ### 2.Salon Profile
@@ -3511,7 +3512,6 @@ En el Sprint 3 se avanzó en la implementación y despliegue del backend. La cua
 
 #### 8. Users
 <img src="img/Users_end.png" alt="Providers endpoint" width="700" height="200" />
-
 
 
 ### 5.2.3.6. Services Documentation Evidence for Sprint Review
