@@ -178,7 +178,7 @@ de versiones.
 
 Los integrantes son:
 
-- Kevin Chi (Krillsom)
+- Kevin Chi (Krillsom) 
 - Gael Rivera (gael-rs)
 - Marcelo Varela (VarBus)
 - Angie Yalán (aaaaangie)
@@ -290,7 +290,24 @@ Capturas de la participación en el informe:
    5.2.1.6. [Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)<br>
    5.2.1.7. [Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)<br>
    5.2.1.8. [Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)<br>
-
+   5.2.2. [Sprint 2](#522-sprint-2)<br>
+   5.2.2.1. [Sprint Planning 2](#5221-sprint-planning-2)<br>
+   5.2.2.2. [Aspect Leaders and Collaborators](#5222-aspect-leaders-and-collaborators)<br>
+   5.2.2.3. [Sprint Backlog 2](#5223sprint-backlog-2)<br>
+   5.2.2.4. [Development Evidence for Sprint Review](#5224development-evidence-for-sprint-review)<br>
+   5.2.2.5. [Execution Evidence for Sprint Review](#5225execution-evidence-for-sprint-review)<br>
+   5.2.2.6. [Services Documentation Evidence for Sprint Review](#5226services-documentation-evidence-for-sprint-review)<br>
+   5.2.2.7. [Software Deployment Evidence for Sprint Review](#5227software-deployment-evidence-for-sprint-review)<br>
+   5.2.2.8. [Team Collaboration Insights during Sprint](#5228team-collaboration-insights-during-sprint)<br>
+   5.2.3. [Sprint 3](#523-sprint-3)<br>
+   5.2.3.1. [Sprint Planning 3](#5231-sprint-planning)<br>
+   5.2.3.2. [Aspect Leaders and Collaborators](#5232-aspect-leaders-and-collaborators)<br>
+   5.2.3.3. [Sprint Backlog 3](#5223sprint-backlog-2)<br>
+   5.2.3.4. [Development Evidence for Sprint Review](#5234-development-evidence-for-sprint-review)<br>
+   5.2.3.5. [Execution Evidence for Sprint Review](#5235-execution-evidence-for-sprint-review)<br>
+   5.2.3.6. [Services Documentation Evidence for Sprint Review](#5236-services-documentation-evidence-for-sprint-review)<br>
+   5.2.3.7. [Software Deployment Evidence for Sprint Review](#5237-software-deployment-evidence-for-sprint-review)<br>
+   5.2.3.8. [Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during--sprint)<br>
 6. [Conclusiones](#conclusiones)<br>
    6.1 [Conclusiones y recomendaciones](#61-conclusiones-y-recomendaciones)<br>
 7. [Bibliografía](#bibliografía)<br>
@@ -2593,7 +2610,7 @@ Enlace para acceder a la landing page: https://upc-paxtech.github.io/uTime-Landi
 
 ### 5.2.2. Sprint 2
 
-#### 5.2.2.1.Sprint Planning 2.
+#### 5.2.2.1. Sprint Planning 2.
 
 Dentro del marco de trabajo Scrum, cada Sprint constituye un periodo de tiempo fijo y breve en el que el equipo de desarrollo trabaja de manera enfocada para alcanzar un objetivo específico que contribuya al cumplimiento del Product Goal (Schwaber, K. & Sutherland, J., 2020). En el contexto del desarrollo de la plataforma uTime, el Sprint #2 dio inicio el 27/04/2025, y su meta consiste en implementar la aplicación web del lado frontend utilizando Angular y Angular Material. Durante este Sprint, se desarrollaron las funcionalidades esenciales tanto para los clientes como para los proveedores: los clientes pueden explorar diferentes salones de belleza y realizar reservas de manera intuitiva, mientras que los proveedores tienen acceso a herramientas de gestión que les permiten configurar precios, administrar sus servicios y visualizar las citas asignadas a cada trabajador.
 
