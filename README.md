@@ -3487,31 +3487,38 @@ En esta sección se muestra el endpoint de Provider con los diversos métodos pa
 <img src="img/providers_end.png" alt="Providers endpoint" width="700" height="200" />
 
 ### 2.Salon Profile
-<img src="img/Salon_profile_end.png" alt="Providers endpoint" width="600" height="200" />
+En esta sección se muestra el endpoint de SalonProfile con los diversos métodos del servicio e interacciones que tiene con el negocio y sistema; asimismo en este contexto tenemos un "GET BY ID" que permite el llamado de todos los salones de belleza registrados mediante el {id} que tiene cada uno, asi como un "POST" que permite el registro de nuevos salones de belleza en el sistema.
+<img src="img/Salon_profile_end.png" alt="Providers endpoint" width="800" height="200" />
 
 
 #### 3.Workers
-<img src="img/workers_end.png" alt="Providers endpoint" width="600" height="200" />
+En esta sección tenemos el endpoint de Workers con los diversos metodos del servidor e implementación de recursos respecto del servicio; en este sentido tenemos un "GET" el cual permite el llamado de todos los workers registrados en el sistema; asi como un "POST" que permite el registro de nuevos workers en el sistema y un "GET BY ID" que permite el llamado de cada worker registrado mediante su {id}.
+<img src="img/workers_end.png" alt="Providers endpoint" width="800" height="200" />
 
 
 #### 4.Authentication
-<img src="img/authentication_end.png" alt="Providers endpoint" width="600" height="200" />
+En esta sección se presenta el Authentication que vendria a ser uno de los endpoints más importantes del sistema del negocio ya quie permite el acceso a los endpoint mediante un token de registro; en este sentido tenemos dos "POST" los cuales seria para registrarse en el caso el usuario no tenga una cuenta en el negocio asi como el de iniciar sesión si es que el usuario desea entrar a sus cuenta en el sistema.
+<img src="img/authentication_end.png" alt="Providers endpoint" width="800" height="200" />
 
 
 #### 5.Clients
-<img src="img/clients_end.png" alt="Providers endpoint" width="600" height="200" />
+En esta sección tenemos el Clients con los diversos métodos del servidor e implementaciones dentro del servicio del negocio; en este sentido tenemos un "GET" el cual muestra a todos los clientes registrados en el sistema, un "POST" el cual permite el registro de nuevos clientes en el neogocio y por último un "GET BY ID" el cual permite la identificación de clientes mediante su {id}.
+<img src="img/clients_end.png" alt="Providers endpoint" width="800" height="200" />
 
 
 #### 6.Time Slots
-<img src="img/time_slots_end.png" alt="Providers endpoint" width="600" height="200" />
+En esta sección podemos visualizar los time slots que son una pieza principal en el sistema del negocio ya que ayuda en el manejo de horarios de las reservaciones; en este sentido tenemos un "GET" el cual devuelve todos los tiem slots registrados por los usuarios, un "POST" que permite la creación de nuevos casialleros de tiempo en la reservación de citas de cada usuario y por último un "GET BY ID" que permite devolver los time slot registrados mediante su {id}.
+<img src="img/time_slots_end.png" alt="Providers endpoint" width="800" height="200" />
 
 
 #### 7. Services
-<img src="img/Services_end.png" alt="Providers endpoint" width="600" height="200" />
+En esta sección tenemos Services el cual forma parte del manejo de negocio y ayuda en la lógica del servicio de cada parametro del sistema; en este sentido tenemos un "GET" que devuelve cada servicio registrado en la estructura del medio y un "POST" que permite registrar el servicio que el usuario desea recibir al momento de reservar sus citas.
+<img src="img/Services_end.png" alt="Providers endpoint" width="800" height="200" />
 
 
 #### 8. Users
-<img src="img/Users_end.png" alt="Providers endpoint" width="600" height="200" />
+En esta sección tenemos a Users el cual contiene a los providers y clients del negocio funciona como un estructura padre que hereda a ambas partes sus caracteristicas dependiendo de las necesaidades que contiene cada uno; en este sentido tenemos dos "GET" uno para devolver a todos los usuarios registrados en el servicio y otro para llamarlos mediante su {id}.
+<img src="img/Users_end.png" alt="Providers endpoint" width="800" height="200" />
 
 
 ### 5.2.3.6. Services Documentation Evidence for Sprint Review
