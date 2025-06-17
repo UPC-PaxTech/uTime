@@ -3523,7 +3523,8 @@ En esta sección tenemos a Users el cual contiene a los providers y clients del 
 
 ### 5.2.3.6. Services Documentation Evidence for Sprint Review
 A continuación, se presentan tres fragmentos de código que evidencian el uso e implementación de los servicio dentro del sistema Backend, abarcando desde la configuracion de los endpoints, asi como la lógica de la estructura para los bounded context del negocio:
-1. 
+1. Shared Bounded Context:
+<img src="img/shared-backend.png" alt="Shared Bounded Context" />
 
 
 ### 5.2.3.7. Software Deployment Evidence for Sprint Review
