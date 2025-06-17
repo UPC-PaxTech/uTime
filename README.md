@@ -3257,89 +3257,40 @@ En el tercer sprint backlog, el equipo tuvo la intención de iniciar y avanzar e
       <td><b>Assigned To</b></td>
       <td><b>Status (To-do/In-Process/To-Review/Done)</b></td>
    </tr>
-   <!-- Encriptación (Spring Security) -->
+   <!-- Endpoints Workers -->
    <tr>
-      <td rowspan="2">TS03</td>
-      <td rowspan="2">Encriptación de contraseñas</td>
+      <td rowspan="4">TS08</td>
+      <td rowspan="4">Desarrollar endpoints para Workers</td>
       <td>T1</td>
-      <td>Configurar BCrypt en Spring Security</td>
-      <td>Usar PasswordEncoder de Spring Security para hashing + salt.</td>
+      <td>GET /api/v1/workers</td>
+      <td>Obtener la lista completa de trabajadores registrados en el sistema.</td>
       <td>2</td>
-      <td>Rivera Sosa, Eduardo Gael</td>
-      <td>In-Process</td>
-   </tr>
-   <tr>
-      <td>T2</td>
-      <td>Pruebas de autenticación</td>
-      <td>Verificar que el login compare contraseñas hasheadas correctamente.</td>
-      <td>2</td>
-      <td>Chi Cruzatt, Kevin Jorge</td>
-      <td>In-Process</td>
-   </tr>
-   <!-- Validaciones (Angular + Spring Boot) -->
-   <tr>
-      <td rowspan="2">TS05</td>
-      <td rowspan="2">Validaciones de formularios</td>
-      <td>T1</td>
-      <td>Frontend: Validaciones reactivas (Angular)</td>
-      <td>Implementar Validators en FormGroups para campos requeridos, email, teléfono, etc.</td>
-      <td>3</td>
-      <td>Yum Gonzales, Jorge Suin</td>
-      <td>In-Process</td>
-   </tr>
-   <tr>
-      <td>T2</td>
-      <td>Backend: Validaciones con Spring</td>
-      <td>Usar anotaciones @Valid, @NotNull, @Pattern en los DTOs.</td>
-      <td>2</td>
-      <td>Varela Bustinza, Marcelo Alessandro</td>
-      <td>In-Process</td>
-   </tr>
-   <!-- Endpoints generales del sistema -->
-   <tr>
-      <td rowspan="3">TS07</td>
-      <td rowspan="3">Desarrollo de endpoints del sistema (Backend)</td>
-      <td>T1</td>
-      <td>Implementar endpoints REST (Spring Boot)</td>
-      <td>Desarrollar endpoints para Provider, Salon Profile, Workers, Authentication, Clients, Time Slots, Services y Users.</td>
-      <td>6</td>
       <td>Chi Cruzatt, Kevin Jorge</td>
       <td>In-Process</td>
    </tr>
    <tr>
       <td>T2</td>
-      <td>Documentar endpoints con Swagger</td>
-      <td>Utilizar @Operation, @Tag y ejemplos para documentar todas las rutas implementadas.</td>
-      <td>2</td>
+      <td>GET /api/v1/workers/{id}</td>
+      <td>Obtener un trabajador específico mediante su ID.</td>
+      <td>1</td>
       <td>Rivera Sosa, Eduardo Gael</td>
       <td>In-Process</td>
    </tr>
    <tr>
       <td>T3</td>
-      <td>Frontend: Conexión a endpoints</td>
-      <td>Crear servicios en Angular para consumir los endpoints desarrollados (ej. HttpClient).</td>
-      <td>3</td>
-      <td>Varela Bustinza, Marcelo Alessandro</td>
-      <td>In-Process</td>
-   </tr>
-   <!-- Diseño responsive (Angular) -->
-   <tr>
-      <td rowspan="2">TS06</td>
-      <td rowspan="2">Diseño responsive y accesible</td>
-      <td>T1</td>
-      <td>Angular Material Layout</td>
-      <td>Usar FlexLayout y BreakpointObserver para responsividad.</td>
-      <td>4</td>
+      <td>POST /api/v1/workers</td>
+      <td>Registrar un nuevo trabajador en el sistema.</td>
+      <td>2</td>
       <td>Yum Gonzales, Jorge Suin</td>
-      <td>In-Process</td>
+      <td>To-do</td>
    </tr>
    <tr>
-      <td>T2</td>
-      <td>ARIA en componentes</td>
-      <td>Añadir roles, labels y focus management para accesibilidad.</td>
-      <td>3</td>
-      <td>Rivera Sosa, Eduardo Gael</td>
-      <td>In-Process</td>
+      <td>T4</td>
+      <td>PUT /api/v1/workers/{id}</td>
+      <td>Actualizar los datos de un trabajador existente.</td>
+      <td>2</td>
+      <td>Varela Bustinza, Marcelo Alessandro</td>
+      <td>To-do</td>
    </tr>
 </table>
 
