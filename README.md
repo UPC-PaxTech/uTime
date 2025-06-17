@@ -3572,6 +3572,12 @@ En esta sección tenemos el "Application properties" el cual es el "File" princi
 <img src="img/application_1.png" alt="Shared Bounded Context" />
 </div>
 
+3.IAM Bounded Context:
+Por último, tenemos la sección de "IAM bounded context" que se encarga del manejo de autorización para el ingreso al servicio del negocio tanto en el "sign-in" como con el "sign-up" este "File" sigue el patrón Command Query Responsibility Segregation(CQRS) el cual permite leer y escribir las operaciones separandolos en modelos de datos permitiendo la escalabilidad y seguridad al momento de acceder a cada endpoint del backend; esta autorización se logra mediante la creación de token JWT(JSON Web Token), los cuales generan automaticamente al momento de registrar un nuevo usuario al servicio. Estos tokens ecapsulan la identidad y permisos al usuario, asegurando un entorno de ejecución confiable y eficiente para cada solicitud del sistema. Además, el uso de hashing seguro con el algoritmo BCrypt garantiza la protección de las contraseñas almacenadas en el sistema del servicio, reforzando asi la seguridad ante diferentes vulnerabilidades.
+<div align="center">
+<img src="img/IAM%20.png" alt="Shared Bounded Context" />
+</div>
+
 ### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
 ### 5.2.3.8. Team Collaboration Insights during  Sprint
