@@ -3498,7 +3498,7 @@ En esta sección tenemos el endpoint de Workers con los diversos metodos del ser
 
 #### 4.Authentication
 En esta sección se presenta el Authentication que vendria a ser uno de los endpoints más importantes del sistema del negocio ya quie permite el acceso a los endpoint mediante un token de registro; en este sentido tenemos dos "POST" los cuales seria para registrarse en el caso el usuario no tenga una cuenta en el negocio asi como el de iniciar sesión si es que el usuario desea entrar a sus cuenta en el sistema.
-<img src="img/authentication_end.png" alt="Providers endpoint" width="800" height="200" />
+<img src="img/authentication_end.png" alt="Providers endpoint" width="1000" height="200" />
 
 
 #### 5.Clients
