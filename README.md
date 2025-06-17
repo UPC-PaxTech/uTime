@@ -3523,7 +3523,7 @@ En esta sección tenemos a Users el cual contiene a los providers y clients del 
 
 ### 5.2.3.6. Services Documentation Evidence for Sprint Review
 A continuación, se presentan tres fragmentos de código que evidencian el uso e implementación de los servicio dentro del sistema Backend, abarcando desde la configuracion de los endpoints, asi como la lógica de la estructura para los bounded context del negocio:
-1. Shared Bounded Context:
+### 1. Shared Bounded Context:
 A continuación, se visualiza el "Shared Bounded context" de la parte del Backend de nuetsro negocio uTime; dicho "File" contiene una "File" denominado "Aggregates" el cual tiene como función principal ser la clase base para todos "Aggregates" del proyecto cuales requieran de un servicio de auditoría mediante el "@EntityListeners" el cual registra el "@Id" de cada elemento integrado en el sistema dependiendo del contexto en el que se encuentra; permitiendo que haya un seguimiento de las fechas listadas por hora y fecha en la que fueron creadas ("@CreatedDate") y modificadas("@LastModifiedDate"); las que a su vez se visualizan en el entorno físico de la base de datos en la que estamos creando las tablas "MY SQL". Para realizar este llamado registramos nuestros atributos de @Id, @CreatedDate y @LastModified en un "File" denominado como "AuditableModel" absolvida en "Entities" creando los metodos @Getter para devolver el los registros y las fechas respectivamente con sus diversos parametros. Luego tendriamos un "File" llamado "Infrastucture" el cual contiene un "OpenApiConfiguration", cual permite la documentación automatica de una API REST usando Swagger/OpenApi dentro de la aplicación Spring Boot; asi como también "Flyway" que sirve como herramienta de control de versiones para la base de datos que estamos empleando para la contención de endpoints que estamosm creando y un "SnakeCaseWithPluralize" que permite la modificacion de nombres de atributos en las tablas con guiones bajos y pluralizando los nombres dependiendo del significado.   
 <div align="center">
 <img src="img/shared-backend.png" alt="Shared Bounded Context" />
@@ -3563,7 +3563,7 @@ A continuación, se visualiza el "Shared Bounded context" de la parte del Backen
 <img src="img/pluralize_2.png" alt="Shared Bounded Context" />
 </div>
 
-2. Application properties:
+### 2. Application properties:
 En esta sección tenemos el "Application properties" el cual es el "File" principal que se encarga de la configuración típica de Spring Boot porque establece las bases técnicas para que funciones de forma escalable y segura. En esta sección definimos la conexión con la base de datos, y la gestión de entiedades mediante el esquema JPA y Flyway con su documentación para proteger la API con Swagger y JWT. Asimismo, asegura el buen manejo en la control de versiones de la base de datos, y la personalización de nombres en las tablas para la integracion con el backend y el consumo de servicios. 
 <div align="center">
 <img src="img/application_properties.png" alt="Shared Bounded Context" />
@@ -3572,7 +3572,7 @@ En esta sección tenemos el "Application properties" el cual es el "File" princi
 <img src="img/application_1.png" alt="Shared Bounded Context" />
 </div>
 
-3.IAM Bounded Context:
+### 3.IAM Bounded Context:
 Por último, tenemos la sección de "IAM bounded context" que se encarga del manejo de autorización para el ingreso al servicio del negocio tanto en el "sign-in" como con el "sign-up" este "File" sigue el patrón Command Query Responsibility Segregation(CQRS) el cual permite leer y escribir las operaciones separandolos en modelos de datos permitiendo la escalabilidad y seguridad al momento de acceder a cada endpoint del backend; esta autorización se logra mediante la creación de token JWT(JSON Web Token), los cuales generan automaticamente al momento de registrar un nuevo usuario al servicio. Estos tokens ecapsulan la identidad y permisos al usuario, asegurando un entorno de ejecución confiable y eficiente para cada solicitud del sistema. Además, el uso de hashing seguro con el algoritmo BCrypt garantiza la protección de las contraseñas almacenadas en el sistema del servicio, reforzando asi la seguridad ante diferentes vulnerabilidades.
 <div align="center">
 <img src="img/IAM%20.png" alt="Shared Bounded Context" />
