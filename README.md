@@ -3240,29 +3240,28 @@ En el tercer sprint backlog, el equipo tuvo la intención de iniciar y avanzar e
 
 <table border="1" cellspacing="0" cellpadding="5">
    <tr>
-      <td colspan="2" align="center"><b>Sprint #</b></td>
+      <td colspan="2" align="center"><b>Sprint</b></td>
       <td colspan="6" align="center"><b>Sprint 3</b></td>
    </tr>
    <tr>
-      <td colspan="2"><b>User Story</b></td>
-      <td colspan="6" align="center"><b>Work-Item/Task</b></td>
+      <td colspan="2"><b>Historia de Usuario</b></td>
+      <td colspan="6" align="center"><b>Work-Item / Tarea</b></td>
    </tr>
    <tr>
-      <td><b>Id</b></td>
-      <td><b>Title</b></td>
-      <td><b>Id</b></td>
-      <td><b>Task Title</b></td>
-      <td><b>Description</b></td>
-      <td><b>Estimation (Hours)</b></td>
-      <td><b>Assigned To</b></td>
-      <td><b>Status (To-do/In-Process/To-Review/Done)</b></td>
+      <td><b>ID</b></td>
+      <td><b>Título</b></td>
+      <td><b>ID</b></td>
+      <td><b>Título</b></td>
+      <td><b>Descripción</b></td>
+      <td><b>Estimación (h)</b></td>
+      <td><b>Responsable</b></td>
+      <td><b>Estado</b></td>
    </tr>
-   <!-- Encriptación (Spring Security) -->
    <tr>
       <td rowspan="2">TS03</td>
       <td rowspan="2">Encriptación de contraseñas</td>
       <td>T1</td>
-      <td>Configurar BCrypt en Spring Security</td>
+      <td>Configurar en backend</td>
       <td>Usar PasswordEncoder de Spring Security para hashing + salt.</td>
       <td>2</td>
       <td>Varela Bustinza, Marcelo Alessandro</td>
@@ -3270,18 +3269,17 @@ En el tercer sprint backlog, el equipo tuvo la intención de iniciar y avanzar e
    </tr>
    <tr>
       <td>T2</td>
-      <td>Pruebas de autenticación</td>
+      <td>Pruebas de login</td>
       <td>Verificar que el login compare contraseñas hasheadas correctamente.</td>
       <td>2</td>
       <td>Yum Gonzales, Jorge Suin</td>
       <td>In-Process</td>
    </tr>
-   <!-- Validaciones (Angular + Spring Boot) -->
    <tr>
       <td rowspan="2">TS05</td>
       <td rowspan="2">Validaciones de formularios</td>
       <td>T1</td>
-      <td>Frontend: Validaciones reactivas (Angular)</td>
+      <td>Frontend: validaciones reactivas</td>
       <td>Implementar Validators en FormGroups para campos requeridos, email, teléfono, etc.</td>
       <td>3</td>
       <td>Rivera Sosa, Eduardo Gael</td>
@@ -3289,26 +3287,25 @@ En el tercer sprint backlog, el equipo tuvo la intención de iniciar y avanzar e
    </tr>
    <tr>
       <td>T2</td>
-      <td>Backend: Validaciones con Spring</td>
+      <td>Backend: validaciones DTO</td>
       <td>Usar anotaciones @Valid, @NotNull, @Pattern en los DTOs.</td>
       <td>2</td>
       <td>Chi Cruzatt, Kevin Jorge</td>
       <td>In-Process</td>
    </tr>
-   <!-- Endpoints (Spring Boot + Swagger) -->
    <tr>
       <td rowspan="3">TS07</td>
-      <td rowspan="3">Crear endpoint para registro de usuario</td>
+      <td rowspan="3">Registro de usuarios</td>
       <td>T1</td>
-      <td>Implementar POST /usuarios</td>
-      <td>Desarrollar Controller y Service para registro, con persistencia en JPA/Hibernate.</td>
+      <td>Crear endpoint POST</td>
+      <td>Desarrollar Controller y Service con persistencia en JPA/Hibernate.</td>
       <td>4</td>
       <td>Rivera Sosa, Eduardo Gael</td>
       <td>In-Process</td>
    </tr>
    <tr>
       <td>T2</td>
-      <td>Swagger: Documentar endpoint</td>
+      <td>Documentar en Swagger</td>
       <td>Agregar @Tag, @Schema y ejemplos de request/response.</td>
       <td>1</td>
       <td>Chi Cruzatt, Kevin Jorge</td>
@@ -3316,85 +3313,167 @@ En el tercer sprint backlog, el equipo tuvo la intención de iniciar y avanzar e
    </tr>
    <tr>
       <td>T3</td>
-      <td>Frontend: Formulario de registro (Angular)</td>
-      <td>Crear componente con Angular Material y conexión al endpoint.</td>
+      <td>Crear formulario en Angular</td>
+      <td>Componente Angular Material con conexión al backend.</td>
       <td>3</td>
       <td>Yum Gonzales, Jorge Suin</td>
       <td>In-Process</td>
    </tr>
-   <!-- Endpoint Workers (sistema completo) -->
    <tr>
-      <td rowspan="8">TS08</td>
-      <td rowspan="8">Desarrollar endpoint para un conjunto de Workers</td>
+      <td rowspan="3">TS08</td>
+      <td rowspan="3">Gestión de proveedores</td>
       <td>T1</td>
-      <td>Implementar método GET /providers</td>
-      <td>Obtener la lista de proveedores registrados en el sistema.</td>
-      <td>4</td>
+      <td>GET: obtener lista</td>
+      <td>Obtener lista de proveedores registrados.</td>
+      <td>1</td>
       <td>Chi Cruzatt, Kevin Jorge</td>
       <td>In-Process</td>
    </tr>
    <tr>
       <td>T2</td>
-      <td>Implementar POST /provider-profile</td>
-      <td>Crear un nuevo perfil de proveedor con sus datos asociados.</td>
-      <td>3</td>
-      <td>Varela Bustinza, Marcelo Alessandro</td>
-      <td>In-Process</td>
-   </tr>
-   <tr>
-      <td>T3</td>
-      <td>Implementar GET, POST y GET BY ID /workers</td>
-      <td>Registrar nuevos trabajadores y obtener sus datos.</td>
-      <td>3</td>
-      <td>Rivera Sosa, Eduardo Gael</td>
-      <td>In-Process</td>
-   </tr>
-   <tr>
-      <td>T4</td>
-      <td>Implementar autenticación JWT (POST /auth)</td>
-      <td>Generar token de acceso para login y registro.</td>
-      <td>4</td>
-      <td>Yum Gonzales, Jorge Suin</td>
-      <td>In-Process</td>
-   </tr>
-   <tr>
-      <td>T5</td>
-      <td>Implementar GET, POST y GET BY ID /clients</td>
-      <td>Gestión de clientes registrados en la plataforma.</td>
-      <td>3</td>
+      <td>POST: registrar proveedor</td>
+      <td>Crear nuevo proveedor desde el frontend.</td>
+      <td>1</td>
       <td>Chi Cruzatt, Kevin Jorge</td>
       <td>In-Process</td>
    </tr>
    <tr>
-      <td>T6</td>
-      <td>Implementar GET, POST y GET BY ID /time-slots</td>
-      <td>Controlar la disponibilidad horaria de los servicios.</td>
-      <td>3</td>
-      <td>Rivera Sosa, Eduardo Gael</td>
+      <td>T3</td>
+      <td>GET por ID</td>
+      <td>Obtener proveedor por su identificador único.</td>
+      <td>1</td>
+      <td>Chi Cruzatt, Kevin Jorge</td>
       <td>In-Process</td>
    </tr>
    <tr>
-      <td>T7</td>
-      <td>Implementar GET y POST /services</td>
-      <td>Gestión de servicios disponibles en el sistema.</td>
+      <td rowspan="2">TS09</td>
+      <td rowspan="2">Gestión de perfiles de salón</td>
+      <td>T1</td>
+      <td>POST: crear perfil</td>
+      <td>Registrar un nuevo perfil de salón.</td>
       <td>2</td>
       <td>Varela Bustinza, Marcelo Alessandro</td>
       <td>In-Process</td>
    </tr>
    <tr>
-      <td>T8</td>
-      <td>Implementar GET y GET BY ID /users</td>
-      <td>Obtener datos detallados de usuarios registrados.</td>
+      <td>T2</td>
+      <td>GET por ID</td>
+      <td>Obtener un perfil de salón mediante ID.</td>
+      <td>1</td>
+      <td>Varela Bustinza, Marcelo Alessandro</td>
+      <td>In-Process</td>
+   </tr>
+   <tr>
+      <td rowspan="3">TS10</td>
+      <td rowspan="3">Gestión de trabajadores</td>
+      <td>T1</td>
+      <td>GET: obtener lista</td>
+      <td>Listar trabajadores registrados.</td>
+      <td>1</td>
+      <td>Rivera Sosa, Eduardo Gael</td>
+      <td>In-Process</td>
+   </tr>
+   <tr>
+      <td>T2</td>
+      <td>POST: registrar</td>
+      <td>Crear un nuevo trabajador.</td>
+      <td>1</td>
+      <td>Rivera Sosa, Eduardo Gael</td>
+      <td>In-Process</td>
+   </tr>
+   <tr>
+      <td>T3</td>
+      <td>GET por ID</td>
+      <td>Obtener trabajador por identificador único.</td>
+      <td>1</td>
+      <td>Rivera Sosa, Eduardo Gael</td>
+      <td>In-Process</td>
+   </tr>
+   <tr>
+      <td>TS11</td>
+      <td>Autenticación de usuarios</td>
+      <td>T1</td>
+      <td>POST: iniciar sesión</td>
+      <td>Autenticación con retorno de JWT.</td>
       <td>2</td>
       <td>Yum Gonzales, Jorge Suin</td>
       <td>In-Process</td>
    </tr>
-   <!-- Diseño responsive (Angular) -->
+   <tr>
+      <td rowspan="3">TS12</td>
+      <td rowspan="3">Gestión de clientes</td>
+      <td>T1</td>
+      <td>GET: obtener lista</td>
+      <td>Listar clientes disponibles.</td>
+      <td>1</td>
+      <td>Chi Cruzatt, Kevin Jorge</td>
+      <td>In-Process</td>
+   </tr>
+   <tr>
+      <td>T2</td>
+      <td>POST: registrar</td>
+      <td>Registrar nuevo cliente.</td>
+      <td>1</td>
+      <td>Chi Cruzatt, Kevin Jorge</td>
+      <td>In-Process</td>
+   </tr>
+   <tr>
+      <td>T3</td>
+      <td>GET por ID</td>
+      <td>Obtener cliente por su identificador.</td>
+      <td>1</td>
+      <td>Chi Cruzatt, Kevin Jorge</td>
+      <td>In-Process</td>
+   </tr>
+   <tr>
+      <td rowspan="3">TS13</td>
+      <td rowspan="3">Gestión de horarios</td>
+      <td>T1</td>
+      <td>GET: obtener lista</td>
+      <td>Listar todos los horarios disponibles.</td>
+      <td>1</td>
+      <td>Rivera Sosa, Eduardo Gael</td>
+      <td>In-Process</td>
+   </tr>
+   <tr>
+      <td>T2</td>
+      <td>POST: crear horario</td>
+      <td>Registrar nuevo horario disponible.</td>
+      <td>1</td>
+      <td>Rivera Sosa, Eduardo Gael</td>
+      <td>In-Process</td>
+   </tr>
+   <tr>
+      <td>T3</td>
+      <td>GET por ID</td>
+      <td>Obtener horario por ID.</td>
+      <td>1</td>
+      <td>Rivera Sosa, Eduardo Gael</td>
+      <td>In-Process</td>
+   </tr>
+   <tr>
+      <td rowspan="2">TS14</td>
+      <td rowspan="2">Gestión de servicios</td>
+      <td>T1</td>
+      <td>GET: obtener lista</td>
+      <td>Listar todos los servicios disponibles.</td>
+      <td>1</td>
+      <td>Varela Bustinza, Marcelo Alessandro</td>
+      <td>In-Process</td>
+   </tr>
+   <tr>
+      <td>T2</td>
+      <td>POST: registrar servicio</td>
+      <td>Registrar nuevo servicio ofrecido.</td>
+      <td>1</td>
+      <td>Varela Bustinza, Marcelo Alessandro</td>
+      <td>In-Process</td>
+   </tr>
    <tr>
       <td rowspan="2">TS06</td>
       <td rowspan="2">Diseño responsive y accesible</td>
       <td>T1</td>
-      <td>Angular Material Layout</td>
+      <td>Layout responsive Angular</td>
       <td>Usar FlexLayout y BreakpointObserver para responsividad.</td>
       <td>4</td>
       <td>Chi Cruzatt, Kevin Jorge</td>
@@ -3402,8 +3481,8 @@ En el tercer sprint backlog, el equipo tuvo la intención de iniciar y avanzar e
    </tr>
    <tr>
       <td>T2</td>
-      <td>ARIA en componentes</td>
-      <td>Añadir roles, labels y focus management para accesibilidad.</td>
+      <td>Accesibilidad ARIA</td>
+      <td>Añadir roles, labels y gestión de foco en componentes.</td>
       <td>3</td>
       <td>Varela Bustinza, Marcelo Alessandro</td>
       <td>In-Process</td>
