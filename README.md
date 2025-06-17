@@ -3563,6 +3563,15 @@ A continuación, se visualiza el "Shared Bounded context" de la parte del Backen
 <img src="img/pluralize_2.png" alt="Shared Bounded Context" />
 </div>
 
+2. Application properties:
+En esta sección tenemos el "Application properties" el cual es el "File" principal que se encarga de la configuración típica de Spring Boot porque establece las bases técnicas para que funciones de forma escalable y segura. En esta sección definimos la conexión con la base de datos, y la gestión de entiedades mediante el esquema JPA y Flyway con su documentación para proteger la API con Swagger y JWT. Asimismo, asegura el buen manejo en la control de versiones de la base de datos, y la personalización de nombres en las tablas para la integracion con el backend y el consumo de servicios. 
+<div align="center">
+<img src="img/application_properties.png" alt="Shared Bounded Context" />
+</div>
+<div align="center">
+<img src="img/application_1.png" alt="Shared Bounded Context" />
+</div>
+
 ### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
 ### 5.2.3.8. Team Collaboration Insights during  Sprint
