@@ -3257,40 +3257,266 @@ En el tercer sprint backlog, el equipo tuvo la intención de iniciar y avanzar e
       <td><b>Assigned To</b></td>
       <td><b>Status (To-do/In-Process/To-Review/Done)</b></td>
    </tr>
-   <!-- Endpoints Workers -->
+   <!-- Encriptación -->
    <tr>
-      <td rowspan="4">TS08</td>
-      <td rowspan="4">Desarrollar endpoints para Workers</td>
+      <td rowspan="2">TS03</td>
+      <td rowspan="2">Encriptación de contraseñas</td>
       <td>T1</td>
-      <td>GET /api/v1/workers</td>
-      <td>Obtener la lista completa de trabajadores registrados en el sistema.</td>
+      <td>Configurar BCrypt en Spring Security</td>
+      <td>Usar PasswordEncoder de Spring Security para hashing + salt.</td>
       <td>2</td>
+      <td>Varela Bustinza, Marcelo Alessandro</td>
+      <td>In-Process</td>
+   </tr>
+   <tr>
+      <td>T2</td>
+      <td>Pruebas de autenticación</td>
+      <td>Verificar que el login compare contraseñas hasheadas correctamente.</td>
+      <td>2</td>
+      <td>Yum Gonzales, Jorge Suin</td>
+      <td>In-Process</td>
+   </tr>
+   <!-- Validaciones -->
+   <tr>
+      <td rowspan="2">TS05</td>
+      <td rowspan="2">Validaciones de formularios</td>
+      <td>T1</td>
+      <td>Frontend: Validaciones reactivas (Angular)</td>
+      <td>Implementar Validators en FormGroups para campos requeridos, email, teléfono, etc.</td>
+      <td>3</td>
+      <td>Rivera Sosa, Eduardo Gael</td>
+      <td>In-Process</td>
+   </tr>
+   <tr>
+      <td>T2</td>
+      <td>Backend: Validaciones con Spring</td>
+      <td>Usar anotaciones @Valid, @NotNull, @Pattern en los DTOs.</td>
+      <td>2</td>
+      <td>Chi Cruzatt, Kevin Jorge</td>
+      <td>In-Process</td>
+   </tr>
+   <!-- Endpoint registro usuario -->
+   <tr>
+      <td rowspan="3">TS07</td>
+      <td rowspan="3">Crear endpoint para registro de usuario</td>
+      <td>T1</td>
+      <td>Implementar POST /usuarios</td>
+      <td>Desarrollar Controller y Service para registro, con persistencia en JPA/Hibernate.</td>
+      <td>4</td>
+      <td>Rivera Sosa, Eduardo Gael</td>
+      <td>In-Process</td>
+   </tr>
+   <tr>
+      <td>T2</td>
+      <td>Swagger: Documentar endpoint</td>
+      <td>Agregar @Tag, @Schema y ejemplos de request/response.</td>
+      <td>1</td>
+      <td>Chi Cruzatt, Kevin Jorge</td>
+      <td>In-Process</td>
+   </tr>
+   <tr>
+      <td>T3</td>
+      <td>Frontend: Formulario de registro (Angular)</td>
+      <td>Crear componente con Angular Material y conexión al endpoint.</td>
+      <td>3</td>
+      <td>Yum Gonzales, Jorge Suin</td>
+      <td>In-Process</td>
+   </tr>
+   <!-- Endpoints separados -->
+   <tr>
+      <td rowspan="3">TS08</td>
+      <td rowspan="3">Endpoints para Provider</td>
+      <td>T1</td>
+      <td>GET /providers</td>
+      <td>Obtener lista de proveedores.</td>
+      <td>1</td>
       <td>Chi Cruzatt, Kevin Jorge</td>
       <td>In-Process</td>
    </tr>
    <tr>
       <td>T2</td>
-      <td>GET /api/v1/workers/{id}</td>
-      <td>Obtener un trabajador específico mediante su ID.</td>
+      <td>POST /providers</td>
+      <td>Registrar nuevo proveedor.</td>
+      <td>1</td>
+      <td>Chi Cruzatt, Kevin Jorge</td>
+      <td>In-Process</td>
+   </tr>
+   <tr>
+      <td>T3</td>
+      <td>GET /providers/{id}</td>
+      <td>Obtener proveedor por ID.</td>
+      <td>1</td>
+      <td>Chi Cruzatt, Kevin Jorge</td>
+      <td>In-Process</td>
+   </tr>
+
+   <tr>
+      <td rowspan="2">TS09</td>
+      <td rowspan="2">Endpoints para SalonProfile</td>
+      <td>T1</td>
+      <td>POST /salonprofile</td>
+      <td>Crear perfil de salón.</td>
+      <td>2</td>
+      <td>Varela Bustinza, Marcelo Alessandro</td>
+      <td>In-Process</td>
+   </tr>
+   <tr>
+      <td>T2</td>
+      <td>GET /salonprofile/{id}</td>
+      <td>Obtener perfil de salón por ID.</td>
+      <td>1</td>
+      <td>Varela Bustinza, Marcelo Alessandro</td>
+      <td>In-Process</td>
+   </tr>
+
+   <tr>
+      <td rowspan="3">TS10</td>
+      <td rowspan="3">Endpoints para Workers</td>
+      <td>T1</td>
+      <td>GET /workers</td>
+      <td>Obtener lista de trabajadores.</td>
+      <td>1</td>
+      <td>Rivera Sosa, Eduardo Gael</td>
+      <td>In-Process</td>
+   </tr>
+   <tr>
+      <td>T2</td>
+      <td>POST /workers</td>
+      <td>Registrar nuevo trabajador.</td>
       <td>1</td>
       <td>Rivera Sosa, Eduardo Gael</td>
       <td>In-Process</td>
    </tr>
    <tr>
       <td>T3</td>
-      <td>POST /api/v1/workers</td>
-      <td>Registrar un nuevo trabajador en el sistema.</td>
+      <td>GET /workers/{id}</td>
+      <td>Obtener trabajador por ID.</td>
+      <td>1</td>
+      <td>Rivera Sosa, Eduardo Gael</td>
+      <td>In-Process</td>
+   </tr>
+
+   <tr>
+      <td>TS11</td>
+      <td>Endpoint de Autenticación</td>
+      <td>T1</td>
+      <td>POST /auth/login</td>
+      <td>Inicio de sesión con retorno de JWT.</td>
       <td>2</td>
       <td>Yum Gonzales, Jorge Suin</td>
-      <td>To-do</td>
+      <td>In-Process</td>
+   </tr>
+
+   <tr>
+      <td rowspan="3">TS12</td>
+      <td rowspan="3">Endpoints para Clients</td>
+      <td>T1</td>
+      <td>GET /clients</td>
+      <td>Obtener lista de clientes.</td>
+      <td>1</td>
+      <td>Chi Cruzatt, Kevin Jorge</td>
+      <td>In-Process</td>
    </tr>
    <tr>
-      <td>T4</td>
-      <td>PUT /api/v1/workers/{id}</td>
-      <td>Actualizar los datos de un trabajador existente.</td>
-      <td>2</td>
+      <td>T2</td>
+      <td>POST /clients</td>
+      <td>Registrar nuevo cliente.</td>
+      <td>1</td>
+      <td>Chi Cruzatt, Kevin Jorge</td>
+      <td>In-Process</td>
+   </tr>
+   <tr>
+      <td>T3</td>
+      <td>GET /clients/{id}</td>
+      <td>Obtener cliente por ID.</td>
+      <td>1</td>
+      <td>Chi Cruzatt, Kevin Jorge</td>
+      <td>In-Process</td>
+   </tr>
+
+   <tr>
+      <td rowspan="3">TS13</td>
+      <td rowspan="3">Endpoints para Time Slots</td>
+      <td>T1</td>
+      <td>GET /timeslots</td>
+      <td>Obtener horarios disponibles.</td>
+      <td>1</td>
+      <td>Rivera Sosa, Eduardo Gael</td>
+      <td>In-Process</td>
+   </tr>
+   <tr>
+      <td>T2</td>
+      <td>POST /timeslots</td>
+      <td>Crear nuevo horario.</td>
+      <td>1</td>
+      <td>Rivera Sosa, Eduardo Gael</td>
+      <td>In-Process</td>
+   </tr>
+   <tr>
+      <td>T3</td>
+      <td>GET /timeslots/{id}</td>
+      <td>Obtener horario por ID.</td>
+      <td>1</td>
+      <td>Rivera Sosa, Eduardo Gael</td>
+      <td>In-Process</td>
+   </tr>
+
+   <tr>
+      <td rowspan="2">TS14</td>
+      <td rowspan="2">Endpoints para Services</td>
+      <td>T1</td>
+      <td>GET /services</td>
+      <td>Obtener lista de servicios disponibles.</td>
+      <td>1</td>
       <td>Varela Bustinza, Marcelo Alessandro</td>
-      <td>To-do</td>
+      <td>In-Process</td>
+   </tr>
+   <tr>
+      <td>T2</td>
+      <td>POST /services</td>
+      <td>Registrar nuevo servicio.</td>
+      <td>1</td>
+      <td>Varela Bustinza, Marcelo Alessandro</td>
+      <td>In-Process</td>
+   </tr>
+
+   <tr>
+      <td rowspan="2">TS15</td>
+      <td rowspan="2">Endpoints para Users</td>
+      <td>T1</td>
+      <td>GET /users</td>
+      <td>Obtener lista de usuarios.</td>
+      <td>1</td>
+      <td>Yum Gonzales, Jorge Suin</td>
+      <td>In-Process</td>
+   </tr>
+   <tr>
+      <td>T2</td>
+      <td>GET /users/{id}</td>
+      <td>Obtener usuario por ID.</td>
+      <td>1</td>
+      <td>Yum Gonzales, Jorge Suin</td>
+      <td>In-Process</td>
+   </tr>
+
+   <!-- Responsive y Accesibilidad -->
+   <tr>
+      <td rowspan="2">TS06</td>
+      <td rowspan="2">Diseño responsive y accesible</td>
+      <td>T1</td>
+      <td>Angular Material Layout</td>
+      <td>Usar FlexLayout y BreakpointObserver para responsividad.</td>
+      <td>4</td>
+      <td>Chi Cruzatt, Kevin Jorge</td>
+      <td>In-Process</td>
+   </tr>
+   <tr>
+      <td>T2</td>
+      <td>ARIA en componentes</td>
+      <td>Añadir roles, labels y focus management para accesibilidad.</td>
+      <td>3</td>
+      <td>Varela Bustinza, Marcelo Alessandro</td>
+      <td>In-Process</td>
    </tr>
 </table>
 
