@@ -3355,14 +3355,14 @@ En el tercer sprint backlog, el equipo tuvo la intención de iniciar y avanzar e
       <td rowspan="2">Crear endpoint para registro de providerprofile</td>
       <td>T1</td>
       <td>POST providerprofile</td>
-      <td>Crear perfil de salon provider.</td>
+      <td>Crear perfil de provider profile.</td>
       <td>2</td>
       <td>Varela Bustinza, Marcelo Alessandro</td>
       <td>In-Process</td>
    </tr>
    <tr>
       <td>T2</td>
-      <td>GET /salonprovider/{id}</td>
+      <td>GET /providerprofile/{id}</td>
       <td>Obtener perfil de salonprovider por ID.</td>
       <td>1</td>
       <td>Varela Bustinza, Marcelo Alessandro</td>
