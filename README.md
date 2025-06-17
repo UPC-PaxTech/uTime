@@ -3665,27 +3665,30 @@ Preguntas para Segmento objetivo 02:
 
 ### Conclusiones
 
-- La corrección de los ítems observados en la primera entrega (TB1) permitió al equipo mejorar significativamente la calidad del proyecto, alineándose mejor con los requerimientos del curso.
+- Durante el Sprint 3, el equipo avanzó significativamente en el desarrollo del backend de la plataforma uTime.
 
-- La elaboración del Sprint 2, junto con su planificación y backlog, fortaleció la organización interna del equipo y permitió una gestión más efectiva de las tareas y tiempos.
+- Se logró consolidar la lógica principal del sistema, encargada de gestionar citas y servicios específicos para salones de belleza y barberías.
 
-- La creación del diagrama de clases fue clave para definir de manera clara la estructura y relación entre los componentes del sistema, facilitando su implementación posterior.
+- Este avance fue clave para acercarnos a una versión funcional e integrada de la aplicación, sentando las bases para una implementación completa.
 
-- El repositorio del proyecto FrontEnd en GitHub brindó una base organizada y accesible para el desarrollo colaborativo, asegurando el control de versiones y la trazabilidad del avance.
+- Las entrevistas de validación con usuarios reales proporcionaron retroalimentación valiosa que ayudó a verificar la utilidad y viabilidad del producto, así como a detectar mejoras necesarias desde la perspectiva del cliente.
 
-- La elaboración de evidencias de ejecución, documentación de servicios y despliegue del software validaron el cumplimiento de los objetivos del sprint, reforzando la importancia de documentar cada fase del proceso.
+- La producción del video About The Team facilitó la reflexión crítica del equipo sobre sus fortalezas, debilidades y oportunidades de mejora, promoviendo un ambiente más consciente y colaborativo.
+
+- En el video About The Product, se logró comunicar de manera clara y efectiva las funcionalidades del backend, de la aplicación principal y de la landing page, lo que fortaleció la presentación integral del proyecto frente a diferentes audiencias.
+
 
 ### Recomendaciones
 
-- Continuar con la documentación detallada de cada fase del desarrollo, especialmente en los próximos sprints, para mantener una trazabilidad clara del trabajo realizado.
+- Continuar fortaleciendo la validación con usuarios, incorporando sus comentarios directamente en los próximos sprints para mejorar la experiencia y funcionalidad del sistema.
 
-- Revisar constantemente los entregables previos para asegurar que se han corregido adecuadamente los ítems observados y no repetir los mismos errores en futuras entregas.
+- Documentar con mayor profundidad las rutas y servicios desarrollados en el backend, incluyendo pruebas y ejemplos de uso, para facilitar el mantenimiento y futuras integraciones.
 
-- Mantener el uso activo y ordenado del repositorio de código, asegurando que todos los miembros del equipo sigan buenas prácticas de versionamiento y documentación de commits.
+- Seguir promoviendo espacios de autoevaluación en el equipo, como se hizo en el video About The Team, para identificar a tiempo los aspectos a mejorar en la dinámica grupal.
 
- - Profundizar en la planificación de sprints futuros, identificando claramente las tareas críticas y los posibles riesgos, para mejorar la eficiencia del equipo.
+- Aprovechar los recursos multimedia como los videos explicativos para mejorar la comunicación del proyecto, tanto interna como externamente, asegurando que los avances técnicos sean comprendidos por todos los interesados.
 
-- Validar con los docentes y el sílabo que todas las evidencias generadas (review, services, deployment) cumplan con los criterios de evaluación establecidos, evitando omisiones en la entrega final.
+- Reforzar la conexión entre los módulos del frontend y backend, asegurando una integración fluida y bien documentada que permita escalar el sistema sin mayores fricciones.
 
 
 # Bibliografía
