@@ -101,26 +101,26 @@
 | 1.12    | 23/04/2025 | Chi, Rivera, Varela, Yalán, Yum  | Elaboración del Landing Page                                                                           |
 | 2.0     | 27/04/2025 | Chi, Rivera, Varela, Yalán, Yum  | Corrección de los items mencionados en la primera entrega (TB1)                                        |
 | 2.1     | 29/04/2025 | Chi, Rivera, Varela, Yalán, Yum  | Elaboración del Sprint 2                                                                               |
-| 2.2     | 01/04/2025 | Chi, Rivera, Varela, Yalán, Yum  | Elaboración del Diagrama de clases                                                                     |
-| 2.3     | 02/04/2025 | Chi, Rivera, Varela, Yalán, Yum  | Creación del Proyecto en el Repositorio de FrontEnd Web Application                                    |
-| 2.4     | 03/04/2025 | Chi, Rivera, Varela, Yalán, Yum  | Elaboración del Sprint Planing                                                                         |
-| 2.5     | 05/04/2025 | Chi, Rivera, Varela, Yalán, Yum  | Creación del Sprint Backlog                                                                            |
-| 2.7     | 10/04/2025 | Chi, Rivera, Varela, Yalán, Yum  | Elaboración del Execution Evidence for Sprint Review.                                                  |
-| 2.8     | 12/04/2025 | Chi, Rivera, Varela, Yalán, Yum  | Creación del Services Documentation Evidence for Sprint Review.                                        |
-| 2.9     | 14/04/2025 | Chi, Rivera, Varela, Yalán, Yum  | Elaboración del Software Deployment Evidence for Sprint Review.                                        |
-| 3.0     | 27/04/2025 | Chi, Rivera, Varela, Yalán, Yum  | Corrección de los items mencionados en la primera entrega (TP1)                                        |
-| 3.1     | 29/04/2025 | Chi, Rivera, Varela, Yalán, Yum  | Elaboración del Sprint 3                                                                               |
-| 3.2     | 01/04/2025 | Chi, Rivera, Varela, Yalán, Yum  | Elaboración del Diagrama de clases del Backend                                                         |
-| 3.3     | 02/04/2025 | Chi, Rivera, Varela, Yalán, Yum  | Creación del Proyecto en el Repositorio de Web Application                                             |
-| 3.4     | 03/04/2025 | Chi, Rivera, Varela, Yalán, Yum  | Elaboración del Sprint Planing 3                                                                       |
-| 3.5     | 05/04/2025 | Chi, Rivera, Varela, Yalán, Yum  | Creación del Sprint Backlog 3                                                                          |
-| 3.6     | 10/04/2025 | Chi, Rivera, Varela, Yalán, Yum  | Elaboración del Execution Evidence for Sprint Review 3.                                                |
-| 3.7     | 12/04/2025 | Chi, Rivera, Varela, Yalán, Yum  | Creación del las Validation Interviews                                                                 |
-| 3.8     | 14/04/2025 | Chi, Rivera, Varela, Yalán, Yum  | Elaboración del Diseño de Entrevistas                                                                  |
-| 3.9     | 14/04/2025 | Chi, Rivera, Varela, Yalán, Yum  | Elaboración del Registro de Entrevistas.                                                               |
-| 3.10    | 14/04/2025 | Chi, Rivera, Varela, Yalán, Yum  | Elaboración del Video About-the-Product.                                                               |
-| 3.11    | 14/04/2025 | Chi, Rivera, Varela, Yalán, Yum  | Elaboración de las Conclusiones y recomendaciones.                                                     |
-| 3.11    | 14/04/2025 | Chi, Rivera, Varela, Yalán, Yum  | Elaboración del Video About-the-Team.                                                                  |
+| 2.2     | 01/05/2025 | Chi, Rivera, Varela, Yalán, Yum  | Elaboración del Diagrama de clases                                                                     |
+| 2.3     | 02/05/2025 | Chi, Rivera, Varela, Yalán, Yum  | Creación del Proyecto en el Repositorio de FrontEnd Web Application                                    |
+| 2.4     | 03/05/2025 | Chi, Rivera, Varela, Yalán, Yum  | Elaboración del Sprint Planing                                                                         |
+| 2.5     | 05/05/2025 | Chi, Rivera, Varela, Yalán, Yum  | Creación del Sprint Backlog                                                                            |
+| 2.7     | 10/05/2025 | Chi, Rivera, Varela, Yalán, Yum  | Elaboración del Execution Evidence for Sprint Review.                                                  |
+| 2.8     | 12/05/2025 | Chi, Rivera, Varela, Yalán, Yum  | Creación del Services Documentation Evidence for Sprint Review.                                        |
+| 2.9     | 14/05/2025 | Chi, Rivera, Varela, Yalán, Yum  | Elaboración del Software Deployment Evidence for Sprint Review.                                        |
+| 3.0     | 27/05/2025 | Chi, Rivera, Varela, Yalán, Yum  | Corrección de los items mencionados en la primera entrega (TP1)                                        |
+| 3.1     | 30/06/2025 | Chi, Rivera, Varela, Yalán, Yum  | Elaboración del Sprint 3                                                                               |
+| 3.2     | 01/06/2025 | Chi, Rivera, Varela, Yalán, Yum  | Elaboración del Diagrama de clases del Backend                                                         |
+| 3.3     | 02/06/2025 | Chi, Rivera, Varela, Yalán, Yum  | Creación del Proyecto en el Repositorio de Web Application                                             |
+| 3.4     | 03/06/2025 | Chi, Rivera, Varela, Yalán, Yum  | Elaboración del Sprint Planing 3                                                                       |
+| 3.5     | 05/06/2025 | Chi, Rivera, Varela, Yalán, Yum  | Creación del Sprint Backlog 3                                                                          |
+| 3.6     | 10/06/2025 | Chi, Rivera, Varela, Yalán, Yum  | Elaboración del Execution Evidence for Sprint Review 3.                                                |
+| 3.7     | 12/06/2025 | Chi, Rivera, Varela, Yalán, Yum  | Creación del las Validation Interviews                                                                 |
+| 3.8     | 14/06/2025 | Chi, Rivera, Varela, Yalán, Yum  | Elaboración del Diseño de Entrevistas                                                                  |
+| 3.9     | 14/06/2025 | Chi, Rivera, Varela, Yalán, Yum  | Elaboración del Registro de Entrevistas.                                                               |
+| 3.10    | 15/06/2025 | Chi, Rivera, Varela, Yalán, Yum  | Elaboración del Video About-the-Product.                                                               |
+| 3.11    | 15/06/2025 | Chi, Rivera, Varela, Yalán, Yum  | Elaboración de las Conclusiones y recomendaciones.                                                     |
+| 3.11    | 16/06/2025 | Chi, Rivera, Varela, Yalán, Yum  | Elaboración del Video About-the-Team.                                                                  |
 
 </div>
 
