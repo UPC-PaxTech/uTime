@@ -3482,9 +3482,8 @@ Enlace para acceder al Trello: [Trello Sprint Backlog 3]()
 ### 5.2.3.5. Execution Evidence for Sprint Review
 En el Sprint 3 se avanzó en la implementación y despliegue del backend. La cual muestra los diferentes endpoints del sistema del negocio.
 
-####1.Endpoints for provider
-<img src="img/providers_end.png" alt="Providers endpoint" width"500" height="500" />
-
+#### 1.Endpoints for provider
+<img src="![providers_end.png](img/providers_end.png)" alt="Providers endpoint" width"500" height="500" />
 ### 5.2.3.6. Services Documentation Evidence for Sprint Review
 A continuación, se presentan tres fragmentos de código que evidencian el uso e implementación de los servicio dentro del sistema Backend, abarcando desde la configuracion de los endpoints, asi como la lógica de la estructura para los bounded context del negocio:
 1. 
