@@ -3251,13 +3251,13 @@ En el tercer sprint backlog, el equipo tuvo la intención de iniciar y avanzar e
       <td><b>Id</b></td>
       <td><b>Title</b></td>
       <td><b>Id</b></td>
-      <td><b>Title</b></td>
+      <td><b>Task Title</b></td>
       <td><b>Description</b></td>
       <td><b>Estimation (Hours)</b></td>
       <td><b>Assigned To</b></td>
       <td><b>Status (To-do/In-Process/To-Review/Done)</b></td>
    </tr>
-   <!-- Encriptación -->
+   <!-- Encriptación (Spring Security) -->
    <tr>
       <td rowspan="2">TS03</td>
       <td rowspan="2">Encriptación de contraseñas</td>
@@ -3276,7 +3276,7 @@ En el tercer sprint backlog, el equipo tuvo la intención de iniciar y avanzar e
       <td>Yum Gonzales, Jorge Suin</td>
       <td>In-Process</td>
    </tr>
-   <!-- Validaciones -->
+   <!-- Validaciones (Angular + Spring Boot) -->
    <tr>
       <td rowspan="2">TS05</td>
       <td rowspan="2">Validaciones de formularios</td>
@@ -3295,7 +3295,7 @@ En el tercer sprint backlog, el equipo tuvo la intención de iniciar y avanzar e
       <td>Chi Cruzatt, Kevin Jorge</td>
       <td>In-Process</td>
    </tr>
-   <!-- Endpoint registro usuario -->
+   <!-- Endpoints (Spring Boot + Swagger) -->
    <tr>
       <td rowspan="3">TS07</td>
       <td rowspan="3">Crear endpoint para registro de usuario</td>
@@ -3322,184 +3322,74 @@ En el tercer sprint backlog, el equipo tuvo la intención de iniciar y avanzar e
       <td>Yum Gonzales, Jorge Suin</td>
       <td>In-Process</td>
    </tr>
-   <!-- Endpoints separados -->
+   <!-- Endpoint Workers (sistema completo) -->
    <tr>
-      <td rowspan="3">TS08</td>
-      <td rowspan="3">Endpoints para Provider</td>
+      <td rowspan="8">TS08</td>
+      <td rowspan="8">Desarrollar endpoint para un conjunto de Workers</td>
       <td>T1</td>
-      <td>GET /providers</td>
-      <td>Obtener lista de proveedores.</td>
-      <td>1</td>
+      <td>Implementar método GET /providers</td>
+      <td>Obtener la lista de proveedores registrados en el sistema.</td>
+      <td>4</td>
       <td>Chi Cruzatt, Kevin Jorge</td>
       <td>In-Process</td>
    </tr>
    <tr>
       <td>T2</td>
-      <td>POST /providers</td>
-      <td>Registrar nuevo proveedor.</td>
-      <td>1</td>
-      <td>Chi Cruzatt, Kevin Jorge</td>
+      <td>Implementar POST /provider-profile</td>
+      <td>Crear un nuevo perfil de proveedor con sus datos asociados.</td>
+      <td>3</td>
+      <td>Varela Bustinza, Marcelo Alessandro</td>
       <td>In-Process</td>
    </tr>
    <tr>
       <td>T3</td>
-      <td>GET /providers/{id}</td>
-      <td>Obtener proveedor por ID.</td>
-      <td>1</td>
+      <td>Implementar GET, POST y GET BY ID /workers</td>
+      <td>Registrar nuevos trabajadores y obtener sus datos.</td>
+      <td>3</td>
+      <td>Rivera Sosa, Eduardo Gael</td>
+      <td>In-Process</td>
+   </tr>
+   <tr>
+      <td>T4</td>
+      <td>Implementar autenticación JWT (POST /auth)</td>
+      <td>Generar token de acceso para login y registro.</td>
+      <td>4</td>
+      <td>Yum Gonzales, Jorge Suin</td>
+      <td>In-Process</td>
+   </tr>
+   <tr>
+      <td>T5</td>
+      <td>Implementar GET, POST y GET BY ID /clients</td>
+      <td>Gestión de clientes registrados en la plataforma.</td>
+      <td>3</td>
       <td>Chi Cruzatt, Kevin Jorge</td>
       <td>In-Process</td>
    </tr>
-
    <tr>
-      <td rowspan="2">TS09</td>
-      <td rowspan="2">Endpoints para SalonProfile</td>
-      <td>T1</td>
-      <td>POST /salonprofile</td>
-      <td>Crear perfil de salón.</td>
+      <td>T6</td>
+      <td>Implementar GET, POST y GET BY ID /time-slots</td>
+      <td>Controlar la disponibilidad horaria de los servicios.</td>
+      <td>3</td>
+      <td>Rivera Sosa, Eduardo Gael</td>
+      <td>In-Process</td>
+   </tr>
+   <tr>
+      <td>T7</td>
+      <td>Implementar GET y POST /services</td>
+      <td>Gestión de servicios disponibles en el sistema.</td>
       <td>2</td>
       <td>Varela Bustinza, Marcelo Alessandro</td>
       <td>In-Process</td>
    </tr>
    <tr>
-      <td>T2</td>
-      <td>GET /salonprofile/{id}</td>
-      <td>Obtener perfil de salón por ID.</td>
-      <td>1</td>
-      <td>Varela Bustinza, Marcelo Alessandro</td>
-      <td>In-Process</td>
-   </tr>
-
-   <tr>
-      <td rowspan="3">TS10</td>
-      <td rowspan="3">Endpoints para Workers</td>
-      <td>T1</td>
-      <td>GET /workers</td>
-      <td>Obtener lista de trabajadores.</td>
-      <td>1</td>
-      <td>Rivera Sosa, Eduardo Gael</td>
-      <td>In-Process</td>
-   </tr>
-   <tr>
-      <td>T2</td>
-      <td>POST /workers</td>
-      <td>Registrar nuevo trabajador.</td>
-      <td>1</td>
-      <td>Rivera Sosa, Eduardo Gael</td>
-      <td>In-Process</td>
-   </tr>
-   <tr>
-      <td>T3</td>
-      <td>GET /workers/{id}</td>
-      <td>Obtener trabajador por ID.</td>
-      <td>1</td>
-      <td>Rivera Sosa, Eduardo Gael</td>
-      <td>In-Process</td>
-   </tr>
-
-   <tr>
-      <td>TS11</td>
-      <td>Endpoint de Autenticación</td>
-      <td>T1</td>
-      <td>POST /auth/login</td>
-      <td>Inicio de sesión con retorno de JWT.</td>
+      <td>T8</td>
+      <td>Implementar GET y GET BY ID /users</td>
+      <td>Obtener datos detallados de usuarios registrados.</td>
       <td>2</td>
       <td>Yum Gonzales, Jorge Suin</td>
       <td>In-Process</td>
    </tr>
-
-   <tr>
-      <td rowspan="3">TS12</td>
-      <td rowspan="3">Endpoints para Clients</td>
-      <td>T1</td>
-      <td>GET /clients</td>
-      <td>Obtener lista de clientes.</td>
-      <td>1</td>
-      <td>Chi Cruzatt, Kevin Jorge</td>
-      <td>In-Process</td>
-   </tr>
-   <tr>
-      <td>T2</td>
-      <td>POST /clients</td>
-      <td>Registrar nuevo cliente.</td>
-      <td>1</td>
-      <td>Chi Cruzatt, Kevin Jorge</td>
-      <td>In-Process</td>
-   </tr>
-   <tr>
-      <td>T3</td>
-      <td>GET /clients/{id}</td>
-      <td>Obtener cliente por ID.</td>
-      <td>1</td>
-      <td>Chi Cruzatt, Kevin Jorge</td>
-      <td>In-Process</td>
-   </tr>
-
-   <tr>
-      <td rowspan="3">TS13</td>
-      <td rowspan="3">Endpoints para Time Slots</td>
-      <td>T1</td>
-      <td>GET /timeslots</td>
-      <td>Obtener horarios disponibles.</td>
-      <td>1</td>
-      <td>Rivera Sosa, Eduardo Gael</td>
-      <td>In-Process</td>
-   </tr>
-   <tr>
-      <td>T2</td>
-      <td>POST /timeslots</td>
-      <td>Crear nuevo horario.</td>
-      <td>1</td>
-      <td>Rivera Sosa, Eduardo Gael</td>
-      <td>In-Process</td>
-   </tr>
-   <tr>
-      <td>T3</td>
-      <td>GET /timeslots/{id}</td>
-      <td>Obtener horario por ID.</td>
-      <td>1</td>
-      <td>Rivera Sosa, Eduardo Gael</td>
-      <td>In-Process</td>
-   </tr>
-
-   <tr>
-      <td rowspan="2">TS14</td>
-      <td rowspan="2">Endpoints para Services</td>
-      <td>T1</td>
-      <td>GET /services</td>
-      <td>Obtener lista de servicios disponibles.</td>
-      <td>1</td>
-      <td>Varela Bustinza, Marcelo Alessandro</td>
-      <td>In-Process</td>
-   </tr>
-   <tr>
-      <td>T2</td>
-      <td>POST /services</td>
-      <td>Registrar nuevo servicio.</td>
-      <td>1</td>
-      <td>Varela Bustinza, Marcelo Alessandro</td>
-      <td>In-Process</td>
-   </tr>
-
-   <tr>
-      <td rowspan="2">TS15</td>
-      <td rowspan="2">Endpoints para Users</td>
-      <td>T1</td>
-      <td>GET /users</td>
-      <td>Obtener lista de usuarios.</td>
-      <td>1</td>
-      <td>Yum Gonzales, Jorge Suin</td>
-      <td>In-Process</td>
-   </tr>
-   <tr>
-      <td>T2</td>
-      <td>GET /users/{id}</td>
-      <td>Obtener usuario por ID.</td>
-      <td>1</td>
-      <td>Yum Gonzales, Jorge Suin</td>
-      <td>In-Process</td>
-   </tr>
-
-   <!-- Responsive y Accesibilidad -->
+   <!-- Diseño responsive (Angular) -->
    <tr>
       <td rowspan="2">TS06</td>
       <td rowspan="2">Diseño responsive y accesible</td>
@@ -3519,8 +3409,6 @@ En el tercer sprint backlog, el equipo tuvo la intención de iniciar y avanzar e
       <td>In-Process</td>
    </tr>
 </table>
-
-
 
 Enlace para acceder al Trello: [Trello Sprint Backlog 3]()
 ### 5.2.3.4. Development Evidence for Sprint Review
@@ -3600,8 +3488,8 @@ En el Sprint 3 se avanzó en la implementación y despliegue del backend. La cua
 En esta sección se muestra el endpoint de Provider con los diversos métodos para solicitar recursos al servidor respecto a las necesidades del negocio y su interacción con el sistema; asimismo en este contexto tenemos un "GET" el cual devuelve a todos los proveedores del servicio registrados, un "POST" que permite el registro de proveedores al servicio y "GET BY ID" que permite la identificación de provedores mediante el {id} que tienen cada uno.  
 <img src="img/providers_end.png" alt="Providers endpoint" />
 
-### 2.Salon Profile
-En esta sección se muestra el endpoint de SalonProfile con los diversos métodos del servicio e interacciones que tiene con el negocio y sistema; asimismo en este contexto tenemos un "GET BY ID" que permite el llamado de todos los salones de belleza registrados mediante el {id} que tiene cada uno, asi como un "POST" que permite el registro de nuevos salones de belleza en el sistema.
+### 2.Provider Profile
+En esta sección se muestra el endpoint de ProviderProfile con los diversos métodos del servicio e interacciones que tiene con el negocio y sistema; asimismo en este contexto tenemos un "GET BY ID" que permite el llamado de todos los provider profiles registrados mediante el {id} que tiene cada uno, asi como un "POST" que permite el registro de nuevos salones de belleza en el sistema.
 <img src="img/Salon_profile_end.png" alt="Providers endpoint"/>
 
 
