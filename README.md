@@ -3325,7 +3325,7 @@ En el tercer sprint backlog, el equipo tuvo la intención de iniciar y avanzar e
 
    <tr>
       <td rowspan="3">TS08</td>
-      <td rowspan="3">Crear endpoint para registro de provider profile</td>
+      <td rowspan="3">Crear endpoint para registro de provider</td>
       <td>T1</td>
       <td>GET /providers</td>
       <td>Obtener lista de proveedores.</td>
@@ -3352,18 +3352,18 @@ En el tercer sprint backlog, el equipo tuvo la intención de iniciar y avanzar e
 
    <tr>
       <td rowspan="2">TS09</td>
-      <td rowspan="2">Crear endpoint para registro de salon profile</td>
+      <td rowspan="2">Crear endpoint para registro de providerprofile</td>
       <td>T1</td>
-      <td>POST /salonprofile</td>
-      <td>Crear perfil de salón.</td>
+      <td>POST providerprofile</td>
+      <td>Crear perfil de salon provider.</td>
       <td>2</td>
       <td>Varela Bustinza, Marcelo Alessandro</td>
       <td>In-Process</td>
    </tr>
    <tr>
       <td>T2</td>
-      <td>GET /salonprofile/{id}</td>
-      <td>Obtener perfil de salón por ID.</td>
+      <td>GET /salonprovider/{id}</td>
+      <td>Obtener perfil de salonprovider por ID.</td>
       <td>1</td>
       <td>Varela Bustinza, Marcelo Alessandro</td>
       <td>In-Process</td>
