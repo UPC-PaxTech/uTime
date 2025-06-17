@@ -130,32 +130,42 @@ URL del repositorio para el proyecto: https://github.com/UPC-PaxTech/uTime/
 
 **TB1**
 
-Para el desarrollo del informe perteneciente a la entrega del TP1, se dividió la implementación de secciones de la siguiente forma
-para cada integrante del equipo:
+Para el desarrollo del informe perteneciente a la entrega del TP1, se dividió la implementación de secciones de la siguiente forma para cada integrante del equipo:
 
 
-| Integrantes    | Tareas Asignadas                                                                                                                                                                  |
-| -------------- |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Kevin Chi      | Segmento Objetivo, Use Task Matrix, Ubiquitous Language, User Stories, Software Architecture diagrams (c4), Software Object-oriented Design, Class Diagrams.                      |
-| Gael Rivera    | Análisis de competidores, Estrategias y tácticas frente a competidores, Entrevistas, Ubiquitous Language, User Stories, Product Backlog, Database Diagram, Landing Page, Sprint 1. |
-| Marcelo Varela | Antecedentes y problemática, Registro de entrevistas, User persona, Empathy mapping, Impact mapping, User stories, Functional requirements, Organization systems, Labeling System |
-| Angie Yalán   | Startup Profile, Solution Profile, Segmento Objetivo, Lean UX Process, Style Guidelines, Landing Page UI Design, Web Application UX/UI Design, Web Application Prototyping.       |
-| Jorge Yum      | As-Is To-Be Scenario Mapping, Impact Mapping, User Stories, Landing Page development, Product Backlog, Information Architecture, Sprint 1                                                                   |
+| Integrantes     | Tareas Asignadas                                                                                                                                                                  |
+|-----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Kevin Chi       | Segmento Objetivo, Use Task Matrix, Ubiquitous Language, User Stories, Software Architecture diagrams (c4), Software Object-oriented Design, Class Diagrams.                      |
+| Gael Rivera     | Análisis de competidores, Estrategias y tácticas frente a competidores, Entrevistas, Ubiquitous Language, User Stories, Product Backlog, Database Diagram, Landing Page, Sprint 1. |
+| Marcelo Varela  | Antecedentes y problemática, Registro de entrevistas, User persona, Empathy mapping, Impact mapping, User stories, Functional requirements, Organization systems, Labeling System |
+| Angie Yalán     | Startup Profile, Solution Profile, Segmento Objetivo, Lean UX Process, Style Guidelines, Landing Page UI Design, Web Application UX/UI Design, Web Application Prototyping.       |
+| Jorge Yum       | As-Is To-Be Scenario Mapping, Impact Mapping, User Stories, Landing Page development, Product Backlog, Information Architecture, Sprint 1                                                                   |
 
 **TP1**
 
-Para el desarrollo del informe perteneciente a la entrega del TP1, se dividió la implementación de secciones de la siguiente forma
-para cada integrante del equipo:
+Para el desarrollo del informe perteneciente a la entrega del TP1, se dividió la implementación de secciones de la siguiente forma para cada integrante del equipo:
 
 
-| Integrantes    | Tareas Asignadas                                                                                                                                                                                                                                                 |
-|----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Kevin Chi      | Correción de los diagramas, Sprint 2, Sprint Backlog, Sprint Planning, Development Evidence for Sprint Review, Execution Evidence for Sprint Review, Services Documentation Evidence for Sprint Review, Software Deployment Evidence for Sprint Review.          |
-| Gael Rivera    | Correción de los US, Sprint 2, Sprint Backlog, Sprint Planning, Development Evidence for Sprint Review, Execution Evidence for Sprint Review, Services Documentation Evidence for Sprint Review, Software Deployment Evidence for Sprint Review.                 |
-| Marcelo Varela | Correción del Bibliografía y Anexos, Sprint 2, Sprint Backlog, Sprint Planning, Development Evidence for Sprint Review, Execution Evidence for Sprint Review, Services Documentation Evidence for Sprint Review, Software Deployment Evidence for Sprint Review. |
-| Angie Yalán    | Correción del LeanUX, Sprint 2, Sprint Backlog, Sprint Planning, Development Evidence for Sprint Review, Execution Evidence for Sprint Review, Services Documentation Evidence for Sprint Review, Software Deployment Evidence for Sprint Review.                |
-| Jorge Yum      | Correcion de la Landing Page, Sprint 2, Sprint Backlog, Sprint Planning, Development Evidence for Sprint Review, Execution Evidence for Sprint Review, Services Documentation Evidence for Sprint Review, Software Deployment Evidence for Sprint Review.        |
+| Integrantes    | Tareas Asignadas                                                                                                                                                                                                                                                  |
+|----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Kevin Chi      | Corrección de los diagramas, Sprint 2, Sprint Backlog, Sprint Planning, Development Evidence for Sprint Review, Execution Evidence for Sprint Review, Services Documentation Evidence for Sprint Review, Software Deployment Evidence for Sprint Review.          |
+| Gael Rivera    | Corrección de los US, Sprint 2, Sprint Backlog, Sprint Planning, Development Evidence for Sprint Review, Execution Evidence for Sprint Review, Services Documentation Evidence for Sprint Review, Software Deployment Evidence for Sprint Review.                 |
+| Marcelo Varela | Corrección del Bibliografía y Anexos, Sprint 2, Sprint Backlog, Sprint Planning, Development Evidence for Sprint Review, Execution Evidence for Sprint Review, Services Documentation Evidence for Sprint Review, Software Deployment Evidence for Sprint Review. |
+| Angie Yalán    | Corrección del LeanUX, Sprint 2, Sprint Backlog, Sprint Planning, Development Evidence for Sprint Review, Execution Evidence for Sprint Review, Services Documentation Evidence for Sprint Review, Software Deployment Evidence for Sprint Review.                |
+| Jorge Yum      | Corrección de la Landing Page, Sprint 2, Sprint Backlog, Sprint Planning, Development Evidence for Sprint Review, Execution Evidence for Sprint Review, Services Documentation Evidence for Sprint Review, Software Deployment Evidence for Sprint Review.        |
 
+**TB2**
+
+Para el desarrollo del informe perteneciente a la entrega del TB2, se dividió la implementación de secciones de la siguiente forma para cada integrante del equipo:
+
+
+| Integrantes    | Tareas Asignadas                                                                                                                                                                                                                                                                                                                                                                                                        |
+|----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Kevin Chi      | Corrección de los diagramas, Sprint 3, Sprint Backlog, Sprint Planning, Development Evidence for Sprint Review, Execution Evidence for Sprint Review, Services Documentation Evidence for Sprint Review, Software Deployment Evidence for Sprint Review, Validation Interviews, Diseño de Entrevistas, Registro de Entrevistas, Evaluaciones según heurísticas, Video About-the-Product, Video About-the-Team.          |
+| Gael Rivera    | Corrección de los US, Sprint 3, Sprint Backlog, Sprint Planning, Development Evidence for Sprint Review, Execution Evidence for Sprint Review, Services Documentation Evidence for Sprint Review, Software Deployment Evidence for Sprint Review, Validation Interviews, Diseño de Entrevistas, Registro de Entrevistas, Evaluaciones según heurísticas, Video About-the-Product, Video About-the-Team.                 |
+| Marcelo Varela | Corrección del Bibliografía y Anexos, Sprint 3, Sprint Backlog, Sprint Planning, Development Evidence for Sprint Review, Execution Evidence for Sprint Review, Services Documentation Evidence for Sprint Review, Software Deployment Evidence for Sprint Review, Validation Interviews, Diseño de Entrevistas, Registro de Entrevistas, Evaluaciones según heurísticas, Video About-the-Product, Video About-the-Team. |
+| Angie Yalán    | Corrección del LeanUX, Sprint 3, Sprint Backlog, Sprint Planning, Development Evidence for Sprint Review, Execution Evidence for Sprint Review, Services Documentation Evidence for Sprint Review, Software Deployment Evidence for Sprint Review, Validation Interviews, Diseño de Entrevistas, Registro de Entrevistas, Evaluaciones según heurísticas, Video About-the-Product, Video About-the-Team.                |
+| Jorge Yum      | Corrección de la Landing Page, Sprint 3, Sprint Backlog, Sprint Planning, Development Evidence for Sprint Review, Execution Evidence for Sprint Review, Services Documentation Evidence for Sprint Review, Software Deployment Evidence for Sprint Review, Validation Interviews, Diseño de Entrevistas, Registro de Entrevistas, Evaluaciones según heurísticas, Video About-the-Product, Video About-the-Team.        |
 
 
 El proceso de colaboración en el informe se realizó mediante commits constantes al repositorio de la organización PaxTech.
