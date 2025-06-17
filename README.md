@@ -3410,10 +3410,85 @@ En el tercer sprint backlog, el equipo tuvo la intención de iniciar y avanzar e
 
 Enlace para acceder al Trello: [Trello Sprint Backlog 3]()
 ### 5.2.3.4. Development Evidence for Sprint Review
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Repository</th>
+      <th>Branch</th>
+      <th>Commit Id</th>
+      <th>Commit Message</th>
+      <th>Commited on (Date)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Web-Services</td><td>main</td><td>c809237</td><td>feat: added clients</td><td>27/05/2025</td></tr>
+    <tr><td>Web-Services</td><td>main</td><td>3378702</td><td>feat: initialized Salon</td><td>27/05/2025</td></tr>
+    <tr><td>Web-Services</td><td>main</td><td>39788fc</td><td>Create README.md</td><td>27/05/2025</td></tr>
+    <tr><td>Web-Services</td><td>main</td><td>dbc3c22</td><td>feat: Spring Boot project setup</td><td>27/05/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>6ab3187</td><td>feat: added workers and reservations bounded context</td><td>16/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>b4e05f2</td><td>readded salonprofilecontroller</td><td>15/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>84c70e9</td><td>Merge branch 'develop' of https://github.com/UPC-PaxTech/Web-Services into develop</td><td>15/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>6ff8ff1</td><td>latest changes</td><td>15/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>798dec8</td><td>latest changes</td><td>15/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>54231ed</td><td>Merge branch 'feature/iam-bounded-context' into develop</td><td>15/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>0715733</td><td>feat: add all packages about iam bounded</td><td>15/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>53fdd12</td><td>feat: add hashing and token about infrastructure package</td><td>14/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>b415029</td><td>feat: add aggregates, commands and queries aboun iam bounded</td><td>14/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>47be603</td><td>Merge branch 'develop' of https://github.com/UPC-PaxTech/Web-Services into develop</td><td>12/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>185f076</td><td>docs: added service class and valueobjects to services</td><td>12/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>6a5c965</td><td>Merge branch 'develop' of https://github.com/UPC-PaxTech/Web-Services into develop</td><td>10/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>d77f946</td><td>Merge branch 'develop' of https://github.com/UPC-PaxTech/Web-Services into develop</td><td>10/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>432a1d3</td><td>feat: service controller</td><td>10/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>7ba69d9</td><td>Merge branch 'develop' of https://github.com/UPC-PaxTech/Web-Services into develop</td><td>10/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>0ec70e7</td><td>docs: changed value objects services</td><td>10/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>4d91e49</td><td>feat: added services</td><td>10/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>0732e5f</td><td>Merge branch 'develop' of https://github.com/UPC-PaxTech/Web-Services into develop</td><td>09/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>39542a0</td><td>feat: add Client Files API</td><td>09/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>ba73b7a</td><td>Merge branch 'feature/salonProfile' into develop</td><td>07/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>3d6fbfb</td><td>feat: added Salon profile update y delete</td><td>07/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>65126ee</td><td>Merge branch 'develop' of https://github.com/UPC-PaxTech/Web-Services into develop</td><td>07/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>8cd1ec0</td><td>corrections</td><td>07/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>7cb813f</td><td>corrections</td><td>07/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>0cf8c7a</td><td>feat: salon profile without update or delete</td><td>05/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>7536cf4</td><td>fix: deleted unneeded file</td><td>05/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>22798e3</td><td>docs: update profile context</td><td>05/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>aed3a23</td><td>docs: remove all ids, it is all in base service</td><td>05/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>3a8ddb6</td><td>Merge branch 'develop' of https://github.com/UPC-PaxTech/Web-Services into develop</td><td>05/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>90c8265</td><td>gael xd</td><td>05/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>7401e4f</td><td>feat: new update</td><td>05/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>917a393</td><td>docs: fix id naming standard</td><td>05/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>26a5a3c</td><td>docs: fix class diagram profiles</td><td>05/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>d5c305b</td><td>Merge branch 'feature/class-diagram' into develop</td><td>05/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>749174e</td><td>docs: finish salon and clients</td><td>05/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>c8874ee</td><td>docs: added salon profile classes</td><td>05/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>a78ccad</td><td>Merge branch 'develop' of https://github.com/UPC-PaxTech/Web-Services into develop</td><td>05/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>2c5e0b3</td><td>Merge branch 'feature/class-diagram' into develop</td><td>05/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>d9553af</td><td>feat: AccountCommandServiceImplementation</td><td>03/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>d724893</td><td>feat: finished account Query Service and command service</td><td>03/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>0fefb28</td><td>feat: Salon updated</td><td>03/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>23cf8df</td><td>docs: add layer diagram and package diagram</td><td>03/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>a2e3f0e</td><td>docs: finish value objects of profiles</td><td>03/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>85cded1</td><td>feat: added learning center template examples</td><td>03/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>c2af4fa</td><td>docs: fix value objects into used variables</td><td>03/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>4822511</td><td>docs: add value objectos salon</td><td>03/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>cff8afa</td><td>docs: add class diagram new</td><td>02/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>2a40f2f</td><td>docs: add class diagram 0.1</td><td>01/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>cd1ffb2</td><td>feat: Add Client module with endpoints for getAll, getById, and Swagger integration</td><td>31/05/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>c5912c6</td><td>feat: added salons get by id</td><td>29/05/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>ea13078</td><td>feat: added salons values</td><td>29/05/2025</td></tr>
+  </tbody>
+</table>
 
 ### 5.2.3.5. Execution Evidence for Sprint Review
+En el Sprint 3 se avanzó en la implementación y despliegue del backend. La cual muestra los diferentes endpoints del sistema del negocio.
+
+####1.Endpoints for provider
+<img src="img/providers_end.png" alt="Providers endpoint" width"500" height="500" />
 
 ### 5.2.3.6. Services Documentation Evidence for Sprint Review
+A continuación, se presentan tres fragmentos de código que evidencian el uso e implementación de los servicio dentro del sistema Backend, abarcando desde la configuracion de los endpoints, asi como la lógica de la estructura para los bounded context del negocio:
+1. 
+
 
 ### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
