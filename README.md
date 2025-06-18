@@ -3712,23 +3712,71 @@ En el Sprint 3, se dividieron las tareas según las funcionalidades del sistema 
 # 5.3. Validation Interviews
 
 ## 5.3.1. Diseño de Entrevistas
-Preguntas para Segmento objetivo 01:
 
-* ¿Qué opinas del diseño y la información mostrada en la landing page? ¿Fue clara y útil para entender el servicio?
-* ¿Te resultó fácil registrarte y comenzar a usar la plataforma como cliente? ¿Hubo algo confuso?
-* ¿Cómo fue tu experiencia al buscar barberos por ubicación, servicio o disponibilidad?
-* ¿Pudiste agendar una cita sin inconvenientes? ¿Cómo calificarías el proceso de reserva?
-* ¿Te sentiste informado sobre el estado de tu reserva? ¿Recibiste confirmaciones o notificaciones claras?
-* ¿Qué mejorarías en la plataforma para facilitar tu próxima reserva?
+### PREGUNTAS INTRODUCTORIAS:
 
-Preguntas para Segmento objetivo 02:
+* ¿Cuál es tu nombre?
 
-* ¿Qué te pareció el proceso de registro como barbero? ¿Fue claro y rápido?
-* ¿Tuviste alguna dificultad al completar tu perfil profesional o ingresar tus servicios?
-* ¿Fue sencillo configurar tu disponibilidad y horarios de atención?
-* ¿Cómo fue tu experiencia visualizando las citas agendadas por los clientes?
-* ¿Consideras que tienes el control necesario sobre tu agenda desde la plataforma?
-* ¿Qué cambios sugerirías para mejorar tu experiencia como proveedor dentro de uTime?
+* ¿Has usado alguna herramienta digital para reservas o todo lo haces por WhatsApp, redes u otro método?
+
+* ¿Qué es lo que más te cuesta gestionar en el tema de reservas?
+
+
+### SEGMENTO 1: Dueños de Salones de Belleza o Barberías
+
+*Preguntas tras mostrar la Landing Page*
+
+* ¿Sientes que comunica bien la propuesta y beneficios del producto?
+
+* ¿Qué sección o contenido te pareció más útil o llamativo?
+
+* ¿Los planes que se ofrecen se ven claros y bien diferenciados?
+
+* ¿Te animarías a probar una plataforma como esta luego de ver la landing?
+
+
+*Preguntas tras mostrar la Aplicación Web (Vista del salón)*
+
+* ¿Fue fácil navegar y entender cómo funciona la gestión de citas?
+
+* ¿Te resultó intuitiva la configuración de horarios y servicios?
+
+* ¿Te parecen útiles las funciones de notificación automática y panel de reseñas?
+
+* ¿Qué tan probable es que uses esta herramienta en tu negocio?
+
+* ¿Te sentirías cómodo/a pagando por un plan si esto mejora la eficiencia de tu gestión?
+
+
+### SEGMENTO 2: Clientes de servicios de belleza
+
+*Preguntas tras mostrar la Landing Page*
+
+* ¿Qué tan atractivo te parece el diseño y la organización del sitio?
+ 
+* ¿Qué parte de la información te pareció más útil para ti como cliente?
+
+* ¿Te daría confianza usar este sistema para reservar en lugar de escribir por redes?
+
+*Preguntas tras mostrar la Aplicación Web (Vista cliente)*
+
+* ¿Fue sencillo registrarte y navegar por la aplicación?
+
+* ¿Pudiste encontrar fácilmente un estilista y agendar una cita?
+
+* ¿Qué opinas del flujo para elegir horario y método de pago?
+
+* ¿Te gustaría recibir notificaciones o recordatorios como los que viste?
+
+* ¿Te gustaría tener la opción de guardar tus salones favoritos o ver tu historial?
+
+### Preguntas Finales (Cierre)
+* ¿Qué es lo que más te gustó de uTime?
+
+* ¿Qué aspecto te pareció confuso o poco útil?
+
+* ¿Hay alguna funcionalidad que esperabas ver y no encontraste?
+
 
 ## 5.3.2. Registro de Entrevistas
 
