@@ -4052,7 +4052,11 @@ DESCRIPCIÓN DE PROBLEMAS
 
 ## 6.2 Video About-the-Team
 
+En este video hablamos sobre nuestro equipo de desarrollo de uTime, conformado por Kevin Chi, Jorge Sium, Marcelo Varela y yo, Gael Rivera. Cada uno de nosotros aporta habilidades distintas que se complementan muy bien, lo que nos ha permitido desarrollar diferentes partes del proyecto de forma eficiente. Una de nuestras principales fortalezas es justamente esa diversidad de conocimientos. Al inicio tuvimos algunos retos con la organización del tiempo, pero supimos adaptarnos, estableciendo mejor los horarios y dedicando momentos específicos para probar, ajustar y seguir avanzando. En este espacio queremos compartir cómo trabajamos juntos, nuestras fortalezas, debilidades y la forma en que logramos salir adelante como equipo.
 
+![Enlace al Video About The Team]()
+
+![Nuestro equipo de desarrollo](img/ImagenATT)
 
 # Bibliografía
 
@@ -4114,16 +4118,27 @@ https://upc-paxtech.github.io/Frontend-Web-Applications/iam/login
 
 * Microsoft Teams:
 https://upcedupe-my.sharepoint.com/:v:/g/personal/u202319668_upc_edu_pe/ERfEtE8S3WdLhoWUYUmMBfoBUBbhrCgm_thuZDMjyRHQHg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=SQO69q
+
 * Youtube:
 https://youtu.be/6XoZkCqmiOo
 
 **Url Video About the product:**
 
+* Microsoft Teams:
+
+* Youtube:
+
 **Url Video Exposicion TB2:**
+
+* Microsoft Teams:
+
+* Youtube:
 
 **Herramientas y Recursos Utilizados:**<br>
 
 URL del Needfinding Interviews: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202312504_upc_edu_pe/Eb0_dXIIVztGj7h_-J6z6IIBxfjUUU4WJPM7v3x5BmOlNA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=TzxLwv
+
+URL del Validation Interviews: 
 
 URL del Prototypes Navigation / Product Navigation: https://www.figma.com/design/2RXg2e7OWrAbqYfNcw2EVP/UTIME?node-id=0-1&t=NPXJtI3GloAbxeeU-1
 
