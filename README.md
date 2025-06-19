@@ -3859,6 +3859,13 @@ https://utime-web-service.azurewebsites.net/swagger-ui/index.html
 ### 5.2.3.8. Team Collaboration Insights during  Sprint
 En el Sprint 3, se dividieron las tareas según las funcionalidades del sistema y se asignaron a los integrantes del equipo considerando sus competencias y experiencia. Esta estrategia facilitó una distribución más eficiente del trabajo y contribuyó a un progreso más ágil en el desarrollo.
 
+![Insight 1](img/Insight1.png)
+
+![Insight 2](img/INSIGHT3.png)
+
+![Insight 2](img/INSIGHT2.png)
+
+
 # 5.3. Validation Interviews
 
 ## 5.3.1. Diseño de Entrevistas
