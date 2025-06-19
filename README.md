@@ -3821,6 +3821,136 @@ En el Sprint 3, se dividieron las tareas según las funcionalidades del sistema 
 
 ## 5.3.3. Evaluaciones según heurísticas
 
+#### UX Heuristics & Principles Evaluation
+##### Usability – Inclusive Design – Information Architecture
+
+*CARRERA*: Ingeniería de Software  
+*CURSO*: Aplicaciones Web  
+*SECCIÓN*: 4363  
+*PROFESORES*: Todos  
+*AUDITOR*: Grupo PropGMS – Evaluación UX uTime  
+*CLIENTE(S)*: Equipo de desarrollo de PaxTech (uTime)
+
+<hr>
+
+#### SITE O APP A EVALUAR:
+*uTime – Plataforma Web de Gestión de Citas para Salones y Clientes*
+
+#### TAREAS A EVALUAR:
+
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+
+1. Registro de un nuevo usuario (cliente y salón)
+2. Inicio de sesión
+3. Visualización de citas programadas
+4. Creación y edición de servicios por parte del salón
+5. Configuración de horarios del salón
+6. Visualización y selección de planes de suscripción
+7. Cancelación o reprogramación de una cita
+8. Recepción de notificaciones de recordatorio
+9. Visualización de beneficios y contacto desde la landing page
+
+*ESCALA DE SEVERIDAD:*
+
+<i>Los errores serán puntuados tomando en cuenta la siguiente escala de severidad. </i>
+
+<table>
+   <tr>
+      <th>Nivel</th>
+      <th>Descripción</th>
+   </tr>
+   <tr>
+      <td>1</td>
+      <td>Problema superficial: puede ser fácilmente superador por el usuario ó ocurre con muy poco
+frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo.</td>
+   </tr>
+   <tr>
+      <td>2</td>
+      <td>Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de
+superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente
+reléase</td>
+   </tr>
+   <tr>
+      <td>3</td>
+      <td>Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es
+importante que sean corregidos y se les debe asignar una prioridad alta.</td>
+   </tr>
+   <tr>
+      <td>4</td>
+      <td>Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de
+la herramienta. Es imperativo que sea corregido antes del lanzamiento.</td>
+   </tr>
+</table>
+
+*TABLE DE RESUMEN:*
+
+| # | Problema                                                                           | Escala de severidad | Heurística / Principio violado                  |
+|---|------------------------------------------------------------------------------------|---------------------|-------------------------------------------------|
+| 1 | No se confirma visualmente el éxito al iniciar sesión                              | 3                   | Usability: Visibilidad del estado del sistema   |
+| 2 | Iconos sin etiquetas dificultan el reconocimiento de funciones                     | 2                   | Usability: Reconocimiento antes que recuerdo    |
+| 3 | Textos largos en la landing pueden saturar al usuario                              | 1                   | Usability: Diseño estético y minimalista        |
+| 4 | No existe acceso a sección de ayuda o tutorial                                     | 3                   | Usability: Ayuda y documentación                |
+| 5 | No se puede ver el historial completo de citas pasadas desde el perfil del cliente | 2                   | Information Architecture: ¿Es localizable?      |
+| 6 | Falta de confirmación visual al editar servicios                                   | 2                   | Usability: Visibilidad del estado del sistema   |
+| 7 | El salón no puede responder a los reviews que dejan los clientes                   | 2                   | Usability: Libertad y control del usuario       |
+DESCRIPCIÓN DE PROBLEMAS
+
+*PROBLEMA #1: No se confirma visualmente el éxito al iniciar sesión*
+- *Severidad*: 3
+- *Heurística violada*: Usability – Visibilidad del estado del sistema
+- *Descripción*:  
+  Al iniciar sesión correctamente, no aparece ningún mensaje, animación o redirección clara que confirme que el proceso fue exitoso. Esto genera incertidumbre y puede llevar al usuario a pensar que hubo un error.
+- *Recomendación*:  
+  Incluir un mensaje de bienvenida visible (“Inicio de sesión exitoso”), transiciones suaves o dashboard de entrada con saludo personalizado.
+
+*PROBLEMA #2: Iconos sin etiquetas dificultan el reconocimiento de funciones*
+- *Severidad*: 2
+- *Heurística violada*: Usability – Reconocimiento antes que recuerdo
+- *Descripción*:  
+  Algunos botones del menú (como el ícono de “Servicios” o “Citas”) carecen de etiquetas al pasar el cursor. Esto puede dificultar el aprendizaje inicial de la plataforma.
+- *Recomendación*:  
+  Incluir tooltips o etiquetas breves al hacer hover sobre los íconos.
+
+*PROBLEMA #3: Textos largos en la landing pueden saturar al usuario*
+- *Severidad*: 1
+- *Heurística violada*: Usability – Diseño estético y minimalista
+- *Descripción*:  
+  Algunas secciones de la landing contienen bloques extensos de texto descriptivo. Esto puede distraer o desmotivar al usuario.
+- *Recomendación*:  
+  Reorganizar los textos usando viñetas, subtítulos o pictogramas para facilitar la lectura.
+
+*PROBLEMA #4: No existe acceso a sección de ayuda o tutorial*
+- *Severidad*: 3
+- *Heurística violada*: Usability – Ayuda y documentación
+- *Descripción*:  
+  Ni la landing ni la aplicación tienen enlaces visibles a preguntas frecuentes, tutoriales o contacto de soporte.
+- *Recomendación*:  
+  Incluir una sección de ayuda accesible desde el menú principal o footer con preguntas frecuentes y guías rápidas.
+
+*PROBLEMA #5: No se puede ver el historial completo de citas pasadas desde el perfil del cliente*
+- *Severidad:* 2
+- *Heurística violada:* Information Architecture – ¿Es localizable?
+- *Descripción:*
+  El cliente no tiene acceso al detalle de sus citas pasadas ni posibilidad de repetirlas fácilmente desde el historial.
+- *Recomendación:*
+  Incluir un módulo de historial con opción de “Repetir cita”.
+
+*PROBLEMA #6: Falta de confirmación visual al editar servicios*
+- *Severidad:* 2
+- *Heurística violada:* Usability – Visibilidad del estado del sistema
+- *Descripción:*
+  Cuando un administrador edita un servicio, al guardar los cambios no se muestra un mensaje visible de confirmación (ni toast ni modal). Esto genera duda sobre si los cambios fueron aplicados correctamente.
+- *Recomendación:*
+  Implementar un mensaje de éxito (“Servicio actualizado correctamente”) que aparezca de forma visible tras guardar.
+
+*PROBLEMA #7: El salón no puede responder a los reviews que dejan los clientes*
+- *Severidad:* 2
+- *Heurística violada:* Usability – Libertad y control del usuario
+- *Descripción:*
+  Actualmente, los administradores de los salones pueden visualizar las reseñas dejadas por los clientes, pero no pueden responder o gestionar esos comentarios. Esto limita la comunicación bidireccional y la construcción de confianza con los usuarios.
+- *Recomendación:*
+  Permitir que los salones respondan públicamente a las reseñas desde el panel de administración, con opción de moderación si es necesario.
+
 # 5.4. Video About-the-Product
 
 # Conclusiones
