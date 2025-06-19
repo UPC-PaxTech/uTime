@@ -3844,15 +3844,22 @@ Por último, tenemos la sección de "IAM bounded context" que se encarga del man
 </div>
 
 ### 5.2.3.7. Software Deployment Evidence for Sprint Review
-Para realizar el deployment del backend de la aplicación, se empleo la plataforma Azure. Se realizaron los sigueintes pasos para llevar a cabo el despligue del proyecto.
+Para realizar el deployment del backend de la aplicación, se empleó la plataforma Azure. Se realizaron los siguientes pasos para llevar a cabo el despliegue del proyecto.
 
-En primer lugar, se genero el java y usando docker se construyó la imagen del proyecto.  
+En primer lugar, se generó el java y usando docker se construyó la imagen del proyecto.
+
 ![Azure Deployment](img/azure_deployment2.png)
+
 Luego, se subió la imagen a Azure Container Registry (ACR) para su almacenamiento y gestión. Posteriormente, se creó un Azure App Service para alojar la aplicación, configurando el entorno de ejecución y las variables necesarias.
+
 ![Azure Deployment](img/azure_deployment1.png)
+
 ![Azure Deployment](img/azure_deployment3.png)
+
 Finalmente, se implementó la imagen desde ACR al App Service, asegurando que la aplicación estuviera disponible y funcionando correctamente en la nube de Azure.
-https://utime-web-service.azurewebsites.net/swagger-ui/index.html
+
+URL del BackEnd Deployado: https://utime-web-service.azurewebsites.net/swagger-ui/index.html
+
 ![Azure Deployment](img/azure_deployment4.png)
 
 
