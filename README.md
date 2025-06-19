@@ -306,8 +306,14 @@ Capturas de la participación en el informe:
    5.2.3.6. [Services Documentation Evidence for Sprint Review](#5236-services-documentation-evidence-for-sprint-review)<br>
    5.2.3.7. [Software Deployment Evidence for Sprint Review](#5237-software-deployment-evidence-for-sprint-review)<br>
    5.2.3.8. [Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during--sprint)<br>
+   5.3. [Validation Interviews](#53-validation-interviews)<br>
+   5.3.1 [Diseño de Entrevistas](#531-diseño-de-entrevistas)<br>
+   5.3.2 [Registro de Entrevistas](#532-registro-de-entrevistas)<br>
+   5.3.3 [Evaluación según heurísticas](#533-evaluaciones-según-heurísticas)<br>
+   5.4. [Video About-the-Product](#54-video-about-the-product)<br>
 6. [Conclusiones](#conclusiones)<br>
    6.1 [Conclusiones y recomendaciones](#61-conclusiones-y-recomendaciones)<br>
+   6.2. [Video About-the-Team](#62-video-about-the-team)<br>
 7. [Bibliografía](#bibliografía)<br>
 8. [Anexos](#anexos)<br>
 
@@ -3081,6 +3087,7 @@ Enlace para acceder al Trello: [Trello Sprint Backlog 2]()
 
 
 #### 5.2.2.6.Services Documentation Evidence for Sprint Review.
+
 A continuación, se presentan tres fragmentos de código que evidencian el uso e implementación de los servicios en el sistema, abarcando desde la configuración de rutas hasta la lógica de negocio y la presentación de datos al usuario:
 
 1. Archivo de Rutas (Angular Routing Module)
@@ -3189,7 +3196,7 @@ Entonces dentro de la configuración de GitHub Pages, se seleccionó la rama gh-
 
 #### 5.2.2.8.Team Collaboration Insights during Sprint.
 
-Durante el Sprint 2, se realizó la segmentación de tareas por features y se asignaron a los miembros del equipo de acuerdo a sus habilidades y experiencia. Esto permitió una mejor distribucion de las tareas y un avance mas fluido en el desarrollo.
+Durante el Sprint 2, se realizó la segmentación de tareas por features y se asignaron a los miembros del equipo de acuerdo a sus habilidades y experiencia. Esto permitió una mejor distribución de las tareas y un avance mas fluido en el desarrollo.
 
 ![NetworkGraph](img/networkgraph-sprint2.png)
 
@@ -3254,11 +3261,11 @@ En el marco metodológico de Scrum, cada Sprint corresponde a un lapso breve y c
    </tr>
    <tr>
       <td colspan="1" align="center"><b>Sprint 2 Velocity</b></td>
-      <td colspan="1"></td>
+      <td colspan="1">35</td>
    </tr>
    <tr>
       <td colspan="1" align="center"><b>Sum of Story Points</b></td>
-      <td colspan="1"></td>
+      <td colspan="1"> 35</td>
    </tr>
 
    <tr>
@@ -3269,12 +3276,12 @@ En el marco metodológico de Scrum, cada Sprint corresponde a un lapso breve y c
 Para este Sprint, se han identificado los principales aspectos relacionados con el desarrollo del backend de la aplicación web de uTime. Con el objetivo de optimizar la coordinación y la responsabilidad dentro del equipo, se elaboró la matriz Leadership and Collaboration Matrix (LACX), en la que se especifica quién asume el rol de Líder (L) y quiénes actúan como Colaboradores (C) en cada uno de los componentes clave del backend. Esta organización ha permitido una asignación de tareas más estructurada, facilitando así la implementación de la base de datos, la creación de entidades, y la exposición de endpoints seguros mediante Swagger y autenticación con tokens.
 
 
-| **Team Member**                     | **GitHub Username** | **Appointments** | **Dashboard** | **Favorites** | **Iam** | **Profile** | **Public** | **Reviews** | **Schedule** | **Services** | **Shared** | **Subscription** |
-|-------------------------------------|---------------------|------------------|---------------|---------------|---------|-------------|------------|-------------|--------------|--------------|------------|------------------|
-| Chi Cruzatt, Kevin Jorge            | Krillsom            | C                | C             | C             | C       | L           | C          | C           | C            | L            | C          | L                |
-| Rivera Sosa, Eduardo Gael           | gael-rs             | C                | C             | C             | L       | C           | L          | C           | C            | C            | C          | C                |
-| Varela Bustinza, Marcelo Alessandro | VarBus              | L                | C             | L             | C       | C           | C          | C           | L            | C            | C          | C                |
-| Yum Gonzales, Jorge Suin            | myussu              | C                | L             | C             | C       | C           | C          | L           | C            | C            | L          | c                |
+| **Team Member**                     | **GitHub Username** | **Profiles** | **Reviews** | **Reservation** | **Iam** | **Shared** | **Workers** | **Services** | **TimeSlots** | **Services** | **Payments**  |
+|-------------------------------------|---------------------|--------------|-------------|-----------------|---------|------------|-------------|--------------|---------------|--------------|---------------|
+| Chi Cruzatt, Kevin Jorge            | Krillsom            | C            | C           | C               | C       | L          | C           | C            | C             | L            | L             |
+| Rivera Sosa, Eduardo Gael           | gael-rs             | C            | C           | C               | L       | C          | L           | C            | C             | C            | C             |
+| Varela Bustinza, Marcelo Alessandro | VarBus              | L            | C           | L               | C       | C          | C           | C            | L             | C            | C             |
+| Yum Gonzales, Jorge Suin            | myussu              | C            | L           | C               | C       | C          | C           | L            | C             | C            | C             |
 
 ### 5.2.3.3. Sprint Backlog 3
 En el tercer sprint backlog, el equipo tuvo la intención de iniciar y avanzar en el desarrollo del backend de la aplicación web, abordando los requerimientos esenciales para los roles de cliente y proveedor. Para la organización y gestión de las tareas, se continuó utilizando la herramienta Trello, lo que permitió descomponer las user stories en tareas específicas y asignarlas según las fortalezas técnicas de cada integrante. El objetivo principal del sprint fue establecer una base sólida del backend, incluyendo la creación de las entidades, la conexión con la base de datos MySQL, y la exposición de endpoints RESTful seguros, validados mediante Swagger y autenticación con tokens.
@@ -3602,6 +3609,7 @@ Enlace para acceder al Trello: [Trello Sprint Backlog 3](https://trello.com/b/Rd
 
 
 ### 5.2.3.4. Development Evidence for Sprint Review
+
 <table border="1" cellpadding="5" cellspacing="0">
   <thead>
     <tr>
@@ -3892,6 +3900,9 @@ En el Sprint 3, se dividieron las tareas según las funcionalidades del sistema 
 - Aprovechar los recursos multimedia como los videos explicativos para mejorar la comunicación del proyecto, tanto interna como externamente, asegurando que los avances técnicos sean comprendidos por todos los interesados.
 
 - Reforzar la conexión entre los módulos del frontend y backend, asegurando una integración fluida y bien documentada que permita escalar el sistema sin mayores fricciones.
+
+## 6.2 Video About-the-Team
+
 
 
 # Bibliografía
