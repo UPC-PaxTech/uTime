@@ -2139,10 +2139,16 @@ Ruta de referencia: https://www.figma.com
 **UXPressia** complementa el trabajo de UX al permitir la creación y documentación de User Personas, Customer Journey Maps y Empathy Maps. Esto ayuda al equipo a entender mejor a los usuarios finales y alinear las decisiones de diseño con sus necesidades.  
 Ruta de referencia: https://uxpressia.com
 
+**Trello** complementa el trabajo de UX al facilitar la organización visual de tareas, ideas y flujos de trabajo mediante tableros, listas y tarjetas. Esto permite a los equipos de diseño y desarrollo colaborar de forma ágil, priorizar funcionalidades centradas en el usuario y dar seguimiento al progreso de proyectos UX.
+Ruta de referencia: https://trello.com
+
 #### Software Development
 
 **WebStorm** es el entorno de desarrollo integrado (IDE) que utilizan los desarrolladores del equipo para escribir y depurar código en tecnologías web. Su integración con sistemas de control de versiones, linters, y herramientas modernas de desarrollo lo convierten en un entorno robusto.  
 Ruta de referencia: https://www.jetbrains.com/webstorm
+
+**IntelliJ IDEA Ultimate** es el entorno de desarrollo integrado (IDE) utilizado por el equipo para desarrollar aplicaciones complejas en múltiples lenguajes como Java, Kotlin, JavaScript, entre otros. Su soporte avanzado para frameworks modernos, herramientas de base de datos integradas y funcionalidades inteligentes de codificación lo convierten en una plataforma robusta para proyectos de software a gran escala.
+Ruta de referencia: https://www.jetbrains.com/idea
 
 #### Software Deployment
 
@@ -2151,6 +2157,15 @@ Ruta de referencia: https://git-scm.com
 
 **GitKraken** es un cliente Git con interfaz gráfica que el equipo usa para facilitar la gestión visual de ramas, commits, conflictos y flujos de trabajo. Su interfaz amigable permite trabajar con Git de forma intuitiva y estructurada.  
 Ruta de referencia: https://www.gitkraken.com
+
+**Render** es la plataforma de despliegue que el equipo utiliza para alojar y ejecutar APIs simuladas (fake APIs) durante las etapas de desarrollo y pruebas. Su facilidad de configuración y despliegue continuo lo convierten en una herramienta eficiente para ambientes de testing.
+Ruta de referencia: https://render.com
+
+**GitHub Pages** es la plataforma de hosting utilizada por el equipo para desplegar la interfaz frontend de la aplicación. Al integrarse directamente con repositorios de GitHub, permite publicar sitios web estáticos de manera rápida, automatizada y gratuita.
+Ruta de referencia: https://pages.github.com
+
+**Azure** es la plataforma en la nube utilizada por el equipo para desplegar y escalar el backend de la aplicación. Gracias a sus servicios gestionados, como App Services y Azure SQL, permite una implementación robusta, segura y de alto rendimiento para aplicaciones en producción.
+Ruta de referencia: https://azure.microsoft.com
 
 #### Software Documentation and Project Management
 
@@ -2170,6 +2185,8 @@ El proyecto seguirá las convenciones de flujo de trabajo establecidas por el mo
 
 - Enlace para acceder a la organización de GitHub: https://github.com/PaxTech-UPC
 - Enlace para acceder a repositorio de la Landing Page: https://github.com/PaxTech-UPC/uTime-Landing-Page
+- Enlace para acceder a repositorio de FrontEnd Web Application: https://github.com/UPC-PaxTech/Frontend-Web-Applications
+- Enlace para acceder a repositorio de BackEnd Web Service: https://github.com/UPC-PaxTech/Web-Services
 
 **Flujo de trabajo GitFlow:** El flujo a utilizar para le desarrollo del proyecto fue el planteado por Vicent Driessen en "A successful Git branching model".
 
@@ -3856,15 +3873,22 @@ Por último, tenemos la sección de "IAM bounded context" que se encarga del man
 </div>
 
 ### 5.2.3.7. Software Deployment Evidence for Sprint Review
-Para realizar el deployment del backend de la aplicación, se empleo la plataforma Azure. Se realizaron los sigueintes pasos para llevar a cabo el despligue del proyecto.
+Para realizar el deployment del backend de la aplicación, se empleó la plataforma Azure. Se realizaron los siguientes pasos para llevar a cabo el despliegue del proyecto.
 
-En primer lugar, se genero el java y usando docker se construyó la imagen del proyecto.  
+En primer lugar, se generó el java y usando docker se construyó la imagen del proyecto.
+
 ![Azure Deployment](img/azure_deployment2.png)
+
 Luego, se subió la imagen a Azure Container Registry (ACR) para su almacenamiento y gestión. Posteriormente, se creó un Azure App Service para alojar la aplicación, configurando el entorno de ejecución y las variables necesarias.
+
 ![Azure Deployment](img/azure_deployment1.png)
+
 ![Azure Deployment](img/azure_deployment3.png)
+
 Finalmente, se implementó la imagen desde ACR al App Service, asegurando que la aplicación estuviera disponible y funcionando correctamente en la nube de Azure.
-https://utime-web-service.azurewebsites.net/swagger-ui/index.html
+
+URL del BackEnd Deployado: https://utime-web-service.azurewebsites.net/swagger-ui/index.html
+
 ![Azure Deployment](img/azure_deployment4.png)
 
 
@@ -3948,6 +3972,85 @@ En el Sprint 3, se dividieron las tareas según las funcionalidades del sistema 
 * ¿Hay alguna funcionalidad que esperabas ver y no encontraste?
 
 ## 5.3.2. Registro de Entrevistas
+
+# Segmento Objetivo 1 (Salones de Belleza y Barberías)
+
+## Datos del Entrevistado #1
+- **Nombre completo:** 
+- **Segmento Objetivo:** 
+- **Edad:** 
+- **Distrito:** 
+- **Screenshot del cuadro de video:** *![]()*
+- **URL del video (Microsoft Stream):** *[Entrevista 0#]()*
+- **Inicio de la entrevista:** 
+- **Duración:** 
+
+**Resumen:** 
+
+## Datos del Entrevistado #2
+- **Nombre completo:**
+- **Segmento Objetivo:**
+- **Edad:**
+- **Distrito:**
+- **Screenshot del cuadro de video:** *![]()*
+- **URL del video (Microsoft Stream):** *[Entrevista 0#]()*
+- **Inicio de la entrevista:**
+- **Duración:**
+
+**Resumen:**
+
+
+## Datos del Entrevistado #3
+- **Nombre completo:**
+- **Segmento Objetivo:**
+- **Edad:**
+- **Distrito:**
+- **Screenshot del cuadro de video:** *![]()*
+- **URL del video (Microsoft Stream):** *[Entrevista 0#]()*
+- **Inicio de la entrevista:**
+- **Duración:**
+
+**Resumen:**
+
+
+# Segmento Objetivo 2 (Clientes de servicios de belleza)
+
+## Datos del Entrevistado #1
+- **Nombre completo:** Allison Naomi Galindo Palomino
+- **Segmento Objetivo:** Clientes de servicio de belleza
+- **Edad:** 20 años
+- **Distrito:** Cercado De Lima
+- **Screenshot del cuadro de video:** *![interview_1.jpeg](img/cliente_validation_alison.png)*
+- **URL del video (Microsoft Stream):** *[Entrevista 01]()*
+- **Inicio de la entrevista:** 0:10 minutos
+- **Duración:** 4:24 minutos
+
+**Resumen:** Allison Galindo es una universitaria de 20 años que vive en el Cercado de Lima. Acude a servicios de belleza de forma ocasional, priorizando encontrar disponibilidad en los horarios que se ajusten a su rutina académica. Aunque anteriormente solía reservar citas por WhatsApp o redes sociales, ha manifestado interés en utilizar plataformas digitales como uTime, siempre que estas sean claras, organizadas y confiables.  Le resulta importante poder filtrar estilistas por zona y tipo de servicio, así como evitar el tiempo perdido escribiendo individualmente a cada salón. Allison valora la puntualidad, la seguridad al momento de pagar (usando tarjeta o billeteras móviles como Yape o Plin), y considera muy útil recibir notificaciones o recordatorios automáticos de sus citas. Durante su experiencia con la aplicación de uTime, destacó positivamente la facilidad para registrarse, navegar, agendar citas y el diseño moderno de la plataforma. Además, le gustaría contar con funcionalidades como un chat directo con el estilista y la posibilidad de recibir actualizaciones en tiempo real sobre el estado de su cita. En general, considera que las herramientas digitales pueden mejorar notablemente la experiencia del cliente si están bien implementadas y comunican claramente todas sus funcionalidades.
+
+## Datos del Entrevistado #2
+- **Nombre completo:**
+- **Segmento Objetivo:**
+- **Edad:**
+- **Distrito:**
+- **Screenshot del cuadro de video:** *![]()*
+- **URL del video (Microsoft Stream):** *[Entrevista 0#]()*
+- **Inicio de la entrevista:**
+- **Duración:**
+
+**Resumen:**
+
+
+## Datos del Entrevistado #3
+- **Nombre completo:**
+- **Segmento Objetivo:**
+- **Edad:**
+- **Distrito:**
+- **Screenshot del cuadro de video:** *![]()*
+- **URL del video (Microsoft Stream):** *[Entrevista 0#]()*
+- **Inicio de la entrevista:**
+- **Duración:**
+
+**Resumen:**
 
 
 
@@ -4210,11 +4313,9 @@ https://utime-web-service.azurewebsites.net/swagger-ui/index.html
 
 **Url Video About the product:**
 
-* Microsoft Teams:
-https://upcedupe-my.sharepoint.com/:v:/g/personal/u202319668_upc_edu_pe/ERfEtE8S3WdLhoWUYUmMBfoBUBbhrCgm_thuZDMjyRHQHg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=SQO69q
+* Microsoft Teams: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202319668_upc_edu_pe/ERfEtE8S3WdLhoWUYUmMBfoBUBbhrCgm_thuZDMjyRHQHg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=SQO69q
 
-* Youtube:
-https://youtu.be/6XoZkCqmiOo
+* Youtube: https://youtu.be/6XoZkCqmiOo
 
 **Url Video About the team:**
 
