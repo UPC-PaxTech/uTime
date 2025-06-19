@@ -4038,7 +4038,8 @@ El video está diseñado para captar la atención de potenciales usuarios y esti
 
 <img src="img/video-about.jpeg" alt="Video about the product"/>
 
-![Enlace al Video About The Product](https://youtu.be/6XoZkCqmiOo)
+* Url Video About the product:
+https://youtu.be/6XoZkCqmiOo
 
 # Conclusiones
 
