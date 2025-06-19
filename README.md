@@ -1260,11 +1260,9 @@ Segmento objetivo #2: Clientes de servicios de belleza
 | ---------------------------------- | -------------------------------------------- | ------------------- | ----------------------------------------------------------------------------------------- |
 | **Reserva Agendada**               | `Reservations`                               | Reservations        | Una reserva confirmada vinculada a un `ClientId`, `TimeSlotId`, `ServiceId` y `WorkerId`. |
 | **Horario Disponible**             | `TimeSlotId`                                 | Reservations        | Identificador de un bloque de tiempo libre, no asignado a ninguna `Reservation`.          |
-| **Cliente Frecuente**              | `ClientId`                                   | Reservations        | Identificador de cliente con múltiples reservas registradas en el sistema.                |
 | **Bloque de Tiempo**               | `TimeSlotId`                                 | Reservations        | Unidad estándar de tiempo usada para agendar reservas.                                    |
 | **Cancelación de Reserva**         | `UpdateReservationCommand` (con cancelación) | Reservations        | Acción de actualizar o eliminar una reserva, liberando su `TimeSlotId`.                   |
 | **Reprogramación de Reserva**      | `UpdateReservationCommand`                   | Reservations        | Comando para cambiar el `TimeSlotId` de una reserva ya existente.                         |
-| **Cliente Nuevo**                  | `ClientId` (sin reservas)                    | Reservations        | Identificador de cliente sin reservas previas.                                            |
 | **Servicio Seleccionado**          | `ServiceId`                                  | Reservations        | Identificador de servicio incluido en una reserva.                                        |
 | **Cambio en la Agenda**            | `UpdateReservationCommand`                   | Reservations        | Cualquier alteración en los datos de una reserva existente.                               |
 | **Trabajador**                     | `Workers`                                    | Workers             | Agregado que representa al profesional que realiza un servicio.                           |
