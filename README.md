@@ -3930,6 +3930,85 @@ En el Sprint 3, se dividieron las tareas según las funcionalidades del sistema 
 
 ## 5.3.2. Registro de Entrevistas
 
+# Segmento Objetivo 1 (Salones de Belleza y Barberías)
+
+## Datos del Entrevistado #1
+- **Nombre completo:** 
+- **Segmento Objetivo:** 
+- **Edad:** 
+- **Distrito:** 
+- **Screenshot del cuadro de video:** *![]()*
+- **URL del video (Microsoft Stream):** *[Entrevista 0#]()*
+- **Inicio de la entrevista:** 
+- **Duración:** 
+
+**Resumen:** 
+
+## Datos del Entrevistado #2
+- **Nombre completo:**
+- **Segmento Objetivo:**
+- **Edad:**
+- **Distrito:**
+- **Screenshot del cuadro de video:** *![]()*
+- **URL del video (Microsoft Stream):** *[Entrevista 0#]()*
+- **Inicio de la entrevista:**
+- **Duración:**
+
+**Resumen:**
+
+
+## Datos del Entrevistado #3
+- **Nombre completo:**
+- **Segmento Objetivo:**
+- **Edad:**
+- **Distrito:**
+- **Screenshot del cuadro de video:** *![]()*
+- **URL del video (Microsoft Stream):** *[Entrevista 0#]()*
+- **Inicio de la entrevista:**
+- **Duración:**
+
+**Resumen:**
+
+
+# Segmento Objetivo 2 (Clientes de servicios de belleza)
+
+## Datos del Entrevistado #1
+- **Nombre completo:** Allison Naomi Galindo Palomino
+- **Segmento Objetivo:** Clientes de servicio de belleza
+- **Edad:** 20 años
+- **Distrito:** Cercado De Lima
+- **Screenshot del cuadro de video:** *![interview_1.jpeg](img/cliente_validation_alison.png)*
+- **URL del video (Microsoft Stream):** *[Entrevista 01]()*
+- **Inicio de la entrevista:** 0:10 minutos
+- **Duración:** 4:24 minutos
+
+**Resumen:** Allison Galindo es una universitaria de 20 años que vive en el Cercado de Lima. Acude a servicios de belleza de forma ocasional, priorizando encontrar disponibilidad en los horarios que se ajusten a su rutina académica. Aunque anteriormente solía reservar citas por WhatsApp o redes sociales, ha manifestado interés en utilizar plataformas digitales como uTime, siempre que estas sean claras, organizadas y confiables.  Le resulta importante poder filtrar estilistas por zona y tipo de servicio, así como evitar el tiempo perdido escribiendo individualmente a cada salón. Allison valora la puntualidad, la seguridad al momento de pagar (usando tarjeta o billeteras móviles como Yape o Plin), y considera muy útil recibir notificaciones o recordatorios automáticos de sus citas. Durante su experiencia con la aplicación de uTime, destacó positivamente la facilidad para registrarse, navegar, agendar citas y el diseño moderno de la plataforma. Además, le gustaría contar con funcionalidades como un chat directo con el estilista y la posibilidad de recibir actualizaciones en tiempo real sobre el estado de su cita. En general, considera que las herramientas digitales pueden mejorar notablemente la experiencia del cliente si están bien implementadas y comunican claramente todas sus funcionalidades.
+
+## Datos del Entrevistado #2
+- **Nombre completo:**
+- **Segmento Objetivo:**
+- **Edad:**
+- **Distrito:**
+- **Screenshot del cuadro de video:** *![]()*
+- **URL del video (Microsoft Stream):** *[Entrevista 0#]()*
+- **Inicio de la entrevista:**
+- **Duración:**
+
+**Resumen:**
+
+
+## Datos del Entrevistado #3
+- **Nombre completo:**
+- **Segmento Objetivo:**
+- **Edad:**
+- **Distrito:**
+- **Screenshot del cuadro de video:** *![]()*
+- **URL del video (Microsoft Stream):** *[Entrevista 0#]()*
+- **Inicio de la entrevista:**
+- **Duración:**
+
+**Resumen:**
+
 
 ## 5.3.3. Evaluaciones según heurísticas
 
