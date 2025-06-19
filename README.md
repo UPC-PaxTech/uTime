@@ -4101,7 +4101,7 @@ https://youtu.be/6XoZkCqmiOo
 
 En este video hablamos sobre nuestro equipo de desarrollo de uTime, conformado por Kevin Chi, Jorge Sium, Marcelo Varela y yo, Gael Rivera. Cada uno de nosotros aporta habilidades distintas que se complementan muy bien, lo que nos ha permitido desarrollar diferentes partes del proyecto de forma eficiente. Una de nuestras principales fortalezas es justamente esa diversidad de conocimientos. Al inicio tuvimos algunos retos con la organización del tiempo, pero supimos adaptarnos, estableciendo mejor los horarios y dedicando momentos específicos para probar, ajustar y seguir avanzando. En este espacio queremos compartir cómo trabajamos juntos, nuestras fortalezas, debilidades y la forma en que logramos salir adelante como equipo.
 
-![Enlace al Video About The Team](https://youtu.be/MGPQF3d2g2w)
+Enlace al Video About The Team: https://youtu.be/MGPQF3d2g2w
 
 ![Nuestro equipo de desarrollo](img/video-team.png)
 
