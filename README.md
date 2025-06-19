@@ -4336,9 +4336,9 @@ https://utime-web-service.azurewebsites.net/swagger-ui/index.html
 
 **Url Video Exposicion TB2:**
 
-* Microsoft Teams:
+* Microsoft Teams: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202319668_upc_edu_pe/EdxTfEcJDLtChxAxw8CYJQEBlyU6szgsgRMBqIo5g1HAyQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=9lRH2S
 
-* Youtube:
+* Youtube: https://youtu.be/5zxRtdKJqgE
 
 **Herramientas y Recursos Utilizados:**<br>
 
