@@ -3300,8 +3300,9 @@ En el tercer sprint backlog, el equipo tuvo la intención de iniciar y avanzar e
       <td><b>Status</b></td>
    </tr>
 
+   <!-- TS01 - Encriptación de contraseñas -->
    <tr>
-      <td rowspan="2">TS03</td>
+      <td rowspan="2">TS01</td>
       <td rowspan="2">Encriptación de contraseñas</td>
       <td>T1</td>
       <td>Configurar BCrypt en Spring Security</td>
@@ -3319,8 +3320,9 @@ En el tercer sprint backlog, el equipo tuvo la intención de iniciar y avanzar e
       <td>In-Process</td>
    </tr>
 
+   <!-- TS03 - Validaciones de formularios -->
    <tr>
-      <td rowspan="2">TS05</td>
+      <td rowspan="2">TS03</td>
       <td rowspan="2">Validaciones de formularios</td>
       <td>T1</td>
       <td>Frontend: Validaciones reactivas (Angular)</td>
@@ -3338,6 +3340,7 @@ En el tercer sprint backlog, el equipo tuvo la intención de iniciar y avanzar e
       <td>To-Review</td>
    </tr>
 
+   <!-- TS07 - Creación de endpoints para consulta de usuarios -->
    <tr>
       <td rowspan="3">TS07</td>
       <td rowspan="3">Creación de endpoints para consulta de usuarios</td>
@@ -3365,6 +3368,7 @@ En el tercer sprint backlog, el equipo tuvo la intención de iniciar y avanzar e
       <td>Done</td>
    </tr>
 
+   <!-- TS08 - Implementación de endpoints para gestión de proveedores -->
    <tr>
       <td rowspan="3">TS08</td>
       <td rowspan="3">Implementación de endpoints para gestión de proveedores</td>
@@ -3392,6 +3396,7 @@ En el tercer sprint backlog, el equipo tuvo la intención de iniciar y avanzar e
       <td>Done</td>
    </tr>
 
+   <!-- TS09 - Implementación de endpoints para gestión de perfil de proveedor -->
    <tr>
       <td rowspan="2">TS09</td>
       <td rowspan="2">Implementación de endpoints para gestión de perfil de proveedor</td>
@@ -3411,6 +3416,7 @@ En el tercer sprint backlog, el equipo tuvo la intención de iniciar y avanzar e
       <td>Done</td>
    </tr>
 
+   <!-- TS10 - Implementación de endpoints para gestión de workers -->
    <tr>
       <td rowspan="3">TS10</td>
       <td rowspan="3">Implementación de endpoints para gestión de workers</td>
@@ -3438,9 +3444,10 @@ En el tercer sprint backlog, el equipo tuvo la intención de iniciar y avanzar e
       <td>Done</td>
    </tr>
 
+   <!-- TS11 - Implementación de endpoints para autenticación de usuarios -->
    <tr>
       <td rowspan="2">TS11</td>
-      <td rowspan="2">Implementación de endpoints para autenticación de usuarios </td>
+      <td rowspan="2">Implementación de endpoints para autenticación de usuarios</td>
       <td>T1</td>
       <td>Desarrollo del método para inicio de sesión (POST /authentication/sign-in)</td>
       <td>Implementar la lógica necesaria para autenticar usuarios registrados mediante sus credenciales y retornar un token JWT válido.</td>
@@ -3457,6 +3464,7 @@ En el tercer sprint backlog, el equipo tuvo la intención de iniciar y avanzar e
       <td>Done</td>
    </tr>
 
+   <!-- TS12 - Implementación de endpoints para gestión de clientes -->
    <tr>
       <td rowspan="3">TS12</td>
       <td rowspan="3">Implementación de endpoints para gestión de clientes</td>
@@ -3469,7 +3477,7 @@ En el tercer sprint backlog, el equipo tuvo la intención de iniciar y avanzar e
    </tr>
    <tr>
       <td>T2</td>
-      <td>Desarrollo del método para registrar un nuevo cliente </td>
+      <td>Desarrollo del método para registrar un nuevo cliente</td>
       <td>Crear la funcionalidad que permita registrar nuevos clientes (POST /clients)</td>
       <td>1</td>
       <td>Chi Cruzatt, Kevin Jorge</td>
@@ -3484,6 +3492,7 @@ En el tercer sprint backlog, el equipo tuvo la intención de iniciar y avanzar e
       <td>Done</td>
    </tr>
 
+   <!-- TS13 - Implementación de endpoints para gestión de timeslots -->
    <tr>
       <td rowspan="3">TS13</td>
       <td rowspan="3">Implementación de endpoints para gestión de timeslots</td>
@@ -3511,9 +3520,10 @@ En el tercer sprint backlog, el equipo tuvo la intención de iniciar y avanzar e
       <td>Done</td>
    </tr>
 
+   <!-- TS14 - Implementación de endpoints para gestión de servicios -->
    <tr>
       <td rowspan="2">TS14</td>
-      <td rowspan="2">Implementación de endpoints para gestión de servicios </td>
+      <td rowspan="2">Implementación de endpoints para gestión de servicios</td>
       <td>T1</td>
       <td>Desarrollo del método para listar todos los servicios (GET /services)</td>
       <td>Implementar la lógica en el controlador y servicio que permita obtener la lista completa de servicios disponibles.</td>
@@ -3530,6 +3540,7 @@ En el tercer sprint backlog, el equipo tuvo la intención de iniciar y avanzar e
       <td>Done</td>
    </tr>
 
+   <!-- TS15 - Implementación de endpoints para consulta de usuarios -->
    <tr>
       <td rowspan="2">TS15</td>
       <td rowspan="2">Implementación de endpoints para consulta de usuarios</td>
@@ -3549,6 +3560,7 @@ En el tercer sprint backlog, el equipo tuvo la intención de iniciar y avanzar e
       <td>Done</td>
    </tr>
 
+   <!-- TS16 - Implementación de endpoints para gestión de reviews -->
    <tr>
       <td rowspan="3">TS16</td>
       <td rowspan="3">Implementación de endpoints para gestión de reviews</td>
@@ -3576,8 +3588,9 @@ En el tercer sprint backlog, el equipo tuvo la intención de iniciar y avanzar e
       <td>In-Process</td>
    </tr>
 
+   <!-- TS04 - Diseño responsive y accesible -->
    <tr>
-      <td rowspan="2">TS06</td>
+      <td rowspan="2">TS04</td>
       <td rowspan="2">Diseño responsive y accesible</td>
       <td>T1</td>
       <td>Angular Material Layout</td>
