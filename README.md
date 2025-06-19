@@ -3920,10 +3920,8 @@ En el Sprint 3, se dividieron las tareas según las funcionalidades del sistema 
 
 * ¿Hay alguna funcionalidad que esperabas ver y no encontraste?
 
-
 ## 5.3.2. Registro de Entrevistas
 
-## 5.3.1. Diseño de Entrevistas
 
 ## 5.3.3. Evaluaciones según heurísticas
 
