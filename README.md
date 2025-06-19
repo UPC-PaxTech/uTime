@@ -4177,11 +4177,11 @@ https://upcedupe-my.sharepoint.com/:v:/g/personal/u202319668_upc_edu_pe/ERfEtE8S
 * Youtube:
 https://youtu.be/6XoZkCqmiOo
 
-**Url Video About the product:**
+**Url Video About the team:**
 
-* Microsoft Teams:
+* Microsoft Teams: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202319668_upc_edu_pe/EfS5-WRVMhNGrQqRsa_bMwkBJ51OAEPnGQuqUFByRFvrOw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=8CcQNa
 
-* Youtube:
+* Youtube: https://youtu.be/MGPQF3d2g2w
 
 **Url Video Exposicion TB2:**
 
