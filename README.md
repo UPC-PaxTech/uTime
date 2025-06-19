@@ -4222,11 +4222,9 @@ https://utime-web-service.azurewebsites.net/swagger-ui/index.html
 
 **Url Video About the product:**
 
-* Microsoft Teams:
-https://upcedupe-my.sharepoint.com/:v:/g/personal/u202319668_upc_edu_pe/ERfEtE8S3WdLhoWUYUmMBfoBUBbhrCgm_thuZDMjyRHQHg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=SQO69q
+* Microsoft Teams: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202319668_upc_edu_pe/ERfEtE8S3WdLhoWUYUmMBfoBUBbhrCgm_thuZDMjyRHQHg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=SQO69q
 
-* Youtube:
-https://youtu.be/6XoZkCqmiOo
+* Youtube: https://youtu.be/6XoZkCqmiOo
 
 **Url Video About the team:**
 
