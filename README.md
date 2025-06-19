@@ -3621,10 +3621,20 @@ Enlace para acceder al Trello: [Trello Sprint Backlog 3](https://trello.com/b/Rd
     </tr>
   </thead>
   <tbody>
-    <tr><td>Web-Services</td><td>main</td><td>c809237</td><td>feat: added clients</td><td>27/05/2025</td></tr>
-    <tr><td>Web-Services</td><td>main</td><td>3378702</td><td>feat: initialized Salon</td><td>27/05/2025</td></tr>
-    <tr><td>Web-Services</td><td>main</td><td>39788fc</td><td>Create README.md</td><td>27/05/2025</td></tr>
-    <tr><td>Web-Services</td><td>main</td><td>dbc3c22</td><td>feat: Spring Boot project setup</td><td>27/05/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>4f74620</td><td>feat: add provider profile naming solutions</td><td>18/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>a717fec</td><td>Merge branch 'develop' of https://github.com/UPC-PaxTech/Web-Services into develop</td><td>18/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>51b1406</td><td>feat: added entity to payment</td><td>18/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>7a11e76</td><td>docs: added 4 context diagram</td><td>18/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>4a52de8</td><td>feat: added payment and added to reservation detail resource</td><td>18/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>15f59ea</td><td>Merge branch 'feature/reservationDetails' into develop</td><td>17/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>fd8e7e6</td><td>Merge branch 'develop' of https://github.com/UPC-PaxTech/Web-Services into develop</td><td>17/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>8ca0cc3</td><td>feat: reservation details without payment id</td><td>17/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>a1a7c72</td><td>feat: reservation failure</td><td>17/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>18820cd</td><td>Merge branch 'develop' of https://github.com/UPC-PaxTech/Web-Services into develop</td><td>17/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>478f417</td><td>docs: add value objects for all the bounded context</td><td>17/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>39d0837</td><td>feat: acl de Worker y validacion terminada</td><td>17/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>96318cd</td><td>feat: added facade but not working yet</td><td>16/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>7d329c6</td><td>feat: added reservations</td><td>16/06/2025</td></tr>
     <tr><td>Web-Services</td><td>develop</td><td>6ab3187</td><td>feat: added workers and reservations bounded context</td><td>16/06/2025</td></tr>
     <tr><td>Web-Services</td><td>develop</td><td>b4e05f2</td><td>readded salonprofilecontroller</td><td>15/06/2025</td></tr>
     <tr><td>Web-Services</td><td>develop</td><td>84c70e9</td><td>Merge branch 'develop' of https://github.com/UPC-PaxTech/Web-Services into develop</td><td>15/06/2025</td></tr>
@@ -3676,6 +3686,14 @@ Enlace para acceder al Trello: [Trello Sprint Backlog 3](https://trello.com/b/Rd
     <tr><td>Web-Services</td><td>develop</td><td>cd1ffb2</td><td>feat: Add Client module with endpoints for getAll, getById, and Swagger integration</td><td>31/05/2025</td></tr>
     <tr><td>Web-Services</td><td>develop</td><td>c5912c6</td><td>feat: added salons get by id</td><td>29/05/2025</td></tr>
     <tr><td>Web-Services</td><td>develop</td><td>ea13078</td><td>feat: added salons values</td><td>29/05/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>c809237</td><td>feat: added clients</td><td>27/05/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>3378702</td><td>feat: initialized Salon</td><td>27/05/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>39788fc</td><td>Create README.md</td><td>27/05/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>dbc3c22</td><td>feat: Spring Boot project setup</td><td>27/05/2025</td></tr>
+    <tr><td>Web-Services</td><td>main</td><td>c809237</td><td>feat: added clients</td><td>27/05/2025</td></tr>
+    <tr><td>Web-Services</td><td>main</td><td>3378702</td><td>feat: initialized Salon</td><td>27/05/2025</td></tr>
+    <tr><td>Web-Services</td><td>main</td><td>39788fc</td><td>Create README.md</td><td>27/05/2025</td></tr>
+    <tr><td>Web-Services</td><td>main</td><td>dbc3c22</td><td>feat: Spring Boot project setup</td><td>27/05/2025</td></tr>
   </tbody>
 </table>
 
@@ -3868,6 +3886,136 @@ En el Sprint 3, se dividieron las tareas según las funcionalidades del sistema 
 
 ## 5.3.3. Evaluaciones según heurísticas
 
+#### UX Heuristics & Principles Evaluation
+##### Usability – Inclusive Design – Information Architecture
+
+*CARRERA*: Ingeniería de Software  
+*CURSO*: Aplicaciones Web  
+*SECCIÓN*: 4363  
+*PROFESORES*: Todos  
+*AUDITOR*: Grupo PropGMS – Evaluación UX uTime  
+*CLIENTE(S)*: Equipo de desarrollo de PaxTech (uTime)
+
+<hr>
+
+#### SITE O APP A EVALUAR:
+*uTime – Plataforma Web de Gestión de Citas para Salones y Clientes*
+
+#### TAREAS A EVALUAR:
+
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+
+1. Registro de un nuevo usuario (cliente y salón)
+2. Inicio de sesión
+3. Visualización de citas programadas
+4. Creación y edición de servicios por parte del salón
+5. Configuración de horarios del salón
+6. Visualización y selección de planes de suscripción
+7. Cancelación o reprogramación de una cita
+8. Recepción de notificaciones de recordatorio
+9. Visualización de beneficios y contacto desde la landing page
+
+*ESCALA DE SEVERIDAD:*
+
+<i>Los errores serán puntuados tomando en cuenta la siguiente escala de severidad. </i>
+
+<table>
+   <tr>
+      <th>Nivel</th>
+      <th>Descripción</th>
+   </tr>
+   <tr>
+      <td>1</td>
+      <td>Problema superficial: puede ser fácilmente superador por el usuario ó ocurre con muy poco
+frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo.</td>
+   </tr>
+   <tr>
+      <td>2</td>
+      <td>Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de
+superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente
+reléase</td>
+   </tr>
+   <tr>
+      <td>3</td>
+      <td>Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es
+importante que sean corregidos y se les debe asignar una prioridad alta.</td>
+   </tr>
+   <tr>
+      <td>4</td>
+      <td>Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de
+la herramienta. Es imperativo que sea corregido antes del lanzamiento.</td>
+   </tr>
+</table>
+
+*TABLE DE RESUMEN:*
+
+| # | Problema                                                                           | Escala de severidad | Heurística / Principio violado                  |
+|---|------------------------------------------------------------------------------------|---------------------|-------------------------------------------------|
+| 1 | No se confirma visualmente el éxito al iniciar sesión                              | 3                   | Usability: Visibilidad del estado del sistema   |
+| 2 | Iconos sin etiquetas dificultan el reconocimiento de funciones                     | 2                   | Usability: Reconocimiento antes que recuerdo    |
+| 3 | Textos largos en la landing pueden saturar al usuario                              | 1                   | Usability: Diseño estético y minimalista        |
+| 4 | No existe acceso a sección de ayuda o tutorial                                     | 3                   | Usability: Ayuda y documentación                |
+| 5 | No se puede ver el historial completo de citas pasadas desde el perfil del cliente | 2                   | Information Architecture: ¿Es localizable?      |
+| 6 | Falta de confirmación visual al editar servicios                                   | 2                   | Usability: Visibilidad del estado del sistema   |
+| 7 | El salón no puede responder a los reviews que dejan los clientes                   | 2                   | Usability: Libertad y control del usuario       |
+DESCRIPCIÓN DE PROBLEMAS
+
+*PROBLEMA #1: No se confirma visualmente el éxito al iniciar sesión*
+- *Severidad*: 3
+- *Heurística violada*: Usability – Visibilidad del estado del sistema
+- *Descripción*:  
+  Al iniciar sesión correctamente, no aparece ningún mensaje, animación o redirección clara que confirme que el proceso fue exitoso. Esto genera incertidumbre y puede llevar al usuario a pensar que hubo un error.
+- *Recomendación*:  
+  Incluir un mensaje de bienvenida visible (“Inicio de sesión exitoso”), transiciones suaves o dashboard de entrada con saludo personalizado.
+
+*PROBLEMA #2: Iconos sin etiquetas dificultan el reconocimiento de funciones*
+- *Severidad*: 2
+- *Heurística violada*: Usability – Reconocimiento antes que recuerdo
+- *Descripción*:  
+  Algunos botones del menú (como el ícono de “Servicios” o “Citas”) carecen de etiquetas al pasar el cursor. Esto puede dificultar el aprendizaje inicial de la plataforma.
+- *Recomendación*:  
+  Incluir tooltips o etiquetas breves al hacer hover sobre los íconos.
+
+*PROBLEMA #3: Textos largos en la landing pueden saturar al usuario*
+- *Severidad*: 1
+- *Heurística violada*: Usability – Diseño estético y minimalista
+- *Descripción*:  
+  Algunas secciones de la landing contienen bloques extensos de texto descriptivo. Esto puede distraer o desmotivar al usuario.
+- *Recomendación*:  
+  Reorganizar los textos usando viñetas, subtítulos o pictogramas para facilitar la lectura.
+
+*PROBLEMA #4: No existe acceso a sección de ayuda o tutorial*
+- *Severidad*: 3
+- *Heurística violada*: Usability – Ayuda y documentación
+- *Descripción*:  
+  Ni la landing ni la aplicación tienen enlaces visibles a preguntas frecuentes, tutoriales o contacto de soporte.
+- *Recomendación*:  
+  Incluir una sección de ayuda accesible desde el menú principal o footer con preguntas frecuentes y guías rápidas.
+
+*PROBLEMA #5: No se puede ver el historial completo de citas pasadas desde el perfil del cliente*
+- *Severidad:* 2
+- *Heurística violada:* Information Architecture – ¿Es localizable?
+- *Descripción:*
+  El cliente no tiene acceso al detalle de sus citas pasadas ni posibilidad de repetirlas fácilmente desde el historial.
+- *Recomendación:*
+  Incluir un módulo de historial con opción de “Repetir cita”.
+
+*PROBLEMA #6: Falta de confirmación visual al editar servicios*
+- *Severidad:* 2
+- *Heurística violada:* Usability – Visibilidad del estado del sistema
+- *Descripción:*
+  Cuando un administrador edita un servicio, al guardar los cambios no se muestra un mensaje visible de confirmación (ni toast ni modal). Esto genera duda sobre si los cambios fueron aplicados correctamente.
+- *Recomendación:*
+  Implementar un mensaje de éxito (“Servicio actualizado correctamente”) que aparezca de forma visible tras guardar.
+
+*PROBLEMA #7: El salón no puede responder a los reviews que dejan los clientes*
+- *Severidad:* 2
+- *Heurística violada:* Usability – Libertad y control del usuario
+- *Descripción:*
+  Actualmente, los administradores de los salones pueden visualizar las reseñas dejadas por los clientes, pero no pueden responder o gestionar esos comentarios. Esto limita la comunicación bidireccional y la construcción de confianza con los usuarios.
+- *Recomendación:*
+  Permitir que los salones respondan públicamente a las reseñas desde el panel de administración, con opción de moderación si es necesario.
+
 # 5.4. Video About-the-Product
 
 # Conclusiones
@@ -3961,7 +4109,11 @@ https://upc-paxtech.github.io/Frontend-Web-Applications/iam/login
 
 **Url Deployment Github Pages - uTime (Paxtech) - Web Applications**<br>
 
-
+**Url Video About the product:
+* Microsoft Teams:
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u202319668_upc_edu_pe/ERfEtE8S3WdLhoWUYUmMBfoBUBbhrCgm_thuZDMjyRHQHg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=SQO69q
+* Youtube:
+https://youtu.be/6XoZkCqmiOo
 
 **Herramientas y Recursos Utilizados:**<br>
 
