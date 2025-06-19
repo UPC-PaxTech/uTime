@@ -3334,207 +3334,263 @@ En el tercer sprint backlog, el equipo tuvo la intención de iniciar y avanzar e
       <td>Usar anotaciones @Valid, @NotNull, @Pattern en los DTOs.</td>
       <td>2</td>
       <td>Chi Cruzatt, Kevin Jorge</td>
-      <td>In-Process</td>
+      <td>To-Review</td>
    </tr>
 
    <tr>
       <td rowspan="3">TS07</td>
-      <td rowspan="3">Crear endpoint para registro de usuarios</td>
+      <td rowspan="3">Creación de endpoints para consulta de usuarios</td>
       <td>T1</td>
-      <td>Implementar POST /usuarios</td>
-      <td>Desarrollar Controller y Service para registro, con persistencia en JPA/Hibernate.</td>
+      <td>Implementación del método GET para listar todos los usuarios</td>
+      <td>Desarrollar la lógica en el controlador y servicio para obtener la lista completa de usuarios registrados (GET /clients)</td>
       <td>4</td>
       <td>Rivera Sosa, Eduardo Gael</td>
-      <td>In-Process</td>
+      <td>Done</td>
    </tr>
    <tr>
       <td>T2</td>
-      <td>Swagger: Documentar endpoint</td>
-      <td>Agregar @Tag, @Schema y ejemplos de request/response.</td>
+      <td>Implementación del método GET para obtener usuario por ID.</td>
+      <td>Desarrollar el endpoint que permita recuperar los datos de un usuario específico según su identificador único (GET /clients/{id})</td>
       <td>1</td>
       <td>Chi Cruzatt, Kevin Jorge</td>
-      <td>In-Process</td>
+      <td>Done</td>
    </tr>
    <tr>
       <td>T3</td>
-      <td>Frontend: Formulario de registro (Angular)</td>
-      <td>Crear componente con Angular Material y conexión al endpoint.</td>
+      <td>Documentación en Swagger de los endpoints GET</td>
+      <td>Agregar documentación con anotaciones `@Tag`, `@Operation`, `@Schema` y ejemplos de request/response para los métodos GET de usuarios.</td>
       <td>3</td>
       <td>Yum Gonzales, Jorge Suin</td>
-      <td>In-Process</td>
+      <td>Done</td>
    </tr>
 
    <tr>
       <td rowspan="3">TS08</td>
-      <td rowspan="3">Crear endpoint para registro de provider</td>
+      <td rowspan="3">Implementación de endpoints para gestión de proveedores</td>
       <td>T1</td>
-      <td>GET /providers</td>
-      <td>Obtener lista de proveedores.</td>
+      <td>Implementación de endpoints para gestión de proveedores (GET /providers)</td>
+      <td>Implementar la lógica en el controlador y servicio que permita recuperar la lista completa de proveedores registrados.</td>
       <td>1</td>
       <td>Chi Cruzatt, Kevin Jorge</td>
-      <td>In-Process</td>
+      <td>Done</td>
    </tr>
    <tr>
       <td>T2</td>
-      <td>POST /providers</td>
-      <td>Registrar nuevo proveedor.</td>
+      <td>Desarrollo del método para registrar un nuevo proveedor (POST /providers)</td>
+      <td>Crear el endpoint que permita registrar nuevos proveedores en el sistema.</td>
       <td>1</td>
       <td>Chi Cruzatt, Kevin Jorge</td>
-      <td>In-Process</td>
+      <td>Done</td>
    </tr>
    <tr>
       <td>T3</td>
-      <td>GET /providers/{id}</td>
-      <td>Obtener proveedor por ID.</td>
+      <td>Desarrollo del método para obtener proveedor por ID (GET /providers/{id})</td>
+      <td>Implementar la lógica para recuperar los datos de un proveedor específico a partir de su identificador único.</td>
       <td>1</td>
       <td>Chi Cruzatt, Kevin Jorge</td>
-      <td>In-Process</td>
+      <td>Done</td>
    </tr>
 
    <tr>
       <td rowspan="2">TS09</td>
-      <td rowspan="2">Crear endpoint para registro de providerprofile</td>
+      <td rowspan="2">Implementación de endpoints para gestión de perfil de proveedor</td>
       <td>T1</td>
-      <td>POST providerprofile</td>
-      <td>Crear perfil de proveedor.</td>
+      <td>Desarrollo del método para registrar perfil de proveedor. (POST /providerprofile)</td>
+      <td>Implementar la lógica necesaria en el controlador y servicio para registrar un nuevo perfil de proveedor en la base de datos.</td>
       <td>2</td>
       <td>Varela Bustinza, Marcelo Alessandro</td>
-      <td>In-Process</td>
+      <td>Done</td>
    </tr>
    <tr>
       <td>T2</td>
-      <td>GET /providerprofile/{id}</td>
-      <td>Obtener perfil de proveedor por ID.</td>
+      <td>Desarrollo del método para obtener perfil de proveedor por ID (GET /providerprofile/{id})</td>
+      <td>Crear la funcionalidad para consultar un perfil de proveedor específico a partir de su identificador único.</td>
       <td>1</td>
       <td>Varela Bustinza, Marcelo Alessandro</td>
-      <td>In-Process</td>
+      <td>Done</td>
    </tr>
 
    <tr>
       <td rowspan="3">TS10</td>
-      <td rowspan="3">Crear endpoint para registro de workers</td>
+      <td rowspan="3">Implementación de endpoints para gestión de workers</td>
       <td>T1</td>
-      <td>GET /workers</td>
-      <td>Obtener lista de trabajadores.</td>
+      <td>Desarrollo del método para listar todos los workers (GET /workers)</td>
+      <td>Implementar la lógica en el controlador y servicio que permita recuperar la lista completa de trabajadores registrados en el sistema..</td>
       <td>1</td>
       <td>Rivera Sosa, Eduardo Gael</td>
-      <td>In-Process</td>
+      <td>Done</td>
    </tr>
    <tr>
       <td>T2</td>
-      <td>POST /workers</td>
-      <td>Registrar nuevo trabajador.</td>
+      <td>Desarrollo del método para registrar un nuevo trabajador (POST /workers)</td>
+      <td>Crear el endpoint necesario para registrar un nuevo trabajador.</td>
       <td>1</td>
       <td>Rivera Sosa, Eduardo Gael</td>
-      <td>In-Process</td>
+      <td>Done</td>
    </tr>
    <tr>
       <td>T3</td>
-      <td>GET /workers/{id}</td>
-      <td>Obtener trabajador por ID.</td>
+      <td>Desarrollo del método para obtener trabajador por ID (GET /workers/{id})</td>
+      <td>Desarrollar la funcionalidad que permita obtener los datos de un trabajador específico usando su identificador único.</td>
       <td>1</td>
       <td>Rivera Sosa, Eduardo Gael</td>
-      <td>In-Process</td>
+      <td>Done</td>
    </tr>
 
    <tr>
-      <td>TS11</td>
-      <td>Crear endpoint para autenticación</td>
+      <td rowspan="2">TS11</td>
+      <td rowspan="2">Implementación de endpoints para autenticación de usuarios (POST /authentication/sign-in)</td>
       <td>T1</td>
-      <td>POST /auth/login</td>
-      <td>Inicio de sesión con retorno de JWT.</td>
+      <td>Desarrollo del método para inicio de sesión</td>
+      <td>Implementar la lógica necesaria para autenticar usuarios registrados mediante sus credenciales y retornar un token JWT válido.</td>
       <td>2</td>
       <td>Yum Gonzales, Jorge Suin</td>
-      <td>In-Process</td>
+      <td>Done</td>
+   </tr>
+   <tr>
+      <td>T2</td>
+      <td>Desarrollo del método para registro de nuevos usuarios (POST /authentication/sign-up)</td>
+      <td>Crear la funcionalidad que permita registrar nuevos usuarios en la aplicación, validando sus datos y persistiendo su información en la base de datos.</td>
+      <td>1</td>
+      <td>Chi Cruzatt, Kevin Jorge</td>
+      <td>Done</td>
    </tr>
 
    <tr>
       <td rowspan="3">TS12</td>
-      <td rowspan="3">Crear endpoint para registro de clients</td>
+      <td rowspan="3">Implementación de endpoints para gestión de clientes</td>
       <td>T1</td>
-      <td>GET /clients</td>
-      <td>Obtener lista de clientes.</td>
+      <td>Desarrollo del método para listar todos los clientes (GET /clients)</td>
+      <td>Implementar la lógica en el controlador y servicio que permita recuperar la lista completa de clientes registrados en el sistema.</td>
       <td>1</td>
       <td>Chi Cruzatt, Kevin Jorge</td>
-      <td>In-Process</td>
+      <td>Done</td>
    </tr>
    <tr>
       <td>T2</td>
-      <td>POST /clients</td>
-      <td>Registrar nuevo cliente.</td>
+      <td>Desarrollo del método para registrar un nuevo cliente (POST /clients)</td>
+      <td>Crear la funcionalidad que permita registrar nuevos clientes.</td>
       <td>1</td>
       <td>Chi Cruzatt, Kevin Jorge</td>
-      <td>In-Process</td>
+      <td>Done</td>
    </tr>
    <tr>
       <td>T3</td>
-      <td>GET /clients/{id}</td>
-      <td>Obtener cliente por ID.</td>
+      <td>Desarrollo del método para obtener cliente por ID (GET /clients/{id})</td>
+      <td>Desarrollar el endpoint que permita consultar los datos de un cliente específico a partir de su identificador único.</td>
       <td>1</td>
       <td>Chi Cruzatt, Kevin Jorge</td>
-      <td>In-Process</td>
+      <td>Done</td>
    </tr>
 
    <tr>
       <td rowspan="3">TS13</td>
-      <td rowspan="3">Crear endpoint para registro de time slots</td>
+      <td rowspan="3">Implementación de endpoints para gestión de timeslots</td>
       <td>T1</td>
-      <td>GET /timeslots</td>
+      <td>Desarrollo del método para listar todos los timeslots (GET /timeslots)</td>
       <td>Obtener horarios disponibles.</td>
       <td>1</td>
       <td>Rivera Sosa, Eduardo Gael</td>
-      <td>In-Process</td>
+      <td>Done</td>
    </tr>
    <tr>
       <td>T2</td>
-      <td>POST /timeslots</td>
-      <td>Crear nuevo horario.</td>
+      <td>Desarrollo del método para registrar un nuevo timeslot (POST /timeslots)</td>
+      <td>Crear la funcionalidad necesaria para registrar un nuevo timeslot disponible.</td>
       <td>1</td>
       <td>Rivera Sosa, Eduardo Gael</td>
-      <td>In-Process</td>
+      <td>Done</td>
    </tr>
    <tr>
       <td>T3</td>
-      <td>GET /timeslots/{id}</td>
-      <td>Obtener horario por ID.</td>
+      <td>Desarrollo del método para obtener horario por ID (GET /timeslots/{id})</td>
+      <td>Desarrollar el endpoint que permita consultar los datos de un timeslot específico mediante su identificador único.</td>
       <td>1</td>
       <td>Rivera Sosa, Eduardo Gael</td>
-      <td>In-Process</td>
+      <td>Done</td>
    </tr>
 
    <tr>
       <td rowspan="2">TS14</td>
-      <td rowspan="2">Crear endpoint para registro de services</td>
+      <td rowspan="2">Implementación de endpoints para gestión de servicios (GET /services)</td>
       <td>T1</td>
-      <td>GET /services</td>
-      <td>Obtener lista de servicios disponibles.</td>
+      <td>Desarrollo del método para listar todos los servicios</td>
+      <td>Implementar la lógica en el controlador y servicio que permita obtener la lista completa de servicios disponibles.</td>
       <td>1</td>
       <td>Varela Bustinza, Marcelo Alessandro</td>
-      <td>In-Process</td>
+      <td>Done</td>
    </tr>
    <tr>
       <td>T2</td>
-      <td>POST /services</td>
-      <td>Registrar nuevo servicio.</td>
+      <td>Desarrollo del método para registrar un nuevo servicio (POST /services)</td>
+      <td>Crear la funcionalidad necesaria para registrar un nuevo servicio, validando los datos y persistiendo la información en la base de datos.</td>
       <td>1</td>
       <td>Varela Bustinza, Marcelo Alessandro</td>
-      <td>In-Process</td>
+      <td>Done</td>
    </tr>
 
    <tr>
       <td rowspan="2">TS15</td>
-      <td rowspan="2">Crear endpoints para gestión de usuarios</td>
+      <td rowspan="2">Implementación de endpoints para consulta de usuarios</td>
       <td>T1</td>
-      <td>GET /users</td>
-      <td>Obtener lista de usuarios.</td>
+      <td>Desarrollo del método para listar todos los usuarios (GET /users)</td>
+      <td>Implementar la lógica en el controlador y servicio para recuperar la lista completa de usuarios registrados.</td>
+      <td>1</td>
+      <td>Yum Gonzales, Jorge Suin</td>
+      <td>Done</td>
+   </tr>
+   <tr>
+      <td>T2</td>
+      <td>Desarrollo del método para obtener usuario por ID (GET /users/{id})</td>
+      <td>Obtener usuario por ID.</td>
+      <td>1</td>
+      <td>Yum Gonzales, Jorge Suin</td>
+      <td>Done</td>
+   </tr>
+
+
+   <tr>
+      <td rowspan="2">TS15</td>
+      <td rowspan="2">Implementación de endpoints para consulta de usuarios</td>
+      <td>T1</td>
+      <td>Desarrollo del método para listar todos los usuarios (GET /users)</td>
+      <td>Implementar la lógica en el controlador y servicio para recuperar la lista completa de usuarios registrados.</td>
+      <td>1</td>
+      <td>Yum Gonzales, Jorge Suin</td>
+      <td>Done</td>
+   </tr>
+   <tr>
+      <td>T2</td>
+      <td>Desarrollo del método para obtener usuario por ID (GET /users/{id})</td>
+      <td>Obtener usuario por ID.</td>
+      <td>1</td>
+      <td>Yum Gonzales, Jorge Suin</td>
+      <td>Done</td>
+   </tr>
+
+
+   <tr>
+      <td rowspan="3">TS16</td>
+      <td rowspan="3">Implementación de endpoints para gestión de reviews</td>
+      <td>T1</td>
+      <td>Desarrollo del método para listar todas las reviews (GET /reviews)</td>
+      <td>Implementar la lógica en el controlador y servicio para recuperar la lista completa de reseñas registradas.</td>
       <td>1</td>
       <td>Yum Gonzales, Jorge Suin</td>
       <td>In-Process</td>
    </tr>
    <tr>
       <td>T2</td>
-      <td>GET /users/{id}</td>
-      <td>Obtener usuario por ID.</td>
+      <td>Desarrollo del método para registrar una nueva review (POST /reviews)</td>
+      <td>Crear la funcionalidad que permita registrar una nueva reseña, validando los datos y almacenándolos en la base de datos.</td>
+      <td>1</td>
+      <td>Yum Gonzales, Jorge Suin</td>
+      <td>In-Process</td>
+   </tr>
+   <tr>
+      <td>T3</td>
+      <td>Desarrollo del método para obtener review por ID (GET /reviews/{id})</td>
+      <td>Desarrollar la funcionalidad para consultar los datos de una reseña específica mediante su identificador único.</td>
       <td>1</td>
       <td>Yum Gonzales, Jorge Suin</td>
       <td>In-Process</td>
@@ -3548,7 +3604,7 @@ En el tercer sprint backlog, el equipo tuvo la intención de iniciar y avanzar e
       <td>Usar FlexLayout y BreakpointObserver para responsividad.</td>
       <td>4</td>
       <td>Chi Cruzatt, Kevin Jorge</td>
-      <td>In-Process</td>
+      <td>To-Review</td>
    </tr>
    <tr>
       <td>T2</td>
@@ -3556,12 +3612,13 @@ En el tercer sprint backlog, el equipo tuvo la intención de iniciar y avanzar e
       <td>Añadir roles, labels y focus management para accesibilidad.</td>
       <td>3</td>
       <td>Varela Bustinza, Marcelo Alessandro</td>
-      <td>In-Process</td>
+      <td>Done</td>
    </tr>
 </table>
 
 
 Enlace para acceder al Trello: [Trello Sprint Backlog 3]()
+
 ### 5.2.3.4. Development Evidence for Sprint Review
 <table border="1" cellpadding="5" cellspacing="0">
   <thead>
