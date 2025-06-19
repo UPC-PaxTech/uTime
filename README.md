@@ -3439,9 +3439,9 @@ En el tercer sprint backlog, el equipo tuvo la intención de iniciar y avanzar e
 
    <tr>
       <td rowspan="2">TS11</td>
-      <td rowspan="2">Implementación de endpoints para autenticación de usuarios (POST /authentication/sign-in)</td>
+      <td rowspan="2">Implementación de endpoints para autenticación de usuarios </td>
       <td>T1</td>
-      <td>Desarrollo del método para inicio de sesión</td>
+      <td>Desarrollo del método para inicio de sesión (POST /authentication/sign-in)</td>
       <td>Implementar la lógica necesaria para autenticar usuarios registrados mediante sus credenciales y retornar un token JWT válido.</td>
       <td>2</td>
       <td>Yum Gonzales, Jorge Suin</td>
@@ -3468,8 +3468,8 @@ En el tercer sprint backlog, el equipo tuvo la intención de iniciar y avanzar e
    </tr>
    <tr>
       <td>T2</td>
-      <td>Desarrollo del método para registrar un nuevo cliente (POST /clients)</td>
-      <td>Crear la funcionalidad que permita registrar nuevos clientes.</td>
+      <td>Desarrollo del método para registrar un nuevo cliente </td>
+      <td>Crear la funcionalidad que permita registrar nuevos clientes (POST /clients)</td>
       <td>1</td>
       <td>Chi Cruzatt, Kevin Jorge</td>
       <td>Done</td>
@@ -3512,9 +3512,9 @@ En el tercer sprint backlog, el equipo tuvo la intención de iniciar y avanzar e
 
    <tr>
       <td rowspan="2">TS14</td>
-      <td rowspan="2">Implementación de endpoints para gestión de servicios (GET /services)</td>
+      <td rowspan="2">Implementación de endpoints para gestión de servicios </td>
       <td>T1</td>
-      <td>Desarrollo del método para listar todos los servicios</td>
+      <td>Desarrollo del método para listar todos los servicios (GET /services)</td>
       <td>Implementar la lógica en el controlador y servicio que permita obtener la lista completa de servicios disponibles.</td>
       <td>1</td>
       <td>Varela Bustinza, Marcelo Alessandro</td>
@@ -3547,27 +3547,6 @@ En el tercer sprint backlog, el equipo tuvo la intención de iniciar y avanzar e
       <td>Yum Gonzales, Jorge Suin</td>
       <td>Done</td>
    </tr>
-
-
-   <tr>
-      <td rowspan="2">TS15</td>
-      <td rowspan="2">Implementación de endpoints para consulta de usuarios</td>
-      <td>T1</td>
-      <td>Desarrollo del método para listar todos los usuarios (GET /users)</td>
-      <td>Implementar la lógica en el controlador y servicio para recuperar la lista completa de usuarios registrados.</td>
-      <td>1</td>
-      <td>Yum Gonzales, Jorge Suin</td>
-      <td>Done</td>
-   </tr>
-   <tr>
-      <td>T2</td>
-      <td>Desarrollo del método para obtener usuario por ID (GET /users/{id})</td>
-      <td>Obtener usuario por ID.</td>
-      <td>1</td>
-      <td>Yum Gonzales, Jorge Suin</td>
-      <td>Done</td>
-   </tr>
-
 
    <tr>
       <td rowspan="3">TS16</td>
@@ -3617,7 +3596,10 @@ En el tercer sprint backlog, el equipo tuvo la intención de iniciar y avanzar e
 </table>
 
 
-Enlace para acceder al Trello: [Trello Sprint Backlog 3]()
+Enlace para acceder al Trello: [Trello Sprint Backlog 3](https://trello.com/b/RdzY7vOJ)
+
+![Diagrama](img/SprintBacklog3.png)
+
 
 ### 5.2.3.4. Development Evidence for Sprint Review
 <table border="1" cellpadding="5" cellspacing="0">
