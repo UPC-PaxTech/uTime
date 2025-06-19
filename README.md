@@ -198,9 +198,6 @@ Capturas de la participación en el informe:
 
 
 
-**Yalán Zhang, Angie Christina**
-
-
 
 **Yum Gonzales, Jorge Suin**
 
@@ -3873,6 +3870,7 @@ En el Sprint 3, se dividieron las tareas según las funcionalidades del sistema 
 * ¿Te gustaría tener la opción de guardar tus salones favoritos o ver tu historial?
 
 ### Preguntas Finales (Cierre)
+
 * ¿Qué es lo que más te gustó de uTime?
 
 * ¿Qué aspecto te pareció confuso o poco útil?
@@ -4092,27 +4090,35 @@ Domain-Driven Design for Microservices: An Evidence-Based Investigation. (2024).
 
 https://github.com/UPC-PaxTech/uTime/
 
-**Repositorio en GitHub - uTime (Paxtech) - Frontend Web Applications**<br>
-
-https://github.com/UPC-PaxTech/Frontend-Web-Applications
-
 **Repositorio en GitHub - uTime (Paxtech) - Landing Page**<br>
 
 https://github.com/UPC-PaxTech/uTime-Landing-Page
 
-**Repositorio en GitHub - uTime (Paxtech) - Fake Api**<br>
-https://github.com/UPC-PaxTech/fakeapi
-
-**Repositorio en GitHub - uTime (Paxtech) - Web Applications**<br>
-https://github.com/UPC-PaxTech/Web-Services
-
 **Url Deployment Github Pages - uTime (Paxtech) - Landing Page**<br>
+
 https://upc-paxtech.github.io/uTime-Landing-Page/
 
+**Repositorio en GitHub - uTime (Paxtech) - Frontend Web Applications**<br>
+
+https://github.com/UPC-PaxTech/Frontend-Web-Applications
+
 **Url Deployment Github Pages - uTime (Paxtech) - Frontend Web Applications**<br>
+
 https://upc-paxtech.github.io/Frontend-Web-Applications/iam/login
 
-**Url Deployment Azure - uTime (Paxtech) - Web Applications**<br>
+**Repositorio en GitHub - uTime (Paxtech) - Fake Api**<br>
+
+https://github.com/UPC-PaxTech/fakeapi
+
+
+**Repositorio en GitHub - uTime (Paxtech) - Web Services**<br>
+
+https://github.com/UPC-PaxTech/Web-Services
+
+**Url Deployment Azure - uTime (Paxtech) - Web Services**<br>
+
+https://utime-web-service.azurewebsites.net/swagger-ui/index.html
+
 
 **Url Video About the product:**
 
