@@ -4033,6 +4033,13 @@ DESCRIPCIÓN DE PROBLEMAS
 
 # 5.4. Video About-the-Product
 
+A continuación, se presenta un video explicativo de uTime, una plataforma que conecta usuarios con estilistas disponibles según su horario y ubicación de preferencia. El objetivo del video es mostrar de manera breve, clara y visual cómo funciona uTime, destacando sus principales funcionalidades, el propósito del proyecto y los beneficios que brinda tanto a clientes como a profesionales de belleza.
+El video está diseñado para captar la atención de potenciales usuarios y estilistas, demostrando cómo reservar una cita en pocos pasos, explorar perfiles con calificaciones y comentarios, y personalizar la búsqueda según necesidades específicas. Además, se incluyen animaciones simples, una narración clara y una simulación del uso real de la aplicación en dispositivos móviles.
+
+<img src="img/video-about.jpeg" alt="Video about the product"/>
+
+![Enlace al Video About The Product](https://youtu.be/6XoZkCqmiOo)
+
 # Conclusiones
 
 ## 6.1 Conclusiones y recomendaciones
