@@ -3958,6 +3958,7 @@ la herramienta. Es imperativo que sea corregido antes del lanzamiento.</td>
 | 5 | No se puede ver el historial completo de citas pasadas desde el perfil del cliente | 2                   | Information Architecture: ¿Es localizable?      |
 | 6 | Falta de confirmación visual al editar servicios                                   | 2                   | Usability: Visibilidad del estado del sistema   |
 | 7 | El salón no puede responder a los reviews que dejan los clientes                   | 2                   | Usability: Libertad y control del usuario       |
+
 DESCRIPCIÓN DE PROBLEMAS
 
 *PROBLEMA #1: No se confirma visualmente el éxito al iniciar sesión*
@@ -4107,13 +4108,18 @@ https://upc-paxtech.github.io/uTime-Landing-Page/
 **Url Deployment Github Pages - uTime (Paxtech) - Frontend Web Applications**<br>
 https://upc-paxtech.github.io/Frontend-Web-Applications/iam/login
 
-**Url Deployment Github Pages - uTime (Paxtech) - Web Applications**<br>
+**Url Deployment Azure - uTime (Paxtech) - Web Applications**<br>
 
-**Url Video About the product:
+**Url Video About the product:**
+
 * Microsoft Teams:
 https://upcedupe-my.sharepoint.com/:v:/g/personal/u202319668_upc_edu_pe/ERfEtE8S3WdLhoWUYUmMBfoBUBbhrCgm_thuZDMjyRHQHg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=SQO69q
 * Youtube:
 https://youtu.be/6XoZkCqmiOo
+
+**Url Video About the product:**
+
+**Url Video Exposicion TB2:**
 
 **Herramientas y Recursos Utilizados:**<br>
 
