@@ -1256,19 +1256,26 @@ Segmento objetivo #2: Clientes de servicios de belleza
 
 ## 2.4. Ubiquitous Language.
 
-| Term                                             | Definition                                                                       |
-|--------------------------------------------------|----------------------------------------------------------------------------------|
-| **Scheduled Appointment (Cita Agendada)**        | Una reserva previamente agendada por un cliente en un horario específico         |
-| **Available Slot (Horario Disponible)**          | Un periodo de tiempo donde no hay citas agendadas.                               |
-| **Frequent Client (Cliente frecuente)**          | Cliente que acude regularmente a al salon o barbería.                            |
-| **Time Block (Bloque de tiempo)**                | Unidad de duración en la plataforma. Se usan para estandarizar las citas         |
-| **Cancellation (Cancelación)**                   | Cancelar una cita programada. Esto libera el bloque de tiempo que le corresponde |
-| **Rescheduling (Reprogramación)**                | Cambia la fecha de una cita ya agendada.                                         |
-| **Appointment Reminder (Recordatorio de Cita)**  | Notificación al usuario para confirmar su cita.                                  |
-| **High-Demand Period (Periodo de alta demanda)** | Fechas en las cuales existe una mayor cantidad de clientes realizando citas.     |
-| **New Client (Cliente Nuevo)**                   | Un cliente nuevo que no tiene preferencia por ningún estilista.                  |
-| **Selected Service (Servicio seleccionado)**     | Un tratamiento de especifico que ha sido seleccionado para la cita.              |
-| **Schedule Update (Cambio en la agenda)**        | Cualquier cambio en el horario de citas.                                         |
+| **Término del Lenguaje Ubicuo**    | **Clase**                                    | **Bounded Context** | **Definición**                                                                            |
+| ---------------------------------- | -------------------------------------------- | ------------------- | ----------------------------------------------------------------------------------------- |
+| **Reserva Agendada**               | `Reservations`                               | Reservations        | Una reserva confirmada vinculada a un `ClientId`, `TimeSlotId`, `ServiceId` y `WorkerId`. |
+| **Horario Disponible**             | `TimeSlotId`                                 | Reservations        | Identificador de un bloque de tiempo libre, no asignado a ninguna `Reservation`.          |
+| **Cliente Frecuente**              | `ClientId`                                   | Reservations        | Identificador de cliente con múltiples reservas registradas en el sistema.                |
+| **Bloque de Tiempo**               | `TimeSlotId`                                 | Reservations        | Unidad estándar de tiempo usada para agendar reservas.                                    |
+| **Cancelación de Reserva**         | `UpdateReservationCommand` (con cancelación) | Reservations        | Acción de actualizar o eliminar una reserva, liberando su `TimeSlotId`.                   |
+| **Reprogramación de Reserva**      | `UpdateReservationCommand`                   | Reservations        | Comando para cambiar el `TimeSlotId` de una reserva ya existente.                         |
+| **Cliente Nuevo**                  | `ClientId` (sin reservas)                    | Reservations        | Identificador de cliente sin reservas previas.                                            |
+| **Servicio Seleccionado**          | `ServiceId`                                  | Reservations        | Identificador de servicio incluido en una reserva.                                        |
+| **Cambio en la Agenda**            | `UpdateReservationCommand`                   | Reservations        | Cualquier alteración en los datos de una reserva existente.                               |
+| **Trabajador**                     | `Workers`                                    | Workers             | Agregado que representa al profesional que realiza un servicio.                           |
+| **Especialización del Trabajador** | `WorkerSpecialization`                       | Workers             | Valor que describe la especialidad del trabajador (ej. barbería, uñas).                   |
+| **Servicio**                       | `Services`                                   | Services            | Agregado que representa un tratamiento o actividad ofrecida por un `Provider`.            |
+| **Duración del Servicio**          | `Duration`                                   | Services            | Valor que indica el tiempo necesario para completar el servicio.                          |
+| **Precio del Servicio**            | `Money` (compartido)                         | Services / Shared   | Valor objeto que representa el costo del servicio.                                        |
+| **Proveedor**                      | `ProviderId`                                 | Profiles / Services | Identificador del prestador del servicio.                                                 |
+| **Cliente**                        | `ClientId`                                   | Profiles            | Identificador del usuario que agenda y recibe el servicio.                                |
+| **Reseña**                         | `Reviews`                                    | Reviews             | Agregado que contiene la valoración textual y numérica hecha por un `Client`.             |
+| **Puntaje de Reseña**              | `Review.rating`                              | Reviews             | Valor numérico asociado a una reseña de servicio.                                         |
 
 # Capítulo III: Requirements Specification
 
@@ -1978,13 +1985,13 @@ Web Applications Prototyping web view: *[Web Applications Prototyping](https://w
 ### 4.6.1. Software Architecture Context Diagram.
 
 <div align="center">
-   <img src="img/c4-context.png" alt="c4-context"/>
+   <img src="img/context-diagram.png" alt="c4-image"/>
 </div>
 
 ### 4.6.2. Software Architecture Container Diagrams.
 
 <div align="center">
-   <img src="img/c4-container.png" alt="c4-context"/>
+   <img src="img/container-diagram.png" alt="c4-image"/>
 </div>
 
 ### 4.6.3. Software Architecture Components Diagrams.
@@ -1992,31 +1999,37 @@ Web Applications Prototyping web view: *[Web Applications Prototyping](https://w
 -Single Page Application diagram:
 
 <div align="center">
-   <img src="img/c4-component-spa.png" alt="c4-context"/>
+   <img src="img/singlepage-diagram.png" alt="c4-image"/>
 </div>
 
--User diagram:
+-Profiles diagram:
 
 <div align="center">
-   <img src="img/c4-component-user.png" alt="c4-context"/>
+   <img src="img/profiles-diagram.png" alt="c4-image"/>
 </div>
 
--Schedule diagram:
+-Reservation diagram:
 
 <div align="center">
-   <img src="img/c4-component-schedule.png" alt="c4-context"/>
+   <img src="img/reservations.png" alt="c4-image"/>
 </div>
 
--Authentication diagram:
+-Reviews diagram:
 
 <div align="center">
-   <img src="img/c4-component-authentication.png" alt="c4-context"/>
+   <img src="img/reviews.png" alt="c4-image"/>
 </div>
 
--Payment diagram:
+-Services diagram:
 
 <div align="center">
-   <img src="img/c4-component-payment.png" alt="c4-context"/>
+   <img src="img/services.png" alt="c4-image"/>
+</div>
+
+-Workers diagram:
+
+<div align="center">
+   <img src="img/workers.png" alt="c4-image"/>
 </div>
 
 ### 4.7. Software Object-Oriented Design.
