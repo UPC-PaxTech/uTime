@@ -3574,10 +3574,20 @@ Enlace para acceder al Trello: [Trello Sprint Backlog 3]()
     </tr>
   </thead>
   <tbody>
-    <tr><td>Web-Services</td><td>main</td><td>c809237</td><td>feat: added clients</td><td>27/05/2025</td></tr>
-    <tr><td>Web-Services</td><td>main</td><td>3378702</td><td>feat: initialized Salon</td><td>27/05/2025</td></tr>
-    <tr><td>Web-Services</td><td>main</td><td>39788fc</td><td>Create README.md</td><td>27/05/2025</td></tr>
-    <tr><td>Web-Services</td><td>main</td><td>dbc3c22</td><td>feat: Spring Boot project setup</td><td>27/05/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>4f74620</td><td>feat: add provider profile naming solutions</td><td>18/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>a717fec</td><td>Merge branch 'develop' of https://github.com/UPC-PaxTech/Web-Services into develop</td><td>18/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>51b1406</td><td>feat: added entity to payment</td><td>18/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>7a11e76</td><td>docs: added 4 context diagram</td><td>18/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>4a52de8</td><td>feat: added payment and added to reservation detail resource</td><td>18/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>15f59ea</td><td>Merge branch 'feature/reservationDetails' into develop</td><td>17/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>fd8e7e6</td><td>Merge branch 'develop' of https://github.com/UPC-PaxTech/Web-Services into develop</td><td>17/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>8ca0cc3</td><td>feat: reservation details without payment id</td><td>17/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>a1a7c72</td><td>feat: reservation failure</td><td>17/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>18820cd</td><td>Merge branch 'develop' of https://github.com/UPC-PaxTech/Web-Services into develop</td><td>17/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>478f417</td><td>docs: add value objects for all the bounded context</td><td>17/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>39d0837</td><td>feat: acl de Worker y validacion terminada</td><td>17/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>96318cd</td><td>feat: added facade but not working yet</td><td>16/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>7d329c6</td><td>feat: added reservations</td><td>16/06/2025</td></tr>
     <tr><td>Web-Services</td><td>develop</td><td>6ab3187</td><td>feat: added workers and reservations bounded context</td><td>16/06/2025</td></tr>
     <tr><td>Web-Services</td><td>develop</td><td>b4e05f2</td><td>readded salonprofilecontroller</td><td>15/06/2025</td></tr>
     <tr><td>Web-Services</td><td>develop</td><td>84c70e9</td><td>Merge branch 'develop' of https://github.com/UPC-PaxTech/Web-Services into develop</td><td>15/06/2025</td></tr>
@@ -3629,6 +3639,14 @@ Enlace para acceder al Trello: [Trello Sprint Backlog 3]()
     <tr><td>Web-Services</td><td>develop</td><td>cd1ffb2</td><td>feat: Add Client module with endpoints for getAll, getById, and Swagger integration</td><td>31/05/2025</td></tr>
     <tr><td>Web-Services</td><td>develop</td><td>c5912c6</td><td>feat: added salons get by id</td><td>29/05/2025</td></tr>
     <tr><td>Web-Services</td><td>develop</td><td>ea13078</td><td>feat: added salons values</td><td>29/05/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>c809237</td><td>feat: added clients</td><td>27/05/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>3378702</td><td>feat: initialized Salon</td><td>27/05/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>39788fc</td><td>Create README.md</td><td>27/05/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>dbc3c22</td><td>feat: Spring Boot project setup</td><td>27/05/2025</td></tr>
+    <tr><td>Web-Services</td><td>main</td><td>c809237</td><td>feat: added clients</td><td>27/05/2025</td></tr>
+    <tr><td>Web-Services</td><td>main</td><td>3378702</td><td>feat: initialized Salon</td><td>27/05/2025</td></tr>
+    <tr><td>Web-Services</td><td>main</td><td>39788fc</td><td>Create README.md</td><td>27/05/2025</td></tr>
+    <tr><td>Web-Services</td><td>main</td><td>dbc3c22</td><td>feat: Spring Boot project setup</td><td>27/05/2025</td></tr>
   </tbody>
 </table>
 
