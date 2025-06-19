@@ -198,9 +198,6 @@ Capturas de la participación en el informe:
 
 
 
-**Yalán Zhang, Angie Christina**
-
-
 
 **Yum Gonzales, Jorge Suin**
 
@@ -3924,6 +3921,7 @@ En el Sprint 3, se dividieron las tareas según las funcionalidades del sistema 
 * ¿Te gustaría tener la opción de guardar tus salones favoritos o ver tu historial?
 
 ### Preguntas Finales (Cierre)
+
 * ¿Qué es lo que más te gustó de uTime?
 
 * ¿Qué aspecto te pareció confuso o poco útil?
@@ -4111,9 +4109,9 @@ https://youtu.be/6XoZkCqmiOo
 
 En este video hablamos sobre nuestro equipo de desarrollo de uTime, conformado por Kevin Chi, Jorge Sium, Marcelo Varela y yo, Gael Rivera. Cada uno de nosotros aporta habilidades distintas que se complementan muy bien, lo que nos ha permitido desarrollar diferentes partes del proyecto de forma eficiente. Una de nuestras principales fortalezas es justamente esa diversidad de conocimientos. Al inicio tuvimos algunos retos con la organización del tiempo, pero supimos adaptarnos, estableciendo mejor los horarios y dedicando momentos específicos para probar, ajustar y seguir avanzando. En este espacio queremos compartir cómo trabajamos juntos, nuestras fortalezas, debilidades y la forma en que logramos salir adelante como equipo.
 
-![Enlace al Video About The Team]()
+Enlace al Video About The Team: https://youtu.be/MGPQF3d2g2w
 
-![Nuestro equipo de desarrollo](img/ImagenATT)
+![Nuestro equipo de desarrollo](img/video-team.png)
 
 # Bibliografía
 
@@ -4149,27 +4147,35 @@ Domain-Driven Design for Microservices: An Evidence-Based Investigation. (2024).
 
 https://github.com/UPC-PaxTech/uTime/
 
-**Repositorio en GitHub - uTime (Paxtech) - Frontend Web Applications**<br>
-
-https://github.com/UPC-PaxTech/Frontend-Web-Applications
-
 **Repositorio en GitHub - uTime (Paxtech) - Landing Page**<br>
 
 https://github.com/UPC-PaxTech/uTime-Landing-Page
 
-**Repositorio en GitHub - uTime (Paxtech) - Fake Api**<br>
-https://github.com/UPC-PaxTech/fakeapi
-
-**Repositorio en GitHub - uTime (Paxtech) - Web Applications**<br>
-https://github.com/UPC-PaxTech/Web-Services
-
 **Url Deployment Github Pages - uTime (Paxtech) - Landing Page**<br>
+
 https://upc-paxtech.github.io/uTime-Landing-Page/
 
+**Repositorio en GitHub - uTime (Paxtech) - Frontend Web Applications**<br>
+
+https://github.com/UPC-PaxTech/Frontend-Web-Applications
+
 **Url Deployment Github Pages - uTime (Paxtech) - Frontend Web Applications**<br>
+
 https://upc-paxtech.github.io/Frontend-Web-Applications/iam/login
 
-**Url Deployment Azure - uTime (Paxtech) - Web Applications**<br>
+**Repositorio en GitHub - uTime (Paxtech) - Fake Api**<br>
+
+https://github.com/UPC-PaxTech/fakeapi
+
+
+**Repositorio en GitHub - uTime (Paxtech) - Web Services**<br>
+
+https://github.com/UPC-PaxTech/Web-Services
+
+**Url Deployment Azure - uTime (Paxtech) - Web Services**<br>
+
+https://utime-web-service.azurewebsites.net/swagger-ui/index.html
+
 
 **Url Video About the product:**
 
@@ -4179,11 +4185,11 @@ https://upcedupe-my.sharepoint.com/:v:/g/personal/u202319668_upc_edu_pe/ERfEtE8S
 * Youtube:
 https://youtu.be/6XoZkCqmiOo
 
-**Url Video About the product:**
+**Url Video About the team:**
 
-* Microsoft Teams:
+* Microsoft Teams: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202319668_upc_edu_pe/EfS5-WRVMhNGrQqRsa_bMwkBJ51OAEPnGQuqUFByRFvrOw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=8CcQNa
 
-* Youtube:
+* Youtube: https://youtu.be/MGPQF3d2g2w
 
 **Url Video Exposicion TB2:**
 
