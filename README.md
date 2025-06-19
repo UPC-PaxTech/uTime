@@ -2042,18 +2042,22 @@ Web Applications Prototyping web view: *[Web Applications Prototyping](https://w
 -Diagrama de clases - Reviews Context
 
 ![Diagrama de reviews-context](diagram/back-context-diagram/svg/reviews-context-diagram.svg)
+[Link a vista amplia del diagrama](https://img.plantuml.biz/plantuml/svg/nLXjRwCu4FvUgV_1sY_NqwhyWAZjBStIYbDIif3sj9zEBdYpxF5snkbjTCf_F_EEmSOcWHwjsWGyCy-Cdnd6yoab49Dz65nUP3y9TF-2EmG-sEZDH_-a7y2_bnU0NlM3pt48_QY-ppnRnnuAc4VCOtstmsW72KfxQxBB3M2QWj8mRq5sNISuVlCzXF_qlGNOb5zCJx3Q3NmKaNpjClyeN8bpkulIVd_HaRrrpAB5zV851djalVv0BXdoiu4ERcvQCdTtGjSpBu8usad1DLOgf-UqKKHCsK8LQ8TWdsUdM0G9VRW0VaI4QY25-Xh70OBH6Tjb_7HHGlmuafFoAIOFyJxoQX7gS_rPxF57WVHL4GdJ-_KC-Ciu367a3O5Vqb0HL80ebrFWDd9Zx6MeXHlxd7XZ18y2Y5_s2Fk3EV-8Y1u4PUPdomzg0AbS8NH_CBrJvDBxGvE79ogeKamgtlhQ-bY7oK7upNSvSMfJiDo6SYsrPaO4uM_GHNp-VRHogi7WfiHx1xvJ-G1TyLZX5lyvV1JhuP64h-SeTglOT7MlLdvAUaWuBFex-plA7GwbX4f4A8JSEbqJIpAUdZwxZfqtjvuaWU_2p77-wpkFEWsAy0tEie_xZXQJrGoJGFXIA0HibCIfJs9yM03SkICGl1RKt8buFwnBdVkT7U9yhMBSpWHfX9cyUTy0dvk2mv4TaOQ3Q4QdefesUJfcbxJ-TpFKZBvXc1AyTyaU8twIRX1EAJmKkKZSQVz8eBIRQNQ-Mt1Fm5rAftpCDag96EmoZWYEWu0w9WNTh9KmdQqz5TlPkuCAcDIgv9cR8nE61Y6XNIOo8kAJmqsr2McynpJi2-2s2jELY9ao9VjMHL9LyXkLszNa_iCdtpSGmn3HFKrF1h9h9x2gbbRUrQeANKrLuUbIR4GhdNAQLIlLki7_ky7MqnI5hpGdbFrwm75OnBoMbPnUAia5875VYyAc38OhqrHfbIFYACXWSNIDmiNPZN6uE0fEnoKvBK2ttwOndK5MAT5FyW1Tw9Mj0RUGqzzVmEtjBT0V7stZKTyQO6azWHTzzMm0w_vtOxbrikUN5wLYhPW0QVcmHsjcEberkRc-lWFSjUt9YDOUtKohkHdqJAktcWnL0LjQwxN-zDd9uzL4JnohwgokyGg644CVhqmzhwoCKbzv-ENPi4r3tS7ofAznsi3ptMifxxQ6CoZdj8ppM65RoPEsoJ7i5tDPxXDb9IMbvO2lsLVdURNL-VbRdJ4qxcH126I8n9FRu31PPeCT9GXDYAawlO4ENUSoqAViZ9OOslQe2CprPfNJqJOsbcDkBVjhJiYIcmmVMtC9hHf1Q9rH0vT0-LkjZPezFscjev96JqHQzzmp1uGJScLkuzmaafXdfX0yjimS-_7sHsVtp7Q5IVykTeTgmNi149G8MXMsjhLQ6NPU88gAOUOlhApTt7RBGpDSqB8vWjOQ5zHPKGy5E007KsWsCvr9mLHMv0t7D1RKAjV4jWRVzjFOKYaCarlgbOBwoEKunlgUPeA4ylNHiowZucCyMvDPFVK0fADdUiiAlQlSfFAWGCtdKLG-4yM8P5B1e3oQK8l4g4Gx4yMedYJx-OGYRny6_m40)
 
 -Diagrama de clases - Services Context
 
 ![Diagrama de services-context](diagram/back-context-diagram/svg/services-context-diagram.svg)
+[Link a vista amplia del diagrama](https://img.plantuml.biz/plantuml/svg/tLZRRkCs47qFa7yWzgKf5b7UZIHTNxI12ZlooacAFd8bhbUfBAeKjLYZoB-NadKXPPAY5Ci5weV4kd3EuSoPuNW-fHGIcksYoui4-d_1BG8VDeZy27sKVW3_N5u0zgcVBF0EXd5zNtYsmW6AX4V2u-bsIz0MKiui__4ZcAQWGfQzaN-k4u9_X04YJZ01pNV5o-d1sW9H64RffB9UNkiNFS8TgbVa5uhNWun06k9u0XRbDoLpPcW2LZX6UnKqXJJBUHR_Zrzw4s-nIuMlNs2K8VVhA_Afpjlhse7WzfPRSt-lz7_8_1xXUDj9ha4HlTv6KW6rOpSCD0-SyTw4oFV4gu9l3DRenebfduqLsZ3VKocf6SOHWX9j6cjgZdSx60SwFSq9OlbTkhvydp7ra8z9a9DKxkev2NgjV5EG_98X4cehp0EYqoYgwap-_jwC8bjOhfhjdM3GmdIsRrAkqm9toNrL5saHLVHbUSNWcDeG-GPz91VDHpV9LGcZsyh-FVZE34JeIXfT__3_rrwMfD6MMthJxEqGFVEjBSEK7fEH2UBl_6-_FSdaeJIZPA8MYioMg129HkoVg22i4aa5yeZfPvp5WVtJFonWtgo_AxofN7lLdCjQljo_fab8aYZqYy8eRpAA6BC0AFiCKV3IHaAJ8CukYPIrj7p7GmbEGuh9VWBIzYt5qclv_TDbMuUr7XdN2fJaid8rdtxTZXQozTn-Vd_gTpYuJ_hh6VKh0PBmT6UP4tyZCAKaysb6a3pHreYaZ2AAVQJkwLyJsDtCDq5hr-W1nClLgPoqXrAgPZl7CIKuYjZEkbatBtVfLAmWjLR5steJGcxK5eIxFGNFF96mke_ic8PqVrk78iKPOSwV09-lBrSgbNQQoVZ2OchcDxPmsoZzZv1-NqF2scuMtNGubwsGWwPs-4IiZHsiSSL1Pism9wsC6eYkUjMiiVpls-rfcgBTLvOZvblxJF3kuFbwiIh1FhQMJW35nsOC8gDtMMwgCjlDIMOX9oOnrekPB2JzcCai36ScBSP5b_aBkBkx0zE71yz-c3xPh8s8mSjq-Mm3T_QxFN_QvCylBwhCiGup8wiO3rdD5CYgEuVhwtiWVvkVOrXhRjnpSkFjqT1O08T9qicjDxEdqnClXr5DwEVkQZLzN6nklZpRdcDl2WKqUj14lveXMDBIfIOaeTy98QrnFI5K8EMOmP8ra2VP1GTmr5QE121fE8TxgsdKhBmdi-epi6_ajOhH0DRbKhfGNbW55lrsC2QJFlum2a7FpD1cbD76pSysmn2ScqaVVnY5eDtl3SrfzKuDsYv3PxSiZO9kKbogusVXhgRE8zZOteipBq-VeoD9UWZLrz9VRYUeGYV3wH2u0aSSYAfXDCVNA23j8snCaEDZZDTEAHhWhDRBGZYUlNOtpfFh_NbJQQYb7MuaQLNJHqkCg2BGnP2hbMJyuCNYPYpMQmARh6ccNAFG6AJjyGbqrbCf1M4AATNF-74Omc50HewEhKdKSs7hytVkFZvvxd9fUqNsrcU0cBBjSuaR_3KAhSTxCdPwGOyArPhwdH3fVHtrk_5wDcr3ySnIQGGqJVACXoPBbvF3TZHaqyt6NisgdFJiZVliiQIi3zIRUZRGbQZ_v_RL0FOCFn0DM9pXDz8d50VPBleN)
 
 -Diagrama de clases - Shared Context
 
 ![Diagrama de shared-context](diagram/back-context-diagram/svg/shared-context-diagram.svg)
+[Link a vista amplia del diagrama](https://img.plantuml.biz/plantuml/svg/XPFBReCm44NtIFo3bKrNzGT4W5AbMKHg7YfIzuCp9KxyY6opG1N_NXjG4XfelB8zH_ZEtCl2EZ2kaYAEx9ch2nYGv0Bi32NchXP83387gXGOHt7KLyWiFuB1mupyn17nwtg_Ljy6h3CLSvN1Qtt0xD5ORXqgDWG6qEa23yMmc01hIQxWZ4kmk3_MbZCGMv1SbRapuB2iIP8i0vTbmmyqjsE_RVxeVzSIk1hNlT475DEALyfnL_yZUgCLrcFbi5vbgCuxw15f9XiPQFW2KU6kE7dFx5CbINA7PzcKCbOPuxtosholViZZ54XTAJSdGeyHq_9lFZGXO2yaJLFokVfuMwvtsrKUZd7KfOrsvj3M1zgDctQjK9gHCUX-7hGVRSyDaqhlGabzzkYpX8KNjIdfaHTebB-ZXTQEolPPrRAXdmMgG_jt_G80)
 
 -Diagrama de clases - Workers Context
 
 ![Diagrama de workers-context](diagram/back-context-diagram/svg/workers-context-diagram.svg)
+[Link a vista amplia del diagrama](https://img.plantuml.biz/plantuml/svg/nLXjJzim4FwEn7-8-38crFo0gdIKZasL67Ij61ydaveISEBCTfYwgVzzJlDcf-V42Gqh4b3NTy_Zk-USkrvmWPY80t9ybFv4o7j1Q-oSt5FsWXa_SVuU7pdoLNpmcGR83ujrxRDlT8M9zf7syMIzPdYD1EPxUvANHn3dJWOCRKXUWn05U9Zjkf7_6xRn27i-8luV97mQvWPBRTLW6ZrHGN_6ZEHMysJXZf7z_LjzQMiu-0z4Odpxy8mzqNpqv53EQAJOZCSDqLWAveVhHdfL93qQrfZLq7P4pwDgZQlanHBIb8yf3G8KhkfoCMLO2ZLbccsNH1VOesoLS3GUxYvQjJ4qKVmUO-RN5ifNB2Q4PEMIRD_O4PHsgT7bPhRgOiSlDtD6N_qLPXOEbBTRuCfOOlRgUy11LQbaSSpsIhHPA31xH1w6vN9s6oNIH6IKCHuxJzAUu5CehLxwzsCRFr2MOJzRyx7IhDcVwjhdOey988DVoUzMnm4qONHYOc4K1-HfNnNRodDc4aN4ztPN3FomsKLB7iRulD5L0pvHp2AR1H4ntaIfmG97bFk2iitG-LrPCHWEuFL3wRNUbxrcAna2tkOnLXNS665Dx-yRuBUMJdraMvHFBPjM9GHafRcgPk4ZGroms1Cnmt1XpIK5IH277ZRtSiyHQknaocnLBxSEl3Dh3dDUO2xCPASq58mIeZQq9jBbtWPrwlT5hb1zjTQ1LWwvlRROKkGo214DERuAXIysepm9dCPCXdteUCfbSchIPfEJMBb5R9ryadRhGjxtldYQ8oOxLvbJtfd8MYqwMozAvHMkKb_bJG3vikpQSf_DCijtslLU_xiRdN2EWmTP4zRd-i9eaCQyi3NLqvbkENG4tVTYaPJQS2MUSg_DZ0072It0LojUG3RQyG8STES5thhfVn-Sy_DpPt5rFPdERc-kbidRT4jM8sxwDO2xc_ZTSh1ty_5zC1Z3UzLPsAsEyNruXsR-Fd3ARmbgCFB9quKgseYspym60ghzLX0r8DbuwW8jr65EeG1KMwkU082sw-tHobjZ5nnaZVxhPD8B3g0L6nnzWZN2cDNI3qX5CNs2xAkcgWHba7NpcTMjpAPWsdOJaif4RzvTfKztPJlkLflklcXqL6hV1409Mr3GHbX83U-GX_OSEjLNpzYrPVSksCtLM0wIRZ8pkifeM8Yl6001u5gbzWe5J8Q7Gh9xV1u6nVx2E31UuoFkC7YsjNXmjDhgwmcjVRqLCqvnJPhdHVtErVqKatR5Jp_eRwgJ4jHwBksXUaeMrbFeGPwvviIr6e6w7xm4R3KGDPtn-EW2Xwiu8Fy0)
 
 **-Diagrama completo del frontend**
 ![Diagrama de Clases-frontend](img/class-diagram-frontend.png)
@@ -2084,7 +2088,7 @@ Web Applications Prototyping web view: *[Web Applications Prototyping](https://w
 | `AuthAdapter`    | Conecta el sistema con el servicio de Google para autenticar.          |
 | `User`           | Usuario del sistema, vinculado a una cuenta.                           |
 | `Client`         | Usuario que agenda citas en salones.                                   |
-| `Salon`          | Negocio que ofrece servicios, son los salones de belleza or barberias. |
+| `Provider`       | Negocio que ofrece servicios, son los salones de belleza or barberias. |
 | `ContactInfo`    | Guarda los datos de contacto de un salón, como teléfono o redes.       |
 | `Worker`         | Persona que trabaja en el salón y tiene horarios disponibles.          |
 | `Schedule`       | Representa el horario de un trabajador para un día específico.         |
@@ -2099,8 +2103,16 @@ Web Applications Prototyping web view: *[Web Applications Prototyping](https://w
 
 ### 4.8.1. Database Diagram.
 
+- Diagrama de base de datos
+
 <div align="center">
    <img src="img/erd-diagram.png" alt="erd-diagram"/>
+</div>
+
+- Diagrama de base de datos en Mysql
+
+<div align="center">
+   <img src="img/database-diagram-mysql.png" alt="erd-diagram"/>
 </div>
 
 # Capítulo V: Product Implementation, Validation & Deployment
