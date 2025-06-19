@@ -3846,8 +3846,25 @@ Por último, tenemos la sección de "IAM bounded context" que se encarga del man
 ### 5.2.3.7. Software Deployment Evidence for Sprint Review
 Para realizar el deployment del backend de la aplicación, se empleo la plataforma Azure. Se realizaron los sigueintes pasos para llevar a cabo el despligue del proyecto.
 
+En primer lugar, se genero el java y usando docker se construyó la imagen del proyecto.  
+![Azure Deployment](img/azure_deployment2.png)
+Luego, se subió la imagen a Azure Container Registry (ACR) para su almacenamiento y gestión. Posteriormente, se creó un Azure App Service para alojar la aplicación, configurando el entorno de ejecución y las variables necesarias.
+![Azure Deployment](img/azure_deployment1.png)
+![Azure Deployment](img/azure_deployment3.png)
+Finalmente, se implementó la imagen desde ACR al App Service, asegurando que la aplicación estuviera disponible y funcionando correctamente en la nube de Azure.
+https://utime-web-service.azurewebsites.net/swagger-ui/index.html
+![Azure Deployment](img/azure_deployment4.png)
+
+
 ### 5.2.3.8. Team Collaboration Insights during  Sprint
 En el Sprint 3, se dividieron las tareas según las funcionalidades del sistema y se asignaron a los integrantes del equipo considerando sus competencias y experiencia. Esta estrategia facilitó una distribución más eficiente del trabajo y contribuyó a un progreso más ágil en el desarrollo.
+
+![Insight 1](img/Insight1.png)
+
+![Insight 2](img/INSIGHT3.png)
+
+![Insight 2](img/INSIGHT2.png)
+
 
 # 5.3. Validation Interviews
 
@@ -3917,7 +3934,6 @@ En el Sprint 3, se dividieron las tareas según las funcionalidades del sistema 
 * ¿Qué aspecto te pareció confuso o poco útil?
 
 * ¿Hay alguna funcionalidad que esperabas ver y no encontraste?
-
 
 ## 5.3.2. Registro de Entrevistas
 
