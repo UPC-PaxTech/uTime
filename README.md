@@ -306,8 +306,14 @@ Capturas de la participación en el informe:
    5.2.3.6. [Services Documentation Evidence for Sprint Review](#5236-services-documentation-evidence-for-sprint-review)<br>
    5.2.3.7. [Software Deployment Evidence for Sprint Review](#5237-software-deployment-evidence-for-sprint-review)<br>
    5.2.3.8. [Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during--sprint)<br>
+   5.3. [Validation Interviews](#53-validation-interviews)<br>
+   5.3.1 [Diseño de Entrevistas](#531-diseño-de-entrevistas)<br>
+   5.3.2 [Registro de Entrevistas](#532-registro-de-entrevistas)<br>
+   5.3.3 [Evaluación según heurísticas](#533-evaluaciones-según-heurísticas)<br>
+   5.4. [Video About-the-Product](#54-video-about-the-product)<br>
 6. [Conclusiones](#conclusiones)<br>
    6.1 [Conclusiones y recomendaciones](#61-conclusiones-y-recomendaciones)<br>
+   6.2. [Video About-the-Team](#62-video-about-the-team)<br>
 7. [Bibliografía](#bibliografía)<br>
 8. [Anexos](#anexos)<br>
 
@@ -1339,7 +1345,7 @@ Segmento objetivo #2: Clientes de servicios de belleza
 |--------|-----------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------|
 | TS01   | Encriptación de contraseñas                         | **Como** developer, **quiero** asegurar las contraseñas mediante hashing y salting, **para** proteger los datos de los usuarios.                             | **Escenario 1: Almacenamiento seguro al registrarse**<br>**Given** un nuevo usuario se registra<br>**When** se guarda su contraseña<br>**Then** la contraseña debe almacenarse en formato hash con salt.<br><br>**Escenario 2: Comparación segura al hacer login**<br>**Given** un usuario registrado intenta iniciar sesión<br>**When** el sistema compara la contraseña ingresada con la almacenada<br>**Then** debe usar el hash y salt para verificar la coincidencia.                                                | EP06                 |
 | TS02   | Actualización en tiempo real de horarios y citas    | **Como** developer, **quiero** que los horarios y las citas se actualicen en tiempo real, **para** que los usuarios vean disponibilidad actualizada.         | **Escenario 1: Horario actualizado sin recargar**<br>**Given** un horario es actualizado por el administrador<br>**When** otro usuario está viendo los horarios<br>**Then** los cambios se reflejan automáticamente.<br><br>**Escenario 2: Cita nueva visible en tiempo real**<br>**Given** un cliente agenda una cita<br>**When** la cita es confirmada<br>**Then** el nuevo horario se muestra en tiempo real en el panel del salón.                                                                                    | EP05/EP06            |
-| TS03   | Validaciones de formularios en frontend y backend   | **Como** developer, **quiero** implementar validaciones robustas en formularios, **para** evitar datos erróneos o maliciosos.                                | **Escenario 1: Campo requerido vacío**<br>**Given** el usuario deja el campo “correo electrónico” vacío<br>**When** intenta enviar el formulario<br>**Then** el sistema muestra un mensaje de error.<br><br>**Escenario 2: Formato incorrecto en campo de teléfono**<br>**Given** el usuario escribe un teléfono no numérico<br>**When** intenta enviar el formulario<br>**Then** el sistema muestra un mensaje de validación.                                                                                            | Todas                |
+| TS03   | Validaciones de formularios en frontend y backend   | **Como** developer, **quiero** implementar validaciones robustas en formularios, **para** evitar datos erróneos o maliciosos.                                | **Escenario 1: Campo requerido vacío**<br>**Given** el usuario deja el campo "correo electrónico" vacío<br>**When** intenta enviar el formulario<br>**Then** el sistema muestra un mensaje de error.<br><br>**Escenario 2: Formato incorrecto en campo de teléfono**<br>**Given** el usuario escribe un teléfono no numérico<br>**When** intenta enviar el formulario<br>**Then** el sistema muestra un mensaje de validación.                                                                                            | Todas                |
 | TS04   | Diseño responsive y accesible                       | **Como** developer, **quiero** aplicar diseño responsive y accesibilidad, **para** que el sitio funcione bien en cualquier dispositivo.                      | **Escenario 1: Visualización en smartphone**<br>**Given** el usuario accede desde un smartphone<br>**When** navega por el sitio<br>**Then** los elementos se ajustan correctamente.<br><br>**Escenario 2: Accesibilidad con lector de pantalla**<br>**Given** un usuario con discapacidad visual accede al sitio<br>**When** usa un lector de pantalla<br>**Then** los elementos clave tienen etiquetas accesibles.                                                                                                       | Todas                |
 | TS05   | Crear endpoint para registro de usuario             | **Como** developer, **quiero** crear el endpoint POST /usuarios para registrar clientes y salones de belleza, **para** permitir su incorporación al sistema. | **Escenario 1: Registro exitoso de cliente**<br>**Given** un cliente envía una solicitud POST con datos válidos<br>**When** el endpoint procesa la petición<br>**Then** se registra y devuelve un token de autenticación.<br><br>**Escenario 2: Datos incompletos en el registro**<br>**Given** un usuario envía datos incompletos<br>**When** el backend valida la solicitud<br>**Then** devuelve un error 400 indicando campos faltantes.                                                                               | EP06                 |
 | TS06   | Crear endpoint de login con JWT                     | **Como** developer, **quiero** crear el endpoint POST /login con generación de JWT, **para** autenticar a los usuarios del sistema.                          | **Escenario 1: Login exitoso**<br>**Given** un usuario envía su correo y contraseña correctos<br>**When** se autentica correctamente<br>**Then** el sistema devuelve un JWT válido.<br><br>**Escenario 2: Login fallido**<br>**Given** un usuario intenta iniciar sesión con datos erróneos<br>**When** el sistema verifica las credenciales<br>**Then** devuelve un error 401.                                                                                                                                           | EP07                 |
@@ -1348,13 +1354,14 @@ Segmento objetivo #2: Clientes de servicios de belleza
 | TS09   | Crear endpoint de pagos                             | **Como** developer, **quiero** crear el endpoint POST /pagos **para** procesar pagos usando la pasarela integrada.                                           | **Escenario 1: Pago procesado exitosamente**<br>**Given** el usuario quiere pagar una suscripción<br>**When** envía datos válidos a POST /pagos<br>**Then** el sistema procesa el pago y registra la transacción.<br><br>**Escenario 2: Pago rechazado**<br>**Given** el usuario envía un método de pago inválido<br>**When** se procesa la solicitud<br>**Then** el sistema devuelve un error con el motivo del fallo.                                                                                                   | EP05                 |
 | TS10   | Crear endpoints para suscripciones                  | **Como** developer, **quiero** implementar GET /suscripciones, POST /suscripciones, y PUT /suscripciones **para** gestionar los planes de los usuarios.      | **Escenario 1: Consultar planes disponibles**<br>**Given** un usuario accede a GET /suscripciones<br>**When** el sistema recibe la solicitud<br>**Then** devuelve una lista de planes y beneficios.<br><br>**Escenario 2: Cambio de plan**<br>**Given** un usuario con plan activo quiere cambiar<br>**When** envía una solicitud PUT con el nuevo plan<br>**Then** el sistema actualiza la suscripción.                                                                                                                  | EP08                 |
 | TS11   | Crear endpoint para recibir notificaciones          | **Como** developer, **quiero** crear el endpoint POST /notificaciones **para** recibir y registrar eventos que generen alertas al usuario.                   | **Escenario 1: Notificación por cita creada**<br>**Given** un cliente agenda una cita<br>**When** el evento se genera<br>**Then** el sistema envía una notificación mediante POST /notificaciones.<br><br>**Escenario 2: Notificación por vencimiento de pago**<br>**Given** una suscripción está por vencer<br>**When** se detecta la proximidad de vencimiento<br>**Then** se genera y envía una notificación automática.                                                                                               | EP10                 |
-| TS12   | Crear endpoints para gestión de proveedores             | **Como** developer, **quiero** crear los endpoints GET /providers, GET /providers/{id}, y POST /providers, **para** manejar el registro y consulta de proveedores.   | **Escenario 1: Registro de proveedor**<br>**Given** un proveedor envía una solicitud POST con datos válidos<br>**When** se valida la solicitud<br>**Then** se registra y devuelve una confirmación.<br><br>**Escenario 2: Visualización de todos los proveedores**<br>**Given** un usuario consulta el listado<br>**When** accede a GET /providers<br>**Then** recibe una lista completa.<br><br>**Escenario 3: Consulta por ID**<br>**Given** un proveedor registrado<br>**When** accede a GET /providers/{id}<br>**Then** recibe los datos correspondientes. | EP04                 |
-| TS13   | Crear endpoints para perfil de proveedores              | **Como** developer, **quiero** implementar los endpoints GET /providerProfile/{id} y POST /providerProfile, **para** gestionar los perfiles de proveedores.           | **Escenario 1: Registro de perfil**<br>**Given** un nuevo proveedor envía una solicitud POST con datos válidos<br>**When** se valida y registra<br>**Then** se crea su perfil.<br><br>**Escenario 2: Visualización de perfil por ID**<br>**Given** un ID válido de proveedor<br>**When** se accede a GET /providerProfile/{id}<br>**Then** se devuelven sus datos.                                                                                                                                                                            | EP04                 |
-| TS14   | Crear endpoints para trabajadores                       | **Como** developer, **quiero** implementar GET /workers, GET /workers/{id} y POST /workers, **para** gestionar los trabajadores del sistema.                         | **Escenario 1: Registro de trabajador**<br>**Given** un salón registra un nuevo trabajador<br>**When** envía datos válidos<br>**Then** se guarda correctamente.<br><br>**Escenario 2: Listar trabajadores**<br>**Given** un usuario accede al sistema<br>**When** realiza una solicitud GET<br>**Then** recibe todos los trabajadores.<br><br>**Escenario 3: Consultar por ID**<br>**Given** un ID válido<br>**When** accede a GET /workers/{id}<br>**Then** recibe la información del trabajador.                                                                  | EP04                 |
-| TS15   | Crear endpoints para clientes                           | **Como** developer, **quiero** crear los endpoints GET /clients, GET /clients/{id} y POST /clients, **para** gestionar a los clientes del sistema.                   | **Escenario 1: Registro de cliente**<br>**Given** un cliente nuevo<br>**When** envía una solicitud POST con datos válidos<br>**Then** se registra correctamente.<br><br>**Escenario 2: Listado de clientes**<br>**Given** un administrador accede a GET /clients<br>**When** realiza la solicitud<br>**Then** ve todos los clientes.<br><br>**Escenario 3: Consulta individual**<br>**Given** un ID de cliente<br>**When** accede a GET /clients/{id}<br>**Then** recibe los datos correspondientes.                                                     | EP06                 |
-| TS16   | Crear endpoints para gestión de bloques de horario      | **Como** developer, **quiero** crear GET /timeSlots, GET /timeSlots/{id} y POST /timeSlots, **para** gestionar la disponibilidad de horarios.                        | **Escenario 1: Registro de time slot**<br>**Given** un administrador define un horario<br>**When** envía una solicitud POST válida<br>**Then** el sistema lo registra.<br><br>**Escenario 2: Listado de horarios**<br>**Given** un usuario desea agendar una cita<br>**When** accede a GET /timeSlots<br>**Then** se muestran los horarios disponibles.<br><br>**Escenario 3: Consulta por ID**<br>**Given** un ID válido<br>**When** accede a GET /timeSlots/{id}<br>**Then** se devuelve el horario correspondiente.                                                     | EP09                 |
-| TS17   | Crear endpoints para servicios ofrecidos                | **Como** developer, **quiero** implementar GET /services y POST /services, **para** registrar y consultar los servicios del salón.                                  | **Escenario 1: Registro de nuevo servicio**<br>**Given** un salón desea ofrecer un nuevo servicio<br>**When** envía una solicitud POST válida<br>**Then** el servicio se registra.<br><br>**Escenario 2: Visualizar servicios**<br>**Given** un cliente explora servicios<br>**When** accede a GET /services<br>**Then** se listan todos los servicios registrados.                                                                                                                                                                      | EP05                 |
-| TS18   | Crear endpoints para gestión de usuarios                | **Como** developer, **quiero** implementar GET /users, GET /users/{id}, **para** consultar la información general de usuarios registrados.                          | **Escenario 1: Ver todos los usuarios**<br>**Given** un administrador accede a GET /users<br>**When** hay usuarios registrados<br>**Then** se listan correctamente.<br><br>**Escenario 2: Ver usuario por ID**<br>**Given** un ID válido<br>**When** se accede a GET /users/{id}<br>**Then** se muestran los datos del usuario.                                                                                                                                                                                        | EP06                 |
+| TS12   | Crear endpoints para gestión de proveedores        | **Como** developer, **quiero** crear los endpoints GET /providers, GET /providers/{id}, y POST /providers, **para** manejar el registro y consulta de proveedores.   | **Escenario 1: Registro de proveedor**<br>**Given** un proveedor envía una solicitud POST con datos válidos<br>**When** se valida la solicitud<br>**Then** se registra y devuelve una confirmación.<br><br>**Escenario 2: Visualización de todos los proveedores**<br>**Given** un usuario consulta el listado<br>**When** accede a GET /providers<br>**Then** recibe una lista completa.<br><br>**Escenario 3: Consulta por ID**<br>**Given** un proveedor registrado<br>**When** accede a GET /providers/{id}<br>**Then** recibe los datos correspondientes. | EP04                 |
+| TS13   | Crear endpoints para perfil de proveedores         | **Como** developer, **quiero** implementar los endpoints GET /providerProfile/{id} y POST /providerProfile, **para** gestionar los perfiles de proveedores.           | **Escenario 1: Registro de perfil**<br>**Given** un nuevo proveedor envía una solicitud POST con datos válidos<br>**When** se valida y registra<br>**Then** se crea su perfil.<br><br>**Escenario 2: Visualización de perfil por ID**<br>**Given** un ID válido de proveedor<br>**When** se accede a GET /providerProfile/{id}<br>**Then** se devuelven sus datos.                                                                                                                                                                            | EP04                 |
+| TS14   | Crear endpoints para trabajadores                  | **Como** developer, **quiero** implementar GET /workers, GET /workers/{id} y POST /workers, **para** gestionar los trabajadores del sistema.                         | **Escenario 1: Registro de trabajador**<br>**Given** un salón registra un nuevo trabajador<br>**When** envía datos válidos<br>**Then** se guarda correctamente.<br><br>**Escenario 2: Listar trabajadores**<br>**Given** un usuario accede al sistema<br>**When** realiza una solicitud GET<br>**Then** recibe todos los trabajadores.<br><br>**Escenario 3: Consultar por ID**<br>**Given** un ID válido<br>**When** accede a GET /workers/{id}<br>**Then** recibe la información del trabajador.                                                                  | EP04                 |
+| TS15   | Crear endpoints para clientes                      | **Como** developer, **quiero** crear los endpoints GET /clients, GET /clients/{id} y POST /clients, **para** gestionar a los clientes del sistema.                   | **Escenario 1: Registro de cliente**<br>**Given** un cliente nuevo<br>**When** envía una solicitud POST con datos válidos<br>**Then** se registra correctamente.<br><br>**Escenario 2: Listado de clientes**<br>**Given** un administrador accede a GET /clients<br>**When** realiza la solicitud<br>**Then** ve todos los clientes.<br><br>**Escenario 3: Consulta individual**<br>**Given** un ID de cliente<br>**When** accede a GET /clients/{id}<br>**Then** recibe los datos correspondientes.                                                     | EP06                 |
+| TS16   | Implementación de endpoints para gestión de reviews | **Como** developer, **quiero** implementar GET /reviews, GET /reviews/{id} y POST /reviews, **para** gestionar las reseñas de los clientes. | **Escenario 1: Listar todas las reviews**<br>**Given** un usuario accede a GET /reviews<br>**When** hay reseñas registradas<br>**Then** el sistema devuelve la lista completa.<br><br>**Escenario 2: Registrar nueva review**<br>**Given** un cliente envía una reseña válida<br>**When** se realiza POST /reviews<br>**Then** la reseña se almacena correctamente.<br><br>**Escenario 3: Consultar review por ID**<br>**Given** un ID de reseña válido<br>**When** se accede a GET /reviews/{id}<br>**Then** el sistema devuelve los datos de la reseña. | EP11                 |
+| TS17   | Crear endpoints para servicios ofrecidos           | **Como** developer, **quiero** implementar GET /services y POST /services, **para** registrar y consultar los servicios del salón.                                  | **Escenario 1: Registro de nuevo servicio**<br>**Given** un salón desea ofrecer un nuevo servicio<br>**When** envía una solicitud POST válida<br>**Then** el servicio se registra.<br><br>**Escenario 2: Visualizar servicios**<br>**Given** un cliente explora servicios<br>**When** accede a GET /services<br>**Then** se listan todos los servicios registrados.                                                                                                                                                                      | EP05                 |
+| TS18   | Crear endpoints para gestión de usuarios           | **Como** developer, **quiero** implementar GET /users, GET /users/{id}, **para** consultar la información general de usuarios registrados.                          | **Escenario 1: Ver todos los usuarios**<br>**Given** un administrador accede a GET /users<br>**When** hay usuarios registrados<br>**Then** se listan correctamente.<br><br>**Escenario 2: Ver usuario por ID**<br>**Given** un ID válido<br>**When** se accede a GET /users/{id}<br>**Then** se muestran los datos del usuario.                                                                                                                                                                                        | EP06                 |
+
 ## 3.3. Impact Mapping.
 
 <div align="center">
@@ -3108,6 +3115,7 @@ Enlace para acceder al Trello: [Trello Sprint Backlog 2]()
 
 
 #### 5.2.2.6.Services Documentation Evidence for Sprint Review.
+
 A continuación, se presentan tres fragmentos de código que evidencian el uso e implementación de los servicios en el sistema, abarcando desde la configuración de rutas hasta la lógica de negocio y la presentación de datos al usuario:
 
 1. Archivo de Rutas (Angular Routing Module)
@@ -3216,7 +3224,7 @@ Entonces dentro de la configuración de GitHub Pages, se seleccionó la rama gh-
 
 #### 5.2.2.8.Team Collaboration Insights during Sprint.
 
-Durante el Sprint 2, se realizó la segmentación de tareas por features y se asignaron a los miembros del equipo de acuerdo a sus habilidades y experiencia. Esto permitió una mejor distribucion de las tareas y un avance mas fluido en el desarrollo.
+Durante el Sprint 2, se realizó la segmentación de tareas por features y se asignaron a los miembros del equipo de acuerdo a sus habilidades y experiencia. Esto permitió una mejor distribución de las tareas y un avance mas fluido en el desarrollo.
 
 ![NetworkGraph](img/networkgraph-sprint2.png)
 
@@ -3281,11 +3289,11 @@ En el marco metodológico de Scrum, cada Sprint corresponde a un lapso breve y c
    </tr>
    <tr>
       <td colspan="1" align="center"><b>Sprint 2 Velocity</b></td>
-      <td colspan="1"></td>
+      <td colspan="1">35</td>
    </tr>
    <tr>
       <td colspan="1" align="center"><b>Sum of Story Points</b></td>
-      <td colspan="1"></td>
+      <td colspan="1"> 35</td>
    </tr>
 
    <tr>
@@ -3296,12 +3304,12 @@ En el marco metodológico de Scrum, cada Sprint corresponde a un lapso breve y c
 Para este Sprint, se han identificado los principales aspectos relacionados con el desarrollo del backend de la aplicación web de uTime. Con el objetivo de optimizar la coordinación y la responsabilidad dentro del equipo, se elaboró la matriz Leadership and Collaboration Matrix (LACX), en la que se especifica quién asume el rol de Líder (L) y quiénes actúan como Colaboradores (C) en cada uno de los componentes clave del backend. Esta organización ha permitido una asignación de tareas más estructurada, facilitando así la implementación de la base de datos, la creación de entidades, y la exposición de endpoints seguros mediante Swagger y autenticación con tokens.
 
 
-| **Team Member**                     | **GitHub Username** | **Appointments** | **Dashboard** | **Favorites** | **Iam** | **Profile** | **Public** | **Reviews** | **Schedule** | **Services** | **Shared** | **Subscription** |
-|-------------------------------------|---------------------|------------------|---------------|---------------|---------|-------------|------------|-------------|--------------|--------------|------------|------------------|
-| Chi Cruzatt, Kevin Jorge            | Krillsom            | C                | C             | C             | C       | L           | C          | C           | C            | L            | C          | L                |
-| Rivera Sosa, Eduardo Gael           | gael-rs             | C                | C             | C             | L       | C           | L          | C           | C            | C            | C          | C                |
-| Varela Bustinza, Marcelo Alessandro | VarBus              | L                | C             | L             | C       | C           | C          | C           | L            | C            | C          | C                |
-| Yum Gonzales, Jorge Suin            | myussu              | C                | L             | C             | C       | C           | C          | L           | C            | C            | L          | c                |
+| **Team Member**                     | **GitHub Username** | **Profiles** | **Reviews** | **Reservation** | **Iam** | **Shared** | **Workers** | **Services** | **TimeSlots** | **Services** | **Payments**  |
+|-------------------------------------|---------------------|--------------|-------------|-----------------|---------|------------|-------------|--------------|---------------|--------------|---------------|
+| Chi Cruzatt, Kevin Jorge            | Krillsom            | C            | C           | C               | C       | L          | C           | C            | C             | L            | L             |
+| Rivera Sosa, Eduardo Gael           | gael-rs             | C            | C           | C               | L       | C          | L           | C            | C             | C            | C             |
+| Varela Bustinza, Marcelo Alessandro | VarBus              | L            | C           | L               | C       | C          | C           | C            | L             | C            | C             |
+| Yum Gonzales, Jorge Suin            | myussu              | C            | L           | C               | C       | C          | C           | L            | C             | C            | C             |
 
 ### 5.2.3.3. Sprint Backlog 3
 En el tercer sprint backlog, el equipo tuvo la intención de iniciar y avanzar en el desarrollo del backend de la aplicación web, abordando los requerimientos esenciales para los roles de cliente y proveedor. Para la organización y gestión de las tareas, se continuó utilizando la herramienta Trello, lo que permitió descomponer las user stories en tareas específicas y asignarlas según las fortalezas técnicas de cada integrante. El objetivo principal del sprint fue establecer una base sólida del backend, incluyendo la creación de las entidades, la conexión con la base de datos MySQL, y la exposición de endpoints RESTful seguros, validados mediante Swagger y autenticación con tokens.
@@ -3326,8 +3334,9 @@ En el tercer sprint backlog, el equipo tuvo la intención de iniciar y avanzar e
       <td><b>Status</b></td>
    </tr>
 
+   <!-- TS01 - Encriptación de contraseñas -->
    <tr>
-      <td rowspan="2">TS03</td>
+      <td rowspan="2">TS01</td>
       <td rowspan="2">Encriptación de contraseñas</td>
       <td>T1</td>
       <td>Configurar BCrypt en Spring Security</td>
@@ -3345,8 +3354,9 @@ En el tercer sprint backlog, el equipo tuvo la intención de iniciar y avanzar e
       <td>In-Process</td>
    </tr>
 
+   <!-- TS03 - Validaciones de formularios -->
    <tr>
-      <td rowspan="2">TS05</td>
+      <td rowspan="2">TS03</td>
       <td rowspan="2">Validaciones de formularios</td>
       <td>T1</td>
       <td>Frontend: Validaciones reactivas (Angular)</td>
@@ -3361,221 +3371,267 @@ En el tercer sprint backlog, el equipo tuvo la intención de iniciar y avanzar e
       <td>Usar anotaciones @Valid, @NotNull, @Pattern en los DTOs.</td>
       <td>2</td>
       <td>Chi Cruzatt, Kevin Jorge</td>
-      <td>In-Process</td>
+      <td>To-Review</td>
    </tr>
 
+   <!-- TS07 - Creación de endpoints para consulta de usuarios -->
    <tr>
       <td rowspan="3">TS07</td>
-      <td rowspan="3">Crear endpoint para registro de usuarios</td>
+      <td rowspan="3">Creación de endpoints para consulta de usuarios</td>
       <td>T1</td>
-      <td>Implementar POST /usuarios</td>
-      <td>Desarrollar Controller y Service para registro, con persistencia en JPA/Hibernate.</td>
+      <td>Implementación del método GET para listar todos los usuarios</td>
+      <td>Desarrollar la lógica en el controlador y servicio para obtener la lista completa de usuarios registrados (GET /clients)</td>
       <td>4</td>
       <td>Rivera Sosa, Eduardo Gael</td>
-      <td>In-Process</td>
+      <td>Done</td>
    </tr>
    <tr>
       <td>T2</td>
-      <td>Swagger: Documentar endpoint</td>
-      <td>Agregar @Tag, @Schema y ejemplos de request/response.</td>
+      <td>Implementación del método GET para obtener usuario por ID.</td>
+      <td>Desarrollar el endpoint que permita recuperar los datos de un usuario específico según su identificador único (GET /clients/{id})</td>
       <td>1</td>
       <td>Chi Cruzatt, Kevin Jorge</td>
-      <td>In-Process</td>
+      <td>Done</td>
    </tr>
    <tr>
       <td>T3</td>
-      <td>Frontend: Formulario de registro (Angular)</td>
-      <td>Crear componente con Angular Material y conexión al endpoint.</td>
+      <td>Documentación en Swagger de los endpoints GET</td>
+      <td>Agregar documentación con anotaciones `@Tag`, `@Operation`, `@Schema` y ejemplos de request/response para los métodos GET de usuarios.</td>
       <td>3</td>
       <td>Yum Gonzales, Jorge Suin</td>
-      <td>In-Process</td>
+      <td>Done</td>
    </tr>
 
+   <!-- TS08 - Implementación de endpoints para gestión de proveedores -->
    <tr>
       <td rowspan="3">TS08</td>
-      <td rowspan="3">Crear endpoint para registro de provider</td>
+      <td rowspan="3">Implementación de endpoints para gestión de proveedores</td>
       <td>T1</td>
-      <td>GET /providers</td>
-      <td>Obtener lista de proveedores.</td>
+      <td>Implementación de endpoints para gestión de proveedores (GET /providers)</td>
+      <td>Implementar la lógica en el controlador y servicio que permita recuperar la lista completa de proveedores registrados.</td>
       <td>1</td>
       <td>Chi Cruzatt, Kevin Jorge</td>
-      <td>In-Process</td>
+      <td>Done</td>
    </tr>
    <tr>
       <td>T2</td>
-      <td>POST /providers</td>
-      <td>Registrar nuevo proveedor.</td>
+      <td>Desarrollo del método para registrar un nuevo proveedor (POST /providers)</td>
+      <td>Crear el endpoint que permita registrar nuevos proveedores en el sistema.</td>
       <td>1</td>
       <td>Chi Cruzatt, Kevin Jorge</td>
-      <td>In-Process</td>
+      <td>Done</td>
    </tr>
    <tr>
       <td>T3</td>
-      <td>GET /providers/{id}</td>
-      <td>Obtener proveedor por ID.</td>
+      <td>Desarrollo del método para obtener proveedor por ID (GET /providers/{id})</td>
+      <td>Implementar la lógica para recuperar los datos de un proveedor específico a partir de su identificador único.</td>
       <td>1</td>
       <td>Chi Cruzatt, Kevin Jorge</td>
-      <td>In-Process</td>
+      <td>Done</td>
    </tr>
 
+   <!-- TS09 - Implementación de endpoints para gestión de perfil de proveedor -->
    <tr>
       <td rowspan="2">TS09</td>
-      <td rowspan="2">Crear endpoint para registro de providerprofile</td>
+      <td rowspan="2">Implementación de endpoints para gestión de perfil de proveedor</td>
       <td>T1</td>
-      <td>POST providerprofile</td>
-      <td>Crear perfil de proveedor.</td>
+      <td>Desarrollo del método para registrar perfil de proveedor. (POST /providerprofile)</td>
+      <td>Implementar la lógica necesaria en el controlador y servicio para registrar un nuevo perfil de proveedor en la base de datos.</td>
       <td>2</td>
       <td>Varela Bustinza, Marcelo Alessandro</td>
-      <td>In-Process</td>
+      <td>Done</td>
    </tr>
    <tr>
       <td>T2</td>
-      <td>GET /providerprofile/{id}</td>
-      <td>Obtener perfil de proveedor por ID.</td>
+      <td>Desarrollo del método para obtener perfil de proveedor por ID (GET /providerprofile/{id})</td>
+      <td>Crear la funcionalidad para consultar un perfil de proveedor específico a partir de su identificador único.</td>
       <td>1</td>
       <td>Varela Bustinza, Marcelo Alessandro</td>
-      <td>In-Process</td>
+      <td>Done</td>
    </tr>
 
+   <!-- TS10 - Implementación de endpoints para gestión de workers -->
    <tr>
       <td rowspan="3">TS10</td>
-      <td rowspan="3">Crear endpoint para registro de workers</td>
+      <td rowspan="3">Implementación de endpoints para gestión de workers</td>
       <td>T1</td>
-      <td>GET /workers</td>
-      <td>Obtener lista de trabajadores.</td>
+      <td>Desarrollo del método para listar todos los workers (GET /workers)</td>
+      <td>Implementar la lógica en el controlador y servicio que permita recuperar la lista completa de trabajadores registrados en el sistema..</td>
       <td>1</td>
       <td>Rivera Sosa, Eduardo Gael</td>
-      <td>In-Process</td>
+      <td>Done</td>
    </tr>
    <tr>
       <td>T2</td>
-      <td>POST /workers</td>
-      <td>Registrar nuevo trabajador.</td>
+      <td>Desarrollo del método para registrar un nuevo trabajador (POST /workers)</td>
+      <td>Crear el endpoint necesario para registrar un nuevo trabajador.</td>
       <td>1</td>
       <td>Rivera Sosa, Eduardo Gael</td>
-      <td>In-Process</td>
+      <td>Done</td>
    </tr>
    <tr>
       <td>T3</td>
-      <td>GET /workers/{id}</td>
-      <td>Obtener trabajador por ID.</td>
+      <td>Desarrollo del método para obtener trabajador por ID (GET /workers/{id})</td>
+      <td>Desarrollar la funcionalidad que permita obtener los datos de un trabajador específico usando su identificador único.</td>
       <td>1</td>
       <td>Rivera Sosa, Eduardo Gael</td>
-      <td>In-Process</td>
+      <td>Done</td>
    </tr>
 
+   <!-- TS11 - Implementación de endpoints para autenticación de usuarios -->
    <tr>
-      <td>TS11</td>
-      <td>Crear endpoint para autenticación</td>
+      <td rowspan="2">TS11</td>
+      <td rowspan="2">Implementación de endpoints para autenticación de usuarios</td>
       <td>T1</td>
-      <td>POST /auth/login</td>
-      <td>Inicio de sesión con retorno de JWT.</td>
+      <td>Desarrollo del método para inicio de sesión (POST /authentication/sign-in)</td>
+      <td>Implementar la lógica necesaria para autenticar usuarios registrados mediante sus credenciales y retornar un token JWT válido.</td>
       <td>2</td>
       <td>Yum Gonzales, Jorge Suin</td>
-      <td>In-Process</td>
-   </tr>
-
-   <tr>
-      <td rowspan="3">TS12</td>
-      <td rowspan="3">Crear endpoint para registro de clients</td>
-      <td>T1</td>
-      <td>GET /clients</td>
-      <td>Obtener lista de clientes.</td>
-      <td>1</td>
-      <td>Chi Cruzatt, Kevin Jorge</td>
-      <td>In-Process</td>
+      <td>Done</td>
    </tr>
    <tr>
       <td>T2</td>
-      <td>POST /clients</td>
-      <td>Registrar nuevo cliente.</td>
+      <td>Desarrollo del método para registro de nuevos usuarios (POST /authentication/sign-up)</td>
+      <td>Crear la funcionalidad que permita registrar nuevos usuarios en la aplicación, validando sus datos y persistiendo su información en la base de datos.</td>
       <td>1</td>
       <td>Chi Cruzatt, Kevin Jorge</td>
-      <td>In-Process</td>
+      <td>Done</td>
+   </tr>
+
+   <!-- TS12 - Implementación de endpoints para gestión de clientes -->
+   <tr>
+      <td rowspan="3">TS12</td>
+      <td rowspan="3">Implementación de endpoints para gestión de clientes</td>
+      <td>T1</td>
+      <td>Desarrollo del método para listar todos los clientes (GET /clients)</td>
+      <td>Implementar la lógica en el controlador y servicio que permita recuperar la lista completa de clientes registrados en el sistema.</td>
+      <td>1</td>
+      <td>Chi Cruzatt, Kevin Jorge</td>
+      <td>Done</td>
+   </tr>
+   <tr>
+      <td>T2</td>
+      <td>Desarrollo del método para registrar un nuevo cliente</td>
+      <td>Crear la funcionalidad que permita registrar nuevos clientes (POST /clients)</td>
+      <td>1</td>
+      <td>Chi Cruzatt, Kevin Jorge</td>
+      <td>Done</td>
    </tr>
    <tr>
       <td>T3</td>
-      <td>GET /clients/{id}</td>
-      <td>Obtener cliente por ID.</td>
+      <td>Desarrollo del método para obtener cliente por ID (GET /clients/{id})</td>
+      <td>Desarrollar el endpoint que permita consultar los datos de un cliente específico a partir de su identificador único.</td>
       <td>1</td>
       <td>Chi Cruzatt, Kevin Jorge</td>
-      <td>In-Process</td>
+      <td>Done</td>
    </tr>
 
+   <!-- TS13 - Implementación de endpoints para gestión de timeslots -->
    <tr>
       <td rowspan="3">TS13</td>
-      <td rowspan="3">Crear endpoint para registro de time slots</td>
+      <td rowspan="3">Implementación de endpoints para gestión de timeslots</td>
       <td>T1</td>
-      <td>GET /timeslots</td>
+      <td>Desarrollo del método para listar todos los timeslots (GET /timeslots)</td>
       <td>Obtener horarios disponibles.</td>
       <td>1</td>
       <td>Rivera Sosa, Eduardo Gael</td>
+      <td>Done</td>
+   </tr>
+   <tr>
+      <td>T2</td>
+      <td>Desarrollo del método para registrar un nuevo timeslot (POST /timeslots)</td>
+      <td>Crear la funcionalidad necesaria para registrar un nuevo timeslot disponible.</td>
+      <td>1</td>
+      <td>Rivera Sosa, Eduardo Gael</td>
+      <td>Done</td>
+   </tr>
+   <tr>
+      <td>T3</td>
+      <td>Desarrollo del método para obtener horario por ID (GET /timeslots/{id})</td>
+      <td>Desarrollar el endpoint que permita consultar los datos de un timeslot específico mediante su identificador único.</td>
+      <td>1</td>
+      <td>Rivera Sosa, Eduardo Gael</td>
+      <td>Done</td>
+   </tr>
+
+   <!-- TS14 - Implementación de endpoints para gestión de servicios -->
+   <tr>
+      <td rowspan="2">TS14</td>
+      <td rowspan="2">Implementación de endpoints para gestión de servicios</td>
+      <td>T1</td>
+      <td>Desarrollo del método para listar todos los servicios (GET /services)</td>
+      <td>Implementar la lógica en el controlador y servicio que permita obtener la lista completa de servicios disponibles.</td>
+      <td>1</td>
+      <td>Varela Bustinza, Marcelo Alessandro</td>
+      <td>Done</td>
+   </tr>
+   <tr>
+      <td>T2</td>
+      <td>Desarrollo del método para registrar un nuevo servicio (POST /services)</td>
+      <td>Crear la funcionalidad necesaria para registrar un nuevo servicio, validando los datos y persistiendo la información en la base de datos.</td>
+      <td>1</td>
+      <td>Varela Bustinza, Marcelo Alessandro</td>
+      <td>Done</td>
+   </tr>
+
+   <!-- TS15 - Implementación de endpoints para consulta de usuarios -->
+   <tr>
+      <td rowspan="2">TS15</td>
+      <td rowspan="2">Implementación de endpoints para consulta de usuarios</td>
+      <td>T1</td>
+      <td>Desarrollo del método para listar todos los usuarios (GET /users)</td>
+      <td>Implementar la lógica en el controlador y servicio para recuperar la lista completa de usuarios registrados.</td>
+      <td>1</td>
+      <td>Yum Gonzales, Jorge Suin</td>
+      <td>Done</td>
+   </tr>
+   <tr>
+      <td>T2</td>
+      <td>Desarrollo del método para obtener usuario por ID (GET /users/{id})</td>
+      <td>Obtener usuario por ID.</td>
+      <td>1</td>
+      <td>Yum Gonzales, Jorge Suin</td>
+      <td>Done</td>
+   </tr>
+
+   <!-- TS16 - Implementación de endpoints para gestión de reviews -->
+   <tr>
+      <td rowspan="3">TS16</td>
+      <td rowspan="3">Implementación de endpoints para gestión de reviews</td>
+      <td>T1</td>
+      <td>Desarrollo del método para listar todas las reviews (GET /reviews)</td>
+      <td>Implementar la lógica en el controlador y servicio para recuperar la lista completa de reseñas registradas.</td>
+      <td>1</td>
+      <td>Yum Gonzales, Jorge Suin</td>
       <td>In-Process</td>
    </tr>
    <tr>
       <td>T2</td>
-      <td>POST /timeslots</td>
-      <td>Crear nuevo horario.</td>
+      <td>Desarrollo del método para registrar una nueva review (POST /reviews)</td>
+      <td>Crear la funcionalidad que permita registrar una nueva reseña, validando los datos y almacenándolos en la base de datos.</td>
       <td>1</td>
-      <td>Rivera Sosa, Eduardo Gael</td>
+      <td>Yum Gonzales, Jorge Suin</td>
       <td>In-Process</td>
    </tr>
    <tr>
       <td>T3</td>
-      <td>GET /timeslots/{id}</td>
-      <td>Obtener horario por ID.</td>
-      <td>1</td>
-      <td>Rivera Sosa, Eduardo Gael</td>
-      <td>In-Process</td>
-   </tr>
-
-   <tr>
-      <td rowspan="2">TS14</td>
-      <td rowspan="2">Crear endpoint para registro de services</td>
-      <td>T1</td>
-      <td>GET /services</td>
-      <td>Obtener lista de servicios disponibles.</td>
-      <td>1</td>
-      <td>Varela Bustinza, Marcelo Alessandro</td>
-      <td>In-Process</td>
-   </tr>
-   <tr>
-      <td>T2</td>
-      <td>POST /services</td>
-      <td>Registrar nuevo servicio.</td>
-      <td>1</td>
-      <td>Varela Bustinza, Marcelo Alessandro</td>
-      <td>In-Process</td>
-   </tr>
-
-   <tr>
-      <td rowspan="2">TS15</td>
-      <td rowspan="2">Crear endpoints para gestión de usuarios</td>
-      <td>T1</td>
-      <td>GET /users</td>
-      <td>Obtener lista de usuarios.</td>
-      <td>1</td>
-      <td>Yum Gonzales, Jorge Suin</td>
-      <td>In-Process</td>
-   </tr>
-   <tr>
-      <td>T2</td>
-      <td>GET /users/{id}</td>
-      <td>Obtener usuario por ID.</td>
+      <td>Desarrollo del método para obtener review por ID (GET /reviews/{id})</td>
+      <td>Desarrollar la funcionalidad para consultar los datos de una reseña específica mediante su identificador único.</td>
       <td>1</td>
       <td>Yum Gonzales, Jorge Suin</td>
       <td>In-Process</td>
    </tr>
 
+   <!-- TS04 - Diseño responsive y accesible -->
    <tr>
-      <td rowspan="2">TS06</td>
+      <td rowspan="2">TS04</td>
       <td rowspan="2">Diseño responsive y accesible</td>
       <td>T1</td>
       <td>Angular Material Layout</td>
       <td>Usar FlexLayout y BreakpointObserver para responsividad.</td>
       <td>4</td>
       <td>Chi Cruzatt, Kevin Jorge</td>
-      <td>In-Process</td>
+      <td>To-Review</td>
    </tr>
    <tr>
       <td>T2</td>
@@ -3583,13 +3639,18 @@ En el tercer sprint backlog, el equipo tuvo la intención de iniciar y avanzar e
       <td>Añadir roles, labels y focus management para accesibilidad.</td>
       <td>3</td>
       <td>Varela Bustinza, Marcelo Alessandro</td>
-      <td>In-Process</td>
+      <td>Done</td>
    </tr>
 </table>
 
 
-Enlace para acceder al Trello: [Trello Sprint Backlog 3]()
+Enlace para acceder al Trello: [Trello Sprint Backlog 3](https://trello.com/b/RdzY7vOJ)
+
+![Diagrama](img/SprintBacklog3.png)
+
+
 ### 5.2.3.4. Development Evidence for Sprint Review
+
 <table border="1" cellpadding="5" cellspacing="0">
   <thead>
     <tr>
@@ -3601,10 +3662,20 @@ Enlace para acceder al Trello: [Trello Sprint Backlog 3]()
     </tr>
   </thead>
   <tbody>
-    <tr><td>Web-Services</td><td>main</td><td>c809237</td><td>feat: added clients</td><td>27/05/2025</td></tr>
-    <tr><td>Web-Services</td><td>main</td><td>3378702</td><td>feat: initialized Salon</td><td>27/05/2025</td></tr>
-    <tr><td>Web-Services</td><td>main</td><td>39788fc</td><td>Create README.md</td><td>27/05/2025</td></tr>
-    <tr><td>Web-Services</td><td>main</td><td>dbc3c22</td><td>feat: Spring Boot project setup</td><td>27/05/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>4f74620</td><td>feat: add provider profile naming solutions</td><td>18/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>a717fec</td><td>Merge branch 'develop' of https://github.com/UPC-PaxTech/Web-Services into develop</td><td>18/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>51b1406</td><td>feat: added entity to payment</td><td>18/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>7a11e76</td><td>docs: added 4 context diagram</td><td>18/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>4a52de8</td><td>feat: added payment and added to reservation detail resource</td><td>18/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>15f59ea</td><td>Merge branch 'feature/reservationDetails' into develop</td><td>17/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>fd8e7e6</td><td>Merge branch 'develop' of https://github.com/UPC-PaxTech/Web-Services into develop</td><td>17/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>8ca0cc3</td><td>feat: reservation details without payment id</td><td>17/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>a1a7c72</td><td>feat: reservation failure</td><td>17/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>18820cd</td><td>Merge branch 'develop' of https://github.com/UPC-PaxTech/Web-Services into develop</td><td>17/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>478f417</td><td>docs: add value objects for all the bounded context</td><td>17/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>39d0837</td><td>feat: acl de Worker y validacion terminada</td><td>17/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>96318cd</td><td>feat: added facade but not working yet</td><td>16/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>7d329c6</td><td>feat: added reservations</td><td>16/06/2025</td></tr>
     <tr><td>Web-Services</td><td>develop</td><td>6ab3187</td><td>feat: added workers and reservations bounded context</td><td>16/06/2025</td></tr>
     <tr><td>Web-Services</td><td>develop</td><td>b4e05f2</td><td>readded salonprofilecontroller</td><td>15/06/2025</td></tr>
     <tr><td>Web-Services</td><td>develop</td><td>84c70e9</td><td>Merge branch 'develop' of https://github.com/UPC-PaxTech/Web-Services into develop</td><td>15/06/2025</td></tr>
@@ -3656,6 +3727,14 @@ Enlace para acceder al Trello: [Trello Sprint Backlog 3]()
     <tr><td>Web-Services</td><td>develop</td><td>cd1ffb2</td><td>feat: Add Client module with endpoints for getAll, getById, and Swagger integration</td><td>31/05/2025</td></tr>
     <tr><td>Web-Services</td><td>develop</td><td>c5912c6</td><td>feat: added salons get by id</td><td>29/05/2025</td></tr>
     <tr><td>Web-Services</td><td>develop</td><td>ea13078</td><td>feat: added salons values</td><td>29/05/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>c809237</td><td>feat: added clients</td><td>27/05/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>3378702</td><td>feat: initialized Salon</td><td>27/05/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>39788fc</td><td>Create README.md</td><td>27/05/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>dbc3c22</td><td>feat: Spring Boot project setup</td><td>27/05/2025</td></tr>
+    <tr><td>Web-Services</td><td>main</td><td>c809237</td><td>feat: added clients</td><td>27/05/2025</td></tr>
+    <tr><td>Web-Services</td><td>main</td><td>3378702</td><td>feat: initialized Salon</td><td>27/05/2025</td></tr>
+    <tr><td>Web-Services</td><td>main</td><td>39788fc</td><td>Create README.md</td><td>27/05/2025</td></tr>
+    <tr><td>Web-Services</td><td>main</td><td>dbc3c22</td><td>feat: Spring Boot project setup</td><td>27/05/2025</td></tr>
   </tbody>
 </table>
 
@@ -3848,7 +3927,146 @@ En el Sprint 3, se dividieron las tareas según las funcionalidades del sistema 
 
 ## 5.3.3. Evaluaciones según heurísticas
 
+#### UX Heuristics & Principles Evaluation
+##### Usability – Inclusive Design – Information Architecture
+
+*CARRERA*: Ingeniería de Software  
+*CURSO*: Aplicaciones Web  
+*SECCIÓN*: 4363  
+*PROFESORES*: Todos  
+*AUDITOR*: Grupo PropGMS – Evaluación UX uTime  
+*CLIENTE(S)*: Equipo de desarrollo de PaxTech (uTime)
+
+<hr>
+
+#### SITE O APP A EVALUAR:
+*uTime – Plataforma Web de Gestión de Citas para Salones y Clientes*
+
+#### TAREAS A EVALUAR:
+
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+
+1. Registro de un nuevo usuario (cliente y salón)
+2. Inicio de sesión
+3. Visualización de citas programadas
+4. Creación y edición de servicios por parte del salón
+5. Configuración de horarios del salón
+6. Visualización y selección de planes de suscripción
+7. Cancelación o reprogramación de una cita
+8. Recepción de notificaciones de recordatorio
+9. Visualización de beneficios y contacto desde la landing page
+
+*ESCALA DE SEVERIDAD:*
+
+<i>Los errores serán puntuados tomando en cuenta la siguiente escala de severidad. </i>
+
+<table>
+   <tr>
+      <th>Nivel</th>
+      <th>Descripción</th>
+   </tr>
+   <tr>
+      <td>1</td>
+      <td>Problema superficial: puede ser fácilmente superador por el usuario ó ocurre con muy poco
+frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo.</td>
+   </tr>
+   <tr>
+      <td>2</td>
+      <td>Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de
+superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente
+reléase</td>
+   </tr>
+   <tr>
+      <td>3</td>
+      <td>Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es
+importante que sean corregidos y se les debe asignar una prioridad alta.</td>
+   </tr>
+   <tr>
+      <td>4</td>
+      <td>Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de
+la herramienta. Es imperativo que sea corregido antes del lanzamiento.</td>
+   </tr>
+</table>
+
+*TABLE DE RESUMEN:*
+
+| # | Problema                                                                           | Escala de severidad | Heurística / Principio violado                  |
+|---|------------------------------------------------------------------------------------|---------------------|-------------------------------------------------|
+| 1 | No se confirma visualmente el éxito al iniciar sesión                              | 3                   | Usability: Visibilidad del estado del sistema   |
+| 2 | Iconos sin etiquetas dificultan el reconocimiento de funciones                     | 2                   | Usability: Reconocimiento antes que recuerdo    |
+| 3 | Textos largos en la landing pueden saturar al usuario                              | 1                   | Usability: Diseño estético y minimalista        |
+| 4 | No existe acceso a sección de ayuda o tutorial                                     | 3                   | Usability: Ayuda y documentación                |
+| 5 | No se puede ver el historial completo de citas pasadas desde el perfil del cliente | 2                   | Information Architecture: ¿Es localizable?      |
+| 6 | Falta de confirmación visual al editar servicios                                   | 2                   | Usability: Visibilidad del estado del sistema   |
+| 7 | El salón no puede responder a los reviews que dejan los clientes                   | 2                   | Usability: Libertad y control del usuario       |
+
+DESCRIPCIÓN DE PROBLEMAS
+
+*PROBLEMA #1: No se confirma visualmente el éxito al iniciar sesión*
+- *Severidad*: 3
+- *Heurística violada*: Usability – Visibilidad del estado del sistema
+- *Descripción*:  
+  Al iniciar sesión correctamente, no aparece ningún mensaje, animación o redirección clara que confirme que el proceso fue exitoso. Esto genera incertidumbre y puede llevar al usuario a pensar que hubo un error.
+- *Recomendación*:  
+  Incluir un mensaje de bienvenida visible (“Inicio de sesión exitoso”), transiciones suaves o dashboard de entrada con saludo personalizado.
+
+*PROBLEMA #2: Iconos sin etiquetas dificultan el reconocimiento de funciones*
+- *Severidad*: 2
+- *Heurística violada*: Usability – Reconocimiento antes que recuerdo
+- *Descripción*:  
+  Algunos botones del menú (como el ícono de “Servicios” o “Citas”) carecen de etiquetas al pasar el cursor. Esto puede dificultar el aprendizaje inicial de la plataforma.
+- *Recomendación*:  
+  Incluir tooltips o etiquetas breves al hacer hover sobre los íconos.
+
+*PROBLEMA #3: Textos largos en la landing pueden saturar al usuario*
+- *Severidad*: 1
+- *Heurística violada*: Usability – Diseño estético y minimalista
+- *Descripción*:  
+  Algunas secciones de la landing contienen bloques extensos de texto descriptivo. Esto puede distraer o desmotivar al usuario.
+- *Recomendación*:  
+  Reorganizar los textos usando viñetas, subtítulos o pictogramas para facilitar la lectura.
+
+*PROBLEMA #4: No existe acceso a sección de ayuda o tutorial*
+- *Severidad*: 3
+- *Heurística violada*: Usability – Ayuda y documentación
+- *Descripción*:  
+  Ni la landing ni la aplicación tienen enlaces visibles a preguntas frecuentes, tutoriales o contacto de soporte.
+- *Recomendación*:  
+  Incluir una sección de ayuda accesible desde el menú principal o footer con preguntas frecuentes y guías rápidas.
+
+*PROBLEMA #5: No se puede ver el historial completo de citas pasadas desde el perfil del cliente*
+- *Severidad:* 2
+- *Heurística violada:* Information Architecture – ¿Es localizable?
+- *Descripción:*
+  El cliente no tiene acceso al detalle de sus citas pasadas ni posibilidad de repetirlas fácilmente desde el historial.
+- *Recomendación:*
+  Incluir un módulo de historial con opción de “Repetir cita”.
+
+*PROBLEMA #6: Falta de confirmación visual al editar servicios*
+- *Severidad:* 2
+- *Heurística violada:* Usability – Visibilidad del estado del sistema
+- *Descripción:*
+  Cuando un administrador edita un servicio, al guardar los cambios no se muestra un mensaje visible de confirmación (ni toast ni modal). Esto genera duda sobre si los cambios fueron aplicados correctamente.
+- *Recomendación:*
+  Implementar un mensaje de éxito (“Servicio actualizado correctamente”) que aparezca de forma visible tras guardar.
+
+*PROBLEMA #7: El salón no puede responder a los reviews que dejan los clientes*
+- *Severidad:* 2
+- *Heurística violada:* Usability – Libertad y control del usuario
+- *Descripción:*
+  Actualmente, los administradores de los salones pueden visualizar las reseñas dejadas por los clientes, pero no pueden responder o gestionar esos comentarios. Esto limita la comunicación bidireccional y la construcción de confianza con los usuarios.
+- *Recomendación:*
+  Permitir que los salones respondan públicamente a las reseñas desde el panel de administración, con opción de moderación si es necesario.
+
 # 5.4. Video About-the-Product
+
+A continuación, se presenta un video explicativo de uTime, una plataforma que conecta usuarios con estilistas disponibles según su horario y ubicación de preferencia. El objetivo del video es mostrar de manera breve, clara y visual cómo funciona uTime, destacando sus principales funcionalidades, el propósito del proyecto y los beneficios que brinda tanto a clientes como a profesionales de belleza.
+El video está diseñado para captar la atención de potenciales usuarios y estilistas, demostrando cómo reservar una cita en pocos pasos, explorar perfiles con calificaciones y comentarios, y personalizar la búsqueda según necesidades específicas. Además, se incluyen animaciones simples, una narración clara y una simulación del uso real de la aplicación en dispositivos móviles.
+
+<img src="img/video-about.jpeg" alt="Video about the product"/>
+
+* Url Video About the product:
+https://youtu.be/6XoZkCqmiOo
 
 # Conclusiones
 
@@ -3881,6 +4099,13 @@ En el Sprint 3, se dividieron las tareas según las funcionalidades del sistema 
 
 - Reforzar la conexión entre los módulos del frontend y backend, asegurando una integración fluida y bien documentada que permita escalar el sistema sin mayores fricciones.
 
+## 6.2 Video About-the-Team
+
+En este video hablamos sobre nuestro equipo de desarrollo de uTime, conformado por Kevin Chi, Jorge Sium, Marcelo Varela y yo, Gael Rivera. Cada uno de nosotros aporta habilidades distintas que se complementan muy bien, lo que nos ha permitido desarrollar diferentes partes del proyecto de forma eficiente. Una de nuestras principales fortalezas es justamente esa diversidad de conocimientos. Al inicio tuvimos algunos retos con la organización del tiempo, pero supimos adaptarnos, estableciendo mejor los horarios y dedicando momentos específicos para probar, ajustar y seguir avanzando. En este espacio queremos compartir cómo trabajamos juntos, nuestras fortalezas, debilidades y la forma en que logramos salir adelante como equipo.
+
+![Enlace al Video About The Team]()
+
+![Nuestro equipo de desarrollo](img/ImagenATT)
 
 # Bibliografía
 
@@ -3936,13 +4161,33 @@ https://upc-paxtech.github.io/uTime-Landing-Page/
 **Url Deployment Github Pages - uTime (Paxtech) - Frontend Web Applications**<br>
 https://upc-paxtech.github.io/Frontend-Web-Applications/iam/login
 
-**Url Deployment Github Pages - uTime (Paxtech) - Web Applications**<br>
+**Url Deployment Azure - uTime (Paxtech) - Web Applications**<br>
 
+**Url Video About the product:**
 
+* Microsoft Teams:
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u202319668_upc_edu_pe/ERfEtE8S3WdLhoWUYUmMBfoBUBbhrCgm_thuZDMjyRHQHg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=SQO69q
+
+* Youtube:
+https://youtu.be/6XoZkCqmiOo
+
+**Url Video About the product:**
+
+* Microsoft Teams:
+
+* Youtube:
+
+**Url Video Exposicion TB2:**
+
+* Microsoft Teams:
+
+* Youtube:
 
 **Herramientas y Recursos Utilizados:**<br>
 
 URL del Needfinding Interviews: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202312504_upc_edu_pe/Eb0_dXIIVztGj7h_-J6z6IIBxfjUUU4WJPM7v3x5BmOlNA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=TzxLwv
+
+URL del Validation Interviews: 
 
 URL del Prototypes Navigation / Product Navigation: https://www.figma.com/design/2RXg2e7OWrAbqYfNcw2EVP/UTIME?node-id=0-1&t=NPXJtI3GloAbxeeU-1
 
