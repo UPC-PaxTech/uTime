@@ -2127,10 +2127,16 @@ Ruta de referencia: https://www.figma.com
 **UXPressia** complementa el trabajo de UX al permitir la creación y documentación de User Personas, Customer Journey Maps y Empathy Maps. Esto ayuda al equipo a entender mejor a los usuarios finales y alinear las decisiones de diseño con sus necesidades.  
 Ruta de referencia: https://uxpressia.com
 
+**Trello** complementa el trabajo de UX al facilitar la organización visual de tareas, ideas y flujos de trabajo mediante tableros, listas y tarjetas. Esto permite a los equipos de diseño y desarrollo colaborar de forma ágil, priorizar funcionalidades centradas en el usuario y dar seguimiento al progreso de proyectos UX.
+Ruta de referencia: https://trello.com
+
 #### Software Development
 
 **WebStorm** es el entorno de desarrollo integrado (IDE) que utilizan los desarrolladores del equipo para escribir y depurar código en tecnologías web. Su integración con sistemas de control de versiones, linters, y herramientas modernas de desarrollo lo convierten en un entorno robusto.  
 Ruta de referencia: https://www.jetbrains.com/webstorm
+
+**IntelliJ IDEA Ultimate** es el entorno de desarrollo integrado (IDE) utilizado por el equipo para desarrollar aplicaciones complejas en múltiples lenguajes como Java, Kotlin, JavaScript, entre otros. Su soporte avanzado para frameworks modernos, herramientas de base de datos integradas y funcionalidades inteligentes de codificación lo convierten en una plataforma robusta para proyectos de software a gran escala.
+Ruta de referencia: https://www.jetbrains.com/idea
 
 #### Software Deployment
 
@@ -2139,6 +2145,15 @@ Ruta de referencia: https://git-scm.com
 
 **GitKraken** es un cliente Git con interfaz gráfica que el equipo usa para facilitar la gestión visual de ramas, commits, conflictos y flujos de trabajo. Su interfaz amigable permite trabajar con Git de forma intuitiva y estructurada.  
 Ruta de referencia: https://www.gitkraken.com
+
+**Render** es la plataforma de despliegue que el equipo utiliza para alojar y ejecutar APIs simuladas (fake APIs) durante las etapas de desarrollo y pruebas. Su facilidad de configuración y despliegue continuo lo convierten en una herramienta eficiente para ambientes de testing.
+Ruta de referencia: https://render.com
+
+**GitHub Pages** es la plataforma de hosting utilizada por el equipo para desplegar la interfaz frontend de la aplicación. Al integrarse directamente con repositorios de GitHub, permite publicar sitios web estáticos de manera rápida, automatizada y gratuita.
+Ruta de referencia: https://pages.github.com
+
+**Azure** es la plataforma en la nube utilizada por el equipo para desplegar y escalar el backend de la aplicación. Gracias a sus servicios gestionados, como App Services y Azure SQL, permite una implementación robusta, segura y de alto rendimiento para aplicaciones en producción.
+Ruta de referencia: https://azure.microsoft.com
 
 #### Software Documentation and Project Management
 
@@ -2158,6 +2173,8 @@ El proyecto seguirá las convenciones de flujo de trabajo establecidas por el mo
 
 - Enlace para acceder a la organización de GitHub: https://github.com/PaxTech-UPC
 - Enlace para acceder a repositorio de la Landing Page: https://github.com/PaxTech-UPC/uTime-Landing-Page
+- Enlace para acceder a repositorio de FrontEnd Web Application: https://github.com/UPC-PaxTech/Frontend-Web-Applications
+- Enlace para acceder a repositorio de BackEnd Web Service: https://github.com/UPC-PaxTech/Web-Services
 
 **Flujo de trabajo GitFlow:** El flujo a utilizar para le desarrollo del proyecto fue el planteado por Vicent Driessen en "A successful Git branching model".
 
