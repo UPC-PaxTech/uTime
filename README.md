@@ -82,8 +82,6 @@
 
 <div>
 
-
-
 | Version | Fecha      | Autor                            | Descripción de modificación                                                                            |
 |---------|------------|----------------------------------|--------------------------------------------------------------------------------------------------------|
 | 1.0     | 01/04/2025 | Chi, Rivera, Varela, Yalán, Yum  | Creación del documento de trabajo en formato markdown                                                  |
@@ -101,14 +99,26 @@
 | 1.12    | 23/04/2025 | Chi, Rivera, Varela, Yalán, Yum  | Elaboración del Landing Page                                                                           |
 | 2.0     | 27/04/2025 | Chi, Rivera, Varela, Yalán, Yum  | Corrección de los items mencionados en la primera entrega (TB1)                                        |
 | 2.1     | 29/04/2025 | Chi, Rivera, Varela, Yalán, Yum  | Elaboración del Sprint 2                                                                               |
-| 2.2     | 01/04/2025 | Chi, Rivera, Varela, Yalán, Yum  | Elaboración del Diagrama de clases                                                                     |
-| 2.3     | 02/04/2025 | Chi, Rivera, Varela, Yalán, Yum  | Creación del Proyecto en el Repositorio de FrontEnd Web Application                                    |
-| 2.4     | 03/04/2025 | Chi, Rivera, Varela, Yalán, Yum  | Elaboración del Sprint Planing                                                                            |
-| 2.5     | 05/04/2025 | Chi, Rivera, Varela, Yalán, Yum  | Creación del Sprint Backlog                                                                            |
-| 2.6     | 10/04/2025 | Chi, Rivera, Varela, Yalán, Yum  | Elaboración del Execution Evidence for Sprint Review.                                                  |
-| 2.6     | 12/04/2025 | Chi, Rivera, Varela, Yalán, Yum  | Creación del Services Documentation Evidence for Sprint Review.                                        |
-| 2.6     | 14/04/2025 | Chi, Rivera, Varela, Yalán, Yum  | Elaboración del Software Deployment Evidence for Sprint Review.                                           |
-
+| 2.2     | 01/05/2025 | Chi, Rivera, Varela, Yalán, Yum  | Elaboración del Diagrama de clases                                                                     |
+| 2.3     | 02/05/2025 | Chi, Rivera, Varela, Yalán, Yum  | Creación del Proyecto en el Repositorio de FrontEnd Web Application                                    |
+| 2.4     | 03/05/2025 | Chi, Rivera, Varela, Yalán, Yum  | Elaboración del Sprint Planing                                                                         |
+| 2.5     | 05/05/2025 | Chi, Rivera, Varela, Yalán, Yum  | Creación del Sprint Backlog                                                                            |
+| 2.7     | 10/05/2025 | Chi, Rivera, Varela, Yalán, Yum  | Elaboración del Execution Evidence for Sprint Review.                                                  |
+| 2.8     | 12/05/2025 | Chi, Rivera, Varela, Yalán, Yum  | Creación del Services Documentation Evidence for Sprint Review.                                        |
+| 2.9     | 14/05/2025 | Chi, Rivera, Varela, Yalán, Yum  | Elaboración del Software Deployment Evidence for Sprint Review.                                        |
+| 3.0     | 27/05/2025 | Chi, Rivera, Varela, Yalán, Yum  | Corrección de los items mencionados en la primera entrega (TP1)                                        |
+| 3.1     | 30/06/2025 | Chi, Rivera, Varela, Yalán, Yum  | Elaboración del Sprint 3                                                                               |
+| 3.2     | 01/06/2025 | Chi, Rivera, Varela, Yalán, Yum  | Elaboración del Diagrama de clases del Backend                                                         |
+| 3.3     | 02/06/2025 | Chi, Rivera, Varela, Yalán, Yum  | Creación del Proyecto en el Repositorio de Web Application                                             |
+| 3.4     | 03/06/2025 | Chi, Rivera, Varela, Yalán, Yum  | Elaboración del Sprint Planing 3                                                                       |
+| 3.5     | 05/06/2025 | Chi, Rivera, Varela, Yalán, Yum  | Creación del Sprint Backlog 3                                                                          |
+| 3.6     | 10/06/2025 | Chi, Rivera, Varela, Yalán, Yum  | Elaboración del Execution Evidence for Sprint Review 3.                                                |
+| 3.7     | 12/06/2025 | Chi, Rivera, Varela, Yalán, Yum  | Creación del las Validation Interviews                                                                 |
+| 3.8     | 14/06/2025 | Chi, Rivera, Varela, Yalán, Yum  | Elaboración del Diseño de Entrevistas                                                                  |
+| 3.9     | 14/06/2025 | Chi, Rivera, Varela, Yalán, Yum  | Elaboración del Registro de Entrevistas.                                                               |
+| 3.10    | 15/06/2025 | Chi, Rivera, Varela, Yalán, Yum  | Elaboración del Video About-the-Product.                                                               |
+| 3.11    | 15/06/2025 | Chi, Rivera, Varela, Yalán, Yum  | Elaboración de las Conclusiones y recomendaciones.                                                     |
+| 3.11    | 16/06/2025 | Chi, Rivera, Varela, Yalán, Yum  | Elaboración del Video About-the-Team.                                                                  |
 
 </div>
 
@@ -118,32 +128,42 @@ URL del repositorio para el proyecto: https://github.com/UPC-PaxTech/uTime/
 
 **TB1**
 
-Para el desarrollo del informe perteneciente a la entrega del TP1, se dividió la implementación de secciones de la siguiente forma
-para cada integrante del equipo:
+Para el desarrollo del informe perteneciente a la entrega del TP1, se dividió la implementación de secciones de la siguiente forma para cada integrante del equipo:
 
 
-| Integrantes    | Tareas Asignadas                                                                                                                                                                  |
-| -------------- |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Kevin Chi      | Segmento Objetivo, Use Task Matrix, Ubiquitous Language, User Stories, Software Architecture diagrams (c4), Software Object-oriented Design, Class Diagrams.                      |
-| Gael Rivera    | Análisis de competidores, Estrategias y tácticas frente a competidores, Entrevistas, Ubiquitous Language, User Stories, Product Backlog, Database Diagram, Landing Page, Sprint 1. |
-| Marcelo Varela | Antecedentes y problemática, Registro de entrevistas, User persona, Empathy mapping, Impact mapping, User stories, Functional requirements, Organization systems, Labeling System |
-| Angie Yalán   | Startup Profile, Solution Profile, Segmento Objetivo, Lean UX Process, Style Guidelines, Landing Page UI Design, Web Application UX/UI Design, Web Application Prototyping.       |
-| Jorge Yum      | As-Is To-Be Scenario Mapping, Impact Mapping, User Stories, Landing Page development, Product Backlog, Information Architecture, Sprint 1                                                                   |
+| Integrantes     | Tareas Asignadas                                                                                                                                                                  |
+|-----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Kevin Chi       | Segmento Objetivo, Use Task Matrix, Ubiquitous Language, User Stories, Software Architecture diagrams (c4), Software Object-oriented Design, Class Diagrams.                      |
+| Gael Rivera     | Análisis de competidores, Estrategias y tácticas frente a competidores, Entrevistas, Ubiquitous Language, User Stories, Product Backlog, Database Diagram, Landing Page, Sprint 1. |
+| Marcelo Varela  | Antecedentes y problemática, Registro de entrevistas, User persona, Empathy mapping, Impact mapping, User stories, Functional requirements, Organization systems, Labeling System |
+| Angie Yalán     | Startup Profile, Solution Profile, Segmento Objetivo, Lean UX Process, Style Guidelines, Landing Page UI Design, Web Application UX/UI Design, Web Application Prototyping.       |
+| Jorge Yum       | As-Is To-Be Scenario Mapping, Impact Mapping, User Stories, Landing Page development, Product Backlog, Information Architecture, Sprint 1                                                                   |
 
 **TP1**
 
-Para el desarrollo del informe perteneciente a la entrega del TP1, se dividió la implementación de secciones de la siguiente forma
-para cada integrante del equipo:
+Para el desarrollo del informe perteneciente a la entrega del TP1, se dividió la implementación de secciones de la siguiente forma para cada integrante del equipo:
 
 
-| Integrantes    | Tareas Asignadas                                                                                                                                                                                                                                                 |
-|----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Kevin Chi      | Correción de los diagramas, Sprint 2, Sprint Backlog, Sprint Planning, Development Evidence for Sprint Review, Execution Evidence for Sprint Review, Services Documentation Evidence for Sprint Review, Software Deployment Evidence for Sprint Review.          |
-| Gael Rivera    | Correción de los US, Sprint 2, Sprint Backlog, Sprint Planning, Development Evidence for Sprint Review, Execution Evidence for Sprint Review, Services Documentation Evidence for Sprint Review, Software Deployment Evidence for Sprint Review.                 |
-| Marcelo Varela | Correción del Bibliografía y Anexos, Sprint 2, Sprint Backlog, Sprint Planning, Development Evidence for Sprint Review, Execution Evidence for Sprint Review, Services Documentation Evidence for Sprint Review, Software Deployment Evidence for Sprint Review. |
-| Angie Yalán    | Correción del LeanUX, Sprint 2, Sprint Backlog, Sprint Planning, Development Evidence for Sprint Review, Execution Evidence for Sprint Review, Services Documentation Evidence for Sprint Review, Software Deployment Evidence for Sprint Review.                |
-| Jorge Yum      | Correcion de la Landing Page, Sprint 2, Sprint Backlog, Sprint Planning, Development Evidence for Sprint Review, Execution Evidence for Sprint Review, Services Documentation Evidence for Sprint Review, Software Deployment Evidence for Sprint Review.        |
+| Integrantes    | Tareas Asignadas                                                                                                                                                                                                                                                  |
+|----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Kevin Chi      | Corrección de los diagramas, Sprint 2, Sprint Backlog, Sprint Planning, Development Evidence for Sprint Review, Execution Evidence for Sprint Review, Services Documentation Evidence for Sprint Review, Software Deployment Evidence for Sprint Review.          |
+| Gael Rivera    | Corrección de los US, Sprint 2, Sprint Backlog, Sprint Planning, Development Evidence for Sprint Review, Execution Evidence for Sprint Review, Services Documentation Evidence for Sprint Review, Software Deployment Evidence for Sprint Review.                 |
+| Marcelo Varela | Corrección del Bibliografía y Anexos, Sprint 2, Sprint Backlog, Sprint Planning, Development Evidence for Sprint Review, Execution Evidence for Sprint Review, Services Documentation Evidence for Sprint Review, Software Deployment Evidence for Sprint Review. |
+| Angie Yalán    | Corrección del LeanUX, Sprint 2, Sprint Backlog, Sprint Planning, Development Evidence for Sprint Review, Execution Evidence for Sprint Review, Services Documentation Evidence for Sprint Review, Software Deployment Evidence for Sprint Review.                |
+| Jorge Yum      | Corrección de la Landing Page, Sprint 2, Sprint Backlog, Sprint Planning, Development Evidence for Sprint Review, Execution Evidence for Sprint Review, Services Documentation Evidence for Sprint Review, Software Deployment Evidence for Sprint Review.        |
 
+**TB2**
+
+Para el desarrollo del informe perteneciente a la entrega del TB2, se dividió la implementación de secciones de la siguiente forma para cada integrante del equipo:
+
+
+| Integrantes    | Tareas Asignadas                                                                                                                                                                                                                                                                                                                                                                                                        |
+|----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Kevin Chi      | Corrección de los diagramas, Sprint 3, Sprint Backlog, Sprint Planning, Development Evidence for Sprint Review, Execution Evidence for Sprint Review, Services Documentation Evidence for Sprint Review, Software Deployment Evidence for Sprint Review, Validation Interviews, Diseño de Entrevistas, Registro de Entrevistas, Evaluaciones según heurísticas, Video About-the-Product, Video About-the-Team.          |
+| Gael Rivera    | Corrección de los US, Sprint 3, Sprint Backlog, Sprint Planning, Development Evidence for Sprint Review, Execution Evidence for Sprint Review, Services Documentation Evidence for Sprint Review, Software Deployment Evidence for Sprint Review, Validation Interviews, Diseño de Entrevistas, Registro de Entrevistas, Evaluaciones según heurísticas, Video About-the-Product, Video About-the-Team.                 |
+| Marcelo Varela | Corrección del Bibliografía y Anexos, Sprint 3, Sprint Backlog, Sprint Planning, Development Evidence for Sprint Review, Execution Evidence for Sprint Review, Services Documentation Evidence for Sprint Review, Software Deployment Evidence for Sprint Review, Validation Interviews, Diseño de Entrevistas, Registro de Entrevistas, Evaluaciones según heurísticas, Video About-the-Product, Video About-the-Team. |
+| Angie Yalán    | Corrección del LeanUX, Sprint 3, Sprint Backlog, Sprint Planning, Development Evidence for Sprint Review, Execution Evidence for Sprint Review, Services Documentation Evidence for Sprint Review, Software Deployment Evidence for Sprint Review, Validation Interviews, Diseño de Entrevistas, Registro de Entrevistas, Evaluaciones según heurísticas, Video About-the-Product, Video About-the-Team.                |
+| Jorge Yum      | Corrección de la Landing Page, Sprint 3, Sprint Backlog, Sprint Planning, Development Evidence for Sprint Review, Execution Evidence for Sprint Review, Services Documentation Evidence for Sprint Review, Software Deployment Evidence for Sprint Review, Validation Interviews, Diseño de Entrevistas, Registro de Entrevistas, Evaluaciones según heurísticas, Video About-the-Product, Video About-the-Team.        |
 
 
 El proceso de colaboración en el informe se realizó mediante commits constantes al repositorio de la organización PaxTech.
@@ -156,7 +176,7 @@ de versiones.
 
 Los integrantes son:
 
-- Kevin Chi (Krillsom)
+- Kevin Chi (Krillsom) 
 - Gael Rivera (gael-rs)
 - Marcelo Varela (VarBus)
 - Angie Yalán (aaaaangie)
@@ -170,8 +190,22 @@ Se explican las ramas más prominentes:
 
 Capturas de la participación en el informe:
 
-![NetworkGraph](img/networkgraph-informeTP.png)
-![Contributors](img/informe-contributorsTP.png)
+**Rivera Sosa, Eduardo Gael**
+
+
+
+**Varela Bustinza, Marcelo Alessandro**
+
+
+
+
+**Yum Gonzales, Jorge Suin**
+
+
+
+**Chi Cruzatt, Kevin Jorge**
+
+
 
 # Contenido
 
@@ -251,9 +285,32 @@ Capturas de la participación en el informe:
    5.2.1.6. [Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)<br>
    5.2.1.7. [Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)<br>
    5.2.1.8. [Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)<br>
-
+   5.2.2. [Sprint 2](#522-sprint-2)<br>
+   5.2.2.1. [Sprint Planning 2](#5221-sprint-planning-2)<br>
+   5.2.2.2. [Aspect Leaders and Collaborators](#5222-aspect-leaders-and-collaborators)<br>
+   5.2.2.3. [Sprint Backlog 2](#5223sprint-backlog-2)<br>
+   5.2.2.4. [Development Evidence for Sprint Review](#5224development-evidence-for-sprint-review)<br>
+   5.2.2.5. [Execution Evidence for Sprint Review](#5225execution-evidence-for-sprint-review)<br>
+   5.2.2.6. [Services Documentation Evidence for Sprint Review](#5226services-documentation-evidence-for-sprint-review)<br>
+   5.2.2.7. [Software Deployment Evidence for Sprint Review](#5227software-deployment-evidence-for-sprint-review)<br>
+   5.2.2.8. [Team Collaboration Insights during Sprint](#5228team-collaboration-insights-during-sprint)<br>
+   5.2.3. [Sprint 3](#523-sprint-3)<br>
+   5.2.3.1. [Sprint Planning 3](#5231-sprint-planning)<br>
+   5.2.3.2. [Aspect Leaders and Collaborators](#5232-aspect-leaders-and-collaborators)<br>
+   5.2.3.3. [Sprint Backlog 3](#5223sprint-backlog-2)<br>
+   5.2.3.4. [Development Evidence for Sprint Review](#5234-development-evidence-for-sprint-review)<br>
+   5.2.3.5. [Execution Evidence for Sprint Review](#5235-execution-evidence-for-sprint-review)<br>
+   5.2.3.6. [Services Documentation Evidence for Sprint Review](#5236-services-documentation-evidence-for-sprint-review)<br>
+   5.2.3.7. [Software Deployment Evidence for Sprint Review](#5237-software-deployment-evidence-for-sprint-review)<br>
+   5.2.3.8. [Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during--sprint)<br>
+   5.3. [Validation Interviews](#53-validation-interviews)<br>
+   5.3.1 [Diseño de Entrevistas](#531-diseño-de-entrevistas)<br>
+   5.3.2 [Registro de Entrevistas](#532-registro-de-entrevistas)<br>
+   5.3.3 [Evaluación según heurísticas](#533-evaluaciones-según-heurísticas)<br>
+   5.4. [Video About-the-Product](#54-video-about-the-product)<br>
 6. [Conclusiones](#conclusiones)<br>
    6.1 [Conclusiones y recomendaciones](#61-conclusiones-y-recomendaciones)<br>
+   6.2. [Video About-the-Team](#62-video-about-the-team)<br>
 7. [Bibliografía](#bibliografía)<br>
 8. [Anexos](#anexos)<br>
 
@@ -261,10 +318,10 @@ Capturas de la participación en el informe:
    **Student Outcome 3**
 
 
-| Criterio específico                                                   | Acciones realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Conclusiones                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-|-----------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Comunica oralmente con efectividad a diferentes rangos de audiencia.  | **Kevin Chi**:<br>TB1: Participé en un video colaborativo, donde expliqué de forma detallada y clara la arquitectura de software, el diagrama de clases y el diagrama de la base de datos, utilizando un modelo basado en domain driven design y buenas prácticas de diseño. <br>TP:Contribuí a la correción de las observaciones levantadas en el TB1, además de la implementación de el dashboard de client y los salones. Esta información fue importante para el desarrollo de nuestro proyecto.<br><br> **Gael Rivera**<br>TB1: Participé en la elaboración de un video explicativo sobre el primer avance del proyecto, donde comuniqué de forma clara y estructurada el análisis de competidores, las estrategias y tareas realizadas. Me aseguré de usar un lenguaje comprensible tanto para compañeros como para el docente, adaptando el contenido para que cualquier persona interesada pudiera entender el progreso del proyecto.<br>**TP1:** Contribuí activamente en la organización del proyecto al reordenar las historias de usuario (US) según el business core, lo cual permitió una priorización más estratégica del desarrollo. Esta información fue documentada de forma clara y compartida por escrito con el equipo, asegurando que todos comprendieran el enfoque y el motivo detrás de cada cambio.<br><br> **Marcelo Varela:** <br> TB1: Contribuí en la elaboración de un video expositivo sobre el primer avance del proyecto, donde comuniqué de forma concisa y detallada los Antecedentes y problematica, user persona y las demás tareas asignadas. Me encargue de emplear un lenguaje formal e intuitivo que sea facíl de comprender tanto para el docente como los compañeros, adaptandome a los factores indicados en la rúbrica del curso y permitiendo asi que caulquier persona externa pueda comprender en que consiste el proyecto uTIma de forma eficiente. <br>TP1:Durante el desarrollo del frontend de la aplicación web, logré avanzar en lo que corresponde a la sección orientada al cliente. En esta parte, implementé las vistas de "Client Appointments", donde los usuarios pueden visualizar sus citas agendadas; "Favorites", que permite guardar y acceder rápidamente a servicios preferidos; y "My Profile", donde el cliente puede gestionar su información personal. Para comunicar estos avances oralmente, me aseguré de adaptar el lenguaje según el público: explicando de forma técnica y detallada al equipo de desarrollo, y usando términos más generales y ejemplos visuales cuando presenté los avances a personas no técnicas como docentes o posibles usuarios.<br><br> **Angie Yalán:**<br> TB1: Durante el desarrollo del proyecto, demostré habilidades efectivas de comunicación oral al participar activamente en la entrevista dirigida al segmento 2 del público objetivo. A través de esta interacción, supe adaptar mi lenguaje y enfoque según el perfil del entrevistado, logrando recopilar información valiosa para validar necesidades reales. Asimismo, participé en la edición del video general, donde se incluyeron todas las entrevistas realizadas, cuidando que el contenido fuera claro, conciso y accesible para distintos tipos de audiencia, tanto académica como profesional.<br>TP1: Durante el desarrollo del frontend, aprendí a explicar de forma clara cómo funcionan los componentes, el uso de @Input, mat-table, mat-dialog, y los servicios en Angular. Esto me permitió compartir ideas efectivamente con mi equipo, adaptando mi forma de hablar según el nivel técnico de la persona.<br><br>  **Jorge Yum:**<br> **TB1:** <br> En esta primera entrega, se identifico claramente la problemática de nuestra Startup, nuestros segmentos objetivos y la investigación necesaria para averiguar los requisitos junto con las características que debería tener nuestra aplicación web. Para hacer esto, se realizaron entrevistas a un amplio rango de personas que encajan en nuestros segmentos objetivos. Con esta información se pudo hacer un analisis de requerimientos y realizar tablas sobre los beneficios del uso de la aplicación web . <br> **TP:** <br> En este entrega, a partir de las comentarios y observaciones dadas de nuestra anterior entrega, corregi connecciones fallidas y añadi internacionalizacion a nuestro landing page. Discutimos lo que vamos a realizar en nuestra sprint 2 y completé el componentes como el dashboard, perfil y configuracion de una cuenta de salon/proveedor.   | **TB1:** Como equipo, logramos desarrollar un trabajo completo y bien articulado, cumpliendo con todos los componentes establecidos para esta primera entrega. Para presentar nuestro avance, elaboramos un video explicativo en el que comunicamos de forma clara y ordenada cada una de las etapas: desde la planificación hasta el desarrollo y preparación para la primera entrega. Nos aseguramos de adaptar el lenguaje y la presentación para que fuera comprensible tanto para el docente evaluador como para cualquier persona interesada, sin importar su nivel técnico.<br><br>**TP1** En reuniones del equipo y presentaciones con stakeholders, se comunicó oralmente el contenido y propósito del Sprint 2, el cual incluyó el desarrollo inicial del FrontEnd Web Application y correcciones del entregable anterior (TB1). Se explicaron de forma efectiva los avances, funcionalidades implementadas y evidencias generadas, adaptando el lenguaje según la audiencia para asegurar una comprensión adecuada por parte de todos los involucrados.|
-|Comunica por escrito con efectividad a diferentes rangos de audiencia. | **Kevin Chi**:<br>TB1: Participé la elección del segmento objetivo, los user stories, ubiquitous language, domain-driven software architecture, software object-oriented design y database diagram. Utilizé gráficos y tablas con los que apoyarme para la correcta representación de los segmentos indicados. <br>TP1:Durante el TP1, logré comunicar efectivamente la estructura de nuestro front-end elaborando diagrams de clase y diagramas c4<br><br> **Gael Rivera**<br>TB1: Colaboré en la redacción de las user stories, el Product Backlog y la documentación del Sprint 1, utilizando un lenguaje técnico pero claro, para facilitar la comprensión tanto de los miembros del equipo como del docente. También contribuí a la elaboración del diagrama de base de datos y los textos de la Landing Page, cuidando la coherencia y adecuación del contenido para los distintos públicos.<br>**TP:** Durante la programación del calendario en tiempo real, facilité la coordinación del equipo delegando tareas de manera clara y efectiva. Me aseguré de comunicar oralmente los objetivos, tiempos y responsables de cada actividad, promoviendo una gestión fluida del trabajo y asegurando que cada miembro entendiera su rol dentro del Sprint.  <br><br>**Marcelo Varela:** <br> **TB1:** Colaboré eficazmente en la redacción de partes como los antecedentes, la problemática y las historias de usuario. También participé en el registro y análisis de entrevistas, lo que me permitió adaptar mi forma de escribir según el tipo de público, ya sea compañeros, docentes o usuarios. Gracias a eso, desarrollé una mejor capacidad para comunicarme por escrito con claridad y de acuerdo al objetivo de cada entrega. <br>TP1:En los documentos de avance del proyecto, describí de forma clara y estructurada las funcionalidades desarrolladas del frontend, especialmente las secciones de Client Appointments, Favorites y My Profile. Utilicé un lenguaje técnico preciso para que los desarrolladores pudieran comprender la arquitectura e implementación, y también incluí descripciones accesibles y diagramas de interfaz para que personas sin conocimientos técnicos pudieran entender el propósito y funcionamiento de cada parte. Esto me permitió comunicarme efectivamente por escrito con diferentes tipos de audiencia involucrados en el proyecto.<br><br> **Angie Yalán:**<br> TB1: En la parte escrita del proyecto, fui responsable de desarrollar casi por completo la sección de antecedentes y problemáticas, redactando con claridad y coherencia para transmitir de forma efectiva el contexto y la necesidad del sistema. Además, elaboré todo el proceso Lean UX documentando cada fase de forma estructurada y comprensible. También diseñé y documenté la landing page y la aplicación web, incluyendo wireframes y mockups con descripciones detalladas. Finalmente, redacté la guía de estilo (style guidelines), asegurándome de que fuera clara tanto para desarrolladores como para diseñadores.<br>TP1:Redacté mensajes y textos para el usuario dentro de la interfaz de forma clara y adecuada. Además, mantuve un código limpio, comentado cuando fue necesario, facilitando que cualquier persona —sea del equipo técnico o no— pueda entender el funcionamiento de los componentes.<br><br>  **Jorge Yum:**<br> **TB1:** <br> Para esta primera entrega, se comunico de forma escrita mediante el uso de conventional commits y git flow dentro de un repositorio de github que permitió la organización y un flujo de trabajo ordenado. De esta manera, en esta entrega se pudo realizar la planificación de la problemática, tabla de supuestos y la landing page. <br> **TP:** <br> Como equipo participe en las reuniones para discutir los avanzes del frontend y sprint 2, lo que me permitio realizar el dashboard, settings y profile teniendo en cuenta los componentes que se exportan o importo dependiendo de su necesidad.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            | **TB1:** Como equipo, establecimos canales de comunicación efectivos que nos permitieron coordinar adecuadamente el desarrollo del proyecto, a pesar de los plazos ajustados. Además, realizamos entrevistas que nos ayudaron a recoger sus opiniones y necesidades, lo cual fue clave para definir correctamente los requisitos del sistema. Esta información fue plasmada en artefactos escritos como user stories y el Product Backlog. <br><br>**TP1:** En reuniones del equipo y presentaciones con stakeholders, se comunicó oralmente el contenido y propósito del Sprint 2, el cual incluyó el desarrollo inicial del FrontEnd Web Application y correcciones del entregable anterior (TB1). Se explicaron de forma efectiva los avances, funcionalidades implementadas y evidencias generadas, adaptando el lenguaje según la audiencia para asegurar una comprensión adecuada por parte de todos los involucrados.                                                                                                                                      |
+| Criterio específico                                                  | Acciones realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               | Conclusiones                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+|----------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|Comunica oralmente con efectividad a diferentes rangos de audiencia.  | **Kevin Chi**:<br> **TB1:** Participé en un video colaborativo, donde expliqué de forma detallada y clara la arquitectura de software, el diagrama de clases y el diagrama de la base de datos, utilizando un modelo basado en domain driven design y buenas prácticas de diseño. <br> **TP1:** Contribuí a la correción de las observaciones levantadas en el TB1, además de la implementación de el dashboard de client y los salones. Esta información fue importante para el desarrollo de nuestro proyecto. <br><br> **TB2:** Contribuí con la elaboración de un viddeo en el cual expliqué los bounded context principales de nuestro diagrama de clases <br><br> **Gael Rivera**<br>**TB1:** Participé en la elaboración de un video explicativo sobre el primer avance del proyecto, donde comuniqué de forma clara y estructurada el análisis de competidores, las estrategias y tareas realizadas. Me aseguré de usar un lenguaje comprensible tanto para compañeros como para el docente, adaptando el contenido para que cualquier persona interesada pudiera entender el progreso del proyecto.<br>**TP1:** Contribuí activamente en la organización del proyecto al reordenar las historias de usuario (US) según el business core, lo cual permitió una priorización más estratégica del desarrollo. Esta información fue documentada de forma clara y compartida por escrito con el equipo, asegurando que todos comprendieran el enfoque y el motivo detrás de cada cambio.<br>**TB2:** Durante la grabación del video About The Team y del Video de Exposición para la entrega del TB2, me enfoqué en explicar de forma clara y accesible el funcionamiento del backend de nuestro proyecto uTime. Utilicé un lenguaje técnico moderado para que tanto docentes como compañeros pudieran comprender cómo se estructuran las APIs, la lógica de negocio y la interacción con la base de datos, destacando el aporte de esta parte al objetivo general del sistema.<br><br> **Marcelo Varela:** <br> TB1: Contribuí en la elaboración de un video expositivo sobre el primer avance del proyecto, donde comuniqué de forma concisa y detallada los Antecedentes y problematica, user persona y las demás tareas asignadas. Me encargue de emplear un lenguaje formal e intuitivo que sea facíl de comprender tanto para el docente como los compañeros, adaptandome a los factores indicados en la rúbrica del curso y permitiendo asi que caulquier persona externa pueda comprender en que consiste el proyecto uTIma de forma eficiente. <br>TP1:Durante el desarrollo del frontend de la aplicación web, logré avanzar en lo que corresponde a la sección orientada al cliente. En esta parte, implementé las vistas de "Client Appointments", donde los usuarios pueden visualizar sus citas agendadas; "Favorites", que permite guardar y acceder rápidamente a servicios preferidos; y "My Profile", donde el cliente puede gestionar su información personal. Para comunicar estos avances oralmente, me aseguré de adaptar el lenguaje según el público: explicando de forma técnica y detallada al equipo de desarrollo, y usando términos más generales y ejemplos visuales cuando presenté los avances a personas no técnicas como docentes o posibles usuarios.<br> TB2:A lo largo del proyecto, participé en entrevistas de validación con usuarios, donde expliqué el propósito y funcionamiento de la plataforma de forma clara y accesible. También colaboré en la grabación del Video About-the-Team, donde comuniqué de forma oral los objetivos, roles y avances del equipo, adecuando el lenguaje tanto para el público técnico como no técnico. <br> **Angie Yalán:**<br> TB1: Durante el desarrollo del proyecto, demostré habilidades efectivas de comunicación oral al participar activamente en la entrevista dirigida al segmento 2 del público objetivo. A través de esta interacción, supe adaptar mi lenguaje y enfoque según el perfil del entrevistado, logrando recopilar información valiosa para validar necesidades reales. Asimismo, participé en la edición del video general, donde se incluyeron todas las entrevistas realizadas, cuidando que el contenido fuera claro, conciso y accesible para distintos tipos de audiencia, tanto académica como profesional.<br>TP1: Durante el desarrollo del frontend, aprendí a explicar de forma clara cómo funcionan los componentes, el uso de @Input, mat-table, mat-dialog, y los servicios en Angular. Esto me permitió compartir ideas efectivamente con mi equipo, adaptando mi forma de hablar según el nivel técnico de la persona.<br><br>  **Jorge Yum:**<br> **TB1:** <br> En esta primera entrega, se identifico claramente la problemática de nuestra Startup, nuestros segmentos objetivos y la investigación necesaria para averiguar los requisitos junto con las características que debería tener nuestra aplicación web. Para hacer esto, se realizaron entrevistas a un amplio rango de personas que encajan en nuestros segmentos objetivos. Con esta información se pudo hacer un analisis de requerimientos y realizar tablas sobre los beneficios del uso de la aplicación web . <br> **TP:** <br> En este entrega, a partir de las comentarios y observaciones dadas de nuestra anterior entrega, corregi connecciones fallidas y añadi internacionalizacion a nuestro landing page. Discutimos lo que vamos a realizar en nuestra sprint 2 y completé el componentes como el dashboard, perfil y configuracion de una cuenta de salon/proveedor. <br> **TB2:** Durante el desarrollo del Sprint 3, participé activamente en la exposición del backend de nuestra aplicación web uTime, enfocándome en explicar el funcionamiento de los controladores, la estructura de los servicios y la lógica de negocio implementada.También participé en reuniones del equipo, en las que me encargué de presentar los avances del backend y resolver dudas técnicas relacionadas endpoints y manejo de datos. | **TB1:** Como equipo, logramos desarrollar un trabajo completo y bien articulado, cumpliendo con todos los componentes establecidos para esta primera entrega. Para presentar nuestro avance, elaboramos un video explicativo en el que comunicamos de forma clara y ordenada cada una de las etapas: desde la planificación hasta el desarrollo y preparación para la primera entrega. Nos aseguramos de adaptar el lenguaje y la presentación para que fuera comprensible tanto para el docente evaluador como para cualquier persona interesada, sin importar su nivel técnico.<br><br>**TP1** En reuniones del equipo y presentaciones con stakeholders, se comunicó oralmente el contenido y propósito del Sprint 2, el cual incluyó el desarrollo inicial del FrontEnd Web Application y correcciones del entregable anterior (TB1). Se explicaron de forma efectiva los avances, funcionalidades implementadas y evidencias generadas, adaptando el lenguaje según la audiencia para asegurar una comprensión adecuada por parte de todos los involucrados.|
+|Comunica por escrito con efectividad a diferentes rangos de audiencia. | **Kevin Chi**:<br> **TB1:** Participé la elección del segmento objetivo, los user stories, ubiquitous language, domain-driven software architecture, software object-oriented design y database diagram. Utilizé gráficos y tablas con los que apoyarme para la correcta representación de los segmentos indicados. <br> **TP1:** Durante el TP1, logré comunicar efectivamente la estructura de nuestro front-end elaborando diagrams de clase y diagramas c4 <br><br> **TB2:** Durante el TB2, realizé los diagramas de clases de nuestro proyecto, deficiendo así la arquitectura y la forma en la que se realizará. <br><br> **Gael Rivera**<br>**TB1:** Colaboré en la redacción de las user stories, el Product Backlog y la documentación del Sprint 1, utilizando un lenguaje técnico pero claro, para facilitar la comprensión tanto de los miembros del equipo como del docente. También contribuí a la elaboración del diagrama de base de datos y los textos de la Landing Page, cuidando la coherencia y adecuación del contenido para los distintos públicos.<br>**TP1:** Durante la programación del calendario en tiempo real, facilité la coordinación del equipo delegando tareas de manera clara y efectiva. Me aseguré de comunicar oralmente los objetivos, tiempos y responsables de cada actividad, promoviendo una gestión fluida del trabajo y asegurando que cada miembro entendiera su rol dentro del Sprint.<br>**TB2:** Al avanzar con el Sprint 3 y corregir entregas anteriores del proyecto uTime, me aseguré de que la documentación escrita sobre el backend fuera precisa y entendible. Detallé los endpoints, flujos de autenticación y correcciones realizadas, utilizando una redacción clara que permita a cualquier lector, con o sin experiencia técnica profunda, seguir el desarrollo y funcionamiento del sistema sin dificultad.<br><br>**Marcelo Varela:** <br> **TB1:** Colaboré eficazmente en la redacción de partes como los antecedentes, la problemática y las historias de usuario. También participé en el registro y análisis de entrevistas, lo que me permitió adaptar mi forma de escribir según el tipo de público, ya sea compañeros, docentes o usuarios. Gracias a eso, desarrollé una mejor capacidad para comunicarme por escrito con claridad y de acuerdo al objetivo de cada entrega. <br>TP1:En los documentos de avance del proyecto, describí de forma clara y estructurada las funcionalidades desarrolladas del frontend, especialmente las secciones de Client Appointments, Favorites y My Profile. Utilicé un lenguaje técnico preciso para que los desarrolladores pudieran comprender la arquitectura e implementación, y también incluí descripciones accesibles y diagramas de interfaz para que personas sin conocimientos técnicos pudieran entender el propósito y funcionamiento de cada parte. Esto me permitió comunicarme efectivamente por escrito con diferentes tipos de audiencia involucrados en el proyecto.<br> TB2:Realicé la corrección y elaboración de múltiples entregables clave del proyecto, incluyendo la Bibliografía, Anexos, Sprint 3, Sprint Backlog, Sprint Planning, así como las evidencias del desarrollo y ejecución del sprint, la documentación de servicios y el despliegue del software. Además, elaboré los documentos correspondientes al diseño y registro de entrevistas, y desarrollé evaluaciones según heurísticas.También participé en la creación del Video About-the-Product, redactando el guion y asegurando que el contenido escrito fuera comprensible, atractivo y alineado con las necesidades del público objetivo, tanto usuarios como stakeholders. <br> **Angie Yalán:**<br> TB1: En la parte escrita del proyecto, fui responsable de desarrollar casi por completo la sección de antecedentes y problemáticas, redactando con claridad y coherencia para transmitir de forma efectiva el contexto y la necesidad del sistema. Además, elaboré todo el proceso Lean UX documentando cada fase de forma estructurada y comprensible. También diseñé y documenté la landing page y la aplicación web, incluyendo wireframes y mockups con descripciones detalladas. Finalmente, redacté la guía de estilo (style guidelines), asegurándome de que fuera clara tanto para desarrolladores como para diseñadores.<br>TP1:Redacté mensajes y textos para el usuario dentro de la interfaz de forma clara y adecuada. Además, mantuve un código limpio, comentado cuando fue necesario, facilitando que cualquier persona —sea del equipo técnico o no— pueda entender el funcionamiento de los componentes.<br><br>  **Jorge Yum:**<br> **TB1:** <br> Para esta primera entrega, se comunico de forma escrita mediante el uso de conventional commits y git flow dentro de un repositorio de github que permitió la organización y un flujo de trabajo ordenado. De esta manera, en esta entrega se pudo realizar la planificación de la problemática, tabla de supuestos y la landing page. <br> **TP:** <br> Como equipo participe en las reuniones para discutir los avanzes del frontend y sprint 2, lo que me permitio realizar el dashboard, settings y profile teniendo en cuenta los componentes que se exportan o importo dependiendo de su necesidad. <br> **TB2:** En este Sprint 3, me encargué de realizar y documentar de forma clara y estructurada el backend del sistema uTime. Programe la descripción detallada de los endpoints REST implementados, así como las entidades y relaciones utilizadas en la base de datos. Mantuve buenas prácticas de versionamiento usando conventional commits y documentación en el repositorio, lo que permitió mantener una comunicación efectiva y rastreable del avance técnico.                                                                                                                                                                                                                                                                                                                                                                                                                       | **TB1:** Como equipo, establecimos canales de comunicación efectivos que nos permitieron coordinar adecuadamente el desarrollo del proyecto, a pesar de los plazos ajustados. Además, realizamos entrevistas que nos ayudaron a recoger sus opiniones y necesidades, lo cual fue clave para definir correctamente los requisitos del sistema. Esta información fue plasmada en artefactos escritos como user stories y el Product Backlog. <br><br>**TP1:** En reuniones del equipo y presentaciones con stakeholders, se comunicó oralmente el contenido y propósito del Sprint 2, el cual incluyó el desarrollo inicial del FrontEnd Web Application y correcciones del entregable anterior (TB1). Se explicaron de forma efectiva los avances, funcionalidades implementadas y evidencias generadas, adaptando el lenguaje según la audiencia para asegurar una comprensión adecuada por parte de todos los involucrados.                                                                                                                                      |
 
 
 # Capítulo I: Introducción
@@ -1199,19 +1256,24 @@ Segmento objetivo #2: Clientes de servicios de belleza
 
 ## 2.4. Ubiquitous Language.
 
-| Term                                             | Definition                                                                       |
-|--------------------------------------------------|----------------------------------------------------------------------------------|
-| **Scheduled Appointment (Cita Agendada)**        | Una reserva previamente agendada por un cliente en un horario específico         |
-| **Available Slot (Horario Disponible)**          | Un periodo de tiempo donde no hay citas agendadas.                               |
-| **Frequent Client (Cliente frecuente)**          | Cliente que acude regularmente a al salon o barbería.                            |
-| **Time Block (Bloque de tiempo)**                | Unidad de duración en la plataforma. Se usan para estandarizar las citas         |
-| **Cancellation (Cancelación)**                   | Cancelar una cita programada. Esto libera el bloque de tiempo que le corresponde |
-| **Rescheduling (Reprogramación)**                | Cambia la fecha de una cita ya agendada.                                         |
-| **Appointment Reminder (Recordatorio de Cita)**  | Notificación al usuario para confirmar su cita.                                  |
-| **High-Demand Period (Periodo de alta demanda)** | Fechas en las cuales existe una mayor cantidad de clientes realizando citas.     |
-| **New Client (Cliente Nuevo)**                   | Un cliente nuevo que no tiene preferencia por ningún estilista.                  |
-| **Selected Service (Servicio seleccionado)**     | Un tratamiento de especifico que ha sido seleccionado para la cita.              |
-| **Schedule Update (Cambio en la agenda)**        | Cualquier cambio en el horario de citas.                                         |
+| **Término del Lenguaje Ubicuo**    | **Clase**                                    | **Bounded Context** | **Definición**                                                                            |
+| ---------------------------------- | -------------------------------------------- | ------------------- | ----------------------------------------------------------------------------------------- |
+| **Reserva Agendada**               | `Reservations`                               | Reservations        | Una reserva confirmada vinculada a un `ClientId`, `TimeSlotId`, `ServiceId` y `WorkerId`. |
+| **Horario Disponible**             | `TimeSlotId`                                 | Reservations        | Identificador de un bloque de tiempo libre, no asignado a ninguna `Reservation`.          |
+| **Bloque de Tiempo**               | `TimeSlotId`                                 | Reservations        | Unidad estándar de tiempo usada para agendar reservas.                                    |
+| **Cancelación de Reserva**         | `UpdateReservationCommand` (con cancelación) | Reservations        | Acción de actualizar o eliminar una reserva, liberando su `TimeSlotId`.                   |
+| **Reprogramación de Reserva**      | `UpdateReservationCommand`                   | Reservations        | Comando para cambiar el `TimeSlotId` de una reserva ya existente.                         |
+| **Servicio Seleccionado**          | `ServiceId`                                  | Reservations        | Identificador de servicio incluido en una reserva.                                        |
+| **Cambio en la Agenda**            | `UpdateReservationCommand`                   | Reservations        | Cualquier alteración en los datos de una reserva existente.                               |
+| **Trabajador**                     | `Workers`                                    | Workers             | Agregado que representa al profesional que realiza un servicio.                           |
+| **Especialización del Trabajador** | `WorkerSpecialization`                       | Workers             | Valor que describe la especialidad del trabajador (ej. barbería, uñas).                   |
+| **Servicio**                       | `Services`                                   | Services            | Agregado que representa un tratamiento o actividad ofrecida por un `Provider`.            |
+| **Duración del Servicio**          | `Duration`                                   | Services            | Valor que indica el tiempo necesario para completar el servicio.                          |
+| **Precio del Servicio**            | `Money` (compartido)                         | Services / Shared   | Valor objeto que representa el costo del servicio.                                        |
+| **Proveedor**                      | `ProviderId`                                 | Profiles / Services | Identificador del prestador del servicio.                                                 |
+| **Cliente**                        | `ClientId`                                   | Profiles            | Identificador del usuario que agenda y recibe el servicio.                                |
+| **Reseña**                         | `Reviews`                                    | Reviews             | Agregado que contiene la valoración textual y numérica hecha por un `Client`.             |
+| **Puntaje de Reseña**              | `Review.rating`                              | Reviews             | Valor numérico asociado a una reseña de servicio.                                         |
 
 # Capítulo III: Requirements Specification
 
@@ -1283,19 +1345,24 @@ Segmento objetivo #2: Clientes de servicios de belleza
 
 | **ID** | **Título**                                          | **Descripción**                                                                                                                                              | **Criterios de Aceptación**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               | **Epic Relacionado** |
 |--------|-----------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------|
-| TS01   | Integración con pasarela de Pagos                   | **Como** developer, **quiero** integrar la plataforma con pasarelas de pago, **para** gestionar cobros de forma segura.                                      | **Escenario 1: Pago con tarjeta válida**<br>**Given** el usuario ha seleccionado un plan de suscripción<br>**When** el usuario ingresa los datos de una tarjeta válida y confirma el pago<br>**Then** el sistema procesa el pago y responde con un mensaje de éxito.<br><br>**Escenario 2: Pago rechazado por tarjeta inválida**<br>**Given** el usuario ha seleccionado un plan de suscripción<br>**When** el usuario ingresa una tarjeta inválida<br>**Then** el sistema rechaza el pago y muestra un mensaje de error. | EP05                 |
-| TS02   | Implementación de autenticación con dos pasos (2FA) | **Como** developer, **quiero** añadir autenticación de dos factores, **para** mejorar la seguridad del inicio de sesión de los usuarios.                     | **Escenario 1: Acceso con código válido**<br>**Given** el usuario ha ingresado correctamente su correo y contraseña<br>**When** el usuario ingresa el código 2FA enviado<br>**Then** el sistema lo autentica y le permite acceder.<br><br>**Escenario 2: Acceso denegado por código inválido**<br>**Given** el usuario ha ingresado sus credenciales<br>**When** el usuario ingresa un código 2FA incorrecto<br>**Then** el sistema bloquea el acceso y muestra un mensaje de error.                                      | EP07                 |
-| TS03   | Encriptación de contraseñas                         | **Como** developer, **quiero** asegurar las contraseñas mediante hashing y salting, **para** proteger los datos de los usuarios.                             | **Escenario 1: Almacenamiento seguro al registrarse**<br>**Given** un nuevo usuario se registra<br>**When** se guarda su contraseña<br>**Then** la contraseña debe almacenarse en formato hash con salt.<br><br>**Escenario 2: Comparación segura al hacer login**<br>**Given** un usuario registrado intenta iniciar sesión<br>**When** el sistema compara la contraseña ingresada con la almacenada<br>**Then** debe usar el hash y salt para verificar la coincidencia.                                                | EP06                 |
-| TS04   | Actualización en tiempo real de horarios y citas    | **Como** developer, **quiero** que los horarios y las citas se actualicen en tiempo real, **para** que los usuarios vean disponibilidad actualizada.         | **Escenario 1: Horario actualizado sin recargar**<br>**Given** un horario es actualizado por el administrador<br>**When** otro usuario está viendo los horarios<br>**Then** los cambios se reflejan automáticamente.<br><br>**Escenario 2: Cita nueva visible en tiempo real**<br>**Given** un cliente agenda una cita<br>**When** la cita es confirmada<br>**Then** el nuevo horario se muestra en tiempo real en el panel del salón.                                                                                    | EP05/EP06            |
-| TS05   | Validaciones de formularios en frontend y backend   | **Como** developer, **quiero** implementar validaciones robustas en formularios, **para** evitar datos erróneos o maliciosos.                                | **Escenario 1: Campo requerido vacío**<br>**Given** el usuario deja el campo “correo electrónico” vacío<br>**When** intenta enviar el formulario<br>**Then** el sistema muestra un mensaje de error.<br><br>**Escenario 2: Formato incorrecto en campo de teléfono**<br>**Given** el usuario escribe un teléfono no numérico<br>**When** intenta enviar el formulario<br>**Then** el sistema muestra un mensaje de validación.                                                                                            | Todas                |
-| TS06   | Diseño responsive y accesible                       | **Como** developer, **quiero** aplicar diseño responsive y accesibilidad, **para** que el sitio funcione bien en cualquier dispositivo.                      | **Escenario 1: Visualización en smartphone**<br>**Given** el usuario accede desde un smartphone<br>**When** navega por el sitio<br>**Then** los elementos se ajustan correctamente.<br><br>**Escenario 2: Accesibilidad con lector de pantalla**<br>**Given** un usuario con discapacidad visual accede al sitio<br>**When** usa un lector de pantalla<br>**Then** los elementos clave tienen etiquetas accesibles.                                                                                                       | Todas                |
-| TS07   | Crear endpoint para registro de usuario             | **Como** developer, **quiero** crear el endpoint POST /usuarios para registrar clientes y salones de belleza, **para** permitir su incorporación al sistema. | **Escenario 1: Registro exitoso de cliente**<br>**Given** un cliente envía una solicitud POST con datos válidos<br>**When** el endpoint procesa la petición<br>**Then** se registra y devuelve un token de autenticación.<br><br>**Escenario 2: Datos incompletos en el registro**<br>**Given** un usuario envía datos incompletos<br>**When** el backend valida la solicitud<br>**Then** devuelve un error 400 indicando campos faltantes.                                                                               | EP06                 |
-| TS08   | Crear endpoint de login con JWT                     | **Como** developer, **quiero** crear el endpoint POST /login con generación de JWT, **para** autenticar a los usuarios del sistema.                          | **Escenario 1: Login exitoso**<br>**Given** un usuario envía su correo y contraseña correctos<br>**When** se autentica correctamente<br>**Then** el sistema devuelve un JWT válido.<br><br>**Escenario 2: Login fallido**<br>**Given** un usuario intenta iniciar sesión con datos erróneos<br>**When** el sistema verifica las credenciales<br>**Then** devuelve un error 401.                                                                                                                                           | EP07                 |
-| TS09   | Crear endpoint para agendar citas                   | **Como** developer, **quiero** crear el endpoint POST /citas **para** que los usuarios puedan agendar una cita con un salón.                                 | **Escenario 1: Cita agendada correctamente**<br>**Given** un cliente envía una solicitud con fecha y hora disponibles<br>**When** la solicitud es válida<br>**Then** la cita se crea y se confirma.<br><br>**Escenario 2: Horario no disponible**<br>**Given** un cliente intenta agendar en un horario ocupado<br>**When** envía la solicitud<br>**Then** el sistema responde con un error indicando indisponibilidad.                                                                                                   | EP06                 |
-| TS10   | Crear endpoint para gestionar horarios              | **Como** developer, **quiero** crear los endpoints GET /horarios y PUT /horarios, **para** visualizar y actualizar los horarios del salón.                   | **Escenario 1: Visualización de horarios**<br>**Given** el administrador consulta el endpoint GET /horarios<br>**When** hay horarios configurados<br>**Then** el sistema devuelve la lista correctamente.<br><br>**Escenario 2: Actualización de horarios**<br>**Given** el administrador quiere cambiar su horario<br>**When** envía una solicitud PUT con los nuevos datos<br>**Then** el sistema actualiza la información.                                                                                             | EP09                 |
-| TS11   | Crear endpoint de pagos                             | **Como** developer, **quiero** crear el endpoint POST /pagos **para** procesar pagos usando la pasarela integrada.                                           | **Escenario 1: Pago procesado exitosamente**<br>**Given** el usuario quiere pagar una suscripción<br>**When** envía datos válidos a POST /pagos<br>**Then** el sistema procesa el pago y registra la transacción.<br><br>**Escenario 2: Pago rechazado**<br>**Given** el usuario envía un método de pago inválido<br>**When** se procesa la solicitud<br>**Then** el sistema devuelve un error con el motivo del fallo.                                                                                                   | EP05                 |
-| TS12   | Crear endpoints para suscripciones                  | **Como** developer, **quiero** implementar GET /suscripciones, POST /suscripciones, y PUT /suscripciones **para** gestionar los planes de los usuarios.      | **Escenario 1: Consultar planes disponibles**<br>**Given** un usuario accede a GET /suscripciones<br>**When** el sistema recibe la solicitud<br>**Then** devuelve una lista de planes y beneficios.<br><br>**Escenario 2: Cambio de plan**<br>**Given** un usuario con plan activo quiere cambiar<br>**When** envía una solicitud PUT con el nuevo plan<br>**Then** el sistema actualiza la suscripción.                                                                                                                  | EP08                 |
-| TS13   | Crear endpoint para recibir notificaciones          | **Como** developer, **quiero** crear el endpoint POST /notificaciones **para** recibir y registrar eventos que generen alertas al usuario.                   | **Escenario 1: Notificación por cita creada**<br>**Given** un cliente agenda una cita<br>**When** el evento se genera<br>**Then** el sistema envía una notificación mediante POST /notificaciones.<br><br>**Escenario 2: Notificación por vencimiento de pago**<br>**Given** una suscripción está por vencer<br>**When** se detecta la proximidad de vencimiento<br>**Then** se genera y envía una notificación automática.                                                                                               | EP10                 |
+| TS01   | Encriptación de contraseñas                         | **Como** developer, **quiero** asegurar las contraseñas mediante hashing y salting, **para** proteger los datos de los usuarios.                             | **Escenario 1: Almacenamiento seguro al registrarse**<br>**Given** un nuevo usuario se registra<br>**When** se guarda su contraseña<br>**Then** la contraseña debe almacenarse en formato hash con salt.<br><br>**Escenario 2: Comparación segura al hacer login**<br>**Given** un usuario registrado intenta iniciar sesión<br>**When** el sistema compara la contraseña ingresada con la almacenada<br>**Then** debe usar el hash y salt para verificar la coincidencia.                                                | EP06                 |
+| TS02   | Actualización en tiempo real de horarios y citas    | **Como** developer, **quiero** que los horarios y las citas se actualicen en tiempo real, **para** que los usuarios vean disponibilidad actualizada.         | **Escenario 1: Horario actualizado sin recargar**<br>**Given** un horario es actualizado por el administrador<br>**When** otro usuario está viendo los horarios<br>**Then** los cambios se reflejan automáticamente.<br><br>**Escenario 2: Cita nueva visible en tiempo real**<br>**Given** un cliente agenda una cita<br>**When** la cita es confirmada<br>**Then** el nuevo horario se muestra en tiempo real en el panel del salón.                                                                                    | EP05/EP06            |
+| TS03   | Validaciones de formularios en frontend y backend   | **Como** developer, **quiero** implementar validaciones robustas en formularios, **para** evitar datos erróneos o maliciosos.                                | **Escenario 1: Campo requerido vacío**<br>**Given** el usuario deja el campo "correo electrónico" vacío<br>**When** intenta enviar el formulario<br>**Then** el sistema muestra un mensaje de error.<br><br>**Escenario 2: Formato incorrecto en campo de teléfono**<br>**Given** el usuario escribe un teléfono no numérico<br>**When** intenta enviar el formulario<br>**Then** el sistema muestra un mensaje de validación.                                                                                            | Todas                |
+| TS04   | Diseño responsive y accesible                       | **Como** developer, **quiero** aplicar diseño responsive y accesibilidad, **para** que el sitio funcione bien en cualquier dispositivo.                      | **Escenario 1: Visualización en smartphone**<br>**Given** el usuario accede desde un smartphone<br>**When** navega por el sitio<br>**Then** los elementos se ajustan correctamente.<br><br>**Escenario 2: Accesibilidad con lector de pantalla**<br>**Given** un usuario con discapacidad visual accede al sitio<br>**When** usa un lector de pantalla<br>**Then** los elementos clave tienen etiquetas accesibles.                                                                                                       | Todas                |
+| TS05   | Crear endpoint para registro de usuario             | **Como** developer, **quiero** crear el endpoint POST /usuarios para registrar clientes y salones de belleza, **para** permitir su incorporación al sistema. | **Escenario 1: Registro exitoso de cliente**<br>**Given** un cliente envía una solicitud POST con datos válidos<br>**When** el endpoint procesa la petición<br>**Then** se registra y devuelve un token de autenticación.<br><br>**Escenario 2: Datos incompletos en el registro**<br>**Given** un usuario envía datos incompletos<br>**When** el backend valida la solicitud<br>**Then** devuelve un error 400 indicando campos faltantes.                                                                               | EP06                 |
+| TS06   | Crear endpoint de login con JWT                     | **Como** developer, **quiero** crear el endpoint POST /login con generación de JWT, **para** autenticar a los usuarios del sistema.                          | **Escenario 1: Login exitoso**<br>**Given** un usuario envía su correo y contraseña correctos<br>**When** se autentica correctamente<br>**Then** el sistema devuelve un JWT válido.<br><br>**Escenario 2: Login fallido**<br>**Given** un usuario intenta iniciar sesión con datos erróneos<br>**When** el sistema verifica las credenciales<br>**Then** devuelve un error 401.                                                                                                                                           | EP07                 |
+| TS07   | Crear endpoint para agendar citas                   | **Como** developer, **quiero** crear el endpoint POST /citas **para** que los usuarios puedan agendar una cita con un salón.                                 | **Escenario 1: Cita agendada correctamente**<br>**Given** un cliente envía una solicitud con fecha y hora disponibles<br>**When** la solicitud es válida<br>**Then** la cita se crea y se confirma.<br><br>**Escenario 2: Horario no disponible**<br>**Given** un cliente intenta agendar en un horario ocupado<br>**When** envía la solicitud<br>**Then** el sistema responde con un error indicando indisponibilidad.                                                                                                   | EP06                 |
+| TS08   | Crear endpoint para gestionar horarios              | **Como** developer, **quiero** crear los endpoints GET /horarios y PUT /horarios, **para** visualizar y actualizar los horarios del salón.                   | **Escenario 1: Visualización de horarios**<br>**Given** el administrador consulta el endpoint GET /horarios<br>**When** hay horarios configurados<br>**Then** el sistema devuelve la lista correctamente.<br><br>**Escenario 2: Actualización de horarios**<br>**Given** el administrador quiere cambiar su horario<br>**When** envía una solicitud PUT con los nuevos datos<br>**Then** el sistema actualiza la información.                                                                                             | EP09                 |
+| TS09   | Crear endpoint de pagos                             | **Como** developer, **quiero** crear el endpoint POST /pagos **para** procesar pagos usando la pasarela integrada.                                           | **Escenario 1: Pago procesado exitosamente**<br>**Given** el usuario quiere pagar una suscripción<br>**When** envía datos válidos a POST /pagos<br>**Then** el sistema procesa el pago y registra la transacción.<br><br>**Escenario 2: Pago rechazado**<br>**Given** el usuario envía un método de pago inválido<br>**When** se procesa la solicitud<br>**Then** el sistema devuelve un error con el motivo del fallo.                                                                                                   | EP05                 |
+| TS10   | Crear endpoints para suscripciones                  | **Como** developer, **quiero** implementar GET /suscripciones, POST /suscripciones, y PUT /suscripciones **para** gestionar los planes de los usuarios.      | **Escenario 1: Consultar planes disponibles**<br>**Given** un usuario accede a GET /suscripciones<br>**When** el sistema recibe la solicitud<br>**Then** devuelve una lista de planes y beneficios.<br><br>**Escenario 2: Cambio de plan**<br>**Given** un usuario con plan activo quiere cambiar<br>**When** envía una solicitud PUT con el nuevo plan<br>**Then** el sistema actualiza la suscripción.                                                                                                                  | EP08                 |
+| TS11   | Crear endpoint para recibir notificaciones          | **Como** developer, **quiero** crear el endpoint POST /notificaciones **para** recibir y registrar eventos que generen alertas al usuario.                   | **Escenario 1: Notificación por cita creada**<br>**Given** un cliente agenda una cita<br>**When** el evento se genera<br>**Then** el sistema envía una notificación mediante POST /notificaciones.<br><br>**Escenario 2: Notificación por vencimiento de pago**<br>**Given** una suscripción está por vencer<br>**When** se detecta la proximidad de vencimiento<br>**Then** se genera y envía una notificación automática.                                                                                               | EP10                 |
+| TS12   | Crear endpoints para gestión de proveedores        | **Como** developer, **quiero** crear los endpoints GET /providers, GET /providers/{id}, y POST /providers, **para** manejar el registro y consulta de proveedores.   | **Escenario 1: Registro de proveedor**<br>**Given** un proveedor envía una solicitud POST con datos válidos<br>**When** se valida la solicitud<br>**Then** se registra y devuelve una confirmación.<br><br>**Escenario 2: Visualización de todos los proveedores**<br>**Given** un usuario consulta el listado<br>**When** accede a GET /providers<br>**Then** recibe una lista completa.<br><br>**Escenario 3: Consulta por ID**<br>**Given** un proveedor registrado<br>**When** accede a GET /providers/{id}<br>**Then** recibe los datos correspondientes. | EP04                 |
+| TS13   | Crear endpoints para perfil de proveedores         | **Como** developer, **quiero** implementar los endpoints GET /providerProfile/{id} y POST /providerProfile, **para** gestionar los perfiles de proveedores.           | **Escenario 1: Registro de perfil**<br>**Given** un nuevo proveedor envía una solicitud POST con datos válidos<br>**When** se valida y registra<br>**Then** se crea su perfil.<br><br>**Escenario 2: Visualización de perfil por ID**<br>**Given** un ID válido de proveedor<br>**When** se accede a GET /providerProfile/{id}<br>**Then** se devuelven sus datos.                                                                                                                                                                            | EP04                 |
+| TS14   | Crear endpoints para trabajadores                  | **Como** developer, **quiero** implementar GET /workers, GET /workers/{id} y POST /workers, **para** gestionar los trabajadores del sistema.                         | **Escenario 1: Registro de trabajador**<br>**Given** un salón registra un nuevo trabajador<br>**When** envía datos válidos<br>**Then** se guarda correctamente.<br><br>**Escenario 2: Listar trabajadores**<br>**Given** un usuario accede al sistema<br>**When** realiza una solicitud GET<br>**Then** recibe todos los trabajadores.<br><br>**Escenario 3: Consultar por ID**<br>**Given** un ID válido<br>**When** accede a GET /workers/{id}<br>**Then** recibe la información del trabajador.                                                                  | EP04                 |
+| TS15   | Crear endpoints para clientes                      | **Como** developer, **quiero** crear los endpoints GET /clients, GET /clients/{id} y POST /clients, **para** gestionar a los clientes del sistema.                   | **Escenario 1: Registro de cliente**<br>**Given** un cliente nuevo<br>**When** envía una solicitud POST con datos válidos<br>**Then** se registra correctamente.<br><br>**Escenario 2: Listado de clientes**<br>**Given** un administrador accede a GET /clients<br>**When** realiza la solicitud<br>**Then** ve todos los clientes.<br><br>**Escenario 3: Consulta individual**<br>**Given** un ID de cliente<br>**When** accede a GET /clients/{id}<br>**Then** recibe los datos correspondientes.                                                     | EP06                 |
+| TS16   | Implementación de endpoints para gestión de reviews | **Como** developer, **quiero** implementar GET /reviews, GET /reviews/{id} y POST /reviews, **para** gestionar las reseñas de los clientes. | **Escenario 1: Listar todas las reviews**<br>**Given** un usuario accede a GET /reviews<br>**When** hay reseñas registradas<br>**Then** el sistema devuelve la lista completa.<br><br>**Escenario 2: Registrar nueva review**<br>**Given** un cliente envía una reseña válida<br>**When** se realiza POST /reviews<br>**Then** la reseña se almacena correctamente.<br><br>**Escenario 3: Consultar review por ID**<br>**Given** un ID de reseña válido<br>**When** se accede a GET /reviews/{id}<br>**Then** el sistema devuelve los datos de la reseña. | EP11                 |
+| TS17   | Crear endpoints para servicios ofrecidos           | **Como** developer, **quiero** implementar GET /services y POST /services, **para** registrar y consultar los servicios del salón.                                  | **Escenario 1: Registro de nuevo servicio**<br>**Given** un salón desea ofrecer un nuevo servicio<br>**When** envía una solicitud POST válida<br>**Then** el servicio se registra.<br><br>**Escenario 2: Visualizar servicios**<br>**Given** un cliente explora servicios<br>**When** accede a GET /services<br>**Then** se listan todos los servicios registrados.                                                                                                                                                                      | EP05                 |
+| TS18   | Crear endpoints para gestión de usuarios           | **Como** developer, **quiero** implementar GET /users, GET /users/{id}, **para** consultar la información general de usuarios registrados.                          | **Escenario 1: Ver todos los usuarios**<br>**Given** un administrador accede a GET /users<br>**When** hay usuarios registrados<br>**Then** se listan correctamente.<br><br>**Escenario 2: Ver usuario por ID**<br>**Given** un ID válido<br>**When** se accede a GET /users/{id}<br>**Then** se muestran los datos del usuario.                                                                                                                                                                                        | EP06                 |
 
 ## 3.3. Impact Mapping.
 
@@ -1916,13 +1983,13 @@ Web Applications Prototyping web view: *[Web Applications Prototyping](https://w
 ### 4.6.1. Software Architecture Context Diagram.
 
 <div align="center">
-   <img src="img/c4-context.png" alt="c4-context"/>
+   <img src="img/context-diagram.png" alt="c4-image"/>
 </div>
 
 ### 4.6.2. Software Architecture Container Diagrams.
 
 <div align="center">
-   <img src="img/c4-container.png" alt="c4-context"/>
+   <img src="img/container-diagram.png" alt="c4-image"/>
 </div>
 
 ### 4.6.3. Software Architecture Components Diagrams.
@@ -1930,31 +1997,37 @@ Web Applications Prototyping web view: *[Web Applications Prototyping](https://w
 -Single Page Application diagram:
 
 <div align="center">
-   <img src="img/c4-component-spa.png" alt="c4-context"/>
+   <img src="img/singlepage-diagram.png" alt="c4-image"/>
 </div>
 
--User diagram:
+-Profiles diagram:
 
 <div align="center">
-   <img src="img/c4-component-user.png" alt="c4-context"/>
+   <img src="img/profiles-diagram.png" alt="c4-image"/>
 </div>
 
--Schedule diagram:
+-Reservation diagram:
 
 <div align="center">
-   <img src="img/c4-component-schedule.png" alt="c4-context"/>
+   <img src="img/reservations.png" alt="c4-image"/>
 </div>
 
--Authentication diagram:
+-Reviews diagram:
 
 <div align="center">
-   <img src="img/c4-component-authentication.png" alt="c4-context"/>
+   <img src="img/reviews.png" alt="c4-image"/>
 </div>
 
--Payment diagram:
+-Services diagram:
 
 <div align="center">
-   <img src="img/c4-component-payment.png" alt="c4-context"/>
+   <img src="img/services.png" alt="c4-image"/>
+</div>
+
+-Workers diagram:
+
+<div align="center">
+   <img src="img/workers.png" alt="c4-image"/>
 </div>
 
 ### 4.7. Software Object-Oriented Design.
@@ -1963,9 +2036,54 @@ Web Applications Prototyping web view: *[Web Applications Prototyping](https://w
 
 ## Diagrama de Clases
 
-![Diagrama de Clases](diagram/classDiagram.svg)
+### Diagrama completo del Backend
+![Diagrama de Clases](diagram/uTime_Backend.svg)
+[Link a vista amplia del diagrama](https://img.plantuml.biz/plantuml/svg/tLtDajku4Rwxok-WsakyvLhDVSfnTlxiA3KUpOvcTcjFBbf3QxYMH8Max9tTsciU8Cazpv5ptYHFa4S8Vm0I01j0DmXGzix1bYYWlqQZkm5y18blyoBAYlrcFTdV9fjuSXejFyJR-wTFyW_9TXTbqMQoAoz5gtXHFAxZIHOlYsYxMiTFdpnzmdwPV7MTfU-JTPn_DVdrwPD9-TV-SfvkecJRNfT-UvFUnslf9-ddazKgYrTH8OWL_vRhACydP-iatXOvLA3w--PTaXKFR-zBASUix6brvRoyeAdnVhzUNqMRilmhzgc-hYczp-DiTdyykQl_Ltxjr_cjCXlSajA67vFxEDEtPSTAS6jNkDUzQvhAoQOqwbssxghCs1LDXNMwZ8eatNOLBjaLi5dg9LqpAqFbanSlsjwzITFYvKjTe-FIVKgTBwh_u1AxKkgdDAjimJwHpBv8bqcqrXizhtyl_IKwPcMhpoWJoFtwbdUHgN-h0ZEnfyGBcchBz6FNcQMNYryfUgPPyJvT9-dRkhBT3KNtGxWTMgLUPxKPuIpTRABjlJ4VP77fKqsai-Abizt4oz8lNhuqr-ADSQtNTZ2w8ZTvOt4gBdDTMxNVDDRyRXzdYJ6vlewBa_MQfTYg-2D2jwPIcyq8rHZGwUFidb2B8vq-rad2gQODK6V2xwFrFfw_-waS5FElj6PaOyEB5q9nVSRx9YdZQfrkLmuvnXUA3gST4R4exvCiBvhHT55a2GHNbokbOufz0rz_leeBhjgphyqowh9SAqpXoyXUrjunBFcX3RUlKgOp71-fqN3TO4_6F4ktHRGiq52xXtGRN-qtx-BCqjjixATRWSq3_Xpb3tYrX4eaJFF48cpSTnCID4epdxapkPTGRhOq-KHTq12J2uw5YRD52pWeqhg9CBxhWNarFG6BCpKAj3pbSmY_ZmxfHPapqgqjprmenbPhacrDRcmonBgRNRHz98rvowuE6b7uAdnivncBEFkOB86vchW8PlD0LhPKTxOjuknzj8nXPP_FTrNAZzOlsCJhvUIXhB-Edq6Jw6Np_zV6YP6q9g-dL7XjBfEyw6a2p43_MltxDQKvqDGIaW8sHbaKUBEkkjWWs5UUMnCjt5PMRAnCs9sitCemsndVMyACdjnXF9k7whXsjUVGSxpka0vi-GHDHqeOY7umobM4kiGHkDRrrolmKfhIDx84fwvHA1IrPm04JCSOfCeY7Rf5vX2yTOT2JH2wWTLqCJ-hgbXT58YmDY2akOGsBll8_klexDrkdJIhB9WEhzjOgg1bnELE0Waw_NnWjjcjjLEMfi9Dl4lpf4Ypn-DIa7o5EFdNQV1CHUe10PqZTv3YS1F2R4NfADbey41lD1kl8Xfkrxj6D9rUZsTzF03ErO2u2GdAXF3GUpXJwlKPnwIMgOBPfgPnym0cjQaJsAAKOTveLt3W6z-UMZN2sX4rFWFsqn3XucXj7PUaiNtSOMde6jDeM_Gw4p1aPoDmSJU-N_fOArgjHLWluYrlMJC2nhVFtMRRzrcK5zb-MUop69w-NPVjA8qMRvUnVa_3Jxl8kfb127ZhnBVwSt0k4mGeZcum9ZE7ZNKJvuNUIjKjXInThqkBMgtLbRMa4Jd5ebC9aBDuNV4QCRpAzk_IRHvVR8kaU7p1EpvFzrdP3oM0CATzfWi7cv0LZueglAwZuW4hwKzYvTmFFbQAaA9RKOsiBab3ikm95U4fGbdPMT3vb4kG_MK7N1tcCLqaApx3Vy3Q6n2qac-DEtWEh_v3KZnSLvl8uZ8Te1t9hf8lIVLOGVBCdiJMDrlVSVBERec2Tb9uLTCv6_mxKYZilz2lVloOIzRwCoj0xNb0xWgaCmTuEPCopDdHYZgvQqzwpsrv2Phtgiink_EQre-bevb-nebKF5V_uq37bGNt_LRw7UqDMgahYEnrSLf9YAFFqhIaUQn6TkUmSW6IlxRBNgkVWklouqaENJQBaFqnxrySveSCfUT_pNMiwVjILYBlxU1dJMKt_x9eG_8dLLRhH-m7XF_eTlzncVP52YyfR32S_AhVT21C_brgwlUn6ggg4njJBPr1Jl8ythmhmmfja5TP6OfDTxMLTJ7vNAvwF2bIGSocaK9A1y2TWqeIbuhGg2-WKWkGvQ2NqeqkcYaYVEYc-abdUhjIQbqFNQYRuBYefShmvc6Q6VkG7bL4UUbPUEGbMH8MuS-GuFJGoOwW91zcL0OSYlcKgjxCnkIws8bLTJSCo1N-9ZqzrjlTDjhJOwPR5jMVzAnBzrbJE6-adST5b5GcMqZVpPNORi7kYwRu_JvZ6xNFsIUjvlLyyqswZNLSLLv4nRxIi_uVqvCQMqkFGUYjxVif1HX5jhgAfDqMhVIT6oXfdwZKyqGytlbeiCvlPjk2qh3QD_1jOYvrcgRhEB8_AUZXMIzcUj9azsvtJwevz14gdcVKfumCAbRxZffQqED9g8hvwMCNSbO9mxOWoxPqs4V6vQiRoUG-qj-eDaW2Uvko9KtiFUgUD5KPo24Gkz80CJttq8hHQg9t5FiUDy17BdwEQuLrJi91hjBYLRhVtb_yl6mgbDPiFskigQtxh1kNF-SzUM206E_hipBYRVrSlKJaZhn5cqKQ8UAKZWA-4ZUPGD4wjfs7Xxx5m9JmDsj4Im50ztmskoTw_QZcQ0V5m-zYQ8F4Jab36QJrLHmb3SH6Ay4dASsxGYMbc-je7hWdPYyc5YeZpPhfo4dtT5b9CKWZfHLX7IdDT0pCIYlu57BvaDDj3B-iD8r4lyXL_T4lKiETM1X9WW-M2keIccQGXA0qqKtyCOa_7O0bOi1MakXjWdaZIhDth2xRt3ZGbingt6E6_tlXPtYZGs8q5aCZS4CRdtEl-9FjwdYIGFm94nELghuRJ7sqInkxKpgifAg_vvhQpnfBz5PI9FNHp4sZXCD8WguubBTXaKzZNvfATDQ6WP586rW03x70d8_K3GwK3zDNMOFAdOiXV5Gva9CGw1wnqubiZwe9u4LshWSGehgKcUdH2Y0iykoIP2Vxx9-9X9pLI0iq5KHM85Ekk98lm_pUB0ll-qeF0L-9n0iGD-CQU6W8cYrB24EZDkHGn4cpXsFrzxboDwelV17K3OyoAtC3vHxkxIZU1WWjNjyZQyCxGI5jcijOVgCdP2za929ZmvhjHjZq55c90KoYQnHHBLl3z0jCriZe5AxcS1Di35CZjuj2rCWrlV4qKgjTQ1f9W3-MPe1UW02V74trr_PvjEnFqwIPGPKfuv-BLz4okcTJ0nJjK_7JaRmU7f7xwT3rR_n2KpgCQg-ByZcIhYoDLjf5Znkkn7NpMLksI3RnstoTDgMhztuloY_Quf_Ix0DJuuVw8rGIcHYGLDGO955h_w1lPkLT4HAawy6GABplIHZqzzzLVovSKXkdJkCTfVPmLgdBALI6fwtfmYzri0IEo21ZjDr5_VvnefiwtNjhxrx_uuWdGABMeqWKbE8XP1uAK4pdV1X62XO7kgEDKRAAGYzcAHAfl1T69a-8Nmm3fWaY2qlJrfAf6k2oEo7c9p8HKedHgNGYy9LCai6HVQW-y9Sk4CQdfWoxXYvfWohLXQVpapwgly-NiGESxmkXxOJWHt1tcgmfnH-InODZNvBabSyJkgX7whM_uGarIDnUJQXaZgzhkYlH1-crwkKQ8kNN5ohmVftEmSc_dXuq1l3moo8S5zXh9eqGx5Nto0ggHd2Z1bKfFld1OHhgf8JOpIK_-FSGPV5zdzGRQyFmDleGdqLvVFtmc9UJyEhyc6IxMXHPQOvLDPYTLUKCXm5fHh41f6JZfWQbwmVwjAFLflfL-zIVNuwkqGH91YttMLRsLRMtth39Ajga-ss1PAOGt74pnJe0RSo0jVsqhH_wQqePdlRCTt7r-6to2tjshwcmaAvggkuUqY9zMnyZrDIwhYuWpry36uvqYwvHQA9mIpagGqMIhO5_Kb4nhICwjohb-2FUBsDneusc3kC_kk9GHfI52usBR2hHUL06DY9zATdHWRba6YlKYDmx6BvIbGFrCe6b57kDI52gcW1kOASb0I6gJvXfFgq0fmSYXVyEGUz1JcPabPeA8g7qIRdYokSDyrUpBBpFAZq4V2LoTu2_ZslWeQ5ZjYmXV8pQa488w9NFXk9I---BOBTuP5Y9BIXVS0z5qLb0EF3w7aaitWaAVzLSnb8wFI5x8OiG2IlMR3UkggV8IWmw4aEbY6h9AQPVO5vAHgTGKeURZMA8ABbT50vAhkcDVf9QxS8yIGByaKu3z084XA2Q_Z3ve-MlAlE_V_tptvERYykJizb__d5rF3bv_VhculN9xSLYyj-__Nto_SdbtSLaVlgNYxFR1KucVpNRj24PfZMVCEreWobxYtcP0bzEuCBYKdlAJpRsBxavcDg_NFRMzoGh7ixB-bLdM27QrsTZGTGtuQ4QuepIdLuV3eEVseooLzLtQ8JwFUU-XOh7BADKPk-Imyhl3ZScEL1xVY71_E8Pl26XfCDwSQrI3lyZ-oqgAXn1n9Quvjkp-Pit9rVdYydHvBkxYviPoxjT6XwIT3b5DeNEYDCtif_va03gctTH46s-888WdC_airWq-CGj7ARYLqX8vN0g51IheuyfHaLEWTEUV3Y28Bvt1fHd-Vq3cFoucG31oqgdAGL48LbAW71FE-VpDoUpgydYukRxsHdBEVrKv9PxE9Cq1S_brhVHbAqCA4hI8UCezH58oik7dH7rgQY3D1uRZ4S4nHXmuNDnqNXoTIWhAKuYi-Xw77qQ2m6XfZA4RxWrHAuT1gQNRaB3TBbpIAOwkRw-d9sTtCxcGhgQlRc-h7FMpSNrV36xdTSJfwCsXH4Jbt2ROihlI4nbtuUpMSr_IsQHkTcfGCDEVzf5K_M8kp1A4D8gLG4usvBjmCMuMmAh22drkoe1ZmW7j0fM8TemHTR6UdZloDQXwUCoeb9Lqf_3Ewvfa7eu3lgW2j9jHsYG3fvT7JIWpqP28_SdAJHmSAmVmGETj72PGuL7DqsjnaJtC-Cwcr_TtimlBozkcdLXE-iwWjYg8tUkghiVFArk_Kw5ExpjHAUzZmkPmZWj2WYatD_rXqDQ27j2GoKn_rY6jPKdC8XTGgAq4Odr2tWs6XhDnG-nO4Ikn1yaCgi70JGbyi20OkuEWAaZ44bGtQg2vgVmQcHay06nWeIcadtUeSttEx38saDjpUOs7rqx8hHBHvE0tIXMt_Z66qr8tFw1i4P3Wul4e50EVOa3GgrWlUF1T-oSgT75ukBDQJjF5oRdmYwUexB6OdvtSpPuUjxkR6hNsOP3J1rl-ld3L2Mrk_eKIJXmx4cftYVrGtKmc04uPjUOE3fLkiM-Vf-Wy-rIZx3wngkY23sWp847-a5lHaso12_ghIEWxH5OWoYpF4-6GSrV1ClWJt4TkeV3QXV2QQq-UMUzNeYpMMbZ5zeMnYDO1p3CzO3M3NSLToNlMPtKOvhunW9jgyH2jKxwMi1spsgdML0OpWk6nk615nweUqrZK1pn1Oz1WRgtGtB7RAdJqYzBRpmvdzSVkwdQZosFglNJTahSVqE1U6DUhwCIH7qneN5rBrZ0u_Rt8UXXPVwe9oGug518e9760rLV13KoTfS-3e4klLIgYyDwlqWLUDL-aJBechYSpQ6mGzqkrSP4Uzj6accvUIQK5U-V1LThK9eOJo5a_a3SQTEvsxYzDaId0QbkD5qG6V0GkbWIuu5KCkVB0ocbIQFTdU4wcRQpctuIDH5cKY1Bf9dRD6HKQ8MHR5SW7HLdDqQtE99IY7bHHfwv1bT2pwu04j7QqDuwHb0AEQpfDQEzROoWcNvy8onmwoC638xHdE7OQ0MKDIm1VKeMrye-vV8p8hjCnHPObRqww-bjrPlzY2U0Q7NewsiJ3nqmGXBFMyZNZTW6gdC5uK2euSsJ1XBvaAW0me5tQuH1aL-ewzHD8WDGUMNfbFDgsLz-NTnTtfx0yIkCFC0PWrf5J4xi7GFmP1i6jCGZkQf_0CLTGm704xr0ICeiLt55UJ5SFppnO-sGp3SbVqGkyZHd2ufQMnTJwjbt_bLmY9NGu60GMU3LwJzyx60uszFnoT4T65SRzAFWcdB1M0feKWIum9lL0rOrtRnLquDvhQKS3mWeQ0oXO33A6iuNYdt2uGS1bxayOnb7UpzOcCJW7QcN2lGhUbW3SHrjEz1FpidwrRCenpyoOkvgXqGV6OXhCycL1sf122QC3kX32d6M80NQG2r8SnALYLYcMuY9Q7EjTlC0Ar1h0fVMaX7UXRCYvt4H9TM6Xb00pGkil4i_tsVrN264uaLKxCNjYIsdSiIfXye35Ee15gnkusWAYVG7MdqhHEEzmo1q8F88nSjqxC3WLWW0h81Cf0G0q90fRjQo9NXqjnWznW3OstSaLTHdHCSMXDI4OWzK5n0ZmnXHg8P35GTrmTYQKEo1wW9MX5zmZcd35ZyPGJSNfEiQ11sJNFZmexwog1fzUaCIE0Yrt-K-4xcrOLd86ux5mJKuVQgGF7m50L67i90W4AcYeJuhn-cepwFsLf7iExYt9a0TtR8nGi0O-RSsQZe2BeWQJhuTNW5hFaMGOf3_XEy75nqS8Z8ujY5Gny8snw_0IrRHAsyyqOvBqbDQtBqaTeYMmOD2AQIaHwHXC-h1UCH9coiUBfG2e1c29nmQ52xUOIqJifOXPICgUygm7L2FXASGpO7wUvw-8c17M20Yj1XbZJIPJ1hdQHvZdLzntwZUNC-ERj2QbPygL-63PO6dCRhJvK98XuwY2u7J7Lvdm51SG3ulGelMrmm30Hr9GO8mWCYPN3hPnqyh103rn9z001gIRPYrsX04prVJoZUvIH0Sm5SmEFsr8D5Rme0e7XCI19uJYtYenPdsP3HH4ylII3qBAfGQZfuQMW7GXH4go0ibtG5gOVk1heDJV0N6DeRTADZsQ3JDktldaW70HayD2WKSMEOB2JTy-a719mpFUDOXpWyUDXQzencZBn0QFTwwjOpz63Cvv-eMaRASCEY3uaHTH2AE9GiGFUeYqeiMY37NThCMkJvnRxXwQv8Ag6dZqoVVnjlx_MRzVm00)
 
-![Diagrama de Clases-frontend](diagram/class-diagram-frontend.svg)
+-Diagrama de clases - Profile Context
+
+![Diagrama de profile-context](diagram/back-context-diagram/svg/profile-context.svg)
+[Link a vista amplia del diagrama](https://img.plantuml.biz/plantuml/svg/nLl1Sjiu4hsdAl_0ocMTIbc-kxAUaHLDLbEofP7ix375oB3C34LgI2fRhgcvpWVCp7s-Oy_x9_C5ymaBYW09W0sm0OAA3x53elirNpSQ3R3vRLw4MN7OnS7XBjgHu3hS_4YIXvSlyX-ZP1zcuIxOqqlXbgoBvvW46TaKORADoSiNBr-mEy6hPPO-HZ79NmK_ltmHq9_wphjq5qP9VLswTvC-a5Yw9TqURxSPsOQ5e5RysSHXdWUJE299aKC3of_pJr5MF7rye5eksTZhyiexUa4ZyNY8uzjmHyT_n_xI33pa99izN0Rtnz_jGR-K5C5MKxw-H0yaqzkzPoCuioNGidLD8npjA87tMTo8pDWLZK2SRi8YIfD6OCwkM3rMoKGUl7rRUswLfiNLbUuX2GqDQkEq_0MFs5Ej_qcpyjdPNrRshDDD5CPwalFZVHeBuIKRM_uDGi00dAsFt2KcVvO3Pg9dn0iQiKtwfN4UZM3nlpPsfbdncCPH-l4et1rsOhWXmWnjKijPzMoVfBjTc3mOvtf6Q4nLivWDfy6s8XiQ5rTNPYd-CAvojOFHWfpoYd5RN1QwNMA_QDZyuK2oo9WutvDY7CSiVPR3dn6sLK9rzh8GOq3NpxC72ocETFryJ19Eabs0EWe_XF61B3vzfWjU_afBOvNygN9Xk3xZdKTqNiLfidN8CRvGT3XyjKEZF4PPNbGhvRh88WZkE8vgnmmxXw-_sPA2ctRssgpZE9PRXHay3xl7TZk69JyqSOSoPJh3yPKP3TSixjQOapGfmas1Xje_fGcvFUm-aQp3sspjjsU1rG7_2lCdl5c2a17JN4WCEy-R0WIDKjKlzwPm4iRDDgOOE0uqpC4rnyBCgtKDs6jcDOKktjL0tMoVSCNAp0PQBl4SfjiNXtIYr8ZsRCkLYWtPggGrrzOF6_LXTxSFasUhDMxJoA0HXVyAVzPrnPfaNw8DK9k96rfMzx6nrDnPKf3iCTmGsDWtYtsPuiFuBIkqhe8dAX-JCwXetbI_NniB8Mb_VIoXyDRCexneMG9Kd3-L_xwsUHoeb8IqW0-ZR0AyiQjkBYpubMjfIuPhOOLZfK1tOhdMOUOPxosXWhTs6C_cGpcktjqvU8xBzd5WVNwWSQI4WV23KQ-Yr6KUWNjRVrw1jyuslf4rEBb6EJ9HFGCWO1nZq2ghT72BV6RWpHtAKOI56vYa2_rCL65TL8XW6r1INKAJo_valvgZwVq-ZgfT5NoqVNn6QeBsT5js4dWWfwy7Phjzh2rPAe4LsQTvLAJPyoLL95-nBFvr5fofI2qWm3coWvI02oog5SLHCcdmGc-aZOk8nErRroofqzjnriO3u5m9n1KaA0hXfVVhKQctvpIKTfGAPavDw-PNeBJBd84PjLdcZRo22z_f-TIQCIoFgFKPu4zpy2skrfthahIsdtPPwhl7D7ABtcS2H3OSWPkxqyUbZxrY9riM-qKyynrxHe3yxjfjbZncOLvaXqrno0XSlYtfSr3IIB8X-lw4p_kmip51cF2jmjSXaApLsPF3TEOmCIkI5tf6ojS5MHh7bBrEPfgn7Ib3JgVej07a9ouhNhESIlJvzscIasbIHCNpM-xaF3rar0yKGAXVptIXtwLaosT0EPMMOV64rVIDA9pxmSTg4T9nhQhIrIHaI5TtyaH4YZ1M3XPqxkGQv7ZP0rVxHKmpavMOuJUmV0EAjl9hRuV8uUB_ZegdPTdyHMWwG0TIjqc-D1tN1Ql8R6ciOxEE7QVeRBOZw225Tp1DiC7taKhX-8Nk-ebZhbaRpso0hUS1lLlmwB97b3Cj_O8TRQXJkBQqjyAMZx2BNdNhrHsyfhqY3JJJRPnA9NBrDti6hgou7RVIVNGqQBLkeODTbw2Lb3Z6h9sLTX6hqTq4h3p0AbxhBMvdd89xyCiWXowRLSZncBSlzej3XjAAl-ewblgsbgrunkqGPvMmMtnrM6CLJwgkEexO3KJyw3hxkCxkJGeVAJGF1Z_h6mo4ujz5Kj-ZQX1L2nkJb8wGSPwJtISwhT24V9VHgLYvgnRMpSatikXbKAI2cbsbnIeT06y9IarSAyAYjeBIB42NWrsA6rqiKrJui4sDauRwRgDKMGykr1KuBcQfEhn5cAPYx-DHHPKNpy8hhnMJi0f_H8BbeHEFe2OVD2eBZWrzYgWtsfXU5vwOg3inu5dXyKJn7y4_EtxACN__-ST_WzLqFfxC_lVxxMKmVlz-DNq_lfkkWxz-_ItuC9xVJuF5zVVJoTqQfvDFdL7rJTde-FdOgFbARCI_1Ji_lmhWmM9F_wZvlCktPlv5c6-zhG_O413ryGOMfDryEoHAy-NGS1ZDjsm8bEeRDYG2-tJDhrAnnHrbCl_C3QbV_DBDWlRc6pSy_V8NRiD1AT_5OQ3KB-9iunOrAnn1n2TnpRUJnStD-FRTEhW8VhYVhcOixpPfk4_IvH_hZQ1-7Vr3jZCV4a3T6Q4WwdnX2O88FbFCOj7WxWSSfX9NI4YbKG05nMJqSufzQJW2thpx20H1VUjzl6VzxPVXVi9CW53UO0oEOiMK0E6UTjujRiQpss0zNNsOJLZEQQSYjzp3cr96u3SI-cSqPIi3Yf9qh74KUGGI_ER77b6VYXf8Omit7X5KOy25UvJHUB8ub9MK896RZ_Ku-ZGs18IQoX2nuVOWilGmCArqCpHCaplxPAhnSZcVJSPtiuMGhcOto_anPwscoyLwThSu5auNTGgpJ5n2d_Y8juIFvDY7izcnIKoYHMvR6WaTIgFF-t2ajXiDOuH5MhKr0CwsrZmqHvMkJ60DiKhzhaR0Ay9NP0LhaDqoPMrDPoFrYTcniyTbHRKrITyJVLfga7OuBlgW2L87CxH83vvT7IomhqQ6HcuNANRWu5f_WWXqiiAbXXeUtLHQdHBTJyKrMTpUhHRp-NHLxGlhgki2EgswS3-hQhgOHsN3yaZeIwuBdRgJ1AB2M1OD2AJqb_Z3iTe8Uq939J7_M8QzbISmw7G9YLBFI6nSmDNeq6WkSOW5ipmhyGU9pEg309eI-S20OkuU05DtW6W5rUmgxE8KtesS6Bp7N452snxsUOSsl-_08ckRZirqcrkBJmZjucWhOBSZLj_unXTDIDnsmwwHQ72JE2YKWoznGAWTh7Sy-8sTyz7eUZszkQxhTA4u5xfuBgZ4Ud6_clGkp-kUfdgVRMWoTNpfvmzJrLHt4okQSE3OJbRlHNrV6mmq06tGniJHcD9izlLDUCwlIpt2wXzULMNX0QK6xXa7hOhQYWa-r9iZeFO8B25AbUU965Jz8Z23xxBjsyFHoOj5DwtFSsUzNOZUMRkr2ys5iKMsnmdpjoHvEEpY_mC0)
+
+-Diagrama de clases - Reservation Context
+
+![Diagrama de reservation-context](diagram/back-context-diagram/svg/reservation-context-diagram.svg)
+[Link a vista amplia del diagrama](https://img.plantuml.biz/plantuml/svg/pLZRRfmm47sFb7-m-j9MKVY0A4bBDZIYskrk8KdLfug2kwNbLjlRQbNbtsjW0HiyOB9XKvGBOFlCmJDpOEOjPHvXcpWwFiey_wUtnkY5WoaclpqMfWbzWVuU7o5-rAFNQUo5INrV6bka0Owa8MdONAy9NdiCqywS_F0ZZr8aMbVDoezJFmfnmhw4mHcQ5QTs0CpCmK8V5rFTyXoScv7qTnXWKanUxIxWsTushaYiodDmBWjZ_8L6QJdxbb-v_0AS_YSbFtSqFXMdgfaFygq7ODFllMY3brz_O9_rRNkrZUZyN5XnUGcw82SNfSbwa5XZezx_AOtKhfZIIEF1AQrKlXzbmsKarB02XSiiZMCl2Nf3XM2UmqAUxjPmcWxsKnBa3C67kik2qQiXiXytc8IzQdA3cHb5egRaQxPwLFbYOUNLrWuUlPXURQiCsmUZ4QL15E5IEAstRfUBtRthgF3EFxi5tAITC4o-UJvMH-B9CikNUT6voFqIVUSW4Nu5HezV_dyz6X6CA3NYmy3pbX6Y_xZpa38rCIZuVkL_npyd58uWN2-plk1y2iHsg3u5PYM8C68twXzQtozcbaMXNo2gFs8AVtCdWDynSa8eFr86aiYEimWKSM6LWxEKXYmbspD4LBS1Y5Fr_QVFJ0tKaTdPSgBYidA3cAPwJf0o-xbyy7HoeR7vOoLZcE5ZP6CiggvqZCKTbe_y67oFjXN5JhuHZpAoyTc6OBMeh32Xd2XEV0pNHpyoJwymQeAl_Nvw1FdTQgecpgqocF4iJHX9euW_dHxpPe5ExicgAUMVF3GC9UM-X2IDZ4ncRY3Z2DXAMCYsvvABQBeXt2bdo6_hwYiebhNWDcr1rOLxmnUlvPpu5BBlAuzuCUPHGFVZjUveZIvUEuLhq1Ar9OegLCrweGBM3DPgkjx7-lzJ5fcKulWhpx5nZ_cEf77faHe0Ij8JnV8pnD8kb8QtXhSmXwkWXxb1A3b11U0eXf2RnZ64K1xFK2dq_ESbkhYuGERDZMFTcBSMcYq_e7jpVcUXvTLxQtRhvkF7Hs9-6MM7poYQUKRJipEapjpfwIM2LubD9wFfq4rgHkZkJMf7R0nEQwXfAavgHsn7JcgewMLMWUbQphqzizmyBdaqcjVBufJ_BXRcXsiNVKOVxop7jdhYj2e1Z6u-LKLyFyUgvML0mZ6rNKWEzEtAFOj-ixkccG6K6vCRLHKaXpJQBbiERBjLt1pOkbG2DNbeBrRp8l4SQxNaILVcfRrKfPtGG36gNedHwed0EL6KtHtoSWbb2DMImOiY4KsikoUdjPTC78wGfdue2KbT533S3kkrVJZj8NK7uwAXWC_1PK0OdubIlru-4ob0Hhc2tZhB-Tno2Z6jlsww8jgqNN9-p10QAR8crEqIYEcmb1pKTAkRKbSWhcijhlZ6w6n6NK394W9NgVrU1BvS9oVHHgox3of4RJRZQkGHf3HVQp2pSRNn26Rm--tuw2rEWaqS_GC0)
+
+-Diagrama de clases - Reviews Context
+
+![Diagrama de reviews-context](diagram/back-context-diagram/svg/reviews-context-diagram.svg)
+[Link a vista amplia del diagrama](https://img.plantuml.biz/plantuml/svg/nLXjRwCu4FvUgV_1sY_NqwhyWAZjBStIYbDIif3sj9zEBdYpxF5snkbjTCf_F_EEmSOcWHwjsWGyCy-Cdnd6yoab49Dz65nUP3y9TF-2EmG-sEZDH_-a7y2_bnU0NlM3pt48_QY-ppnRnnuAc4VCOtstmsW72KfxQxBB3M2QWj8mRq5sNISuVlCzXF_qlGNOb5zCJx3Q3NmKaNpjClyeN8bpkulIVd_HaRrrpAB5zV851djalVv0BXdoiu4ERcvQCdTtGjSpBu8usad1DLOgf-UqKKHCsK8LQ8TWdsUdM0G9VRW0VaI4QY25-Xh70OBH6Tjb_7HHGlmuafFoAIOFyJxoQX7gS_rPxF57WVHL4GdJ-_KC-Ciu367a3O5Vqb0HL80ebrFWDd9Zx6MeXHlxd7XZ18y2Y5_s2Fk3EV-8Y1u4PUPdomzg0AbS8NH_CBrJvDBxGvE79ogeKamgtlhQ-bY7oK7upNSvSMfJiDo6SYsrPaO4uM_GHNp-VRHogi7WfiHx1xvJ-G1TyLZX5lyvV1JhuP64h-SeTglOT7MlLdvAUaWuBFex-plA7GwbX4f4A8JSEbqJIpAUdZwxZfqtjvuaWU_2p77-wpkFEWsAy0tEie_xZXQJrGoJGFXIA0HibCIfJs9yM03SkICGl1RKt8buFwnBdVkT7U9yhMBSpWHfX9cyUTy0dvk2mv4TaOQ3Q4QdefesUJfcbxJ-TpFKZBvXc1AyTyaU8twIRX1EAJmKkKZSQVz8eBIRQNQ-Mt1Fm5rAftpCDag96EmoZWYEWu0w9WNTh9KmdQqz5TlPkuCAcDIgv9cR8nE61Y6XNIOo8kAJmqsr2McynpJi2-2s2jELY9ao9VjMHL9LyXkLszNa_iCdtpSGmn3HFKrF1h9h9x2gbbRUrQeANKrLuUbIR4GhdNAQLIlLki7_ky7MqnI5hpGdbFrwm75OnBoMbPnUAia5875VYyAc38OhqrHfbIFYACXWSNIDmiNPZN6uE0fEnoKvBK2ttwOndK5MAT5FyW1Tw9Mj0RUGqzzVmEtjBT0V7stZKTyQO6azWHTzzMm0w_vtOxbrikUN5wLYhPW0QVcmHsjcEberkRc-lWFSjUt9YDOUtKohkHdqJAktcWnL0LjQwxN-zDd9uzL4JnohwgokyGg644CVhqmzhwoCKbzv-ENPi4r3tS7ofAznsi3ptMifxxQ6CoZdj8ppM65RoPEsoJ7i5tDPxXDb9IMbvO2lsLVdURNL-VbRdJ4qxcH126I8n9FRu31PPeCT9GXDYAawlO4ENUSoqAViZ9OOslQe2CprPfNJqJOsbcDkBVjhJiYIcmmVMtC9hHf1Q9rH0vT0-LkjZPezFscjev96JqHQzzmp1uGJScLkuzmaafXdfX0yjimS-_7sHsVtp7Q5IVykTeTgmNi149G8MXMsjhLQ6NPU88gAOUOlhApTt7RBGpDSqB8vWjOQ5zHPKGy5E007KsWsCvr9mLHMv0t7D1RKAjV4jWRVzjFOKYaCarlgbOBwoEKunlgUPeA4ylNHiowZucCyMvDPFVK0fADdUiiAlQlSfFAWGCtdKLG-4yM8P5B1e3oQK8l4g4Gx4yMedYJx-OGYRny6_m40)
+
+-Diagrama de clases - Services Context
+
+![Diagrama de services-context](diagram/back-context-diagram/svg/services-context-diagram.svg)
+[Link a vista amplia del diagrama](https://img.plantuml.biz/plantuml/svg/tLZRRkCs47qFa7yWzgKf5b7UZIHTNxI12ZlooacAFd8bhbUfBAeKjLYZoB-NadKXPPAY5Ci5weV4kd3EuSoPuNW-fHGIcksYoui4-d_1BG8VDeZy27sKVW3_N5u0zgcVBF0EXd5zNtYsmW6AX4V2u-bsIz0MKiui__4ZcAQWGfQzaN-k4u9_X04YJZ01pNV5o-d1sW9H64RffB9UNkiNFS8TgbVa5uhNWun06k9u0XRbDoLpPcW2LZX6UnKqXJJBUHR_Zrzw4s-nIuMlNs2K8VVhA_Afpjlhse7WzfPRSt-lz7_8_1xXUDj9ha4HlTv6KW6rOpSCD0-SyTw4oFV4gu9l3DRenebfduqLsZ3VKocf6SOHWX9j6cjgZdSx60SwFSq9OlbTkhvydp7ra8z9a9DKxkev2NgjV5EG_98X4cehp0EYqoYgwap-_jwC8bjOhfhjdM3GmdIsRrAkqm9toNrL5saHLVHbUSNWcDeG-GPz91VDHpV9LGcZsyh-FVZE34JeIXfT__3_rrwMfD6MMthJxEqGFVEjBSEK7fEH2UBl_6-_FSdaeJIZPA8MYioMg129HkoVg22i4aa5yeZfPvp5WVtJFonWtgo_AxofN7lLdCjQljo_fab8aYZqYy8eRpAA6BC0AFiCKV3IHaAJ8CukYPIrj7p7GmbEGuh9VWBIzYt5qclv_TDbMuUr7XdN2fJaid8rdtxTZXQozTn-Vd_gTpYuJ_hh6VKh0PBmT6UP4tyZCAKaysb6a3pHreYaZ2AAVQJkwLyJsDtCDq5hr-W1nClLgPoqXrAgPZl7CIKuYjZEkbatBtVfLAmWjLR5steJGcxK5eIxFGNFF96mke_ic8PqVrk78iKPOSwV09-lBrSgbNQQoVZ2OchcDxPmsoZzZv1-NqF2scuMtNGubwsGWwPs-4IiZHsiSSL1Pism9wsC6eYkUjMiiVpls-rfcgBTLvOZvblxJF3kuFbwiIh1FhQMJW35nsOC8gDtMMwgCjlDIMOX9oOnrekPB2JzcCai36ScBSP5b_aBkBkx0zE71yz-c3xPh8s8mSjq-Mm3T_QxFN_QvCylBwhCiGup8wiO3rdD5CYgEuVhwtiWVvkVOrXhRjnpSkFjqT1O08T9qicjDxEdqnClXr5DwEVkQZLzN6nklZpRdcDl2WKqUj14lveXMDBIfIOaeTy98QrnFI5K8EMOmP8ra2VP1GTmr5QE121fE8TxgsdKhBmdi-epi6_ajOhH0DRbKhfGNbW55lrsC2QJFlum2a7FpD1cbD76pSysmn2ScqaVVnY5eDtl3SrfzKuDsYv3PxSiZO9kKbogusVXhgRE8zZOteipBq-VeoD9UWZLrz9VRYUeGYV3wH2u0aSSYAfXDCVNA23j8snCaEDZZDTEAHhWhDRBGZYUlNOtpfFh_NbJQQYb7MuaQLNJHqkCg2BGnP2hbMJyuCNYPYpMQmARh6ccNAFG6AJjyGbqrbCf1M4AATNF-74Omc50HewEhKdKSs7hytVkFZvvxd9fUqNsrcU0cBBjSuaR_3KAhSTxCdPwGOyArPhwdH3fVHtrk_5wDcr3ySnIQGGqJVACXoPBbvF3TZHaqyt6NisgdFJiZVliiQIi3zIRUZRGbQZ_v_RL0FOCFn0DM9pXDz8d50VPBleN)
+
+-Diagrama de clases - Shared Context
+
+![Diagrama de shared-context](diagram/back-context-diagram/svg/shared-context-diagram.svg)
+[Link a vista amplia del diagrama](https://img.plantuml.biz/plantuml/svg/XPFBReCm44NtIFo3bKrNzGT4W5AbMKHg7YfIzuCp9KxyY6opG1N_NXjG4XfelB8zH_ZEtCl2EZ2kaYAEx9ch2nYGv0Bi32NchXP83387gXGOHt7KLyWiFuB1mupyn17nwtg_Ljy6h3CLSvN1Qtt0xD5ORXqgDWG6qEa23yMmc01hIQxWZ4kmk3_MbZCGMv1SbRapuB2iIP8i0vTbmmyqjsE_RVxeVzSIk1hNlT475DEALyfnL_yZUgCLrcFbi5vbgCuxw15f9XiPQFW2KU6kE7dFx5CbINA7PzcKCbOPuxtosholViZZ54XTAJSdGeyHq_9lFZGXO2yaJLFokVfuMwvtsrKUZd7KfOrsvj3M1zgDctQjK9gHCUX-7hGVRSyDaqhlGabzzkYpX8KNjIdfaHTebB-ZXTQEolPPrRAXdmMgG_jt_G80)
+
+-Diagrama de clases - Workers Context
+
+![Diagrama de workers-context](diagram/back-context-diagram/svg/workers-context-diagram.svg)
+[Link a vista amplia del diagrama](https://img.plantuml.biz/plantuml/svg/nLXjJzim4FwEn7-8-38crFo0gdIKZasL67Ij61ydaveISEBCTfYwgVzzJlDcf-V42Gqh4b3NTy_Zk-USkrvmWPY80t9ybFv4o7j1Q-oSt5FsWXa_SVuU7pdoLNpmcGR83ujrxRDlT8M9zf7syMIzPdYD1EPxUvANHn3dJWOCRKXUWn05U9Zjkf7_6xRn27i-8luV97mQvWPBRTLW6ZrHGN_6ZEHMysJXZf7z_LjzQMiu-0z4Odpxy8mzqNpqv53EQAJOZCSDqLWAveVhHdfL93qQrfZLq7P4pwDgZQlanHBIb8yf3G8KhkfoCMLO2ZLbccsNH1VOesoLS3GUxYvQjJ4qKVmUO-RN5ifNB2Q4PEMIRD_O4PHsgT7bPhRgOiSlDtD6N_qLPXOEbBTRuCfOOlRgUy11LQbaSSpsIhHPA31xH1w6vN9s6oNIH6IKCHuxJzAUu5CehLxwzsCRFr2MOJzRyx7IhDcVwjhdOey988DVoUzMnm4qONHYOc4K1-HfNnNRodDc4aN4ztPN3FomsKLB7iRulD5L0pvHp2AR1H4ntaIfmG97bFk2iitG-LrPCHWEuFL3wRNUbxrcAna2tkOnLXNS665Dx-yRuBUMJdraMvHFBPjM9GHafRcgPk4ZGroms1Cnmt1XpIK5IH277ZRtSiyHQknaocnLBxSEl3Dh3dDUO2xCPASq58mIeZQq9jBbtWPrwlT5hb1zjTQ1LWwvlRROKkGo214DERuAXIysepm9dCPCXdteUCfbSchIPfEJMBb5R9ryadRhGjxtldYQ8oOxLvbJtfd8MYqwMozAvHMkKb_bJG3vikpQSf_DCijtslLU_xiRdN2EWmTP4zRd-i9eaCQyi3NLqvbkENG4tVTYaPJQS2MUSg_DZ0072It0LojUG3RQyG8STES5thhfVn-Sy_DpPt5rFPdERc-kbidRT4jM8sxwDO2xc_ZTSh1ty_5zC1Z3UzLPsAsEyNruXsR-Fd3ARmbgCFB9quKgseYspym60ghzLX0r8DbuwW8jr65EeG1KMwkU082sw-tHobjZ5nnaZVxhPD8B3g0L6nnzWZN2cDNI3qX5CNs2xAkcgWHba7NpcTMjpAPWsdOJaif4RzvTfKztPJlkLflklcXqL6hV1409Mr3GHbX83U-GX_OSEjLNpzYrPVSksCtLM0wIRZ8pkifeM8Yl6001u5gbzWe5J8Q7Gh9xV1u6nVx2E31UuoFkC7YsjNXmjDhgwmcjVRqLCqvnJPhdHVtErVqKatR5Jp_eRwgJ4jHwBksXUaeMrbFeGPwvviIr6e6w7xm4R3KGDPtn-EW2Xwiu8Fy0)
+
+**-Diagrama completo del frontend**
+![Diagrama de Clases-frontend](img/class-diagram-frontend.png)
+
+-Diagrama de Dashboard y Appointment - frontend
+![Diagrama de Clases-frontend-dash_appo](img/class-diagram-frontend-dash_appo.png)
+
+-Diagrama de Profile y IAM - frontend
+![Diagrama de Clases-frontend-prof_iam](img/class-diagram-frontend-prof_iam.png)
+
+-Diagrama de Provider Settings y Reviews - frontend
+![Diagrama de Clases-frontend-provsett_pub_rev](img/class-diagram-frontend-provsett_pub_rev.png)
+
+-Diagrama de Schedule y Services - frontend
+![Diagrama de Clases-frontend-sched_serv](img/class-diagram-frontend-sched_serv.png)
 
 
 ### 4.7.2. Class Dictionary.
@@ -1981,7 +2099,7 @@ Web Applications Prototyping web view: *[Web Applications Prototyping](https://w
 | `AuthAdapter`    | Conecta el sistema con el servicio de Google para autenticar.          |
 | `User`           | Usuario del sistema, vinculado a una cuenta.                           |
 | `Client`         | Usuario que agenda citas en salones.                                   |
-| `Salon`          | Negocio que ofrece servicios, son los salones de belleza or barberias. |
+| `Provider`       | Negocio que ofrece servicios, son los salones de belleza or barberias. |
 | `ContactInfo`    | Guarda los datos de contacto de un salón, como teléfono o redes.       |
 | `Worker`         | Persona que trabaja en el salón y tiene horarios disponibles.          |
 | `Schedule`       | Representa el horario de un trabajador para un día específico.         |
@@ -1996,8 +2114,16 @@ Web Applications Prototyping web view: *[Web Applications Prototyping](https://w
 
 ### 4.8.1. Database Diagram.
 
+- Diagrama de base de datos
+
 <div align="center">
    <img src="img/erd-diagram.png" alt="erd-diagram"/>
+</div>
+
+- Diagrama de base de datos en Mysql
+
+<div align="center">
+   <img src="img/database-diagram-mysql.png" alt="erd-diagram"/>
 </div>
 
 # Capítulo V: Product Implementation, Validation & Deployment
@@ -2024,10 +2150,16 @@ Ruta de referencia: https://www.figma.com
 **UXPressia** complementa el trabajo de UX al permitir la creación y documentación de User Personas, Customer Journey Maps y Empathy Maps. Esto ayuda al equipo a entender mejor a los usuarios finales y alinear las decisiones de diseño con sus necesidades.  
 Ruta de referencia: https://uxpressia.com
 
+**Trello** complementa el trabajo de UX al facilitar la organización visual de tareas, ideas y flujos de trabajo mediante tableros, listas y tarjetas. Esto permite a los equipos de diseño y desarrollo colaborar de forma ágil, priorizar funcionalidades centradas en el usuario y dar seguimiento al progreso de proyectos UX.
+Ruta de referencia: https://trello.com
+
 #### Software Development
 
 **WebStorm** es el entorno de desarrollo integrado (IDE) que utilizan los desarrolladores del equipo para escribir y depurar código en tecnologías web. Su integración con sistemas de control de versiones, linters, y herramientas modernas de desarrollo lo convierten en un entorno robusto.  
 Ruta de referencia: https://www.jetbrains.com/webstorm
+
+**IntelliJ IDEA Ultimate** es el entorno de desarrollo integrado (IDE) utilizado por el equipo para desarrollar aplicaciones complejas en múltiples lenguajes como Java, Kotlin, JavaScript, entre otros. Su soporte avanzado para frameworks modernos, herramientas de base de datos integradas y funcionalidades inteligentes de codificación lo convierten en una plataforma robusta para proyectos de software a gran escala.
+Ruta de referencia: https://www.jetbrains.com/idea
 
 #### Software Deployment
 
@@ -2036,6 +2168,15 @@ Ruta de referencia: https://git-scm.com
 
 **GitKraken** es un cliente Git con interfaz gráfica que el equipo usa para facilitar la gestión visual de ramas, commits, conflictos y flujos de trabajo. Su interfaz amigable permite trabajar con Git de forma intuitiva y estructurada.  
 Ruta de referencia: https://www.gitkraken.com
+
+**Render** es la plataforma de despliegue que el equipo utiliza para alojar y ejecutar APIs simuladas (fake APIs) durante las etapas de desarrollo y pruebas. Su facilidad de configuración y despliegue continuo lo convierten en una herramienta eficiente para ambientes de testing.
+Ruta de referencia: https://render.com
+
+**GitHub Pages** es la plataforma de hosting utilizada por el equipo para desplegar la interfaz frontend de la aplicación. Al integrarse directamente con repositorios de GitHub, permite publicar sitios web estáticos de manera rápida, automatizada y gratuita.
+Ruta de referencia: https://pages.github.com
+
+**Azure** es la plataforma en la nube utilizada por el equipo para desplegar y escalar el backend de la aplicación. Gracias a sus servicios gestionados, como App Services y Azure SQL, permite una implementación robusta, segura y de alto rendimiento para aplicaciones en producción.
+Ruta de referencia: https://azure.microsoft.com
 
 #### Software Documentation and Project Management
 
@@ -2055,6 +2196,8 @@ El proyecto seguirá las convenciones de flujo de trabajo establecidas por el mo
 
 - Enlace para acceder a la organización de GitHub: https://github.com/PaxTech-UPC
 - Enlace para acceder a repositorio de la Landing Page: https://github.com/PaxTech-UPC/uTime-Landing-Page
+- Enlace para acceder a repositorio de FrontEnd Web Application: https://github.com/UPC-PaxTech/Frontend-Web-Applications
+- Enlace para acceder a repositorio de BackEnd Web Service: https://github.com/UPC-PaxTech/Web-Services
 
 **Flujo de trabajo GitFlow:** El flujo a utilizar para le desarrollo del proyecto fue el planteado por Vicent Driessen en "A successful Git branching model".
 
@@ -2540,7 +2683,7 @@ Enlace para acceder a la landing page: https://upc-paxtech.github.io/uTime-Landi
 
 ### 5.2.2. Sprint 2
 
-#### 5.2.2.1.Sprint Planning 2.
+#### 5.2.2.1. Sprint Planning 2.
 
 Dentro del marco de trabajo Scrum, cada Sprint constituye un periodo de tiempo fijo y breve en el que el equipo de desarrollo trabaja de manera enfocada para alcanzar un objetivo específico que contribuya al cumplimiento del Product Goal (Schwaber, K. & Sutherland, J., 2020). En el contexto del desarrollo de la plataforma uTime, el Sprint #2 dio inicio el 27/04/2025, y su meta consiste en implementar la aplicación web del lado frontend utilizando Angular y Angular Material. Durante este Sprint, se desarrollaron las funcionalidades esenciales tanto para los clientes como para los proveedores: los clientes pueden explorar diferentes salones de belleza y realizar reservas de manera intuitiva, mientras que los proveedores tienen acceso a herramientas de gestión que les permiten configurar precios, administrar sus servicios y visualizar las citas asignadas a cada trabajador.
 
@@ -2939,6 +3082,12 @@ Enlace para acceder al Trello: [Trello Sprint Backlog 2]()
 ![Configuracion](img/provider-settings-page.png)
 **Seccion de Perfil:** Muestra la informacion del salon, redes sociales, rating, portfolio y reviews recientes positivas.
 ![Perfil](img/provider-profile-page.png)
+*Seccion de AppointmentsClient** Muestra la información de reservas y reviews de estilistas o barberos.
+![client-appointments.png](../../uTime_aplicaciones_web/uTime-Informe-Final/img/client-appointments.png)
+*Seccion de FavoritesClient** Muestra los salones de belleza o barberia favoritos.
+![client-favorites.png](../../uTime_aplicaciones_web/uTime-Informe-Final/img/client-favorites.png)
+*Seccion de ProfileClient** Muestra la información del cliente de su perfil.
+![client-profile.png](../../uTime_aplicaciones_web/uTime-Informe-Final/img/client-profile.png)
 
 <figure>
   <img src="img/iam-login.png" alt="Login Page">
@@ -3003,6 +3152,7 @@ Enlace para acceder al Trello: [Trello Sprint Backlog 2]()
 
 
 #### 5.2.2.6.Services Documentation Evidence for Sprint Review.
+
 A continuación, se presentan tres fragmentos de código que evidencian el uso e implementación de los servicios en el sistema, abarcando desde la configuración de rutas hasta la lógica de negocio y la presentación de datos al usuario:
 
 1. Archivo de Rutas (Angular Routing Module)
@@ -3111,11 +3261,941 @@ Entonces dentro de la configuración de GitHub Pages, se seleccionó la rama gh-
 
 #### 5.2.2.8.Team Collaboration Insights during Sprint.
 
-Durante el Sprint 2, se realizó la segmentación de tareas por features y se asignaron a los miembros del equipo de acuerdo a sus habilidades y experiencia. Esto permitió una mejor distribucion de las tareas y un avance mas fluido en el desarrollo.
+Durante el Sprint 2, se realizó la segmentación de tareas por features y se asignaron a los miembros del equipo de acuerdo a sus habilidades y experiencia. Esto permitió una mejor distribución de las tareas y un avance mas fluido en el desarrollo.
 
 ![NetworkGraph](img/networkgraph-sprint2.png)
 
 ![Contributors](img/contributors-sprint2.png)
+
+## 5.2.3. Sprint 3
+
+### 5.2.3.1. Sprint Planning
+En el marco metodológico de Scrum, cada Sprint corresponde a un lapso breve y constante en el que el equipo de desarrollo se dedica a cumplir una meta concreta que impulse el avance hacia el objetivo general del producto (Schwaber, K. & Sutherland, J., 2020). En el desarrollo de la plataforma uTime, el Sprint número 2 se inició el 27 de abril de 2025, y tuvo como propósito central la construcción del frontend de la aplicación web, empleando Angular junto con Angular Material. Durante esta etapa, se implementaron funcionalidades fundamentales tanto para los usuarios clientes como para los proveedores. Por un lado, los clientes ahora pueden buscar y explorar diversos salones de belleza y realizar reservas de forma sencilla e intuitiva. Por otro lado, los proveedores disponen de herramientas administrativas que les permiten configurar los precios de sus servicios, gestionar su oferta y visualizar las citas asignadas a cada miembro de su personal, facilitando así la organización y atención a sus clientes.
+
+<table>
+   <tr>
+      <td colspan="1" align="center"><b>Sprint #</b></td>
+      <td colspan="1" align="center">Sprint 3</td>
+   </tr>
+   <tr>
+      <td colspan="2" align="center"><b>Sprint Planning Background</b></td>
+   </tr>
+   <tr>
+      <td colspan="1" align="center"><b>Date</b></td>
+      <td colspan="1">2025-05-27</td>
+   </tr>
+   <tr>
+      <td colspan="1" align="center"><b>Time</b></td>
+      <td colspan="1">09:00 PM</td>
+   </tr>
+   <tr>
+      <td colspan="1" align="center"><b>Location</b></td>
+      <td colspan="1">Reunión virtual mediante la aplicación Discord</td>
+   </tr>
+   <tr>
+      <td colspan="1" align="center"><b>Prepare By</b></td>
+      <td colspan="1">Gael Rivera</td>
+   </tr>
+   <tr>
+      <td colspan="1" align="center"><b>Attendees (to planning meeting)</b></td>
+      <td colspan="1">Kevin Chi, Gael Rivera, Marcelo Varela y Jorge Yum</td>
+   </tr>
+   <tr>
+      <td colspan="1" align="center"><b>Sprint n - 3 Review Summary</b></td>
+      <td colspan="1">
+      Durante este Sprint se avanzó significativamente en el desarrollo tanto del frontend como del backend de la aplicación web. En el lado del frontend, se implementó la internacionalización (i18n) y se aplicaron mejoras visuales a la interfaz utilizando Angular y Angular Material. También se corrigieron aspectos pendientes del Sprint 2, como la integración completa del switcher de idioma y el ajuste del renderizado del logo. En cuanto al backend, se estableció la conexión con la base de datos MySQL y se desarrollaron los servicios necesarios para el funcionamiento de las funcionalidades principales de los roles de cliente y proveedor.
+   </td>
+   </tr>
+   <tr>
+   <td colspan="1" align="center"><b>Sprint n - 3 Retrospective Summary</b></td>
+   <td colspan="1">
+      Durante la retrospectiva se destacó la necesidad de reforzar la planificación de tareas y asegurar la integración oportuna de pruebas desde etapas tempranas para evitar retrabajos. Sin embargo, se valoró positivamente la mejora en la comunicación del equipo con respecto al Sprint anterior, lo cual facilitó una mayor claridad en los objetivos y permitió una ejecución más eficiente de los entregables.
+   </td>
+</tr>
+   <tr>
+      <td colspan="2" align="center"><b>Sprint Goal & User Stories</b></td>
+   </tr>
+   <tr>
+      <td colspan="1" align="center"><b>Sprint 3 Goal</b></td>
+   <td colspan="1">
+      <b>Our focus is on</b> advancing the backend development by connecting the application to a MySQL database, creating the necessary tables for each entity, and exposing RESTful endpoints tested successfully through Swagger with token-based authentication.<br>
+      <b>We believe it delivers</b> a solid backend foundation that supports secure and reliable data persistence, with properly structured entities and tested endpoints ready for integration.<br>
+      <b>This will be confirmed when</b> the backend consistently handles requests, stores and retrieves data correctly from the MySQL database, and maintains secure access through token-based authentication.
+   </td>
+
+   </tr>
+   <tr>
+      <td colspan="1" align="center"><b>Sprint 2 Velocity</b></td>
+      <td colspan="1">35</td>
+   </tr>
+   <tr>
+      <td colspan="1" align="center"><b>Sum of Story Points</b></td>
+      <td colspan="1"> 35</td>
+   </tr>
+
+   <tr>
+</tr>
+</table>
+
+### 5.2.3.2. Aspect Leaders and Collaborators
+Para este Sprint, se han identificado los principales aspectos relacionados con el desarrollo del backend de la aplicación web de uTime. Con el objetivo de optimizar la coordinación y la responsabilidad dentro del equipo, se elaboró la matriz Leadership and Collaboration Matrix (LACX), en la que se especifica quién asume el rol de Líder (L) y quiénes actúan como Colaboradores (C) en cada uno de los componentes clave del backend. Esta organización ha permitido una asignación de tareas más estructurada, facilitando así la implementación de la base de datos, la creación de entidades, y la exposición de endpoints seguros mediante Swagger y autenticación con tokens.
+
+
+| **Team Member**                     | **GitHub Username** | **Profiles** | **Reviews** | **Reservation** | **Iam** | **Shared** | **Workers** | **Services** | **TimeSlots** | **Services** | **Payments**  |
+|-------------------------------------|---------------------|--------------|-------------|-----------------|---------|------------|-------------|--------------|---------------|--------------|---------------|
+| Chi Cruzatt, Kevin Jorge            | Krillsom            | C            | C           | C               | C       | L          | C           | C            | C             | L            | L             |
+| Rivera Sosa, Eduardo Gael           | gael-rs             | C            | C           | C               | L       | C          | L           | C            | C             | C            | C             |
+| Varela Bustinza, Marcelo Alessandro | VarBus              | L            | C           | L               | C       | C          | C           | C            | L             | C            | C             |
+| Yum Gonzales, Jorge Suin            | myussu              | C            | L           | C               | C       | C          | C           | L            | C             | C            | C             |
+
+### 5.2.3.3. Sprint Backlog 3
+En el tercer sprint backlog, el equipo tuvo la intención de iniciar y avanzar en el desarrollo del backend de la aplicación web, abordando los requerimientos esenciales para los roles de cliente y proveedor. Para la organización y gestión de las tareas, se continuó utilizando la herramienta Trello, lo que permitió descomponer las user stories en tareas específicas y asignarlas según las fortalezas técnicas de cada integrante. El objetivo principal del sprint fue establecer una base sólida del backend, incluyendo la creación de las entidades, la conexión con la base de datos MySQL, y la exposición de endpoints RESTful seguros, validados mediante Swagger y autenticación con tokens.
+
+<table border="1" cellspacing="0" cellpadding="5">
+   <tr>
+      <td colspan="2" align="center"><b>Sprint #</b></td>
+      <td colspan="6" align="center"><b>Sprint 3</b></td>
+   </tr>
+   <tr>
+      <td colspan="2"><b>User Story</b></td>
+      <td colspan="6" align="center"><b>Work-Item/Task</b></td>
+   </tr>
+   <tr>
+      <td><b>Id</b></td>
+      <td><b>Title</b></td>
+      <td><b>Id</b></td>
+      <td><b>Title</b></td>
+      <td><b>Description</b></td>
+      <td><b>Estimation (Hours)</b></td>
+      <td><b>Assigned To</b></td>
+      <td><b>Status</b></td>
+   </tr>
+
+   <!-- TS01 - Encriptación de contraseñas -->
+   <tr>
+      <td rowspan="2">TS01</td>
+      <td rowspan="2">Encriptación de contraseñas</td>
+      <td>T1</td>
+      <td>Configurar BCrypt en Spring Security</td>
+      <td>Usar PasswordEncoder de Spring Security para hashing + salt.</td>
+      <td>2</td>
+      <td>Varela Bustinza, Marcelo Alessandro</td>
+      <td>In-Process</td>
+   </tr>
+   <tr>
+      <td>T2</td>
+      <td>Pruebas de autenticación</td>
+      <td>Verificar que el login compare contraseñas hasheadas correctamente.</td>
+      <td>2</td>
+      <td>Yum Gonzales, Jorge Suin</td>
+      <td>In-Process</td>
+   </tr>
+
+   <!-- TS03 - Validaciones de formularios -->
+   <tr>
+      <td rowspan="2">TS03</td>
+      <td rowspan="2">Validaciones de formularios</td>
+      <td>T1</td>
+      <td>Frontend: Validaciones reactivas (Angular)</td>
+      <td>Implementar Validators en FormGroups para campos requeridos, email, teléfono, etc.</td>
+      <td>3</td>
+      <td>Rivera Sosa, Eduardo Gael</td>
+      <td>In-Process</td>
+   </tr>
+   <tr>
+      <td>T2</td>
+      <td>Backend: Validaciones con Spring</td>
+      <td>Usar anotaciones @Valid, @NotNull, @Pattern en los DTOs.</td>
+      <td>2</td>
+      <td>Chi Cruzatt, Kevin Jorge</td>
+      <td>To-Review</td>
+   </tr>
+
+   <!-- TS07 - Creación de endpoints para consulta de usuarios -->
+   <tr>
+      <td rowspan="3">TS07</td>
+      <td rowspan="3">Creación de endpoints para consulta de usuarios</td>
+      <td>T1</td>
+      <td>Implementación del método GET para listar todos los usuarios</td>
+      <td>Desarrollar la lógica en el controlador y servicio para obtener la lista completa de usuarios registrados (GET /clients)</td>
+      <td>4</td>
+      <td>Rivera Sosa, Eduardo Gael</td>
+      <td>Done</td>
+   </tr>
+   <tr>
+      <td>T2</td>
+      <td>Implementación del método GET para obtener usuario por ID.</td>
+      <td>Desarrollar el endpoint que permita recuperar los datos de un usuario específico según su identificador único (GET /clients/{id})</td>
+      <td>1</td>
+      <td>Chi Cruzatt, Kevin Jorge</td>
+      <td>Done</td>
+   </tr>
+   <tr>
+      <td>T3</td>
+      <td>Documentación en Swagger de los endpoints GET</td>
+      <td>Agregar documentación con anotaciones `@Tag`, `@Operation`, `@Schema` y ejemplos de request/response para los métodos GET de usuarios.</td>
+      <td>3</td>
+      <td>Yum Gonzales, Jorge Suin</td>
+      <td>Done</td>
+   </tr>
+
+   <!-- TS08 - Implementación de endpoints para gestión de proveedores -->
+   <tr>
+      <td rowspan="3">TS08</td>
+      <td rowspan="3">Implementación de endpoints para gestión de proveedores</td>
+      <td>T1</td>
+      <td>Implementación de endpoints para gestión de proveedores (GET /providers)</td>
+      <td>Implementar la lógica en el controlador y servicio que permita recuperar la lista completa de proveedores registrados.</td>
+      <td>1</td>
+      <td>Chi Cruzatt, Kevin Jorge</td>
+      <td>Done</td>
+   </tr>
+   <tr>
+      <td>T2</td>
+      <td>Desarrollo del método para registrar un nuevo proveedor (POST /providers)</td>
+      <td>Crear el endpoint que permita registrar nuevos proveedores en el sistema.</td>
+      <td>1</td>
+      <td>Chi Cruzatt, Kevin Jorge</td>
+      <td>Done</td>
+   </tr>
+   <tr>
+      <td>T3</td>
+      <td>Desarrollo del método para obtener proveedor por ID (GET /providers/{id})</td>
+      <td>Implementar la lógica para recuperar los datos de un proveedor específico a partir de su identificador único.</td>
+      <td>1</td>
+      <td>Chi Cruzatt, Kevin Jorge</td>
+      <td>Done</td>
+   </tr>
+
+   <!-- TS09 - Implementación de endpoints para gestión de perfil de proveedor -->
+   <tr>
+      <td rowspan="2">TS09</td>
+      <td rowspan="2">Implementación de endpoints para gestión de perfil de proveedor</td>
+      <td>T1</td>
+      <td>Desarrollo del método para registrar perfil de proveedor. (POST /providerprofile)</td>
+      <td>Implementar la lógica necesaria en el controlador y servicio para registrar un nuevo perfil de proveedor en la base de datos.</td>
+      <td>2</td>
+      <td>Varela Bustinza, Marcelo Alessandro</td>
+      <td>Done</td>
+   </tr>
+   <tr>
+      <td>T2</td>
+      <td>Desarrollo del método para obtener perfil de proveedor por ID (GET /providerprofile/{id})</td>
+      <td>Crear la funcionalidad para consultar un perfil de proveedor específico a partir de su identificador único.</td>
+      <td>1</td>
+      <td>Varela Bustinza, Marcelo Alessandro</td>
+      <td>Done</td>
+   </tr>
+
+   <!-- TS10 - Implementación de endpoints para gestión de workers -->
+   <tr>
+      <td rowspan="3">TS10</td>
+      <td rowspan="3">Implementación de endpoints para gestión de workers</td>
+      <td>T1</td>
+      <td>Desarrollo del método para listar todos los workers (GET /workers)</td>
+      <td>Implementar la lógica en el controlador y servicio que permita recuperar la lista completa de trabajadores registrados en el sistema..</td>
+      <td>1</td>
+      <td>Rivera Sosa, Eduardo Gael</td>
+      <td>Done</td>
+   </tr>
+   <tr>
+      <td>T2</td>
+      <td>Desarrollo del método para registrar un nuevo trabajador (POST /workers)</td>
+      <td>Crear el endpoint necesario para registrar un nuevo trabajador.</td>
+      <td>1</td>
+      <td>Rivera Sosa, Eduardo Gael</td>
+      <td>Done</td>
+   </tr>
+   <tr>
+      <td>T3</td>
+      <td>Desarrollo del método para obtener trabajador por ID (GET /workers/{id})</td>
+      <td>Desarrollar la funcionalidad que permita obtener los datos de un trabajador específico usando su identificador único.</td>
+      <td>1</td>
+      <td>Rivera Sosa, Eduardo Gael</td>
+      <td>Done</td>
+   </tr>
+
+   <!-- TS11 - Implementación de endpoints para autenticación de usuarios -->
+   <tr>
+      <td rowspan="2">TS11</td>
+      <td rowspan="2">Implementación de endpoints para autenticación de usuarios</td>
+      <td>T1</td>
+      <td>Desarrollo del método para inicio de sesión (POST /authentication/sign-in)</td>
+      <td>Implementar la lógica necesaria para autenticar usuarios registrados mediante sus credenciales y retornar un token JWT válido.</td>
+      <td>2</td>
+      <td>Yum Gonzales, Jorge Suin</td>
+      <td>Done</td>
+   </tr>
+   <tr>
+      <td>T2</td>
+      <td>Desarrollo del método para registro de nuevos usuarios (POST /authentication/sign-up)</td>
+      <td>Crear la funcionalidad que permita registrar nuevos usuarios en la aplicación, validando sus datos y persistiendo su información en la base de datos.</td>
+      <td>1</td>
+      <td>Chi Cruzatt, Kevin Jorge</td>
+      <td>Done</td>
+   </tr>
+
+   <!-- TS12 - Implementación de endpoints para gestión de clientes -->
+   <tr>
+      <td rowspan="3">TS12</td>
+      <td rowspan="3">Implementación de endpoints para gestión de clientes</td>
+      <td>T1</td>
+      <td>Desarrollo del método para listar todos los clientes (GET /clients)</td>
+      <td>Implementar la lógica en el controlador y servicio que permita recuperar la lista completa de clientes registrados en el sistema.</td>
+      <td>1</td>
+      <td>Chi Cruzatt, Kevin Jorge</td>
+      <td>Done</td>
+   </tr>
+   <tr>
+      <td>T2</td>
+      <td>Desarrollo del método para registrar un nuevo cliente</td>
+      <td>Crear la funcionalidad que permita registrar nuevos clientes (POST /clients)</td>
+      <td>1</td>
+      <td>Chi Cruzatt, Kevin Jorge</td>
+      <td>Done</td>
+   </tr>
+   <tr>
+      <td>T3</td>
+      <td>Desarrollo del método para obtener cliente por ID (GET /clients/{id})</td>
+      <td>Desarrollar el endpoint que permita consultar los datos de un cliente específico a partir de su identificador único.</td>
+      <td>1</td>
+      <td>Chi Cruzatt, Kevin Jorge</td>
+      <td>Done</td>
+   </tr>
+
+   <!-- TS13 - Implementación de endpoints para gestión de timeslots -->
+   <tr>
+      <td rowspan="3">TS13</td>
+      <td rowspan="3">Implementación de endpoints para gestión de timeslots</td>
+      <td>T1</td>
+      <td>Desarrollo del método para listar todos los timeslots (GET /timeslots)</td>
+      <td>Obtener horarios disponibles.</td>
+      <td>1</td>
+      <td>Rivera Sosa, Eduardo Gael</td>
+      <td>Done</td>
+   </tr>
+   <tr>
+      <td>T2</td>
+      <td>Desarrollo del método para registrar un nuevo timeslot (POST /timeslots)</td>
+      <td>Crear la funcionalidad necesaria para registrar un nuevo timeslot disponible.</td>
+      <td>1</td>
+      <td>Rivera Sosa, Eduardo Gael</td>
+      <td>Done</td>
+   </tr>
+   <tr>
+      <td>T3</td>
+      <td>Desarrollo del método para obtener horario por ID (GET /timeslots/{id})</td>
+      <td>Desarrollar el endpoint que permita consultar los datos de un timeslot específico mediante su identificador único.</td>
+      <td>1</td>
+      <td>Rivera Sosa, Eduardo Gael</td>
+      <td>Done</td>
+   </tr>
+
+   <!-- TS14 - Implementación de endpoints para gestión de servicios -->
+   <tr>
+      <td rowspan="2">TS14</td>
+      <td rowspan="2">Implementación de endpoints para gestión de servicios</td>
+      <td>T1</td>
+      <td>Desarrollo del método para listar todos los servicios (GET /services)</td>
+      <td>Implementar la lógica en el controlador y servicio que permita obtener la lista completa de servicios disponibles.</td>
+      <td>1</td>
+      <td>Varela Bustinza, Marcelo Alessandro</td>
+      <td>Done</td>
+   </tr>
+   <tr>
+      <td>T2</td>
+      <td>Desarrollo del método para registrar un nuevo servicio (POST /services)</td>
+      <td>Crear la funcionalidad necesaria para registrar un nuevo servicio, validando los datos y persistiendo la información en la base de datos.</td>
+      <td>1</td>
+      <td>Varela Bustinza, Marcelo Alessandro</td>
+      <td>Done</td>
+   </tr>
+
+   <!-- TS15 - Implementación de endpoints para consulta de usuarios -->
+   <tr>
+      <td rowspan="2">TS15</td>
+      <td rowspan="2">Implementación de endpoints para consulta de usuarios</td>
+      <td>T1</td>
+      <td>Desarrollo del método para listar todos los usuarios (GET /users)</td>
+      <td>Implementar la lógica en el controlador y servicio para recuperar la lista completa de usuarios registrados.</td>
+      <td>1</td>
+      <td>Yum Gonzales, Jorge Suin</td>
+      <td>Done</td>
+   </tr>
+   <tr>
+      <td>T2</td>
+      <td>Desarrollo del método para obtener usuario por ID (GET /users/{id})</td>
+      <td>Obtener usuario por ID.</td>
+      <td>1</td>
+      <td>Yum Gonzales, Jorge Suin</td>
+      <td>Done</td>
+   </tr>
+
+   <!-- TS16 - Implementación de endpoints para gestión de reviews -->
+   <tr>
+      <td rowspan="3">TS16</td>
+      <td rowspan="3">Implementación de endpoints para gestión de reviews</td>
+      <td>T1</td>
+      <td>Desarrollo del método para listar todas las reviews (GET /reviews)</td>
+      <td>Implementar la lógica en el controlador y servicio para recuperar la lista completa de reseñas registradas.</td>
+      <td>1</td>
+      <td>Yum Gonzales, Jorge Suin</td>
+      <td>In-Process</td>
+   </tr>
+   <tr>
+      <td>T2</td>
+      <td>Desarrollo del método para registrar una nueva review (POST /reviews)</td>
+      <td>Crear la funcionalidad que permita registrar una nueva reseña, validando los datos y almacenándolos en la base de datos.</td>
+      <td>1</td>
+      <td>Yum Gonzales, Jorge Suin</td>
+      <td>In-Process</td>
+   </tr>
+   <tr>
+      <td>T3</td>
+      <td>Desarrollo del método para obtener review por ID (GET /reviews/{id})</td>
+      <td>Desarrollar la funcionalidad para consultar los datos de una reseña específica mediante su identificador único.</td>
+      <td>1</td>
+      <td>Yum Gonzales, Jorge Suin</td>
+      <td>In-Process</td>
+   </tr>
+
+   <!-- TS04 - Diseño responsive y accesible -->
+   <tr>
+      <td rowspan="2">TS04</td>
+      <td rowspan="2">Diseño responsive y accesible</td>
+      <td>T1</td>
+      <td>Angular Material Layout</td>
+      <td>Usar FlexLayout y BreakpointObserver para responsividad.</td>
+      <td>4</td>
+      <td>Chi Cruzatt, Kevin Jorge</td>
+      <td>To-Review</td>
+   </tr>
+   <tr>
+      <td>T2</td>
+      <td>ARIA en componentes</td>
+      <td>Añadir roles, labels y focus management para accesibilidad.</td>
+      <td>3</td>
+      <td>Varela Bustinza, Marcelo Alessandro</td>
+      <td>Done</td>
+   </tr>
+</table>
+
+
+Enlace para acceder al Trello: [Trello Sprint Backlog 3](https://trello.com/b/RdzY7vOJ)
+
+![Diagrama](img/SprintBacklog3.png)
+
+
+### 5.2.3.4. Development Evidence for Sprint Review
+
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Repository</th>
+      <th>Branch</th>
+      <th>Commit Id</th>
+      <th>Commit Message</th>
+      <th>Commited on (Date)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Web-Services</td><td>develop</td><td>4f74620</td><td>feat: add provider profile naming solutions</td><td>18/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>a717fec</td><td>Merge branch 'develop' of https://github.com/UPC-PaxTech/Web-Services into develop</td><td>18/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>51b1406</td><td>feat: added entity to payment</td><td>18/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>7a11e76</td><td>docs: added 4 context diagram</td><td>18/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>4a52de8</td><td>feat: added payment and added to reservation detail resource</td><td>18/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>15f59ea</td><td>Merge branch 'feature/reservationDetails' into develop</td><td>17/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>fd8e7e6</td><td>Merge branch 'develop' of https://github.com/UPC-PaxTech/Web-Services into develop</td><td>17/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>8ca0cc3</td><td>feat: reservation details without payment id</td><td>17/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>a1a7c72</td><td>feat: reservation failure</td><td>17/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>18820cd</td><td>Merge branch 'develop' of https://github.com/UPC-PaxTech/Web-Services into develop</td><td>17/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>478f417</td><td>docs: add value objects for all the bounded context</td><td>17/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>39d0837</td><td>feat: acl de Worker y validacion terminada</td><td>17/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>96318cd</td><td>feat: added facade but not working yet</td><td>16/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>7d329c6</td><td>feat: added reservations</td><td>16/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>6ab3187</td><td>feat: added workers and reservations bounded context</td><td>16/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>b4e05f2</td><td>readded salonprofilecontroller</td><td>15/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>84c70e9</td><td>Merge branch 'develop' of https://github.com/UPC-PaxTech/Web-Services into develop</td><td>15/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>6ff8ff1</td><td>latest changes</td><td>15/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>798dec8</td><td>latest changes</td><td>15/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>54231ed</td><td>Merge branch 'feature/iam-bounded-context' into develop</td><td>15/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>0715733</td><td>feat: add all packages about iam bounded</td><td>15/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>53fdd12</td><td>feat: add hashing and token about infrastructure package</td><td>14/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>b415029</td><td>feat: add aggregates, commands and queries aboun iam bounded</td><td>14/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>47be603</td><td>Merge branch 'develop' of https://github.com/UPC-PaxTech/Web-Services into develop</td><td>12/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>185f076</td><td>docs: added service class and valueobjects to services</td><td>12/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>6a5c965</td><td>Merge branch 'develop' of https://github.com/UPC-PaxTech/Web-Services into develop</td><td>10/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>d77f946</td><td>Merge branch 'develop' of https://github.com/UPC-PaxTech/Web-Services into develop</td><td>10/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>432a1d3</td><td>feat: service controller</td><td>10/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>7ba69d9</td><td>Merge branch 'develop' of https://github.com/UPC-PaxTech/Web-Services into develop</td><td>10/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>0ec70e7</td><td>docs: changed value objects services</td><td>10/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>4d91e49</td><td>feat: added services</td><td>10/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>0732e5f</td><td>Merge branch 'develop' of https://github.com/UPC-PaxTech/Web-Services into develop</td><td>09/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>39542a0</td><td>feat: add Client Files API</td><td>09/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>ba73b7a</td><td>Merge branch 'feature/salonProfile' into develop</td><td>07/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>3d6fbfb</td><td>feat: added Salon profile update y delete</td><td>07/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>65126ee</td><td>Merge branch 'develop' of https://github.com/UPC-PaxTech/Web-Services into develop</td><td>07/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>8cd1ec0</td><td>corrections</td><td>07/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>7cb813f</td><td>corrections</td><td>07/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>0cf8c7a</td><td>feat: salon profile without update or delete</td><td>05/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>7536cf4</td><td>fix: deleted unneeded file</td><td>05/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>22798e3</td><td>docs: update profile context</td><td>05/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>aed3a23</td><td>docs: remove all ids, it is all in base service</td><td>05/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>3a8ddb6</td><td>Merge branch 'develop' of https://github.com/UPC-PaxTech/Web-Services into develop</td><td>05/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>90c8265</td><td>gael xd</td><td>05/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>7401e4f</td><td>feat: new update</td><td>05/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>917a393</td><td>docs: fix id naming standard</td><td>05/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>26a5a3c</td><td>docs: fix class diagram profiles</td><td>05/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>d5c305b</td><td>Merge branch 'feature/class-diagram' into develop</td><td>05/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>749174e</td><td>docs: finish salon and clients</td><td>05/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>c8874ee</td><td>docs: added salon profile classes</td><td>05/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>a78ccad</td><td>Merge branch 'develop' of https://github.com/UPC-PaxTech/Web-Services into develop</td><td>05/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>2c5e0b3</td><td>Merge branch 'feature/class-diagram' into develop</td><td>05/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>d9553af</td><td>feat: AccountCommandServiceImplementation</td><td>03/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>d724893</td><td>feat: finished account Query Service and command service</td><td>03/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>0fefb28</td><td>feat: Salon updated</td><td>03/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>23cf8df</td><td>docs: add layer diagram and package diagram</td><td>03/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>a2e3f0e</td><td>docs: finish value objects of profiles</td><td>03/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>85cded1</td><td>feat: added learning center template examples</td><td>03/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>c2af4fa</td><td>docs: fix value objects into used variables</td><td>03/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>4822511</td><td>docs: add value objectos salon</td><td>03/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>cff8afa</td><td>docs: add class diagram new</td><td>02/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>2a40f2f</td><td>docs: add class diagram 0.1</td><td>01/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>cd1ffb2</td><td>feat: Add Client module with endpoints for getAll, getById, and Swagger integration</td><td>31/05/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>c5912c6</td><td>feat: added salons get by id</td><td>29/05/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>ea13078</td><td>feat: added salons values</td><td>29/05/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>c809237</td><td>feat: added clients</td><td>27/05/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>3378702</td><td>feat: initialized Salon</td><td>27/05/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>39788fc</td><td>Create README.md</td><td>27/05/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>dbc3c22</td><td>feat: Spring Boot project setup</td><td>27/05/2025</td></tr>
+    <tr><td>Web-Services</td><td>main</td><td>c809237</td><td>feat: added clients</td><td>27/05/2025</td></tr>
+    <tr><td>Web-Services</td><td>main</td><td>3378702</td><td>feat: initialized Salon</td><td>27/05/2025</td></tr>
+    <tr><td>Web-Services</td><td>main</td><td>39788fc</td><td>Create README.md</td><td>27/05/2025</td></tr>
+    <tr><td>Web-Services</td><td>main</td><td>dbc3c22</td><td>feat: Spring Boot project setup</td><td>27/05/2025</td></tr>
+  </tbody>
+</table>
+
+### 5.2.3.5. Execution Evidence for Sprint Review
+En el Sprint 3 se avanzó en la implementación y despliegue del backend. La cual muestra los diferentes endpoints del sistema del negocio.
+
+#### 1.Provider
+En esta sección se muestra el endpoint de Provider con los diversos métodos para solicitar recursos al servidor respecto a las necesidades del negocio y su interacción con el sistema; asimismo en este contexto tenemos un "GET" el cual devuelve a todos los proveedores del servicio registrados, un "POST" que permite el registro de proveedores al servicio y "GET BY ID" que permite la identificación de provedores mediante el {id} que tienen cada uno.  
+<img src="img/providers_end.png" alt="Providers endpoint" />
+
+### 2.Provider Profile
+En esta sección se muestra el endpoint de ProviderProfile con los diversos métodos del servicio e interacciones que tiene con el negocio y sistema; asimismo en este contexto tenemos un "GET BY ID" que permite el llamado de todos los provider profiles registrados mediante el {id} que tiene cada uno, asi como un "POST" que permite el registro de nuevos salones de belleza en el sistema.
+<img src="img/provider_profile.png" alt="Providers endpoint"/>
+
+
+#### 3.Workers
+En esta sección tenemos el endpoint de Workers con los diversos metodos del servidor e implementación de recursos respecto del servicio; en este sentido tenemos un "GET" el cual permite el llamado de todos los workers registrados en el sistema; asi como un "POST" que permite el registro de nuevos workers en el sistema, un "GET BY ID" que permite el llamado de cada worker registrado mediante su {id}, un PUT para modificar lam informacion de la seccion y un DELETE para eliminarla.
+<img src="img/workers_pro.png" alt="Providers endpoint" />
+
+
+#### 4.Authentication
+En esta sección se presenta el Authentication que vendria a ser uno de los endpoints más importantes del sistema del negocio ya quie permite el acceso a los endpoint mediante un token de registro; en este sentido tenemos dos "POST" los cuales seria para registrarse en el caso el usuario no tenga una cuenta en el negocio asi como el de iniciar sesión si es que el usuario desea entrar a sus cuenta en el sistema.
+<img src="img/authentication_end.png" alt="Providers endpoint" />
+
+
+#### 5.Clients
+En esta sección tenemos el Clients con los diversos métodos del servidor e implementaciones dentro del servicio del negocio; en este sentido tenemos un "GET" el cual muestra a todos los clientes registrados en el sistema, un "POST" el cual permite el registro de nuevos clientes en el neogocio y por último un "GET BY ID" el cual permite la identificación de clientes mediante su {id}.
+<img src="img/clients_end.png" alt="Providers endpoint" />
+
+
+#### 6.Time Slots
+En esta sección podemos visualizar los time slots que son una pieza principal en el sistema del negocio ya que ayuda en el manejo de horarios de las reservaciones; en este sentido tenemos un "GET" el cual devuelve todos los tiem slots registrados por los usuarios, un "POST" que permite la creación de nuevos casialleros de tiempo en la reservación de citas de cada usuario y por último un "GET BY ID" que permite devolver los time slot registrados mediante su {id}.
+<img src="img/time_slots_end.png" alt="Providers endpoint" />
+
+
+#### 7. Services
+En esta sección tenemos Services el cual forma parte del manejo de negocio y ayuda en la lógica del servicio de cada parametro del sistema; en este sentido tenemos un "GET" que devuelve cada servicio registrado en la estructura del medio, un "POST" que permite registrar el servicio que el usuario desea recibir al momento de reservar sus citas, un PUT para modificar lam informacion de la seccion y un DELETE para eliminarla.
+<img src="img/services_pro.png" alt="Providers endpoint" />
+
+
+#### 8. Users
+En esta sección tenemos a Users el cual contiene a los providers y clients del negocio funciona como un estructura padre que hereda a ambas partes sus caracteristicas dependiendo de las necesaidades que contiene cada uno; en este sentido tenemos dos "GET" uno para devolver a todos los usuarios registrados en el servicio y otro para llamarlos mediante su {id}.
+<img src="img/Users_end.png" alt="Providers endpoint" />
+
+
+#### 9. Payments
+En esta sección tenemos a payments que se encargará de la administracion de pagos de los servicios de las suscripciones de la plataforma; en este sentido cuenta con un "GET" para devolver todos los pagos un "POST" para realizar un nuevo pago y un "GET BY ID " para traer los pagos por {id}.
+<img src="img/payments.png" alt="Providers endpoint" />
+
+### 5.2.3.6. Services Documentation Evidence for Sprint Review
+A continuación, se presentan tres fragmentos de código que evidencian el uso e implementación de los servicio dentro del sistema Backend, abarcando desde la configuracion de los endpoints, asi como la lógica de la estructura para los bounded context del negocio:
+### 1. Shared Bounded Context:
+A continuación, se visualiza el "Shared Bounded context" de la parte del Backend de nuetsro negocio uTime; dicho "File" contiene una "File" denominado "Aggregates" el cual tiene como función principal ser la clase base para todos "Aggregates" del proyecto cuales requieran de un servicio de auditoría mediante el "@EntityListeners" el cual registra el "@Id" de cada elemento integrado en el sistema dependiendo del contexto en el que se encuentra; permitiendo que haya un seguimiento de las fechas listadas por hora y fecha en la que fueron creadas ("@CreatedDate") y modificadas("@LastModifiedDate"); las que a su vez se visualizan en el entorno físico de la base de datos en la que estamos creando las tablas "MY SQL". Para realizar este llamado registramos nuestros atributos de @Id, @CreatedDate y @LastModified en un "File" denominado como "AuditableModel" absolvida en "Entities" creando los metodos @Getter para devolver el los registros y las fechas respectivamente con sus diversos parametros. Luego tendriamos un "File" llamado "Infrastucture" el cual contiene un "OpenApiConfiguration", cual permite la documentación automatica de una API REST usando Swagger/OpenApi dentro de la aplicación Spring Boot; asi como también "Flyway" que sirve como herramienta de control de versiones para la base de datos que estamos empleando para la contención de endpoints que estamosm creando y un "SnakeCaseWithPluralize" que permite la modificacion de nombres de atributos en las tablas con guiones bajos y pluralizando los nombres dependiendo del significado.   
+<div align="center">
+<img src="img/shared-backend.png" alt="Shared Bounded Context" />
+</div>
+
+#### AuditableAbstractAggregate:
+
+<div align="center">
+<img src="img/entity_listener_shared.png" alt="Shared Bounded Context" />
+</div>
+
+### AuditableModel
+
+<div align="center">
+<img src="img/AuditableModel.png" alt="Shared Bounded Context" />
+</div>
+
+### OpenAPIConfiguration
+
+<div align="center">
+<img src="img/OpenApi.png" alt="Shared Bounded Context" />
+</div>
+
+### Flyway configuration
+
+<div align="center">
+<img src="img/Flyway.png" alt="Shared Bounded Context" />
+</div>
+
+### SnakeCaseWithPluralize
+
+<div align="center">
+<img src="img/pluralize_1.png" alt="Shared Bounded Context" />
+</div>
+
+<div align="center">
+<img src="img/pluralize_2.png" alt="Shared Bounded Context" />
+</div>
+
+### 2. Application properties:
+En esta sección tenemos el "Application properties" el cual es el "File" principal que se encarga de la configuración típica de Spring Boot porque establece las bases técnicas para que funciones de forma escalable y segura. En esta sección definimos la conexión con la base de datos, y la gestión de entiedades mediante el esquema JPA y Flyway con su documentación para proteger la API con Swagger y JWT. Asimismo, asegura el buen manejo en la control de versiones de la base de datos, y la personalización de nombres en las tablas para la integracion con el backend y el consumo de servicios. 
+<div align="center">
+<img src="img/application_properties.png" alt="Shared Bounded Context" />
+</div>
+<div align="center">
+<img src="img/application_1.png" alt="Shared Bounded Context" />
+</div>
+
+### 3.IAM Bounded Context:
+Por último, tenemos la sección de "IAM bounded context" que se encarga del manejo de autorización para el ingreso al servicio del negocio tanto en el "sign-in" como con el "sign-up" este "File" sigue el patrón Command Query Responsibility Segregation(CQRS) el cual permite leer y escribir las operaciones separandolos en modelos de datos permitiendo la escalabilidad y seguridad al momento de acceder a cada endpoint del backend; esta autorización se logra mediante la creación de token JWT(JSON Web Token), los cuales generan automaticamente al momento de registrar un nuevo usuario al servicio. Estos tokens ecapsulan la identidad y permisos al usuario, asegurando un entorno de ejecución confiable y eficiente para cada solicitud del sistema. Además, el uso de hashing seguro con el algoritmo BCrypt garantiza la protección de las contraseñas almacenadas en el sistema del servicio, reforzando asi la seguridad ante diferentes vulnerabilidades.
+<div align="center">
+<img src="img/IAM%20.png" alt="Shared Bounded Context" />
+</div>
+<div align="center">
+<img src="img/tokens.png" alt="Shared Bounded Context" />
+</div>
+<div align="center">
+<img src="img/hashing.png" alt="Shared Bounded Context" />
+</div>
+<div align="center">
+<img src="img/service_confi.png" alt="Shared Bounded Context" />
+</div>
+
+### 5.2.3.7. Software Deployment Evidence for Sprint Review
+Para realizar el deployment del backend de la aplicación, se empleó la plataforma Azure. Se realizaron los siguientes pasos para llevar a cabo el despliegue del proyecto.
+
+En primer lugar, se generó el java y usando docker se construyó la imagen del proyecto.
+
+![Azure Deployment](img/azure_deployment2.png)
+
+Luego, se subió la imagen a Azure Container Registry (ACR) para su almacenamiento y gestión. Posteriormente, se creó un Azure App Service para alojar la aplicación, configurando el entorno de ejecución y las variables necesarias.
+
+![Azure Deployment](img/azure_deployment1.png)
+
+![Azure Deployment](img/azure_deployment3.png)
+
+Finalmente, se implementó la imagen desde ACR al App Service, asegurando que la aplicación estuviera disponible y funcionando correctamente en la nube de Azure.
+
+URL del BackEnd Deployado: https://utime-web-service.azurewebsites.net/swagger-ui/index.html
+
+![Azure Deployment](img/azure_deployment4.png)
+
+
+### 5.2.3.8. Team Collaboration Insights during  Sprint
+En el Sprint 3, se dividieron las tareas según las funcionalidades del sistema y se asignaron a los integrantes del equipo considerando sus competencias y experiencia. Esta estrategia facilitó una distribución más eficiente del trabajo y contribuyó a un progreso más ágil en el desarrollo.
+
+![Insight 1](img/Insight1.png)
+
+![Insight 2](img/INSIGHT3.png)
+
+![Insight 2](img/INSIGHT2.png)
+
+
+# 5.3. Validation Interviews
+
+## 5.3.1. Diseño de Entrevistas
+
+### PREGUNTAS INTRODUCTORIAS:
+
+* ¿Cuál es tu nombre?
+
+* ¿Has usado alguna herramienta digital para reservas o todo lo haces por WhatsApp, redes u otro método?
+
+* ¿Qué es lo que más te cuesta gestionar en el tema de reservas?
+
+
+### SEGMENTO 1: Dueños de Salones de Belleza o Barberías
+
+*Preguntas tras mostrar la Landing Page*
+
+* ¿Sientes que comunica bien la propuesta y beneficios del producto?
+
+* ¿Qué sección o contenido te pareció más útil o llamativo?
+
+* ¿Los planes que se ofrecen se ven claros y bien diferenciados?
+
+* ¿Te animarías a probar una plataforma como esta luego de ver la landing?
+
+
+*Preguntas tras mostrar la Aplicación Web (Vista del salón)*
+
+* ¿Fue fácil navegar y entender cómo funciona la gestión de citas?
+
+* ¿Te resultó intuitiva la configuración de horarios y servicios?
+
+* ¿Te parecen útiles las funciones de notificación automática y panel de reseñas?
+
+* ¿Qué tan probable es que uses esta herramienta en tu negocio?
+
+* ¿Te sentirías cómodo/a pagando por un plan si esto mejora la eficiencia de tu gestión?
+
+
+### SEGMENTO 2: Clientes de servicios de belleza
+
+*Preguntas tras mostrar la Landing Page*
+
+* ¿Qué tan atractivo te parece el diseño y la organización del sitio?
+ 
+* ¿Qué parte de la información te pareció más útil para ti como cliente?
+
+* ¿Te daría confianza usar este sistema para reservar en lugar de escribir por redes?
+
+*Preguntas tras mostrar la Aplicación Web (Vista cliente)*
+
+* ¿Fue sencillo registrarte y navegar por la aplicación?
+
+* ¿Pudiste encontrar fácilmente un estilista y agendar una cita?
+
+* ¿Qué opinas del flujo para elegir horario y método de pago?
+
+* ¿Te gustaría recibir notificaciones o recordatorios como los que viste?
+
+* ¿Te gustaría tener la opción de guardar tus salones favoritos o ver tu historial?
+
+### Preguntas Finales (Cierre)
+
+* ¿Qué es lo que más te gustó de uTime?
+
+* ¿Qué aspecto te pareció confuso o poco útil?
+
+* ¿Hay alguna funcionalidad que esperabas ver y no encontraste?
+
+## 5.3.2. Registro de Entrevistas
+
+# Segmento Objetivo 1 (Salones de Belleza y Barberías)
+
+## Datos del Entrevistado #1
+- **Nombre completo:*Vianka Aracelli Graciel Diaz Dueñas* 
+- **Segmento Objetivo:*Recepcionista de un salón de belleza* 
+- **Edad:*19 años* 
+- **Distrito:*San Juan De Lurigancho* 
+- **Screenshot del cuadro de video:** *![interview_1.jpeg](img/entrevista_salon_validation.png)*
+- **URL del video (Microsoft Stream):** *[Entrevista 01]()*
+- **Inicio de la entrevista:14:19* 
+- **Duración:*20:21*
+**Resumen:** Vianka consideró que la landing de uTime comunica bien la propuesta y destacó la explicación del funcionamiento y los testimonios. Le pareció útil y estaría interesada en probar la plataforma. Al usar la app web, le resultó fácil e intuitiva. Valoró especialmente el calendario visual y las notificaciones automáticas, aunque al inicio tuvo dificultad para volver al menú principal. Calificó la herramienta con 8/10 y estaría dispuesta a pagar si mejora la gestión del salón. Sugiere integrar WhatsApp o SMS para facilitar aún más la comunicación con los clientes.
+
+## Datos del Entrevistado #2
+- **Nombre completo: ** Luiz Fernando Suivete Farfan
+- **Segmento Objetivo:** Dueño de barbería
+- **Edad:**  24 años
+- **Distrito:**  Vavo Grande
+- **Screenshot del cuadro de video:** *![Entrevista 2](img/Screenshot%202025-06-19%20225947.png)*
+- **URL del video (Microsoft Stream):** *[Entrevista 02](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202319668_upc_edu_pe/EWfoFFPlt_9GqNNBqZHlw0oB74qyZJ2L70u2gAmVRvcKug?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=teaqUe)*
+- **Inicio de la entrevista:** 20:21 minutos
+- **Duración:** 23:42 minutos
+
+**Resumen:** Luis Fernando Farfán, barbero con 8 años de experiencia en Chiclayo, gestiona sus citas principalmente por WhatsApp y redes, usando Fresha para los horarios. Su mayor problema son los clientes que cancelan a último minuto o no llegan, y la dificultad para coordinar la disponibilidad de su equipo. Ve con buenos ojos la propuesta de la herramienta, destacando la utilidad de funciones como la gestión de horarios, notificaciones automáticas y reseñas. Aunque nota que algunas partes aún no funcionan del todo (como la adición de barberos), estaría dispuesto a pagar por el servicio si se completan bien las funciones y le ayudan a organizar mejor su negocio.
+
+
+
+# Segmento Objetivo 2 (Clientes de servicios de belleza)
+
+## Datos del Entrevistado #1
+- **Nombre completo:** Allison Naomi Galindo Palomino
+- **Segmento Objetivo:** Clientes de servicio de belleza
+- **Edad:** 20 años
+- **Distrito:** Cercado De Lima
+- **Screenshot del cuadro de video:** *![interview_1.jpeg](img/cliente_validation_alison.png)*
+- **URL del video (Microsoft Stream):** *[Entrevista 01](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202319668_upc_edu_pe/EWfoFFPlt_9GqNNBqZHlw0oB74qyZJ2L70u2gAmVRvcKug?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=teaqUe)*
+- **Inicio de la entrevista:** 0:10 minutos
+- **Duración:** 4:24 minutos
+
+**Resumen:** Allison Galindo es una universitaria de 20 años que vive en el Cercado de Lima. Acude a servicios de belleza de forma ocasional, priorizando encontrar disponibilidad en los horarios que se ajusten a su rutina académica. Aunque anteriormente solía reservar citas por WhatsApp o redes sociales, ha manifestado interés en utilizar plataformas digitales como uTime, siempre que estas sean claras, organizadas y confiables.  Le resulta importante poder filtrar estilistas por zona y tipo de servicio, así como evitar el tiempo perdido escribiendo individualmente a cada salón. Allison valora la puntualidad, la seguridad al momento de pagar (usando tarjeta o billeteras móviles como Yape o Plin), y considera muy útil recibir notificaciones o recordatorios automáticos de sus citas. Durante su experiencia con la aplicación de uTime, destacó positivamente la facilidad para registrarse, navegar, agendar citas y el diseño moderno de la plataforma. Además, le gustaría contar con funcionalidades como un chat directo con el estilista y la posibilidad de recibir actualizaciones en tiempo real sobre el estado de su cita. En general, considera que las herramientas digitales pueden mejorar notablemente la experiencia del cliente si están bien implementadas y comunican claramente todas sus funcionalidades.
+
+## Datos del Entrevistado #2
+- **Nombre completo:** Luis Andrés Alva Abanto
+- **Segmento Objetivo:** Clientes de servicio de belleza
+- **Edad:** 19 años
+- **Distrito:** San Borja
+- **Screenshot del cuadro de video:** *![interview_2.jpeg](img/angie_foto.png)*
+- **URL del video (Microsoft Stream):** *[Entrevista 02](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202319668_upc_edu_pe/EWfoFFPlt_9GqNNBqZHlw0oB74qyZJ2L70u2gAmVRvcKug?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=teaqUe)*
+- **Inicio de la entrevista:** 6:22 minutos
+- **Duración:** 14:19 minutos
+
+**Resumen:** Luis, un usuario habitual de servicios de belleza, actualmente realiza sus reservas mediante WhatsApp, pero identifica como problemática la demora en recibir respuestas por ese medio. Durante la entrevista de validación, expresó que la landing page de uTime le pareció visualmente atractiva, con un diseño moderno y colores bien seleccionados. También valoró positivamente la interfaz de la aplicación web, destacando su coherencia estética con la página de inicio. Como sugerencia, recomendó ajustar el tamaño de algunas tarjetas (cards) dentro de la plataforma para lograr una presentación más armoniosa. En general, mostró disposición a usar uTime, considerando que le ofrecería una solución más eficiente frente a los tiempos de espera actuales.
+
+
+## Datos del Entrevistado #3
+- **Nombre completo:** Doris Yolanda Tello
+- **Segmento Objetivo:** Clientes de servicio de belleza
+- **Edad:** 60
+- **Distrito:** La Molina
+- **Screenshot del cuadro de video:** *![interview_2.jpeg](img/entrevista2s2.png)*
+- **URL del video (Microsoft Stream):** *[Entrevista 03](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202319668_upc_edu_pe/EWfoFFPlt_9GqNNBqZHlw0oB74qyZJ2L70u2gAmVRvcKug?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=teaqUe)*
+- **Inicio de la entrevista:** 4:24 minutos
+- **Duración:** 6:21 minutos
+
+**Resumen:** La clienta se encuentra satisfecha con la mayoría de las funcionalidades de uTime, aunque desearía que pueda especificar que no desea pagar de antemano
+
+## 5.3.3. Evaluaciones según heurísticas
+
+#### UX Heuristics & Principles Evaluation
+##### Usability – Inclusive Design – Information Architecture
+
+*CARRERA*: Ingeniería de Software  
+*CURSO*:   Desarrollo de aplicaciones Open Source
+*SECCIÓN*: 4304  
+*PROFESORES*: Todos  
+*AUDITOR*: Grupo PropGMS – Evaluación UX uTime  
+*CLIENTE(S)*: Equipo de desarrollo de PaxTech (uTime)
+
+<hr>
+
+#### SITE O APP A EVALUAR:
+*uTime – Plataforma Web de Gestión de Citas para Salones y Clientes*
+
+#### TAREAS A EVALUAR:
+
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+
+1. Registro de un nuevo usuario (cliente y salón)
+2. Inicio de sesión
+3. Visualización de citas programadas
+4. Creación y edición de servicios por parte del salón
+5. Configuración de horarios del salón
+6. Visualización y selección de planes de suscripción
+7. Cancelación o reprogramación de una cita
+8. Recepción de notificaciones de recordatorio
+9. Visualización de beneficios y contacto desde la landing page
+
+*ESCALA DE SEVERIDAD:*
+
+<i>Los errores serán puntuados tomando en cuenta la siguiente escala de severidad. </i>
+
+<table>
+   <tr>
+      <th>Nivel</th>
+      <th>Descripción</th>
+   </tr>
+   <tr>
+      <td>1</td>
+      <td>Problema superficial: puede ser fácilmente superador por el usuario ó ocurre con muy poco
+frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo.</td>
+   </tr>
+   <tr>
+      <td>2</td>
+      <td>Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de
+superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente
+reléase</td>
+   </tr>
+   <tr>
+      <td>3</td>
+      <td>Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es
+importante que sean corregidos y se les debe asignar una prioridad alta.</td>
+   </tr>
+   <tr>
+      <td>4</td>
+      <td>Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de
+la herramienta. Es imperativo que sea corregido antes del lanzamiento.</td>
+   </tr>
+</table>
+
+*TABLE DE RESUMEN:*
+
+| # | Problema                                                                           | Escala de severidad | Heurística / Principio violado                  |
+|---|------------------------------------------------------------------------------------|---------------------|-------------------------------------------------|
+| 1 | No se confirma visualmente el éxito al iniciar sesión                              | 3                   | Usability: Visibilidad del estado del sistema   |
+| 2 | Iconos sin etiquetas dificultan el reconocimiento de funciones                     | 2                   | Usability: Reconocimiento antes que recuerdo    |
+| 3 | Textos largos en la landing pueden saturar al usuario                              | 1                   | Usability: Diseño estético y minimalista        |
+| 4 | No existe acceso a sección de ayuda o tutorial                                     | 3                   | Usability: Ayuda y documentación                |
+| 5 | No se puede ver el historial completo de citas pasadas desde el perfil del cliente | 2                   | Information Architecture: ¿Es localizable?      |
+| 6 | Falta de confirmación visual al editar servicios                                   | 2                   | Usability: Visibilidad del estado del sistema   |
+| 7 | El salón no puede responder a los reviews que dejan los clientes                   | 2                   | Usability: Libertad y control del usuario       |
+
+DESCRIPCIÓN DE PROBLEMAS
+
+*PROBLEMA #1: No se confirma visualmente el éxito al iniciar sesión*
+- *Severidad*: 3
+- *Heurística violada*: Usability – Visibilidad del estado del sistema
+- *Descripción*:  
+  Al iniciar sesión correctamente, no aparece ningún mensaje, animación o redirección clara que confirme que el proceso fue exitoso. Esto genera incertidumbre y puede llevar al usuario a pensar que hubo un error.
+- *Recomendación*:  
+  Incluir un mensaje de bienvenida visible (“Inicio de sesión exitoso”), transiciones suaves o dashboard de entrada con saludo personalizado.
+
+*PROBLEMA #2: Iconos sin etiquetas dificultan el reconocimiento de funciones*
+- *Severidad*: 2
+- *Heurística violada*: Usability – Reconocimiento antes que recuerdo
+- *Descripción*:  
+  Algunos botones del menú (como el ícono de “Servicios” o “Citas”) carecen de etiquetas al pasar el cursor. Esto puede dificultar el aprendizaje inicial de la plataforma.
+- *Recomendación*:  
+  Incluir tooltips o etiquetas breves al hacer hover sobre los íconos.
+
+*PROBLEMA #3: Textos largos en la landing pueden saturar al usuario*
+- *Severidad*: 1
+- *Heurística violada*: Usability – Diseño estético y minimalista
+- *Descripción*:  
+  Algunas secciones de la landing contienen bloques extensos de texto descriptivo. Esto puede distraer o desmotivar al usuario.
+- *Recomendación*:  
+  Reorganizar los textos usando viñetas, subtítulos o pictogramas para facilitar la lectura.
+
+*PROBLEMA #4: No existe acceso a sección de ayuda o tutorial*
+- *Severidad*: 3
+- *Heurística violada*: Usability – Ayuda y documentación
+- *Descripción*:  
+  Ni la landing ni la aplicación tienen enlaces visibles a preguntas frecuentes, tutoriales o contacto de soporte.
+- *Recomendación*:  
+  Incluir una sección de ayuda accesible desde el menú principal o footer con preguntas frecuentes y guías rápidas.
+
+*PROBLEMA #5: No se puede ver el historial completo de citas pasadas desde el perfil del cliente*
+- *Severidad:* 2
+- *Heurística violada:* Information Architecture – ¿Es localizable?
+- *Descripción:*
+  El cliente no tiene acceso al detalle de sus citas pasadas ni posibilidad de repetirlas fácilmente desde el historial.
+- *Recomendación:*
+  Incluir un módulo de historial con opción de “Repetir cita”.
+
+*PROBLEMA #6: Falta de confirmación visual al editar servicios*
+- *Severidad:* 2
+- *Heurística violada:* Usability – Visibilidad del estado del sistema
+- *Descripción:*
+  Cuando un administrador edita un servicio, al guardar los cambios no se muestra un mensaje visible de confirmación (ni toast ni modal). Esto genera duda sobre si los cambios fueron aplicados correctamente.
+- *Recomendación:*
+  Implementar un mensaje de éxito (“Servicio actualizado correctamente”) que aparezca de forma visible tras guardar.
+
+*PROBLEMA #7: El salón no puede responder a los reviews que dejan los clientes*
+- *Severidad:* 2
+- *Heurística violada:* Usability – Libertad y control del usuario
+- *Descripción:*
+  Actualmente, los administradores de los salones pueden visualizar las reseñas dejadas por los clientes, pero no pueden responder o gestionar esos comentarios. Esto limita la comunicación bidireccional y la construcción de confianza con los usuarios.
+- *Recomendación:*
+  Permitir que los salones respondan públicamente a las reseñas desde el panel de administración, con opción de moderación si es necesario.
+
+# 5.4. Video About-the-Product
+
+A continuación, se presenta un video explicativo de uTime, una plataforma que conecta usuarios con estilistas disponibles según su horario y ubicación de preferencia. El objetivo del video es mostrar de manera breve, clara y visual cómo funciona uTime, destacando sus principales funcionalidades, el propósito del proyecto y los beneficios que brinda tanto a clientes como a profesionales de belleza.
+El video está diseñado para captar la atención de potenciales usuarios y estilistas, demostrando cómo reservar una cita en pocos pasos, explorar perfiles con calificaciones y comentarios, y personalizar la búsqueda según necesidades específicas. Además, se incluyen animaciones simples, una narración clara y una simulación del uso real de la aplicación en dispositivos móviles.
+
+<img src="img/video-about.jpeg" alt="Video about the product"/>
+
+* Url Video About the product:
+https://youtu.be/6XoZkCqmiOo
 
 # Conclusiones
 
@@ -3123,28 +4203,38 @@ Durante el Sprint 2, se realizó la segmentación de tareas por features y se as
 
 ### Conclusiones
 
-- La corrección de los ítems observados en la primera entrega (TB1) permitió al equipo mejorar significativamente la calidad del proyecto, alineándose mejor con los requerimientos del curso.
+- Durante el Sprint 3, el equipo avanzó significativamente en el desarrollo del backend de la plataforma uTime.
 
-- La elaboración del Sprint 2, junto con su planificación y backlog, fortaleció la organización interna del equipo y permitió una gestión más efectiva de las tareas y tiempos.
+- Se logró consolidar la lógica principal del sistema, encargada de gestionar citas y servicios específicos para salones de belleza y barberías.
 
-- La creación del diagrama de clases fue clave para definir de manera clara la estructura y relación entre los componentes del sistema, facilitando su implementación posterior.
+- Este avance fue clave para acercarnos a una versión funcional e integrada de la aplicación, sentando las bases para una implementación completa.
 
-- El repositorio del proyecto FrontEnd en GitHub brindó una base organizada y accesible para el desarrollo colaborativo, asegurando el control de versiones y la trazabilidad del avance.
+- Las entrevistas de validación con usuarios reales proporcionaron retroalimentación valiosa que ayudó a verificar la utilidad y viabilidad del producto, así como a detectar mejoras necesarias desde la perspectiva del cliente.
 
-- La elaboración de evidencias de ejecución, documentación de servicios y despliegue del software validaron el cumplimiento de los objetivos del sprint, reforzando la importancia de documentar cada fase del proceso.
+- La producción del video About The Team facilitó la reflexión crítica del equipo sobre sus fortalezas, debilidades y oportunidades de mejora, promoviendo un ambiente más consciente y colaborativo.
+
+- En el video About The Product, se logró comunicar de manera clara y efectiva las funcionalidades del backend, de la aplicación principal y de la landing page, lo que fortaleció la presentación integral del proyecto frente a diferentes audiencias.
+
 
 ### Recomendaciones
 
-- Continuar con la documentación detallada de cada fase del desarrollo, especialmente en los próximos sprints, para mantener una trazabilidad clara del trabajo realizado.
+- Continuar fortaleciendo la validación con usuarios, incorporando sus comentarios directamente en los próximos sprints para mejorar la experiencia y funcionalidad del sistema.
 
-- Revisar constantemente los entregables previos para asegurar que se han corregido adecuadamente los ítems observados y no repetir los mismos errores en futuras entregas.
+- Documentar con mayor profundidad las rutas y servicios desarrollados en el backend, incluyendo pruebas y ejemplos de uso, para facilitar el mantenimiento y futuras integraciones.
 
-- Mantener el uso activo y ordenado del repositorio de código, asegurando que todos los miembros del equipo sigan buenas prácticas de versionamiento y documentación de commits.
+- Seguir promoviendo espacios de autoevaluación en el equipo, como se hizo en el video About The Team, para identificar a tiempo los aspectos a mejorar en la dinámica grupal.
 
- - Profundizar en la planificación de sprints futuros, identificando claramente las tareas críticas y los posibles riesgos, para mejorar la eficiencia del equipo.
+- Aprovechar los recursos multimedia como los videos explicativos para mejorar la comunicación del proyecto, tanto interna como externamente, asegurando que los avances técnicos sean comprendidos por todos los interesados.
 
-- Validar con los docentes y el sílabo que todas las evidencias generadas (review, services, deployment) cumplan con los criterios de evaluación establecidos, evitando omisiones en la entrega final.
+- Reforzar la conexión entre los módulos del frontend y backend, asegurando una integración fluida y bien documentada que permita escalar el sistema sin mayores fricciones.
 
+## 6.2 Video About-the-Team
+
+En este video hablamos sobre nuestro equipo de desarrollo de uTime, conformado por Kevin Chi, Jorge Sium, Marcelo Varela y yo, Gael Rivera. Cada uno de nosotros aporta habilidades distintas que se complementan muy bien, lo que nos ha permitido desarrollar diferentes partes del proyecto de forma eficiente. Una de nuestras principales fortalezas es justamente esa diversidad de conocimientos. Al inicio tuvimos algunos retos con la organización del tiempo, pero supimos adaptarnos, estableciendo mejor los horarios y dedicando momentos específicos para probar, ajustar y seguir avanzando. En este espacio queremos compartir cómo trabajamos juntos, nuestras fortalezas, debilidades y la forma en que logramos salir adelante como equipo.
+
+Enlace al Video About The Team: https://youtu.be/MGPQF3d2g2w
+
+![Nuestro equipo de desarrollo](img/video-team.png)
 
 # Bibliografía
 
@@ -3176,29 +4266,69 @@ Domain-Driven Design for Microservices: An Evidence-Based Investigation. (2024).
 
 # Anexos
 
-**Repositorio en GitHub - uTime (PaxTech):**<br>
+**Repositorio en GitHub - uTime (PaxTech) - Documento:**<br>
 
 https://github.com/UPC-PaxTech/uTime/
 
-**Repositorio en GitHub - uTime (Paxtech) -Frontend Web Applications**<br>
-
-https://github.com/UPC-PaxTech/Frontend-Web-Applications
-
-**Repositorio en GitHub - uTime (Paxtech) -Landing Page**<br>
+**Repositorio en GitHub - uTime (Paxtech) - Landing Page**<br>
 
 https://github.com/UPC-PaxTech/uTime-Landing-Page
 
-**Landing page** <br>
+**Url Deployment Github Pages - uTime (Paxtech) - Landing Page**<br>
 
 https://upc-paxtech.github.io/uTime-Landing-Page/
 
-**Frontend** <br>
+**Repositorio en GitHub - uTime (Paxtech) - Frontend Web Applications**<br>
+
+https://github.com/UPC-PaxTech/Frontend-Web-Applications
+
+**Url Deployment Github Pages - uTime (Paxtech) - Frontend Web Applications**<br>
 
 https://upc-paxtech.github.io/Frontend-Web-Applications/iam/login
+
+**Repositorio en GitHub - uTime (Paxtech) - Fake Api**<br>
+
+https://github.com/UPC-PaxTech/fakeapi
+
+
+**Repositorio en GitHub - uTime (Paxtech) - Web Services**<br>
+
+https://github.com/UPC-PaxTech/Web-Services
+
+**Url Deployment Azure - uTime (Paxtech) - Web Services**<br>
+
+https://utime-web-service.azurewebsites.net/swagger-ui/index.html
+
+
+**Url Video About the product:**
+
+* Microsoft Teams: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202319668_upc_edu_pe/ERfEtE8S3WdLhoWUYUmMBfoBUBbhrCgm_thuZDMjyRHQHg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=SQO69q
+
+* Youtube: https://youtu.be/6XoZkCqmiOo
+
+**Url Video About the team:**
+
+* Microsoft Teams: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202319668_upc_edu_pe/EfS5-WRVMhNGrQqRsa_bMwkBJ51OAEPnGQuqUFByRFvrOw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=8CcQNa
+
+* Youtube: https://youtu.be/MGPQF3d2g2w
+
+**Url Video Exposicion TB2:**
+
+* Microsoft Teams: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202319668_upc_edu_pe/EdxTfEcJDLtChxAxw8CYJQEBlyU6szgsgRMBqIo5g1HAyQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=9lRH2S
+
+* Youtube: https://youtu.be/5zxRtdKJqgE
+
+**Url Validation interview:**
+
+* Microsoft Teams: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202319668_upc_edu_pe/EWfoFFPlt_9GqNNBqZHlw0oB74qyZJ2L70u2gAmVRvcKug?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=teaqUe
+
+* Youtube: https://youtu.be/JRzb0Rx4c1o
 
 **Herramientas y Recursos Utilizados:**<br>
 
 URL del Needfinding Interviews: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202312504_upc_edu_pe/Eb0_dXIIVztGj7h_-J6z6IIBxfjUUU4WJPM7v3x5BmOlNA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=TzxLwv
+
+URL del Validation Interviews: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202319668_upc_edu_pe/EWfoFFPlt_9GqNNBqZHlw0oB74qyZJ2L70u2gAmVRvcKug?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=teaqUe
 
 URL del Prototypes Navigation / Product Navigation: https://www.figma.com/design/2RXg2e7OWrAbqYfNcw2EVP/UTIME?node-id=0-1&t=NPXJtI3GloAbxeeU-1
 
@@ -3208,12 +4338,12 @@ URL del diagrama base de datos: https://lucid.app/lucidchart/63a0bb3b-e0d7-4f40-
 
 **Cuentas de GitHub de los Integrantes:**<br>
 
-Kevin Chi – @Krillsom
+Kevin Chi – @Krillsom https://github.com/Krillsom
 
-Gael Rivera – @gael-rs
+Gael Rivera – @gael-rs https://github.com/gael-rs
 
-Marcelo Varela – @VarBus
+Marcelo Varela – @VarBus https://github.com/VarBus
 
-Angie Yalán – @aaaaangie
+Angie Yalán – @aaaaangie https://github.com/aaaaangie
 
-Jorge Yum – @myussu, @jsyumg
+Jorge Yum – @myussu, @jsyumg https://github.com/jsyumg

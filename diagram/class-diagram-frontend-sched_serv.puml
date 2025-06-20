@@ -1,0 +1,115 @@
+@startuml
+package "Schedule" {
+
+  package "Components" {
+    class CalendarComponent {
+      - days: string[]
+      - hours: string[]
+      - workers: string[]
+      - currentWorkerIndex: number
+      - calendars: Dashboard.Models.Appointment[]
+      + get currentWorker(): string
+      + swapWorker(): void
+      + ngOnInit(): void
+      + formatTime(dateStr: string): string
+      + formatDay(dateStr: string): string
+      + isToday(dateStr: string): boolean
+    }
+
+    class DatePickerComponent {
+      - selected: Date | null
+      - timeSlots: array
+      - selectedTimeSlot: any
+      + selectTimeSlot(slot: any): void
+      + reservationConfirmed: EventEmitter<{date: Date, timeSlot: any}>
+    }
+
+    class ReservationComponent {
+      - service: string
+      - startTime: string
+      - endTime: string
+      - clientName: string
+    }
+  }
+
+  package "Pages" {
+    class SchedulePageComponent {
+    }
+  }
+}
+
+' Relaciones Schedule
+
+Schedule.Pages.SchedulePageComponent --> Schedule.Components : composes
+
+package "Services" {
+
+  package "Components" {
+    class CreateServiceDialogComponent {
+      - service: Services.Models.ServiceResponse
+      + submit(): void
+      + cancel(): void
+    }
+
+    class ServiceListComponent {
+      - services: Services.Models.Service[]
+      + ngOnInit(): void
+    }
+
+    class ServiceTableComponent {
+      - displayedColumns: string[]
+      - services: Services.Models.Service[]
+      - servicesService: Services.Services.ServiceApiService
+      + createService(): void
+      + updateService(): void
+      + deleteService(id: number): void
+    }
+  }
+
+  package "Models" {
+    class Service {
+      - id: number
+      - name: string
+      - description: string
+      - duration: number
+      - price: number
+      - status: 'Active' | 'Paused'
+    }
+  }
+
+  package "Services" {
+    class ServiceApiService {
+      - resourceEndpoint: string
+      + getServices(): Observable<Services.Models.Service[]>
+    }
+
+    class ServiceAssembler {
+      + toEntityFromResource(resource: Services.Services.ServiceResponse): Services.Models.Service
+      + toEntitiesFromResponse(resources: Services.Services.ServiceResponse[]): Services.Models.Service[]
+      + toResponseFromEntity(entity: Services.Models.Service): Services.Services.ServiceResponse
+    }
+
+    interface ServiceResponse {
+      + id: number
+      + name: string
+      + description: string
+      + duration: number
+      + price: number
+      + status: 'Active' | 'Paused'
+    }
+  }
+
+  package "Pages" {
+    class ServicesTabComponent {
+      - service: Services.Models.Service[]
+      + ngOnInit(): void
+    }
+  }
+}
+
+Services.Pages ..> Services.Services : injects
+Services.Pages --> Services.Models
+Services.Pages --> Services.Components
+Services.Models <- Services.Components
+
+@enduml

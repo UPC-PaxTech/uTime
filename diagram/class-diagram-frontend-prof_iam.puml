@@ -1,0 +1,146 @@
+@startuml
+
+package "Iam" {
+  package "Pages" {
+    class RegisterPageComponent {
+      - isProvider: boolean
+      - showPlanSelector: boolean
+      + toggleForm(isProvider: boolean): void
+      + completeRegistration(): void
+    }
+
+    class LoginPage
+  }
+
+  package "Components" {
+    class RegisterFormClientComponent
+    class RegisterFormProviderComponent
+    class PlanSelectorComponent {
+      - selectedPlan: string
+      + onPlanSelect(plan: string): void
+    }
+    class LoginFormComponent
+  }
+
+  ' Relaciones internas
+  RegisterPageComponent --> Iam.Components.RegisterFormClientComponent : composes
+  RegisterPageComponent --> Iam.Components.RegisterFormProviderComponent : composes
+  RegisterPageComponent --> Iam.Components.PlanSelectorComponent : composes
+  RegisterPageComponent --> Iam.Components.LoginFormComponent : composes
+}
+
+package "Profiles" {
+
+  package "Components" {
+    class ProfileSalonHeaderComponent {
+      - profile: Profile.Models.SalonProfile
+    }
+
+    class ProfileSalonPortfolioComponent {
+      - profile: Profile.Models.SalonProfile
+      + onAddPhoto(): void
+      + onImageClick(imageUrl: string): void
+    }
+
+    ' refactor nombre de ProfileComponent-> ProfileClientComponent
+    class ProfileClientComponent {
+      - profileForm: FormGroup
+      - passwordForm: FormGroup
+      - profile: ProfileClient.Models.Profile
+      - isLoading: boolean
+      - passwordsMatch: boolean
+      - showCurrentPasswordField: boolean
+      + ngOnInit(): void
+      + loadProfile(): void
+      + updateForm(profile: ProfileClient.Models.Profile): void
+      + saveProfile(): void
+      + changePassword(): void
+      + logout(): void
+      + deleteAccount(): void
+    }
+  }
+
+  package "Models" {
+    entity ProfileSalon {
+      - profileId: number
+      - userId: string
+      - salonName: string
+      - rating: number
+      - profileImage: string
+      - coverImage: string
+      - socials: socials
+      - portfolioImages: string[]
+      - address: string
+      - email: string
+      - accounts: accounts
+    }
+
+    entity ProfileClient {
+      - accountId: string
+      - name: string
+      - email: string
+      - phoneNumber: string
+      - identityDocument: string
+      - notifications: boolean
+      - location: boolean
+    }
+  }
+
+  package "Pages" {
+    ' refactor nombre de ProfilePageComponent -> ProfileSalonPageComponent
+    class ProfileSalonPageComponent {
+      - profile: Profile.Models.SalonProfile
+      + ngOnInit(): void
+    }
+
+    class ProfileClientPageComponent {
+    }
+  }
+
+  package "Services" {
+    class ProfileSalonApiService {
+      - resourceEndpoint: string = "/salonProfiles"
+      + getProfileById(id: number): Observable<Profile.Models.SalonProfile>
+    }
+
+    class ProfileSalonAssembler {
+      + toEntityFromResponse(resource: SalonProfileResponse): Profile.Models.SalonProfile
+      + toEntitiesFromResponse(resources: SalonProfileResponse[]): Profile.Models.SalonProfile[]
+      + toResponseFromEntity(entity: Profile.Models.SalonProfile): SalonProfileResponse
+    }
+
+    ' refactor SalonProfileResponse -> ProfileSalonResponse
+    class ProfileSalonResponse {
+      - id: number
+      - userId: string
+      - salonName: string
+      - rating: number
+      - profileImage: string
+      - coverImage: string
+      - socials: socials
+      - portfolioImages: string[]
+      - accounts: accounts
+      - Address: string
+      - salonemail: string
+    }
+
+
+  ' verificar si ProfileClientService nesesita un assembler y un response
+  ' refactor nombre ProfileService->ProfileClientService
+    class ProfileClientService {
+      - apiUrl: string
+      + getProfile(): Observable<ProfileClient.Models.Profile>
+      + updateProfile(profile: ProfileClient.Models.Profile): Observable<ProfileClient.Models.Profile>
+      + changePassword(currentPassword: string, newPassword: string): Observable<boolean>
+      + logout(): Observable<boolean>
+      + deleteAccount(): Observable<boolean>
+    }
+  }
+}
+
+Profiles.Pages ..> Profiles.Services : injects
+Profiles.Pages --> Profiles.Models
+Profiles.Pages --> Profiles.Components
+Profiles.Models <- Profiles.Components
+
+@enduml

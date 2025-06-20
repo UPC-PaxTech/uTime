@@ -1,0 +1,33 @@
+@startuml
+skinparam packageStyle rectangle
+
+package "Shared" {
+    package "Infrastructure" {
+        package "Persistence" {
+            package "jpa" {
+                class SnakeCasePhysicalNamingStrategy <<Class>>
+            }
+        }
+    }
+    package "Domain" {
+        package "Model" {
+            package "Entity" {
+                class Money {
+                    -money: Money
+                }
+            }
+            package "ValueObjects" {
+                class Money <<ValueObject>> {
+                    currency: string
+                    amount: long
+                }
+            }
+        }
+    }
+}
+
+' === RELACIONES ===
+Shared.Domain.Model.Entity.Money ..> Shared.Domain.Model.ValueObjects.Money
+Shared.Infrastructure.Persistence.jpa.SnakeCasePhysicalNamingStrategy ..> org.hibernate.boot.model.naming
+
+@enduml

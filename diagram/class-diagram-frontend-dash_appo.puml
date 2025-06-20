@@ -1,0 +1,202 @@
+@startuml
+package "Appointments" {
+
+  package "Components" {
+    class AppointmentsItemComponent {
+      - appointment: ClientAppointment
+      + formatDay(dateString: string): string
+      + formatTime(dateString: string): string
+    }
+
+    class AppointmentsListComponent {
+      - appointments: ClientAppointment[]
+      - reviews: Review[]
+      - appointmentService: AppointmentApiService
+      - reviewService: ReviewApiService
+      + ngOnInit(): void
+      + loadAppointments(): void
+      + trackById(index: number, item: ClientAppointment): string
+    }
+
+    class UpcomingAppointmentsComponent {
+      - upcomingAppointments: Appointment[]
+      - appointmentService: AppointmentApiService
+      - translate: TranslateService
+      + ngOnInit(): void
+      + formatTime(dateStr: string): string
+      + formatDay(dateStr: string): string
+      + isToday(dateStr: string): boolean
+    }
+  }
+    ' Declaramos ReviewItemComponent y ReviewListComponent solo aquí en appointments.components
+
+  package "Models" {
+    entity ClientAppointment {
+      - reservationId: string
+      - tipo: string
+      - clientName: string
+      - salonName: string
+      - paymentStatus: boolean
+      - timeSlotStart: string
+      - timeSlotEnd: string
+    }
+  }
+
+  package "Pages" {
+    class AppointmentMakerComponent {
+      - worker: Worker[]
+      - selectedReservation: { date: Date, timeSlot: any } | null
+      + ngOnInit(): void
+      + onReservationConfirmed(event: { date: Date, timeSlot: any }): void
+      + bookAppointment(): void
+    }
+    class ClientAppointmentPagesComponent {
+    }
+
+    'favorite bounded context borrado y puesto el page aqui
+    class ClientFavoriteComponent {
+    }
+  }
+
+  package "Services" {
+    class AppointmentApiService {
+      - resourceEndpoint: string = "/reservationDetails"
+      + getAppointments(): Observable<ClientAppointment[]>
+    }
+
+    class AppointmentAssembler {
+      + toEntityFromResource(resource: AppointmentResponse): ClientAppointment
+      + toEntitiesFromResponse(resources: AppointmentResponse[]): ClientAppointment[]
+    }
+    class AppointmentResponse {
+      - reservationId: string
+      - tipo: string
+      - client: Client
+      - salon: Salon
+      - payment: Payment
+      - timeSlot: TimeSlot
+    }
+  }
+}
+
+package "Dashboard" {
+
+  package "Components" {
+    ' Declaramos ReviewItemComponent y ReviewListComponent **solo como referencia** (no redeclarar)
+    ' Para evitar duplicados referenciamos las del paquete appointments.components en relaciones
+
+    class SalonItemComponent {
+      - salon: Salon
+      + salonSelected: EventEmitter<Salon>
+    }
+
+    class SalonListComponent {
+      - salons: Salon[]
+      + ngOnInit(): void
+    }
+
+    class StaffItemComponent {
+      - worker: Worker
+    }
+
+    class StaffListComponent {
+      - WorkerList: Worker[]
+    }
+
+    'refactor movido de el favorite bounded context borrado a aqui
+    class SalonGridComponent {
+      - salons: Dashboard.Models.Salon[]
+      + ngOnInit(): void
+    }
+  }
+
+  package "Models" {
+
+    entity Salon {
+      - salonId: string
+      - location: string
+      - imageURL: string
+      - phone: number
+      - name: string
+    }
+
+    entity Worker {
+      - id: number
+      - nombre: string
+      - especializacion: string
+      - foto: string
+    }
+
+
+  }
+
+  package "Pages" {
+    class ClientDashboardComponent {
+    }
+
+    class ProfessionalDashboardComponent {
+      - worker: Worker[]
+      - reviews: Review[]
+      + ngOnInit(): void
+    }
+
+    class SalonComponent {
+      - salon: Salon
+      - profile: SalonProfile
+      - reviews: Review[]
+      - services: Service[]
+      + ngOnInit(): void
+      + salonSelected: EventEmitter<Salon>
+    }
+  }
+
+  package "Services" {
+    class SalonApiService {
+      - baseUrl: string
+      - detailsEndpoint: string = "/salons"
+      + getSalons(): Observable<Salon[]>
+    }
+
+    class WorkerApiService {
+      - resourceEndpoint: string = "/workers"
+      + getWorkers(): Observable<Worker[]>
+    }
+
+    class SalonAssembler {
+      + toEntityFromResource(resource: SalonsResource): Salon
+      + toEntitiesfromResponse(response: SalonsResponse): Salon[]
+    }
+
+    class WorkerAssembler {
+      + toEntityFromResource(resource: WorkerResource): Worker
+      + toEntitiesFromResponse(resources: WorkerResource[]): Worker[]
+    }
+
+    class SalonsResource {
+      - name: string
+      - salonId: string
+      - location: string
+      - imageURL: string
+      - phone: number
+    }
+
+    class WorkerResource {
+      - workerId: number
+      - nombre: string
+      - especializacion: string
+      - fotoUrl: string
+    }
+  }
+}
+
+Dashboard.Pages ..> Dashboard.Services : injects
+Dashboard.Pages --> Dashboard.Models
+Dashboard.Pages --> Dashboard.Components
+Dashboard.Models <- Dashboard.Components
+
+Appointments.Pages ..> Appointments.Services: injects
+Appointments.Pages --> Appointments.Models
+Appointments.Pages --> Appointments.Components
+Appointments.Models <- Appointments.Components
+
+@enduml

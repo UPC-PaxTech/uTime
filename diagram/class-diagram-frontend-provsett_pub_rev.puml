@@ -1,0 +1,92 @@
+@startuml
+package "ProviderSettings" {
+
+  package "Components" {
+    class SettingsComponent {
+      - profile: Profile.Models.SalonProfile
+    }
+
+    class SettingsPasswordComponent {
+      - profile: Profile.Models.SalonProfile
+      - value: string
+      - currentPassword: string
+      - passwordService: Profile.Services.SalonProfileApiService
+      + updatePassword(): void
+    }
+  }
+
+  package "Pages" {
+    class SettingsPageComponent {
+      - profile: Profile.Models.SalonProfile
+      + ngOnInit(): void
+    }
+  }
+}
+
+package "Reviews" {
+
+    ' Cobinar ReviewItem de dashboard y profile
+    ' fijarse en la diferencia de html
+  package "Components" {
+    class ReviewItemComponent {
+      - review: Review
+      + getStars(): number[]
+    }
+
+
+    'Fijarse en la diferencia entre el List de profile y el de dashboard
+    'probablemente no combinar y crear un tercer componente
+    'de recent reviews
+    class ReviewListComponent {
+      - reviews: Review[]
+    }
+
+    'Utilizar código de ReviewList de appointments, separar funcionalidad,
+    'cambiar código de client appointment pages para reflejar los cambios
+    class ReviewMakerComponent {
+    }
+  }
+
+  package "Models" {
+    entity Review {
+      - id: number
+      - author: string
+      - rating: number
+      - text: string
+      - read: boolean
+    }
+  }
+  package "Pages" {
+    class ReviewsTabComponent {
+      - reviews: Review[]
+      + ngOnInit(): void
+    }
+  }
+
+  package "Services" {
+
+    class ReviewAssembler {
+      + toEntityFromResource(resource: ReviewResponse): Review
+      + toEntitiesFromResponse(resources: ReviewResponse[]): Review[]
+    }
+    class ReviewResponse {
+      - id: number
+      - author: string
+      - rating: number
+      - text: string
+      - read: boolean
+    }
+    class ReviewApiService {
+      - resourceEndpoint: string = "/reviews"
+      + getReviews(): Observable<Review[]>
+    }
+  }
+}
+
+Reviews.Pages ..> Reviews.Services : injects
+Reviews.Pages --> Reviews.Models
+Reviews.Pages --> Reviews.Components
+Reviews.Models <- Reviews.Components
+
+ProviderSettings.Pages --> ProviderSettings.Components
+@enduml
