@@ -3987,16 +3987,16 @@ En el Sprint 3, se dividieron las tareas según las funcionalidades del sistema 
 # Segmento Objetivo 1 (Salones de Belleza y Barberías)
 
 ## Datos del Entrevistado #1
-- **Nombre completo:** 
-- **Segmento Objetivo:** 
-- **Edad:** 
-- **Distrito:** 
-- **Screenshot del cuadro de video:** *![]()*
-- **URL del video (Microsoft Stream):** *[Entrevista 0#]()*
-- **Inicio de la entrevista:** 
-- **Duración:** 
+- **Nombre completo:*Vianka Aracelli Graciel Diaz Dueñas* 
+- **Segmento Objetivo:*Recepcionista de un salón de belleza* 
+- **Edad:*19 años* 
+- **Distrito:*San Juan De Lurigancho* 
+- **Screenshot del cuadro de video:** *![interview_1.jpeg](img/entrevista_salon_validation.png)*
+- **URL del video (Microsoft Stream):** *[Entrevista 01]()*
+- **Inicio de la entrevista:14:19* 
+- **Duración:*20:21* 
 
-**Resumen:** 
+**Resumen:** Vianka consideró que la landing de uTime comunica bien la propuesta y destacó la explicación del funcionamiento y los testimonios. Le pareció útil y estaría interesada en probar la plataforma. Al usar la app web, le resultó fácil e intuitiva. Valoró especialmente el calendario visual y las notificaciones automáticas, aunque al inicio tuvo dificultad para volver al menú principal. Calificó la herramienta con 8/10 y estaría dispuesta a pagar si mejora la gestión del salón. Sugiere integrar WhatsApp o SMS para facilitar aún más la comunicación con los clientes.
 
 ## Datos del Entrevistado #2
 - **Nombre completo:**
