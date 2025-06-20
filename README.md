@@ -3992,16 +3992,9 @@ En el Sprint 3, se dividieron las tareas según las funcionalidades del sistema 
 - **Edad:*19 años* 
 - **Distrito:*San Juan De Lurigancho* 
 - **Screenshot del cuadro de video:** *![interview_1.jpeg](img/entrevista_salon_validation.png)*
-<<<<<<< HEAD
 - **URL del video (Microsoft Stream):** *[Entrevista 01]()*
 - **Inicio de la entrevista:14:19* 
-- **Duración:*20:21* 
-
-=======
-- **URL del video (Microsoft Stream):** *[Entrevista 1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202319668_upc_edu_pe/EWfoFFPlt_9GqNNBqZHlw0oB74qyZJ2L70u2gAmVRvcKug?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=teaqUe)*
-- **Inicio de la entrevista:** 14:19 
-- **Duración:** 20:21minutos
->>>>>>> feature/inter
+- **Duración:*20:21*
 **Resumen:** Vianka consideró que la landing de uTime comunica bien la propuesta y destacó la explicación del funcionamiento y los testimonios. Le pareció útil y estaría interesada en probar la plataforma. Al usar la app web, le resultó fácil e intuitiva. Valoró especialmente el calendario visual y las notificaciones automáticas, aunque al inicio tuvo dificultad para volver al menú principal. Calificó la herramienta con 8/10 y estaría dispuesta a pagar si mejora la gestión del salón. Sugiere integrar WhatsApp o SMS para facilitar aún más la comunicación con los clientes.
 
 ## Datos del Entrevistado #2
