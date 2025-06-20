@@ -4041,7 +4041,7 @@ En el Sprint 3, se dividieron las tareas según las funcionalidades del sistema 
 - **Inicio de la entrevista:** 6:22 minutos
 - **Duración:** 14:19 minutos
 
-**Resumen:**Luis, un usuario habitual de servicios de belleza, actualmente realiza sus reservas mediante WhatsApp, pero identifica como problemática la demora en recibir respuestas por ese medio. Durante la entrevista de validación, expresó que la landing page de uTime le pareció visualmente atractiva, con un diseño moderno y colores bien seleccionados. También valoró positivamente la interfaz de la aplicación web, destacando su coherencia estética con la página de inicio. Como sugerencia, recomendó ajustar el tamaño de algunas tarjetas (cards) dentro de la plataforma para lograr una presentación más armoniosa. En general, mostró disposición a usar uTime, considerando que le ofrecería una solución más eficiente frente a los tiempos de espera actuales.
+**Resumen:** Luis, un usuario habitual de servicios de belleza, actualmente realiza sus reservas mediante WhatsApp, pero identifica como problemática la demora en recibir respuestas por ese medio. Durante la entrevista de validación, expresó que la landing page de uTime le pareció visualmente atractiva, con un diseño moderno y colores bien seleccionados. También valoró positivamente la interfaz de la aplicación web, destacando su coherencia estética con la página de inicio. Como sugerencia, recomendó ajustar el tamaño de algunas tarjetas (cards) dentro de la plataforma para lograr una presentación más armoniosa. En general, mostró disposición a usar uTime, considerando que le ofrecería una solución más eficiente frente a los tiempos de espera actuales.
 
 
 ## Datos del Entrevistado #3
