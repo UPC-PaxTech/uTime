@@ -3987,7 +3987,6 @@ En el Sprint 3, se dividieron las tareas según las funcionalidades del sistema 
 # Segmento Objetivo 1 (Salones de Belleza y Barberías)
 
 ## Datos del Entrevistado #1
-<<<<<<< HEAD
 - **Nombre completo:*Vianka Aracelli Graciel Diaz Dueñas* 
 - **Segmento Objetivo:*Recepcionista de un salón de belleza* 
 - **Edad:*19 años* 
