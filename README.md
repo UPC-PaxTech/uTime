@@ -3987,6 +3987,7 @@ En el Sprint 3, se dividieron las tareas según las funcionalidades del sistema 
 # Segmento Objetivo 1 (Salones de Belleza y Barberías)
 
 ## Datos del Entrevistado #1
+<<<<<<< HEAD
 - **Nombre completo:*Vianka Aracelli Graciel Diaz Dueñas* 
 - **Segmento Objetivo:*Recepcionista de un salón de belleza* 
 - **Edad:*19 años* 
@@ -3995,6 +3996,16 @@ En el Sprint 3, se dividieron las tareas según las funcionalidades del sistema 
 - **URL del video (Microsoft Stream):** *[Entrevista 01]()*
 - **Inicio de la entrevista:14:19* 
 - **Duración:*20:21* 
+=======
+- **Nombre completo: Luiz Fernando Suivete Farfan** 
+- **Segmento Objetivo:** Dueño de barbería
+- **Edad:**  24 años
+- **Distrito:**  Vavo Grande
+- **Screenshot del cuadro de video:** *![Entrevista #1]()*
+- **URL del video (Microsoft Stream):** *[Entrevista #1]()*
+- **Inicio de la entrevista:** 
+- **Duración:** 
+>>>>>>> ede5f6e9ed04d05fc50aab31ddf5933f80e8fe41
 
 **Resumen:** Vianka consideró que la landing de uTime comunica bien la propuesta y destacó la explicación del funcionamiento y los testimonios. Le pareció útil y estaría interesada en probar la plataforma. Al usar la app web, le resultó fácil e intuitiva. Valoró especialmente el calendario visual y las notificaciones automáticas, aunque al inicio tuvo dificultad para volver al menú principal. Calificó la herramienta con 8/10 y estaría dispuesta a pagar si mejora la gestión del salón. Sugiere integrar WhatsApp o SMS para facilitar aún más la comunicación con los clientes.
 
