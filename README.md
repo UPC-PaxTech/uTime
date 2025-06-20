@@ -3357,8 +3357,6 @@ En el tercer sprint backlog, el equipo tuvo la intención de iniciar y avanzar e
       <td><b>Assigned To</b></td>
       <td><b>Status</b></td>
    </tr>
-
-   <!-- TS01 - Encriptación de contraseñas -->
    <tr>
       <td rowspan="2">TS01</td>
       <td rowspan="2">Encriptación de contraseñas</td>
