@@ -2748,7 +2748,7 @@ Para este Sprint, se han identificado los principales aspectos del frontend web 
 
 En el segundo sprint backlog, el equipo tuvo la intención de comenzar y completar el desarrollo del frontend de la aplicación web, tanto para el rol de cliente como de proveedor. La herramienta utilizada para organizar y gestionar las tareas del equipo continuó siendo Trello, permitiendo dividir las user stories en tareas manejables y asignarlas a los miembros según sus habilidades específicas. El objetivo principal del sprint fue implementar las funcionalidades clave de ambos roles, asegurando una interfaz intuitiva, responsiva y funcional utilizando Angular y Angular Material.
 
-<table border="1" cellspacing="0" cellpadding="5">
+<table>
    <tr>
       <td colspan="2" align="center"><b>Sprint #</b></td>
       <td colspan="6" align="center"><b>Sprint 2</b></td>
