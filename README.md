@@ -4056,8 +4056,8 @@ En el Sprint 3, se dividieron las tareas según las funcionalidades del sistema 
 ##### Usability – Inclusive Design – Information Architecture
 
 *CARRERA*: Ingeniería de Software  
-*CURSO*: Aplicaciones Web  
-*SECCIÓN*: 4363  
+*CURSO*:   Desarrollo de aplicaciones Open Source
+*SECCIÓN*: 4304  
 *PROFESORES*: Todos  
 *AUDITOR*: Grupo PropGMS – Evaluación UX uTime  
 *CLIENTE(S)*: Equipo de desarrollo de PaxTech (uTime)
