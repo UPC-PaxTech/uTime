@@ -3809,7 +3809,7 @@ En esta sección podemos visualizar los time slots que son una pieza principal e
 
 #### 7. Services
 En esta sección tenemos Services el cual forma parte del manejo de negocio y ayuda en la lógica del servicio de cada parametro del sistema; en este sentido tenemos un "GET" que devuelve cada servicio registrado en la estructura del medio, un "POST" que permite registrar el servicio que el usuario desea recibir al momento de reservar sus citas, un PUT para modificar lam informacion de la seccion y un DELETE para eliminarla.
-<img src="img/Services_pro.png" alt="Providers endpoint" />
+<img src="img/services_pro.png" alt="Providers endpoint" />
 
 
 #### 8. Users
