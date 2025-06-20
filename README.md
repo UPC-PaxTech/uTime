@@ -3992,34 +3992,27 @@ En el Sprint 3, se dividieron las tareas según las funcionalidades del sistema 
 - **Edad:*19 años* 
 - **Distrito:*San Juan De Lurigancho* 
 - **Screenshot del cuadro de video:** *![interview_1.jpeg](img/entrevista_salon_validation.png)*
+<<<<<<< HEAD
 - **URL del video (Microsoft Stream):** *[Entrevista 01]()*
 - **Inicio de la entrevista:14:19* 
 - **Duración:*20:21* 
 
+=======
+- **URL del video (Microsoft Stream):** *[Entrevista 1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202319668_upc_edu_pe/EWfoFFPlt_9GqNNBqZHlw0oB74qyZJ2L70u2gAmVRvcKug?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=teaqUe)*
+- **Inicio de la entrevista:** 14:19 
+- **Duración:** 20:21minutos
+>>>>>>> feature/inter
 **Resumen:** Vianka consideró que la landing de uTime comunica bien la propuesta y destacó la explicación del funcionamiento y los testimonios. Le pareció útil y estaría interesada en probar la plataforma. Al usar la app web, le resultó fácil e intuitiva. Valoró especialmente el calendario visual y las notificaciones automáticas, aunque al inicio tuvo dificultad para volver al menú principal. Calificó la herramienta con 8/10 y estaría dispuesta a pagar si mejora la gestión del salón. Sugiere integrar WhatsApp o SMS para facilitar aún más la comunicación con los clientes.
 
 ## Datos del Entrevistado #2
-- **Nombre completo:**
-- **Segmento Objetivo:**
-- **Edad:**
-- **Distrito:**
-- **Screenshot del cuadro de video:** *![]()*
-- **URL del video (Microsoft Stream):** *[Entrevista 0#]()*
-- **Inicio de la entrevista:**
-- **Duración:**
-
-**Resumen:**
-
-
-## Datos del Entrevistado #3
-- **Nombre completo:**
-- **Segmento Objetivo:**
-- **Edad:**
-- **Distrito:**
-- **Screenshot del cuadro de video:** *![]()*
-- **URL del video (Microsoft Stream):** *[Entrevista 0#]()*
-- **Inicio de la entrevista:**
-- **Duración:**
+- **Nombre completo: ** Luiz Fernando Suivete Farfan
+- **Segmento Objetivo:** Dueño de barbería
+- **Edad:**  24 años
+- **Distrito:**  Vavo Grande
+- **Screenshot del cuadro de video:** *![Entrevista 2]()*
+- **URL del video (Microsoft Stream):** *[Entrevista 02](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202319668_upc_edu_pe/EWfoFFPlt_9GqNNBqZHlw0oB74qyZJ2L70u2gAmVRvcKug?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=teaqUe)*
+- **Inicio de la entrevista:** 20:21 minutos
+- **Duración:** 23:42 minutos
 
 **Resumen:**
 
@@ -4032,47 +4025,34 @@ En el Sprint 3, se dividieron las tareas según las funcionalidades del sistema 
 - **Edad:** 20 años
 - **Distrito:** Cercado De Lima
 - **Screenshot del cuadro de video:** *![interview_1.jpeg](img/cliente_validation_alison.png)*
-- **URL del video (Microsoft Stream):** *[Entrevista 01]()*
+- **URL del video (Microsoft Stream):** *[Entrevista 01](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202319668_upc_edu_pe/EWfoFFPlt_9GqNNBqZHlw0oB74qyZJ2L70u2gAmVRvcKug?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=teaqUe)*
 - **Inicio de la entrevista:** 0:10 minutos
 - **Duración:** 4:24 minutos
 
 **Resumen:** Allison Galindo es una universitaria de 20 años que vive en el Cercado de Lima. Acude a servicios de belleza de forma ocasional, priorizando encontrar disponibilidad en los horarios que se ajusten a su rutina académica. Aunque anteriormente solía reservar citas por WhatsApp o redes sociales, ha manifestado interés en utilizar plataformas digitales como uTime, siempre que estas sean claras, organizadas y confiables.  Le resulta importante poder filtrar estilistas por zona y tipo de servicio, así como evitar el tiempo perdido escribiendo individualmente a cada salón. Allison valora la puntualidad, la seguridad al momento de pagar (usando tarjeta o billeteras móviles como Yape o Plin), y considera muy útil recibir notificaciones o recordatorios automáticos de sus citas. Durante su experiencia con la aplicación de uTime, destacó positivamente la facilidad para registrarse, navegar, agendar citas y el diseño moderno de la plataforma. Además, le gustaría contar con funcionalidades como un chat directo con el estilista y la posibilidad de recibir actualizaciones en tiempo real sobre el estado de su cita. En general, considera que las herramientas digitales pueden mejorar notablemente la experiencia del cliente si están bien implementadas y comunican claramente todas sus funcionalidades.
 
 ## Datos del Entrevistado #2
-- **Nombre completo:**
-- **Segmento Objetivo:**
-- **Edad:**
-- **Distrito:**
-- **Screenshot del cuadro de video:** *![]()*
-- **URL del video (Microsoft Stream):** *[Entrevista 0#]()*
-- **Inicio de la entrevista:**
-- **Duración:**
+- **Nombre completo:** Luis Andrés Alva Abanto
+- **Segmento Objetivo:** Clientes de servicio de belleza
+- **Edad:** 19 años
+- **Distrito:** San Borja
+- **Screenshot del cuadro de video:** *![interview_2.jpeg](img/angie_foto.png)*
+- **URL del video (Microsoft Stream):** *[Entrevista 02](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202319668_upc_edu_pe/EWfoFFPlt_9GqNNBqZHlw0oB74qyZJ2L70u2gAmVRvcKug?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=teaqUe)*
+- **Inicio de la entrevista:** 6:22 minutos
+- **Duración:** 14:19 minutos
 
-**Resumen:**
+**Resumen:**Luis, un usuario habitual de servicios de belleza, actualmente realiza sus reservas mediante WhatsApp, pero identifica como problemática la demora en recibir respuestas por ese medio. Durante la entrevista de validación, expresó que la landing page de uTime le pareció visualmente atractiva, con un diseño moderno y colores bien seleccionados. También valoró positivamente la interfaz de la aplicación web, destacando su coherencia estética con la página de inicio. Como sugerencia, recomendó ajustar el tamaño de algunas tarjetas (cards) dentro de la plataforma para lograr una presentación más armoniosa. En general, mostró disposición a usar uTime, considerando que le ofrecería una solución más eficiente frente a los tiempos de espera actuales.
 
 
 ## Datos del Entrevistado #3
-- **Nombre completo:**
-- **Segmento Objetivo:**
-- **Edad:**
-- **Distrito:**
-- **Screenshot del cuadro de video:** *![]()*
-- **URL del video (Microsoft Stream):** *[Entrevista 0#]()*
-- **Inicio de la entrevista:**
-- **Duración:**
-
-**Resumen:**
-
-
-
 - **Nombre completo:** Doris Yolanda Tello
 - **Segmento Objetivo:** Clientes de servicio de belleza
 - **Edad:** 60
 - **Distrito:** La Molina
 - **Screenshot del cuadro de video:** *![interview_2.jpeg](img/entrevista2s2.png)*
-- **URL del video (Microsoft Stream):** *[Entrevista 02]()*
-- **Inicio de la entrevista:**
-- **Duración:**
+- **URL del video (Microsoft Stream):** *[Entrevista 03](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202319668_upc_edu_pe/EWfoFFPlt_9GqNNBqZHlw0oB74qyZJ2L70u2gAmVRvcKug?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=teaqUe)*
+- **Inicio de la entrevista:** 4:24 minutos
+- **Duración:** 6:21 minutos
 
 **Resumen:** La clienta se encuentra satisfecha con la mayoría de las funcionalidades de uTime, aunque desearía que pueda especificar que no desea pagar de antemano
 
@@ -4339,6 +4319,12 @@ https://utime-web-service.azurewebsites.net/swagger-ui/index.html
 * Microsoft Teams: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202319668_upc_edu_pe/EdxTfEcJDLtChxAxw8CYJQEBlyU6szgsgRMBqIo5g1HAyQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=9lRH2S
 
 * Youtube: https://youtu.be/5zxRtdKJqgE
+
+**Url Validation interview:**
+
+* Microsoft Teams: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202319668_upc_edu_pe/EWfoFFPlt_9GqNNBqZHlw0oB74qyZJ2L70u2gAmVRvcKug?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=teaqUe
+
+* Youtube: https://youtu.be/JRzb0Rx4c1o
 
 **Herramientas y Recursos Utilizados:**<br>
 
