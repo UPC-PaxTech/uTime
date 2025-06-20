@@ -3788,8 +3788,8 @@ En esta sección se muestra el endpoint de ProviderProfile con los diversos mét
 
 
 #### 3.Workers
-En esta sección tenemos el endpoint de Workers con los diversos metodos del servidor e implementación de recursos respecto del servicio; en este sentido tenemos un "GET" el cual permite el llamado de todos los workers registrados en el sistema; asi como un "POST" que permite el registro de nuevos workers en el sistema y un "GET BY ID" que permite el llamado de cada worker registrado mediante su {id}.
-<img src="img/workers_end.png" alt="Providers endpoint" />
+En esta sección tenemos el endpoint de Workers con los diversos metodos del servidor e implementación de recursos respecto del servicio; en este sentido tenemos un "GET" el cual permite el llamado de todos los workers registrados en el sistema; asi como un "POST" que permite el registro de nuevos workers en el sistema, un "GET BY ID" que permite el llamado de cada worker registrado mediante su {id}, un PUT para modificar lam informacion de la seccion y un DELETE para eliminarla.
+<img src="img/workers_pro.png" alt="Providers endpoint" />
 
 
 #### 4.Authentication
@@ -3808,14 +3808,18 @@ En esta sección podemos visualizar los time slots que son una pieza principal e
 
 
 #### 7. Services
-En esta sección tenemos Services el cual forma parte del manejo de negocio y ayuda en la lógica del servicio de cada parametro del sistema; en este sentido tenemos un "GET" que devuelve cada servicio registrado en la estructura del medio y un "POST" que permite registrar el servicio que el usuario desea recibir al momento de reservar sus citas.
-<img src="img/Services_end.png" alt="Providers endpoint" />
+En esta sección tenemos Services el cual forma parte del manejo de negocio y ayuda en la lógica del servicio de cada parametro del sistema; en este sentido tenemos un "GET" que devuelve cada servicio registrado en la estructura del medio, un "POST" que permite registrar el servicio que el usuario desea recibir al momento de reservar sus citas, un PUT para modificar lam informacion de la seccion y un DELETE para eliminarla.
+<img src="img/Services_pro.png" alt="Providers endpoint" />
 
 
 #### 8. Users
 En esta sección tenemos a Users el cual contiene a los providers y clients del negocio funciona como un estructura padre que hereda a ambas partes sus caracteristicas dependiendo de las necesaidades que contiene cada uno; en este sentido tenemos dos "GET" uno para devolver a todos los usuarios registrados en el servicio y otro para llamarlos mediante su {id}.
 <img src="img/Users_end.png" alt="Providers endpoint" />
 
+
+#### 9. Payments
+En esta sección tenemos a payments que se encargará de la administracion de pagos de los servicios de las suscripciones de la plataforma; en este sentido cuenta con un "GET" para devolver todos los pagos un "POST" para realizar un nuevo pago y un "GET BY ID " para traer los pagos por {id}.
+<img src="img/payments.png" alt="Providers endpoint" />
 
 ### 5.2.3.6. Services Documentation Evidence for Sprint Review
 A continuación, se presentan tres fragmentos de código que evidencian el uso e implementación de los servicio dentro del sistema Backend, abarcando desde la configuracion de los endpoints, asi como la lógica de la estructura para los bounded context del negocio:
