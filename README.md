@@ -3987,11 +3987,11 @@ En el Sprint 3, se dividieron las tareas según las funcionalidades del sistema 
 # Segmento Objetivo 1 (Salones de Belleza y Barberías)
 
 ## Datos del Entrevistado #1
-- **Nombre completo: Luiz Fernando Suivete Farfan** 
+- **Nombre completo:**  Luiz Fernando Suivete Farfan
 - **Segmento Objetivo:** Dueño de barbería
 - **Edad:**  24 años
 - **Distrito:**  Vavo Grande
-- **Screenshot del cuadro de video:** *![Entrevista #1]()*
+- **Screenshot del cuadro de video:** *![Entrevista #1](img/Screenshot%202025-06-19%20225947.png)
 - **URL del video (Microsoft Stream):** *[Entrevista #1]()*
 - **Inicio de la entrevista:** 
 - **Duración:** 
