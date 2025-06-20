@@ -3375,8 +3375,6 @@ En el tercer sprint backlog, el equipo tuvo la intención de iniciar y avanzar e
       <td>Yum Gonzales, Jorge Suin</td>
       <td>In-Process</td>
    </tr>
-
-   <!-- TS03 - Validaciones de formularios -->
    <tr>
       <td rowspan="2">TS03</td>
       <td rowspan="2">Validaciones de formularios</td>
@@ -3395,8 +3393,6 @@ En el tercer sprint backlog, el equipo tuvo la intención de iniciar y avanzar e
       <td>Chi Cruzatt, Kevin Jorge</td>
       <td>To-Review</td>
    </tr>
-
-   <!-- TS07 - Creación de endpoints para consulta de usuarios -->
    <tr>
       <td rowspan="3">TS07</td>
       <td rowspan="3">Creación de endpoints para consulta de usuarios</td>
@@ -3423,8 +3419,6 @@ En el tercer sprint backlog, el equipo tuvo la intención de iniciar y avanzar e
       <td>Yum Gonzales, Jorge Suin</td>
       <td>Done</td>
    </tr>
-
-   <!-- TS08 - Implementación de endpoints para gestión de proveedores -->
    <tr>
       <td rowspan="3">TS08</td>
       <td rowspan="3">Implementación de endpoints para gestión de proveedores</td>
@@ -3451,8 +3445,6 @@ En el tercer sprint backlog, el equipo tuvo la intención de iniciar y avanzar e
       <td>Chi Cruzatt, Kevin Jorge</td>
       <td>Done</td>
    </tr>
-
-   <!-- TS09 - Implementación de endpoints para gestión de perfil de proveedor -->
    <tr>
       <td rowspan="2">TS09</td>
       <td rowspan="2">Implementación de endpoints para gestión de perfil de proveedor</td>
@@ -3471,8 +3463,6 @@ En el tercer sprint backlog, el equipo tuvo la intención de iniciar y avanzar e
       <td>Varela Bustinza, Marcelo Alessandro</td>
       <td>Done</td>
    </tr>
-
-   <!-- TS10 - Implementación de endpoints para gestión de workers -->
    <tr>
       <td rowspan="3">TS10</td>
       <td rowspan="3">Implementación de endpoints para gestión de workers</td>
@@ -3499,8 +3489,6 @@ En el tercer sprint backlog, el equipo tuvo la intención de iniciar y avanzar e
       <td>Rivera Sosa, Eduardo Gael</td>
       <td>Done</td>
    </tr>
-
-   <!-- TS11 - Implementación de endpoints para autenticación de usuarios -->
    <tr>
       <td rowspan="2">TS11</td>
       <td rowspan="2">Implementación de endpoints para autenticación de usuarios</td>
@@ -3519,8 +3507,6 @@ En el tercer sprint backlog, el equipo tuvo la intención de iniciar y avanzar e
       <td>Chi Cruzatt, Kevin Jorge</td>
       <td>Done</td>
    </tr>
-
-   <!-- TS12 - Implementación de endpoints para gestión de clientes -->
    <tr>
       <td rowspan="3">TS12</td>
       <td rowspan="3">Implementación de endpoints para gestión de clientes</td>
@@ -3547,8 +3533,6 @@ En el tercer sprint backlog, el equipo tuvo la intención de iniciar y avanzar e
       <td>Chi Cruzatt, Kevin Jorge</td>
       <td>Done</td>
    </tr>
-
-   <!-- TS13 - Implementación de endpoints para gestión de timeslots -->
    <tr>
       <td rowspan="3">TS13</td>
       <td rowspan="3">Implementación de endpoints para gestión de timeslots</td>
@@ -3575,8 +3559,6 @@ En el tercer sprint backlog, el equipo tuvo la intención de iniciar y avanzar e
       <td>Rivera Sosa, Eduardo Gael</td>
       <td>Done</td>
    </tr>
-
-   <!-- TS14 - Implementación de endpoints para gestión de servicios -->
    <tr>
       <td rowspan="2">TS14</td>
       <td rowspan="2">Implementación de endpoints para gestión de servicios</td>
@@ -3595,8 +3577,6 @@ En el tercer sprint backlog, el equipo tuvo la intención de iniciar y avanzar e
       <td>Varela Bustinza, Marcelo Alessandro</td>
       <td>Done</td>
    </tr>
-
-   <!-- TS15 - Implementación de endpoints para consulta de usuarios -->
    <tr>
       <td rowspan="2">TS15</td>
       <td rowspan="2">Implementación de endpoints para consulta de usuarios</td>
@@ -3615,8 +3595,6 @@ En el tercer sprint backlog, el equipo tuvo la intención de iniciar y avanzar e
       <td>Yum Gonzales, Jorge Suin</td>
       <td>Done</td>
    </tr>
-
-   <!-- TS16 - Implementación de endpoints para gestión de reviews -->
    <tr>
       <td rowspan="3">TS16</td>
       <td rowspan="3">Implementación de endpoints para gestión de reviews</td>
@@ -3643,8 +3621,6 @@ En el tercer sprint backlog, el equipo tuvo la intención de iniciar y avanzar e
       <td>Yum Gonzales, Jorge Suin</td>
       <td>In-Process</td>
    </tr>
-
-   <!-- TS04 - Diseño responsive y accesible -->
    <tr>
       <td rowspan="2">TS04</td>
       <td rowspan="2">Diseño responsive y accesible</td>
