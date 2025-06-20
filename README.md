@@ -3784,7 +3784,7 @@ En esta sección se muestra el endpoint de Provider con los diversos métodos pa
 
 ### 2.Provider Profile
 En esta sección se muestra el endpoint de ProviderProfile con los diversos métodos del servicio e interacciones que tiene con el negocio y sistema; asimismo en este contexto tenemos un "GET BY ID" que permite el llamado de todos los provider profiles registrados mediante el {id} que tiene cada uno, asi como un "POST" que permite el registro de nuevos salones de belleza en el sistema.
-<img src="img/Salon_profile_end.png" alt="Providers endpoint"/>
+<img src="img/provider_profile.png" alt="Providers endpoint"/>
 
 
 #### 3.Workers
