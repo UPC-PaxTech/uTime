@@ -3998,7 +3998,7 @@ En el Sprint 3, se dividieron las tareas según las funcionalidades del sistema 
 **Resumen:** Vianka consideró que la landing de uTime comunica bien la propuesta y destacó la explicación del funcionamiento y los testimonios. Le pareció útil y estaría interesada en probar la plataforma. Al usar la app web, le resultó fácil e intuitiva. Valoró especialmente el calendario visual y las notificaciones automáticas, aunque al inicio tuvo dificultad para volver al menú principal. Calificó la herramienta con 8/10 y estaría dispuesta a pagar si mejora la gestión del salón. Sugiere integrar WhatsApp o SMS para facilitar aún más la comunicación con los clientes.
 
 ## Datos del Entrevistado #2
-- **Nombre completo: ** Luiz Fernando Suivete Farfan
+- **Nombre completo:** Luiz Fernando Suivete Farfan
 - **Segmento Objetivo:** Dueño de barbería
 - **Edad:**  24 años
 - **Distrito:**  Vavo Grande
@@ -4009,7 +4009,18 @@ En el Sprint 3, se dividieron las tareas según las funcionalidades del sistema 
 
 **Resumen:** Luis Fernando Farfán, barbero con 8 años de experiencia en Chiclayo, gestiona sus citas principalmente por WhatsApp y redes, usando Fresha para los horarios. Su mayor problema son los clientes que cancelan a último minuto o no llegan, y la dificultad para coordinar la disponibilidad de su equipo. Ve con buenos ojos la propuesta de la herramienta, destacando la utilidad de funciones como la gestión de horarios, notificaciones automáticas y reseñas. Aunque nota que algunas partes aún no funcionan del todo (como la adición de barberos), estaría dispuesto a pagar por el servicio si se completan bien las funciones y le ayudan a organizar mejor su negocio.
 
+## Datos del Entrevistado #3
+- **Nombre completo:** Victor Otto Reinoso Díaz
+- **Segmento Objetivo:** Dueño de un salón de belleza
+- **Edad:** 25 años
+- **Distrito:** Lurigancho-Chosica
+- **Screenshot del cuadro de video:** **
+- **URL del video (Microsoft Stream):**
+- **Inicio de la entrevista:** 6:19 minutos
+- **Duración:** 36:09 minutos
 
+
+**Resumen:** Víctor Reinoso participó en la entrevista de validación sobre uTime y expresó una impresión general positiva del producto. Señaló que la aplicación le pareció moderna y bien organizada, destacando la paleta de colores como un aspecto que le agradó particularmente por su estilo profesional y atractivo. Como única sugerencia de mejora, mencionó que el logo de uTime podría ser más representativo o refinado para alinearse mejor con el diseño general de la plataforma. Además, indicó que sí implementaría uTime en su negocio, ya que considera que puede facilitar la gestión de citas y mejorar la experiencia de sus clientes.
 
 # Segmento Objetivo 2 (Clientes de servicios de belleza)
 
