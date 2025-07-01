@@ -3307,7 +3307,7 @@ En el marco metodológico de Scrum, cada Sprint corresponde a un lapso breve y c
    </td>
    </tr>
    <tr>
-   <td colspan="1" align="center"><b>Sprint n - 3 Retrospective Summary</b></td>
+   <td colspan="1" align="center"><b>Sprint n - 2 Retrospective Summary</b></td>
    <td colspan="1">
       Durante la retrospectiva se destacó la necesidad de reforzar la planificación de tareas y asegurar la integración oportuna de pruebas desde etapas tempranas para evitar retrabajos. Sin embargo, se valoró positivamente la mejora en la comunicación del equipo con respecto al Sprint anterior, lo cual facilitó una mayor claridad en los objetivos y permitió una ejecución más eficiente de los entregables.
    </td>
@@ -3322,19 +3322,15 @@ En el marco metodológico de Scrum, cada Sprint corresponde a un lapso breve y c
       <b>We believe it delivers</b> a solid backend foundation that supports secure and reliable data persistence, with properly structured entities and tested endpoints ready for integration.<br>
       <b>This will be confirmed when</b> the backend consistently handles requests, stores and retrieves data correctly from the MySQL database, and maintains secure access through token-based authentication.
    </td>
-
    </tr>
    <tr>
-      <td colspan="1" align="center"><b>Sprint 2 Velocity</b></td>
+      <td colspan="1" align="center"><b>Sprint 3 Velocity</b></td>
       <td colspan="1">35</td>
    </tr>
    <tr>
       <td colspan="1" align="center"><b>Sum of Story Points</b></td>
       <td colspan="1"> 35</td>
    </tr>
-
-   <tr>
-</tr>
 </table>
 
 ### 5.2.3.2. Aspect Leaders and Collaborators
