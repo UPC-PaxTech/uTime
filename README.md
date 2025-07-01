@@ -3301,13 +3301,13 @@ En el marco metodológico de Scrum, cada Sprint corresponde a un lapso breve y c
       <td colspan="1">Kevin Chi, Gael Rivera, Marcelo Varela y Jorge Yum</td>
    </tr>
    <tr>
-      <td colspan="1" align="center"><b>Sprint n - 3 Review Summary</b></td>
+      <td colspan="1" align="center"><b>Sprint 3 Review Summary</b></td>
       <td colspan="1">
       Durante este Sprint se avanzó significativamente en el desarrollo tanto del frontend como del backend de la aplicación web. En el lado del frontend, se implementó la internacionalización (i18n) y se aplicaron mejoras visuales a la interfaz utilizando Angular y Angular Material. También se corrigieron aspectos pendientes del Sprint 2, como la integración completa del switcher de idioma y el ajuste del renderizado del logo. En cuanto al backend, se estableció la conexión con la base de datos MySQL y se desarrollaron los servicios necesarios para el funcionamiento de las funcionalidades principales de los roles de cliente y proveedor.
    </td>
    </tr>
    <tr>
-   <td colspan="1" align="center"><b>Sprint n - 2 Retrospective Summary</b></td>
+   <td colspan="1" align="center"><b>Sprint 2 Retrospective Summary</b></td>
    <td colspan="1">
       Durante la retrospectiva se destacó la necesidad de reforzar la planificación de tareas y asegurar la integración oportuna de pruebas desde etapas tempranas para evitar retrabajos. Sin embargo, se valoró positivamente la mejora en la comunicación del equipo con respecto al Sprint anterior, lo cual facilitó una mayor claridad en los objetivos y permitió una ejecución más eficiente de los entregables.
    </td>
