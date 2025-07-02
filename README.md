@@ -4271,6 +4271,7 @@ https://utime-web-service.azurewebsites.net/swagger-ui/index.html
 **Url Video About the product:**
 
 * Microsoft Teams: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202319668_upc_edu_pe/EZgo3l1ATLlMpx8cJpbBlb0BqX0BkzW2WJCDZQjxGjabOg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=gtpCpd
+
 * Youtube: https://youtu.be/plfcjui6zpU
 
 **Url Video About the team:**
