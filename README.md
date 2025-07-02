@@ -3288,13 +3288,13 @@ En el marco metodológico de Scrum, cada Sprint corresponde a un lapso breve y c
       <td colspan="1">Kevin Chi, Gael Rivera, Marcelo Varela y Jorge Yum</td>
    </tr>
    <tr>
-      <td colspan="1" align="center"><b>Sprint n - 3 Review Summary</b></td>
+      <td colspan="1" align="center"><b>Sprint 3 Review Summary</b></td>
       <td colspan="1">
       Durante este Sprint se avanzó significativamente en el desarrollo tanto del frontend como del backend de la aplicación web. En el lado del frontend, se implementó la internacionalización (i18n) y se aplicaron mejoras visuales a la interfaz utilizando Angular y Angular Material. También se corrigieron aspectos pendientes del Sprint 2, como la integración completa del switcher de idioma y el ajuste del renderizado del logo. En cuanto al backend, se estableció la conexión con la base de datos MySQL y se desarrollaron los servicios necesarios para el funcionamiento de las funcionalidades principales de los roles de cliente y proveedor.
    </td>
    </tr>
    <tr>
-   <td colspan="1" align="center"><b>Sprint n - 3 Retrospective Summary</b></td>
+   <td colspan="1" align="center"><b>Sprint 2 Retrospective Summary</b></td>
    <td colspan="1">
       Durante la retrospectiva se destacó la necesidad de reforzar la planificación de tareas y asegurar la integración oportuna de pruebas desde etapas tempranas para evitar retrabajos. Sin embargo, se valoró positivamente la mejora en la comunicación del equipo con respecto al Sprint anterior, lo cual facilitó una mayor claridad en los objetivos y permitió una ejecución más eficiente de los entregables.
    </td>
@@ -3309,19 +3309,15 @@ En el marco metodológico de Scrum, cada Sprint corresponde a un lapso breve y c
       <b>We believe it delivers</b> a solid backend foundation that supports secure and reliable data persistence, with properly structured entities and tested endpoints ready for integration.<br>
       <b>This will be confirmed when</b> the backend consistently handles requests, stores and retrieves data correctly from the MySQL database, and maintains secure access through token-based authentication.
    </td>
-
    </tr>
    <tr>
-      <td colspan="1" align="center"><b>Sprint 2 Velocity</b></td>
+      <td colspan="1" align="center"><b>Sprint 3 Velocity</b></td>
       <td colspan="1">35</td>
    </tr>
    <tr>
       <td colspan="1" align="center"><b>Sum of Story Points</b></td>
       <td colspan="1"> 35</td>
    </tr>
-
-   <tr>
-</tr>
 </table>
 
 ### 5.2.3.2. Aspect Leaders and Collaborators
@@ -3963,7 +3959,7 @@ En el Sprint 3, se dividieron las tareas según las funcionalidades del sistema 
 **Resumen:** Vianka consideró que la landing de uTime comunica bien la propuesta y destacó la explicación del funcionamiento y los testimonios. Le pareció útil y estaría interesada en probar la plataforma. Al usar la app web, le resultó fácil e intuitiva. Valoró especialmente el calendario visual y las notificaciones automáticas, aunque al inicio tuvo dificultad para volver al menú principal. Calificó la herramienta con 8/10 y estaría dispuesta a pagar si mejora la gestión del salón. Sugiere integrar WhatsApp o SMS para facilitar aún más la comunicación con los clientes.
 
 ## Datos del Entrevistado #2
-- **Nombre completo: ** Luiz Fernando Suivete Farfan
+- **Nombre completo:** Luiz Fernando Suivete Farfan
 - **Segmento Objetivo:** Dueño de barbería
 - **Edad:**  24 años
 - **Distrito:**  Vavo Grande
@@ -3974,7 +3970,18 @@ En el Sprint 3, se dividieron las tareas según las funcionalidades del sistema 
 
 **Resumen:** Luis Fernando Farfán, barbero con 8 años de experiencia en Chiclayo, gestiona sus citas principalmente por WhatsApp y redes, usando Fresha para los horarios. Su mayor problema son los clientes que cancelan a último minuto o no llegan, y la dificultad para coordinar la disponibilidad de su equipo. Ve con buenos ojos la propuesta de la herramienta, destacando la utilidad de funciones como la gestión de horarios, notificaciones automáticas y reseñas. Aunque nota que algunas partes aún no funcionan del todo (como la adición de barberos), estaría dispuesto a pagar por el servicio si se completan bien las funciones y le ayudan a organizar mejor su negocio.
 
+## Datos del Entrevistado #3
+- **Nombre completo:** Victor Otto Reinoso Díaz
+- **Segmento Objetivo:** Dueño de un salón de belleza
+- **Edad:** 25 años
+- **Distrito:** Lurigancho-Chosica
+- **Screenshot del cuadro de video:** **
+- **URL del video (Microsoft Stream):**
+- **Inicio de la entrevista:** 6:19 minutos
+- **Duración:** 36:09 minutos
 
+
+**Resumen:** Víctor Reinoso participó en la entrevista de validación sobre uTime y expresó una impresión general positiva del producto. Señaló que la aplicación le pareció moderna y bien organizada, destacando la paleta de colores como un aspecto que le agradó particularmente por su estilo profesional y atractivo. Como única sugerencia de mejora, mencionó que el logo de uTime podría ser más representativo o refinado para alinearse mejor con el diseño general de la plataforma. Además, indicó que sí implementaría uTime en su negocio, ya que considera que puede facilitar la gestión de citas y mejorar la experiencia de sus clientes.
 
 # Segmento Objetivo 2 (Clientes de servicios de belleza)
 
@@ -4156,7 +4163,7 @@ El video está diseñado para captar la atención de potenciales usuarios y esti
 <img src="img/video-about.jpeg" alt="Video about the product"/>
 
 * Url Video About the product:
-https://youtu.be/6XoZkCqmiOo
+https://youtu.be/plfcjui6zpU
 
 # Conclusiones
 
@@ -4263,9 +4270,8 @@ https://utime-web-service.azurewebsites.net/swagger-ui/index.html
 
 **Url Video About the product:**
 
-* Microsoft Teams: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202319668_upc_edu_pe/ERfEtE8S3WdLhoWUYUmMBfoBUBbhrCgm_thuZDMjyRHQHg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=SQO69q
-
-* Youtube: https://youtu.be/6XoZkCqmiOo
+* Microsoft Teams: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202319668_upc_edu_pe/EZgo3l1ATLlMpx8cJpbBlb0BqX0BkzW2WJCDZQjxGjabOg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=gtpCpd
+* Youtube: https://youtu.be/plfcjui6zpU
 
 **Url Video About the team:**
 
