@@ -4202,7 +4202,7 @@ El video está diseñado para captar la atención de potenciales usuarios y esti
 <img src="img/video-about.jpeg" alt="Video about the product"/>
 
 * Url Video About the product:
-https://youtu.be/6XoZkCqmiOo
+https://youtu.be/plfcjui6zpU
 
 # Conclusiones
 
@@ -4309,9 +4309,8 @@ https://utime-web-service.azurewebsites.net/swagger-ui/index.html
 
 **Url Video About the product:**
 
-* Microsoft Teams: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202319668_upc_edu_pe/ERfEtE8S3WdLhoWUYUmMBfoBUBbhrCgm_thuZDMjyRHQHg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=SQO69q
-
-* Youtube: https://youtu.be/6XoZkCqmiOo
+* Microsoft Teams: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202319668_upc_edu_pe/EZgo3l1ATLlMpx8cJpbBlb0BqX0BkzW2WJCDZQjxGjabOg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=gtpCpd
+* Youtube: https://youtu.be/plfcjui6zpU
 
 **Url Video About the team:**
 
