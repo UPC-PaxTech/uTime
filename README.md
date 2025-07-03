@@ -2018,13 +2018,13 @@ Web Applications Prototyping web view: *[Web Applications Prototyping](https://w
 ### 4.6.1. Software Architecture Context Diagram.
 
 <div align="center">
-   <img src="img/context-diagram.png" alt="c4-image"/>
+   <img src="img/c4/context.png"/>
 </div>
 
 ### 4.6.2. Software Architecture Container Diagrams.
 
 <div align="center">
-   <img src="img/container-diagram.png" alt="c4-image"/>
+   <img src="img/c4/c2.png" alt="c4-image"/>
 </div>
 
 ### 4.6.3. Software Architecture Components Diagrams.
@@ -2033,6 +2033,12 @@ Web Applications Prototyping web view: *[Web Applications Prototyping](https://w
 
 <div align="center">
    <img src="img/singlepage-diagram.png" alt="c4-image"/>
+</div>
+
+-Component diagram: Bounded Contexts
+
+<div align="center">
+   <img src="img/c4/c3.png" alt="c3-image"/>
 </div>
 
 -Profiles diagram:
