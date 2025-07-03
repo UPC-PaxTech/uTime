@@ -4256,11 +4256,11 @@ https://youtu.be/plfcjui6zpU
 
 ## 6.2 Video About-the-Team
 
-En este video hablamos sobre nuestro equipo de desarrollo de uTime, conformado por Kevin Chi, Jorge Sium, Marcelo Varela y yo, Gael Rivera. Cada uno de nosotros aporta habilidades distintas que se complementan muy bien, lo que nos ha permitido desarrollar diferentes partes del proyecto de forma eficiente. Una de nuestras principales fortalezas es justamente esa diversidad de conocimientos. Al inicio tuvimos algunos retos con la organización del tiempo, pero supimos adaptarnos, estableciendo mejor los horarios y dedicando momentos específicos para probar, ajustar y seguir avanzando. En este espacio queremos compartir cómo trabajamos juntos, nuestras fortalezas, debilidades y la forma en que logramos salir adelante como equipo.
+En este video se presenta al equipo de desarrollo de uTime, conformado por Kevin Chi, Jorge Suim, Marcelo Varela y Gael Rivera. Cada integrante aporta habilidades distintas que se complementan entre sí, lo que ha permitido desarrollar las diferentes partes del proyecto de manera eficiente. Una de las principales fortalezas del equipo radica en la diversidad de conocimientos. Al inicio del proceso, enfrentaron algunos retos relacionados con la organización del tiempo; sin embargo, supieron adaptarse, estableciendo mejores horarios y dedicando momentos específicos para probar, ajustar y seguir avanzando. En este espacio se comparte cómo trabajaron en conjunto, sus fortalezas, debilidades y la forma en que lograron salir adelante como equipo.
 
-Enlace al Video About The Team: https://youtu.be/MGPQF3d2g2w
+Enlace al Video About The Team: https://youtu.be/o9LjfE9q_Lw
 
-![Nuestro equipo de desarrollo](img/video-team.png)
+![Nuestro equipo de desarrollo](img/lolo.png)
 
 # Bibliografía
 
@@ -4334,9 +4334,9 @@ https://utime-web-service.azurewebsites.net/swagger-ui/index.html
 
 **Url Video About the team:**
 
-* Microsoft Teams: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202319668_upc_edu_pe/EfS5-WRVMhNGrQqRsa_bMwkBJ51OAEPnGQuqUFByRFvrOw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=8CcQNa
+* Microsoft Teams: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202319668_upc_edu_pe/EcPSvgahviZPrXS1lK8na54B5aq4E_kZz8evUbmXHiE0Mg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=JDCj7w
 
-* Youtube: https://youtu.be/MGPQF3d2g2w
+* Youtube: https://youtu.be/o9LjfE9q_Lw
 
 **Url Video Exposicion TB2:**
 
