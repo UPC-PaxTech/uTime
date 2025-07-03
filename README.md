@@ -3987,6 +3987,15 @@ Durante esta etapa, se trabajó en la creación de las rutas necesarias para los
 </table>
 
 #### 5.2.4.2. Aspect Leaders and Collaborators
+Para este Sprint, se identificaron las tareas clave relacionadas con el despliegue, revisión e integración del backend de la aplicación web de uTime. Con el objetivo de optimizar la organización del equipo y asignar responsabilidades de forma clara y efectiva, se elaboró la matriz Leadership and Collaboration Matrix (LACX), en la que se detalla quién asumió el rol de Líder (L) y quiénes participaron como Colaboradores (C) en cada una de las actividades principales del Sprint. Esta herramienta permitió una distribución más estructurada del trabajo y facilitó la coordinación durante el desarrollo técnico del proyecto. A continuación, se presentan los roles asignados en tareas como la revisión del frontend y backend, la integración API-frontend, la validación de datos, el manejo de autenticación con tokens, la ejecución de pruebas integradas, el control de errores y la producción del video final.
+
+| **Team Member**                     | **GitHub Username** | **Review Landing** | **Review Frontend** | **Review Backend** | **Integración API-FE** | **Validación FE** | **Token Auth** | **Pruebas Integradas** | **Error Handling** | **Video Final** |
+| ----------------------------------- | ------------------- | ------------------ | ------------------- | ------------------ | ---------------------- | ----------------- | -------------- | ---------------------- | ------------------ | --------------- |
+| Chi Cruzatt, Kevin Jorge            | Krillsom            | L                  | C                   | L                  | C                      | C                 | L              | L                      | C                  | C               |
+| Rivera Sosa, Eduardo Gael           | gael-rs             | C                  | L                   | C                  | L                      | L                 | C              | C                      | L                  | L               |
+| Varela Bustinza, Marcelo Alessandro | VarBus              | C                  | C                   | C                  | L                      | L                 | C              | C                      | C                  | C               |
+| Yum Gonzales, Jorge Suin            | myussu              | C                  | C                   | C                  | C                      | C                 | C              | C                      | L                  | C               |
+
 #### 5.2.4.3. Sprint Backlog 4
 #### 5.2.4.4. Development Evidence for Sprint Review
 #### 5.2.4.5. Execution Evidence for Sprint Review
