@@ -106,7 +106,7 @@
 | 2.7     | 10/05/2025 | Chi, Rivera, Varela, Yalán, Yum  | Elaboración del Execution Evidence for Sprint Review.                                                  |
 | 2.8     | 12/05/2025 | Chi, Rivera, Varela, Yalán, Yum  | Creación del Services Documentation Evidence for Sprint Review.                                        |
 | 2.9     | 14/05/2025 | Chi, Rivera, Varela, Yalán, Yum  | Elaboración del Software Deployment Evidence for Sprint Review.                                        |
-| 3.0     | 27/05/2025 | Chi, Rivera, Varela, Yalán, Yum  | Corrección de los items mencionados en la primera entrega (TP1)                                        |
+| 3.0     | 27/05/2025 | Chi, Rivera, Varela, Yalán, Yum  | Corrección de los items mencionados en la segunda entrega (TP1)                                        |
 | 3.1     | 30/06/2025 | Chi, Rivera, Varela, Yalán, Yum  | Elaboración del Sprint 3                                                                               |
 | 3.2     | 01/06/2025 | Chi, Rivera, Varela, Yalán, Yum  | Elaboración del Diagrama de clases del Backend                                                         |
 | 3.3     | 02/06/2025 | Chi, Rivera, Varela, Yalán, Yum  | Creación del Proyecto en el Repositorio de Web Application                                             |
@@ -119,6 +119,13 @@
 | 3.10    | 15/06/2025 | Chi, Rivera, Varela, Yalán, Yum  | Elaboración del Video About-the-Product.                                                               |
 | 3.11    | 15/06/2025 | Chi, Rivera, Varela, Yalán, Yum  | Elaboración de las Conclusiones y recomendaciones.                                                     |
 | 3.11    | 16/06/2025 | Chi, Rivera, Varela, Yalán, Yum  | Elaboración del Video About-the-Team.                                                                  |
+| 4.0     | 20/06/2025 | Chi, Rivera, Varela, Yalán, Yum  | Corrección de los items mencionados en la primera entrega (TB2)                                        |
+| 4.1     | 22/06/2025 | Chi, Rivera, Varela, Yalán, Yum  | Elaboración del Sprint 4                                                                               |
+| 4.2     | 24/06/2025 | Chi, Rivera, Varela, Yalán, Yum  | Elaboración del Diagrama de clases del Backend                                                         |
+| 4.3     | 25/06/2025 | Chi, Rivera, Varela, Yalán, Yum  | Creación del Proyecto en el Repositorio de Web Application                                             |
+| 4.4     | 26/06/2025 | Chi, Rivera, Varela, Yalán, Yum  | Elaboración del Sprint Planing 4                                                                       |
+| 4.5     | 01/06/2025 | Chi, Rivera, Varela, Yalán, Yum  | Creación del Sprint Backlog 4                                                                          |
+| 4.6     | 02/06/2025 | Chi, Rivera, Varela, Yalán, Yum  | Elaboración del Execution Evidence for Sprint Review 4.                                                |
 
 </div>
 
@@ -168,6 +175,23 @@ Para el desarrollo del informe perteneciente a la entrega del TB2, se dividió l
 
 El proceso de colaboración en el informe se realizó mediante commits constantes al repositorio de la organización PaxTech.
 
+**TF**
+
+Para el desarrollo del informe perteneciente a la entrega del TF1, se dividió la implementación de secciones de la siguiente forma para cada integrante del equipo:
+
+
+| Integrantes    | Tareas Asignadas                                                                                                                                                                                                                                                                                                                          |
+|----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Kevin Chi      | Corrección de los diagramas, Sprint 4, Sprint Backlog, Sprint Planning, Development Evidence for Sprint Review, Execution Evidence for Sprint Review, Services Documentation Evidence for Sprint Review, Software Deployment Evidence for Sprint Review, Validation Interviews, Video About-the-Product, Video About-the-Team.            |
+| Gael Rivera    | Corrección de los US, Sprint 4, Sprint Backlog, Sprint Planning, Development Evidence for Sprint Review, Execution Evidence for Sprint Review, Services Documentation Evidence for Sprint Review, Software Deployment Evidence for Sprint Review, Validation Interviews, Video About-the-Product, Video About-the-Team.                   |
+| Marcelo Varela | Corrección del Bibliografía y Anexos, Sprint 4, Sprint Backlog, Sprint Planning, Development Evidence for Sprint Review, Execution Evidence for Sprint Review, Services Documentation Evidence for Sprint Review, Software Deployment Evidence for Sprint Review, Validation Interviews, Video About-the-Product, Video About-the-Team.   |
+| Angie Yalán    | Corrección del LeanUX, Sprint 4, Sprint Backlog, Sprint Planning, Development Evidence for Sprint Review, Execution Evidence for Sprint Review, Services Documentation Evidence for Sprint Review, Software Deployment Evidence for Sprint Review, Validation Interviews, Video About-the-Product, Video About-the-Team.                  |
+| Jorge Yum      | Corrección de la Landing Page, Sprint 4, Sprint Backlog, Sprint Planning, Development Evidence for Sprint Review, Execution Evidence for Sprint Review, Services Documentation Evidence for Sprint Review, Software Deployment Evidence for Sprint Review, Validation Interviews, Video About-the-Product, Video About-the-Team.          |
+
+
+El proceso de colaboración en el informe se realizó mediante commits constantes al repositorio de la organización PaxTech.
+
+
 **Github Collaboration Insights**
 
 Github también presenta un timeline de las ramas principales y los procesos de merge a los que se han sometido. Todas las
@@ -188,10 +212,25 @@ Se explican las ramas más prominentes:
 **develop:** Es representada por el color azul. Se trata de la rama principal para el proceso del desarrollo del proyecto.<br>
 **feature/feature-description-name:** Es una rama creada para trabajar en una nueva funcionalidad o tarea específica. Se basa en develop y, una vez terminada la tarea, se fusiona nuevamente con develop para integrar los cambios al proyecto principal.
 
-Capturas de la participación en el informe:
+**Capturas de la participación en el informe:**
 
+**TB1:**
+<br>
+<img src="img/TB1INSIGHTFINAL.png" alt="insightTB1open" width="500px" />
+
+**TP1:**
+
+<img src="img/TPINSIGHTFINAL.png" alt="insightTB2open" width="500px" />
+
+**TB2:**
+<br>
 <img src="img/insighttb31.png" alt="insighttb31" width="500px" />
+<br>
 <img src="img/insighttb32.png" alt="insighttb32" width="500px" />
+
+**TF1:**
+<br>
+<img src="" alt="insighttb31" width="500px" />
 
 
 # Contenido
@@ -284,12 +323,21 @@ Capturas de la participación en el informe:
    5.2.3. [Sprint 3](#523-sprint-3)<br>
    5.2.3.1. [Sprint Planning 3](#5231-sprint-planning)<br>
    5.2.3.2. [Aspect Leaders and Collaborators](#5232-aspect-leaders-and-collaborators)<br>
-   5.2.3.3. [Sprint Backlog 3](#5223sprint-backlog-2)<br>
+   5.2.3.3. [Sprint Backlog 3](#5233-sprint-backlog-3)<br>
    5.2.3.4. [Development Evidence for Sprint Review](#5234-development-evidence-for-sprint-review)<br>
    5.2.3.5. [Execution Evidence for Sprint Review](#5235-execution-evidence-for-sprint-review)<br>
    5.2.3.6. [Services Documentation Evidence for Sprint Review](#5236-services-documentation-evidence-for-sprint-review)<br>
    5.2.3.7. [Software Deployment Evidence for Sprint Review](#5237-software-deployment-evidence-for-sprint-review)<br>
    5.2.3.8. [Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during--sprint)<br>
+   5.2.4. [Sprint 4](#524-sprint-4)<br>
+   5.2.4.1. [Sprint Planning 4](#5241-sprint-planning)<br>
+   5.2.4.2. [Aspect Leaders and Collaborators](#5242-aspect-leaders-and-collaborators)<br>
+   5.2.4.3. [Sprint Backlog 4](#5243-sprint-backlog-4)<br>
+   5.2.4.4. [Development Evidence for Sprint Review](#5244-development-evidence-for-sprint-review)<br>
+   5.2.4.5. [Execution Evidence for Sprint Review](#5245-execution-evidence-for-sprint-review)<br>
+   5.2.4.6. [Services Documentation Evidence for Sprint Review](#5246-services-documentation-evidence-for-sprint-review)<br>
+   5.2.4.7. [Software Deployment Evidence for Sprint Review](#5247-software-deployment-evidence-for-sprint-review)<br>
+   5.2.4.8. [Team Collaboration Insights during Sprint](#5248-team-collaboration-insights-during-sprint)<br>
    5.3. [Validation Interviews](#53-validation-interviews)<br>
    5.3.1 [Diseño de Entrevistas](#531-diseño-de-entrevistas)<br>
    5.3.2 [Registro de Entrevistas](#532-registro-de-entrevistas)<br>
@@ -302,7 +350,7 @@ Capturas de la participación en el informe:
 8. [Anexos](#anexos)<br>
 
 # Student Outcomes
-   **Student Outcome 3**
+**Student Outcome 3**
 
 
 | Criterio específico                                                  | Acciones realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               | Conclusiones                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
@@ -3872,6 +3920,16 @@ En el Sprint 3, se dividieron las tareas según las funcionalidades del sistema 
 ![Insight 2](img/INSIGHT3.png)
 
 ![Insight 2](img/INSIGHT2.png)
+
+### 5.2.4 Sprint 4
+#### 5.2.4.1. Sprint Planning
+#### 5.2.4.2. Aspect Leaders and Collaborators
+#### 5.2.4.3. Sprint Backlog 4
+#### 5.2.4.4. Development Evidence for Sprint Review
+#### 5.2.4.5. Execution Evidence for Sprint Review
+#### 5.2.4.6. Services Documentation Evidence for Sprint Review
+#### 5.2.4.7. Software Deployment Evidence for Sprint Review
+#### 5.2.4.8. Team Collaboration Insights during Sprint
 
 
 # 5.3. Validation Interviews
