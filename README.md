@@ -1398,16 +1398,12 @@ Segmento objetivo #2: Clientes de servicios de belleza
 | TS16   | Implementación de endpoints para gestión de reviews | **Como** developer, **quiero** implementar GET /reviews, GET /reviews/{id} y POST /reviews, **para** gestionar las reseñas de los clientes.                        | **Escenario 1: Listar todas las reviews**<br>**Given** un usuario accede a GET /reviews<br>**When** hay reseñas registradas<br>**Then** el sistema devuelve la lista completa.<br><br>**Escenario 2: Registrar nueva review**<br>**Given** un cliente envía una reseña válida<br>**When** se realiza POST /reviews<br>**Then** la reseña se almacena correctamente.<br><br>**Escenario 3: Consultar review por ID**<br>**Given** un ID de reseña válido<br>**When** se accede a GET /reviews/{id}<br>**Then** el sistema devuelve los datos de la reseña.      | EP11                 |
 | TS17   | Crear endpoints para servicios ofrecidos           | **Como** developer, **quiero** implementar GET /services y POST /services, **para** registrar y consultar los servicios del salón.                                 | **Escenario 1: Registro de nuevo servicio**<br>**Given** un salón desea ofrecer un nuevo servicio<br>**When** envía una solicitud POST válida<br>**Then** el servicio se registra.<br><br>**Escenario 2: Visualizar servicios**<br>**Given** un cliente explora servicios<br>**When** accede a GET /services<br>**Then** se listan todos los servicios registrados.                                                                                                                                                                                            | EP05                 |
 | TS18   | Crear endpoints para gestión de usuarios           | **Como** developer, **quiero** implementar GET /users, GET /users/{id}, **para** consultar la información general de usuarios registrados.                         | **Escenario 1: Ver todos los usuarios**<br>**Given** un administrador accede a GET /users<br>**When** hay usuarios registrados<br>**Then** se listan correctamente.<br><br>**Escenario 2: Ver usuario por ID**<br>**Given** un ID válido<br>**When** se accede a GET /users/{id}<br>**Then** se muestran los datos del usuario.                                                                                                                                                                                                                                | EP06                 | | **Epic Relacionado** |
-| TS19 | Conexión de los endpoints del bounded context Authentication con el frontend | **Como** desarrollador, **quiero** conectar los formularios de login y registro con los endpoints del bounded context Authentication, **para** autenticar a los usuarios y gestionar sesiones mediante JWT. | **Escenario 1: Login exitoso**<br>**Given** que el usuario ingresa credenciales válidas<br>**When** se valida en el backend<br>**Then** se genera y almacena un JWT.<br><br>**Escenario 2: Registro exitoso**<br>**Given** que un nuevo usuario completa el formulario<br>**When** se valida y registra<br>**Then** se retorna un JWT para el acceso.<br><br>**Escenario 3: Fallo en autenticación**<br>**Given** credenciales inválidas<br>**When** se procesa la solicitud<br>**Then** se muestra un mensaje contextual. | EP07 |
-| TS20 | Conexión de los endpoints del bounded context Provider con el frontend | **Como** desarrollador, **quiero** integrar la visualización y registro de proveedores con los endpoints del bounded context Provider, **para** mostrar salones registrados y permitir agregar nuevos. | **Escenario 1: Lista de proveedores**<br>**Given** que existen proveedores registrados<br>**When** el usuario accede al listado<br>**Then** se muestran en la interfaz.<br><br>**Escenario 2: Registro exitoso**<br>**Given** que se completa el formulario<br>**When** se envía la solicitud<br>**Then** se registra el nuevo proveedor. | EP01 |
-| TS21 | Conexión de los endpoints del bounded context ProviderProfile con el frontend | **Como** desarrollador, **quiero** conectar los componentes del perfil del proveedor con los endpoints del bounded context ProviderProfile, **para** mostrar y registrar información del salón. | **Escenario 1: Ver perfil**<br>**Given** un ID válido<br>**When** se accede al endpoint<br>**Then** se muestra el perfil.<br><br>**Escenario 2: Registrar perfil**<br>**Given** que se completa el formulario<br>**When** se envía la solicitud<br>**Then** se crea el perfil en el sistema. | EP02 |
-| TS22 | Conexión de los endpoints del bounded context Workers con el frontend | **Como** desarrollador, **quiero** conectar el frontend con los endpoints del bounded context Workers, **para** mostrar el equipo del salón y permitir su gestión. | **Escenario 1: Lista de trabajadores**<br>**Given** que existen trabajadores<br>**When** se accede a la sección<br>**Then** se muestran sus datos.<br><br>**Escenario 2: Registro y edición**<br>**Given** que se completa o edita un formulario<br>**When** se envía la solicitud<br>**Then** se actualiza la información del trabajador. | EP03 |
-| TS23 | Conexión de los endpoints del bounded context Clients con el frontend | **Como** desarrollador, **quiero** conectar el módulo de clientes con los endpoints del bounded context Clients, **para** registrar y visualizar usuarios finales del sistema. | **Escenario 1: Visualización de clientes**<br>**Given** que hay clientes registrados<br>**When** se accede al módulo<br>**Then** se muestran los datos.<br><br>**Escenario 2: Registro de cliente**<br>**Given** un formulario válido<br>**When** se envía al endpoint<br>**Then** se guarda el cliente en la base de datos. | EP04 |
-| TS24 | Conexión de los endpoints del bounded context TimeSlots con el frontend | **Como** desarrollador, **quiero** integrar el sistema de horarios con los endpoints del bounded context TimeSlots, **para** mostrar disponibilidad y agendar citas. | **Escenario 1: Ver disponibilidad**<br>**Given** que hay horarios disponibles<br>**When** el usuario abre el calendario<br>**Then** se cargan correctamente.<br><br>**Escenario 2: Registrar cita**<br>**Given** un horario seleccionado<br>**When** se agenda una cita<br>**Then** se registra el slot correspondiente. | EP05 |
-| TS25 | Conexión de los endpoints del bounded context Services con el frontend | **Como** desarrollador, **quiero** conectar el frontend con los endpoints del bounded context Services, **para** mostrar los servicios ofrecidos y permitir su administración. | **Escenario 1: Lista de servicios**<br>**Given** que existen servicios<br>**When** se accede a la sección<br>**Then** se muestran con nombre y descripción.<br><br>**Escenario 2: Registro o edición**<br>**Given** que se modifica el formulario<br>**When** se envía al backend<br>**Then** se actualiza la base de datos. | EP06 |
-| TS26 | Conexión de los endpoints del bounded context Users con el frontend | **Como** desarrollador, **quiero** conectar la visualización y gestión de usuarios con los endpoints del bounded context Users, **para** mostrar y administrar todos los registros del sistema. | **Escenario 1: Visualización de usuarios**<br>**Given** que se solicita la lista<br>**When** se realiza el GET<br>**Then** se muestran los usuarios.<br><br>**Escenario 2: Detalle por ID**<br>**Given** un ID válido<br>**When** se accede a la ruta<br>**Then** se carga la información del usuario. | EP08 |
-| TS27 | Conexión de los endpoints del bounded context Payments con el frontend | **Como** desarrollador, **quiero** integrar el frontend con los endpoints del bounded context Payments, **para** registrar pagos y mostrar información de suscripciones. | **Escenario 1: Visualización de pagos**<br>**Given** que el usuario accede a su historial<br>**When** se consulta el endpoint<br>**Then** se listan los pagos realizados.<br><br>**Escenario 2: Registrar pago**<br>**Given** un formulario válido<br>**When** se confirma el pago<br>**Then** se actualiza el backend y se muestra feedback. | EP09 |
-
+| TS19  | Conexión de los endpoints del bounded context IAM con el frontend                        | **Como** desarrollador, **quiero** conectar los formularios de login y registro con los endpoints del bounded context IAM, **para** autenticar a los usuarios y gestionar sesiones mediante JWT.                                                         | **Escenario 1: Login exitoso**<br>**Given** que el usuario ingresa credenciales válidas<br>**When** se valida en el backend<br>**Then** se genera y almacena un JWT.<br><br>**Escenario 2: Registro exitoso**<br>**Given** que un nuevo usuario completa el formulario<br>**When** se valida y registra<br>**Then** se retorna un JWT para el acceso.<br><br>**Escenario 3: Fallo en autenticación**<br>**Given** credenciales inválidas<br>**When** se procesa la solicitud<br>**Then** se muestra un mensaje contextual.               | EP07   |
+| TS20  | Conexión de los endpoints del bounded context Profiles con el frontend                    | **Como** desarrollador, **quiero** conectar los componentes del perfil del proveedor con los endpoints del bounded context Profiles, **para** mostrar y registrar información del salón o cliente.                                                       | **Escenario 1: Ver perfil**<br>**Given** un ID válido<br>**When** se accede al endpoint<br>**Then** se muestra el perfil.<br><br>**Escenario 2: Registrar perfil**<br>**Given** que se completa el formulario<br>**When** se envía la solicitud<br>**Then** se crea el perfil en el sistema.                                                                                                                                                                                                                                                | EP02   |
+| TS21  | Conexión de los endpoints del bounded context Workers con el frontend                     | **Como** desarrollador, **quiero** conectar el frontend con los endpoints del bounded context Workers, **para** mostrar el equipo del salón y permitir su gestión.                                                 | **Escenario 1: Lista de trabajadores**<br>**Given** que existen trabajadores<br>**When** se accede a la sección<br>**Then** se muestran sus datos.<br><br>**Escenario 2: Registro y edición**<br>**Given** que se completa o edita un formulario<br>**When** se envía la solicitud<br>**Then** se actualiza la información del trabajador.                                                                                                                                                                                                      | EP03   |
+| TS22  | Conexión de los endpoints del bounded context Reservations con el frontend                | **Como** desarrollador, **quiero** integrar el sistema de reservas con los endpoints del bounded context Reservations, **para** mostrar disponibilidad y agendar citas.                                            | **Escenario 1: Ver disponibilidad**<br>**Given** que hay horarios disponibles<br>**When** el usuario abre el calendario<br>**Then** se cargan correctamente.<br><br>**Escenario 2: Registrar cita**<br>**Given** un horario seleccionado<br>**When** se agenda una cita<br>**Then** se registra el slot correspondiente.                                                                                                                                                                                  | EP05   |
+| TS23  | Conexión de los endpoints del bounded context Services con el frontend                    | **Como** desarrollador, **quiero** conectar el frontend con los endpoints del bounded context Services, **para** mostrar los servicios ofrecidos y permitir su administración.                                     | **Escenario 1: Lista de servicios**<br>**Given** que existen servicios<br>**When** se accede a la sección<br>**Then** se muestran con nombre y descripción.<br><br>**Escenario 2: Registro o edición**<br>**Given** que se modifica el formulario<br>**When** se envía al backend<br>**Then** se actualiza la base de datos.                                                                                                                                                                     | EP06   |
+| TS24  | Conexión de los endpoints del bounded context Reviews con el frontend                     | **Como** desarrollador, **quiero** integrar el frontend con los endpoints del bounded context Reviews, **para** mostrar y registrar opiniones de los clientes sobre los servicios o salones.                       | **Escenario 1: Ver reseñas**<br>**Given** que existen reseñas<br>**When** se accede a la sección<br>**Then** se muestran los comentarios.<br><br>**Escenario 2: Registrar una reseña**<br>**Given** que se completa un formulario<br>**When** se envía al endpoint<br>**Then** se guarda en el sistema y se actualiza la interfaz.                                                                                                                                                                      | EP09   |
 ## 3.3. Impact Mapping.
 
 <div align="center">
@@ -4029,90 +4025,65 @@ En el cuarto sprint backlog, el equipo centró su trabajo en la integración ent
 
    <tr>
       <td>TS19</td>
-      <td>Conexión de los endpoints del bounded context Authentication con el frontend</td>
+      <td>Conexión de los endpoints del bounded context IAM con el frontend</td>
       <td>T1</td>
-      <td>Integrar login y registro</td>
-      <td>Conectar formularios con /login y /register para gestionar JWT</td>
+      <td>Integrar login, registro y gestión de usuarios</td>
+      <td>Conectar formularios del frontend con <code>AuthenticationController</code> y <code>UsersController</code> para login, registro y visualización de usuarios</td>
       <td>2</td>
       <td>Chi Cruzatt, Kevin Jorge</td>
       <td>Done</td>
    </tr>
+
    <tr>
       <td>TS20</td>
-      <td>Conexión de los endpoints del bounded context Provider con el frontend</td>
+      <td>Conexión de los endpoints del bounded context Profiles con el frontend</td>
       <td>T2</td>
-      <td>Mostrar proveedores y registro</td>
-      <td>Conectar frontend con /providers para listar y registrar</td>
+      <td>Visualizar y registrar perfiles, clientes y proveedores</td>
+      <td>Conectar frontend con <code>ClientsController</code>, <code>ProviderProfileController</code>, <code>ProvidersController</code>, <code>PortfolioImagesController</code> y <code>SocialsController</code> para mostrar perfiles e imágenes</td>
       <td>2</td>
       <td>Yum Gonzales, Jorge Suin</td>
       <td>Done</td>
    </tr>
+
    <tr>
       <td>TS21</td>
-      <td>Conexión de los endpoints del bounded context ProviderProfile con el frontend</td>
+      <td>Conexión de los endpoints del bounded context Workers con el frontend</td>
       <td>T3</td>
-      <td>Mostrar perfil del proveedor</td>
-      <td>Conectar componente de perfil con /providerProfile/{id}</td>
+      <td>Visualizar y registrar trabajadores</td>
+      <td>Consumir <code>WorkersController</code> para mostrar, crear, editar o eliminar trabajadores desde el frontend</td>
       <td>2</td>
       <td>Varela Bustinza, Marcelo Alessandro</td>
       <td>Done</td>
    </tr>
+
    <tr>
       <td>TS22</td>
-      <td>Conexión de los endpoints del bounded context Workers con el frontend</td>
+      <td>Conexión de los endpoints del bounded context Reservations con el frontend</td>
       <td>T4</td>
-      <td>Visualizar trabajadores del salón</td>
-      <td>Consumir /workers y permitir mostrar y registrar información</td>
+      <td>Agendar, visualizar reservas y pagos</td>
+      <td>Conectar frontend con <code>ReservationController</code>, <code>TimeSlotController</code> y <code>PaymentController</code> para mostrar disponibilidad, agendar citas y registrar pagos</td>
       <td>2</td>
       <td>Chi Cruzatt, Kevin Jorge</td>
       <td>Done</td>
    </tr>
+
    <tr>
       <td>TS23</td>
-      <td>Conexión de los endpoints del bounded context Clients con el frontend</td>
+      <td>Conexión de los endpoints del bounded context Reviews con el frontend</td>
       <td>T5</td>
-      <td>Visualizar y registrar clientes</td>
-      <td>Conectar frontend con /clients para ver y registrar usuarios</td>
+      <td>Mostrar y registrar reseñas</td>
+      <td>Integrar frontend con <code>ReviewController</code> para mostrar y crear comentarios de usuarios</td>
       <td>2</td>
       <td>Yum Gonzales, Jorge Suin</td>
       <td>Done</td>
    </tr>
+
    <tr>
       <td>TS24</td>
-      <td>Conexión de los endpoints del bounded context TimeSlots con el frontend</td>
-      <td>T6</td>
-      <td>Mostrar horarios disponibles</td>
-      <td>Conectar calendario con /timeslots para ver y agendar horarios</td>
-      <td>2</td>
-      <td>Varela Bustinza, Marcelo Alessandro</td>
-      <td>Done</td>
-   </tr>
-   <tr>
-      <td>TS25</td>
       <td>Conexión de los endpoints del bounded context Services con el frontend</td>
-      <td>T7</td>
-      <td>Visualizar servicios ofrecidos</td>
-      <td>Conectar frontend con /services para listar, crear o editar</td>
-      <td>2</td>
-      <td>Chi Cruzatt, Kevin Jorge</td>
-      <td>Done</td>
-   </tr>
-   <tr>
-      <td>TS26</td>
-      <td>Conexión de los endpoints del bounded context Users con el frontend</td>
-      <td>T8</td>
-      <td>Mostrar y gestionar usuarios</td>
-      <td>Consumir /users y /users/{id} para mostrar información general</td>
-      <td>2</td>
-      <td>Yum Gonzales, Jorge Suin</td>
-      <td>Done</td>
-   </tr>
-   <tr>
-      <td>TS27</td>
-      <td>Conexión de los endpoints del bounded context Payments con el frontend</td>
-      <td>T9</td>
-      <td>Historial y registro de pagos</td>
-      <td>Conectar módulo de pagos con /payments para listar y registrar</td>
+      <td>T6</td>
+      <td>Visualizar y administrar servicios</td>
+      <td>Conectar frontend con <code>ServiceController</code> para mostrar, registrar y editar servicios ofrecidos</td>
       <td>2</td>
       <td>Varela Bustinza, Marcelo Alessandro</td>
       <td>Done</td>
