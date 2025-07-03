@@ -3923,6 +3923,69 @@ En el Sprint 3, se dividieron las tareas según las funcionalidades del sistema 
 
 ### 5.2.4 Sprint 4
 #### 5.2.4.1. Sprint Planning
+En el marco metodológico de Scrum, cada Sprint corresponde a un lapso breve y constante en el que el equipo de desarrollo se dedica a cumplir una meta concreta que impulse el avance hacia el objetivo general del producto (Schwaber, K. & Sutherland, J., 2020). En el desarrollo de la plataforma uTime, el Sprint número 4 se inició el 26 de junio de 2025 y tuvo como propósito principal culminar el desarrollo del backend, desplegarlo en la nube de Azure y establecer su integración con el frontend ya construido.
+Durante esta etapa, se trabajó en la creación de las rutas necesarias para los diferentes módulos del sistema, incluyendo la gestión de reservas, usuarios y servicios. Se configuró la base de datos MySQL para alojar las entidades requeridas, y se realizó el despliegue del backend en Azure App Service. Asimismo, se integraron estos servicios con el frontend mediante el consumo de APIs, lo que permitió verificar la comunicación entre ambas capas. Finalmente, se realizaron pruebas con Swagger para asegurar el correcto funcionamiento de los endpoints y la validación del flujo completo, incluyendo la autenticación mediante tokens.
+<table>
+   <tr>
+      <td colspan="1" align="center"><b>Sprint #</b></td>
+      <td colspan="1" align="center">Sprint 4</td>
+   </tr>
+   <tr>
+      <td colspan="2" align="center"><b>Sprint Planning Background</b></td>
+   </tr>
+   <tr>
+      <td align="center"><b>Date</b></td>
+      <td>2025-06-26</td>
+   </tr>
+   <tr>
+      <td align="center"><b>Time</b></td>
+      <td>09:00 PM</td>
+   </tr>
+   <tr>
+      <td align="center"><b>Location</b></td>
+      <td>Reunión virtual mediante la aplicación Discord</td>
+   </tr>
+   <tr>
+      <td align="center"><b>Prepare By</b></td>
+      <td>Gael Rivera</td>
+   </tr>
+   <tr>
+      <td align="center"><b>Attendees (to planning meeting)</b></td>
+      <td>Kevin Chi, Gael Rivera, Marcelo Varela y Jorge Yum</td>
+   </tr>
+   <tr>
+      <td align="center"><b>Sprint 4 Review Summary</b></td>
+      <td>
+         Durante este Sprint se finalizó el desarrollo del backend y se procedió a su despliegue en la nube mediante Azure App Service. También se configuró la base de datos MySQL en el entorno de producción. El equipo desarrolló e integró las rutas correspondientes a los módulos de reservas, usuarios y servicios. Finalmente, se conectaron los servicios backend con el frontend de la aplicación, asegurando la comunicación entre capas y verificando su correcto funcionamiento a través de pruebas realizadas con Swagger. La autenticación mediante tokens fue implementada con éxito, consolidando un sistema funcional y seguro.
+      </td>
+   </tr>
+   <tr>
+      <td align="center"><b>Sprint 3 Retrospective Summary</b></td>
+      <td>
+         Durante la retrospectiva se resaltó la importancia de establecer un entorno de desarrollo más alineado con el entorno de producción, lo que permitió anticipar y resolver problemas de integración. También se valoró el esfuerzo del equipo para cumplir con los tiempos establecidos, a pesar de la complejidad del despliegue en la nube y las configuraciones asociadas.
+      </td>
+   </tr>
+   <tr>
+      <td colspan="2" align="center"><b>Sprint Goal & User Stories</b></td>
+   </tr>
+   <tr>
+      <td align="center"><b>Sprint 4 Goal</b></td>
+      <td>
+         <b>Our focus is on</b> completing the backend development, deploying it to Microsoft Azure, configuring the MySQL database in the cloud, and integrating all backend services with the frontend interface.<br>
+         <b>We believe it delivers</b> a fully operational and connected system, where core functionalities are accessible from the frontend, supported by secure and reliable backend services.<br>
+         <b>This will be confirmed when</b> users can seamlessly interact with the application, perform bookings, manage services, and authenticate through token-based mechanisms, all connected to the cloud-hosted backend.
+      </td>
+   </tr>
+   <tr>
+      <td align="center"><b>Sprint 4 Velocity</b></td>
+      <td>35</td>
+   </tr>
+   <tr>
+      <td align="center"><b>Sum of Story Points</b></td>
+      <td>35</td>
+   </tr>
+</table>
+
 #### 5.2.4.2. Aspect Leaders and Collaborators
 #### 5.2.4.3. Sprint Backlog 4
 #### 5.2.4.4. Development Evidence for Sprint Review
@@ -3930,7 +3993,7 @@ En el Sprint 3, se dividieron las tareas según las funcionalidades del sistema 
 #### 5.2.4.6. Services Documentation Evidence for Sprint Review
 #### 5.2.4.7. Software Deployment Evidence for Sprint Review
 #### 5.2.4.8. Team Collaboration Insights during Sprint
-
+Durante el Sprint 4, las tareas se organizaron de acuerdo con las funcionalidades del sistema y se asignaron a los miembros del equipo en función de sus habilidades y experiencia. Esta metodología permitió una distribución del trabajo más efectiva y favoreció un avance más dinámico en el desarrollo.
 
 # 5.3. Validation Interviews
 
