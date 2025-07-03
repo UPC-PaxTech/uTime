@@ -2046,34 +2046,46 @@ Web Applications Prototyping web view: *[Web Applications Prototyping](https://w
    <img src="img/c4/c3.png" alt="c3-image"/>
 </div>
 
--Profiles diagram:
+-Profiles Context diagram:
 
 <div align="center">
-   <img src="img/profiles-diagram.png" alt="c4-image"/>
+   <img src="img/c4/profiles.png" alt="c4-image"/>
 </div>
 
--Reservation diagram:
+-Reservation Context diagram:
 
 <div align="center">
-   <img src="img/reservations.png" alt="c4-image"/>
+   <img src="img/c4/reservations.png" alt="c4-image"/>
 </div>
 
--Reviews diagram:
+-Reviews Context diagram:
 
 <div align="center">
-   <img src="img/reviews.png" alt="c4-image"/>
+   <img src="img/c4/reviews.png" alt="c4-image"/>
 </div>
 
--Services diagram:
+-Services Context diagram:
 
 <div align="center">
-   <img src="img/services.png" alt="c4-image"/>
+   <img src="img/c4/services.png" alt="c4-image"/>
 </div>
 
--Workers diagram:
+-Workers Context diagram:
 
 <div align="center">
-   <img src="img/workers.png" alt="c4-image"/>
+   <img src="img/c4/workers.png" alt="c4-image"/>
+</div>
+
+-Iam Context diagram:
+
+<div align="center">
+   <img src="img/c4/iam.png" alt="c4-image"/>
+</div>
+
+-Shared Context diagram:
+
+<div align="center">
+   <img src="img/c4/shared.png" alt="c4-image"/>
 </div>
 
 ### 4.7. Software Object-Oriented Design.
