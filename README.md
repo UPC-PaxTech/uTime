@@ -4205,7 +4205,7 @@ Durante el Sprint 4, las tareas se organizaron de acuerdo con las funcionalidade
 - **Segmento Objetivo:** Dueño de barbería
 - **Edad:**  24 años
 - **Distrito:**  Vavo Grande
-- **Screenshot del cuadro de video:** *![Entrevista 2](img/Screenshot%202025-06-19%20225947.png)*
+- **Screenshot del cuadro de video:** *![Entrevista 2](img/jorge_photo.png)*
 - **URL del video (Microsoft Stream):** *[Entrevista 02](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202319668_upc_edu_pe/EcS7UTGNuM5On5ol7RzeGQ4BnQYx0P4HhrQdJEXVaZEvRw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Rn33v0)*
 - **Inicio de la entrevista:** 20:21 minutos
 - **Duración:** 23:42 minutos
