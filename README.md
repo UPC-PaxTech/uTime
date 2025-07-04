@@ -4088,9 +4088,10 @@ En el cuarto sprint backlog, el equipo centró su trabajo en la integración ent
       <td>Varela Bustinza, Marcelo Alessandro</td>
       <td>Done</td>
    </tr>
-</table>
+</table>    
 
 #### 5.2.4.4. Development Evidence for Sprint Review
+
 #### 5.2.4.5. Execution Evidence for Sprint Review
 #### 5.2.4.6. Services Documentation Evidence for Sprint Review
 #### 5.2.4.7. Software Deployment Evidence for Sprint Review
@@ -4176,7 +4177,7 @@ Durante el Sprint 4, las tareas se organizaron de acuerdo con las funcionalidade
 - **Edad:*19 años* 
 - **Distrito:*San Juan De Lurigancho* 
 - **Screenshot del cuadro de video:** *![interview_1.jpeg](img/entrevista_salon_validation.png)*
-- **URL del video (Microsoft Stream):** *[Entrevista 01]()*
+- **URL del video (Microsoft Stream):** *[Entrevista 01](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202319668_upc_edu_pe/EcS7UTGNuM5On5ol7RzeGQ4BnQYx0P4HhrQdJEXVaZEvRw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Rn33v0)*
 - **Inicio de la entrevista:14:19* 
 - **Duración:*20:21*
 **Resumen:** Vianka consideró que la landing de uTime comunica bien la propuesta y destacó la explicación del funcionamiento y los testimonios. Le pareció útil y estaría interesada en probar la plataforma. Al usar la app web, le resultó fácil e intuitiva. Valoró especialmente el calendario visual y las notificaciones automáticas, aunque al inicio tuvo dificultad para volver al menú principal. Calificó la herramienta con 8/10 y estaría dispuesta a pagar si mejora la gestión del salón. Sugiere integrar WhatsApp o SMS para facilitar aún más la comunicación con los clientes.
@@ -4187,7 +4188,7 @@ Durante el Sprint 4, las tareas se organizaron de acuerdo con las funcionalidade
 - **Edad:**  24 años
 - **Distrito:**  Vavo Grande
 - **Screenshot del cuadro de video:** *![Entrevista 2](img/Screenshot%202025-06-19%20225947.png)*
-- **URL del video (Microsoft Stream):** *[Entrevista 02](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202319668_upc_edu_pe/EWfoFFPlt_9GqNNBqZHlw0oB74qyZJ2L70u2gAmVRvcKug?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=teaqUe)*
+- **URL del video (Microsoft Stream):** *[Entrevista 02](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202319668_upc_edu_pe/EcS7UTGNuM5On5ol7RzeGQ4BnQYx0P4HhrQdJEXVaZEvRw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Rn33v0)*
 - **Inicio de la entrevista:** 20:21 minutos
 - **Duración:** 23:42 minutos
 
@@ -4198,11 +4199,10 @@ Durante el Sprint 4, las tareas se organizaron de acuerdo con las funcionalidade
 - **Segmento Objetivo:** Dueño de un salón de belleza
 - **Edad:** 25 años
 - **Distrito:** Lurigancho-Chosica
-- **Screenshot del cuadro de video:** **
-- **URL del video (Microsoft Stream):**
-- **Inicio de la entrevista:** 6:19 minutos
-- **Duración:** 36:09 minutos
-
+- **Screenshot del cuadro de video:** *![Entrevista 3](img/angie_inter.png)*
+- **URL del video (Microsoft Stream):**  *[Entrevista 03](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202319668_upc_edu_pe/EcS7UTGNuM5On5ol7RzeGQ4BnQYx0P4HhrQdJEXVaZEvRw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Rn33v0)*
+- **Inicio de la entrevista:** 23:22 minutos
+- **Duración:** 33:11 minutos
 
 **Resumen:** Víctor Reinoso participó en la entrevista de validación sobre uTime y expresó una impresión general positiva del producto. Señaló que la aplicación le pareció moderna y bien organizada, destacando la paleta de colores como un aspecto que le agradó particularmente por su estilo profesional y atractivo. Como única sugerencia de mejora, mencionó que el logo de uTime podría ser más representativo o refinado para alinearse mejor con el diseño general de la plataforma. Además, indicó que sí implementaría uTime en su negocio, ya que considera que puede facilitar la gestión de citas y mejorar la experiencia de sus clientes.
 
@@ -4214,7 +4214,7 @@ Durante el Sprint 4, las tareas se organizaron de acuerdo con las funcionalidade
 - **Edad:** 20 años
 - **Distrito:** Cercado De Lima
 - **Screenshot del cuadro de video:** *![interview_1.jpeg](img/cliente_validation_alison.png)*
-- **URL del video (Microsoft Stream):** *[Entrevista 01](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202319668_upc_edu_pe/EWfoFFPlt_9GqNNBqZHlw0oB74qyZJ2L70u2gAmVRvcKug?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=teaqUe)*
+- **URL del video (Microsoft Stream):** *[Entrevista 01](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202319668_upc_edu_pe/EcS7UTGNuM5On5ol7RzeGQ4BnQYx0P4HhrQdJEXVaZEvRw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Rn33v0)*
 - **Inicio de la entrevista:** 0:10 minutos
 - **Duración:** 4:24 minutos
 
@@ -4226,7 +4226,7 @@ Durante el Sprint 4, las tareas se organizaron de acuerdo con las funcionalidade
 - **Edad:** 19 años
 - **Distrito:** San Borja
 - **Screenshot del cuadro de video:** *![interview_2.jpeg](img/angie_foto.png)*
-- **URL del video (Microsoft Stream):** *[Entrevista 02](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202319668_upc_edu_pe/EWfoFFPlt_9GqNNBqZHlw0oB74qyZJ2L70u2gAmVRvcKug?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=teaqUe)*
+- **URL del video (Microsoft Stream):** *[Entrevista 02](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202319668_upc_edu_pe/EcS7UTGNuM5On5ol7RzeGQ4BnQYx0P4HhrQdJEXVaZEvRw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Rn33v0)*
 - **Inicio de la entrevista:** 6:22 minutos
 - **Duración:** 14:19 minutos
 
@@ -4239,9 +4239,9 @@ Durante el Sprint 4, las tareas se organizaron de acuerdo con las funcionalidade
 - **Edad:** 60
 - **Distrito:** La Molina
 - **Screenshot del cuadro de video:** *![interview_2.jpeg](img/entrevista2s2.png)*
-- **URL del video (Microsoft Stream):** *[Entrevista 03](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202319668_upc_edu_pe/EWfoFFPlt_9GqNNBqZHlw0oB74qyZJ2L70u2gAmVRvcKug?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=teaqUe)*
-- **Inicio de la entrevista:** 4:24 minutos
-- **Duración:** 6:21 minutos
+- **URL del video (Microsoft Stream):** *[Entrevista 03](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202319668_upc_edu_pe/EcS7UTGNuM5On5ol7RzeGQ4BnQYx0P4HhrQdJEXVaZEvRw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Rn33v0)*
+- **Inicio de la entrevista:** 20:26 minutos
+- **Duración:** 23:49 minutos
 
 **Resumen:** La clienta se encuentra satisfecha con la mayoría de las funcionalidades de uTime, aunque desearía que pueda especificar que no desea pagar de antemano
 
@@ -4511,9 +4511,9 @@ https://utime-web-service.azurewebsites.net/swagger-ui/index.html
 
 **Url Validation interview:**
 
-* Microsoft Teams: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202319668_upc_edu_pe/EWfoFFPlt_9GqNNBqZHlw0oB74qyZJ2L70u2gAmVRvcKug?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=teaqUe
+* Microsoft Teams: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202319668_upc_edu_pe/EcS7UTGNuM5On5ol7RzeGQ4BnQYx0P4HhrQdJEXVaZEvRw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=eikJQS
 
-* Youtube: https://youtu.be/JRzb0Rx4c1o
+* Youtube: https://youtu.be/3cy5-NP3OiI
 
 **Herramientas y Recursos Utilizados:**<br>
 
