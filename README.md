@@ -4683,9 +4683,9 @@ https://utime-web-service.azurewebsites.net/swagger-ui/index.html
 
 **Url Video Exposicion TB2:**
 
-* Microsoft Teams: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202319668_upc_edu_pe/EdxTfEcJDLtChxAxw8CYJQEBlyU6szgsgRMBqIo5g1HAyQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=9lRH2S
+* Microsoft Teams: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202319668_upc_edu_pe/EQlgpnNOd2VPszdOO7GAtSYBK0xxE4MevsNH2Nuqwgr_cA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ZfhET8
 
-* Youtube: https://youtu.be/5zxRtdKJqgE
+* Youtube: https://youtu.be/3XvGHH09bsU
 
 **Url Validation interview:**
 
