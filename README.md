@@ -4110,6 +4110,10 @@ En el cuarto sprint backlog, el equipo centró su trabajo en la integración ent
 
 Enlace para acceder al Trello: [Trello Sprint Backlog 4](https://trello.com/b/bG00FiXW/sprint-backlog-4-utime) 
 
+Trello Sprint 4:
+
+![Trello sprint 4](img/trello-sprint4.png)
+
 #### 5.2.4.4. Development Evidence for Sprint Review
 <table border="1" cellpadding="5" cellspacing="0">
   <thead>
