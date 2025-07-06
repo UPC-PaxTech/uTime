@@ -2175,13 +2175,13 @@ Web Applications Prototyping web view: *[Web Applications Prototyping](https://w
 - Diagrama de base de datos
 
 <div align="center">
-   <img src="img/erd-diagram.png" alt="erd-diagram"/>
+   <img src="img/erd.png" alt="erd-diagram"/>
 </div>
 
 - Diagrama de base de datos en Mysql
 
 <div align="center">
-   <img src="img/database-diagram-mysql.png" alt="erd-diagram"/>
+   <img src="img/mysql-diagram.png" alt="erd-diagram"/>
 </div>
 
 # Capítulo V: Product Implementation, Validation & Deployment
