@@ -4245,6 +4245,7 @@ El frontend realiza peticiones HTTP a los endpoints de cada módulo, aplicando v
 A continuación, se presentan evidencias gráficas que demuestran la correcta ejecución del sistema integrado:
 
 <img src="img/evidence_register.png" alt="Register Frontend" /> **Figura 1**: Formulario de registro de usuario. El frontend envía una solicitud `POST` al endpoint `/api/v1/auth/register`. Si el registro es exitoso, el backend responde con un token JWT para iniciar sesión automáticamente. <img src="img/access_evidence.png" alt="Access Frontend" /> **Figura 2**: Formulario de inicio de sesión. El backend valida las credenciales mediante el endpoint `/api/v1/auth/authenticate` y, si son válidas, retorna un JWT para acceder al sistema. <img src="img/evidence_client_home.png" alt="Home Client" /> **Figura 3**: Pantalla principal del cliente autenticado. Se accede a esta vista solo si el token JWT es válido, confirmando el correcto control de sesiones por parte del IAM Bounded Context. <img src="img/reservar-client.png" alt="Make Reservation" /> **Figura 4**: Pantalla para agendar una cita. Permite seleccionar un horario disponible y registrar la reserva mediante los endpoints de `ReservationController` y `TimeSlotController`. <img src="img/favorites_evidence.png" alt="Favorites Client" /> **Figura 5**: Servicios marcados como favoritos por el cliente. Se observa el consumo exitoso de datos protegidos por token JWT. <img src="img/staff%20cleintes.png" alt="Staff View" /> **Figura 6**: Vista de gestión del personal de servicio. Muestra la integración con el `WorkersController` para visualizar trabajadores. <img src="img/home-client.png" alt="Dashboard Client" /> **Figura 7**: Panel general del cliente, con accesos directos a funcionalidades como historial de citas, favoritos y búsqueda de servicios. <img src="img/metodo%20de%20pago.png" alt="External Payment View" /> **Figura 8**: Vista de un método de pago proveniente de una API externa. Esta funcionalidad no se gestiona directamente desde el backend propio, sino que se muestra como integración visual con un servicio de terceros.
+
 #### 5.2.4.6. Services Documentation Evidence for Sprint Review
 Durante el Sprint 4 se implementaron y documentaron servicios clave que habilitan la funcionalidad del IAM Bounded Context dentro del sistema. Estos servicios permiten la autenticación, registro y consulta de usuarios, y su correcta integración fue esencial para garantizar el funcionamiento de las operaciones del sistema a nivel de identidad y acceso. A continuación, se describen tres de los servicios más representativos que se desarrollaron durante este sprint:
 
@@ -4255,6 +4256,8 @@ POST /api/v1/authentication/sign-in: Recibe credenciales de usuario y las valida
 
 POST /api/v1/authentication/sign-up: Permite registrar nuevos usuarios. El recurso SignUpResource es transformado a un comando de dominio y procesado. Si el usuario se crea correctamente, se devuelve un UserResource con su información.
 
+<img src="img/authen.png" alt="Register Frontend" />
+
 Este servicio es crítico para establecer la seguridad inicial del sistema y permitir el acceso a funcionalidades protegidas.
 
 2. UsersController (Backend - Spring Boot)
@@ -4263,6 +4266,8 @@ Este servicio es crítico para establecer la seguridad inicial del sistema y per
 GET /api/v1/users: Devuelve una lista de todos los usuarios registrados en el sistema. Internamente se invoca el UserQueryService con el GetAllUsersQuery y se transforman los resultados en recursos de tipo UserResource.
 
 GET /api/v1/users/{userId}: Recupera la información de un usuario específico mediante su identificador único. En caso de no encontrar al usuario, se retorna una respuesta 404.
+
+<img src="img/users.png" alt="Register Frontend" />
 
 Ambos endpoints son clave para administrar y verificar la existencia de usuarios desde el frontend o desde servicios externos.
 
@@ -4280,6 +4285,8 @@ create(id, resource): Crea un nuevo recurso con un ID específico.
 post(resource): Crea un nuevo recurso sin ID asociado.
 
 update(id, resource), partialUpdate(id, resource), delete(id): Manipulación avanzada de recursos.
+
+<img src="img/base.png" alt="Register Frontend" />
 
 Este servicio es fundamental para mantener una capa de integración limpia entre la interfaz de usuario y la lógica del backend. Utiliza el entorno de configuración (environment.serverBaseUrl) para apuntar dinámicamente al servidor.
 #### 5.2.4.7. Software Deployment Evidence for Sprint Review
