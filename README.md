@@ -4224,15 +4224,27 @@ Enlace para acceder al Trello: [Trello Sprint Backlog 4](https://trello.com/b/bG
 </table>
 
 #### 5.2.4.5. Execution Evidence for Sprint Review
-Durante el Sprint 4 se realizó la integración del frontend con el backend, consolidando la conexión entre las interfaces de usuario y los endpoints del sistema definidos en el IAM Bounded Context (Identity and Access Management). Esta integración permite gestionar correctamente las funcionalidades de autenticación, registro de usuarios, acceso seguro y control de sesión.
+Durante el Sprint 4 se completó exitosamente la integración del frontend con los distintos módulos del backend, estableciendo una comunicación efectiva entre las interfaces de usuario y los endpoints REST definidos en los diferentes Bounded Contexts del sistema. Esta integración permitió habilitar funcionalidades esenciales como el registro de usuarios, inicio de sesión, visualización y gestión de perfiles, reservas, servicios, métodos de pago, comentarios, y más.
 
-El frontend realiza peticiones HTTP al backend a través de los endpoints del Bounded Context IAM, consumiendo los servicios expuestos para validar credenciales, registrar nuevos usuarios y recuperar información relacionada con el acceso. Esta lógica incluye validaciones de tokens JWT y respuestas controladas para permitir o denegar el ingreso al sistema según las reglas de negocio establecidas.
+A continuación, se detallan los principales módulos integrados:
 
-A continuación, se presentan evidencias gráficas del funcionamiento del sistema integrado:
+IAM (Identity and Access Management): Manejo de autenticación, registro y control de sesiones mediante tokens JWT.
 
-<img src="img/evidence_register.png" alt="Register Frontend" /> **Figura 1**: Vista del formulario de registro de usuario. El frontend recoge los datos ingresados y los envía al endpoint correspondiente (`/api/v1/auth/register`) del backend, el cual procesa la información y responde con un token de autenticación si el registro es exitoso.
-<img src="img/access_evidence.png" alt="Access Frontend" /> **Figura 2**: Vista del formulario de inicio de sesión. Los datos ingresados son validados por el backend mediante el endpoint de login (`/api/v1/auth/authenticate`). Si las credenciales son válidas, se retorna un JWT que habilita el acceso a las funcionalidades protegidas del sistema.
-<img src="img/evidence_client_home.png" alt="Home Frontend" /> **Figura 3**: Pantalla principal del cliente luego de iniciar sesión. El frontend solo permite visualizar esta vista si el token JWT es válido, lo que demuestra que la seguridad del acceso está gestionada correctamente a través del IAM Bounded Context.
+Profiles: Visualización y registro de clientes y proveedores.
+
+Workers: Gestión de personal disponible para los servicios.
+
+Reservations: Agendamiento de citas, visualización de disponibilidad y registro de pagos.
+
+Reviews: Registro y visualización de comentarios de los clientes.
+
+Services: Administración y visualización de los servicios ofrecidos por los proveedores.
+
+El frontend realiza peticiones HTTP a los endpoints de cada módulo, aplicando validaciones, control de errores y lógica de autorización basada en la validez del token JWT retornado por el backend.
+
+A continuación, se presentan evidencias gráficas que demuestran la correcta ejecución del sistema integrado:
+
+<img src="img/evidence_register.png" alt="Register Frontend" /> **Figura 1**: Formulario de registro de usuario. Al enviar los datos, el frontend realiza una solicitud `POST` al endpoint `/api/v1/auth/register`. Si el registro es exitoso, el backend responde con un token JWT para autenticación. <img src="img/access_evidence.png" alt="Access Frontend" /> **Figura 2**: Formulario de inicio de sesión. Se utiliza el endpoint `/api/v1/auth/authenticate` para validar credenciales. Si son correctas, se devuelve un JWT que habilita el acceso seguro a las funcionalidades protegidas. <img src="img/evidence_client_home.png" alt="Home Client" /> **Figura 3**: Vista principal del cliente autenticado. Esta pantalla se carga únicamente si el token JWT es válido, confirmando el correcto control de sesiones por parte del módulo IAM. <img src="img/appointments-client.png" alt="Appointments Client" /> **Figura 4**: Módulo de reservas. El cliente puede consultar horarios disponibles y agendar citas mediante los endpoints del `ReservationController` y `TimeSlotController`. <img src="img/favorites_evidence.png" alt="Favorites Client" /> **Figura 5**: Servicios favoritos del cliente. Se muestra la recuperación de datos protegidos desde el backend utilizando el token JWT. <img src="img/home-client.png" alt="Dashboard Client" /> **Figura 6**: Panel general del cliente, con acceso a funcionalidades protegidas como historial de citas, métodos de pago y navegación por el sistema. <img src="img/metodo%20de%20pago.png" alt="Payment Method" /> **Figura 7**: Pantalla de gestión de métodos de pago. Interacción con el `PaymentController` para registrar y visualizar métodos vinculados al usuario. <img src="img/reservar-client.png" alt="Make Reservation" /> **Figura 8**: Confirmación de cita agendada. Evidencia el flujo exitoso desde la selección de un horario hasta el registro de la reserva. <img src="img/staff%20cleintes.png" alt="Staff View" /> **Figura 9**: Gestión de trabajadores. Vista desde donde se accede al `WorkersController` para visualizar y administrar personal disponible.
 
 #### 5.2.4.6. Services Documentation Evidence for Sprint Review
 Durante el Sprint 4 se implementaron y documentaron servicios clave que habilitan la funcionalidad del IAM Bounded Context dentro del sistema. Estos servicios permiten la autenticación, registro y consulta de usuarios, y su correcta integración fue esencial para garantizar el funcionamiento de las operaciones del sistema a nivel de identidad y acceso. A continuación, se describen tres de los servicios más representativos que se desarrollaron durante este sprint:
