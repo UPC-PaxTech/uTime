@@ -4290,9 +4290,65 @@ update(id, resource), partialUpdate(id, resource), delete(id): Manipulación ava
 
 Este servicio es fundamental para mantener una capa de integración limpia entre la interfaz de usuario y la lógica del backend. Utiliza el entorno de configuración (environment.serverBaseUrl) para apuntar dinámicamente al servidor.
 #### 5.2.4.7. Software Deployment Evidence for Sprint Review
+Durante el Sprint 4 se logró la integración completa entre el backend y el frontend de la aplicación, consumiendo correctamente los endpoints definidos en los distintos Bounded Contexts del sistema. Esta integración permitió validar funcionalidades clave como autenticación, registro, gestión de perfiles, reservas, servicios y trabajadores, garantizando una experiencia funcional y segura para el usuario final.
+
+En paralelo, se realizó el deployment del backend en la nube mediante la plataforma Microsoft Azure, asegurando su disponibilidad en un entorno de producción accesible vía web. Este despliegue permitió al equipo realizar pruebas reales desde el frontend conectado al backend desplegado.
+
+A continuación, se presentan las evidencias tanto del funcionamiento integrado del sistema como del proceso de despliegue:
+
+#### Evidencias de Integración Frontend–Backend
+
+<img src="img/evidence_register.png" alt="Register Frontend" />
+<p><strong>Figura 1</strong>: Formulario de registro de usuario. Al enviar los datos, el frontend realiza una solicitud POST al endpoint <code>/api/v1/auth/register</code>, que responde con un JWT si el registro es exitoso.</p>
+
+<img src="img/access_evidence.png" alt="Access Frontend" />
+<p><strong>Figura 2</strong>: Formulario de inicio de sesión. Se utiliza el endpoint <code>/api/v1/auth/authenticate</code> para validar credenciales. Si son válidas, se devuelve un JWT que permite acceder al sistema.</p>
+
+<img src="img/evidence_client_home.png" alt="Home Client" />
+<p><strong>Figura 3</strong>: Pantalla principal del cliente autenticado. Se accede solo si el JWT es válido, lo que confirma el control de sesión desde el módulo IAM.</p>
+
+<img src="img/reservar-client.png" alt="Make Reservation" />
+<p><strong>Figura 4</strong>: Pantalla para agendar una cita. El cliente selecciona horarios disponibles que se obtienen del <code>ReservationController</code> y <code>TimeSlotController</code>.</p>
+
+<img src="img/favorites_evidence.png" alt="Favorites Client" />
+<p><strong>Figura 5</strong>: Vista de servicios favoritos del cliente. Se consumen datos del backend utilizando el token JWT activo.</p>
+
+<img src="img/staff%20cleintes.png" alt="Staff View" />
+<p><strong>Figura 6</strong>: Vista de gestión del personal de servicio. Se muestra la lista de trabajadores desde el <code>WorkersController</code>.</p>
+
+<img src="img/home-client.png" alt="Dashboard Client" />
+<p><strong>Figura 7</strong>: Panel general del cliente, con accesos directos a funcionalidades protegidas como historial de citas y métodos de pago.</p>
+
+<img src="img/metodo%20de%20pago.png" alt="External Payment View" />
+<p><strong>Figura 8</strong>: Visualización de método de pago a través de una API externa. La funcionalidad aún no está conectada a un controlador propio, pero se demuestra como una integración futura.</p>
+
+#### Evidencias del Deployment en Azure
+
+<img src="img/azure_deployment2.png" alt="Docker Build" />
+<p><strong>Figura 9</strong>: Proceso de construcción de la imagen Docker a partir del .jar del backend.</p>
+
+<img src="img/azure_deployment1.png" alt="Azure Container Registry" />
+<p><strong>Figura 10</strong>: Imagen del backend subida exitosamente a Azure Container Registry (ACR).</p>
+
+<img src="img/azure_deployment3.png" alt="App Service Configuration" />
+<p><strong>Figura 11</strong>: Configuración del App Service en Azure, incluyendo el enlace con ACR y variables de entorno.</p>
+
+<img src="img/azure_deployment4.png" alt="Backend Deployed" />
+<p><strong>Figura 12</strong>: Backend desplegado y accesible desde la web a través del App Service.</p>
+URL del backend desplegado:
+https://utime-web-service.azurewebsites.net/swagger-ui/index.html
+URL del frontend desplegado:
+https://github.com/UPC-PaxTech/Frontend-Web-Applications
 
 #### 5.2.4.8. Team Collaboration Insights during Sprint
 Durante el Sprint 4, las tareas se organizaron de acuerdo con las funcionalidades del sistema y se asignaron a los miembros del equipo en función de sus habilidades y experiencia. Esta metodología permitió una distribución del trabajo más efectiva y favoreció un avance más dinámico en el desarrollo.
+
+Frontend Section:
+<img src="img/e_1.png" alt="img />
+<img src="img/e_2.png" alt="img />
+Backend Section:
+<img src="img/e_3.png" alt="img />
+<img src="img/e_4.png" alt="img />
 
 # 5.3. Validation Interviews
 
