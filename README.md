@@ -230,7 +230,7 @@ Se explican las ramas más prominentes:
 
 **TF1:**
 <br>
-<img src="" alt="insighttb31" width="500px" />
+<img src="img/INSIGHTTF1.png" width="500px" />
 
 
 # Contenido
@@ -4382,7 +4382,7 @@ Durante el Sprint 4, las tareas se organizaron de acuerdo con las funcionalidade
 - **Inicio de la entrevista:** 20:21 minutos
 - **Duración:** 23:42 minutos
 
-**Resumen:** Luis Fernando Farfán, barbero con 8 años de experiencia en Chiclayo, gestiona sus citas principalmente por WhatsApp y redes, usando Fresha para los horarios. Su mayor problema son los clientes que cancelan a último minuto o no llegan, y la dificultad para coordinar la disponibilidad de su equipo. Ve con buenos ojos la propuesta de la herramienta, destacando la utilidad de funciones como la gestión de horarios, notificaciones automáticas y reseñas. Aunque nota que algunas partes aún no funcionan del todo (como la adición de barberos), estaría dispuesto a pagar por el servicio si se completan bien las funciones y le ayudan a organizar mejor su negocio.
+**Resumen:** Mileydi Patricia, esteticista con 5 años de experiencia en Estados Unidos. Su mayor problema son la falta de visibilidad en la plataforma movil y el precio de la subscripcion alta. Sugiere disminuir el precio de la subscripcion por el primer mes. Nota que algunas partes aún no funcionan del todo (como la adición de barberos).
 
 ## Datos del Entrevistado #3
 - **Nombre completo:** Victor Otto Reinoso Díaz
@@ -4680,6 +4680,17 @@ https://github.com/UPC-PaxTech/Web-Services
 
 https://utime-web-service.azurewebsites.net/swagger-ui/index.html
 
+**Cuentas para testear el flujo de cada segmento objetivo**<br>
+
+**Provider:** 
+
+Email: kevin@gmail.com
+Password: kevin
+
+**Client:**
+
+Email: jorge@gmail.com
+Password: jorge
 
 **Url Video About the product:**
 
