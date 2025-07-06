@@ -4766,11 +4766,11 @@ Password: jorge
 
 * Youtube: https://youtu.be/o9LjfE9q_Lw
 
-**Url Video Exposicion TB2:**
+**Url Video Exposicion TF:**
 
-* Microsoft Teams: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202319668_upc_edu_pe/EQlgpnNOd2VPszdOO7GAtSYBK0xxE4MevsNH2Nuqwgr_cA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ZfhET8
+* Microsoft Teams: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202319668_upc_edu_pe/EZZIONwcXF5LuzTVBy9kW8EBnHU1UYiVNaxRsAdZy5Xaow?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=dLahFz
 
-* Youtube: https://youtu.be/3XvGHH09bsU
+* Youtube: https://youtu.be/fhQ0nfvTyjY
 
 **Url Validation interview:**
 
