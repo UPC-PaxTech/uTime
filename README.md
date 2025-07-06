@@ -230,7 +230,7 @@ Se explican las ramas más prominentes:
 
 **TF1:**
 <br>
-<img src="" alt="insighttb31" width="500px" />
+<img src="img/INSIGHTTF1.png" width="500px" />
 
 
 # Contenido
@@ -4224,15 +4224,27 @@ Enlace para acceder al Trello: [Trello Sprint Backlog 4](https://trello.com/b/bG
 </table>
 
 #### 5.2.4.5. Execution Evidence for Sprint Review
-Durante el Sprint 4 se realizó la integración del frontend con el backend, consolidando la conexión entre las interfaces de usuario y los endpoints del sistema definidos en el IAM Bounded Context (Identity and Access Management). Esta integración permite gestionar correctamente las funcionalidades de autenticación, registro de usuarios, acceso seguro y control de sesión.
+Durante el Sprint 4 se completó exitosamente la integración del frontend con los distintos módulos del backend, estableciendo una comunicación efectiva entre las interfaces de usuario y los endpoints REST definidos en los diferentes Bounded Contexts del sistema. Esta integración permitió habilitar funcionalidades esenciales como el registro de usuarios, inicio de sesión, visualización y gestión de perfiles, reservas, servicios, métodos de pago, comentarios, y más.
 
-El frontend realiza peticiones HTTP al backend a través de los endpoints del Bounded Context IAM, consumiendo los servicios expuestos para validar credenciales, registrar nuevos usuarios y recuperar información relacionada con el acceso. Esta lógica incluye validaciones de tokens JWT y respuestas controladas para permitir o denegar el ingreso al sistema según las reglas de negocio establecidas.
+A continuación, se detallan los principales módulos integrados:
 
-A continuación, se presentan evidencias gráficas del funcionamiento del sistema integrado:
+IAM (Identity and Access Management): Manejo de autenticación, registro y control de sesiones mediante tokens JWT.
 
-<img src="img/evidence_register.png" alt="Register Frontend" /> **Figura 1**: Vista del formulario de registro de usuario. El frontend recoge los datos ingresados y los envía al endpoint correspondiente (`/api/v1/auth/register`) del backend, el cual procesa la información y responde con un token de autenticación si el registro es exitoso.
-<img src="img/access_evidence.png" alt="Access Frontend" /> **Figura 2**: Vista del formulario de inicio de sesión. Los datos ingresados son validados por el backend mediante el endpoint de login (`/api/v1/auth/authenticate`). Si las credenciales son válidas, se retorna un JWT que habilita el acceso a las funcionalidades protegidas del sistema.
-<img src="img/evidence_client_home.png" alt="Home Frontend" /> **Figura 3**: Pantalla principal del cliente luego de iniciar sesión. El frontend solo permite visualizar esta vista si el token JWT es válido, lo que demuestra que la seguridad del acceso está gestionada correctamente a través del IAM Bounded Context.
+Profiles: Visualización y registro de clientes y proveedores.
+
+Workers: Gestión de personal disponible para los servicios.
+
+Reservations: Agendamiento de citas, visualización de disponibilidad y registro de pagos.
+
+Reviews: Registro y visualización de comentarios de los clientes.
+
+Services: Administración y visualización de los servicios ofrecidos por los proveedores.
+
+El frontend realiza peticiones HTTP a los endpoints de cada módulo, aplicando validaciones, control de errores y lógica de autorización basada en la validez del token JWT retornado por el backend.
+
+A continuación, se presentan evidencias gráficas que demuestran la correcta ejecución del sistema integrado:
+
+<img src="img/evidence_register.png" alt="Register Frontend" /> **Figura 1**: Formulario de registro de usuario. El frontend envía una solicitud `POST` al endpoint `/api/v1/auth/register`. Si el registro es exitoso, el backend responde con un token JWT para iniciar sesión automáticamente. <img src="img/access_evidence.png" alt="Access Frontend" /> **Figura 2**: Formulario de inicio de sesión. El backend valida las credenciales mediante el endpoint `/api/v1/auth/authenticate` y, si son válidas, retorna un JWT para acceder al sistema. <img src="img/evidence_client_home.png" alt="Home Client" /> **Figura 3**: Pantalla principal del cliente autenticado. Se accede a esta vista solo si el token JWT es válido, confirmando el correcto control de sesiones por parte del IAM Bounded Context. <img src="img/reservar-client.png" alt="Make Reservation" /> **Figura 4**: Pantalla para agendar una cita. Permite seleccionar un horario disponible y registrar la reserva mediante los endpoints de `ReservationController` y `TimeSlotController`. <img src="img/favorites_evidence.png" alt="Favorites Client" /> **Figura 5**: Servicios marcados como favoritos por el cliente. Se observa el consumo exitoso de datos protegidos por token JWT. <img src="img/staff%20cleintes.png" alt="Staff View" /> **Figura 6**: Vista de gestión del personal de servicio. Muestra la integración con el `WorkersController` para visualizar trabajadores. <img src="img/home-client.png" alt="Dashboard Client" /> **Figura 7**: Panel general del cliente, con accesos directos a funcionalidades como historial de citas, favoritos y búsqueda de servicios. <img src="img/metodo%20de%20pago.png" alt="External Payment View" /> **Figura 8**: Vista de un método de pago proveniente de una API externa. Esta funcionalidad no se gestiona directamente desde el backend propio, sino que se muestra como integración visual con un servicio de terceros.
 
 #### 5.2.4.6. Services Documentation Evidence for Sprint Review
 Durante el Sprint 4 se implementaron y documentaron servicios clave que habilitan la funcionalidad del IAM Bounded Context dentro del sistema. Estos servicios permiten la autenticación, registro y consulta de usuarios, y su correcta integración fue esencial para garantizar el funcionamiento de las operaciones del sistema a nivel de identidad y acceso. A continuación, se describen tres de los servicios más representativos que se desarrollaron durante este sprint:
@@ -4244,6 +4256,8 @@ POST /api/v1/authentication/sign-in: Recibe credenciales de usuario y las valida
 
 POST /api/v1/authentication/sign-up: Permite registrar nuevos usuarios. El recurso SignUpResource es transformado a un comando de dominio y procesado. Si el usuario se crea correctamente, se devuelve un UserResource con su información.
 
+<img src="img/authen.png" alt="Register Frontend" />
+
 Este servicio es crítico para establecer la seguridad inicial del sistema y permitir el acceso a funcionalidades protegidas.
 
 2. UsersController (Backend - Spring Boot)
@@ -4252,6 +4266,8 @@ Este servicio es crítico para establecer la seguridad inicial del sistema y per
 GET /api/v1/users: Devuelve una lista de todos los usuarios registrados en el sistema. Internamente se invoca el UserQueryService con el GetAllUsersQuery y se transforman los resultados en recursos de tipo UserResource.
 
 GET /api/v1/users/{userId}: Recupera la información de un usuario específico mediante su identificador único. En caso de no encontrar al usuario, se retorna una respuesta 404.
+
+<img src="img/users.png" alt="Register Frontend" />
 
 Ambos endpoints son clave para administrar y verificar la existencia de usuarios desde el frontend o desde servicios externos.
 
@@ -4270,11 +4286,69 @@ post(resource): Crea un nuevo recurso sin ID asociado.
 
 update(id, resource), partialUpdate(id, resource), delete(id): Manipulación avanzada de recursos.
 
+<img src="img/base.png" alt="Register Frontend" />
+
 Este servicio es fundamental para mantener una capa de integración limpia entre la interfaz de usuario y la lógica del backend. Utiliza el entorno de configuración (environment.serverBaseUrl) para apuntar dinámicamente al servidor.
 #### 5.2.4.7. Software Deployment Evidence for Sprint Review
+Durante el Sprint 4 se logró la integración completa entre el backend y el frontend de la aplicación, consumiendo correctamente los endpoints definidos en los distintos Bounded Contexts del sistema. Esta integración permitió validar funcionalidades clave como autenticación, registro, gestión de perfiles, reservas, servicios y trabajadores, garantizando una experiencia funcional y segura para el usuario final.
+
+En paralelo, se realizó el deployment del backend en la nube mediante la plataforma Microsoft Azure, asegurando su disponibilidad en un entorno de producción accesible vía web. Este despliegue permitió al equipo realizar pruebas reales desde el frontend conectado al backend desplegado.
+
+A continuación, se presentan las evidencias tanto del funcionamiento integrado del sistema como del proceso de despliegue:
+
+#### Evidencias de Integración Frontend–Backend
+
+<img src="img/evidence_register.png" alt="Register Frontend" />
+<p><strong>Figura 1</strong>: Formulario de registro de usuario. Al enviar los datos, el frontend realiza una solicitud POST al endpoint <code>/api/v1/auth/register</code>, que responde con un JWT si el registro es exitoso.</p>
+
+<img src="img/access_evidence.png" alt="Access Frontend" />
+<p><strong>Figura 2</strong>: Formulario de inicio de sesión. Se utiliza el endpoint <code>/api/v1/auth/authenticate</code> para validar credenciales. Si son válidas, se devuelve un JWT que permite acceder al sistema.</p>
+
+<img src="img/evidence_client_home.png" alt="Home Client" />
+<p><strong>Figura 3</strong>: Pantalla principal del cliente autenticado. Se accede solo si el JWT es válido, lo que confirma el control de sesión desde el módulo IAM.</p>
+
+<img src="img/reservar-client.png" alt="Make Reservation" />
+<p><strong>Figura 4</strong>: Pantalla para agendar una cita. El cliente selecciona horarios disponibles que se obtienen del <code>ReservationController</code> y <code>TimeSlotController</code>.</p>
+
+<img src="img/favorites_evidence.png" alt="Favorites Client" />
+<p><strong>Figura 5</strong>: Vista de servicios favoritos del cliente. Se consumen datos del backend utilizando el token JWT activo.</p>
+
+<img src="img/staff%20cleintes.png" alt="Staff View" />
+<p><strong>Figura 6</strong>: Vista de gestión del personal de servicio. Se muestra la lista de trabajadores desde el <code>WorkersController</code>.</p>
+
+<img src="img/home-client.png" alt="Dashboard Client" />
+<p><strong>Figura 7</strong>: Panel general del cliente, con accesos directos a funcionalidades protegidas como historial de citas y métodos de pago.</p>
+
+<img src="img/metodo%20de%20pago.png" alt="External Payment View" />
+<p><strong>Figura 8</strong>: Visualización de método de pago a través de una API externa. La funcionalidad aún no está conectada a un controlador propio, pero se demuestra como una integración futura.</p>
+
+#### Evidencias del Deployment en Azure
+
+<img src="img/azure_deployment2.png" alt="Docker Build" />
+<p><strong>Figura 9</strong>: Proceso de construcción de la imagen Docker a partir del .jar del backend.</p>
+
+<img src="img/azure_deployment1.png" alt="Azure Container Registry" />
+<p><strong>Figura 10</strong>: Imagen del backend subida exitosamente a Azure Container Registry (ACR).</p>
+
+<img src="img/azure_deployment3.png" alt="App Service Configuration" />
+<p><strong>Figura 11</strong>: Configuración del App Service en Azure, incluyendo el enlace con ACR y variables de entorno.</p>
+
+<img src="img/azure_deployment4.png" alt="Backend Deployed" />
+<p><strong>Figura 12</strong>: Backend desplegado y accesible desde la web a través del App Service.</p>
+URL del backend desplegado:
+https://utime-web-service.azurewebsites.net/swagger-ui/index.html
+URL del frontend desplegado:
+https://github.com/UPC-PaxTech/Frontend-Web-Applications
 
 #### 5.2.4.8. Team Collaboration Insights during Sprint
 Durante el Sprint 4, las tareas se organizaron de acuerdo con las funcionalidades del sistema y se asignaron a los miembros del equipo en función de sus habilidades y experiencia. Esta metodología permitió una distribución del trabajo más efectiva y favoreció un avance más dinámico en el desarrollo.
+
+Frontend Section:
+<img src="img/e_1.png" alt="img />
+<img src="img/e_2.png" alt="img />
+Backend Section:
+<img src="img/e_3.png" alt="img />
+<img src="img/e_4.png" alt="img />
 
 # 5.3. Validation Interviews
 
@@ -4370,7 +4444,7 @@ Durante el Sprint 4, las tareas se organizaron de acuerdo con las funcionalidade
 - **Inicio de la entrevista:** 20:21 minutos
 - **Duración:** 23:42 minutos
 
-**Resumen:** Luis Fernando Farfán, barbero con 8 años de experiencia en Chiclayo, gestiona sus citas principalmente por WhatsApp y redes, usando Fresha para los horarios. Su mayor problema son los clientes que cancelan a último minuto o no llegan, y la dificultad para coordinar la disponibilidad de su equipo. Ve con buenos ojos la propuesta de la herramienta, destacando la utilidad de funciones como la gestión de horarios, notificaciones automáticas y reseñas. Aunque nota que algunas partes aún no funcionan del todo (como la adición de barberos), estaría dispuesto a pagar por el servicio si se completan bien las funciones y le ayudan a organizar mejor su negocio.
+**Resumen:** Mileydi Patricia, esteticista con 5 años de experiencia en Estados Unidos. Su mayor problema son la falta de visibilidad en la plataforma movil y el precio de la subscripcion alta. Sugiere disminuir el precio de la subscripcion por el primer mes. Nota que algunas partes aún no funcionan del todo (como la adición de barberos).
 
 ## Datos del Entrevistado #3
 - **Nombre completo:** Victor Otto Reinoso Díaz
@@ -4668,6 +4742,17 @@ https://github.com/UPC-PaxTech/Web-Services
 
 https://utime-web-service.azurewebsites.net/swagger-ui/index.html
 
+**Cuentas para testear el flujo de cada segmento objetivo**<br>
+
+**Provider:** 
+
+Email: kevin@gmail.com
+Password: kevin
+
+**Client:**
+
+Email: jorge@gmail.com
+Password: jorge
 
 **Url Video About the product:**
 
