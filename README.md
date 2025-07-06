@@ -4668,6 +4668,17 @@ https://github.com/UPC-PaxTech/Web-Services
 
 https://utime-web-service.azurewebsites.net/swagger-ui/index.html
 
+**Cuentas para testear el flujo de cada segmento objetivo**<br>
+
+**Provider:** 
+
+Email: kevin@gmail.com
+Password: kevin
+
+**Client:**
+
+Email: jorge@gmail.com
+Password: jorge
 
 **Url Video About the product:**
 
