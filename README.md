@@ -4109,10 +4109,168 @@ En el cuarto sprint backlog, el equipo centró su trabajo en la integración ent
 </table>    
 
 #### 5.2.4.4. Development Evidence for Sprint Review
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Repository</th>
+      <th>Branch</th>
+      <th>Commit Id</th>
+      <th>Commit Message</th>
+      <th>Commited on (Date)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Web-Services</td><td>develop</td><td>11118dd</td><td>update for frontend</td><td>04/07/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>ecbcadc</td><td>feat: corrections for frontend</td><td>04/07/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>e9b4f79</td><td>feat: udpate</td><td>03/07/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>2e3b3b0</td><td>Merge branch 'develop' of https://github.com/UPC-PaxTech/Web-Services into develop</td><td>02/07/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>c45a109</td><td>feat: update Token</td><td>02/07/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>d98d017</td><td>Merge branch 'develop' of https://github.com/UPC-PaxTech/Web-Services into develop</td><td>02/07/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>ee038d7</td><td>feat: controllers left</td><td>02/07/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>434ac09</td><td>social controller (unproven)</td><td>02/07/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>495f104</td><td>feat: add new db</td><td>02/07/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>f62e306</td><td>feat: server change</td><td>02/07/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>6f5a4a2</td><td>Merge branch 'feature/profileEndpoints' into develop</td><td>02/07/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>c6fe15f</td><td>feat: delete</td><td>02/07/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>eb5f5ba</td><td>feat: update (unfinished)</td><td>01/07/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>db70cd6</td><td>feat: services update (unfinished)</td><td>01/07/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>d7221eb</td><td>feat: repositories</td><td>30/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>f67b70e</td><td>feat: review endpoint</td><td>30/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>5d6d36a</td><td>Merge branch 'develop' of https://github.com/UPC-PaxTech/Web-Services into develop</td><td>19/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>20a26ba</td><td>docs: fix package diagram</td><td>19/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>3970dd6</td><td>Merge tag '0.1.0' into develop</td><td>19/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>d7da1e2</td><td>Merge branch 'release/0.1.0'</td><td>19/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>b315a1a</td><td>Merge branch 'develop' of https://github.com/UPC-PaxTech/Web-Services into develop</td><td>19/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>5e3982f</td><td>docs: add class diagram</td><td>19/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>83c88e0</td><td>feat: fixed providerProfile</td><td>19/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>97a97b9</td><td>feat: added put and delete to worker and services</td><td>19/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>6d1a0c8</td><td>docs: add final class diagram</td><td>18/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>4f74620</td><td>feat: add provider profile naming solutions</td><td>18/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>a717fec</td><td>Merge branch 'develop' of https://github.com/UPC-PaxTech/Web-Services into develop</td><td>18/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>51b1406</td><td>feat: added entity to payment</td><td>18/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>7a11e76</td><td>docs: added 4 context diagram</td><td>18/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>4a52de8</td><td>feat: added payment and added to reservation detail resource</td><td>18/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>15f59ea</td><td>Merge branch 'feature/reservationDetails' into develop</td><td>17/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>fd8e7e6</td><td>Merge branch 'develop' of https://github.com/UPC-PaxTech/Web-Services into develop</td><td>17/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>8ca0cc3</td><td>feat: reservation details without payment id</td><td>17/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>a1a7c72</td><td>feat: reservation failure</td><td>17/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>18820cd</td><td>Merge branch 'develop' of https://github.com/UPC-PaxTech/Web-Services into develop</td><td>17/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>478f417</td><td>docs: add value objects for all the bounded context</td><td>17/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>39d0837</td><td>feat: acl de Worker y validacion terminada</td><td>17/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>96318cd</td><td>feat: added facade but not working yet</td><td>16/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>7d329c6</td><td>feat: added reservations</td><td>16/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>6ab3187</td><td>feat: added workers and reservations bounded context</td><td>16/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>b4e05f2</td><td>readded salonprofilecontroller</td><td>15/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>84c70e9</td><td>Merge branch 'develop' of https://github.com/UPC-PaxTech/Web-Services into develop</td><td>15/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>6ff8ff1</td><td>latest changes</td><td>15/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>798dec8</td><td>latest changes</td><td>15/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>54231ed</td><td>Merge branch 'feature/iam-bounded-context' into develop</td><td>15/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>0715733</td><td>feat: add all packages about iam bounded</td><td>15/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>53fdd12</td><td>feat: add hashing and token about infrastructure package</td><td>14/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>b415029</td><td>feat: add aggregates, commands and queries aboun iam bounded</td><td>14/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>47be603</td><td>Merge branch 'develop' of https://github.com/UPC-PaxTech/Web-Services into develop</td><td>12/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>185f076</td><td>docs: added service class and valueobjects to services</td><td>12/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>6a5c965</td><td>Merge branch 'develop' of https://github.com/UPC-PaxTech/Web-Services into develop</td><td>10/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>d77f946</td><td>Merge branch 'develop' of https://github.com/UPC-PaxTech/Web-Services into develop</td><td>10/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>432a1d3</td><td>feat: service controller</td><td>10/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>7ba69d9</td><td>Merge branch 'develop' of https://github.com/UPC-PaxTech/Web-Services into develop</td><td>10/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>0ec70e7</td><td>docs: changed value objects services</td><td>10/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>4d91e49</td><td>feat: added services</td><td>10/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>0732e5f</td><td>Merge branch 'develop' of https://github.com/UPC-PaxTech/Web-Services into develop</td><td>09/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>39542a0</td><td>feat: add Client Files API</td><td>09/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>ba73b7a</td><td>Merge branch 'feature/salonProfile' into develop</td><td>07/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>3d6fbfb</td><td>feat: added Salon profile update y delete</td><td>07/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>65126ee</td><td>Merge branch 'develop' of https://github.com/UPC-PaxTech/Web-Services into develop</td><td>07/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>8cd1ec0</td><td>corrections</td><td>07/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>7cb813f</td><td>corrections</td><td>07/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>0cf8c7a</td><td>feat: salon profile without update or delete</td><td>05/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>7536cf4</td><td>fix: deleted unneeded file</td><td>05/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>22798e3</td><td>docs: update profile context</td><td>05/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>aed3a23</td><td>docs: remove all ids, it is all in base service</td><td>05/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>3a8ddb6</td><td>Merge branch 'develop' of https://github.com/UPC-PaxTech/Web-Services into develop</td><td>05/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>90c8265</td><td>gael xd</td><td>05/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>7401e4f</td><td>feat: new update</td><td>05/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>917a393</td><td>docs: fix id naming standard</td><td>05/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>26a5a3c</td><td>docs: fix class diagram profiles</td><td>05/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>d5c305b</td><td>Merge branch 'feature/class-diagram' into develop</td><td>05/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>749174e</td><td>docs: finish salon and clients</td><td>05/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>c8874ee</td><td>docs: added salon profile classes</td><td>05/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>a78ccad</td><td>Merge branch 'develop' of https://github.com/UPC-PaxTech/Web-Services into develop</td><td>05/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>2c5e0b3</td><td>Merge branch 'feature/class-diagram' into develop</td><td>05/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>d9553af</td><td>feat: AccountCommandServiceImplementation</td><td>03/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>d724893</td><td>feat: finished account Query Service and command service</td><td>03/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>0fefb28</td><td>feat: Salon updated</td><td>03/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>23cf8df</td><td>docs: add layer diagram and package diagram</td><td>03/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>a2e3f0e</td><td>docs: finish value objects of profiles</td><td>03/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>85cded1</td><td>feat: added learning center template examples</td><td>03/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>c2af4fa</td><td>docs: fix value objects into used variables</td><td>03/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>4822511</td><td>docs: add value objectos salon</td><td>03/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>cff8afa</td><td>docs: add class diagram new</td><td>02/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>2a40f2f</td><td>docs: add class diagram 0.1</td><td>01/06/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>cd1ffb2</td><td>feat: Add Client module with endpoints for getAll, getById, and Swagger integration</td><td>31/05/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>c5912c6</td><td>feat: added salons get by id</td><td>29/05/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>ea13078</td><td>feat: added salons values</td><td>29/05/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>c809237</td><td>feat: added clients</td><td>27/05/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>3378702</td><td>feat: initialized Salon</td><td>27/05/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>39788fc</td><td>Create README.md</td><td>27/05/2025</td></tr>
+    <tr><td>Web-Services</td><td>develop</td><td>dbc3c22</td><td>feat: Spring Boot project setup</td><td>27/05/2025</td></tr>
+    <tr><td>Web-Services</td><td>main</td><td>c809237</td><td>feat: added clients</td><td>27/05/2025</td></tr>
+    <tr><td>Web-Services</td><td>main</td><td>3378702</td><td>feat: initialized Salon</td><td>27/05/2025</td></tr>
+    <tr><td>Web-Services</td><td>main</td><td>39788fc</td><td>Create README.md</td><td>27/05/2025</td></tr>
+    <tr><td>Web-Services</td><td>main</td><td>dbc3c22</td><td>feat: Spring Boot project setup</td><td>27/05/2025</td></tr>
+  </tbody>
+</table>
 
 #### 5.2.4.5. Execution Evidence for Sprint Review
+Durante el Sprint 4 se realizó la integración del frontend con el backend, consolidando la conexión entre las interfaces de usuario y los endpoints del sistema definidos en el IAM Bounded Context (Identity and Access Management). Esta integración permite gestionar correctamente las funcionalidades de autenticación, registro de usuarios, acceso seguro y control de sesión.
+
+El frontend realiza peticiones HTTP al backend a través de los endpoints del Bounded Context IAM, consumiendo los servicios expuestos para validar credenciales, registrar nuevos usuarios y recuperar información relacionada con el acceso. Esta lógica incluye validaciones de tokens JWT y respuestas controladas para permitir o denegar el ingreso al sistema según las reglas de negocio establecidas.
+
+A continuación, se presentan evidencias gráficas del funcionamiento del sistema integrado:
+
+<img src="img/evidence_register.png" alt="Register Frontend" /> **Figura 1**: Vista del formulario de registro de usuario. El frontend recoge los datos ingresados y los envía al endpoint correspondiente (`/api/v1/auth/register`) del backend, el cual procesa la información y responde con un token de autenticación si el registro es exitoso.
+<img src="img/access_evidence.png" alt="Access Frontend" /> **Figura 2**: Vista del formulario de inicio de sesión. Los datos ingresados son validados por el backend mediante el endpoint de login (`/api/v1/auth/authenticate`). Si las credenciales son válidas, se retorna un JWT que habilita el acceso a las funcionalidades protegidas del sistema.
+<img src="img/evidence_client_home.png" alt="Home Frontend" /> **Figura 3**: Pantalla principal del cliente luego de iniciar sesión. El frontend solo permite visualizar esta vista si el token JWT es válido, lo que demuestra que la seguridad del acceso está gestionada correctamente a través del IAM Bounded Context.
+
 #### 5.2.4.6. Services Documentation Evidence for Sprint Review
+Durante el Sprint 4 se implementaron y documentaron servicios clave que habilitan la funcionalidad del IAM Bounded Context dentro del sistema. Estos servicios permiten la autenticación, registro y consulta de usuarios, y su correcta integración fue esencial para garantizar el funcionamiento de las operaciones del sistema a nivel de identidad y acceso. A continuación, se describen tres de los servicios más representativos que se desarrollaron durante este sprint:
+
+1. AuthenticationController (Backend - Spring Boot)
+   Este controlador REST gestiona las operaciones de autenticación en el sistema. Define dos endpoints fundamentales: sign-in y sign-up.
+
+POST /api/v1/authentication/sign-in: Recibe credenciales de usuario y las valida a través del servicio de dominio UserCommandService. Si las credenciales son correctas, retorna un objeto AuthenticatedUserResource que contiene la información del usuario autenticado junto con el token JWT correspondiente.
+
+POST /api/v1/authentication/sign-up: Permite registrar nuevos usuarios. El recurso SignUpResource es transformado a un comando de dominio y procesado. Si el usuario se crea correctamente, se devuelve un UserResource con su información.
+
+Este servicio es crítico para establecer la seguridad inicial del sistema y permitir el acceso a funcionalidades protegidas.
+
+2. UsersController (Backend - Spring Boot)
+   Este controlador REST está enfocado en la gestión de usuarios registrados y permite consultar información mediante dos endpoints:
+
+GET /api/v1/users: Devuelve una lista de todos los usuarios registrados en el sistema. Internamente se invoca el UserQueryService con el GetAllUsersQuery y se transforman los resultados en recursos de tipo UserResource.
+
+GET /api/v1/users/{userId}: Recupera la información de un usuario específico mediante su identificador único. En caso de no encontrar al usuario, se retorna una respuesta 404.
+
+Ambos endpoints son clave para administrar y verificar la existencia de usuarios desde el frontend o desde servicios externos.
+
+3. BaseService<R> (Frontend - Angular)
+   Este servicio abstracto en el frontend (Angular) actúa como una clase base para consumir recursos RESTful de manera estandarizada. Facilita la conexión con los endpoints definidos en el backend y aplica buenas prácticas como la gestión de errores y reintentos.
+
+Incluye métodos reutilizables como:
+
+getAll(): Obtiene todos los recursos de una entidad.
+
+getById(id): Recupera un recurso por su ID.
+
+create(id, resource): Crea un nuevo recurso con un ID específico.
+
+post(resource): Crea un nuevo recurso sin ID asociado.
+
+update(id, resource), partialUpdate(id, resource), delete(id): Manipulación avanzada de recursos.
+
+Este servicio es fundamental para mantener una capa de integración limpia entre la interfaz de usuario y la lógica del backend. Utiliza el entorno de configuración (environment.serverBaseUrl) para apuntar dinámicamente al servidor.
 #### 5.2.4.7. Software Deployment Evidence for Sprint Review
+
 #### 5.2.4.8. Team Collaboration Insights during Sprint
 Durante el Sprint 4, las tareas se organizaron de acuerdo con las funcionalidades del sistema y se asignaron a los miembros del equipo en función de sus habilidades y experiencia. Esta metodología permitió una distribución del trabajo más efectiva y favoreció un avance más dinámico en el desarrollo.
 
