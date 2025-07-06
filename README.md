@@ -230,7 +230,7 @@ Se explican las ramas más prominentes:
 
 **TF1:**
 <br>
-<img src="" alt="insighttb31" width="500px" />
+<img src="img/INSIGHTTF1.png" width="500px" />
 
 
 # Contenido
