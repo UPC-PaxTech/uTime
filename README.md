@@ -4027,92 +4027,19 @@ Para este Sprint, se identificaron las tareas clave relacionadas con el desplieg
 
 #### 5.2.4.3. Sprint Backlog 4
 En el cuarto sprint backlog, el equipo centró su trabajo en la integración entre el frontend y el backend de la aplicación web. Esta etapa fue clave para garantizar la comunicación fluida entre ambas capas, permitiendo el envío y recepción de datos en tiempo real, la autenticación segura mediante tokens JWT y la visualización coherente de la información del sistema. El seguimiento de tareas se mantuvo a través de Trello, facilitando la coordinación del equipo para lograr una experiencia de usuario funcional y estable.
-<table border="1" cellspacing="0" cellpadding="5">
-   <tr>
-      <td colspan="2" align="center"><b>Sprint #</b></td>
-      <td colspan="6" align="center"><b>Sprint 4</b></td>
-   </tr>
-   <tr>
-      <td colspan="2"><b>User Story</b></td>
-      <td colspan="6" align="center"><b>Work-Item/Task</b></td>
-   </tr>
-   <tr>
-      <td><b>Id</b></td>
-      <td><b>Title</b></td>
-      <td><b>Id</b></td>
-      <td><b>Title</b></td>
-      <td><b>Description</b></td>
-      <td><b>Estimation (Hours)</b></td>
-      <td><b>Assigned To</b></td>
-      <td><b>Status</b></td>
-   </tr>
 
-   <tr>
-      <td>TS19</td>
-      <td>Conexión de los endpoints del bounded context IAM con el frontend</td>
-      <td>T1</td>
-      <td>Integrar login, registro y gestión de usuarios</td>
-      <td>Conectar formularios del frontend con <code>AuthenticationController</code> y <code>UsersController</code> para login, registro y visualización de usuarios</td>
-      <td>2</td>
-      <td>Chi Cruzatt, Kevin Jorge</td>
-      <td>Done</td>
-   </tr>
+| Sprint # | Sprint 4 |       |       |       |       |       |       |
+|----------|----------|-------|-------|-------|-------|------------------------------|--------|
+| **User Story** |        | **Work-Item/Task** |       |       |       |       |        |
+| Id   | Title  | Id   | Title  | Description | Estimation (Hours) | Assigned To                     | Status |
+|------|--------|------|--------|-------------|---------------------|----------------------------------|--------|
+| TS19 | Conexión de los endpoints del bounded context IAM con el frontend | T1 | Integrar login, registro y gestión de usuarios | Conectar formularios del frontend con `AuthenticationController` y `UsersController` para login, registro y visualización de usuarios | 2 | Chi Cruzatt, Kevin Jorge | Done |
+| TS20 | Conexión de los endpoints del bounded context Profiles con el frontend | T2 | Visualizar y registrar perfiles, clientes y proveedores | Conectar frontend con `ClientsController`, `ProviderProfileController`, `ProvidersController`, `PortfolioImagesController` y `SocialsController` para mostrar perfiles e imágenes | 2 | Yum Gonzales, Jorge Suin | Done |
+| TS21 | Conexión de los endpoints del bounded context Workers con el frontend | T3 | Visualizar y registrar trabajadores | Consumir `WorkersController` para mostrar, crear, editar o eliminar trabajadores desde el frontend | 2 | Varela Bustinza, Marcelo Alessandro | Done |
+| TS22 | Conexión de los endpoints del bounded context Reservations con el frontend | T4 | Agendar, visualizar reservas y pagos | Conectar frontend con `ReservationController`, `TimeSlotController` y `PaymentController` para mostrar disponibilidad, agendar citas y registrar pagos | 2 | Chi Cruzatt, Kevin Jorge | Done |
+| TS23 | Conexión de los endpoints del bounded context Reviews con el frontend | T5 | Mostrar y registrar reseñas | Integrar frontend con `ReviewController` para mostrar y crear comentarios de usuarios | 2 | Yum Gonzales, Jorge Suin | Done |
+| TS24 | Conexión de los endpoints del bounded context Services con el frontend | T6 | Visualizar y administrar servicios | Conectar frontend con `ServiceController` para mostrar, registrar y editar servicios ofrecidos | 2 | Varela Bustinza, Marcelo Alessandro | Done |
 
-   <tr>
-      <td>TS20</td>
-      <td>Conexión de los endpoints del bounded context Profiles con el frontend</td>
-      <td>T2</td>
-      <td>Visualizar y registrar perfiles, clientes y proveedores</td>
-      <td>Conectar frontend con <code>ClientsController</code>, <code>ProviderProfileController</code>, <code>ProvidersController</code>, <code>PortfolioImagesController</code> y <code>SocialsController</code> para mostrar perfiles e imágenes</td>
-      <td>2</td>
-      <td>Yum Gonzales, Jorge Suin</td>
-      <td>Done</td>
-   </tr>
-
-   <tr>
-      <td>TS21</td>
-      <td>Conexión de los endpoints del bounded context Workers con el frontend</td>
-      <td>T3</td>
-      <td>Visualizar y registrar trabajadores</td>
-      <td>Consumir <code>WorkersController</code> para mostrar, crear, editar o eliminar trabajadores desde el frontend</td>
-      <td>2</td>
-      <td>Varela Bustinza, Marcelo Alessandro</td>
-      <td>Done</td>
-   </tr>
-
-   <tr>
-      <td>TS22</td>
-      <td>Conexión de los endpoints del bounded context Reservations con el frontend</td>
-      <td>T4</td>
-      <td>Agendar, visualizar reservas y pagos</td>
-      <td>Conectar frontend con <code>ReservationController</code>, <code>TimeSlotController</code> y <code>PaymentController</code> para mostrar disponibilidad, agendar citas y registrar pagos</td>
-      <td>2</td>
-      <td>Chi Cruzatt, Kevin Jorge</td>
-      <td>Done</td>
-   </tr>
-
-   <tr>
-      <td>TS23</td>
-      <td>Conexión de los endpoints del bounded context Reviews con el frontend</td>
-      <td>T5</td>
-      <td>Mostrar y registrar reseñas</td>
-      <td>Integrar frontend con <code>ReviewController</code> para mostrar y crear comentarios de usuarios</td>
-      <td>2</td>
-      <td>Yum Gonzales, Jorge Suin</td>
-      <td>Done</td>
-   </tr>
-
-   <tr>
-      <td>TS24</td>
-      <td>Conexión de los endpoints del bounded context Services con el frontend</td>
-      <td>T6</td>
-      <td>Visualizar y administrar servicios</td>
-      <td>Conectar frontend con <code>ServiceController</code> para mostrar, registrar y editar servicios ofrecidos</td>
-      <td>2</td>
-      <td>Varela Bustinza, Marcelo Alessandro</td>
-      <td>Done</td>
-   </tr>
-</table>    
 
 Enlace para acceder al Trello: [Trello Sprint Backlog 4](https://trello.com/b/bG00FiXW/sprint-backlog-4-utime) 
 
@@ -4354,11 +4281,11 @@ https://github.com/UPC-PaxTech/Frontend-Web-Applications
 Durante el Sprint 4, las tareas se organizaron de acuerdo con las funcionalidades del sistema y se asignaron a los miembros del equipo en función de sus habilidades y experiencia. Esta metodología permitió una distribución del trabajo más efectiva y favoreció un avance más dinámico en el desarrollo.
 
 Frontend Section:
-<img src="img/e_1.png" alt="img />
-<img src="img/e_2.png" alt="img />
-Backend Section:
-<img src="img/e_3.png" alt="img />
-<img src="img/e_4.png" alt="img />
+
+![img](img/e_1.png)
+![img](img/e_2.png)
+![img](img/e_3.png)
+![img](img/e_4.png)
 
 # 5.3. Validation Interviews
 
@@ -4656,7 +4583,7 @@ https://youtu.be/plfcjui6zpU
 
 ### Conclusiones
 
-- Durante el Sprint 3, el equipo avanzó significativamente en el desarrollo del backend de la plataforma uTime.
+- Durante el Sprint 4, el equipo avanzó significativamente en el desarrollo del backend de la plataforma uTime.
 
 - Se logró consolidar la lógica principal del sistema, encargada de gestionar citas y servicios específicos para salones de belleza y barberías.
 
