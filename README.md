@@ -4297,7 +4297,7 @@ https://github.com/UPC-PaxTech/Web-Services
 
 **Url Deployment Azure - uTime (Paxtech) - Web Services**<br>
 
-https://utime-web-service.azurewebsites.net/swagger-ui/index.html
+https://utime-web-service-os.azurewebsites.net/swagger-ui/index.html
 
 
 **Url Video About the product:**
